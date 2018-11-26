@@ -1,0 +1,605 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "Person" [ label="\"Person\"" ];
+  "SensorDataSheet" [ label="\"SensorDataSheet\"" ];
+  "Vocabulary" [ label="\"Vocabulary\"" ];
+  "Action" [ label="\"Action\"" ];
+  "Collection" [ label="\"Collection\"" ];
+  "Event" [ label="\"Event\"" ];
+  "FormalEntity" [ label="\"FormalEntity\"" ];
+  "InformationObject" [ label="\"InformationObject\"" ];
+  "Method" [ label="\"Method\"" ];
+  "NaturalPerson" [ label="\"NaturalPerson\"" ];
+  "Object" [ label="\"Object\"" ];
+  "Role" [ label="\"Role\"" ];
+  "Situation" [ label="\"Situation\"" ];
+  "SpatioTemporalRegion" [ label="\"SpatioTemporalRegion\"" ];
+  "Thing" [ label="\"Thing\"" ];
+  "ActuatableProperty" [ label="\"ActuatableProperty\"" ];
+  "Actuation" [ label="\"Actuation\"" ];
+  "Actuator" [ label="\"Actuator\"" ];
+  "FeatureOfInterest" [ label="\"FeatureOfInterest\"" ];
+  "ObservableProperty" [ label="\"ObservableProperty\"" ];
+  "Observation" [ label="\"Observation\"" ];
+  "Procedure" [ label="\"Procedure\"" ];
+  "Result" [ label="\"Result\"" ];
+  "Sensor" [ label="\"Sensor\"" ];
+  "Stimulus" [ label="\"Stimulus\"" ];
+  "Frequency" [ label="\"Frequency\"" ];
+  "SystemCapability" [ label="\"SystemCapability\"" ];
+  "SystemProperty" [ label="\"SystemProperty\"" ];
+  "AccessMethod" [ label="\"AccessMethod\"" ];
+  "AccessMethod.CoAP" [ label="\"AccessMethod.CoAP\"" ];
+  "AccessMethod.MQTT" [ label="\"AccessMethod.MQTT\"" ];
+  "AccessMethod.RESTful-JSON" [ label="\"AccessMethod.RESTful-JSON\"" ];
+  "Action" [ label="\"Action\"" ];
+  "Activity" [ label="\"Activity\"" ];
+  "Actuation" [ label="\"Actuation\"" ];
+  "ActuationEvent" [ label="\"ActuationEvent\"" ];
+  "ActuationResult" [ label="\"ActuationResult\"" ];
+  "ActuationTarget" [ label="\"ActuationTarget\"" ];
+  "Actuator" [ label="\"Actuator\"" ];
+  "ActuatorSpec" [ label="\"ActuatorSpec\"" ];
+  "Aspect" [ label="\"Aspect\"" ];
+  "Channel" [ label="\"Channel\"" ];
+  "ChannelingSpec" [ label="\"ChannelingSpec\"" ];
+  "CognitiveAspect" [ label="\"CognitiveAspect\"" ];
+  "Collection" [ label="\"Collection\"" ];
+  "Command" [ label="\"Command\"" ];
+  "Context" [ label="\"Context\"" ];
+  "Context.AutonomousBeing" [ label="\"Context.AutonomousBeing\"" ];
+  "Context.Capability" [ label="\"Context.Capability\"" ];
+  "Context.Event" [ label="\"Context.Event\"" ];
+  "Context.Method" [ label="\"Context.Method\"" ];
+  "Context.Object" [ label="\"Context.Object\"" ];
+  "Context.ObjectComponent" [ label="\"Context.ObjectComponent\"" ];
+  "Context.Role" [ label="\"Context.Role\"" ];
+  "Context.Scene" [ label="\"Context.Scene\"" ];
+  "DataBlock" [ label="\"DataBlock\"" ];
+  "DataFormat" [ label="\"DataFormat\"" ];
+  "DataSegment" [ label="\"DataSegment\"" ];
+  "Descriptor" [ label="\"Descriptor\"" ];
+  "Device" [ label="\"Device\"" ];
+  "DeviceChannelingSpec" [ label="\"DeviceChannelingSpec\"" ];
+  "DeviceSpec" [ label="\"DeviceSpec\"" ];
+  "EegChannel" [ label="\"EegChannel\"" ];
+  "EegDevice" [ label="\"EegDevice\"" ];
+  "EegModality" [ label="\"EegModality\"" ];
+  "EegNonChannel" [ label="\"EegNonChannel\"" ];
+  "EegRecord" [ label="\"EegRecord\"" ];
+  "EmotionalAspect" [ label="\"EmotionalAspect\"" ];
+  "FeatureParameter" [ label="\"FeatureParameter\"" ];
+  "ImpactedProperty" [ label="\"ImpactedProperty\"" ];
+  "Interaction" [ label="\"Interaction\"" ];
+  "Marker" [ label="\"Marker\"" ];
+  "Modality" [ label="\"Modality\"" ];
+  "Model" [ label="\"Model\"" ];
+  "NeurologicalAspect" [ label="\"NeurologicalAspect\"" ];
+  "NonChannel" [ label="\"NonChannel\"" ];
+  "Playout" [ label="\"Playout\"" ];
+  "PlayoutInstant" [ label="\"PlayoutInstant\"" ];
+  "PlayoutInstant.ContextEvent" [ label="\"PlayoutInstant.ContextEvent\"" ];
+  "PlayoutInstant.SubjectAction" [ label="\"PlayoutInstant.SubjectAction\"" ];
+  "ProtocolBuffersDataFormat" [ label="\"ProtocolBuffersDataFormat\"" ];
+  "Record" [ label="\"Record\"" ];
+  "RecordChannelingSpec" [ label="\"RecordChannelingSpec\"" ];
+  "RecordSpec" [ label="\"RecordSpec\"" ];
+  "RecordedData" [ label="\"RecordedData\"" ];
+  "ResponseTag" [ label="\"ResponseTag\"" ];
+  "SamplingRate" [ label="\"SamplingRate\"" ];
+  "Session" [ label="\"Session\"" ];
+  "StimulusEvent" [ label="\"StimulusEvent\"" ];
+  "StimulusTag" [ label="\"StimulusTag\"" ];
+  "Subject" [ label="\"Subject\"" ];
+  "SubjectState" [ label="\"SubjectState\"" ];
+  "XdfDataFormat" [ label="\"XdfDataFormat\"" ];
+  "Actuation" [ label="\"Actuation\"" ];
+  "ActuationValue" [ label="\"ActuationValue\"" ];
+  "Actuator" [ label="\"Actuator\"" ];
+  "ActuatorInput" [ label="\"ActuatorInput\"" ];
+  "Effect" [ label="\"Effect\"" ];
+  "Context.ObjectComponent UNION " [ label="\"Context.ObjectComponent UNION \"" ];
+  "positiveInteger" [ label="\"positiveInteger\"" ];
+  "Literal" [ label="\"Literal\"" ];
+  "dateTimeStamp" [ label="\"dateTimeStamp\"" ];
+  "anyURI" [ label="\"anyURI\"" ];
+  "dateTime" [ label="\"dateTime\"" ];
+  "float" [ label="\"float\"" ];
+  "nonNegativeInteger" [ label="\"nonNegativeInteger\"" ];
+  "long" [ label="\"long\"" ];
+  "Event" -> "Context.ObjectComponent UNION " [ label="\"isa\"" ];
+  "Object" -> "Context.ObjectComponent UNION " [ label="\"isa\"" ];
+  "AccessMethod" -> "InformationObject" [ label="\"isa\"" ];
+  "AccessMethod.CoAP" -> "AccessMethod" [ label="\"isa\"" ];
+  "AccessMethod.MQTT" -> "AccessMethod" [ label="\"isa\"" ];
+  "AccessMethod.RESTful-JSON" -> "AccessMethod" [ label="\"isa\"" ];
+  "Action" -> "Context.Event" [ label="\"isa\"" ];
+  "Action" -> "Action" [ label="\"isa\"" ];
+  "Activity" -> "SpatioTemporalRegion" [ label="\"isa\"" ];
+  "Actuation" -> "Actuation" [ label="\"isa\"" ];
+  "Actuation" -> "Actuation" [ label="\"isa\"" ];
+  "ActuationEvent" -> "Context.Event" [ label="\"isa\"" ];
+  "ActuationEvent" -> "Effect" [ label="\"isa\"" ];
+  "ActuationResult" -> "ActuationValue" [ label="\"isa\"" ];
+  "ActuationResult" -> "Result" [ label="\"isa\"" ];
+  "ActuationTarget" -> "Context.Object" [ label="\"isa\"" ];
+  "ActuationTarget" -> "FeatureOfInterest" [ label="\"isa\"" ];
+  "Actuator" -> "Actuator" [ label="\"isa\"" ];
+  "Actuator" -> "Actuator" [ label="\"isa\"" ];
+  "ActuatorSpec" -> "Descriptor" [ label="\"isa\"" ];
+  "Aspect" -> "FeatureOfInterest" [ label="\"isa\"" ];
+  "Channel" -> "SystemCapability" [ label="\"isa\"" ];
+  "ChannelingSpec" -> "Descriptor" [ label="\"isa\"" ];
+  "CognitiveAspect" -> "Aspect" [ label="\"isa\"" ];
+  "Collection" -> "Collection" [ label="\"isa\"" ];
+  "Command" -> "Method" [ label="\"isa\"" ];
+  "Command" -> "ActuatorInput" [ label="\"isa\"" ];
+  "Context" -> "Situation" [ label="\"isa\"" ];
+  "Context.AutonomousBeing" -> "Context.Object" [ label="\"isa\"" ];
+  "Context.Capability" -> "Context.Method" [ label="\"isa\"" ];
+  "Context.Event" -> "Event" [ label="\"isa\"" ];
+  "Context.Method" -> "Method" [ label="\"isa\"" ];
+  "Context.Object" -> "Object" [ label="\"isa\"" ];
+  "Context.ObjectComponent" -> "Context.ObjectComponent UNION " [ label="\"isa\"" ];
+  "Context.Role" -> "Role" [ label="\"isa\"" ];
+  "Context.Scene" -> "Situation" [ label="\"isa\"" ];
+  "DataBlock" -> "InformationObject" [ label="\"isa\"" ];
+  "DataFormat" -> "InformationObject" [ label="\"isa\"" ];
+  "DataSegment" -> "InformationObject" [ label="\"isa\"" ];
+  "Descriptor" -> "InformationObject" [ label="\"isa\"" ];
+  "Device" -> "Sensor" [ label="\"isa\"" ];
+  "DeviceChannelingSpec" -> "ChannelingSpec" [ label="\"isa\"" ];
+  "DeviceSpec" -> "SensorDataSheet" [ label="\"isa\"" ];
+  "DeviceSpec" -> "Descriptor" [ label="\"isa\"" ];
+  "EegChannel" -> "Channel" [ label="\"isa\"" ];
+  "EegDevice" -> "Device" [ label="\"isa\"" ];
+  "EegModality" -> "Modality" [ label="\"isa\"" ];
+  "EegNonChannel" -> "NonChannel" [ label="\"isa\"" ];
+  "EegRecord" -> "Record" [ label="\"isa\"" ];
+  "EmotionalAspect" -> "Aspect" [ label="\"isa\"" ];
+  "FeatureParameter" -> "FormalEntity" [ label="\"isa\"" ];
+  "ImpactedProperty" -> "ActuatableProperty" [ label="\"isa\"" ];
+  "Interaction" -> "Situation" [ label="\"isa\"" ];
+  "Marker" -> "InformationObject" [ label="\"isa\"" ];
+  "Modality" -> "ObservableProperty" [ label="\"isa\"" ];
+  "Model" -> "FormalEntity" [ label="\"isa\"" ];
+  "NeurologicalAspect" -> "Aspect" [ label="\"isa\"" ];
+  "NonChannel" -> "SystemCapability" [ label="\"isa\"" ];
+  "Playout" -> "InformationObject" [ label="\"isa\"" ];
+  "PlayoutInstant" -> "Event" [ label="\"isa\"" ];
+  "PlayoutInstant.ContextEvent" -> "PlayoutInstant" [ label="\"isa\"" ];
+  "PlayoutInstant.SubjectAction" -> "PlayoutInstant" [ label="\"isa\"" ];
+  "ProtocolBuffersDataFormat" -> "DataFormat" [ label="\"isa\"" ];
+  "Record" -> "Observation" [ label="\"isa\"" ];
+  "RecordChannelingSpec" -> "DeviceChannelingSpec" [ label="\"isa\"" ];
+  "RecordSpec" -> "Descriptor" [ label="\"isa\"" ];
+  "RecordedData" -> "Result" [ label="\"isa\"" ];
+  "ResponseTag" -> "Marker" [ label="\"isa\"" ];
+  "SamplingRate" -> "Frequency" [ label="\"isa\"" ];
+  "Session" -> "Situation" [ label="\"isa\"" ];
+  "StimulusEvent" -> "Context.Event" [ label="\"isa\"" ];
+  "StimulusEvent" -> "Stimulus" [ label="\"isa\"" ];
+  "StimulusTag" -> "Marker" [ label="\"isa\"" ];
+  "Subject" -> "Person" [ label="\"isa\"" ];
+  "Subject" -> "NaturalPerson" [ label="\"isa\"" ];
+  "Subject" -> "Context.AutonomousBeing" [ label="\"isa\"" ];
+  "SubjectState" -> "Descriptor" [ label="\"isa\"" ];
+  "XdfDataFormat" -> "DataFormat" [ label="\"isa\"" ];
+  "Context.Object" -> "Context.Event" [ label="[1..*]
+\"causes\"" ];
+  "Session" -> "Actuation" [ label="[1..*]
+\"hasActuation\"" ];
+  "Activity" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Channel" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Context" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "DataFormat" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "DataSegment" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Interaction" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Modality" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Model" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Playout" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Session" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Subject" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "DeviceChannelingSpec" -> "EegChannel" [ label="[1..*]
+\"hasEegChannelData\"" ];
+  "EegDevice" -> "EegNonChannel" [ label="[1..*]
+\"hasEegNonChannelData\"" ];
+  "Record" -> "SystemProperty" [ label="[1..*]
+\"hasMeasurementProperty\"" ];
+  "Collection" -> "Interaction" [ label="[1..*]
+\"hasMember\"" ];
+  "Context.Scene" -> "Context.Event" [ label="[1..1]
+\"hasNext\"" ];
+  "DataBlock" -> "Context.Event" [ label="[1..1]
+\"hasNext\"" ];
+  "Record" -> "Context.Event" [ label="[1..1]
+\"hasNext\"" ];
+  "RecordedData" -> "Context.Event" [ label="[1..1]
+\"hasNext\"" ];
+  "Device" -> "NonChannel" [ label="[1..*]
+\"hasNonChannelData\"" ];
+  "Session" -> "Playout" [ label="[1..*]
+\"hasPlayout\"" ];
+  "Action" -> "PlayoutInstant" [ label="[1..*]
+\"hasPlayoutInstant\"" ];
+  "Context.Event" -> "PlayoutInstant" [ label="[1..*]
+\"hasPlayoutInstant\"" ];
+  "DataBlock" -> "Context.Scene" [ label="[1..1]
+\"hasPrevious\"" ];
+  "Record" -> "Context.Scene" [ label="[1..1]
+\"hasPrevious\"" ];
+  "RecordedData" -> "Context.Scene" [ label="[1..1]
+\"hasPrevious\"" ];
+  "Context.Object" -> "Context.Role" [ label="[1..*]
+\"hasRole\"" ];
+  "Interaction" -> "Session" [ label="[1..*]
+\"hasSession\"" ];
+  "Interaction" -> "Subject" [ label="[1..*]
+\"hasSubject\"" ];
+  "Session" -> "SubjectState" [ label="[1..*]
+\"hasSubjectState\"" ];
+  "RecordedData" -> "DataBlock" [ label="[1..*]
+\"hasValue\"" ];
+  "ActuationResult" -> "ActuationEvent" [ label="[1..*]
+\"involves\"" ];
+  "EegChannel" -> "DeviceChannelingSpec" [ label="[1..*]
+\"isEegChannelDataOf\"" ];
+  "Interaction" -> "Collection" [ label="[1..*]
+\"isMemberOf\"" ];
+  "Session" -> "Collection" [ label="[1..*]
+\"isMemberOf\"" ];
+  "PlayoutInstant" -> "Action" [ label="[1..1]
+\"isPlayoutInstantOf\"" ];
+  "Playout" -> "Context" [ label="[1..*]
+\"isPlayoutOf\"" ];
+  "Record" -> "Session" [ label="[1..*]
+\"isRecordOf\"" ];
+  "DataSegment" -> "Marker" [ label="[1..*]
+\"isReferencedBy\"" ];
+  "Session" -> "Context" [ label="[1..*]
+\"isSessionOf\"" ];
+  "Subject" -> "Interaction" [ label="[1..*]
+\"isSubjectOf\"" ];
+  "DataBlock" -> "RecordedData" [ label="[1..1]
+\"isValueOf\"" ];
+  "Context.Method" -> "Context.Event" [ label="[1..*]
+\"raises\"" ];
+  "Actuator" -> "ActuationEvent" [ label="[1..*]
+\"triggers\"" ];
+  "Context" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "RecordedData" -> "DataBlock" [ label="[1..*]
+\"hasDataBlock\"" ];
+  "Session" -> "Collection" [ label="[0..*]
+\"isMemberOf\"" ];
+  "RecordChannelingSpec" -> "DeviceChannelingSpec" [ label="[1..1]
+\"extendsDeviceChannelingSpec\"" ];
+  "EegDevice" -> "EegNonChannel" [ label="[0..*]
+\"hasEegNonChannelData\"" ];
+  "Record" -> "SystemProperty" [ label="[0..*]
+\"hasMeasurementProperty\"" ];
+  "Modality" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "Context.Event" -> "Context.Object" [ label="[1..*]
+\"affects\"" ];
+  "StimulusEvent" -> "StimulusTag" [ label="[1..*]
+\"isStimulusEventOf\"" ];
+  "Modality" -> "Aspect" [ label="[1..*]
+\"isModalityOf\"" ];
+  "Context.Object" -> "Context.Event" [ label="[0..*]
+\"causes\"" ];
+  "Activity" -> "Action" [ label="[1..*]
+\"hasAction\"" ];
+  "FeatureParameter" -> "Model" [ label="[1..1]
+\"hasModel\"" ];
+  "Actuator" -> "ActuationEvent" [ label="[1..1]
+\"triggers\"" ];
+  "RecordedData" -> "AccessMethod" [ label="[1..*]
+\"hasAccessMethod\"" ];
+  "Session" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "Record" -> "StimulusEvent" [ label="[1..*]
+\"wasOriginatedBy\"" ];
+  "Session" -> "Context" [ label="[1..1]
+\"isSessionOf\"" ];
+  "EegDevice" -> "EegRecord" [ label="[1..*]
+\"madeEegRecord\"" ];
+  "StimulusTag" -> "StimulusEvent" [ label="[1..1]
+\"hasStimulusEvent\"" ];
+  "Activity" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "Collection" -> "Session" [ label="[1..*]
+\"hasMember\"" ];
+  "Record" -> "Modality" [ label="[1..1]
+\"observedModality\"" ];
+  "RecordedData" -> "Device" [ label="[1..*]
+\"isProducedByDevice\"" ];
+  "Interaction" -> "Subject" [ label="[2..*]
+\"hasSubject\"" ];
+  "Channel" -> "DeviceChannelingSpec" [ label="[1..*]
+\"isChannelDataOf\"" ];
+  "DeviceChannelingSpec" -> "Channel" [ label="[1..*]
+\"hasChannelData\"" ];
+  "Record" -> "Command" [ label="[1..*]
+\"isInputFor\"" ];
+  "Modality" -> "ChannelingSpec" [ label="[1..1]
+\"hasChannelingSpec\"" ];
+  "Context.Event" -> "PlayoutInstant.ContextEvent" [ label="[1..*]
+\"hasPlayoutInstant\"" ];
+  "Interaction" -> "Session" [ label="[2..*]
+\"hasSession\"" ];
+  "Channel" -> "Modality" [ label="[1..*]
+\"forModality\"" ];
+  "DeviceChannelingSpec" -> "ChannelingSpec" [ label="[1..1]
+\"extendsChannelingSpec\"" ];
+  "DataSegment" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "Context.Object" -> "Context.Role" [ label="[1..1]
+\"hasRole\"" ];
+  "DataSegment" -> "Marker" [ label="[0..*]
+\"isReferencedBy\"" ];
+  "Subject" -> "Action" [ label="[1..*]
+\"issues\"" ];
+  "Context" -> "Session" [ label="[1..*]
+\"hasSession\"" ];
+  "Model" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "ActuationResult" -> "ActuationEvent" [ label="[1..1]
+\"involves\"" ];
+  "Actuation" -> "Session" [ label="[1..1]
+\"isActuationOf\"" ];
+  "Device" -> "Record" [ label="[1..*]
+\"madeRecord\"" ];
+  "Context" -> "Thing" [ label="[1..*]
+\"hasLocation\"" ];
+  "Record" -> "Aspect" [ label="[1..1]
+\"aspectOfInterest\"" ];
+  "Subject" -> "Record" [ label="[1..*]
+\"hasRecord\"" ];
+  "Record" -> "Device" [ label="[1..1]
+\"observedByDevice\"" ];
+  "Context" -> "Playout" [ label="[1..*]
+\"hasPlayout\"" ];
+  "Actuator" -> "ActuatorSpec" [ label="[1..*]
+\"hasActuatorSpec\"" ];
+  "Session" -> "Record" [ label="[1..*]
+\"hasRecord\"" ];
+  "Playout" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "Device" -> "StimulusEvent" [ label="[1..*]
+\"detects\"" ];
+  "Context.AutonomousBeing" -> "Context.Capability" [ label="[1..*]
+\"canPerform\"" ];
+  "Collection" -> "Interaction" [ label="[0..*]
+\"hasMember\"" ];
+  "RecordedData" -> "Record" [ label="[1..1]
+\"isObservationResultOf\"" ];
+  "Session" -> "Actuation" [ label="[0..*]
+\"hasActuation\"" ];
+  "Record" -> "RecordSpec" [ label="[1..*]
+\"hasRecordSpec\"" ];
+  "EegRecord" -> "EegDevice" [ label="[1..1]
+\"observedByEegDevice\"" ];
+  "Actuator" -> "Command" [ label="[1..*]
+\"executes\"" ];
+  "Record" -> "RecordChannelingSpec" [ label="[1..1]
+\"hasRecordChannelingSpec\"" ];
+  "Interaction" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "DataFormat" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "Session" -> "Interaction" [ label="[0..1]
+\"isSessionOf\"" ];
+  "Aspect" -> "Modality" [ label="[1..*]
+\"hasModality\"" ];
+  "Record" -> "RecordedData" [ label="[1..*]
+\"observationResult\"" ];
+  "Model" -> "FeatureParameter" [ label="[1..*]
+\"isModelOf\"" ];
+  "Context.Scene" -> "Context.Event" [ label="[1..*]
+\"includesEvent\"" ];
+  "Device" -> "NonChannel" [ label="[0..*]
+\"hasNonChannelData\"" ];
+  "Channel" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "Subject" -> "Interaction" [ label="[0..*]
+\"isSubjectOf\"" ];
+  "ResponseTag" -> "Model" [ label="[1..1]
+\"hasModel\"" ];
+  "Context.Event" -> "Context.Method" [ label="[1..*]
+\"effectuates\"" ];
+  "RecordChannelingSpec" -> "ChannelingSpec" [ label="[1..*]
+\"extends\"" ];
+  "Session" -> "SubjectState" [ label="[0..*]
+\"hasSubjectState\"" ];
+  "Record" -> "Subject" [ label="[1..1]
+\"isRecordOf\"" ];
+  "Context.Event" -> "Context.Scene" [ label="[1..*]
+\"isEventIncludedIn\"" ];
+  "Record" -> "FeatureParameter" [ label="[1..*]
+\"hasFeatureParameter\"" ];
+  "Device" -> "DeviceSpec" [ label="[1..*]
+\"hasDeviceSpec\"" ];
+  "Context" -> "Context.Scene" [ label="[1..*]
+\"hasScene\"" ];
+  "Model" -> "ResponseTag" [ label="[1..*]
+\"isModelOf\"" ];
+  "RecordedData" -> "DataFormat" [ label="[1..1]
+\"hasDataFormat\"" ];
+  "Playout" -> "Context" [ label="[1..1]
+\"isPlayoutOf\"" ];
+  "StimulusEvent" -> "Modality" [ label="[1..*]
+\"isProxyFor\"" ];
+  "DataSegment" -> "DataBlock" [ label="[1..*]
+\"hasDataBlock\"" ];
+  "Session" -> "Subject" [ label="[1..1]
+\"isSessionOf\"" ];
+  "Subject" -> "Descriptor" [ label="[0..*]
+\"hasDescriptor\"" ];
+  "Context.Object" -> "Context.Method" [ label="[1..*]
+\"coparticipatesIn\"" ];
+  "Context.Method" -> "Context.Event" [ label="[0..*]
+\"raises\"" ];
+  "Interaction" -> "Collection" [ label="[0..*]
+\"isMemberOf\"" ];
+  "Context.Object" -> "Context.ObjectComponent" [ label="[1..*]
+\"hasObjectComponent\"" ];
+  "Device" -> "Modality" [ label="[1..*]
+\"observes\"" ];
+  "ResponseTag" -> "FeatureParameter" [ label="[1..*]
+\"hasFeatureParameter\"" ];
+  "Playout" -> "PlayoutInstant" [ label="[1..*]
+\"hasPlayoutInstant\"" ];
+  "Device" -> "DeviceChannelingSpec" [ label="[1..1]
+\"hasDeviceChannelingSpec\"" ];
+  "Record" -> "Session" [ label="[1..1]
+\"isRecordOf\"" ];
+  "Context.Method" -> "Context.Object" [ label="[1..*]
+\"definesBehaviorOf\"" ];
+  "Channel" -> "Aspect" [ label="[1..*]
+\"ofAspect\"" ];
+  "Session" -> "Playout" [ label="[1..1]
+\"hasPlayout\"" ];
+  "Subject" -> "Session" [ label="[1..*]
+\"hasSession\"" ];
+  "Model" -> "Aspect" [ label="[1..1]
+\"analyzes\"" ];
+  "Action" -> "PlayoutInstant.SubjectAction" [ label="[1..*]
+\"hasPlayoutInstant\"" ];
+  "Marker" -> "DataSegment" [ label="[1..1]
+\"pointsTo\"" ];
+  "Context.Scene" -> "Context.Object" [ label="[1..*]
+\"hasObject\"" ];
+  "Command" -> "Record" [ label="[1..*]
+\"consumesInputFrom\"" ];
+  "Collection" -> "Descriptor" [ label="[1..*]
+\"hasDescriptor\"" ];
+  "Command" -> "Actuator" [ label="[1..*]
+\"isExecutedBy\"" ];
+  "ActuationEvent" -> "ActuationTarget" [ label="[1..1]
+\"changes\"" ];
+  "Session" -> "Activity" [ label="[1..1]
+\"hasActivity\"" ];
+  "Aspect" -> "positiveInteger" [ label="[1..1]
+\"hasIntensityLevel\"" ];
+  "Marker" -> "Literal" [ label="[1..1]
+\"hasLabel\"" ];
+  "AccessMethod.MQTT" -> "Literal" [ label="[1..1]
+\"hasMQTT.Topic\"" ];
+  "Channel" -> "dateTimeStamp" [ label="[1..1]
+\"hasTimeStamp\"" ];
+  "DataBlock" -> "dateTimeStamp" [ label="[1..1]
+\"hasTimeStamp\"" ];
+  "Marker" -> "dateTimeStamp" [ label="[1..1]
+\"hasTimeStamp\"" ];
+  "PlayoutInstant" -> "dateTimeStamp" [ label="[1..1]
+\"hasTimeStamp\"" ];
+  "Context" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "Context.Event" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "Context.Object" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "Context.ObjectComponent" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "Context.Scene" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "Interaction" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "Session" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "Interaction" -> "Literal" [ label="[0..1]
+\"hasTitle\"" ];
+  "Model" -> "Literal" [ label="[0..1]
+\"hasTitle\"" ];
+  "AccessMethod" -> "Literal" [ label="[1..1]
+\"hasType\"" ];
+  "Record" -> "positiveInteger" [ label="[1..1]
+\"hasSampleCount\"" ];
+  "AccessMethod" -> "anyURI" [ label="[1..1]
+\"hasLocator\"" ];
+  "Marker" -> "Literal" [ label="[0..1]
+\"hasLabel\"" ];
+  "Marker" -> "dateTime" [ label="[1..1]
+\"hasTimeStamp\"" ];
+  "Context.Scene" -> "Literal" [ label="[0..1]
+\"hasTitle\"" ];
+  "Descriptor" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "DataBlock" -> "positiveInteger" [ label="[1..1]
+\"hasOrdinalPosition\"" ];
+  "Record" -> "dateTime" [ label="[1..1]
+\"hasEndTime\"" ];
+  "Model" -> "anyURI" [ label="[1..1]
+\"hasModelIRI\"" ];
+  "ResponseTag" -> "float" [ label="[1..1]
+\"hasConfidence\"" ];
+  "ResponseTag" -> "Literal" [ label="[1..1]
+\"hasState\"" ];
+  "AccessMethod.MQTT" -> "Literal" [ label="[1..1]
+\"hasMQTT.ID\"" ];
+  "Session" -> "dateTime" [ label="[1..1]
+\"hasStartTime\"" ];
+  "AccessMethod.MQTT" -> "Literal" [ label="[1..1]
+\"hasMQTT.Broker\"" ];
+  "RecordChannelingSpec" -> "nonNegativeInteger" [ label="[1..1]
+\"hasStartChannel\"" ];
+  "DeviceChannelingSpec" -> "positiveInteger" [ label="[1..1]
+\"hasNumberOfChannels\"" ];
+  "Context.ObjectComponent" -> "Literal" [ label="[0..1]
+\"hasTitle\"" ];
+  "Actuation" -> "dateTime" [ label="[1..1]
+\"hasStartTime\"" ];
+  "Session" -> "dateTime" [ label="[1..1]
+\"hasEndTime\"" ];
+  "RecordChannelingSpec" -> "nonNegativeInteger" [ label="[1..1]
+\"hasEndChannel\"" ];
+  "Descriptor" -> "anyURI" [ label="[1..1]
+\"hasLocator\"" ];
+  "Aspect" -> "positiveInteger" [ label="[0..1]
+\"hasIntensityLevel\"" ];
+  "DataBlock" -> "long" [ label="[1..1]
+\"hasOffset\"" ];
+  "Context" -> "Literal" [ label="[0..1]
+\"hasTitle\"" ];
+  "Descriptor" -> "dateTime" [ label="[1..1]
+\"hasDateTime\"" ];
+  "Record" -> "float" [ label="[1..1]
+\"hasSamplingRate\"" ];
+  "Record" -> "dateTime" [ label="[1..1]
+\"hasStartTime\"" ];
+  "DataBlock" -> "dateTime" [ label="[1..1]
+\"hasTimeStamp\"" ];
+  "PlayoutInstant" -> "dateTime" [ label="[1..1]
+\"hasTimeStamp\"" ];
+  "Playout" -> "dateTime" [ label="[1..1]
+\"hasStartTime\"" ];
+  "AccessMethod.MQTT" -> "Literal" [ label="[1..*]
+\"hasMQTT.Topic\"" ];
+  "Channel" -> "Literal" [ label="[1..1]
+\"hasLabel\"" ];
+  "Collection" -> "Literal" [ label="[1..1]
+\"hasTitle\"" ];
+  "Session" -> "Literal" [ label="[0..1]
+\"hasTitle\"" ];
+  "Context.Object" -> "Literal" [ label="[0..1]
+\"hasTitle\"" ];
+  "RecordChannelingSpec" -> "positiveInteger" [ label="[1..1]
+\"hasNumberOfChannels\"" ];
+  "Actuation" -> "dateTime" [ label="[1..1]
+\"hasEndTime\"" ];
+  "Playout" -> "dateTime" [ label="[1..1]
+\"hasEndTime\"" ];
+}

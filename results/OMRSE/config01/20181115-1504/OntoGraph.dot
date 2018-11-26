@@ -1,0 +1,508 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "BFO_0000015" [ label="\"BFO_0000015\"" ];
+  "BFO_0000017" [ label="\"BFO_0000017\"" ];
+  "BFO_0000019" [ label="\"BFO_0000019\"" ];
+  "BFO_0000040" [ label="\"BFO_0000040\"" ];
+  "BFO_0000148" [ label="\"BFO_0000148\"" ];
+  "DRON_00000005" [ label="\"DRON_00000005\"" ];
+  "DRON_00000028" [ label="\"DRON_00000028\"" ];
+  "DRON_00000029" [ label="\"DRON_00000029\"" ];
+  "DRON_00000031" [ label="\"DRON_00000031\"" ];
+  "IAO_0000003" [ label="\"IAO_0000003\"" ];
+  "IAO_0000005" [ label="\"IAO_0000005\"" ];
+  "IAO_0000007" [ label="\"IAO_0000007\"" ];
+  "IAO_0000027" [ label="\"IAO_0000027\"" ];
+  "IAO_0000030" [ label="\"IAO_0000030\"" ];
+  "IAO_0000033" [ label="\"IAO_0000033\"" ];
+  "IAO_0000104" [ label="\"IAO_0000104\"" ];
+  "IAO_0000300" [ label="\"IAO_0000300\"" ];
+  "IAO_0000302" [ label="\"IAO_0000302\"" ];
+  "IAO_0000310" [ label="\"IAO_0000310\"" ];
+  "IAO_0000578" [ label="\"IAO_0000578\"" ];
+  "IAO_0000590" [ label="\"IAO_0000590\"" ];
+  "NCBITaxon_9606" [ label="\"NCBITaxon_9606\"" ];
+  "OBI_0000011" [ label="\"OBI_0000011\"" ];
+  "OBI_0000093" [ label="\"OBI_0000093\"" ];
+  "OBI_0000576" [ label="\"OBI_0000576\"" ];
+  "dose specification" [ label="\"dose specification\"" ];
+  "OBI_0001929" [ label="\"OBI_0001929\"" ];
+  "OBI_0001930" [ label="\"OBI_0001930\"" ];
+  "OBI_0001931" [ label="\"OBI_0001931\"" ];
+  "OBI_0001933" [ label="\"OBI_0001933\"" ];
+  "volume value specification" [ label="\"volume value specification\"" ];
+  "OGMS_0000020" [ label="\"OGMS_0000020\"" ];
+  "OGMS_0000024" [ label="\"OGMS_0000024\"" ];
+  "OGMS_0000039" [ label="\"OGMS_0000039\"" ];
+  "OGMS_0000090" [ label="\"OGMS_0000090\"" ];
+  "OGMS_0000103" [ label="\"OGMS_0000103\"" ];
+  "OMRSE_00000012" [ label="\"OMRSE_00000012\"" ];
+  "OMRSE_00000102" [ label="\"OMRSE_00000102\"" ];
+  "PATO_0000125" [ label="\"PATO_0000125\"" ];
+  "time elapsed since dispensing condition" [ label="\"time elapsed since dispensing condition\"" ];
+  "health care prescription" [ label="\"health care prescription\"" ];
+  "prescriber identification" [ label="\"prescriber identification\"" ];
+  "patient identification" [ label="\"patient identification\"" ];
+  "active ingredient aggregate mass" [ label="\"active ingredient aggregate mass\"" ];
+  "document creation time identification" [ label="\"document creation time identification\"" ];
+  "health care prescription time identification" [ label="\"health care prescription time identification\"" ];
+  "drug administration and dispensing specification" [ label="\"drug administration and dispensing specification\"" ];
+  "prescribed site of drug administration specification" [ label="\"prescribed site of drug administration specification\"" ];
+  "prescribed drug product characteristic specification" [ label="\"prescribed drug product characteristic specification\"" ];
+  "drug product information item" [ label="\"drug product information item\"" ];
+  "drug treatment" [ label="\"drug treatment\"" ];
+  "temporal instant specification" [ label="\"temporal instant specification\"" ];
+  "route of administration specification" [ label="\"route of administration specification\"" ];
+  "active ingredient mass value specification" [ label="\"active ingredient mass value specification\"" ];
+  "drug strength specification" [ label="\"drug strength specification\"" ];
+  "drug prescription" [ label="\"drug prescription\"" ];
+  "drug strength item" [ label="\"drug strength item\"" ];
+  "drug strength per discrete dose form item" [ label="\"drug strength per discrete dose form item\"" ];
+  "drug strength per volume unit item" [ label="\"drug strength per volume unit item\"" ];
+  "drug strength per mass unit item" [ label="\"drug strength per mass unit item\"" ];
+  "duration of administration specification" [ label="\"duration of administration specification\"" ];
+  "initial rate of administration specification" [ label="\"initial rate of administration specification\"" ];
+  "drug active ingredient item" [ label="\"drug active ingredient item\"" ];
+  "non-generic drug product proprietary name" [ label="\"non-generic drug product proprietary name\"" ];
+  "drug dose form item" [ label="\"drug dose form item\"" ];
+  "dose administration" [ label="\"dose administration\"" ];
+  "presence of sign condition" [ label="\"presence of sign condition\"" ];
+  "less than some time elapsed since previous dose condition" [ label="\"less than some time elapsed since previous dose condition\"" ];
+  "drug product name" [ label="\"drug product name\"" ];
+  "day of the week" [ label="\"day of the week\"" ];
+  "drug dose form specification" [ label="\"drug dose form specification\"" ];
+  "drug excipient specification" [ label="\"drug excipient specification\"" ];
+  "drug active ingredient specification" [ label="\"drug active ingredient specification\"" ];
+  "generic drug product proprietary name" [ label="\"generic drug product proprietary name\"" ];
+  "current time is before some instant condition" [ label="\"current time is before some instant condition\"" ];
+  "current time is after some instant condition" [ label="\"current time is after some instant condition\"" ];
+  "current time is approximately some instant condition" [ label="\"current time is approximately some instant condition\"" ];
+  "greater than some time elapsed since previous dose condition" [ label="\"greater than some time elapsed since previous dose condition\"" ];
+  "exactly some time elapsed since previous dose condition" [ label="\"exactly some time elapsed since previous dose condition\"" ];
+  "drug product specification" [ label="\"drug product specification\"" ];
+  "drug product specification" [ label="\"drug product specification\"" ];
+  "time of the day" [ label="\"time of the day\"" ];
+  "month of the year" [ label="\"month of the year\"" ];
+  "day of the week category specification" [ label="\"day of the week category specification\"" ];
+  "drug excipient item" [ label="\"drug excipient item\"" ];
+  "time elapsed since first dose condition" [ label="\"time elapsed since first dose condition\"" ];
+  "time elapsed since previous dose condition" [ label="\"time elapsed since previous dose condition\"" ];
+  "present time instant condition" [ label="\"present time instant condition\"" ];
+  "pharmacy facility" [ label="\"pharmacy facility\"" ];
+  "excipient name" [ label="\"excipient name\"" ];
+  "number of doses in drug administration condition" [ label="\"number of doses in drug administration condition\"" ];
+  "exactly some number of doses in drug administration condition" [ label="\"exactly some number of doses in drug administration condition\"" ];
+  "drug selection" [ label="\"drug selection\"" ];
+  "less than some number of doses have occurred condition" [ label="\"less than some number of doses have occurred condition\"" ];
+  "greater than some number of doses have occurred condition" [ label="\"greater than some number of doses have occurred condition\"" ];
+  "greater than some time elapsed since the previous dispensing condition" [ label="\"greater than some time elapsed since the previous dispensing condition\"" ];
+  "pharmacist role" [ label="\"pharmacist role\"" ];
+  "after some process condition" [ label="\"after some process condition\"" ];
+  "after some drug administration condition" [ label="\"after some drug administration condition\"" ];
+  "after some dose administration condition" [ label="\"after some dose administration condition\"" ];
+  "after some surgery condition" [ label="\"after some surgery condition\"" ];
+  "site of drug administration specification" [ label="\"site of drug administration specification\"" ];
+  "drug dispensing specification" [ label="\"drug dispensing specification\"" ];
+  "Drug Identification Number" [ label="\"Drug Identification Number\"" ];
+  "metered dose administration count value specification" [ label="\"metered dose administration count value specification\"" ];
+  "drug dispensing process" [ label="\"drug dispensing process\"" ];
+  "drug perfusion specification" [ label="\"drug perfusion specification\"" ];
+  "prescribed dosing specification" [ label="\"prescribed dosing specification\"" ];
+  "dose of drug product" [ label="\"dose of drug product\"" ];
+  "portion of drug product" [ label="\"portion of drug product\"" ];
+  "supervising prescriber identification" [ label="\"supervising prescriber identification\"" ];
+  "rate of administration specification" [ label="\"rate of administration specification\"" ];
+  "site of administration category specification" [ label="\"site of administration category specification\"" ];
+  "mass per time unit" [ label="\"mass per time unit\"" ];
+  "dose range specification" [ label="\"dose range specification\"" ];
+  "active ingredient aggregate" [ label="\"active ingredient aggregate\"" ];
+  "excipient aggregate" [ label="\"excipient aggregate\"" ];
+  "mass per time value specification" [ label="\"mass per time value specification\"" ];
+  "drug renewal process" [ label="\"drug renewal process\"" ];
+  "dose quantification specification" [ label="\"dose quantification specification\"" ];
+  "active ingredient quantification specification" [ label="\"active ingredient quantification specification\"" ];
+  "drug product quantification specification" [ label="\"drug product quantification specification\"" ];
+  "active ingredient mass delivery rate value specification" [ label="\"active ingredient mass delivery rate value specification\"" ];
+  "continuing drug administration condition" [ label="\"continuing drug administration condition\"" ];
+  "starting drug administration condition" [ label="\"starting drug administration condition\"" ];
+  "condition" [ label="\"condition\"" ];
+  "minimum dosing interval condition" [ label="\"minimum dosing interval condition\"" ];
+  "maximum dosage condition" [ label="\"maximum dosage condition\"" ];
+  "dosing condition" [ label="\"dosing condition\"" ];
+  "drug dispensing frequency specification" [ label="\"drug dispensing frequency specification\"" ];
+  "drug dispensing count specification" [ label="\"drug dispensing count specification\"" ];
+  "initial drug dispensing process" [ label="\"initial drug dispensing process\"" ];
+  "dose administration specification" [ label="\"dose administration specification\"" ];
+  "frequency value specification" [ label="\"frequency value specification\"" ];
+  "drug prophylaxis" [ label="\"drug prophylaxis\"" ];
+  "prescribed drug administration" [ label="\"prescribed drug administration\"" ];
+  "health care objective specification" [ label="\"health care objective specification\"" ];
+  "drug dispensing amount specification" [ label="\"drug dispensing amount specification\"" ];
+  "treatment objective specification" [ label="\"treatment objective specification\"" ];
+  "prophylaxis objective specification" [ label="\"prophylaxis objective specification\"" ];
+  "diagnostic objective specification" [ label="\"diagnostic objective specification\"" ];
+  "drug administration specification" [ label="\"drug administration specification\"" ];
+  "drug product object count specification" [ label="\"drug product object count specification\"" ];
+  "drug product volume value specification" [ label="\"drug product volume value specification\"" ];
+  "drug product mass value specification" [ label="\"drug product mass value specification\"" ];
+  "statement" [ label="\"statement\"" ];
+  "temporal duration specification" [ label="\"temporal duration specification\"" ];
+  "dose administration frequency specification" [ label="\"dose administration frequency specification\"" ];
+  "pharmacological unit value specification" [ label="\"pharmacological unit value specification\"" ];
+  "substance quantity value specification" [ label="\"substance quantity value specification\"" ];
+  "volumetric flow rate value specification" [ label="\"volumetric flow rate value specification\"" ];
+  "drug product volumetric flow rate value specification" [ label="\"drug product volumetric flow rate value specification\"" ];
+  "active ingredient molar value specification" [ label="\"active ingredient molar value specification\"" ];
+  "pharmacological unit" [ label="\"pharmacological unit\"" ];
+  "dose administration count specification" [ label="\"dose administration count specification\"" ];
+  "presence of symptom condition" [ label="\"presence of symptom condition\"" ];
+  "state of consciousness condition" [ label="\"state of consciousness condition\"" ];
+  "current time condition" [ label="\"current time condition\"" ];
+  "time elapsed condition" [ label="\"time elapsed condition\"" ];
+  "number of doses per unit time condition" [ label="\"number of doses per unit time condition\"" ];
+  "less than some number of doses per unit time condition" [ label="\"less than some number of doses per unit time condition\"" ];
+  "greater than some number of doses per unit time condition" [ label="\"greater than some number of doses per unit time condition\"" ];
+  "exactly some number of doses per unit time condition" [ label="\"exactly some number of doses per unit time condition\"" ];
+  "number of dispensings condition" [ label="\"number of dispensings condition\"" ];
+  "less than some number of dispensings condition" [ label="\"less than some number of dispensings condition\"" ];
+  "total dosage condition" [ label="\"total dosage condition\"" ];
+  "less than or equal to total dosage condition" [ label="\"less than or equal to total dosage condition\"" ];
+  "greater than total dosage condition" [ label="\"greater than total dosage condition\"" ];
+  "equal to total dosage condition" [ label="\"equal to total dosage condition\"" ];
+  "time elapsed since dose condition" [ label="\"time elapsed since dose condition\"" ];
+  "route of administration category specification" [ label="\"route of administration category specification\"" ];
+  "non-generic drug product" [ label="\"non-generic drug product\"" ];
+  "generic drug product" [ label="\"generic drug product\"" ];
+  "INN name" [ label="\"INN name\"" ];
+  "active ingredient name" [ label="\"active ingredient name\"" ];
+  "drug preparation" [ label="\"drug preparation\"" ];
+  "administration dose form" [ label="\"administration dose form\"" ];
+  "drug product dose form" [ label="\"drug product dose form\"" ];
+  "active ingredient aggregate biological activity" [ label="\"active ingredient aggregate biological activity\"" ];
+  "UO_0000105" [ label="\"UO_0000105\"" ];
+  "ObsoleteClass" [ label="\"ObsoleteClass\"" ];
+  "drug product specification UNION drug product name active ingredient name" [ label="\"drug product specification UNION drug product name active ingredient name\"" ];
+  "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification\"" ];
+  "prescribed drug administration INTERSECTION health care objective specification" [ label="\"prescribed drug administration INTERSECTION health care objective specification\"" ];
+  "prescribed drug administration INTERSECTION health care objective specification INTERSECTION health care objective specification" [ label="\"prescribed drug administration INTERSECTION health care objective specification INTERSECTION health care objective specification\"" ];
+  "drug perfusion specification INTERSECTION prescribed dosing specification initial rate of administration specification" [ label="\"drug perfusion specification INTERSECTION prescribed dosing specification initial rate of administration specification\"" ];
+  "OGMS_0000103 INTERSECTION prophylaxis objective specification" [ label="\"OGMS_0000103 INTERSECTION prophylaxis objective specification\"" ];
+  "OGMS_0000103 INTERSECTION prophylaxis objective specification INTERSECTION prophylaxis objective specification" [ label="\"OGMS_0000103 INTERSECTION prophylaxis objective specification INTERSECTION prophylaxis objective specification\"" ];
+  "dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification\"" ];
+  "prescribed drug administration INTERSECTION " [ label="\"prescribed drug administration INTERSECTION \"" ];
+  "drug dispensing process INTERSECTION drug dispensing specification" [ label="\"drug dispensing process INTERSECTION drug dispensing specification\"" ];
+  "health care prescription INTERSECTION " [ label="\"health care prescription INTERSECTION \"" ];
+  "drug strength item UNION active ingredient mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"drug strength item UNION active ingredient mass value specification pharmacological unit value specification active ingredient molar value specification\"" ];
+  "OGMS_0000090 INTERSECTION treatment objective specification" [ label="\"OGMS_0000090 INTERSECTION treatment objective specification\"" ];
+  "OGMS_0000090 INTERSECTION treatment objective specification INTERSECTION treatment objective specification" [ label="\"OGMS_0000090 INTERSECTION treatment objective specification INTERSECTION treatment objective specification\"" ];
+  "total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification\"" ];
+  "rational" [ label="\"rational\"" ];
+  "statement" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "drug product quantification specification" -> "dose quantification specification" [ label="\"isa\"" ];
+  "exactly some time elapsed since previous dose condition" -> "time elapsed since previous dose condition" [ label="\"isa\"" ];
+  "total dosage condition" -> "condition" [ label="\"isa\"" ];
+  "active ingredient aggregate mass" -> "PATO_0000125" [ label="\"isa\"" ];
+  "number of dispensings condition" -> "condition" [ label="\"isa\"" ];
+  "less than some number of doses have occurred condition" -> "number of doses in drug administration condition" [ label="\"isa\"" ];
+  "health care prescription" -> "IAO_0000310" [ label="\"isa\"" ];
+  "dose of drug product" -> "portion of drug product" [ label="\"isa\"" ];
+  "dose quantification specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "excipient name" -> "IAO_0000300" [ label="\"isa\"" ];
+  "drug product specification" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "prescribed dosing specification" -> "IAO_0000033" [ label="\"isa\"" ];
+  "drug product mass value specification" -> "OBI_0001929" [ label="\"isa\"" ];
+  "drug active ingredient item" -> "drug product information item" [ label="\"isa\"" ];
+  "drug product object count specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "dose administration" -> "BFO_0000015" [ label="\"isa\"" ];
+  "dose administration count specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "condition" -> "IAO_0000030" [ label="\"isa\"" ];
+  "prophylaxis objective specification" -> "health care objective specification" [ label="\"isa\"" ];
+  "drug strength specification" -> "prescribed drug product characteristic specification" [ label="\"isa\"" ];
+  "time of the day" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "less than or equal to total dosage condition" -> "total dosage condition" [ label="\"isa\"" ];
+  "duration of administration specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "drug dispensing frequency specification" -> "frequency value specification" [ label="\"isa\"" ];
+  "minimum dosing interval condition" -> "dosing condition" [ label="\"isa\"" ];
+  "number of doses in drug administration condition" -> "condition" [ label="\"isa\"" ];
+  "greater than some time elapsed since the previous dispensing condition" -> "time elapsed since dispensing condition" [ label="\"isa\"" ];
+  "drug dose form item" -> "drug product information item" [ label="\"isa\"" ];
+  "greater than total dosage condition" -> "total dosage condition" [ label="\"isa\"" ];
+  "temporal instant specification" -> "OBI_0001933" [ label="\"isa\"" ];
+  "less than some number of dispensings condition" -> "number of dispensings condition" [ label="\"isa\"" ];
+  "active ingredient molar value specification" -> "substance quantity value specification" [ label="\"isa\"" ];
+  "prescriber identification" -> "IAO_0000590" [ label="\"isa\"" ];
+  "pharmacological unit" -> "IAO_0000003" [ label="\"isa\"" ];
+  "equal to total dosage condition" -> "total dosage condition" [ label="\"isa\"" ];
+  "non-generic drug product" -> "DRON_00000005" [ label="\"isa\"" ];
+  "pharmacy facility" -> "OMRSE_00000102" [ label="\"isa\"" ];
+  "continuing drug administration condition" -> "condition" [ label="\"isa\"" ];
+  "day of the week" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "drug strength item" -> "drug product information item" [ label="\"isa\"" ];
+  "active ingredient mass delivery rate value specification" -> "mass per time value specification" [ label="\"isa\"" ];
+  "non-generic drug product proprietary name" -> "drug product name" [ label="\"isa\"" ];
+  "prescribed drug product characteristic specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "drug prescription" -> "health care prescription" [ label="\"isa\"" ];
+  "mass per time value specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "present time instant condition" -> "current time condition" [ label="\"isa\"" ];
+  "greater than some number of doses have occurred condition" -> "number of doses in drug administration condition" [ label="\"isa\"" ];
+  "starting drug administration condition" -> "condition" [ label="\"isa\"" ];
+  "site of drug administration specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "drug selection" -> "OBI_0000011" [ label="\"isa\"" ];
+  "route of administration specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "DRON_00000031" -> "BFO_0000015" [ label="\"isa\"" ];
+  "drug product volume value specification" -> "volume value specification" [ label="\"isa\"" ];
+  "treatment objective specification" -> "health care objective specification" [ label="\"isa\"" ];
+  "pharmacist role" -> "OMRSE_00000012" [ label="\"isa\"" ];
+  "day of the week category specification" -> "OBI_0001930" [ label="\"isa\"" ];
+  "diagnostic objective specification" -> "health care objective specification" [ label="\"isa\"" ];
+  "state of consciousness condition" -> "condition" [ label="\"isa\"" ];
+  "document creation time identification" -> "IAO_0000300" [ label="\"isa\"" ];
+  "drug product name" -> "IAO_0000300" [ label="\"isa\"" ];
+  "drug dispensing specification" -> "IAO_0000033" [ label="\"isa\"" ];
+  "drug administration and dispensing specification" -> "IAO_0000033" [ label="\"isa\"" ];
+  "temporal duration specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "presence of symptom condition" -> "condition" [ label="\"isa\"" ];
+  "after some dose administration condition" -> "after some process condition" [ label="\"isa\"" ];
+  "less than some number of doses per unit time condition" -> "number of doses per unit time condition" [ label="\"isa\"" ];
+  "initial rate of administration specification" -> "rate of administration specification" [ label="\"isa\"" ];
+  "prescribed drug administration" -> "OBI_0000011" [ label="\"isa\"" ];
+  "generic drug product" -> "DRON_00000005" [ label="\"isa\"" ];
+  "drug renewal process" -> "drug dispensing process" [ label="\"isa\"" ];
+  "dose range specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "drug excipient specification" -> "prescribed drug product characteristic specification" [ label="\"isa\"" ];
+  "greater than some number of doses per unit time condition" -> "number of doses per unit time condition" [ label="\"isa\"" ];
+  "initial drug dispensing process" -> "drug dispensing process" [ label="\"isa\"" ];
+  "active ingredient aggregate biological activity" -> "BFO_0000019" [ label="\"isa\"" ];
+  "drug product specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "time elapsed since dispensing condition" -> "time elapsed condition" [ label="\"isa\"" ];
+  "after some drug administration condition" -> "after some process condition" [ label="\"isa\"" ];
+  "drug dispensing process" -> "OBI_0000011" [ label="\"isa\"" ];
+  "after some process condition" -> "condition" [ label="\"isa\"" ];
+  "drug active ingredient specification" -> "prescribed drug product characteristic specification" [ label="\"isa\"" ];
+  "drug excipient item" -> "drug product information item" [ label="\"isa\"" ];
+  "frequency value specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "exactly some number of doses in drug administration condition" -> "number of doses in drug administration condition" [ label="\"isa\"" ];
+  "active ingredient name" -> "IAO_0000300" [ label="\"isa\"" ];
+  "health care objective specification" -> "IAO_0000005" [ label="\"isa\"" ];
+  "after some surgery condition" -> "after some process condition" [ label="\"isa\"" ];
+  "drug preparation" -> "OBI_0000011" [ label="\"isa\"" ];
+  "current time condition" -> "condition" [ label="\"isa\"" ];
+  "current time is after some instant condition" -> "present time instant condition" [ label="\"isa\"" ];
+  "drug dispensing count specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "drug administration specification" -> "IAO_0000007" [ label="\"isa\"" ];
+  "drug perfusion specification" -> "IAO_0000007" [ label="\"isa\"" ];
+  "drug dose form specification" -> "prescribed drug product characteristic specification" [ label="\"isa\"" ];
+  "time elapsed since first dose condition" -> "time elapsed since dose condition" [ label="\"isa\"" ];
+  "time elapsed since previous dose condition" -> "time elapsed since dose condition" [ label="\"isa\"" ];
+  "exactly some number of doses per unit time condition" -> "number of doses per unit time condition" [ label="\"isa\"" ];
+  "administration dose form" -> "OGMS_0000039" [ label="\"isa\"" ];
+  "drug product volumetric flow rate value specification" -> "volumetric flow rate value specification" [ label="\"isa\"" ];
+  "current time is approximately some instant condition" -> "present time instant condition" [ label="\"isa\"" ];
+  "supervising prescriber identification" -> "prescriber identification" [ label="\"isa\"" ];
+  "greater than some time elapsed since previous dose condition" -> "time elapsed since previous dose condition" [ label="\"isa\"" ];
+  "current time is before some instant condition" -> "present time instant condition" [ label="\"isa\"" ];
+  "time elapsed since dose condition" -> "time elapsed condition" [ label="\"isa\"" ];
+  "drug product dose form" -> "OGMS_0000039" [ label="\"isa\"" ];
+  "pharmacological unit value specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "patient identification" -> "IAO_0000590" [ label="\"isa\"" ];
+  "number of doses per unit time condition" -> "condition" [ label="\"isa\"" ];
+  "maximum dosage condition" -> "dosing condition" [ label="\"isa\"" ];
+  "dose administration frequency specification" -> "frequency value specification" [ label="\"isa\"" ];
+  "route of administration category specification" -> "OBI_0001930" [ label="\"isa\"" ];
+  "metered dose administration count value specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "drug dispensing amount specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "month of the year" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "substance quantity value specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "site of administration category specification" -> "OBI_0001930" [ label="\"isa\"" ];
+  "drug product information item" -> "IAO_0000027" [ label="\"isa\"" ];
+  "Drug Identification Number" -> "IAO_0000578" [ label="\"isa\"" ];
+  "dosing condition" -> "condition" [ label="\"isa\"" ];
+  "less than some time elapsed since previous dose condition" -> "time elapsed since previous dose condition" [ label="\"isa\"" ];
+  "active ingredient mass value specification" -> "OBI_0001929" [ label="\"isa\"" ];
+  "time elapsed condition" -> "condition" [ label="\"isa\"" ];
+  "volumetric flow rate value specification" -> "OBI_0001931" [ label="\"isa\"" ];
+  "rate of administration specification" -> "IAO_0000030" [ label="\"isa\"" ];
+  "dose administration specification" -> "IAO_0000007" [ label="\"isa\"" ];
+  "portion of drug product" -> "BFO_0000040" [ label="\"isa\"" ];
+  "active ingredient quantification specification" -> "dose quantification specification" [ label="\"isa\"" ];
+  "INN name" -> "active ingredient name" [ label="\"isa\"" ];
+  "mass per time unit" -> "IAO_0000003" [ label="\"isa\"" ];
+  "generic drug product proprietary name" -> "drug product name" [ label="\"isa\"" ];
+  "presence of sign condition" -> "condition" [ label="\"isa\"" ];
+  "drug product name" -> "drug product specification UNION drug product name active ingredient name" [ label="\"isa\"" ];
+  "active ingredient name" -> "drug product specification UNION drug product name active ingredient name" [ label="\"isa\"" ];
+  "active ingredient mass value specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"isa\"" ];
+  "drug product object count specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"isa\"" ];
+  "drug product volume value specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"isa\"" ];
+  "drug product mass value specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"isa\"" ];
+  "prescribed drug administration INTERSECTION health care objective specification" -> "BFO_0000017" [ label="\"isa\"" ];
+  "prescribed drug administration INTERSECTION health care objective specification INTERSECTION health care objective specification" -> "IAO_0000104" [ label="\"isa\"" ];
+  "drug perfusion specification INTERSECTION prescribed dosing specification initial rate of administration specification" -> "prescribed dosing specification" [ label="\"isa\"" ];
+  "OGMS_0000103 INTERSECTION prophylaxis objective specification" -> "BFO_0000017" [ label="\"isa\"" ];
+  "OGMS_0000103 INTERSECTION prophylaxis objective specification INTERSECTION prophylaxis objective specification" -> "IAO_0000104" [ label="\"isa\"" ];
+  "active ingredient mass value specification" -> "dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "drug product object count specification" -> "dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "drug product volume value specification" -> "dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "drug product mass value specification" -> "dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "pharmacological unit value specification" -> "dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "active ingredient molar value specification" -> "dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "prescribed drug administration INTERSECTION " -> "NCBITaxon_9606" [ label="\"isa\"" ];
+  "drug dispensing process INTERSECTION drug dispensing specification" -> "BFO_0000017" [ label="\"isa\"" ];
+  "health care prescription INTERSECTION " -> "NCBITaxon_9606" [ label="\"isa\"" ];
+  "active ingredient mass value specification" -> "drug strength item UNION active ingredient mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "pharmacological unit value specification" -> "drug strength item UNION active ingredient mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "active ingredient molar value specification" -> "drug strength item UNION active ingredient mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "OGMS_0000090 INTERSECTION treatment objective specification" -> "BFO_0000017" [ label="\"isa\"" ];
+  "OGMS_0000090 INTERSECTION treatment objective specification INTERSECTION treatment objective specification" -> "IAO_0000104" [ label="\"isa\"" ];
+  "active ingredient mass value specification" -> "total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "drug product object count specification" -> "total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "drug product volume value specification" -> "total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "drug product mass value specification" -> "total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "pharmacological unit value specification" -> "total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "active ingredient molar value specification" -> "total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="\"isa\"" ];
+  "drug prescription" -> "drug administration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug product specification" -> "drug product specification UNION drug product name active ingredient name" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug dispensing amount specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="[1..*]
+\"OBI_0001938\"" ];
+  "administration dose form" -> "DRON_00000005" [ label="[1..*]
+\"RO_0000052\"" ];
+  "active ingredient mass value specification" -> "active ingredient aggregate mass" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "active ingredient aggregate mass" -> "active ingredient aggregate" [ label="[1..*]
+\"RO_0000052\"" ];
+  "prescribed dosing specification" -> "continuing drug administration condition" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug product information item" -> "DRON_00000005" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "active ingredient aggregate biological activity" -> "active ingredient aggregate" [ label="[1..*]
+\"RO_0000052\"" ];
+  "drug administration specification" -> "drug product specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "prescribed drug administration" -> "prescribed drug administration INTERSECTION health care objective specification" [ label="[1..*]
+\"BFO_0000055\"" ];
+  "prescribed drug administration INTERSECTION health care objective specification" -> "prescribed drug administration INTERSECTION health care objective specification INTERSECTION health care objective specification" [ label="[1..*]
+\"RO_0000059\"" ];
+  "prescribed drug administration INTERSECTION health care objective specification INTERSECTION health care objective specification" -> "health care objective specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "pharmacological unit value specification" -> "pharmacological unit" [ label="[1..*]
+\"IAO_0000039\"" ];
+  "drug perfusion specification" -> "drug perfusion specification INTERSECTION prescribed dosing specification initial rate of administration specification" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "drug perfusion specification INTERSECTION prescribed dosing specification initial rate of administration specification" -> "initial rate of administration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug administration specification" -> "starting drug administration condition" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "pharmacological unit value specification" -> "active ingredient aggregate biological activity" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "drug dispensing amount specification" -> "drug dispensing specification" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "initial rate of administration specification" -> "drug product volumetric flow rate value specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug active ingredient specification" -> "active ingredient name" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "OGMS_0000103" -> "OGMS_0000103 INTERSECTION prophylaxis objective specification" [ label="[1..*]
+\"BFO_0000055\"" ];
+  "OGMS_0000103 INTERSECTION prophylaxis objective specification" -> "OGMS_0000103 INTERSECTION prophylaxis objective specification INTERSECTION prophylaxis objective specification" [ label="[1..*]
+\"RO_0000059\"" ];
+  "OGMS_0000103 INTERSECTION prophylaxis objective specification INTERSECTION prophylaxis objective specification" -> "prophylaxis objective specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "dose specification" -> "dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="[1..*]
+\"OBI_0001938\"" ];
+  "active ingredient name" -> "DRON_00000028" [ label="[1..*]
+\"IAO_0000219\"" ];
+  "prescribed drug administration" -> "prescribed drug administration INTERSECTION " [ label="[1..*]
+\"RO_0000057\"" ];
+  "prescribed drug administration INTERSECTION " -> "OBI_0000093" [ label="[1..*]
+\"RO_0000053\"" ];
+  "drug dispensing frequency specification" -> "drug renewal process" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "drug dispensing amount specification" -> "drug dispensing process" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "dose administration specification" -> "dose quantification specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "presence of symptom condition" -> "OGMS_0000020" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "duration of administration specification" -> "temporal duration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug product specification" -> "DRON_00000005" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "prescribed dosing specification" -> "dose administration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "non-generic drug product proprietary name" -> "non-generic drug product" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "time elapsed condition" -> "temporal duration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug administration specification" -> "prescribed dosing specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug dispensing frequency specification" -> "drug dispensing specification" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "drug prescription" -> "DRON_00000005" [ label="[1..*]
+\"IAO_0000142\"" ];
+  "presence of sign condition" -> "OGMS_0000024" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "excipient name" -> "DRON_00000029" [ label="[1..*]
+\"IAO_0000219\"" ];
+  "temporal instant specification" -> "BFO_0000148" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "drug dispensing process" -> "drug dispensing process INTERSECTION drug dispensing specification" [ label="[1..*]
+\"BFO_0000055\"" ];
+  "drug dispensing process INTERSECTION drug dispensing specification" -> "drug dispensing specification" [ label="[1..*]
+\"RO_0000059\"" ];
+  "route of administration specification" -> "route of administration category specification" [ label="[1..*]
+\"OBI_0001938\"" ];
+  "drug product dose form" -> "DRON_00000005" [ label="[1..*]
+\"RO_0000052\"" ];
+  "number of doses per unit time condition" -> "temporal duration specification" [ label="[1..*]
+\"OBI_0001938\"" ];
+  "portion of drug product" -> "DRON_00000005" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "generic drug product proprietary name" -> "generic drug product" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "frequency value specification" -> "UO_0000105" [ label="[1..*]
+\"IAO_0000039\"" ];
+  "health care prescription" -> "health care prescription INTERSECTION " [ label="[1..*]
+\"IAO_0000142\"" ];
+  "health care prescription INTERSECTION " -> "OBI_0000093" [ label="[1..*]
+\"RO_0000053\"" ];
+  "present time instant condition" -> "temporal instant specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "number of doses per unit time condition" -> "dose administration count specification" [ label="[1..*]
+\"OBI_0001938\"" ];
+  "number of doses in drug administration condition" -> "dose administration count specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug strength item" -> "drug strength item UNION active ingredient mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug product name" -> "DRON_00000005" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "OGMS_0000090" -> "OGMS_0000090 INTERSECTION treatment objective specification" [ label="[1..*]
+\"BFO_0000055\"" ];
+  "OGMS_0000090 INTERSECTION treatment objective specification" -> "OGMS_0000090 INTERSECTION treatment objective specification INTERSECTION treatment objective specification" [ label="[1..*]
+\"RO_0000059\"" ];
+  "OGMS_0000090 INTERSECTION treatment objective specification INTERSECTION treatment objective specification" -> "treatment objective specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "number of dispensings condition" -> "drug dispensing count specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "dose range specification" -> "IAO_0000003" [ label="[1..*]
+\"IAO_0000039\"" ];
+  "health care prescription" -> "IAO_0000302" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "health care prescription" -> "patient identification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "health care prescription" -> "document creation time identification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug active ingredient item" -> "active ingredient name" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "total dosage condition" -> "temporal duration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "total dosage condition" -> "total dosage condition UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "route of administration specification" -> "DRON_00000031" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "dose range specification" -> "rational" [ label="[1..1]
+\"has minimum range value\"" ];
+  "dose range specification" -> "rational" [ label="[1..1]
+\"has maximum range value\"" ];
+}

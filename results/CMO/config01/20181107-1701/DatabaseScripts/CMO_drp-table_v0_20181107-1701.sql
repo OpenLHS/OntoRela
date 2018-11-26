@@ -1,0 +1,88 @@
+/*
+-- =========================================================================== A
+Schema : CMO
+Creation Date : 20181107-1701
+Encoding : UTF-8, sans BOM, fin de ligne Unix (LF)
+Plateforme : PostgreSQL 9.6
+Responsable : CK
+Version : v0
+Status : dev
+Objet :
+  drop tables
+-- =========================================================================== A
+*/
+
+DROP TABLE "CMO"."T0000" CASCADE;
+
+DROP TABLE "CMO"."T0001" CASCADE;
+
+DROP TABLE "CMO"."T0002" CASCADE;
+
+DROP TABLE "CMO"."T0003" CASCADE;
+
+DROP TABLE "CMO"."T0004" CASCADE;
+
+DROP TABLE "CMO"."T0005" CASCADE;
+
+DROP TABLE "CMO"."T0006" CASCADE;
+
+DROP TABLE "CMO"."T0007" CASCADE;
+
+DROP TABLE "CMO"."T0008" CASCADE;
+
+DROP TABLE "CMO"."T0009" CASCADE;
+
+DROP TABLE "CMO"."T000a" CASCADE;
+
+DROP TABLE "CMO"."T000b" CASCADE;
+
+DROP TABLE "CMO"."T000c" CASCADE;
+
+DROP TABLE "CMO"."T000d" CASCADE;
+
+DROP TABLE "CMO"."T000e" CASCADE;
+
+DROP TABLE "CMO"."T000f" CASCADE;
+
+DROP TABLE "CMO"."T0010" CASCADE;
+
+DROP TABLE "CMO"."T0011" CASCADE;
+
+DROP TABLE "CMO"."T0012" CASCADE;
+
+DROP TABLE "CMO"."T0013" CASCADE;
+
+DROP TABLE "CMO"."T0014" CASCADE;
+
+DROP TABLE "CMO"."T0015" CASCADE;
+
+DROP TABLE "CMO"."T0016" CASCADE;
+
+DROP TABLE "CMO"."T0017" CASCADE;
+
+DROP TABLE "CMO"."T0018" CASCADE;
+
+DROP TABLE "CMO"."T0019" CASCADE;
+
+DROP DOMAIN "CMO"."uid_domain" CASCADE;
+
+DROP DOMAIN "CMO"."xid_domain" CASCADE;
+
+DROP DOMAIN "CMO"."value_domain" CASCADE;
+
+DROP DOMAIN "CMO"."real" CASCADE;
+
+DROP DOMAIN "CMO"."int" CASCADE;
+
+DROP DOMAIN "CMO"."integer" CASCADE;
+
+DROP DOMAIN "CMO"."date" CASCADE;
+
+DROP DOMAIN "CMO"."dateTime" CASCADE;
+
+DROP DOMAIN "CMO"."dateTimeStamp" CASCADE;
+
+DROP DOMAIN "CMO"."boolean" CASCADE;
+
+DROP DOMAIN "CMO"."string" CASCADE;
+

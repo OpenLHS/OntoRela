@@ -1,0 +1,774 @@
+
+======================================================= 
+Ontology Report
+======================================================= 
+IRI_owlapi [ontoIRI=OntoIRI [fullIRI=https://w3id.org/BCI-ontology, shortIRI=BCI-ontology], iriOwlapi=https://w3id.org/BCI-ontology]
+
+--------------------------------------- 
+Imported Ontology : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Prefixes : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Datatypes : 15
+--------------------------------------- 
+  OntoDatatype [name=real OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#real, shortIRI=real]]
+  OntoDatatype [name=int OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#int, shortIRI=int]]
+  OntoDatatype [name=integer OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#integer, shortIRI=integer]]
+  OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]]
+  OntoDatatype [name=langString OntoIRI [fullIRI=http://www.w3.org/1999/02/22-rdf-syntax-ns#langString, shortIRI=langString]]
+  OntoDatatype [name=boolean OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#boolean, shortIRI=boolean]]
+  OntoDatatype [name=anyURI OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#anyURI, shortIRI=anyURI]]
+  OntoDatatype [name=long OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#long, shortIRI=long]]
+  OntoDatatype [name=positiveInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#positiveInteger, shortIRI=positiveInteger]]
+  OntoDatatype [name=float OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#float, shortIRI=float]]
+  OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]]
+  OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  OntoDatatype [name=dateTimeStamp OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTimeStamp, shortIRI=dateTimeStamp]]
+  OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]]
+
+--------------------------------------- 
+Data properties : 22
+--------------------------------------- 
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasConfidence>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#ResponseTag, shortIRI=ResponseTag],type=DECLARED]
+  Range : 
+  OntoDatatype [name=float OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#float, shortIRI=float]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasDateTime>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  Range : 
+  OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasEndChannel>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#RecordChannelingSpec, shortIRI=RecordChannelingSpec],type=DECLARED]
+  Range : 
+  OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasEndTime>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Actuation, shortIRI=Actuation],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Playout, shortIRI=Playout],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  Range : 
+  OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasIntensityLevel>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+  Range : 
+  OntoDatatype [name=positiveInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#positiveInteger, shortIRI=positiveInteger]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasLabel>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Marker, shortIRI=Marker],type=DECLARED]
+  Range : 
+  OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasLocator>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#AccessMethod, shortIRI=AccessMethod],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  Range : 
+  OntoDatatype [name=anyURI OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#anyURI, shortIRI=anyURI]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasMQTT.Broker>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#AccessMethod.MQTT, shortIRI=AccessMethod.MQTT],type=DECLARED]
+  Range : 
+  OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasMQTT.ID>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#AccessMethod.MQTT, shortIRI=AccessMethod.MQTT],type=DECLARED]
+  Range : 
+  OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasMQTT.Topic>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#AccessMethod.MQTT, shortIRI=AccessMethod.MQTT],type=DECLARED]
+  Range : 
+  OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasModelIRI>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Model, shortIRI=Model],type=DECLARED]
+  Range : 
+  OntoDatatype [name=anyURI OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#anyURI, shortIRI=anyURI]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasNumberOfChannels>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceChannelingSpec, shortIRI=DeviceChannelingSpec],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#RecordChannelingSpec, shortIRI=RecordChannelingSpec],type=DECLARED]
+  Range : 
+  OntoDatatype [name=positiveInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#positiveInteger, shortIRI=positiveInteger]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasOffset>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DataBlock, shortIRI=DataBlock],type=DECLARED]
+  Range : 
+  OntoDatatype [name=long OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#long, shortIRI=long]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasOrdinalPosition>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DataBlock, shortIRI=DataBlock],type=DECLARED]
+  Range : 
+  OntoDatatype [name=positiveInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#positiveInteger, shortIRI=positiveInteger]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasSampleCount>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  Range : 
+  OntoDatatype [name=positiveInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#positiveInteger, shortIRI=positiveInteger]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasSamplingRate>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  Range : 
+  OntoDatatype [name=float OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#float, shortIRI=float]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasStartChannel>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#RecordChannelingSpec, shortIRI=RecordChannelingSpec],type=DECLARED]
+  Range : 
+  OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasStartTime>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Actuation, shortIRI=Actuation],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Playout, shortIRI=Playout],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  Range : 
+  OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasState>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#ResponseTag, shortIRI=ResponseTag],type=DECLARED]
+  Range : 
+  OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTimeStamp>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DataBlock, shortIRI=DataBlock],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Marker, shortIRI=Marker],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#PlayoutInstant, shortIRI=PlayoutInstant],type=DECLARED]
+  Range : 
+  OntoDatatype [name=dateTimeStamp OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTimeStamp, shortIRI=dateTimeStamp]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTitle>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Collection, shortIRI=Collection],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context.Event, shortIRI=Context.Event],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context.Object, shortIRI=Context.Object],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context.ObjectComponent, shortIRI=Context.ObjectComponent],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context.Scene, shortIRI=Context.Scene],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  Range : 
+  OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasType>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#AccessMethod, shortIRI=AccessMethod],type=DECLARED]
+  Range : 
+
+--------------------------------------- 
+Object properties : 12
+--------------------------------------- 
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#aspectOfInterest>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#detects>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Device, shortIRI=Device],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#StimulusEvent, shortIRI=StimulusEvent],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#forModality>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Modality, shortIRI=Modality],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasActuation>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Actuation, shortIRI=Actuation],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasChannelData>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceChannelingSpec, shortIRI=DeviceChannelingSpec],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Activity, shortIRI=Activity],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Collection, shortIRI=Collection],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DataFormat, shortIRI=DataFormat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DataSegment, shortIRI=DataSegment],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Modality, shortIRI=Modality],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Model, shortIRI=Model],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Playout, shortIRI=Playout],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Subject, shortIRI=Subject],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDeviceSpec>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Device, shortIRI=Device],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasMeasurementProperty>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://www.w3.org/ns/ssn/systems/SystemProperty, shortIRI=SystemProperty],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasNext>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context.Event, shortIRI=Context.Event],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context.Scene, shortIRI=Context.Scene],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DataBlock, shortIRI=DataBlock],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#RecordedData, shortIRI=RecordedData],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context.Event, shortIRI=Context.Event],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context.Scene, shortIRI=Context.Scene],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DataBlock, shortIRI=DataBlock],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#RecordedData, shortIRI=RecordedData],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasSession>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Subject, shortIRI=Subject],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#isRecordOf>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Subject, shortIRI=Subject],type=DECLARED]
+ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#observedByDevice>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Device, shortIRI=Device],type=DECLARED]
+
+--------------------------------------- 
+Classes : 17
+--------------------------------------- 
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Actuation, shortIRI=Actuation],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#SubjectState, shortIRI=SubjectState],type=DECLARED]
+  ISA https://w3id.org/BCI-ontology#Descriptor
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Subject, shortIRI=Subject],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#ActuatorSpec, shortIRI=ActuatorSpec],type=DECLARED]
+  ISA https://w3id.org/BCI-ontology#Descriptor
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#ChannelingSpec, shortIRI=ChannelingSpec],type=DECLARED]
+  ISA https://w3id.org/BCI-ontology#Descriptor
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+  ISA https://w3id.org/BCI-ontology#Descriptor
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Device, shortIRI=Device],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#NeurologicalAspect, shortIRI=NeurologicalAspect],type=DECLARED]
+  ISA https://w3id.org/BCI-ontology#Aspect
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#CognitiveAspect, shortIRI=CognitiveAspect],type=DECLARED]
+  ISA https://w3id.org/BCI-ontology#Aspect
+OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#EmotionalAspect, shortIRI=EmotionalAspect],type=DECLARED]
+  ISA https://w3id.org/BCI-ontology#Aspect
+
+--------------------------------------- 
+Class Inheritance Axioms : 7
+--------------------------------------- 
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#SubjectState, shortIRI=SubjectState],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#ActuatorSpec, shortIRI=ActuatorSpec],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#ChannelingSpec, shortIRI=ChannelingSpec],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#NeurologicalAspect, shortIRI=NeurologicalAspect],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#CognitiveAspect, shortIRI=CognitiveAspect],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#EmotionalAspect, shortIRI=EmotionalAspect],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+ axiomOrigin=DECLARED]
+
+--------------------------------------- 
+Data Association Axioms : 21
+--------------------------------------- 
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasIntensityLevel>, isFunctional=true]
+  dependent=OntoDatatype [name=positiveInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#positiveInteger, shortIRI=positiveInteger]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Aspect [1..1] hasIntensityLevel positiveInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=Aspect [1..1] hasIntensityLevel positiveInteger]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTimeStamp>, isFunctional=true]
+  dependent=OntoDatatype [name=dateTimeStamp OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTimeStamp, shortIRI=dateTimeStamp]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Channel [1..1] hasTimeStamp dateTimeStamp]
+OntoAnnotation [type=DEFINITION, language=en, value=Channel [1..1] hasTimeStamp dateTimeStamp]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTitle>, isFunctional=true]
+  dependent=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Context [1..1] hasTitle Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=Context [1..1] hasTitle Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTitle>, isFunctional=true]
+  dependent=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Interaction [1..1] hasTitle Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=Interaction [1..1] hasTitle Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTitle>, isFunctional=true]
+  dependent=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Session [1..1] hasTitle Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=Session [1..1] hasTitle Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTitle>, isFunctional=true]
+  dependent=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataMaxCardinality(1 <https://w3id.org/BCI-ontology#hasTitle> rdfs:Literal)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataMaxCardinality(1 <https://w3id.org/BCI-ontology#hasTitle> rdfs:Literal)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasSampleCount>, isFunctional=true]
+  dependent=OntoDatatype [name=positiveInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#positiveInteger, shortIRI=positiveInteger]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasSampleCount> xsd:positiveInteger)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasSampleCount> xsd:positiveInteger)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTitle>, isFunctional=true]
+  dependent=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasTitle> rdfs:Literal)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasTitle> rdfs:Literal)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasEndTime>, isFunctional=true]
+  dependent=OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasEndTime> xsd:dateTime)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasEndTime> xsd:dateTime)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasStartTime>, isFunctional=true]
+  dependent=OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasStartTime> xsd:dateTime)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasStartTime> xsd:dateTime)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Actuation, shortIRI=Actuation],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasStartTime>, isFunctional=true]
+  dependent=OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasStartTime> xsd:dateTime)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasStartTime> xsd:dateTime)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasEndTime>, isFunctional=true]
+  dependent=OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasEndTime> xsd:dateTime)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasEndTime> xsd:dateTime)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasLocator>, isFunctional=true]
+  dependent=OntoDatatype [name=anyURI OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#anyURI, shortIRI=anyURI]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasLocator> xsd:anyURI)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasLocator> xsd:anyURI)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasIntensityLevel>, isFunctional=true]
+  dependent=OntoDatatype [name=positiveInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#positiveInteger, shortIRI=positiveInteger]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataMaxCardinality(1 <https://w3id.org/BCI-ontology#hasIntensityLevel> xsd:positiveInteger)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataMaxCardinality(1 <https://w3id.org/BCI-ontology#hasIntensityLevel> xsd:positiveInteger)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTitle>, isFunctional=true]
+  dependent=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataMaxCardinality(1 <https://w3id.org/BCI-ontology#hasTitle> rdfs:Literal)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataMaxCardinality(1 <https://w3id.org/BCI-ontology#hasTitle> rdfs:Literal)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasDateTime>, isFunctional=true]
+  dependent=OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasDateTime> xsd:dateTime)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasDateTime> xsd:dateTime)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasSamplingRate>, isFunctional=true]
+  dependent=OntoDatatype [name=float OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#float, shortIRI=float]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasSamplingRate> xsd:float)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasSamplingRate> xsd:float)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasStartTime>, isFunctional=true]
+  dependent=OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasStartTime> xsd:dateTime)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasStartTime> xsd:dateTime)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasLabel>, isFunctional=true]
+  dependent=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasLabel> rdfs:Literal)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasLabel> rdfs:Literal)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasTitle>, isFunctional=true]
+  dependent=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataMaxCardinality(1 <https://w3id.org/BCI-ontology#hasTitle> rdfs:Literal)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataMaxCardinality(1 <https://w3id.org/BCI-ontology#hasTitle> rdfs:Literal)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Actuation, shortIRI=Actuation],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<https://w3id.org/BCI-ontology#hasEndTime>, isFunctional=true]
+  dependent=OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasEndTime> xsd:dateTime)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <https://w3id.org/BCI-ontology#hasEndTime> xsd:dateTime)]
+]]
+
+--------------------------------------- 
+Class Association Axioms : 27
+--------------------------------------- 
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasActuation>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Actuation, shortIRI=Actuation],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Session [1..*] hasActuation Actuation]
+OntoAnnotation [type=DEFINITION, language=en, value=Session [1..*] hasActuation Actuation]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Channel [1..*] hasDescriptor Descriptor]
+OntoAnnotation [type=DEFINITION, language=en, value=Channel [1..*] hasDescriptor Descriptor]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Context [1..*] hasDescriptor Descriptor]
+OntoAnnotation [type=DEFINITION, language=en, value=Context [1..*] hasDescriptor Descriptor]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Descriptor [1..*] hasDescriptor Descriptor]
+OntoAnnotation [type=DEFINITION, language=en, value=Descriptor [1..*] hasDescriptor Descriptor]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Interaction [1..*] hasDescriptor Descriptor]
+OntoAnnotation [type=DEFINITION, language=en, value=Interaction [1..*] hasDescriptor Descriptor]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Session [1..*] hasDescriptor Descriptor]
+OntoAnnotation [type=DEFINITION, language=en, value=Session [1..*] hasDescriptor Descriptor]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Subject, shortIRI=Subject],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Subject [1..*] hasDescriptor Descriptor]
+OntoAnnotation [type=DEFINITION, language=en, value=Subject [1..*] hasDescriptor Descriptor]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDeviceSpec>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DeviceSpec [1..*] hasDeviceSpec DeviceSpec]
+OntoAnnotation [type=DEFINITION, language=en, value=DeviceSpec [1..*] hasDeviceSpec DeviceSpec]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasSession>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Interaction [1..*] hasSession Session]
+OntoAnnotation [type=DEFINITION, language=en, value=Interaction [1..*] hasSession Session]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#isRecordOf>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Record [1..*] isRecordOf Session]
+OntoAnnotation [type=DEFINITION, language=en, value=Record [1..*] isRecordOf Session]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+  participation=Participation [participationType=MIN, min=0, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  participation=Participation [participationType=MIN, min=0, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  participation=Participation [participationType=MIN, min=2, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasSession>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(2 <https://w3id.org/BCI-ontology#hasSession> <https://w3id.org/BCI-ontology#Session>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(2 <https://w3id.org/BCI-ontology#hasSession> <https://w3id.org/BCI-ontology#Session>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  participation=Participation [participationType=MIN, min=0, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Context, shortIRI=Context],type=DECLARED]
+  participation=Participation [participationType=MIN, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasSession>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(1 <https://w3id.org/BCI-ontology#hasSession> <https://w3id.org/BCI-ontology#Session>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(1 <https://w3id.org/BCI-ontology#hasSession> <https://w3id.org/BCI-ontology#Session>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+  participation=Participation [participationType=MIN, min=0, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDeviceSpec>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDeviceSpec> <https://w3id.org/BCI-ontology#DeviceSpec>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDeviceSpec> <https://w3id.org/BCI-ontology#DeviceSpec>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#aspectOfInterest>, isFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Aspect, shortIRI=Aspect],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <https://w3id.org/BCI-ontology#aspectOfInterest> <https://w3id.org/BCI-ontology#Aspect>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <https://w3id.org/BCI-ontology#aspectOfInterest> <https://w3id.org/BCI-ontology#Aspect>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#observedByDevice>, isFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Device, shortIRI=Device],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <https://w3id.org/BCI-ontology#observedByDevice> <https://w3id.org/BCI-ontology#Device>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <https://w3id.org/BCI-ontology#observedByDevice> <https://w3id.org/BCI-ontology#Device>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  participation=Participation [participationType=MIN, min=0, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasActuation>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Actuation, shortIRI=Actuation],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasActuation> <https://w3id.org/BCI-ontology#Actuation>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasActuation> <https://w3id.org/BCI-ontology#Actuation>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Interaction, shortIRI=Interaction],type=DECLARED]
+  participation=Participation [participationType=MIN, min=0, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Channel, shortIRI=Channel],type=DECLARED]
+  participation=Participation [participationType=MIN, min=0, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasNext>, isFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMaxCardinality(1 <https://w3id.org/BCI-ontology#hasNext> <https://w3id.org/BCI-ontology#Record>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMaxCardinality(1 <https://w3id.org/BCI-ontology#hasNext> <https://w3id.org/BCI-ontology#Record>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#isRecordOf>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Subject, shortIRI=Subject],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <https://w3id.org/BCI-ontology#isRecordOf> <https://w3id.org/BCI-ontology#Subject>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <https://w3id.org/BCI-ontology#isRecordOf> <https://w3id.org/BCI-ontology#Subject>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Device, shortIRI=Device],type=DECLARED]
+  participation=Participation [participationType=MIN, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDeviceSpec>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#DeviceSpec, shortIRI=DeviceSpec],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(1 <https://w3id.org/BCI-ontology#hasDeviceSpec> <https://w3id.org/BCI-ontology#DeviceSpec>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(1 <https://w3id.org/BCI-ontology#hasDeviceSpec> <https://w3id.org/BCI-ontology#DeviceSpec>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Subject, shortIRI=Subject],type=DECLARED]
+  participation=Participation [participationType=MIN, min=0, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasDescriptor>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Descriptor, shortIRI=Descriptor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(0 <https://w3id.org/BCI-ontology#hasDescriptor> <https://w3id.org/BCI-ontology#Descriptor>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Record, shortIRI=Record],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#isRecordOf>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <https://w3id.org/BCI-ontology#isRecordOf> <https://w3id.org/BCI-ontology#Session>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <https://w3id.org/BCI-ontology#isRecordOf> <https://w3id.org/BCI-ontology#Session>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Subject, shortIRI=Subject],type=DECLARED]
+  participation=Participation [participationType=MIN, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<https://w3id.org/BCI-ontology#hasSession>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=https://w3id.org/BCI-ontology#Session, shortIRI=Session],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMinCardinality(1 <https://w3id.org/BCI-ontology#hasSession> <https://w3id.org/BCI-ontology#Session>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMinCardinality(1 <https://w3id.org/BCI-ontology#hasSession> <https://w3id.org/BCI-ontology#Session>)]
+]]

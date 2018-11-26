@@ -1,0 +1,78 @@
+owlFilePath: /Depots/Aristote/ontologies/PDRO/PDRO.owl
+
+annotations:
+  labels:
+    - "http://www.w3.org/2000/01/rdf-schema#label"
+    - "http://purl.obolibrary.org/obo/BFO_0000179"
+  definitions:
+    - "http://purl.org/dc/elements/1.1/description"
+    - "http://purl.obolibrary.org/obo/BFO_0000180"
+    - "http://purl.obolibrary.org/obo/IAO_0000115"
+
+classes:
+  # ============ Drug Prescription
+  #- "http://purl.obolibrary.org/obo/PDRO_0000001" # Health care prescription
+  - "http://purl.obolibrary.org/obo/PDRO_0000024" # Drug prescription
+  - "http://purl.obolibrary.org/obo/IAO_0000302"  # Author identification
+  - "http://purl.obolibrary.org/obo/PDRO_0000003" # Patient identification
+  - "http://purl.obolibrary.org/obo/PDRO_0000005" # Document creation time identification
+  - "http://purl.obolibrary.org/obo/PDRO_0000007" # Drug administration and dispensing specification
+  # Drug administration specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010022"
+  - "http://purl.obolibrary.org/obo/PDRO-P3_0000046"  # PDRO-P3 Prescriber drug administration specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000103" # Prescribed dosing specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000190" # Dose administration specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000020" # Route of administration specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010080" # Route of administration category specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000123" # Dose quantification specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010037" # Dose administration count specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000030" # Duration of administration specification
+  # Drug product specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000060"
+  - "http://purl.obolibrary.org/obo/PDRO_0000044" # Drug product name
+  - "http://purl.obolibrary.org/obo/PDRO_0000097" # Drug identification number
+  - "http://purl.obolibrary.org/obo/PDRO_0000053" # Drug active ingredient specification
+  - "http://purl.obolibrary.org/obo/PDRO_0040002" # Active ingredient name
+  # Drug strength specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000022"
+  - "http://purl.obolibrary.org/obo/PDRO_0000021" # Active ingredient mass value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000126" # Active ingredient mass delivery rate value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010035" # Active ingredient molar value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010023" # Drug product object count specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010024" # Drug product volume value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010025" # Drug product masse value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000151" # Drug dispensing count specification
+  # ...
+  # Drug dispensing specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000096"
+  # Drug dispensing amount specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010017"
+  # ==== les unités de mesures...
+  - "http://purl.obolibrary.org/obo/PDRO_0010032" # Substance quantity value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000121" # Mass per time value specification
+  - "http://purl.obolibrary.org/obo/IAO_0000003"  # Measurement unit label
+  - "http://purl.obolibrary.org/obo/PDRO_0010031" # Parmacological unit value specification
+  - "http://purl.obolibrary.org/obo/OBI_0002139"  # Volume value specification
+  - "http://purl.obolibrary.org/obo/OBI_0001929"  # Mass value specification
+  - "http://purl.obolibrary.org/obo/UO_0000002"   # Mass unit
+  - "http://purl.obolibrary.org/obo/UO_0000003"   # Time unit
+  - "http://purl.obolibrary.org/obo/UO_0000006"   # Substance unit
+  - "http://purl.obolibrary.org/obo/UO_0000095"   # Volume unit
+  - "http://purl.obolibrary.org/obo/UO_0000270"   # Volume flow rate value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010036" # Parmacological unit
+  - "http://purl.obolibrary.org/obo/PDRO_0000115" # Mass per time unit
+  - "http://purl.obolibrary.org/obo/PDRO-P3_0000200" # Discrete drug object unit
+  - "http://purl.obolibrary.org/obo/PDRO_0010033"  # Volume flow rate value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0010034"  # drug product volume flow rate value specification
+  - "http://purl.obolibrary.org/obo/PDRO_0000019"  # Temporal instant specification
+
+objectProperties:
+  - "http://purl.obolibrary.org/obo/BFO_0000051"    # has part
+  - "http://purl.obolibrary.org/obo/PDRO-P3_1000001" # has sublevel part
+  - "http://purl.obolibrary.org/obo/OBI_0001938"     # has value specification
+  - "http://purl.obolibrary.org/obo/IAO_0000039"     # has measurement unit label
+  - "http://purl.obolibrary.org/obo/RO_0000057"      # has participant
+  - "http://purl.obolibrary.org/obo/IAO_0020018"     # is designated by
+  - "http://purl.obolibrary.org/obo/IIO-QC-P3_0000000" # has about it
+  - "http://purl.obolibrary.org/obo/IAO_0000136"     # is about
+  - "http://purl.obolibrary.org/obo/IAO_0000219"     # denotes

@@ -1,0 +1,141 @@
+
+======================================================= 
+Database Report
+======================================================= 
+BCI-ontology
+Schemas: 1
+  Schema [id=BCIO, schemaType=base]
+
+--------------------------------------- 
+BCIO
+--------------------------------------- 
+All Tables: 54
+Join Tables: 15
+Types: 18
+Foreign keys: 68
+Constraints: 36
+
+Tables:
+  T0000::Thing
+  T0001::Session
+  T0002::Device
+  T0003::SubjectState
+  T0004::Aspect
+  T0005::Context
+  T0006::CognitiveAspect
+  T0007::Descriptor
+  T0008::DeviceSpec
+  T0009::Actuation
+  T000a::Channel
+  T000b::EmotionalAspect
+  T000c::Record
+  T000d::NeurologicalAspect
+  T000e::ActuatorSpec
+  T000f::Subject
+  T0010::ChannelingSpec
+  T0011::Interaction
+  T0012::Aspect_hasIntensityLevel
+  T0013::Channel_hasTimeStamp
+  T0014::Context_hasTitle
+  T0015::Interaction_hasTitle
+  T0016::Session_hasTitle
+  T0017::Interaction_hasTitle
+  T0018::Record_hasSampleCount
+  T0019::Descriptor_hasTitle
+  T001a::Record_hasEndTime
+  T001b::Session_hasStartTime
+  T001c::Actuation_hasStartTime
+  T001d::Session_hasEndTime
+  T001e::Descriptor_hasLocator
+  T001f::Aspect_hasIntensityLevel
+  T0020::Context_hasTitle
+  T0021::Descriptor_hasDateTime
+  T0022::Record_hasSamplingRate
+  T0023::Record_hasStartTime
+  T0024::Channel_hasLabel
+  T0025::Session_hasTitle
+  T0026::Actuation_hasEndTime
+  TableJoin T0027[leftTable=T000a::Channel, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T000a_uid::uid_Channel uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  TableJoin T0028[leftTable=T0011::Interaction, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0011_uid::uid_Interaction uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  TableJoin T0029[leftTable=T0011::Interaction, rightTable=T0001::Session, participation=Participation [participationType=MINMAX, min=2, max=2147483647], joinAtt={T0011_uid::uid_Interaction uid_domain=T0001_uid::uid_Session uid_domain}]
+  TableJoin T002a[leftTable=T000f::Subject, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T000f_uid::uid_Subject uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  TableJoin T002b[leftTable=T0005::Context, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0005_uid::uid_Context uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  TableJoin T002c[leftTable=T0001::Session, rightTable=T0009::Actuation, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0001_uid::uid_Session uid_domain=T0009_uid::uid_Actuation uid_domain}]
+  TableJoin T002d[leftTable=T0001::Session, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0001_uid::uid_Session uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  TableJoin T002e[leftTable=T0007::Descriptor, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  TableJoin T002f[leftTable=T0008::DeviceSpec, rightTable=T0008::DeviceSpec, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0008_uid::uid_DeviceSpec uid_domain=T0008_uid::uid_DeviceSpec uid_domain}]
+  TableJoin T0030[leftTable=T000c::Record, rightTable=T0001::Session, participation=Participation [participationType=MINMAX, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0001_uid::uid_Session uid_domain}]
+  TableJoin T0031[leftTable=T000c::Record, rightTable=T0004::Aspect, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0004_uid::uid_Aspect uid_domain}]
+  TableJoin T0032[leftTable=T000c::Record, rightTable=T0002::Device, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0002_uid::uid_Device uid_domain}]
+  TableJoin T0033[leftTable=T000c::Record, rightTable=T000c::Record, participation=Participation [participationType=MAX, min=0, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  TableJoin T0034[leftTable=T000c::Record, rightTable=T000f::Subject, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T000f_uid::uid_Subject uid_domain}]
+  TableJoin T0035[leftTable=T0002::Device, rightTable=T0008::DeviceSpec, participation=Participation [participationType=MIN, min=1, max=2147483647], joinAtt={T0002_uid::uid_Device uid_domain=T0008_uid::uid_DeviceSpec uid_domain}]
+Foreign keys: 
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0001, origin=T0001::Session, destination=T0000::Thing, linkedAtt={T0001_uid::uid_Session uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0002, origin=T0002::Device, destination=T0000::Thing, linkedAtt={T0002_uid::uid_Device uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0004, origin=T0004::Aspect, destination=T0000::Thing, linkedAtt={T0004_uid::uid_Aspect uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0005, origin=T0005::Context, destination=T0000::Thing, linkedAtt={T0005_uid::uid_Context uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0007, origin=T0007::Descriptor, destination=T0000::Thing, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0009, origin=T0009::Actuation, destination=T0000::Thing, linkedAtt={T0009_uid::uid_Actuation uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000a, origin=T000a::Channel, destination=T0000::Thing, linkedAtt={T000a_uid::uid_Channel uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000c, origin=T000c::Record, destination=T0000::Thing, linkedAtt={T000c_uid::uid_Record uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000f, origin=T000f::Subject, destination=T0000::Thing, linkedAtt={T000f_uid::uid_Subject uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0011, origin=T0011::Interaction, destination=T0000::Thing, linkedAtt={T0011_uid::uid_Interaction uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0003, origin=T0003::SubjectState, destination=T0007::Descriptor, linkedAtt={T0003_uid::uid_SubjectState uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000e, origin=T000e::ActuatorSpec, destination=T0007::Descriptor, linkedAtt={T000e_uid::uid_ActuatorSpec uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0010, origin=T0010::ChannelingSpec, destination=T0007::Descriptor, linkedAtt={T0010_uid::uid_ChannelingSpec uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0008, origin=T0008::DeviceSpec, destination=T0007::Descriptor, linkedAtt={T0008_uid::uid_DeviceSpec uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000d, origin=T000d::NeurologicalAspect, destination=T0004::Aspect, linkedAtt={T000d_uid::uid_NeurologicalAspect uid_domain=T0004_uid::uid_Aspect uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0006, origin=T0006::CognitiveAspect, destination=T0004::Aspect, linkedAtt={T0006_uid::uid_CognitiveAspect uid_domain=T0004_uid::uid_Aspect uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000b, origin=T000b::EmotionalAspect, destination=T0004::Aspect, linkedAtt={T000b_uid::uid_EmotionalAspect uid_domain=T0004_uid::uid_Aspect uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0012, origin=T0012::Aspect_hasIntensityLevel, destination=T0004::Aspect, linkedAtt={T0004_uid::uid_Aspect uid_domain=T0004_uid::uid_Aspect uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0013, origin=T0013::Channel_hasTimeStamp, destination=T000a::Channel, linkedAtt={T000a_uid::uid_Channel uid_domain=T000a_uid::uid_Channel uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0014, origin=T0014::Context_hasTitle, destination=T0005::Context, linkedAtt={T0005_uid::uid_Context uid_domain=T0005_uid::uid_Context uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0015, origin=T0015::Interaction_hasTitle, destination=T0011::Interaction, linkedAtt={T0011_uid::uid_Interaction uid_domain=T0011_uid::uid_Interaction uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0016, origin=T0016::Session_hasTitle, destination=T0001::Session, linkedAtt={T0001_uid::uid_Session uid_domain=T0001_uid::uid_Session uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0017, origin=T0017::Interaction_hasTitle, destination=T0011::Interaction, linkedAtt={T0011_uid::uid_Interaction uid_domain=T0011_uid::uid_Interaction uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0018, origin=T0018::Record_hasSampleCount, destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0019, origin=T0019::Descriptor_hasTitle, destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T001a, origin=T001a::Record_hasEndTime, destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T001b, origin=T001b::Session_hasStartTime, destination=T0001::Session, linkedAtt={T0001_uid::uid_Session uid_domain=T0001_uid::uid_Session uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T001c, origin=T001c::Actuation_hasStartTime, destination=T0009::Actuation, linkedAtt={T0009_uid::uid_Actuation uid_domain=T0009_uid::uid_Actuation uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T001d, origin=T001d::Session_hasEndTime, destination=T0001::Session, linkedAtt={T0001_uid::uid_Session uid_domain=T0001_uid::uid_Session uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T001e, origin=T001e::Descriptor_hasLocator, destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T001f, origin=T001f::Aspect_hasIntensityLevel, destination=T0004::Aspect, linkedAtt={T0004_uid::uid_Aspect uid_domain=T0004_uid::uid_Aspect uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0020, origin=T0020::Context_hasTitle, destination=T0005::Context, linkedAtt={T0005_uid::uid_Context uid_domain=T0005_uid::uid_Context uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0021, origin=T0021::Descriptor_hasDateTime, destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0022, origin=T0022::Record_hasSamplingRate, destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0023, origin=T0023::Record_hasStartTime, destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0024, origin=T0024::Channel_hasLabel, destination=T000a::Channel, linkedAtt={T000a_uid::uid_Channel uid_domain=T000a_uid::uid_Channel uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0025, origin=T0025::Session_hasTitle, destination=T0001::Session, linkedAtt={T0001_uid::uid_Session uid_domain=T0001_uid::uid_Session uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0026, origin=T0026::Actuation_hasEndTime, destination=T0009::Actuation, linkedAtt={T0009_uid::uid_Actuation uid_domain=T0009_uid::uid_Actuation uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0027, origin=TableJoin T0027[leftTable=T000a::Channel, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T000a_uid::uid_Channel uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T000a::Channel, linkedAtt={T000a_uid::uid_Channel uid_domain=T000a_uid::uid_Channel uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0027, origin=TableJoin T0027[leftTable=T000a::Channel, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T000a_uid::uid_Channel uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0028, origin=TableJoin T0028[leftTable=T0011::Interaction, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0011_uid::uid_Interaction uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0011::Interaction, linkedAtt={T0011_uid::uid_Interaction uid_domain=T0011_uid::uid_Interaction uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0028, origin=TableJoin T0028[leftTable=T0011::Interaction, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0011_uid::uid_Interaction uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0029, origin=TableJoin T0029[leftTable=T0011::Interaction, rightTable=T0001::Session, participation=Participation [participationType=MINMAX, min=2, max=2147483647], joinAtt={T0011_uid::uid_Interaction uid_domain=T0001_uid::uid_Session uid_domain}], destination=T0011::Interaction, linkedAtt={T0011_uid::uid_Interaction uid_domain=T0011_uid::uid_Interaction uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0029, origin=TableJoin T0029[leftTable=T0011::Interaction, rightTable=T0001::Session, participation=Participation [participationType=MINMAX, min=2, max=2147483647], joinAtt={T0011_uid::uid_Interaction uid_domain=T0001_uid::uid_Session uid_domain}], destination=T0001::Session, linkedAtt={T0001_uid::uid_Session uid_domain=T0001_uid::uid_Session uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T002a, origin=TableJoin T002a[leftTable=T000f::Subject, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T000f_uid::uid_Subject uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T000f::Subject, linkedAtt={T000f_uid::uid_Subject uid_domain=T000f_uid::uid_Subject uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T002a, origin=TableJoin T002a[leftTable=T000f::Subject, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T000f_uid::uid_Subject uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T002b, origin=TableJoin T002b[leftTable=T0005::Context, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0005_uid::uid_Context uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0005::Context, linkedAtt={T0005_uid::uid_Context uid_domain=T0005_uid::uid_Context uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T002b, origin=TableJoin T002b[leftTable=T0005::Context, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0005_uid::uid_Context uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T002c, origin=TableJoin T002c[leftTable=T0001::Session, rightTable=T0009::Actuation, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0001_uid::uid_Session uid_domain=T0009_uid::uid_Actuation uid_domain}], destination=T0001::Session, linkedAtt={T0001_uid::uid_Session uid_domain=T0001_uid::uid_Session uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T002c, origin=TableJoin T002c[leftTable=T0001::Session, rightTable=T0009::Actuation, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0001_uid::uid_Session uid_domain=T0009_uid::uid_Actuation uid_domain}], destination=T0009::Actuation, linkedAtt={T0009_uid::uid_Actuation uid_domain=T0009_uid::uid_Actuation uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T002d, origin=TableJoin T002d[leftTable=T0001::Session, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0001_uid::uid_Session uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0001::Session, linkedAtt={T0001_uid::uid_Session uid_domain=T0001_uid::uid_Session uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T002d, origin=TableJoin T002d[leftTable=T0001::Session, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0001_uid::uid_Session uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T002e, origin=TableJoin T002e[leftTable=T0007::Descriptor, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T002e, origin=TableJoin T002e[leftTable=T0007::Descriptor, rightTable=T0007::Descriptor, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}], destination=T0007::Descriptor, linkedAtt={T0007_uid::uid_Descriptor uid_domain=T0007_uid::uid_Descriptor uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T002f, origin=TableJoin T002f[leftTable=T0008::DeviceSpec, rightTable=T0008::DeviceSpec, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0008_uid::uid_DeviceSpec uid_domain=T0008_uid::uid_DeviceSpec uid_domain}], destination=T0008::DeviceSpec, linkedAtt={T0008_uid::uid_DeviceSpec uid_domain=T0008_uid::uid_DeviceSpec uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T002f, origin=TableJoin T002f[leftTable=T0008::DeviceSpec, rightTable=T0008::DeviceSpec, participation=Participation [participationType=MINMAX, min=1, max=2147483647], joinAtt={T0008_uid::uid_DeviceSpec uid_domain=T0008_uid::uid_DeviceSpec uid_domain}], destination=T0008::DeviceSpec, linkedAtt={T0008_uid::uid_DeviceSpec uid_domain=T0008_uid::uid_DeviceSpec uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0030, origin=TableJoin T0030[leftTable=T000c::Record, rightTable=T0001::Session, participation=Participation [participationType=MINMAX, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0001_uid::uid_Session uid_domain}], destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0030, origin=TableJoin T0030[leftTable=T000c::Record, rightTable=T0001::Session, participation=Participation [participationType=MINMAX, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0001_uid::uid_Session uid_domain}], destination=T0001::Session, linkedAtt={T0001_uid::uid_Session uid_domain=T0001_uid::uid_Session uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0031, origin=TableJoin T0031[leftTable=T000c::Record, rightTable=T0004::Aspect, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0004_uid::uid_Aspect uid_domain}], destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0031, origin=TableJoin T0031[leftTable=T000c::Record, rightTable=T0004::Aspect, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0004_uid::uid_Aspect uid_domain}], destination=T0004::Aspect, linkedAtt={T0004_uid::uid_Aspect uid_domain=T0004_uid::uid_Aspect uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0032, origin=TableJoin T0032[leftTable=T000c::Record, rightTable=T0002::Device, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0002_uid::uid_Device uid_domain}], destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0032, origin=TableJoin T0032[leftTable=T000c::Record, rightTable=T0002::Device, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T0002_uid::uid_Device uid_domain}], destination=T0002::Device, linkedAtt={T0002_uid::uid_Device uid_domain=T0002_uid::uid_Device uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0033, origin=TableJoin T0033[leftTable=T000c::Record, rightTable=T000c::Record, participation=Participation [participationType=MAX, min=0, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}], destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0033, origin=TableJoin T0033[leftTable=T000c::Record, rightTable=T000c::Record, participation=Participation [participationType=MAX, min=0, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}], destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0034, origin=TableJoin T0034[leftTable=T000c::Record, rightTable=T000f::Subject, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T000f_uid::uid_Subject uid_domain}], destination=T000c::Record, linkedAtt={T000c_uid::uid_Record uid_domain=T000c_uid::uid_Record uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0034, origin=TableJoin T0034[leftTable=T000c::Record, rightTable=T000f::Subject, participation=Participation [participationType=EXACT, min=1, max=1], joinAtt={T000c_uid::uid_Record uid_domain=T000f_uid::uid_Subject uid_domain}], destination=T000f::Subject, linkedAtt={T000f_uid::uid_Subject uid_domain=T000f_uid::uid_Subject uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0035, origin=TableJoin T0035[leftTable=T0002::Device, rightTable=T0008::DeviceSpec, participation=Participation [participationType=MIN, min=1, max=2147483647], joinAtt={T0002_uid::uid_Device uid_domain=T0008_uid::uid_DeviceSpec uid_domain}], destination=T0002::Device, linkedAtt={T0002_uid::uid_Device uid_domain=T0002_uid::uid_Device uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0035, origin=TableJoin T0035[leftTable=T0002::Device, rightTable=T0008::DeviceSpec, participation=Participation [participationType=MIN, min=1, max=2147483647], joinAtt={T0002_uid::uid_Device uid_domain=T0008_uid::uid_DeviceSpec uid_domain}], destination=T0008::DeviceSpec, linkedAtt={T0008_uid::uid_DeviceSpec uid_domain=T0008_uid::uid_DeviceSpec uid_domain}]

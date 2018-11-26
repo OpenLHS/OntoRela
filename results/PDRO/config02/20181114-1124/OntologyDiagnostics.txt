@@ -1,0 +1,36 @@
+
+======================================================= 
+Ontology Diagnostics
+======================================================= 
+
+--------------------------------------- 
+Data properties annotations diagnostics
+--------------------------------------- 
+PDRO_0000133 : without definition [fr, en]
+PDRO_0000134 : without definition [fr, en]
+
+--------------------------------------- 
+Object properties annotations diagnostics
+--------------------------------------- 
+BFO_0000051 : without label [fr, en]
+BFO_0000051 : without definition [fr, en]
+IAO_0000039 : without label [fr, en]
+IAO_0000039 : without definition [fr, en]
+IAO_0000136 : without label [fr, en]
+IAO_0000136 : without definition [fr, en]
+IAO_0000219 : without label [fr, en]
+IAO_0000219 : without definition [fr, en]
+OBI_0001938 : without label [fr, en]
+OBI_0001938 : without definition [fr, en]
+RO_0000057 : without label [fr, en]
+RO_0000057 : without definition [fr, en]
+
+--------------------------------------- 
+Classes annotations diagnostics
+--------------------------------------- 
+IAO_0000302 : without label [fr, en]
+IAO_0000302 : without definition [fr, en]
+IAO_0000003 : without label [fr, en]
+IAO_0000003 : without definition [fr, en]
+OBI_0001929 : without label [fr, en]
+OBI_0001929 : without definition [fr, en]

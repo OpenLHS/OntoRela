@@ -1,0 +1,39 @@
+owlFilePath:  /Depots/Aristote/OntoRelA/dataSet/CMO/cmo.owl
+
+annotations:
+  labels:
+    - "http://www.w3.org/2000/01/rdf-schema#label"
+  definitions:
+    - "http://purl.org/dc/elements/1.1/description"
+
+classes:
+  # Blood measurement
+  - "http://purl.obolibrary.org/obo/CMO_0000035"
+  - "http://purl.obolibrary.org/obo/CMO_0000584"
+  - "http://purl.obolibrary.org/obo/CMO_0000589"
+  - "http://purl.obolibrary.org/obo/CMO_0000284"
+  - "http://purl.obolibrary.org/obo/CMO_0000036"
+  - "http://purl.obolibrary.org/obo/CMO_0000364"
+  - "http://purl.obolibrary.org/obo/CMO_0000508"
+  - "http://purl.obolibrary.org/obo/CMO_0000507"
+  - "http://purl.obolibrary.org/obo/CMO_0000506"
+  - "http://purl.obolibrary.org/obo/CMO_0000921"
+  - "http://purl.obolibrary.org/obo/CMO_0000506"
+  - "http://purl.obolibrary.org/obo/CMO_0001356"
+  - "http://purl.obolibrary.org/obo/CMO_0002341"
+  - "http://purl.obolibrary.org/obo/CMO_0000204"
+  - "http://purl.obolibrary.org/obo/CMO_0001321"
+  - "http://purl.obolibrary.org/obo/CMO_0000379"
+  - "http://purl.obolibrary.org/obo/CMO_0000194"
+  # Body morphological meansurement
+  - "http://purl.obolibrary.org/obo/CMO_0000106"
+  - "http://purl.obolibrary.org/obo/CMO_0000013"
+  - "http://purl.obolibrary.org/obo/CMO_0001766"
+  # Core Body temperature
+  - "http://purl.obolibrary.org/obo/CMO_0001036"
+  # Cardiovascular measurement
+  - "http://purl.obolibrary.org/obo/CMO_0000001"
+  - "http://purl.obolibrary.org/obo/CMO_0000008"
+  - "http://purl.obolibrary.org/obo/CMO_0000004"
+  - "http://purl.obolibrary.org/obo/CMO_0000005"
+  - "http://purl.obolibrary.org/obo/CMO_0000294"

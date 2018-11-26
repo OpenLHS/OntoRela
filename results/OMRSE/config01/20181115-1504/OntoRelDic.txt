@@ -1,0 +1,41 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.obolibrary.org/obo/PDRO_0000190 -> T0001::PDRO_0000190::dose administration specification
+http://purl.obolibrary.org/obo/PDRO_0000060 -> T0002::PDRO_0000060::drug product specification
+http://purl.obolibrary.org/obo/PDRO_0010022 -> T0003::PDRO_0010022::drug administration specification
+http://purl.obolibrary.org/obo/PDRO_0040002 -> T0004::PDRO_0040002::active ingredient name
+http://purl.obolibrary.org/obo/PDRO.owl#C00c9X-PDRO_0000001-I-IAO_0000142 -> T0005::C00c9X-PDRO_0000001-I-IAO_0000142::health care prescription INTERSECTION 
+http://purl.obolibrary.org/obo/PDRO_0000007 -> T0006::PDRO_0000007::drug administration and dispensing specification
+http://purl.obolibrary.org/obo/OBI_0000093 -> T0007::OBI_0000093::OBI_0000093
+http://purl.obolibrary.org/obo/PDRO_0000127 -> T0008::PDRO_0000127::continuing drug administration condition
+http://purl.obolibrary.org/obo/PDRO_0000129 -> T0009::PDRO_0000129::condition
+http://purl.obolibrary.org/obo/NCBITaxon_9606 -> T000a::NCBITaxon_9606::NCBITaxon_9606
+http://purl.obolibrary.org/obo/PDRO_0000097 -> T000b::PDRO_0000097::Drug Identification Number
+http://purl.obolibrary.org/obo/PDRO_0000001 -> T000c::PDRO_0000001::health care prescription
+http://purl.obolibrary.org/obo/PDRO_0000044 -> T000d::PDRO_0000044::drug product name
+http://purl.obolibrary.org/obo/PDRO_0000003 -> T000e::PDRO_0000003::patient identification
+http://purl.obolibrary.org/obo/PDRO_0000024 -> T000f::PDRO_0000024::drug prescription
+http://purl.obolibrary.org/obo/PDRO_0000005 -> T0010::PDRO_0000005::document creation time identification
+http://purl.obolibrary.org/obo/PDRO.owl#C00b5X-PDRO_0000060-U -> T0011::C00b5X-PDRO_0000060-U::drug product specification UNION drug product name active ingredient name
+http://purl.obolibrary.org/obo/PDRO_0000103 -> T0012::PDRO_0000103::prescribed dosing specification
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+PDRO_0000001 [1..*] IAO_0000142 C00c9X-PDRO_0000001-I-IAO_0000142 -> T0013::health care prescription IAO_0000142 health care prescription INTERSECTION 
+PDRO_0000001 [1..*] BFO_0000051 PDRO_0000003 -> T0014::health care prescription BFO_0000051 patient identification
+PDRO_0000001 [1..*] BFO_0000051 PDRO_0000005 -> T0015::health care prescription BFO_0000051 document creation time identification
+PDRO_0000024 [1..*] BFO_0000051 PDRO_0010022 -> T0016::drug prescription BFO_0000051 drug administration specification
+PDRO_0010022 [1..*] BFO_0000051 PDRO_0000060 -> T0017::drug administration specification BFO_0000051 drug product specification
+PDRO_0010022 [1..*] BFO_0000051 PDRO_0000103 -> T0018::drug administration specification BFO_0000051 prescribed dosing specification
+PDRO_0000060 [1..*] BFO_0000051 C00b5X-PDRO_0000060-U -> T0019::drug product specification BFO_0000051 drug product specification UNION drug product name active ingredient name
+PDRO_0000103 [1..*] BFO_0000051 PDRO_0000127 -> T001a::prescribed dosing specification BFO_0000051 continuing drug administration condition
+PDRO_0000103 [1..*] BFO_0000051 PDRO_0000190 -> T001b::prescribed dosing specification BFO_0000051 dose administration specification
+C00c9X-PDRO_0000001-I-IAO_0000142 [1..*] RO_0000053 OBI_0000093 -> T001c::health care prescription INTERSECTION  RO_0000053 OBI_0000093

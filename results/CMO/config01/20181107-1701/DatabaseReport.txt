@@ -1,0 +1,70 @@
+
+======================================================= 
+Database Report
+======================================================= 
+cmo.owl
+Schemas: 1
+  Schema [id=CMO, schemaType=base]
+
+--------------------------------------- 
+CMO
+--------------------------------------- 
+All Tables: 26
+Join Tables: 0
+Types: 11
+Foreign keys: 25
+Constraints: 0
+
+Tables:
+  T0000::Thing
+  T0001::CMO_0001766
+  T0002::CMO_0000036
+  T0003::CMO_0000004
+  T0004::CMO_0000284
+  T0005::CMO_0000294
+  T0006::CMO_0000921
+  T0007::CMO_0000507
+  T0008::CMO_0000204
+  T0009::CMO_0000589
+  T000a::CMO_0000379
+  T000b::CMO_0000008
+  T000c::CMO_0001356
+  T000d::CMO_0002341
+  T000e::CMO_0000194
+  T000f::CMO_0000584
+  T0010::CMO_0000364
+  T0011::CMO_0000001
+  T0012::CMO_0000035
+  T0013::CMO_0000013
+  T0014::CMO_0000506
+  T0015::CMO_0000106
+  T0016::CMO_0001036
+  T0017::CMO_0000005
+  T0018::CMO_0001321
+  T0019::CMO_0000508
+Foreign keys: 
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0001, origin=T0001::CMO_0001766, destination=T0000::Thing, linkedAtt={T0001_uid::uid_CMO_0001766 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0003, origin=T0003::CMO_0000004, destination=T0000::Thing, linkedAtt={T0003_uid::uid_CMO_0000004 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000b, origin=T000b::CMO_0000008, destination=T0000::Thing, linkedAtt={T000b_uid::uid_CMO_0000008 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0011, origin=T0011::CMO_0000001, destination=T0000::Thing, linkedAtt={T0011_uid::uid_CMO_0000001 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0012, origin=T0012::CMO_0000035, destination=T0000::Thing, linkedAtt={T0012_uid::uid_CMO_0000035 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0013, origin=T0013::CMO_0000013, destination=T0000::Thing, linkedAtt={T0013_uid::uid_CMO_0000013 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0015, origin=T0015::CMO_0000106, destination=T0000::Thing, linkedAtt={T0015_uid::uid_CMO_0000106 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0016, origin=T0016::CMO_0001036, destination=T0000::Thing, linkedAtt={T0016_uid::uid_CMO_0001036 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0017, origin=T0017::CMO_0000005, destination=T0000::Thing, linkedAtt={T0017_uid::uid_CMO_0000005 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000f, origin=T000f::CMO_0000584, destination=T0012::CMO_0000035, linkedAtt={T000f_uid::uid_CMO_0000584 uid_domain=T0012_uid::uid_CMO_0000035 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0009, origin=T0009::CMO_0000589, destination=T000f::CMO_0000584, linkedAtt={T0009_uid::uid_CMO_0000589 uid_domain=T000f_uid::uid_CMO_0000584 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0004, origin=T0004::CMO_0000284, destination=T000f::CMO_0000584, linkedAtt={T0004_uid::uid_CMO_0000284 uid_domain=T000f_uid::uid_CMO_0000584 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0002, origin=T0002::CMO_0000036, destination=T0012::CMO_0000035, linkedAtt={T0002_uid::uid_CMO_0000036 uid_domain=T0012_uid::uid_CMO_0000035 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0010, origin=T0010::CMO_0000364, destination=T0002::CMO_0000036, linkedAtt={T0010_uid::uid_CMO_0000364 uid_domain=T0002_uid::uid_CMO_0000036 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0019, origin=T0019::CMO_0000508, destination=T0002::CMO_0000036, linkedAtt={T0019_uid::uid_CMO_0000508 uid_domain=T0002_uid::uid_CMO_0000036 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0007, origin=T0007::CMO_0000507, destination=T0019::CMO_0000508, linkedAtt={T0007_uid::uid_CMO_0000507 uid_domain=T0019_uid::uid_CMO_0000508 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0014, origin=T0014::CMO_0000506, destination=T0019::CMO_0000508, linkedAtt={T0014_uid::uid_CMO_0000506 uid_domain=T0019_uid::uid_CMO_0000508 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0006, origin=T0006::CMO_0000921, destination=T0002::CMO_0000036, linkedAtt={T0006_uid::uid_CMO_0000921 uid_domain=T0002_uid::uid_CMO_0000036 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000c, origin=T000c::CMO_0001356, destination=T0002::CMO_0000036, linkedAtt={T000c_uid::uid_CMO_0001356 uid_domain=T0002_uid::uid_CMO_0000036 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000d, origin=T000d::CMO_0002341, destination=T0002::CMO_0000036, linkedAtt={T000d_uid::uid_CMO_0002341 uid_domain=T0002_uid::uid_CMO_0000036 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0008, origin=T0008::CMO_0000204, destination=T0012::CMO_0000035, linkedAtt={T0008_uid::uid_CMO_0000204 uid_domain=T0012_uid::uid_CMO_0000035 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0018, origin=T0018::CMO_0001321, destination=T0012::CMO_0000035, linkedAtt={T0018_uid::uid_CMO_0001321 uid_domain=T0012_uid::uid_CMO_0000035 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000a, origin=T000a::CMO_0000379, destination=T0012::CMO_0000035, linkedAtt={T000a_uid::uid_CMO_0000379 uid_domain=T0012_uid::uid_CMO_0000035 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000e, origin=T000e::CMO_0000194, destination=T0012::CMO_0000035, linkedAtt={T000e_uid::uid_CMO_0000194 uid_domain=T0012_uid::uid_CMO_0000035 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0005, origin=T0005::CMO_0000294, destination=T0011::CMO_0000001, linkedAtt={T0005_uid::uid_CMO_0000294 uid_domain=T0011_uid::uid_CMO_0000001 uid_domain}]

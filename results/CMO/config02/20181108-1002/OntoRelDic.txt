@@ -1,0 +1,131 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.obolibrary.org/obo/CMO_0002007 -> T0001::CMO_0002007::squamous cell carcinoma of the oral cavity tumor number
+http://purl.obolibrary.org/obo/CMO_0001908 -> T0002::CMO_0001908::lymphoma incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0000345 -> T0003::CMO_0000345::post-insult time to mammary tumor formation
+http://purl.obolibrary.org/obo/CMO_0002075 -> T0004::CMO_0002075::well differentiated malignant colorectal tumor number
+http://purl.obolibrary.org/obo/CMO_0001879 -> T0005::CMO_0001879::number of squamous cell tumors of the tongue with diameter greater than 5 mm
+http://purl.obolibrary.org/obo/CMO_0001912 -> T0006::CMO_0001912::lymphoma measurement
+http://purl.obolibrary.org/obo/CMO_0001706 -> T0007::CMO_0001706::liver tumor number
+http://purl.obolibrary.org/obo/CMO_0001803 -> T0008::CMO_0001803::percentage of study population developing benign colorectal tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001026 -> T0009::CMO_0001026::post-insult time to pituitary tumor formation
+http://purl.obolibrary.org/obo/CMO_0001595 -> T000a::CMO_0001595::percentage of study population displaying liver tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001797 -> T000b::CMO_0001797::colorectal tumor surface area measurement
+http://purl.obolibrary.org/obo/CMO_0000944 -> T000c::CMO_0000944::percentage of study population displaying prostate tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001260 -> T000d::CMO_0001260::testis tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0001030 -> T000e::CMO_0001030::percentage of study population displaying pituitary tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001907 -> T000f::CMO_0001907::post-insult time to onset of T-cell lymphoma
+http://purl.obolibrary.org/obo/CMO_0000344 -> T0010::CMO_0000344::mammary tumor growth rate
+http://purl.obolibrary.org/obo/CMO_0002076 -> T0011::CMO_0002076::poorly differentiated malignant colorectal tumor number
+http://purl.obolibrary.org/obo/CMO_0001878 -> T0012::CMO_0001878::squamous cell carcinoma of the tongue tumor number
+http://purl.obolibrary.org/obo/CMO_0001802 -> T0013::CMO_0001802::percentage of study population developing malignant colorectal tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001911 -> T0014::CMO_0001911::percentage of study population developing T-cell lymphomas during a period of time
+http://purl.obolibrary.org/obo/CMO_0001025 -> T0015::CMO_0001025::pituitary tumor measurement
+http://purl.obolibrary.org/obo/CMO_0001594 -> T0016::CMO_0001594::percentage of study population developing liver tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001950 -> T0017::CMO_0001950::number of squamous cell tumors of the tongue with diameter greater than 3 mm
+http://purl.obolibrary.org/obo/CMO_0001796 -> T0018::CMO_0001796::malignant colorectal tumor number
+http://purl.obolibrary.org/obo/CMO_0000927 -> T0019::CMO_0000927::tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0002017 -> T001a::CMO_0002017::percentage of study population developing trigeminal nerve neurilemmomas during a period of time
+http://purl.obolibrary.org/obo/CMO_0001708 -> T001b::CMO_0001708::malignant liver tumor number
+http://purl.obolibrary.org/obo/CMO_0002396 -> T001c::CMO_0002396::stomach tumor histology grade
+http://purl.obolibrary.org/obo/CMO_0001788 -> T001d::CMO_0001788::endometrial adenocarcinoma measurement
+http://purl.obolibrary.org/obo/CMO_0001712 -> T001e::CMO_0001712::percentage of study population developing malignant liver tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0002073 -> T001f::CMO_0002073::percentage of study population displaying well differentiated malignant colorectal tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001805 -> T0020::CMO_0001805::percentage of study population displaying malignant colorectal tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001029 -> T0021::CMO_0001029::percentage of study population developing pituitary tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001028 -> T0022::CMO_0001028::pituitary tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0000946 -> T0023::CMO_0000946::mammary tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0001791 -> T0024::CMO_0001791::percentage of study population displaying endometrial adenocarcinomas at a point in time
+http://purl.obolibrary.org/obo/CMO_0001787 -> T0025::CMO_0001787::endometrial tumor measurement
+http://purl.obolibrary.org/obo/CMO_0001032 -> T0026::CMO_0001032::pituitary tumor weight
+http://purl.obolibrary.org/obo/CMO_0001872 -> T0027::CMO_0001872::squamous cell carcinoma of the head and neck measurement
+http://purl.obolibrary.org/obo/CMO_0000348 -> T0028::CMO_0000348::mammary tumor weight
+http://purl.obolibrary.org/obo/CMO_0001262 -> T0029::CMO_0001262::percentage of study population displaying testis tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0002018 -> T002a::CMO_0002018::neurilemmoma onset/diagnosis measurement
+http://purl.obolibrary.org/obo/CMO_0002006 -> T002b::CMO_0002006::squamous cell carcinoma of the oral cavity measurement
+http://purl.obolibrary.org/obo/CMO_0001909 -> T002c::CMO_0001909::T-cell lymphoma incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0000346 -> T002d::CMO_0000346::mammary tumor diameter
+http://purl.obolibrary.org/obo/CMO_0001799 -> T002e::CMO_0001799::benign colorectal tumor surface area measurement
+http://purl.obolibrary.org/obo/CMO_0001711 -> T002f::CMO_0001711::percentage of study population developing benign liver tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0002074 -> T0030::CMO_0002074::percentage of study population displaying poorly differentiated malignant colorectal tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001707 -> T0031::CMO_0001707::benign liver tumor number
+http://purl.obolibrary.org/obo/CMO_0001804 -> T0032::CMO_0001804::percentage of study population displaying colorectal tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001871 -> T0033::CMO_0001871::head and neck tumor measurement
+http://purl.obolibrary.org/obo/CMO_0001027 -> T0034::CMO_0001027::pituitary tumor growth rate
+http://purl.obolibrary.org/obo/CMO_0000945 -> T0035::CMO_0000945::percentage of study population developing prostate tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001798 -> T0036::CMO_0001798::malignant colorectal tumor surface area measurement
+http://purl.obolibrary.org/obo/CMO_0001710 -> T0037::CMO_0001710::malignant liver tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0000347 -> T0038::CMO_0000347::mammary tumor measurement
+http://purl.obolibrary.org/obo/CMO_0001031 -> T0039::CMO_0001031::pituitary tumor number
+http://purl.obolibrary.org/obo/CMO_0001261 -> T003a::CMO_0001261::percentage of study population developing testis tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001790 -> T003b::CMO_0001790::percentage of study population developing endometrial adenocarcinomas during a period of time
+http://purl.obolibrary.org/obo/CMO_0002019 -> T003c::CMO_0002019::post-insult time to trigeminal nerve neurilemmoma formation
+http://purl.obolibrary.org/obo/CMO_0000341 -> T003d::CMO_0000341::tumor measurement
+http://purl.obolibrary.org/obo/CMO_0002326 -> T003e::CMO_0002326::tongue tumor number
+http://purl.obolibrary.org/obo/CMO_0002015 -> T003f::CMO_0002015::trigeminal nerve neurilemmoma incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0002601 -> T0040::CMO_0002601::percentage of study population displaying hepatocellular carcinoma at a point in time
+http://purl.obolibrary.org/obo/CMO_0002043 -> T0041::CMO_0002043::stomach tumor susceptibility score
+http://purl.obolibrary.org/obo/CMO_0002285 -> T0042::CMO_0002285::percentage of study population developing stomach tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001714 -> T0043::CMO_0001714::percentage of study population displaying malignant liver tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001887 -> T0044::CMO_0001887::stomach tumor measurement
+http://purl.obolibrary.org/obo/CMO_0002071 -> T0045::CMO_0002071::percentage of study population developing poorly differentiated malignant colorectal tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001617 -> T0046::CMO_0001617::percentage of study population developing pituitary tumors that replace the entire gland during a period of time
+http://purl.obolibrary.org/obo/CMO_0001793 -> T0047::CMO_0001793::colorectal tumor measurement
+http://purl.obolibrary.org/obo/CMO_0000948 -> T0048::CMO_0000948::percentage of study population developing mammary tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001890 -> T0049::CMO_0001890::stomach tumor number
+http://purl.obolibrary.org/obo/CMO_0001874 -> T004a::CMO_0001874::squamous cell carcinoma of the tongue tumor diameter
+http://purl.obolibrary.org/obo/CMO_0001264 -> T004b::CMO_0001264::percentage of study population developing bilateral testis tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0002602 -> T004c::CMO_0002602::percentage of study population developing hepatocellular carcinoma during a period of time
+http://purl.obolibrary.org/obo/CMO_0002016 -> T004d::CMO_0002016::percentage of study population displaying trigeminal nerve neurilemmomas at a point in time
+http://purl.obolibrary.org/obo/CMO_0001709 -> T004e::CMO_0001709::benign liver tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0002286 -> T004f::CMO_0002286::stomach tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0001713 -> T0050::CMO_0001713::percentage of study population displaying benign liver tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0002020 -> T0051::CMO_0002020::neurilemmoma measurement
+http://purl.obolibrary.org/obo/CMO_0001789 -> T0052::CMO_0001789::endometrial adenocarcinoma incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0002072 -> T0053::CMO_0002072::percentage of study population developing well differentiated malignant colorectal tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001806 -> T0054::CMO_0001806::percentage of study population displaying benign colorectal tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0000947 -> T0055::CMO_0000947::percentage of study population displaying mammary tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0000935 -> T0056::CMO_0000935::prostate tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0001259 -> T0057::CMO_0001259::testis tumor measurement
+http://purl.obolibrary.org/obo/CMO_0001033 -> T0058::CMO_0001033::pituitary tumor diameter
+http://purl.obolibrary.org/obo/CMO_0001263 -> T0059::CMO_0001263::bilateral testis tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0001873 -> T005a::CMO_0001873::squamous cell carcinoma of the tongue measurement
+http://purl.obolibrary.org/obo/CMO_0002603 -> T005b::CMO_0002603::hepatocellular carcinoma incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0001906 -> T005c::CMO_0001906::T-cell lymphoma onset/diagnosis measurement
+http://purl.obolibrary.org/obo/CMO_0002324 -> T005d::CMO_0002324::tongue tumor measurement
+http://purl.obolibrary.org/obo/CMO_0002013 -> T005e::CMO_0002013::nervous system tumor measurement
+http://purl.obolibrary.org/obo/CMO_0000343 -> T005f::CMO_0000343::mammary tumor number
+http://purl.obolibrary.org/obo/CMO_0002077 -> T0060::CMO_0002077::well differentiated malignant colorectal tumor surface area measurement
+http://purl.obolibrary.org/obo/CMO_0001889 -> T0061::CMO_0001889::stomach tumor diameter
+http://purl.obolibrary.org/obo/CMO_0001910 -> T0062::CMO_0001910::percentage of study population displaying T-cell lymphomas at a point in time
+http://purl.obolibrary.org/obo/CMO_0001801 -> T0063::CMO_0001801::percentage of study population developing colorectal tumors during a period of time
+http://purl.obolibrary.org/obo/CMO_0001877 -> T0064::CMO_0001877::non-tongue squamous cell carcinoma of the head and neck tumor number
+http://purl.obolibrary.org/obo/CMO_0001619 -> T0065::CMO_0001619::percentage of study population developing pituitary tumors that invade the glandular capsule during a period of time
+http://purl.obolibrary.org/obo/CMO_0000902 -> T0066::CMO_0000902::prostate tumor measurement
+http://purl.obolibrary.org/obo/CMO_0001593 -> T0067::CMO_0001593::liver tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0001795 -> T0068::CMO_0001795::benign colorectal tumor number
+http://purl.obolibrary.org/obo/CMO_0002325 -> T0069::CMO_0002325::tongue tumor diameter
+http://purl.obolibrary.org/obo/CMO_0002600 -> T006a::CMO_0002600::hepatocellular carcinoma tumor number
+http://purl.obolibrary.org/obo/CMO_0002014 -> T006b::CMO_0002014::neurilemmoma incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0002078 -> T006c::CMO_0002078::poorly differentiated malignant colorectal tumor surface area measurement
+http://purl.obolibrary.org/obo/CMO_0002284 -> T006d::CMO_0002284::percentage of study population displaying stomach tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001876 -> T006e::CMO_0001876::squamous cell carcinoma of the head and neck tumor number
+http://purl.obolibrary.org/obo/CMO_0001888 -> T006f::CMO_0001888::stomach tumor depth of invasion
+http://purl.obolibrary.org/obo/CMO_0001800 -> T0070::CMO_0001800::colorectal tumor incidence/prevalence measurement
+http://purl.obolibrary.org/obo/CMO_0001618 -> T0071::CMO_0001618::percentage of study population developing pituitary tumors that replace a portion of the gland during a period of time
+http://purl.obolibrary.org/obo/CMO_0001905 -> T0072::CMO_0001905::lymphoma onset/diagnosis measurement
+http://purl.obolibrary.org/obo/CMO_0001794 -> T0073::CMO_0001794::colorectal tumor number
+http://purl.obolibrary.org/obo/CMO_0001875 -> T0074::CMO_0001875::squamous cell carcinoma of the tongue maximum tumor diameter
+http://purl.obolibrary.org/obo/CMO_0001265 -> T0075::CMO_0001265::percentage of study population displaying bilateral testis tumors at a point in time
+http://purl.obolibrary.org/obo/CMO_0001592 -> T0076::CMO_0001592::liver tumor measurement
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 

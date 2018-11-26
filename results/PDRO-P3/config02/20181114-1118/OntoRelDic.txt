@@ -1,0 +1,138 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.obolibrary.org/obo/PDRO_0010033 -> T0001::PDRO_0010033::volumetric flow rate value specification
+http://purl.obolibrary.org/obo/PDRO_0000060 -> T0002::PDRO_0000060::drug product specification
+http://griis.ca/PDRO-P3.owl#C00edX-OBI_0000969-U -> T0003::C00edX-OBI_0000969-U::dose specification UNION volume value specification metered dose administration count value specification drug product object count specification pharmacological unit value specification
+http://purl.obolibrary.org/obo/PDRO_0000096 -> T0004::PDRO_0000096::drug dispensing specification
+http://purl.obolibrary.org/obo/PDRO_0000020 -> T0005::PDRO_0000020::route of administration specification
+http://purl.obolibrary.org/obo/OBI_0001929 -> T0006::OBI_0001929::OBI_0001929
+http://purl.obolibrary.org/obo/PDRO_0000024 -> T0007::PDRO_0000024::drug prescription
+http://purl.obolibrary.org/obo/PDRO_0000044 -> T0008::PDRO_0000044::drug product name
+http://purl.obolibrary.org/obo/PDRO_0000121 -> T0009::PDRO_0000121::mass per time value specification
+http://purl.obolibrary.org/obo/PDRO_0000005 -> T000a::PDRO_0000005::document creation time identification
+http://purl.obolibrary.org/obo/PDRO_0000126 -> T000b::PDRO_0000126::active ingredient mass delivery rate value specification
+http://purl.obolibrary.org/obo/IAO_0000302 -> T000c::IAO_0000302::IAO_0000302
+http://purl.obolibrary.org/obo/PDRO_0010022 -> T000d::PDRO_0010022::drug administration specification
+http://purl.obolibrary.org/obo/UO_0000006 -> T000e::UO_0000006::UO_0000006
+http://purl.obolibrary.org/obo/PDRO_0010034 -> T000f::PDRO_0010034::drug product volumetric flow rate value specification
+http://purl.obolibrary.org/obo/UO_0000002 -> T0010::UO_0000002::UO_0000002
+http://purl.obolibrary.org/obo/IAO_0000003 -> T0011::IAO_0000003::IAO_0000003
+http://purl.obolibrary.org/obo/PDRO_0000190 -> T0012::PDRO_0000190::dose administration specification
+http://purl.obolibrary.org/obo/PDRO_0000097 -> T0013::PDRO_0000097::Drug Identification Number
+http://purl.obolibrary.org/obo/PDRO_0000053 -> T0014::PDRO_0000053::drug active ingredient specification
+http://griis.ca/PDRO-P3.owl#C00d1X-PDRO_0010017-U -> T0015::C00d1X-PDRO_0010017-U::drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification
+http://purl.obolibrary.org/obo/PDRO_0000021 -> T0016::PDRO_0000021::active ingredient mass value specification
+http://purl.obolibrary.org/obo/PDRO_0000115 -> T0017::PDRO_0000115::mass per time unit
+http://griis.ca/PDRO-P3.owl#C00efX-PDRO_0000022-U -> T0018::C00efX-PDRO_0000022-U::drug strength specification UNION active ingredient mass value specification active ingredient mass delivery rate value specification pharmacological unit value specification active ingredient molar value specification
+http://purl.obolibrary.org/obo/PDRO_0000103 -> T0019::PDRO_0000103::prescribed dosing specification
+http://griis.ca/PDRO-P3.owl#C00d9X-PDRO_0000022-U -> T001a::C00d9X-PDRO_0000022-U::drug strength specification UNION metered dose administration count value specification drug product object count specification drug product volume value specification drug product mass value specification
+http://griis.ca/PDRO-P3.owl#C00d5X-PDRO_0000112-U -> T001b::C00d5X-PDRO_0000112-U::rate of administration specification UNION mass per time value specification volumetric flow rate value specification
+http://purl.obolibrary.org/obo/PDRO_0010035 -> T001c::PDRO_0010035::active ingredient molar value specification
+http://purl.obolibrary.org/obo/PDRO_0010023 -> T001d::PDRO_0010023::drug product object count specification
+http://purl.obolibrary.org/obo/PDRO_0010031 -> T001e::PDRO_0010031::pharmacological unit value specification
+http://purl.obolibrary.org/obo/UO_0000003 -> T001f::UO_0000003::UO_0000003
+http://griis.ca/PDRO-P3.owl#C00c5X-PDRO_0010017-U -> T0020::C00c5X-PDRO_0010017-U::drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification
+http://purl.obolibrary.org/obo/PDRO_0000030 -> T0021::PDRO_0000030::duration of administration specification
+http://purl.obolibrary.org/obo/PDRO_0000151 -> T0022::PDRO_0000151::drug dispensing count specification
+http://purl.obolibrary.org/obo/OBI_0002139 -> T0023::OBI_0002139::volume value specification
+http://purl.obolibrary.org/obo/PDRO_0000123 -> T0024::PDRO_0000123::dose quantification specification
+http://purl.obolibrary.org/obo/UO_0000095 -> T0025::UO_0000095::UO_0000095
+http://purl.obolibrary.org/obo/PDRO_0000022 -> T0026::PDRO_0000022::drug strength specification
+http://purl.obolibrary.org/obo/PDRO_0000003 -> T0027::PDRO_0000003::patient identification
+http://purl.obolibrary.org/obo/PDRO_0000007 -> T0028::PDRO_0000007::drug administration and dispensing specification
+http://purl.obolibrary.org/obo/PDRO_0000019 -> T0029::PDRO_0000019::temporal instant specification
+http://purl.obolibrary.org/obo/PDRO_0040002 -> T002a::PDRO_0040002::active ingredient name
+http://purl.obolibrary.org/obo/PDRO_0010036 -> T002b::PDRO_0010036::pharmacological unit
+http://griis.ca/PDRO-P3.owl#C00dfX-OBI_0000969-U -> T002c::C00dfX-OBI_0000969-U::dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification
+http://purl.obolibrary.org/obo/PDRO_0010024 -> T002d::PDRO_0010024::drug product volume value specification
+http://purl.obolibrary.org/obo/PDRO_0010032 -> T002e::PDRO_0010032::substance quantity value specification
+http://purl.obolibrary.org/obo/PDRO-P3_0000046 -> T002f::PDRO-P3_0000046::PDRO-P3 prescriber drug administration specification
+http://purl.obolibrary.org/obo/OBI_0000969 -> T0030::OBI_0000969::dose specification
+http://purl.obolibrary.org/obo/PDRO-P3_0000200 -> T0031::PDRO-P3_0000200::discrete drug object unit
+http://purl.obolibrary.org/obo/PDRO_0010080 -> T0032::PDRO_0010080::route of administration category specification
+http://purl.obolibrary.org/obo/UO_0000270 -> T0033::UO_0000270::UO_0000270
+http://purl.obolibrary.org/obo/PDRO_0000112 -> T0034::PDRO_0000112::rate of administration specification
+http://purl.obolibrary.org/obo/PDRO_0000099 -> T0035::PDRO_0000099::metered dose administration count value specification
+http://griis.ca/PDRO-P3.owl#C00c1X-PDRO_0000123-U -> T0036::C00c1X-PDRO_0000123-U::dose quantification specification UNION dose specification rate of administration specification dose range specification
+http://purl.obolibrary.org/obo/PDRO_0000117 -> T0037::PDRO_0000117::dose range specification
+http://purl.obolibrary.org/obo/PDRO_0010017 -> T0038::PDRO_0010017::drug dispensing amount specification
+http://purl.obolibrary.org/obo/PDRO_0010037 -> T0039::PDRO_0010037::dose administration count specification
+http://purl.obolibrary.org/obo/PDRO_0010025 -> T003a::PDRO_0010025::drug product mass value specification
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+PDRO_0010032 [1..1] OBI_0001937 PDRO-P3_0000012 -> T003b::substance quantity value specification OBI_0001937
+PDRO_0010037 [1..1] OBI_0001937 positiveInteger -> T003c::dose administration count specification OBI_0001937
+PDRO_0040002 [1..1] PDRO-P3_0000100 string -> T003d::active ingredient name has value
+PDRO_0010080 [1..1] PDRO-P3_0000100 string -> T003e::route of administration category specification has value
+PDRO_0010032 [0..*] OBI_0001937 PDRO-P3_0000012 -> T003f::substance quantity value specification OBI_0001937
+PDRO_0000097 [1..1] PDRO-P3_0000100 string -> T0040::Drug Identification Number has value
+IAO_0000003 [1..1] PDRO-P3_0000100 string -> T0041::IAO_0000003 has value
+PDRO_0000151 [1..1] OBI_0001937 positiveInteger -> T0042::drug dispensing count specification OBI_0001937
+PDRO_0000019 [1..1] PDRO-P3_0000100 dateTime -> T0043::temporal instant specification has value
+PDRO_0000005 [1..1] PDRO-P3_0000100 dateTime -> T0044::document creation time identification has value
+PDRO_0000044 [1..1] PDRO-P3_0000100 string -> T0045::drug product name has value
+PDRO_0000117 [1..1] PDRO_0000133 PDRO-P3_0000012 -> T0046::dose range specification has minimum range value
+PDRO_0000117 [1..1] PDRO_0000133 rational -> T0047::dose range specification has minimum range value
+PDRO_0000117 [1..1] PDRO_0000134 rational -> T0048::dose range specification has maximum range value
+PDRO_0000117 [1..1] PDRO_0000134 PDRO-P3_0000012 -> T0049::dose range specification has maximum range value
+PDRO_0000121 [1..1] OBI_0001937 PDRO-P3_0000012 -> T004a::mass per time value specification OBI_0001937
+PDRO_0000121 [0..*] OBI_0001937 PDRO-P3_0000012 -> T004b::mass per time value specification OBI_0001937
+PDRO_0010033 [1..1] OBI_0001937 PDRO-P3_0000012 -> T004c::volumetric flow rate value specification OBI_0001937
+OBI_0001929 [0..*] PDRO-P3_0000100 PDRO-P3_0000012 -> T004d::OBI_0001929 has value
+OBI_0001929 [1..1] PDRO-P3_0000100 PDRO-P3_0000012 -> T004e::OBI_0001929 has value
+OBI_0002139 [0..*] OBI_0001937 PDRO-P3_0000012 -> T004f::volume value specification OBI_0001937
+OBI_0002139 [1..1] OBI_0001937 PDRO-P3_0000012 -> T0050::volume value specification OBI_0001937
+PDRO_0000099 [1..1] OBI_0001937 PDRO-P3_0000012 -> T0051::metered dose administration count value specification OBI_0001937
+PDRO_0000099 [0..*] OBI_0001937 PDRO-P3_0000012 -> T0052::metered dose administration count value specification OBI_0001937
+PDRO_0010023 [0..*] OBI_0001937 PDRO-P3_0000012 -> T0053::drug product object count specification OBI_0001937
+PDRO_0010023 [1..1] OBI_0001937 PDRO-P3_0000012 -> T0054::drug product object count specification OBI_0001937
+PDRO_0010031 [1..1] OBI_0001937 PDRO-P3_0000012 -> T0055::pharmacological unit value specification OBI_0001937
+PDRO_0010031 [0..*] OBI_0001937 PDRO-P3_0000012 -> T0056::pharmacological unit value specification OBI_0001937
+PDRO_0000024 [1..1] PDRO-P3_1000001 PDRO_0000005 -> T0057::drug prescription has sublevel part document creation time identification
+PDRO_0000024 [1..*] PDRO-P3_1000001 PDRO_0000007 -> T0058::drug prescription has sublevel part drug administration and dispensing specification
+PDRO_0000024 [1..1] PDRO-P3_1000001 PDRO_0000003 -> T0059::drug prescription has sublevel part patient identification
+PDRO_0000024 [1..1] PDRO-P3_1000001 IAO_0000302 -> T005a::drug prescription has sublevel part IAO_0000302
+PDRO_0000007 [1..1] PDRO-P3_1000001 PDRO_0010022 -> T005b::drug administration and dispensing specification has sublevel part drug administration specification
+PDRO_0000007 [1..1] PDRO-P3_1000001 PDRO_0000096 -> T005c::drug administration and dispensing specification has sublevel part drug dispensing specification
+PDRO_0010022 [1..1] PDRO-P3_1000001 PDRO_0000060 -> T005d::drug administration specification has sublevel part drug product specification
+PDRO_0010022 [1..1] PDRO-P3_1000001 PDRO_0000103 -> T005e::drug administration specification has sublevel part prescribed dosing specification
+PDRO_0000103 [1..*] PDRO-P3_1000001 PDRO_0000190 -> T005f::prescribed dosing specification has sublevel part dose administration specification
+PDRO_0000190 [1..1] PDRO-P3_1000001 PDRO_0000123 -> T0060::dose administration specification has sublevel part dose quantification specification
+PDRO_0000190 [1..1] PDRO-P3_1000001 PDRO_0000020 -> T0061::dose administration specification has sublevel part route of administration specification
+PDRO_0000190 [0..1] PDRO-P3_1000001 PDRO_0000030 -> T0062::dose administration specification has sublevel part duration of administration specification
+PDRO_0000020 [1..*] OBI_0001938 PDRO_0010080 -> T0063::route of administration specification OBI_0001938 route of administration category specification
+PDRO_0000123 [1..1] PDRO-P3_1000001 C00c1X-PDRO_0000123-U -> T0064::dose quantification specification has sublevel part dose quantification specification UNION dose specification rate of administration specification dose range specification
+PDRO_0000060 [0..1] PDRO-P3_1000001 PDRO_0000044 -> T0065::drug product specification has sublevel part drug product name
+PDRO_0000060 [0..1] PDRO-P3_1000001 PDRO_0000097 -> T0066::drug product specification has sublevel part Drug Identification Number
+PDRO_0000060 [0..*] PDRO-P3_1000001 PDRO_0000053 -> T0067::drug product specification has sublevel part drug active ingredient specification
+PDRO_0000053 [0..1] PDRO-P3_1000001 PDRO_0000022 -> T0068::drug active ingredient specification has sublevel part drug strength specification
+PDRO_0000053 [1..1] PDRO-P3_1000001 PDRO_0040002 -> T0069::drug active ingredient specification has sublevel part active ingredient name
+PDRO_0000022 [1..1] OBI_0001938 C00d9X-PDRO_0000022-U -> T006a::drug strength specification OBI_0001938 drug strength specification UNION metered dose administration count value specification drug product object count specification drug product volume value specification drug product mass value specification
+PDRO_0000022 [1..1] OBI_0001938 C00efX-PDRO_0000022-U -> T006b::drug strength specification OBI_0001938 drug strength specification UNION active ingredient mass value specification active ingredient mass delivery rate value specification pharmacological unit value specification active ingredient molar value specification
+PDRO_0010017 [1..1] OBI_0001938 C00c5X-PDRO_0010017-U -> T006c::drug dispensing amount specification OBI_0001938 drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification
+PDRO_0010017 [1..*] OBI_0001938 C00d1X-PDRO_0010017-U -> T006d::drug dispensing amount specification OBI_0001938 drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification
+PDRO_0010032 [1..1] IAO_0000039 UO_0000006 -> T006e::substance quantity value specification IAO_0000039 UO_0000006
+UO_0000270 [1..1] PDRO-P3_1000001 UO_0000003 -> T006f::UO_0000270 has sublevel part UO_0000003
+UO_0000270 [1..1] PDRO-P3_1000001 UO_0000095 -> T0070::UO_0000270 has sublevel part UO_0000095
+PDRO_0000115 [1..1] PDRO-P3_1000001 UO_0000003 -> T0071::mass per time unit has sublevel part UO_0000003
+PDRO_0000115 [1..1] PDRO-P3_1000001 UO_0000002 -> T0072::mass per time unit has sublevel part UO_0000002
+OBI_0000969 [1..*] OBI_0001938 C00dfX-OBI_0000969-U -> T0073::dose specification OBI_0001938 dose specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification pharmacological unit value specification active ingredient molar value specification
+OBI_0000969 [1..1] OBI_0001938 C00edX-OBI_0000969-U -> T0074::dose specification OBI_0001938 dose specification UNION volume value specification metered dose administration count value specification drug product object count specification pharmacological unit value specification
+PDRO_0000112 [1..1] PDRO-P3_1000001 C00d5X-PDRO_0000112-U -> T0075::rate of administration specification has sublevel part rate of administration specification UNION mass per time value specification volumetric flow rate value specification
+PDRO_0000117 [1..1] IAO_0000039 IAO_0000003 -> T0076::dose range specification IAO_0000039 IAO_0000003
+PDRO_0000121 [1..1] IAO_0000039 PDRO_0000115 -> T0077::mass per time value specification IAO_0000039 mass per time unit
+PDRO_0010033 [1..1] IAO_0000039 UO_0000270 -> T0078::volumetric flow rate value specification IAO_0000039 UO_0000270
+OBI_0001929 [1..1] IAO_0000039 UO_0000002 -> T0079::OBI_0001929 IAO_0000039 UO_0000002
+OBI_0002139 [1..1] IAO_0000039 UO_0000095 -> T007a::volume value specification IAO_0000039 UO_0000095
+PDRO_0000099 [1..1] IAO_0000039 IAO_0000003 -> T007b::metered dose administration count value specification IAO_0000039 IAO_0000003
+PDRO_0010023 [1..1] IAO_0000039 PDRO-P3_0000200 -> T007c::drug product object count specification IAO_0000039 discrete drug object unit
+PDRO_0010031 [1..1] IAO_0000039 PDRO_0010036 -> T007d::pharmacological unit value specification IAO_0000039 pharmacological unit

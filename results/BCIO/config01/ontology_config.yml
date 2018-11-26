@@ -1,0 +1,46 @@
+owlFilePath: /Depots/Aristote/OntoRelA/dataSet/BCIO/BCI.owl
+
+annotations:
+  labels:
+    - "http://www.w3.org/2000/01/rdf-schema#label"
+  definitions:
+    - "http://purl.org/dc/elements/1.1/description"
+
+classes:
+  - "https://w3id.org/BCI-ontology#Actuation"
+  - "https://w3id.org/BCI-ontology#SubjectState"
+  - "https://w3id.org/BCI-ontology#Channel"
+  - "https://w3id.org/BCI-ontology#Interaction"
+  - "https://w3id.org/BCI-ontology#Subject"
+  - "https://w3id.org/BCI-ontology#Context"
+  - "https://w3id.org/BCI-ontology#Session"
+  - "https://w3id.org/BCI-ontology#Descriptor"
+  - "https://w3id.org/BCI-ontology#ActuatorSpec"
+  - "https://w3id.org/BCI-ontology#ChannelingSpec"
+  - "https://w3id.org/BCI-ontology#DeviceSpec"
+  - "https://w3id.org/BCI-ontology#SubjectState"
+  - "https://w3id.org/BCI-ontology#Record"
+  - "https://w3id.org/BCI-ontology#Device"
+  - "https://w3id.org/BCI-ontology#Observation"
+  - "https://w3id.org/BCI-ontology#Aspect"
+  - "https://w3id.org/BCI-ontology#NeurologicalAspect"
+  - "https://w3id.org/BCI-ontology#CognitiveAspect"
+  - "https://w3id.org/BCI-ontology#EmotionalAspect"
+
+objectProperties:
+  - "https://w3id.org/BCI-ontology#observedByDevice"
+  - "https://w3id.org/BCI-ontology#detects"
+  - "https://w3id.org/BCI-ontology#isRecordOf"
+  - "https://w3id.org/BCI-ontology#forProperty"
+  - "https://w3id.org/BCI-ontology#forModality"
+  - "https://w3id.org/BCI-ontology#hasActuation"
+  - "https://w3id.org/BCI-ontology#hasNext"
+  - "https://w3id.org/BCI-ontology#hasEffect"
+  - "https://w3id.org/BCI-ontology#hasDescriptor"
+  - "https://w3id.org/BCI-ontology#hasMeasurementProperty"
+  - "https://w3id.org/BCI-ontology#hasSystemCapability"
+  - "https://w3id.org/BCI-ontology#hasChannelData"
+  - "https://w3id.org/BCI-ontology#hasSession"
+  - "https://w3id.org/BCI-ontology#hasDescriptor"
+  - "https://w3id.org/BCI-ontology#hasDeviceSpec"
+  - "https://w3id.org/BCI-ontology#aspectOfInterest"

@@ -1,0 +1,83 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "health care prescription" [ label="\"health care prescription\"" ];
+  "drug prescription" [ label="\"drug prescription\"" ];
+  "patient identification" [ label="\"patient identification\"" ];
+  "document creation time identification" [ label="\"document creation time identification\"" ];
+  "drug administration and dispensing specification" [ label="\"drug administration and dispensing specification\"" ];
+  "drug administration specification" [ label="\"drug administration specification\"" ];
+  "drug product specification" [ label="\"drug product specification\"" ];
+  "Drug Identification Number" [ label="\"Drug Identification Number\"" ];
+  "prescribed dosing specification" [ label="\"prescribed dosing specification\"" ];
+  "dose administration specification" [ label="\"dose administration specification\"" ];
+  "condition" [ label="\"condition\"" ];
+  "continuing drug administration condition" [ label="\"continuing drug administration condition\"" ];
+  "drug product specification UNION drug product name active ingredient name" [ label="\"drug product specification UNION drug product name active ingredient name\"" ];
+  "drug product name" [ label="\"drug product name\"" ];
+  "active ingredient name" [ label="\"active ingredient name\"" ];
+  "health care prescription INTERSECTION " [ label="\"health care prescription INTERSECTION \"" ];
+  "OBI_0000093" [ label="\"OBI_0000093\"" ];
+  "string" [ label="\"string\"" ];
+  "dateTime" [ label="\"dateTime\"" ];
+  "drug prescription" -> "health care prescription" [ label="\"isa\"" ];
+  "continuing drug administration condition" -> "condition" [ label="\"isa\"" ];
+  "drug product name" -> "drug product specification UNION drug product name active ingredient name" [ label="\"isa\"" ];
+  "active ingredient name" -> "drug product specification UNION drug product name active ingredient name" [ label="\"isa\"" ];
+  "drug prescription" -> "document creation time identification" [ label="[1..1]
+\"has sublevel part\"" ];
+  "prescribed dosing specification" -> "dose administration specification" [ label="[1..*]
+\"has sublevel part\"" ];
+  "continuing drug administration condition" -> "prescribed dosing specification" [ label="[1..1]
+\"sublevel part of\"" ];
+  "drug prescription" -> "drug administration and dispensing specification" [ label="[1..*]
+\"has sublevel part\"" ];
+  "drug administration and dispensing specification" -> "drug administration specification" [ label="[1..1]
+\"has sublevel part\"" ];
+  "drug product specification" -> "drug product name" [ label="[0..1]
+\"has sublevel part\"" ];
+  "drug prescription" -> "patient identification" [ label="[1..1]
+\"has sublevel part\"" ];
+  "drug administration specification" -> "drug product specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug product specification" -> "drug product specification UNION drug product name active ingredient name" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug prescription" -> "drug administration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug administration specification" -> "condition" [ label="[1..*]
+\"has sublevel part\"" ];
+  "drug administration specification" -> "drug product specification" [ label="[1..1]
+\"has sublevel part\"" ];
+  "health care prescription" -> "patient identification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "health care prescription" -> "document creation time identification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "dose administration specification" -> "condition" [ label="[1..*]
+\"has sublevel part\"" ];
+  "drug product specification" -> "Drug Identification Number" [ label="[0..1]
+\"has sublevel part\"" ];
+  "health care prescription" -> "health care prescription INTERSECTION " [ label="[1..*]
+\"IAO_0000142\"" ];
+  "health care prescription INTERSECTION " -> "OBI_0000093" [ label="[1..*]
+\"RO_0000053\"" ];
+  "drug administration specification" -> "prescribed dosing specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug administration specification" -> "prescribed dosing specification" [ label="[1..1]
+\"has sublevel part\"" ];
+  "prescribed dosing specification" -> "condition" [ label="[1..*]
+\"has sublevel part\"" ];
+  "prescribed dosing specification" -> "dose administration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "prescribed dosing specification" -> "continuing drug administration condition" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "continuing drug administration condition" -> "string" [ label="[0..1]
+\"has value\"" ];
+  "Drug Identification Number" -> "string" [ label="[1..1]
+\"has value\"" ];
+  "document creation time identification" -> "dateTime" [ label="[1..1]
+\"has value\"" ];
+  "drug product name" -> "string" [ label="[1..1]
+\"has value\"" ];
+  "active ingredient name" -> "string" [ label="[1..1]
+\"has value\"" ];
+}

@@ -1,0 +1,79 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "drug prescription" [ label="\"drug prescription\"" ];
+  "IAO_0000302" [ label="\"IAO_0000302\"" ];
+  "patient identification" [ label="\"patient identification\"" ];
+  "document creation time identification" [ label="\"document creation time identification\"" ];
+  "drug administration and dispensing specification" [ label="\"drug administration and dispensing specification\"" ];
+  "drug administration specification" [ label="\"drug administration specification\"" ];
+  "prescribed dosing specification" [ label="\"prescribed dosing specification\"" ];
+  "dose administration specification" [ label="\"dose administration specification\"" ];
+  "route of administration specification" [ label="\"route of administration specification\"" ];
+  "route of administration category specification" [ label="\"route of administration category specification\"" ];
+  "dose quantification specification" [ label="\"dose quantification specification\"" ];
+  "dose administration count specification" [ label="\"dose administration count specification\"" ];
+  "duration of administration specification" [ label="\"duration of administration specification\"" ];
+  "drug product specification" [ label="\"drug product specification\"" ];
+  "Drug Identification Number" [ label="\"Drug Identification Number\"" ];
+  "drug active ingredient specification" [ label="\"drug active ingredient specification\"" ];
+  "drug strength specification" [ label="\"drug strength specification\"" ];
+  "active ingredient mass delivery rate value specification" [ label="\"active ingredient mass delivery rate value specification\"" ];
+  "active ingredient molar value specification" [ label="\"active ingredient molar value specification\"" ];
+  "drug dispensing count specification" [ label="\"drug dispensing count specification\"" ];
+  "drug dispensing specification" [ label="\"drug dispensing specification\"" ];
+  "drug dispensing amount specification" [ label="\"drug dispensing amount specification\"" ];
+  "substance quantity value specification" [ label="\"substance quantity value specification\"" ];
+  "mass per time value specification" [ label="\"mass per time value specification\"" ];
+  "IAO_0000003" [ label="\"IAO_0000003\"" ];
+  "pharmacological unit value specification" [ label="\"pharmacological unit value specification\"" ];
+  "volume value specification" [ label="\"volume value specification\"" ];
+  "OBI_0001929" [ label="\"OBI_0001929\"" ];
+  "pharmacological unit" [ label="\"pharmacological unit\"" ];
+  "mass per time unit" [ label="\"mass per time unit\"" ];
+  "volumetric flow rate value specification" [ label="\"volumetric flow rate value specification\"" ];
+  "drug product volumetric flow rate value specification" [ label="\"drug product volumetric flow rate value specification\"" ];
+  "temporal instant specification" [ label="\"temporal instant specification\"" ];
+  "drug product specification UNION drug product name active ingredient name" [ label="\"drug product specification UNION drug product name active ingredient name\"" ];
+  "drug product name" [ label="\"drug product name\"" ];
+  "active ingredient name" [ label="\"active ingredient name\"" ];
+  "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification\"" ];
+  "active ingredient mass value specification" [ label="\"active ingredient mass value specification\"" ];
+  "drug product object count specification" [ label="\"drug product object count specification\"" ];
+  "drug product volume value specification" [ label="\"drug product volume value specification\"" ];
+  "drug product mass value specification" [ label="\"drug product mass value specification\"" ];
+  "active ingredient mass delivery rate value specification" -> "mass per time value specification" [ label="\"isa\"" ];
+  "active ingredient molar value specification" -> "substance quantity value specification" [ label="\"isa\"" ];
+  "pharmacological unit" -> "IAO_0000003" [ label="\"isa\"" ];
+  "mass per time unit" -> "IAO_0000003" [ label="\"isa\"" ];
+  "drug product volumetric flow rate value specification" -> "volumetric flow rate value specification" [ label="\"isa\"" ];
+  "drug product name" -> "drug product specification UNION drug product name active ingredient name" [ label="\"isa\"" ];
+  "active ingredient name" -> "drug product specification UNION drug product name active ingredient name" [ label="\"isa\"" ];
+  "active ingredient mass value specification" -> "OBI_0001929" [ label="\"isa\"" ];
+  "active ingredient mass value specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"isa\"" ];
+  "drug product object count specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"isa\"" ];
+  "drug product volume value specification" -> "volume value specification" [ label="\"isa\"" ];
+  "drug product volume value specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"isa\"" ];
+  "drug product mass value specification" -> "OBI_0001929" [ label="\"isa\"" ];
+  "drug product mass value specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="\"isa\"" ];
+  "drug prescription" -> "drug administration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug product specification" -> "drug product specification UNION drug product name active ingredient name" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug dispensing amount specification" -> "drug dispensing amount specification UNION active ingredient mass value specification drug product object count specification drug product volume value specification drug product mass value specification" [ label="[1..*]
+\"OBI_0001938\"" ];
+  "drug administration specification" -> "drug product specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "pharmacological unit value specification" -> "pharmacological unit" [ label="[1..*]
+\"IAO_0000039\"" ];
+  "drug active ingredient specification" -> "active ingredient name" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "dose administration specification" -> "dose quantification specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "prescribed dosing specification" -> "dose administration specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "drug administration specification" -> "prescribed dosing specification" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "route of administration specification" -> "route of administration category specification" [ label="[1..*]
+\"OBI_0001938\"" ];
+}

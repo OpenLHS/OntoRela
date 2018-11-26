@@ -1,0 +1,68 @@
+
+======================================================= 
+Ontology Diagnostics
+======================================================= 
+
+--------------------------------------- 
+Data properties annotations diagnostics
+--------------------------------------- 
+
+--------------------------------------- 
+Object properties annotations diagnostics
+--------------------------------------- 
+part_of : without label [fr]
+part_of : without definition [fr, en]
+
+--------------------------------------- 
+Classes annotations diagnostics
+--------------------------------------- 
+CMO_0000035 : without label [fr]
+CMO_0000035 : without definition [fr, en]
+CMO_0000584 : without label [fr]
+CMO_0000584 : without definition [fr, en]
+CMO_0000589 : without label [fr]
+CMO_0000589 : without definition [fr, en]
+CMO_0000284 : without label [fr]
+CMO_0000284 : without definition [fr, en]
+CMO_0000036 : without label [fr]
+CMO_0000036 : without definition [fr, en]
+CMO_0000364 : without label [fr]
+CMO_0000364 : without definition [fr, en]
+CMO_0000508 : without label [fr]
+CMO_0000508 : without definition [fr, en]
+CMO_0000507 : without label [fr]
+CMO_0000507 : without definition [fr, en]
+CMO_0000506 : without label [fr]
+CMO_0000506 : without definition [fr, en]
+CMO_0000921 : without label [fr]
+CMO_0000921 : without definition [fr, en]
+CMO_0001356 : without label [fr]
+CMO_0001356 : without definition [fr, en]
+CMO_0002341 : without label [fr]
+CMO_0002341 : without definition [fr, en]
+CMO_0000204 : without label [fr]
+CMO_0000204 : without definition [fr, en]
+CMO_0001321 : without label [fr]
+CMO_0001321 : without definition [fr, en]
+CMO_0000379 : without label [fr]
+CMO_0000379 : without definition [fr, en]
+CMO_0000194 : without label [fr]
+CMO_0000194 : without definition [fr, en]
+CMO_0000106 : without label [fr]
+CMO_0000106 : without definition [fr, en]
+CMO_0000013 : without label [fr]
+CMO_0000013 : without definition [fr, en]
+CMO_0001766 : without label [fr]
+CMO_0001766 : without definition [fr, en]
+CMO_0001036 : without label [fr]
+CMO_0001036 : without definition [fr, en]
+CMO_0000001 : without label [fr]
+CMO_0000001 : without definition [fr, en]
+CMO_0000008 : without label [fr]
+CMO_0000008 : without definition [fr, en]
+CMO_0000004 : without label [fr]
+CMO_0000004 : without definition [fr, en]
+CMO_0000005 : without label [fr]
+CMO_0000005 : without definition [fr, en]
+CMO_0000294 : without label [fr]
+CMO_0000294 : without definition [fr, en]

@@ -1,0 +1,1665 @@
+/*
+-- =========================================================================== A
+Schema : OMRSE_iri
+Creation Date : 20181108-1142
+Encoding : UTF-8, sans BOM, fin de ligne Unix (LF)
+Plateforme : PostgreSQL 9.6
+Responsable : CK
+Version : v0
+Status : dev
+Objet :
+  Create views with short IRI of OMRSE_iri
+-- =========================================================================== A
+*/
+
+CREATE SCHEMA IF NOT EXISTS "OMRSE_iri";
+
+COMMENT ON SCHEMA "OMRSE_iri" IS 'Create views with short IRI of OMRSE_iri 20181108-1142';
+
+CREATE VIEW "OMRSE_iri"."T0000_Thing" AS
+  SELECT "T0000_uid" AS "uid_Thing"
+  FROM "OMRSE"."T0000";
+
+COMMENT ON VIEW "OMRSE_iri"."T0000_Thing" IS 'Thing::Top table';
+
+CREATE VIEW "OMRSE_iri"."T0001_C00c7X-OMRSE_00000075-I-BFO_0000051" AS
+  SELECT "T0001_uid" AS "uid_C00c7X-OMRSE_00000075-I-BFO_0000051"
+  FROM "OMRSE"."T0001";
+
+COMMENT ON VIEW "OMRSE_iri"."T0001_C00c7X-OMRSE_00000075-I-BFO_0000051" IS 'residence function INTERSECTION ::residence function INTERSECTION ';
+
+CREATE VIEW "OMRSE_iri"."T0002_C00cdX-OMRSE_00000019-I-OBI_0001688" AS
+  SELECT "T0002_uid" AS "uid_C00cdX-OMRSE_00000019-I-OBI_0001688"
+  FROM "OMRSE"."T0002";
+
+COMMENT ON VIEW "OMRSE_iri"."T0002_C00cdX-OMRSE_00000019-I-OBI_0001688" IS 'integrated delivery network INTERSECTION organization has organization member::integrated delivery network INTERSECTION organization has organization member';
+
+CREATE VIEW "OMRSE_iri"."T0003_OMRSE_00000069" AS
+  SELECT "T0003_uid" AS "uid_OMRSE_00000069"
+  FROM "OMRSE"."T0003";
+
+CREATE VIEW "OMRSE_iri"."T0004_OMRSE_00000057" AS
+  SELECT "T0004_uid" AS "uid_OMRSE_00000057"
+  FROM "OMRSE"."T0004";
+
+CREATE VIEW "OMRSE_iri"."T0005_IAO_0000027" AS
+  SELECT "T0005_uid" AS "uid_IAO_0000027"
+  FROM "OMRSE"."T0005";
+
+CREATE VIEW "OMRSE_iri"."T0006_OMRSE_00000045" AS
+  SELECT "T0006_uid" AS "uid_OMRSE_00000045"
+  FROM "OMRSE"."T0006";
+
+CREATE VIEW "OMRSE_iri"."T0007_OMRSE_00000142" AS
+  SELECT "T0007_uid" AS "uid_OMRSE_00000142"
+  FROM "OMRSE"."T0007";
+
+CREATE VIEW "OMRSE_iri"."T0008_OMRSE_00000033" AS
+  SELECT "T0008_uid" AS "uid_OMRSE_00000033"
+  FROM "OMRSE"."T0008";
+
+CREATE VIEW "OMRSE_iri"."T0009_OMRSE_00000130" AS
+  SELECT "T0009_uid" AS "uid_OMRSE_00000130"
+  FROM "OMRSE"."T0009";
+
+CREATE VIEW "OMRSE_iri"."T000a_C00cbX-IAO_0021022-U" AS
+  SELECT "T000a_uid" AS "uid_C00cbX-IAO_0021022-U"
+  FROM "OMRSE"."T000a";
+
+COMMENT ON VIEW "OMRSE_iri"."T000a_C00cbX-IAO_0021022-U" IS 'declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations::declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations';
+
+CREATE VIEW "OMRSE_iri"."T000b_OAE_0002807" AS
+  SELECT "T000b_uid" AS "uid_OAE_0002807"
+  FROM "OMRSE"."T000b";
+
+CREATE VIEW "OMRSE_iri"."T000c_OGMS_0000097" AS
+  SELECT "T000c_uid" AS "uid_OGMS_0000097"
+  FROM "OMRSE"."T000c";
+
+CREATE VIEW "OMRSE_iri"."T000d_NCBITaxon_9606" AS
+  SELECT "T000d_uid" AS "uid_NCBITaxon_9606"
+  FROM "OMRSE"."T000d";
+
+CREATE VIEW "OMRSE_iri"."T000e_OGMS_0000102" AS
+  SELECT "T000e_uid" AS "uid_OGMS_0000102"
+  FROM "OMRSE"."T000e";
+
+CREATE VIEW "OMRSE_iri"."T000f_IAO_0000001" AS
+  SELECT "T000f_uid" AS "uid_IAO_0000001"
+  FROM "OMRSE"."T000f";
+
+CREATE VIEW "OMRSE_iri"."T0010_OMRSE_00000058" AS
+  SELECT "T0010_uid" AS "uid_OMRSE_00000058"
+  FROM "OMRSE"."T0010";
+
+CREATE VIEW "OMRSE_iri"."T0011_OMRSE_00000046" AS
+  SELECT "T0011_uid" AS "uid_OMRSE_00000046"
+  FROM "OMRSE"."T0011";
+
+CREATE VIEW "OMRSE_iri"."T0012_OMRSE_00000034" AS
+  SELECT "T0012_uid" AS "uid_OMRSE_00000034"
+  FROM "OMRSE"."T0012";
+
+CREATE VIEW "OMRSE_iri"."T0013_OMRSE_00000022" AS
+  SELECT "T0013_uid" AS "uid_OMRSE_00000022"
+  FROM "OMRSE"."T0013";
+
+CREATE VIEW "OMRSE_iri"."T0014_OMRSE_00000010" AS
+  SELECT "T0014_uid" AS "uid_OMRSE_00000010"
+  FROM "OMRSE"."T0014";
+
+CREATE VIEW "OMRSE_iri"."T0015_OMRSE_00000131" AS
+  SELECT "T0015_uid" AS "uid_OMRSE_00000131"
+  FROM "OMRSE"."T0015";
+
+CREATE VIEW "OMRSE_iri"."T0016_OMRSE_00000090" AS
+  SELECT "T0016_uid" AS "uid_OMRSE_00000090"
+  FROM "OMRSE"."T0016";
+
+CREATE VIEW "OMRSE_iri"."T0017_C00e1X-OMRSE_00000002-U" AS
+  SELECT "T0017_uid" AS "uid_C00e1X-OMRSE_00000002-U"
+  FROM "OMRSE"."T0017";
+
+COMMENT ON VIEW "OMRSE_iri"."T0017_C00e1X-OMRSE_00000002-U" IS 'party to a legal entity UNION Homo sapiens organization::party to a legal entity UNION Homo sapiens organization';
+
+CREATE VIEW "OMRSE_iri"."T0018_OMRSE_00000108" AS
+  SELECT "T0018_uid" AS "uid_OMRSE_00000108"
+  FROM "OMRSE"."T0018";
+
+CREATE VIEW "OMRSE_iri"."T0019_OMRSE_00000079" AS
+  SELECT "T0019_uid" AS "uid_OMRSE_00000079"
+  FROM "OMRSE"."T0019";
+
+CREATE VIEW "OMRSE_iri"."T001a_IAO_0000005" AS
+  SELECT "T001a_uid" AS "uid_IAO_0000005"
+  FROM "OMRSE"."T001a";
+
+CREATE VIEW "OMRSE_iri"."T001b_OMRSE_00000067" AS
+  SELECT "T001b_uid" AS "uid_OMRSE_00000067"
+  FROM "OMRSE"."T001b";
+
+CREATE VIEW "OMRSE_iri"."T001c_OMRSE_00000055" AS
+  SELECT "T001c_uid" AS "uid_OMRSE_00000055"
+  FROM "OMRSE"."T001c";
+
+CREATE VIEW "OMRSE_iri"."T001d_OMRSE_00000043" AS
+  SELECT "T001d_uid" AS "uid_OMRSE_00000043"
+  FROM "OMRSE"."T001d";
+
+CREATE VIEW "OMRSE_iri"."T001e_OMRSE_00000031" AS
+  SELECT "T001e_uid" AS "uid_OMRSE_00000031"
+  FROM "OMRSE"."T001e";
+
+CREATE VIEW "OMRSE_iri"."T001f_OMRSE_00000140" AS
+  SELECT "T001f_uid" AS "uid_OMRSE_00000140"
+  FROM "OMRSE"."T001f";
+
+CREATE VIEW "OMRSE_iri"."T0020_OAE_0000002" AS
+  SELECT "T0020_uid" AS "uid_OAE_0000002"
+  FROM "OMRSE"."T0020";
+
+CREATE VIEW "OMRSE_iri"."T0021_BFO_0000029" AS
+  SELECT "T0021_uid" AS "uid_BFO_0000029"
+  FROM "OMRSE"."T0021";
+
+CREATE VIEW "OMRSE_iri"."T0022_OMRSE_00000109" AS
+  SELECT "T0022_uid" AS "uid_OMRSE_00000109"
+  FROM "OMRSE"."T0022";
+
+CREATE VIEW "OMRSE_iri"."T0023_OMRSE_00000056" AS
+  SELECT "T0023_uid" AS "uid_OMRSE_00000056"
+  FROM "OMRSE"."T0023";
+
+CREATE VIEW "OMRSE_iri"."T0024_IAO_0000572" AS
+  SELECT "T0024_uid" AS "uid_IAO_0000572"
+  FROM "OMRSE"."T0024";
+
+CREATE VIEW "OMRSE_iri"."T0025_OMRSE_00000044" AS
+  SELECT "T0025_uid" AS "uid_OMRSE_00000044"
+  FROM "OMRSE"."T0025";
+
+CREATE VIEW "OMRSE_iri"."T0026_OMRSE_00000032" AS
+  SELECT "T0026_uid" AS "uid_OMRSE_00000032"
+  FROM "OMRSE"."T0026";
+
+CREATE VIEW "OMRSE_iri"."T0027_OMRSE_00000141" AS
+  SELECT "T0027_uid" AS "uid_OMRSE_00000141"
+  FROM "OMRSE"."T0027";
+
+CREATE VIEW "OMRSE_iri"."T0028_BFO_0000038" AS
+  SELECT "T0028_uid" AS "uid_BFO_0000038"
+  FROM "OMRSE"."T0028";
+
+CREATE VIEW "OMRSE_iri"."T0029_IAO_0020024" AS
+  SELECT "T0029_uid" AS "uid_IAO_0020024"
+  FROM "OMRSE"."T0029";
+
+CREATE VIEW "OMRSE_iri"."T002a_OMRSE_00000502" AS
+  SELECT "T002a_uid" AS "uid_OMRSE_00000502"
+  FROM "OMRSE"."T002a";
+
+CREATE VIEW "OMRSE_iri"."T002b_OMRSE_00000049" AS
+  SELECT "T002b_uid" AS "uid_OMRSE_00000049"
+  FROM "OMRSE"."T002b";
+
+CREATE VIEW "OMRSE_iri"."T002c_OMRSE_00000037" AS
+  SELECT "T002c_uid" AS "uid_OMRSE_00000037"
+  FROM "OMRSE"."T002c";
+
+CREATE VIEW "OMRSE_iri"."T002d_OMRSE_00000025" AS
+  SELECT "T002d_uid" AS "uid_OMRSE_00000025"
+  FROM "OMRSE"."T002d";
+
+CREATE VIEW "OMRSE_iri"."T002e_OMRSE_00000134" AS
+  SELECT "T002e_uid" AS "uid_OMRSE_00000134"
+  FROM "OMRSE"."T002e";
+
+CREATE VIEW "OMRSE_iri"."T002f_OMRSE_00000013" AS
+  SELECT "T002f_uid" AS "uid_OMRSE_00000013"
+  FROM "OMRSE"."T002f";
+
+CREATE VIEW "OMRSE_iri"."T0030_IAO_0000104" AS
+  SELECT "T0030_uid" AS "uid_IAO_0000104"
+  FROM "OMRSE"."T0030";
+
+CREATE VIEW "OMRSE_iri"."T0031_OMRSE_00000001" AS
+  SELECT "T0031_uid" AS "uid_OMRSE_00000001"
+  FROM "OMRSE"."T0031";
+
+CREATE VIEW "OMRSE_iri"."T0032_OMRSE_00000122" AS
+  SELECT "T0032_uid" AS "uid_OMRSE_00000122"
+  FROM "OMRSE"."T0032";
+
+CREATE VIEW "OMRSE_iri"."T0033_OMRSE_00000110" AS
+  SELECT "T0033_uid" AS "uid_OMRSE_00000110"
+  FROM "OMRSE"."T0033";
+
+CREATE VIEW "OMRSE_iri"."T0034_IAO_0000007" AS
+  SELECT "T0034_uid" AS "uid_IAO_0000007"
+  FROM "OMRSE"."T0034";
+
+CREATE VIEW "OMRSE_iri"."T0035_OMRSE_00000093" AS
+  SELECT "T0035_uid" AS "uid_OMRSE_00000093"
+  FROM "OMRSE"."T0035";
+
+CREATE VIEW "OMRSE_iri"."T0036_IAO_0020023" AS
+  SELECT "T0036_uid" AS "uid_IAO_0020023"
+  FROM "OMRSE"."T0036";
+
+CREATE VIEW "OMRSE_iri"."T0037_OMRSE_00000081" AS
+  SELECT "T0037_uid" AS "uid_OMRSE_00000081"
+  FROM "OMRSE"."T0037";
+
+CREATE VIEW "OMRSE_iri"."T0038_IAO_0021005" AS
+  SELECT "T0038_uid" AS "uid_IAO_0021005"
+  FROM "OMRSE"."T0038";
+
+CREATE VIEW "OMRSE_iri"."T0039_C00c5X-OMRSE_00000024-U" AS
+  SELECT "T0039_uid" AS "uid_C00c5X-OMRSE_00000024-U"
+  FROM "OMRSE"."T0039";
+
+COMMENT ON VIEW "OMRSE_iri"."T0039_C00c5X-OMRSE_00000024-U" IS 'role in human social processes UNION organization organism::role in human social processes UNION organization organism';
+
+CREATE VIEW "OMRSE_iri"."T003a_BFO_0000015" AS
+  SELECT "T003a_uid" AS "uid_BFO_0000015"
+  FROM "OMRSE"."T003a";
+
+CREATE VIEW "OMRSE_iri"."T003b_BFO_0000027" AS
+  SELECT "T003b_uid" AS "uid_BFO_0000027"
+  FROM "OMRSE"."T003b";
+
+CREATE VIEW "OMRSE_iri"."T003c_BFO_0000148" AS
+  SELECT "T003c_uid" AS "uid_BFO_0000148"
+  FROM "OMRSE"."T003c";
+
+CREATE VIEW "OMRSE_iri"."T003d_C00d3X-OMRSE_00000077-I-OBI_0000312" AS
+  SELECT "T003d_uid" AS "uid_C00d3X-OMRSE_00000077-I-OBI_0000312"
+  FROM "OMRSE"."T003d";
+
+COMMENT ON VIEW "OMRSE_iri"."T003d_C00d3X-OMRSE_00000077-I-OBI_0000312" IS 'employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role';
+
+CREATE VIEW "OMRSE_iri"."T003e_OMRSE_00000503" AS
+  SELECT "T003e_uid" AS "uid_OMRSE_00000503"
+  FROM "OMRSE"."T003e";
+
+CREATE VIEW "OMRSE_iri"."T003f_OMRSE_00000038" AS
+  SELECT "T003f_uid" AS "uid_OMRSE_00000038"
+  FROM "OMRSE"."T003f";
+
+CREATE VIEW "OMRSE_iri"."T0040_OMRSE_00000026" AS
+  SELECT "T0040_uid" AS "uid_OMRSE_00000026"
+  FROM "OMRSE"."T0040";
+
+CREATE VIEW "OMRSE_iri"."T0041_OMRSE_00000014" AS
+  SELECT "T0041_uid" AS "uid_OMRSE_00000014"
+  FROM "OMRSE"."T0041";
+
+CREATE VIEW "OMRSE_iri"."T0042_OMRSE_00000135" AS
+  SELECT "T0042_uid" AS "uid_OMRSE_00000135"
+  FROM "OMRSE"."T0042";
+
+CREATE VIEW "OMRSE_iri"."T0043_OMRSE_00000002" AS
+  SELECT "T0043_uid" AS "uid_OMRSE_00000002"
+  FROM "OMRSE"."T0043";
+
+CREATE VIEW "OMRSE_iri"."T0044_OMRSE_00000123" AS
+  SELECT "T0044_uid" AS "uid_OMRSE_00000123"
+  FROM "OMRSE"."T0044";
+
+CREATE VIEW "OMRSE_iri"."T0045_OMRSE_00000111" AS
+  SELECT "T0045_uid" AS "uid_OMRSE_00000111"
+  FROM "OMRSE"."T0045";
+
+CREATE VIEW "OMRSE_iri"."T0046_OMRSE_00000094" AS
+  SELECT "T0046_uid" AS "uid_OMRSE_00000094"
+  FROM "OMRSE"."T0046";
+
+CREATE VIEW "OMRSE_iri"."T0047_OMRSE_00000082" AS
+  SELECT "T0047_uid" AS "uid_OMRSE_00000082"
+  FROM "OMRSE"."T0047";
+
+CREATE VIEW "OMRSE_iri"."T0048_IAO_0021004" AS
+  SELECT "T0048_uid" AS "uid_IAO_0021004"
+  FROM "OMRSE"."T0048";
+
+CREATE VIEW "OMRSE_iri"."T0049_C00dbX-OMRSE_00000086-I-OBI_0000312" AS
+  SELECT "T0049_uid" AS "uid_C00dbX-OMRSE_00000086-I-OBI_0000312"
+  FROM "OMRSE"."T0049";
+
+COMMENT ON VIEW "OMRSE_iri"."T0049_C00dbX-OMRSE_00000086-I-OBI_0000312" IS 'human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations';
+
+CREATE VIEW "OMRSE_iri"."T004a_IAO_0000578" AS
+  SELECT "T004a_uid" AS "uid_IAO_0000578"
+  FROM "OMRSE"."T004a";
+
+CREATE VIEW "OMRSE_iri"."T004b_OMRSE_00000059" AS
+  SELECT "T004b_uid" AS "uid_OMRSE_00000059"
+  FROM "OMRSE"."T004b";
+
+CREATE VIEW "OMRSE_iri"."T004c_OMRSE_00000047" AS
+  SELECT "T004c_uid" AS "uid_OMRSE_00000047"
+  FROM "OMRSE"."T004c";
+
+CREATE VIEW "OMRSE_iri"."T004d_OMRSE_00000500" AS
+  SELECT "T004d_uid" AS "uid_OMRSE_00000500"
+  FROM "OMRSE"."T004d";
+
+CREATE VIEW "OMRSE_iri"."T004e_OMRSE_00000035" AS
+  SELECT "T004e_uid" AS "uid_OMRSE_00000035"
+  FROM "OMRSE"."T004e";
+
+CREATE VIEW "OMRSE_iri"."T004f_OMRSE_00000023" AS
+  SELECT "T004f_uid" AS "uid_OMRSE_00000023"
+  FROM "OMRSE"."T004f";
+
+CREATE VIEW "OMRSE_iri"."T0050_OMRSE_00000011" AS
+  SELECT "T0050_uid" AS "uid_OMRSE_00000011"
+  FROM "OMRSE"."T0050";
+
+CREATE VIEW "OMRSE_iri"."T0051_OMRSE_00000132" AS
+  SELECT "T0051_uid" AS "uid_OMRSE_00000132"
+  FROM "OMRSE"."T0051";
+
+CREATE VIEW "OMRSE_iri"."T0052_OMRSE_00000120" AS
+  SELECT "T0052_uid" AS "uid_OMRSE_00000120"
+  FROM "OMRSE"."T0052";
+
+CREATE VIEW "OMRSE_iri"."T0053_C00c1X-OMRSE_00000058-I-OBI_0000312" AS
+  SELECT "T0053_uid" AS "uid_C00c1X-OMRSE_00000058-I-OBI_0000312"
+  FROM "OMRSE"."T0053";
+
+COMMENT ON VIEW "OMRSE_iri"."T0053_C00c1X-OMRSE_00000058-I-OBI_0000312" IS 'student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization::student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization';
+
+CREATE VIEW "OMRSE_iri"."T0054_C00c9X-OMRSE_00000012-U" AS
+  SELECT "T0054_uid" AS "uid_C00c9X-OMRSE_00000012-U"
+  FROM "OMRSE"."T0054";
+
+COMMENT ON VIEW "OMRSE_iri"."T0054_C00c9X-OMRSE_00000012-U" IS 'health care provider role UNION Homo sapiens organization::health care provider role UNION Homo sapiens organization';
+
+CREATE VIEW "OMRSE_iri"."T0055_OMRSE_00000091" AS
+  SELECT "T0055_uid" AS "uid_OMRSE_00000091"
+  FROM "OMRSE"."T0055";
+
+CREATE VIEW "OMRSE_iri"."T0056_C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U" AS
+  SELECT "T0056_uid" AS "uid_C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U"
+  FROM "OMRSE"."T0056";
+
+COMMENT ON VIEW "OMRSE_iri"."T0056_C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U" IS 'human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations';
+
+CREATE VIEW "OMRSE_iri"."T0057_OMRSE_00000048" AS
+  SELECT "T0057_uid" AS "uid_OMRSE_00000048"
+  FROM "OMRSE"."T0057";
+
+CREATE VIEW "OMRSE_iri"."T0058_OMRSE_00000501" AS
+  SELECT "T0058_uid" AS "uid_OMRSE_00000501"
+  FROM "OMRSE"."T0058";
+
+CREATE VIEW "OMRSE_iri"."T0059_OMRSE_00000036" AS
+  SELECT "T0059_uid" AS "uid_OMRSE_00000036"
+  FROM "OMRSE"."T0059";
+
+CREATE VIEW "OMRSE_iri"."T005a_OMRSE_00000024" AS
+  SELECT "T005a_uid" AS "uid_OMRSE_00000024"
+  FROM "OMRSE"."T005a";
+
+CREATE VIEW "OMRSE_iri"."T005b_IAO_0000310" AS
+  SELECT "T005b_uid" AS "uid_IAO_0000310"
+  FROM "OMRSE"."T005b";
+
+CREATE VIEW "OMRSE_iri"."T005c_OMRSE_00000012" AS
+  SELECT "T005c_uid" AS "uid_OMRSE_00000012"
+  FROM "OMRSE"."T005c";
+
+CREATE VIEW "OMRSE_iri"."T005d_OMRSE_00000133" AS
+  SELECT "T005d_uid" AS "uid_OMRSE_00000133"
+  FROM "OMRSE"."T005d";
+
+CREATE VIEW "OMRSE_iri"."T005e_OMRSE_00000000" AS
+  SELECT "T005e_uid" AS "uid_OMRSE_00000000"
+  FROM "OMRSE"."T005e";
+
+CREATE VIEW "OMRSE_iri"."T005f_OMRSE_00000121" AS
+  SELECT "T005f_uid" AS "uid_OMRSE_00000121"
+  FROM "OMRSE"."T005f";
+
+CREATE VIEW "OMRSE_iri"."T0060_OMRSE_00000092" AS
+  SELECT "T0060_uid" AS "uid_OMRSE_00000092"
+  FROM "OMRSE"."T0060";
+
+CREATE VIEW "OMRSE_iri"."T0061_BFO_0000034" AS
+  SELECT "T0061_uid" AS "uid_BFO_0000034"
+  FROM "OMRSE"."T0061";
+
+CREATE VIEW "OMRSE_iri"."T0062_OMRSE_00000506" AS
+  SELECT "T0062_uid" AS "uid_OMRSE_00000506"
+  FROM "OMRSE"."T0062";
+
+CREATE VIEW "OMRSE_iri"."T0063_C00cfX-OMRSE_00000102-U-el1" AS
+  SELECT "T0063_uid" AS "uid_C00cfX-OMRSE_00000102-U-el1"
+  FROM "OMRSE"."T0063";
+
+COMMENT ON VIEW "OMRSE_iri"."T0063_C00cfX-OMRSE_00000102-U-el1" IS 'health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by';
+
+CREATE VIEW "OMRSE_iri"."T0064_OBI_0000245" AS
+  SELECT "T0064_uid" AS "uid_OBI_0000245"
+  FROM "OMRSE"."T0064";
+
+CREATE VIEW "OMRSE_iri"."T0065_IAO_0000030" AS
+  SELECT "T0065_uid" AS "uid_IAO_0000030"
+  FROM "OMRSE"."T0065";
+
+CREATE VIEW "OMRSE_iri"."T0066_C00e3X-OMRSE_00000082-I-RO_0000052" AS
+  SELECT "T0066_uid" AS "uid_C00e3X-OMRSE_00000082-I-RO_0000052"
+  FROM "OMRSE"."T0066";
+
+COMMENT ON VIEW "OMRSE_iri"."T0066_C00e3X-OMRSE_00000082-I-RO_0000052" IS 'US Census reference person role INTERSECTION Homo sapiens household::US Census reference person role INTERSECTION Homo sapiens household';
+
+CREATE VIEW "OMRSE_iri"."T0067_OMRSE_00000029" AS
+  SELECT "T0067_uid" AS "uid_OMRSE_00000029"
+  FROM "OMRSE"."T0067";
+
+CREATE VIEW "OMRSE_iri"."T0068_OMRSE_00000017" AS
+  SELECT "T0068_uid" AS "uid_OMRSE_00000017"
+  FROM "OMRSE"."T0068";
+
+CREATE VIEW "OMRSE_iri"."T0069_OMRSE_00000138" AS
+  SELECT "T0069_uid" AS "uid_OMRSE_00000138"
+  FROM "OMRSE"."T0069";
+
+CREATE VIEW "OMRSE_iri"."T006a_OMRSE_00000005" AS
+  SELECT "T006a_uid" AS "uid_OMRSE_00000005"
+  FROM "OMRSE"."T006a";
+
+CREATE VIEW "OMRSE_iri"."T006b_OMRSE_00000126" AS
+  SELECT "T006b_uid" AS "uid_OMRSE_00000126"
+  FROM "OMRSE"."T006b";
+
+CREATE VIEW "OMRSE_iri"."T006c_OMRSE_00000114" AS
+  SELECT "T006c_uid" AS "uid_OMRSE_00000114"
+  FROM "OMRSE"."T006c";
+
+CREATE VIEW "OMRSE_iri"."T006d_OMRSE_00000102" AS
+  SELECT "T006d_uid" AS "uid_OMRSE_00000102"
+  FROM "OMRSE"."T006d";
+
+CREATE VIEW "OMRSE_iri"."T006e_OMRSE_00000097" AS
+  SELECT "T006e_uid" AS "uid_OMRSE_00000097"
+  FROM "OMRSE"."T006e";
+
+CREATE VIEW "OMRSE_iri"."T006f_OMRSE_00000085" AS
+  SELECT "T006f_uid" AS "uid_OMRSE_00000085"
+  FROM "OMRSE"."T006f";
+
+CREATE VIEW "OMRSE_iri"."T0070_OMRSE_00000073" AS
+  SELECT "T0070_uid" AS "uid_OMRSE_00000073"
+  FROM "OMRSE"."T0070";
+
+CREATE VIEW "OMRSE_iri"."T0071_OMRSE_00000182" AS
+  SELECT "T0071_uid" AS "uid_OMRSE_00000182"
+  FROM "OMRSE"."T0071";
+
+CREATE VIEW "OMRSE_iri"."T0072_OMRSE_00000061" AS
+  SELECT "T0072_uid" AS "uid_OMRSE_00000061"
+  FROM "OMRSE"."T0072";
+
+CREATE VIEW "OMRSE_iri"."T0073_ObsoleteClass" AS
+  SELECT "T0073_uid" AS "uid_ObsoleteClass"
+  FROM "OMRSE"."T0073";
+
+CREATE VIEW "OMRSE_iri"."T0074_BFO_0000023" AS
+  SELECT "T0074_uid" AS "uid_BFO_0000023"
+  FROM "OMRSE"."T0074";
+
+CREATE VIEW "OMRSE_iri"."T0075_OMRSE_00000018" AS
+  SELECT "T0075_uid" AS "uid_OMRSE_00000018"
+  FROM "OMRSE"."T0075";
+
+CREATE VIEW "OMRSE_iri"."T0076_OMRSE_00000139" AS
+  SELECT "T0076_uid" AS "uid_OMRSE_00000139"
+  FROM "OMRSE"."T0076";
+
+CREATE VIEW "OMRSE_iri"."T0077_OMRSE_00000006" AS
+  SELECT "T0077_uid" AS "uid_OMRSE_00000006"
+  FROM "OMRSE"."T0077";
+
+CREATE VIEW "OMRSE_iri"."T0078_OMRSE_00000127" AS
+  SELECT "T0078_uid" AS "uid_OMRSE_00000127"
+  FROM "OMRSE"."T0078";
+
+CREATE VIEW "OMRSE_iri"."T0079_OMRSE_00000115" AS
+  SELECT "T0079_uid" AS "uid_OMRSE_00000115"
+  FROM "OMRSE"."T0079";
+
+CREATE VIEW "OMRSE_iri"."T007a_OMRSE_00000103" AS
+  SELECT "T007a_uid" AS "uid_OMRSE_00000103"
+  FROM "OMRSE"."T007a";
+
+CREATE VIEW "OMRSE_iri"."T007b_OMRSE_00000098" AS
+  SELECT "T007b_uid" AS "uid_OMRSE_00000098"
+  FROM "OMRSE"."T007b";
+
+CREATE VIEW "OMRSE_iri"."T007c_OMRSE_00000086" AS
+  SELECT "T007c_uid" AS "uid_OMRSE_00000086"
+  FROM "OMRSE"."T007c";
+
+CREATE VIEW "OMRSE_iri"."T007d_OMRSE_00000074" AS
+  SELECT "T007d_uid" AS "uid_OMRSE_00000074"
+  FROM "OMRSE"."T007d";
+
+CREATE VIEW "OMRSE_iri"."T007e_OMRSE_00000062" AS
+  SELECT "T007e_uid" AS "uid_OMRSE_00000062"
+  FROM "OMRSE"."T007e";
+
+CREATE VIEW "OMRSE_iri"."T007f_OMRSE_00000050" AS
+  SELECT "T007f_uid" AS "uid_OMRSE_00000050"
+  FROM "OMRSE"."T007f";
+
+CREATE VIEW "OMRSE_iri"."T0080_OMRSE_00000183" AS
+  SELECT "T0080_uid" AS "uid_OMRSE_00000183"
+  FROM "OMRSE"."T0080";
+
+CREATE VIEW "OMRSE_iri"."T0081_OAE_0000067" AS
+  SELECT "T0081_uid" AS "uid_OAE_0000067"
+  FROM "OMRSE"."T0081";
+
+CREATE VIEW "OMRSE_iri"."T0082_IAO_0021002" AS
+  SELECT "T0082_uid" AS "uid_IAO_0021002"
+  FROM "OMRSE"."T0082";
+
+CREATE VIEW "OMRSE_iri"."T0083_OMRSE_00000504" AS
+  SELECT "T0083_uid" AS "uid_OMRSE_00000504"
+  FROM "OMRSE"."T0083";
+
+CREATE VIEW "OMRSE_iri"."T0084_OMRSE_00000039" AS
+  SELECT "T0084_uid" AS "uid_OMRSE_00000039"
+  FROM "OMRSE"."T0084";
+
+CREATE VIEW "OMRSE_iri"."T0085_OMRSE_00000027" AS
+  SELECT "T0085_uid" AS "uid_OMRSE_00000027"
+  FROM "OMRSE"."T0085";
+
+CREATE VIEW "OMRSE_iri"."T0086_OMRSE_00000015" AS
+  SELECT "T0086_uid" AS "uid_OMRSE_00000015"
+  FROM "OMRSE"."T0086";
+
+CREATE VIEW "OMRSE_iri"."T0087_OMRSE_00000003" AS
+  SELECT "T0087_uid" AS "uid_OMRSE_00000003"
+  FROM "OMRSE"."T0087";
+
+CREATE VIEW "OMRSE_iri"."T0088_OMRSE_00000124" AS
+  SELECT "T0088_uid" AS "uid_OMRSE_00000124"
+  FROM "OMRSE"."T0088";
+
+CREATE VIEW "OMRSE_iri"."T0089_C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U" AS
+  SELECT "T0089_uid" AS "uid_C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U"
+  FROM "OMRSE"."T0089";
+
+COMMENT ON VIEW "OMRSE_iri"."T0089_C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U" IS 'employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans';
+
+CREATE VIEW "OMRSE_iri"."T008a_OMRSE_00000112" AS
+  SELECT "T008a_uid" AS "uid_OMRSE_00000112"
+  FROM "OMRSE"."T008a";
+
+CREATE VIEW "OMRSE_iri"."T008b_OMRSE_00000100" AS
+  SELECT "T008b_uid" AS "uid_OMRSE_00000100"
+  FROM "OMRSE"."T008b";
+
+CREATE VIEW "OMRSE_iri"."T008c_OMRSE_00000095" AS
+  SELECT "T008c_uid" AS "uid_OMRSE_00000095"
+  FROM "OMRSE"."T008c";
+
+CREATE VIEW "OMRSE_iri"."T008d_OMRSE_00000083" AS
+  SELECT "T008d_uid" AS "uid_OMRSE_00000083"
+  FROM "OMRSE"."T008d";
+
+CREATE VIEW "OMRSE_iri"."T008e_IAO_0021003" AS
+  SELECT "T008e_uid" AS "uid_IAO_0021003"
+  FROM "OMRSE"."T008e";
+
+CREATE VIEW "OMRSE_iri"."T008f_OMRSE_00000180" AS
+  SELECT "T008f_uid" AS "uid_OMRSE_00000180"
+  FROM "OMRSE"."T008f";
+
+CREATE VIEW "OMRSE_iri"."T0090_BFO_0000020" AS
+  SELECT "T0090_uid" AS "uid_BFO_0000020"
+  FROM "OMRSE"."T0090";
+
+CREATE VIEW "OMRSE_iri"."T0091_IAO_0020021" AS
+  SELECT "T0091_uid" AS "uid_IAO_0020021"
+  FROM "OMRSE"."T0091";
+
+CREATE VIEW "OMRSE_iri"."T0092_OMRSE_00000505" AS
+  SELECT "T0092_uid" AS "uid_OMRSE_00000505"
+  FROM "OMRSE"."T0092";
+
+CREATE VIEW "OMRSE_iri"."T0093_OMRSE_00000028" AS
+  SELECT "T0093_uid" AS "uid_OMRSE_00000028"
+  FROM "OMRSE"."T0093";
+
+CREATE VIEW "OMRSE_iri"."T0094_OMRSE_00000016" AS
+  SELECT "T0094_uid" AS "uid_OMRSE_00000016"
+  FROM "OMRSE"."T0094";
+
+CREATE VIEW "OMRSE_iri"."T0095_OMRSE_00000004" AS
+  SELECT "T0095_uid" AS "uid_OMRSE_00000004"
+  FROM "OMRSE"."T0095";
+
+CREATE VIEW "OMRSE_iri"."T0096_OMRSE_00000125" AS
+  SELECT "T0096_uid" AS "uid_OMRSE_00000125"
+  FROM "OMRSE"."T0096";
+
+CREATE VIEW "OMRSE_iri"."T0097_OMRSE_00000113" AS
+  SELECT "T0097_uid" AS "uid_OMRSE_00000113"
+  FROM "OMRSE"."T0097";
+
+CREATE VIEW "OMRSE_iri"."T0098_OMRSE_00000101" AS
+  SELECT "T0098_uid" AS "uid_OMRSE_00000101"
+  FROM "OMRSE"."T0098";
+
+CREATE VIEW "OMRSE_iri"."T0099_OMRSE_00000096" AS
+  SELECT "T0099_uid" AS "uid_OMRSE_00000096"
+  FROM "OMRSE"."T0099";
+
+CREATE VIEW "OMRSE_iri"."T009a_OMRSE_00000084" AS
+  SELECT "T009a_uid" AS "uid_OMRSE_00000084"
+  FROM "OMRSE"."T009a";
+
+CREATE VIEW "OMRSE_iri"."T009b_OMRSE_00000072" AS
+  SELECT "T009b_uid" AS "uid_OMRSE_00000072"
+  FROM "OMRSE"."T009b";
+
+CREATE VIEW "OMRSE_iri"."T009c_IAO_0020022" AS
+  SELECT "T009c_uid" AS "uid_IAO_0020022"
+  FROM "OMRSE"."T009c";
+
+CREATE VIEW "OMRSE_iri"."T009d_OMRSE_00000060" AS
+  SELECT "T009d_uid" AS "uid_OMRSE_00000060"
+  FROM "OMRSE"."T009d";
+
+CREATE VIEW "OMRSE_iri"."T009e_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312" AS
+  SELECT "T009e_uid" AS "uid_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312"
+  FROM "OMRSE"."T009e";
+
+COMMENT ON VIEW "OMRSE_iri"."T009e_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312" IS 'employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role';
+
+CREATE VIEW "OMRSE_iri"."T009f_OMRSE_00000181" AS
+  SELECT "T009f_uid" AS "uid_OMRSE_00000181"
+  FROM "OMRSE"."T009f";
+
+CREATE VIEW "OMRSE_iri"."T00a0_C00bdX-OMRSE_00000038-U" AS
+  SELECT "T00a0_uid" AS "uid_C00bdX-OMRSE_00000038-U"
+  FROM "OMRSE"."T00a0";
+
+COMMENT ON VIEW "OMRSE_iri"."T00a0_C00bdX-OMRSE_00000038-U" IS 'legal person role UNION Homo sapiens collection of humans::legal person role UNION Homo sapiens collection of humans';
+
+CREATE VIEW "OMRSE_iri"."T00a1_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312" AS
+  SELECT "T00a1_uid" AS "uid_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312"
+  FROM "OMRSE"."T00a1";
+
+COMMENT ON VIEW "OMRSE_iri"."T00a1_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312" IS 'human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations';
+
+CREATE VIEW "OMRSE_iri"."T00a2_OBI_0000011" AS
+  SELECT "T00a2_uid" AS "uid_OBI_0000011"
+  FROM "OMRSE"."T00a2";
+
+CREATE VIEW "OMRSE_iri"."T00a3_OMRSE_00000009" AS
+  SELECT "T00a3_uid" AS "uid_OMRSE_00000009"
+  FROM "OMRSE"."T00a3";
+
+CREATE VIEW "OMRSE_iri"."T00a4_OMRSE_00000118" AS
+  SELECT "T00a4_uid" AS "uid_OMRSE_00000118"
+  FROM "OMRSE"."T00a4";
+
+CREATE VIEW "OMRSE_iri"."T00a5_OMRSE_00000106" AS
+  SELECT "T00a5_uid" AS "uid_OMRSE_00000106"
+  FROM "OMRSE"."T00a5";
+
+CREATE VIEW "OMRSE_iri"."T00a6_OMRSE_00000089" AS
+  SELECT "T00a6_uid" AS "uid_OMRSE_00000089"
+  FROM "OMRSE"."T00a6";
+
+CREATE VIEW "OMRSE_iri"."T00a7_OMRSE_00000077" AS
+  SELECT "T00a7_uid" AS "uid_OMRSE_00000077"
+  FROM "OMRSE"."T00a7";
+
+CREATE VIEW "OMRSE_iri"."T00a8_OMRSE_00000186" AS
+  SELECT "T00a8_uid" AS "uid_OMRSE_00000186"
+  FROM "OMRSE"."T00a8";
+
+CREATE VIEW "OMRSE_iri"."T00a9_OMRSE_00000065" AS
+  SELECT "T00a9_uid" AS "uid_OMRSE_00000065"
+  FROM "OMRSE"."T00a9";
+
+CREATE VIEW "OMRSE_iri"."T00aa_OMRSE_00000053" AS
+  SELECT "T00aa_uid" AS "uid_OMRSE_00000053"
+  FROM "OMRSE"."T00aa";
+
+CREATE VIEW "OMRSE_iri"."T00ab_OMRSE_00000041" AS
+  SELECT "T00ab_uid" AS "uid_OMRSE_00000041"
+  FROM "OMRSE"."T00ab";
+
+CREATE VIEW "OMRSE_iri"."T00ac_C00bfX-OMRSE_00000017-I-OBI_0001688" AS
+  SELECT "T00ac_uid" AS "uid_C00bfX-OMRSE_00000017-I-OBI_0001688"
+  FROM "OMRSE"."T00ac";
+
+COMMENT ON VIEW "OMRSE_iri"."T00ac_C00bfX-OMRSE_00000017-I-OBI_0001688" IS 'physician practice INTERSECTION organization has organization member is bearer of physician role::physician practice INTERSECTION organization has organization member is bearer of physician role';
+
+CREATE VIEW "OMRSE_iri"."T00ad_OMRSE_00000119" AS
+  SELECT "T00ad_uid" AS "uid_OMRSE_00000119"
+  FROM "OMRSE"."T00ad";
+
+CREATE VIEW "OMRSE_iri"."T00ae_OMRSE_00000107" AS
+  SELECT "T00ae_uid" AS "uid_OMRSE_00000107"
+  FROM "OMRSE"."T00ae";
+
+CREATE VIEW "OMRSE_iri"."T00af_OMRSE_00000078" AS
+  SELECT "T00af_uid" AS "uid_OMRSE_00000078"
+  FROM "OMRSE"."T00af";
+
+CREATE VIEW "OMRSE_iri"."T00b0_OMRSE_00000066" AS
+  SELECT "T00b0_uid" AS "uid_OMRSE_00000066"
+  FROM "OMRSE"."T00b0";
+
+CREATE VIEW "OMRSE_iri"."T00b1_OMRSE_00000054" AS
+  SELECT "T00b1_uid" AS "uid_OMRSE_00000054"
+  FROM "OMRSE"."T00b1";
+
+CREATE VIEW "OMRSE_iri"."T00b2_OMRSE_00000187" AS
+  SELECT "T00b2_uid" AS "uid_OMRSE_00000187"
+  FROM "OMRSE"."T00b2";
+
+CREATE VIEW "OMRSE_iri"."T00b3_OMRSE_00000042" AS
+  SELECT "T00b3_uid" AS "uid_OMRSE_00000042"
+  FROM "OMRSE"."T00b3";
+
+CREATE VIEW "OMRSE_iri"."T00b4_OMRSE_00000030" AS
+  SELECT "T00b4_uid" AS "uid_OMRSE_00000030"
+  FROM "OMRSE"."T00b4";
+
+CREATE VIEW "OMRSE_iri"."T00b5_BFO_0000031" AS
+  SELECT "T00b5_uid" AS "uid_BFO_0000031"
+  FROM "OMRSE"."T00b5";
+
+CREATE VIEW "OMRSE_iri"."T00b6_IAO_0021022" AS
+  SELECT "T00b6_uid" AS "uid_IAO_0021022"
+  FROM "OMRSE"."T00b6";
+
+CREATE VIEW "OMRSE_iri"."T00b7_OMRSE_00000019" AS
+  SELECT "T00b7_uid" AS "uid_OMRSE_00000019"
+  FROM "OMRSE"."T00b7";
+
+CREATE VIEW "OMRSE_iri"."T00b8_OBI_0100026" AS
+  SELECT "T00b8_uid" AS "uid_OBI_0100026"
+  FROM "OMRSE"."T00b8";
+
+CREATE VIEW "OMRSE_iri"."T00b9_OMRSE_00000007" AS
+  SELECT "T00b9_uid" AS "uid_OMRSE_00000007"
+  FROM "OMRSE"."T00b9";
+
+CREATE VIEW "OMRSE_iri"."T00ba_OMRSE_00000128" AS
+  SELECT "T00ba_uid" AS "uid_OMRSE_00000128"
+  FROM "OMRSE"."T00ba";
+
+CREATE VIEW "OMRSE_iri"."T00bb_OMRSE_00000116" AS
+  SELECT "T00bb_uid" AS "uid_OMRSE_00000116"
+  FROM "OMRSE"."T00bb";
+
+CREATE VIEW "OMRSE_iri"."T00bc_OMRSE_00000104" AS
+  SELECT "T00bc_uid" AS "uid_OMRSE_00000104"
+  FROM "OMRSE"."T00bc";
+
+CREATE VIEW "OMRSE_iri"."T00bd_OMRSE_00000099" AS
+  SELECT "T00bd_uid" AS "uid_OMRSE_00000099"
+  FROM "OMRSE"."T00bd";
+
+CREATE VIEW "OMRSE_iri"."T00be_OMRSE_00000087" AS
+  SELECT "T00be_uid" AS "uid_OMRSE_00000087"
+  FROM "OMRSE"."T00be";
+
+CREATE VIEW "OMRSE_iri"."T00bf_OMRSE_00000075" AS
+  SELECT "T00bf_uid" AS "uid_OMRSE_00000075"
+  FROM "OMRSE"."T00bf";
+
+CREATE VIEW "OMRSE_iri"."T00c0_OMRSE_00000184" AS
+  SELECT "T00c0_uid" AS "uid_OMRSE_00000184"
+  FROM "OMRSE"."T00c0";
+
+CREATE VIEW "OMRSE_iri"."T00c1_OMRSE_00000063" AS
+  SELECT "T00c1_uid" AS "uid_OMRSE_00000063"
+  FROM "OMRSE"."T00c1";
+
+CREATE VIEW "OMRSE_iri"."T00c2_OMRSE_00000051" AS
+  SELECT "T00c2_uid" AS "uid_OMRSE_00000051"
+  FROM "OMRSE"."T00c2";
+
+CREATE VIEW "OMRSE_iri"."T00c3_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312" AS
+  SELECT "T00c3_uid" AS "uid_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312"
+  FROM "OMRSE"."T00c3";
+
+COMMENT ON VIEW "OMRSE_iri"."T00c3_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312" IS 'student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization::student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization';
+
+CREATE VIEW "OMRSE_iri"."T00c4_BFO_0000040" AS
+  SELECT "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T00c4";
+
+CREATE VIEW "OMRSE_iri"."T00c5_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312" AS
+  SELECT "T00c5_uid" AS "uid_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312"
+  FROM "OMRSE"."T00c5";
+
+COMMENT ON VIEW "OMRSE_iri"."T00c5_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312" IS 'employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role';
+
+CREATE VIEW "OMRSE_iri"."T00c6_OMRSE_00000008" AS
+  SELECT "T00c6_uid" AS "uid_OMRSE_00000008"
+  FROM "OMRSE"."T00c6";
+
+CREATE VIEW "OMRSE_iri"."T00c7_OMRSE_00000129" AS
+  SELECT "T00c7_uid" AS "uid_OMRSE_00000129"
+  FROM "OMRSE"."T00c7";
+
+CREATE VIEW "OMRSE_iri"."T00c8_C00cfX-OMRSE_00000102-U-el0" AS
+  SELECT "T00c8_uid" AS "uid_C00cfX-OMRSE_00000102-U-el0"
+  FROM "OMRSE"."T00c8";
+
+COMMENT ON VIEW "OMRSE_iri"."T00c8_C00cfX-OMRSE_00000102-U-el0" IS 'health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility';
+
+CREATE VIEW "OMRSE_iri"."T00c9_IAO_0000416" AS
+  SELECT "T00c9_uid" AS "uid_IAO_0000416"
+  FROM "OMRSE"."T00c9";
+
+CREATE VIEW "OMRSE_iri"."T00ca_OMRSE_00000117" AS
+  SELECT "T00ca_uid" AS "uid_OMRSE_00000117"
+  FROM "OMRSE"."T00ca";
+
+CREATE VIEW "OMRSE_iri"."T00cb_OMRSE_00000105" AS
+  SELECT "T00cb_uid" AS "uid_OMRSE_00000105"
+  FROM "OMRSE"."T00cb";
+
+CREATE VIEW "OMRSE_iri"."T00cc_OMRSE_00000088" AS
+  SELECT "T00cc_uid" AS "uid_OMRSE_00000088"
+  FROM "OMRSE"."T00cc";
+
+CREATE VIEW "OMRSE_iri"."T00cd_OMRSE_00000076" AS
+  SELECT "T00cd_uid" AS "uid_OMRSE_00000076"
+  FROM "OMRSE"."T00cd";
+
+CREATE VIEW "OMRSE_iri"."T00ce_OMRSE_00000064" AS
+  SELECT "T00ce_uid" AS "uid_OMRSE_00000064"
+  FROM "OMRSE"."T00ce";
+
+CREATE VIEW "OMRSE_iri"."T00cf_OMRSE_00000052" AS
+  SELECT "T00cf_uid" AS "uid_OMRSE_00000052"
+  FROM "OMRSE"."T00cf";
+
+CREATE VIEW "OMRSE_iri"."T00d0_OMRSE_00000185" AS
+  SELECT "T00d0_uid" AS "uid_OMRSE_00000185"
+  FROM "OMRSE"."T00d0";
+
+CREATE VIEW "OMRSE_iri"."T00d1_OMRSE_00000040" AS
+  SELECT "T00d1_uid" AS "uid_OMRSE_00000040"
+  FROM "OMRSE"."T00d1";
+
+CREATE VIEW "OMRSE_iri"."T00d2_C00cfX-OMRSE_00000102-U" AS
+  SELECT "T00d2_uid" AS "uid_C00cfX-OMRSE_00000102-U"
+  FROM "OMRSE"."T00d2";
+
+COMMENT ON VIEW "OMRSE_iri"."T00d2_C00cfX-OMRSE_00000102-U" IS 'health care facility UNION is owned by is bearer of health care provider organization role facility is administered by::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by';
+
+CREATE VIEW "OMRSE_iri"."T00d3_BFO_0000038_OMRSE_00000136" AS
+  SELECT "xid" AS "xid",  
+    "T0028_uid" AS "uid_BFO_0000038",  
+    "OMRSE_00000136" AS "OMRSE_00000136"
+  FROM "OMRSE"."T00d3";
+
+COMMENT ON VIEW "OMRSE_iri"."T00d3_BFO_0000038_OMRSE_00000136" IS 'BFO_0000038 date::BFO_0000038 [1..*] OMRSE_00000136 string';
+
+CREATE VIEW "OMRSE_iri"."T00d4_BFO_0000038_OMRSE_00000137" AS
+  SELECT "xid" AS "xid",  
+    "T0028_uid" AS "uid_BFO_0000038",  
+    "OMRSE_00000137" AS "OMRSE_00000137"
+  FROM "OMRSE"."T00d4";
+
+COMMENT ON VIEW "OMRSE_iri"."T00d4_BFO_0000038_OMRSE_00000137" IS 'BFO_0000038 time of day::BFO_0000038 [1..*] OMRSE_00000137 string';
+
+CREATE VIEW "OMRSE_iri"."T00d5_BFO_0000148_OMRSE_00000137" AS
+  SELECT "xid" AS "xid",  
+    "T003c_uid" AS "uid_BFO_0000148",  
+    "OMRSE_00000137" AS "OMRSE_00000137"
+  FROM "OMRSE"."T00d5";
+
+COMMENT ON VIEW "OMRSE_iri"."T00d5_BFO_0000148_OMRSE_00000137" IS 'BFO_0000148 time of day::BFO_0000148 [1..*] OMRSE_00000137 string';
+
+CREATE VIEW "OMRSE_iri"."T00d6_BFO_0000040_OMIABIS_0000048_NCBITaxon_9606" AS
+  SELECT "T00c4_uid" AS "uid_BFO_0000040",  
+    "xid" AS "xid",  
+    "T000d_uid" AS "uid_NCBITaxon_9606"
+  FROM "OMRSE"."T00d6";
+
+COMMENT ON VIEW "OMRSE_iri"."T00d6_BFO_0000040_OMIABIS_0000048_NCBITaxon_9606" IS 'BFO_0000040 is owned by Homo sapiens::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00d7_IAO_0000030_OMIABIS_0000048_NCBITaxon_9606" AS
+  SELECT "T0065_uid" AS "uid_IAO_0000030",  
+    "xid" AS "xid",  
+    "T000d_uid" AS "uid_NCBITaxon_9606"
+  FROM "OMRSE"."T00d7";
+
+COMMENT ON VIEW "OMRSE_iri"."T00d7_IAO_0000030_OMIABIS_0000048_NCBITaxon_9606" IS 'IAO_0000030 is owned by Homo sapiens::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00d8_IAO_0020022_BFO_0000051_IAO_0000030" AS
+  SELECT "T009c_uid" AS "uid_IAO_0020022",  
+    "xid" AS "xid",  
+    "T0065_uid" AS "uid_IAO_0000030"
+  FROM "OMRSE"."T00d8";
+
+COMMENT ON VIEW "OMRSE_iri"."T00d8_IAO_0020022_BFO_0000051_IAO_0000030" IS 'documented identity BFO_0000051 IAO_0000030::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00d9_IAO_0020022_IAO_0000136_IAO_0020021" AS
+  SELECT "T009c_uid" AS "uid_IAO_0020022",  
+    "xid" AS "xid",  
+    "T0091_uid" AS "uid_IAO_0020021"
+  FROM "OMRSE"."T00d9";
+
+COMMENT ON VIEW "OMRSE_iri"."T00d9_IAO_0020022_IAO_0000136_IAO_0020021" IS 'documented identity IAO_0000136 identity document::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00da_IAO_0020023_BFO_0000055_IAO_0020024" AS
+  SELECT "T0036_uid" AS "uid_IAO_0020023",  
+    "xid" AS "xid",  
+    "T0029_uid" AS "uid_IAO_0020024"
+  FROM "OMRSE"."T00da";
+
+COMMENT ON VIEW "OMRSE_iri"."T00da_IAO_0020023_BFO_0000055_IAO_0020024" IS 'authentication BFO_0000055 credential role::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00db_IAO_0020023_RO_0000057_IAO_0000027" AS
+  SELECT "T0036_uid" AS "uid_IAO_0020023",  
+    "xid" AS "xid",  
+    "T0005_uid" AS "uid_IAO_0000027"
+  FROM "OMRSE"."T00db";
+
+COMMENT ON VIEW "OMRSE_iri"."T00db_IAO_0020023_RO_0000057_IAO_0000027" IS 'authentication RO_0000057 IAO_0000027::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00dc_IAO_0020023_IAO_0000136_IAO_0000027" AS
+  SELECT "T0036_uid" AS "uid_IAO_0020023",  
+    "xid" AS "xid",  
+    "T0005_uid" AS "uid_IAO_0000027"
+  FROM "OMRSE"."T00dc";
+
+COMMENT ON VIEW "OMRSE_iri"."T00dc_IAO_0020023_IAO_0000136_IAO_0000027" IS 'authentication IAO_0000136 IAO_0000027::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00dd_IAO_0021022_RO_0000052_C00cbX-IAO_0021022-U" AS
+  SELECT "xid" AS "xid",  
+    "T00b6_uid" AS "uid_IAO_0021022",  
+    "T000a_uid" AS "uid_C00cbX-IAO_0021022-U"
+  FROM "OMRSE"."T00dd";
+
+COMMENT ON VIEW "OMRSE_iri"."T00dd_IAO_0021022_RO_0000052_C00cbX-IAO_0021022-U" IS 'declaration performer role inheres in declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations::null null declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations';
+
+CREATE VIEW "OMRSE_iri"."T00de_OMRSE_00000001_RO_0000052_NCBITaxon_9606" AS
+  SELECT "xid" AS "xid",  
+    "T0031_uid" AS "uid_OMRSE_00000001",  
+    "T000d_uid" AS "uid_NCBITaxon_9606"
+  FROM "OMRSE"."T00de";
+
+COMMENT ON VIEW "OMRSE_iri"."T00de_OMRSE_00000001_RO_0000052_NCBITaxon_9606" IS 'human social role inheres in Homo sapiens::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00df_OMRSE_00000002_RO_0000052_C00e1X-OMRSE_00000002-U" AS
+  SELECT "xid" AS "xid",  
+    "T0043_uid" AS "uid_OMRSE_00000002",  
+    "T0017_uid" AS "uid_C00e1X-OMRSE_00000002-U"
+  FROM "OMRSE"."T00df";
+
+COMMENT ON VIEW "OMRSE_iri"."T00df_OMRSE_00000002_RO_0000052_C00e1X-OMRSE_00000002-U" IS 'party to a legal entity inheres in party to a legal entity UNION Homo sapiens organization::null null party to a legal entity UNION Homo sapiens organization';
+
+CREATE VIEW "OMRSE_iri"."T00e0_OMRSE_00000005_RO_0000052_NCBITaxon_9606" AS
+  SELECT "xid" AS "xid",  
+    "T006a_uid" AS "uid_OMRSE_00000005",  
+    "T000d_uid" AS "uid_NCBITaxon_9606"
+  FROM "OMRSE"."T00e0";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e0_OMRSE_00000005_RO_0000052_NCBITaxon_9606" IS 'party to a marriage contract inheres in Homo sapiens::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00e1_OMRSE_00000007_RO_0000052_OBI_0100026" AS
+  SELECT "xid" AS "xid",  
+    "T00b9_uid" AS "uid_OMRSE_00000007",  
+    "T00b8_uid" AS "uid_OBI_0100026"
+  FROM "OMRSE"."T00e1";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e1_OMRSE_00000007_RO_0000052_OBI_0100026" IS 'gender role inheres in organism::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00e2_OMRSE_00000008_RO_0000052_OBI_0100026" AS
+  SELECT "xid" AS "xid",  
+    "T00c6_uid" AS "uid_OMRSE_00000008",  
+    "T00b8_uid" AS "uid_OBI_0100026"
+  FROM "OMRSE"."T00e2";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e2_OMRSE_00000008_RO_0000052_OBI_0100026" IS 'male gender role inheres in organism::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00e3_OMRSE_00000009_RO_0000052_OBI_0100026" AS
+  SELECT "xid" AS "xid",  
+    "T00a3_uid" AS "uid_OMRSE_00000009",  
+    "T00b8_uid" AS "uid_OBI_0100026"
+  FROM "OMRSE"."T00e3";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e3_OMRSE_00000009_RO_0000052_OBI_0100026" IS 'female gender role inheres in organism::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00e4_OMRSE_00000010_BFO_0000054_OGMS_0000097" AS
+  SELECT "T0014_uid" AS "uid_OMRSE_00000010",  
+    "xid" AS "xid",  
+    "T000c_uid" AS "uid_OGMS_0000097"
+  FROM "OMRSE"."T00e4";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e4_OMRSE_00000010_BFO_0000054_OGMS_0000097" IS 'human health care role BFO_0000054 health care encounter::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00e5_OMRSE_00000011_RO_0000052_OBI_0100026" AS
+  SELECT "xid" AS "xid",  
+    "T0050_uid" AS "uid_OMRSE_00000011",  
+    "T00b8_uid" AS "uid_OBI_0100026"
+  FROM "OMRSE"."T00e5";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e5_OMRSE_00000011_RO_0000052_OBI_0100026" IS 'patient role inheres in organism::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00e6_OMRSE_00000012_RO_0000052_C00c9X-OMRSE_00000012-U" AS
+  SELECT "xid" AS "xid",  
+    "T005c_uid" AS "uid_OMRSE_00000012",  
+    "T0054_uid" AS "uid_C00c9X-OMRSE_00000012-U"
+  FROM "OMRSE"."T00e6";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e6_OMRSE_00000012_RO_0000052_C00c9X-OMRSE_00000012-U" IS 'health care provider role inheres in health care provider role UNION Homo sapiens organization::null null health care provider role UNION Homo sapiens organization';
+
+CREATE VIEW "OMRSE_iri"."T00e7_OMRSE_00000017_RO_0000052_C00bfX-OMRSE_00000017-I-OBI_0001688" AS
+  SELECT "xid" AS "xid",  
+    "T0068_uid" AS "uid_OMRSE_00000017",  
+    "T00ac_uid" AS "uid_C00bfX-OMRSE_00000017-I-OBI_0001688"
+  FROM "OMRSE"."T00e7";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e7_OMRSE_00000017_RO_0000052_C00bfX-OMRSE_00000017-I-OBI_0001688" IS 'physician practice inheres in physician practice INTERSECTION organization has organization member is bearer of physician role::null null physician practice INTERSECTION organization has organization member is bearer of physician role';
+
+CREATE VIEW "OMRSE_iri"."T00e8_OMRSE_00000019_RO_0000052_C00cdX-OMRSE_00000019-I-OBI_0001688" AS
+  SELECT "xid" AS "xid",  
+    "T00b7_uid" AS "uid_OMRSE_00000019",  
+    "T0002_uid" AS "uid_C00cdX-OMRSE_00000019-I-OBI_0001688"
+  FROM "OMRSE"."T00e8";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e8_OMRSE_00000019_RO_0000052_C00cdX-OMRSE_00000019-I-OBI_0001688" IS 'integrated delivery network inheres in integrated delivery network INTERSECTION organization has organization member::null null integrated delivery network INTERSECTION organization has organization member';
+
+CREATE VIEW "OMRSE_iri"."T00e9_OMRSE_00000024_RO_0000052_C00c5X-OMRSE_00000024-U" AS
+  SELECT "xid" AS "xid",  
+    "T005a_uid" AS "uid_OMRSE_00000024",  
+    "T0039_uid" AS "uid_C00c5X-OMRSE_00000024-U"
+  FROM "OMRSE"."T00e9";
+
+COMMENT ON VIEW "OMRSE_iri"."T00e9_OMRSE_00000024_RO_0000052_C00c5X-OMRSE_00000024-U" IS 'role in human social processes inheres in role in human social processes UNION organization organism::null null role in human social processes UNION organization organism';
+
+CREATE VIEW "OMRSE_iri"."T00ea_OMRSE_00000038_RO_0000052_C00bdX-OMRSE_00000038-U" AS
+  SELECT "xid" AS "xid",  
+    "T003f_uid" AS "uid_OMRSE_00000038",  
+    "T00a0_uid" AS "uid_C00bdX-OMRSE_00000038-U"
+  FROM "OMRSE"."T00ea";
+
+COMMENT ON VIEW "OMRSE_iri"."T00ea_OMRSE_00000038_RO_0000052_C00bdX-OMRSE_00000038-U" IS 'legal person role inheres in legal person role UNION Homo sapiens collection of humans::null null legal person role UNION Homo sapiens collection of humans';
+
+CREATE VIEW "OMRSE_iri"."T00eb_OMRSE_00000039_RO_0000052_NCBITaxon_9606" AS
+  SELECT "xid" AS "xid",  
+    "T0084_uid" AS "uid_OMRSE_00000039",  
+    "T000d_uid" AS "uid_NCBITaxon_9606"
+  FROM "OMRSE"."T00eb";
+
+COMMENT ON VIEW "OMRSE_iri"."T00eb_OMRSE_00000039_RO_0000052_NCBITaxon_9606" IS 'smoker role inheres in Homo sapiens::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00ec_OMRSE_00000040_RO_0000052_NCBITaxon_9606" AS
+  SELECT "xid" AS "xid",  
+    "T00d1_uid" AS "uid_OMRSE_00000040",  
+    "T000d_uid" AS "uid_NCBITaxon_9606"
+  FROM "OMRSE"."T00ec";
+
+COMMENT ON VIEW "OMRSE_iri"."T00ec_OMRSE_00000040_RO_0000052_NCBITaxon_9606" IS 'intravenous drug user inheres in Homo sapiens::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00ed_OMRSE_00000058_RO_0000059_C00c1X-OMRSE_00000058-I-OBI_0000312" AS
+  SELECT "T0010_uid" AS "uid_OMRSE_00000058",  
+    "xid" AS "xid",  
+    "T0053_uid" AS "uid_C00c1X-OMRSE_00000058-I-OBI_0000312"
+  FROM "OMRSE"."T00ed";
+
+COMMENT ON VIEW "OMRSE_iri"."T00ed_OMRSE_00000058_RO_0000059_C00c1X-OMRSE_00000058-I-OBI_0000312" IS 'student role RO_0000059 student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization::null null student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization';
+
+CREATE VIEW "OMRSE_iri"."T00ee_OMRSE_00000062_OMRSE_00000068_OBI_0000245" AS
+  SELECT "T007e_uid" AS "uid_OMRSE_00000062",  
+    "xid" AS "xid",  
+    "T0064_uid" AS "uid_OBI_0000245"
+  FROM "OMRSE"."T00ee";
+
+COMMENT ON VIEW "OMRSE_iri"."T00ee_OMRSE_00000062_OMRSE_00000068_OBI_0000245" IS 'facility is administered by organization::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00ef_OMRSE_00000074_BFO_0000051_BFO_0000029" AS
+  SELECT "T007d_uid" AS "uid_OMRSE_00000074",  
+    "xid" AS "xid",  
+    "T0021_uid" AS "uid_BFO_0000029"
+  FROM "OMRSE"."T00ef";
+
+COMMENT ON VIEW "OMRSE_iri"."T00ef_OMRSE_00000074_BFO_0000051_BFO_0000029" IS 'housing unit BFO_0000051 BFO_0000029::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00f0_OMRSE_00000074_BFO_0000051_BFO_0000040" AS
+  SELECT "T007d_uid" AS "uid_OMRSE_00000074",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T00f0";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f0_OMRSE_00000074_BFO_0000051_BFO_0000040" IS 'housing unit BFO_0000051 BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00f1_OMRSE_00000074_RO_0000053_OMRSE_00000075" AS
+  SELECT "T007d_uid" AS "uid_OMRSE_00000074",  
+    "xid" AS "xid",  
+    "T00bf_uid" AS "uid_OMRSE_00000075"
+  FROM "OMRSE"."T00f1";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f1_OMRSE_00000074_RO_0000053_OMRSE_00000075" IS 'housing unit is bearer of residence function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00f2_OMRSE_00000075_RO_0000052_C00c7X-OMRSE_00000075-I-BFO_0000051" AS
+  SELECT "xid" AS "xid",  
+    "T00bf_uid" AS "uid_OMRSE_00000075",  
+    "T0001_uid" AS "uid_C00c7X-OMRSE_00000075-I-BFO_0000051"
+  FROM "OMRSE"."T00f2";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f2_OMRSE_00000075_RO_0000052_C00c7X-OMRSE_00000075-I-BFO_0000051" IS 'residence function inheres in residence function INTERSECTION ::null null residence function INTERSECTION ';
+
+CREATE VIEW "OMRSE_iri"."T00f3_OMRSE_00000077_RO_0000059_C00d3X-OMRSE_00000077-I-OBI_0000312" AS
+  SELECT "T00a7_uid" AS "uid_OMRSE_00000077",  
+    "xid" AS "xid",  
+    "T003d_uid" AS "uid_C00d3X-OMRSE_00000077-I-OBI_0000312"
+  FROM "OMRSE"."T00f3";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f3_OMRSE_00000077_RO_0000059_C00d3X-OMRSE_00000077-I-OBI_0000312" IS 'employee role RO_0000059 employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role::null null employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role';
+
+CREATE VIEW "OMRSE_iri"."T00f4_OMRSE_00000078_RO_0000053_OMRSE_00000079" AS
+  SELECT "T00af_uid" AS "uid_OMRSE_00000078",  
+    "xid" AS "xid",  
+    "T0019_uid" AS "uid_OMRSE_00000079"
+  FROM "OMRSE"."T00f4";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f4_OMRSE_00000078_RO_0000053_OMRSE_00000079" IS 'workplace facility is bearer of workplace function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00f5_OMRSE_00000081_BFO_0000054_IAO_0021003" AS
+  SELECT "T0037_uid" AS "uid_OMRSE_00000081",  
+    "xid" AS "xid",  
+    "T008e_uid" AS "uid_IAO_0021003"
+  FROM "OMRSE"."T00f5";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f5_OMRSE_00000081_BFO_0000054_IAO_0021003" IS 'US census householder role BFO_0000054 social act::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00f6_OMRSE_00000082_BFO_0000054_IAO_0000572" AS
+  SELECT "T0047_uid" AS "uid_OMRSE_00000082",  
+    "xid" AS "xid",  
+    "T0024_uid" AS "uid_IAO_0000572"
+  FROM "OMRSE"."T00f6";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f6_OMRSE_00000082_BFO_0000054_IAO_0000572" IS 'US Census reference person role BFO_0000054 IAO_0000572::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00f7_OMRSE_00000085_RO_0000059_IAO_0021004" AS
+  SELECT "T006f_uid" AS "uid_OMRSE_00000085",  
+    "xid" AS "xid",  
+    "T0048_uid" AS "uid_IAO_0021004"
+  FROM "OMRSE"."T00f7";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f7_OMRSE_00000085_RO_0000059_IAO_0021004" IS 'socio-legal human social role RO_0000059 socio-legal generically dependent continuant::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00f8_OMRSE_00000089_OBI_0000312_IAO_0021002" AS
+  SELECT "T00a6_uid" AS "uid_OMRSE_00000089",  
+    "xid" AS "xid",  
+    "T0082_uid" AS "uid_IAO_0021002"
+  FROM "OMRSE"."T00f8";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f8_OMRSE_00000089_OBI_0000312_IAO_0021002" IS 'contract OBI_0000312 document act::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00f9_OMRSE_00000090_BFO_0000051_IAO_0000001" AS
+  SELECT "T0016_uid" AS "uid_OMRSE_00000090",  
+    "xid" AS "xid",  
+    "T000f_uid" AS "uid_IAO_0000001"
+  FROM "OMRSE"."T00f9";
+
+COMMENT ON VIEW "OMRSE_iri"."T00f9_OMRSE_00000090_BFO_0000051_IAO_0000001" IS 'indemnity contract BFO_0000051 IAO_0000001::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00fa_OMRSE_00000090_BFO_0000051_IAO_0000005" AS
+  SELECT "T0016_uid" AS "uid_OMRSE_00000090",  
+    "xid" AS "xid",  
+    "T001a_uid" AS "uid_IAO_0000005"
+  FROM "OMRSE"."T00fa";
+
+COMMENT ON VIEW "OMRSE_iri"."T00fa_OMRSE_00000090_BFO_0000051_IAO_0000005" IS 'indemnity contract BFO_0000051 IAO_0000005::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00fb_OMRSE_00000090_BFO_0000051_IAO_0000007" AS
+  SELECT "T0016_uid" AS "uid_OMRSE_00000090",  
+    "xid" AS "xid",  
+    "T0034_uid" AS "uid_IAO_0000007"
+  FROM "OMRSE"."T00fb";
+
+COMMENT ON VIEW "OMRSE_iri"."T00fb_OMRSE_00000090_BFO_0000051_IAO_0000007" IS 'indemnity contract BFO_0000051 IAO_0000007::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00fc_OMRSE_00000090_BFO_0000051_IAO_0000104" AS
+  SELECT "T0016_uid" AS "uid_OMRSE_00000090",  
+    "xid" AS "xid",  
+    "T0030_uid" AS "uid_IAO_0000104"
+  FROM "OMRSE"."T00fc";
+
+COMMENT ON VIEW "OMRSE_iri"."T00fc_OMRSE_00000090_BFO_0000051_IAO_0000104" IS 'indemnity contract BFO_0000051 IAO_0000104::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00fd_OMRSE_00000091_RO_0002218_OMRSE_00000093" AS
+  SELECT "T0055_uid" AS "uid_OMRSE_00000091",  
+    "xid" AS "xid",  
+    "T0035_uid" AS "uid_OMRSE_00000093"
+  FROM "OMRSE"."T00fd";
+
+COMMENT ON VIEW "OMRSE_iri"."T00fd_OMRSE_00000091_RO_0002218_OMRSE_00000093" IS 'insurance policy has active participant insurance company::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00fe_OMRSE_00000092_OBI_0000299_OMRSE_00000091" AS
+  SELECT "T0060_uid" AS "uid_OMRSE_00000092",  
+    "xid" AS "xid",  
+    "T0055_uid" AS "uid_OMRSE_00000091"
+  FROM "OMRSE"."T00fe";
+
+COMMENT ON VIEW "OMRSE_iri"."T00fe_OMRSE_00000092_OBI_0000299_OMRSE_00000091" IS 'insured party role OBI_0000299 insurance policy::null null null';
+
+CREATE VIEW "OMRSE_iri"."T00ff_OMRSE_00000092_BFO_0000050_OMRSE_00000091" AS
+  SELECT "T0060_uid" AS "uid_OMRSE_00000092",  
+    "xid" AS "xid",  
+    "T0055_uid" AS "uid_OMRSE_00000091"
+  FROM "OMRSE"."T00ff";
+
+COMMENT ON VIEW "OMRSE_iri"."T00ff_OMRSE_00000092_BFO_0000050_OMRSE_00000091" IS 'insured party role BFO_0000050 insurance policy::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0100_OMRSE_00000093_RO_0000053_OMRSE_00000096" AS
+  SELECT "T0035_uid" AS "uid_OMRSE_00000093",  
+    "xid" AS "xid",  
+    "T0099_uid" AS "uid_OMRSE_00000096"
+  FROM "OMRSE"."T0100";
+
+COMMENT ON VIEW "OMRSE_iri"."T0100_OMRSE_00000093_RO_0000053_OMRSE_00000096" IS 'insurance company is bearer of party to an insurance policy::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0101_OMRSE_00000093_OBI_0000312_IAO_0021002" AS
+  SELECT "T0035_uid" AS "uid_OMRSE_00000093",  
+    "xid" AS "xid",  
+    "T0082_uid" AS "uid_IAO_0021002"
+  FROM "OMRSE"."T0101";
+
+COMMENT ON VIEW "OMRSE_iri"."T0101_OMRSE_00000093_OBI_0000312_IAO_0021002" IS 'insurance company OBI_0000312 document act::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0102_OMRSE_00000093_BFO_0000050_OMRSE_00000091" AS
+  SELECT "T0035_uid" AS "uid_OMRSE_00000093",  
+    "xid" AS "xid",  
+    "T0055_uid" AS "uid_OMRSE_00000091"
+  FROM "OMRSE"."T0102";
+
+COMMENT ON VIEW "OMRSE_iri"."T0102_OMRSE_00000093_BFO_0000050_OMRSE_00000091" IS 'insurance company BFO_0000050 insurance policy::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0103_OMRSE_00000094_RO_0000053_OMRSE_00000096" AS
+  SELECT "T0046_uid" AS "uid_OMRSE_00000094",  
+    "xid" AS "xid",  
+    "T0099_uid" AS "uid_OMRSE_00000096"
+  FROM "OMRSE"."T0103";
+
+COMMENT ON VIEW "OMRSE_iri"."T0103_OMRSE_00000094_RO_0000053_OMRSE_00000096" IS 'policy holder role is bearer of party to an insurance policy::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0104_OMRSE_00000099_BFO_0000050_OMRSE_00000098" AS
+  SELECT "T00bd_uid" AS "uid_OMRSE_00000099",  
+    "xid" AS "xid",  
+    "T007b_uid" AS "uid_OMRSE_00000098"
+  FROM "OMRSE"."T0104";
+
+COMMENT ON VIEW "OMRSE_iri"."T0104_OMRSE_00000099_BFO_0000050_OMRSE_00000098" IS 'racial identification process BFO_0000050 racial identity datum::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0105_OMRSE_00000101_BFO_0000050_OMRSE_00000100" AS
+  SELECT "T0098_uid" AS "uid_OMRSE_00000101",  
+    "xid" AS "xid",  
+    "T008b_uid" AS "uid_OMRSE_00000100"
+  FROM "OMRSE"."T0105";
+
+COMMENT ON VIEW "OMRSE_iri"."T0105_OMRSE_00000101_BFO_0000050_OMRSE_00000100" IS 'ethnic identification process BFO_0000050 ethnic identity datum::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0106_OMRSE_00000104_RO_0000053_OMRSE_00000117" AS
+  SELECT "T00bc_uid" AS "uid_OMRSE_00000104",  
+    "xid" AS "xid",  
+    "T00ca_uid" AS "uid_OMRSE_00000117"
+  FROM "OMRSE"."T0106";
+
+COMMENT ON VIEW "OMRSE_iri"."T0106_OMRSE_00000104_RO_0000053_OMRSE_00000117" IS 'hospice facility is bearer of hospice function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0107_OMRSE_00000105_RO_0000053_OMRSE_00000123" AS
+  SELECT "T00cb_uid" AS "uid_OMRSE_00000105",  
+    "xid" AS "xid",  
+    "T0044_uid" AS "uid_OMRSE_00000123"
+  FROM "OMRSE"."T0107";
+
+COMMENT ON VIEW "OMRSE_iri"."T0107_OMRSE_00000105_RO_0000053_OMRSE_00000123" IS 'skilled nursing facility is bearer of skilled nursing function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0108_OMRSE_00000106_RO_0000053_OMRSE_00000122" AS
+  SELECT "T00a5_uid" AS "uid_OMRSE_00000106",  
+    "xid" AS "xid",  
+    "T0032_uid" AS "uid_OMRSE_00000122"
+  FROM "OMRSE"."T0108";
+
+COMMENT ON VIEW "OMRSE_iri"."T0108_OMRSE_00000106_RO_0000053_OMRSE_00000122" IS 'rehabilitation facility is bearer of rehabilitation function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0109_OMRSE_00000107_RO_0000053_OMRSE_00000125" AS
+  SELECT "T00ae_uid" AS "uid_OMRSE_00000107",  
+    "xid" AS "xid",  
+    "T0096_uid" AS "uid_OMRSE_00000125"
+  FROM "OMRSE"."T0109";
+
+COMMENT ON VIEW "OMRSE_iri"."T0109_OMRSE_00000107_RO_0000053_OMRSE_00000125" IS 'nursing home facility is bearer of nursing home function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T010a_OMRSE_00000108_RO_0000053_OMRSE_00000124" AS
+  SELECT "T0018_uid" AS "uid_OMRSE_00000108",  
+    "xid" AS "xid",  
+    "T0088_uid" AS "uid_OMRSE_00000124"
+  FROM "OMRSE"."T010a";
+
+COMMENT ON VIEW "OMRSE_iri"."T010a_OMRSE_00000108_RO_0000053_OMRSE_00000124" IS 'residential facility is bearer of residential function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T010b_OMRSE_00000109_RO_0000053_OMRSE_00000121" AS
+  SELECT "T0022_uid" AS "uid_OMRSE_00000109",  
+    "xid" AS "xid",  
+    "T005f_uid" AS "uid_OMRSE_00000121"
+  FROM "OMRSE"."T010b";
+
+COMMENT ON VIEW "OMRSE_iri"."T010b_OMRSE_00000109_RO_0000053_OMRSE_00000121" IS 'overnight dialysis facility is bearer of overnight dialysis function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T010c_OMRSE_00000110_RO_0000053_OMRSE_00000120" AS
+  SELECT "T0033_uid" AS "uid_OMRSE_00000110",  
+    "xid" AS "xid",  
+    "T0052_uid" AS "uid_OMRSE_00000120"
+  FROM "OMRSE"."T010c";
+
+COMMENT ON VIEW "OMRSE_iri"."T010c_OMRSE_00000110_RO_0000053_OMRSE_00000120" IS 'outpatient clinic facility is bearer of outpatient clinic function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T010d_OMRSE_00000111_RO_0000053_OMRSE_00000119" AS
+  SELECT "T0045_uid" AS "uid_OMRSE_00000111",  
+    "xid" AS "xid",  
+    "T00ad_uid" AS "uid_OMRSE_00000119"
+  FROM "OMRSE"."T010d";
+
+COMMENT ON VIEW "OMRSE_iri"."T010d_OMRSE_00000111_RO_0000053_OMRSE_00000119" IS 'physician office facility is bearer of physician office function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T010e_OMRSE_00000112_RO_0000053_OMRSE_00000116" AS
+  SELECT "T008a_uid" AS "uid_OMRSE_00000112",  
+    "xid" AS "xid",  
+    "T00bb_uid" AS "uid_OMRSE_00000116"
+  FROM "OMRSE"."T010e";
+
+COMMENT ON VIEW "OMRSE_iri"."T010e_OMRSE_00000112_RO_0000053_OMRSE_00000116" IS 'ambulatory surgery facility is bearer of ambulatory surgery function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T010f_OMRSE_00000113_RO_0000053_OMRSE_00000115" AS
+  SELECT "T0097_uid" AS "uid_OMRSE_00000113",  
+    "xid" AS "xid",  
+    "T0079_uid" AS "uid_OMRSE_00000115"
+  FROM "OMRSE"."T010f";
+
+COMMENT ON VIEW "OMRSE_iri"."T010f_OMRSE_00000113_RO_0000053_OMRSE_00000115" IS 'urgent care facility is bearer of urgent care function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0110_OMRSE_00000114_RO_0000053_OMRSE_00000118" AS
+  SELECT "T006c_uid" AS "uid_OMRSE_00000114",  
+    "xid" AS "xid",  
+    "T00a4_uid" AS "uid_OMRSE_00000118"
+  FROM "OMRSE"."T0110";
+
+COMMENT ON VIEW "OMRSE_iri"."T0110_OMRSE_00000114_RO_0000053_OMRSE_00000118" IS 'emergency department facility is bearer of emergency department function::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0111_OMRSE_00000126_BFO_0000051_IAO_0000005" AS
+  SELECT "T006b_uid" AS "uid_OMRSE_00000126",  
+    "xid" AS "xid",  
+    "T001a_uid" AS "uid_IAO_0000005"
+  FROM "OMRSE"."T0111";
+
+COMMENT ON VIEW "OMRSE_iri"."T0111_OMRSE_00000126_BFO_0000051_IAO_0000005" IS 'patient discharge BFO_0000051 IAO_0000005::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0112_OMRSE_00000126_BFO_0000051_IAO_0000007" AS
+  SELECT "T006b_uid" AS "uid_OMRSE_00000126",  
+    "xid" AS "xid",  
+    "T0034_uid" AS "uid_IAO_0000007"
+  FROM "OMRSE"."T0112";
+
+COMMENT ON VIEW "OMRSE_iri"."T0112_OMRSE_00000126_BFO_0000051_IAO_0000007" IS 'patient discharge BFO_0000051 IAO_0000007::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0113_OMRSE_00000126_BFO_0000051_IAO_0000104" AS
+  SELECT "T006b_uid" AS "uid_OMRSE_00000126",  
+    "xid" AS "xid",  
+    "T0030_uid" AS "uid_IAO_0000104"
+  FROM "OMRSE"."T0113";
+
+COMMENT ON VIEW "OMRSE_iri"."T0113_OMRSE_00000126_BFO_0000051_IAO_0000104" IS 'patient discharge BFO_0000051 IAO_0000104::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0114_OMRSE_00000126_RO_0000053_OMRSE_00000012" AS
+  SELECT "T006b_uid" AS "uid_OMRSE_00000126",  
+    "xid" AS "xid",  
+    "T005c_uid" AS "uid_OMRSE_00000012"
+  FROM "OMRSE"."T0114";
+
+COMMENT ON VIEW "OMRSE_iri"."T0114_OMRSE_00000126_RO_0000053_OMRSE_00000012" IS 'patient discharge is bearer of health care provider role::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0115_OMRSE_00000131_OBI_0000299_OMRSE_00000185" AS
+  SELECT "T0015_uid" AS "uid_OMRSE_00000131",  
+    "xid" AS "xid",  
+    "T00d0_uid" AS "uid_OMRSE_00000185"
+  FROM "OMRSE"."T0115";
+
+COMMENT ON VIEW "OMRSE_iri"."T0115_OMRSE_00000131_OBI_0000299_OMRSE_00000185" IS 'OMB racial identification process OBI_0000299 OMB racial identity datum::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0116_OMRSE_00000135_BFO_0000050_OMRSE_00000133" AS
+  SELECT "T0042_uid" AS "uid_OMRSE_00000135",  
+    "xid" AS "xid",  
+    "T005d_uid" AS "uid_OMRSE_00000133"
+  FROM "OMRSE"."T0116";
+
+COMMENT ON VIEW "OMRSE_iri"."T0116_OMRSE_00000135_BFO_0000050_OMRSE_00000133" IS 'gender identification process BFO_0000050 gender identity datum::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0117_OMRSE_00000139_BFO_0000054_OAE_0000067" AS
+  SELECT "T0076_uid" AS "uid_OMRSE_00000139",  
+    "xid" AS "xid",  
+    "T0081_uid" AS "uid_OAE_0000067"
+  FROM "OMRSE"."T0117";
+
+COMMENT ON VIEW "OMRSE_iri"."T0117_OMRSE_00000139_BFO_0000054_OAE_0000067" IS 'surgeon role BFO_0000054 surgery::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0118_OMRSE_00000142_BFO_0000050_OMRSE_00000132" AS
+  SELECT "T0007_uid" AS "uid_OMRSE_00000142",  
+    "xid" AS "xid",  
+    "T0051_uid" AS "uid_OMRSE_00000132"
+  FROM "OMRSE"."T0118";
+
+COMMENT ON VIEW "OMRSE_iri"."T0118_OMRSE_00000142_BFO_0000050_OMRSE_00000132" IS 'sexual orientation identification process BFO_0000050 identity datum::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0119_C00cfX-OMRSE_00000102-U-el0_RO_0000053_OMRSE_00000015" AS
+  SELECT "T00c8_uid" AS "uid_C00cfX-OMRSE_00000102-U-el0",  
+    "xid" AS "xid",  
+    "T0086_uid" AS "uid_OMRSE_00000015"
+  FROM "OMRSE"."T0119";
+
+COMMENT ON VIEW "OMRSE_iri"."T0119_C00cfX-OMRSE_00000102-U-el0_RO_0000053_OMRSE_00000015" IS 'health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility is bearer of health care provider organization role::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility null null';
+
+CREATE VIEW "OMRSE_iri"."T011a_C00cfX-OMRSE_00000102-U-el1_RO_0000053_OMRSE_00000015" AS
+  SELECT "T0063_uid" AS "uid_C00cfX-OMRSE_00000102-U-el1",  
+    "xid" AS "xid",  
+    "T0086_uid" AS "uid_OMRSE_00000015"
+  FROM "OMRSE"."T011a";
+
+COMMENT ON VIEW "OMRSE_iri"."T011a_C00cfX-OMRSE_00000102-U-el1_RO_0000053_OMRSE_00000015" IS 'health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by is bearer of health care provider organization role::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by null null';
+
+CREATE VIEW "OMRSE_iri"."T011b_C00bfX-OMRSE_00000017-I-OBI_0001688_RO_0000053_OMRSE_00000013" AS
+  SELECT "T00ac_uid" AS "uid_C00bfX-OMRSE_00000017-I-OBI_0001688",  
+    "xid" AS "xid",  
+    "T002f_uid" AS "uid_OMRSE_00000013"
+  FROM "OMRSE"."T011b";
+
+COMMENT ON VIEW "OMRSE_iri"."T011b_C00bfX-OMRSE_00000017-I-OBI_0001688_RO_0000053_OMRSE_00000013" IS 'physician practice INTERSECTION organization has organization member is bearer of physician role is bearer of physician role::physician practice INTERSECTION organization has organization member is bearer of physician role null null';
+
+CREATE VIEW "OMRSE_iri"."T011c_C00c1X-OMRSE_00000058-I-OBI_0000312_OBI_0000312_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312" AS
+  SELECT "T0053_uid" AS "uid_C00c1X-OMRSE_00000058-I-OBI_0000312",  
+    "xid" AS "xid",  
+    "T00c3_uid" AS "uid_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312"
+  FROM "OMRSE"."T011c";
+
+COMMENT ON VIEW "OMRSE_iri"."T011c_C00c1X-OMRSE_00000058-I-OBI_0000312_OBI_0000312_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312" IS 'student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization OBI_0000312 student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization::student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization null student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization';
+
+CREATE VIEW "OMRSE_iri"."T011d_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312_RO_0002218_OMRSE_00000057" AS
+  SELECT "T00c3_uid" AS "uid_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312",  
+    "xid" AS "xid",  
+    "T0004_uid" AS "uid_OMRSE_00000057"
+  FROM "OMRSE"."T011d";
+
+COMMENT ON VIEW "OMRSE_iri"."T011d_C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312_RO_0002218_OMRSE_00000057" IS 'student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization has active participant school organization::student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization null null';
+
+CREATE VIEW "OMRSE_iri"."T011e_C00c7X-OMRSE_00000075-I-BFO_0000051_BFO_0000051_BFO_0000029" AS
+  SELECT "T0001_uid" AS "uid_C00c7X-OMRSE_00000075-I-BFO_0000051",  
+    "xid" AS "xid",  
+    "T0021_uid" AS "uid_BFO_0000029"
+  FROM "OMRSE"."T011e";
+
+COMMENT ON VIEW "OMRSE_iri"."T011e_C00c7X-OMRSE_00000075-I-BFO_0000051_BFO_0000051_BFO_0000029" IS 'residence function INTERSECTION  BFO_0000051 BFO_0000029::residence function INTERSECTION  null null';
+
+CREATE VIEW "OMRSE_iri"."T011f_OMRSE_00000015_BFO_0000054_OGMS_0000097" AS
+  SELECT "T0086_uid" AS "uid_OMRSE_00000015",  
+    "xid" AS "xid",  
+    "T000c_uid" AS "uid_OGMS_0000097"
+  FROM "OMRSE"."T011f";
+
+COMMENT ON VIEW "OMRSE_iri"."T011f_OMRSE_00000015_BFO_0000054_OGMS_0000097" IS 'health care provider organization role BFO_0000054 health care encounter::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0120_C00d3X-OMRSE_00000077-I-OBI_0000312_OBI_0000312_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312" AS
+  SELECT "T003d_uid" AS "uid_C00d3X-OMRSE_00000077-I-OBI_0000312",  
+    "xid" AS "xid",  
+    "T00c5_uid" AS "uid_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312"
+  FROM "OMRSE"."T0120";
+
+COMMENT ON VIEW "OMRSE_iri"."T0120_C00d3X-OMRSE_00000077-I-OBI_0000312_OBI_0000312_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312" IS 'employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role OBI_0000312 employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role null employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role';
+
+CREATE VIEW "OMRSE_iri"."T0121_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312_RO_0002218_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312" AS
+  SELECT "T00c5_uid" AS "uid_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312",  
+    "xid" AS "xid",  
+    "T009e_uid" AS "uid_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312"
+  FROM "OMRSE"."T0121";
+
+COMMENT ON VIEW "OMRSE_iri"."T0121_C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312_RO_0002218_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312" IS 'employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role has active participant employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role null employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role';
+
+CREATE VIEW "OMRSE_iri"."T0122_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312_RO_0002218_C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U" AS
+  SELECT "T009e_uid" AS "uid_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312",  
+    "xid" AS "xid",  
+    "T0089_uid" AS "uid_C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U"
+  FROM "OMRSE"."T0122";
+
+COMMENT ON VIEW "OMRSE_iri"."T0122_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312_RO_0002218_C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U" IS 'employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role has active participant employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role null employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans';
+
+CREATE VIEW "OMRSE_iri"."T0123_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312_RO_0000053_OMRSE_00000087" AS
+  SELECT "T009e_uid" AS "uid_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312",  
+    "xid" AS "xid",  
+    "T00be_uid" AS "uid_OMRSE_00000087"
+  FROM "OMRSE"."T0123";
+
+COMMENT ON VIEW "OMRSE_iri"."T0123_C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312_RO_0000053_OMRSE_00000087" IS 'employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role is bearer of employer role::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role null null';
+
+CREATE VIEW "OMRSE_iri"."T0124_OMRSE_00000023_OMIABIS_0000008_BFO_0000040" AS
+  SELECT "T004f_uid" AS "uid_OMRSE_00000023",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T0124";
+
+COMMENT ON VIEW "OMRSE_iri"."T0124_OMRSE_00000023_OMIABIS_0000008_BFO_0000040" IS 'collection of humans owns BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0125_OMRSE_00000023_OMIABIS_0000009_BFO_0000040" AS
+  SELECT "T004f_uid" AS "uid_OMRSE_00000023",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T0125";
+
+COMMENT ON VIEW "OMRSE_iri"."T0125_OMRSE_00000023_OMIABIS_0000009_BFO_0000040" IS 'collection of humans administrates BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0126_C00dbX-OMRSE_00000086-I-OBI_0000312_OBI_0000312_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312" AS
+  SELECT "T0049_uid" AS "uid_C00dbX-OMRSE_00000086-I-OBI_0000312",  
+    "xid" AS "xid",  
+    "T00a1_uid" AS "uid_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312"
+  FROM "OMRSE"."T0126";
+
+COMMENT ON VIEW "OMRSE_iri"."T0126_C00dbX-OMRSE_00000086-I-OBI_0000312_OBI_0000312_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312" IS 'human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations OBI_0000312 human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations null human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations';
+
+CREATE VIEW "OMRSE_iri"."T0127_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312_RO_0002218_C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U" AS
+  SELECT "T00a1_uid" AS "uid_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312",  
+    "xid" AS "xid",  
+    "T0056_uid" AS "uid_C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U"
+  FROM "OMRSE"."T0127";
+
+COMMENT ON VIEW "OMRSE_iri"."T0127_C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312_RO_0002218_C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U" IS 'human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations has active participant human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations null human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations';
+
+CREATE VIEW "OMRSE_iri"."T0128_OMRSE_00000033_OMIABIS_0000008_BFO_0000040" AS
+  SELECT "T0008_uid" AS "uid_OMRSE_00000033",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T0128";
+
+COMMENT ON VIEW "OMRSE_iri"."T0128_OMRSE_00000033_OMIABIS_0000008_BFO_0000040" IS 'aggregate of organizations owns BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0129_OMRSE_00000033_OMIABIS_0000009_BFO_0000040" AS
+  SELECT "T0008_uid" AS "uid_OMRSE_00000033",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T0129";
+
+COMMENT ON VIEW "OMRSE_iri"."T0129_OMRSE_00000033_OMIABIS_0000009_BFO_0000040" IS 'aggregate of organizations administrates BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T012a_NCBITaxon_9606_OBI_0000846_OBI_0000245" AS
+  SELECT "T000d_uid" AS "uid_NCBITaxon_9606",  
+    "xid" AS "xid",  
+    "T0064_uid" AS "uid_OBI_0000245"
+  FROM "OMRSE"."T012a";
+
+COMMENT ON VIEW "OMRSE_iri"."T012a_NCBITaxon_9606_OBI_0000846_OBI_0000245" IS 'Homo sapiens is member of organization organization::null null null';
+
+CREATE VIEW "OMRSE_iri"."T012b_NCBITaxon_9606_OMIABIS_0000008_BFO_0000040" AS
+  SELECT "T000d_uid" AS "uid_NCBITaxon_9606",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T012b";
+
+COMMENT ON VIEW "OMRSE_iri"."T012b_NCBITaxon_9606_OMIABIS_0000008_BFO_0000040" IS 'Homo sapiens owns BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T012c_NCBITaxon_9606_OMIABIS_0000009_BFO_0000040" AS
+  SELECT "T000d_uid" AS "uid_NCBITaxon_9606",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T012c";
+
+COMMENT ON VIEW "OMRSE_iri"."T012c_NCBITaxon_9606_OMIABIS_0000009_BFO_0000040" IS 'Homo sapiens administrates BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T012d_OBI_0000245_OBI_0000846_OBI_0000245" AS
+  SELECT "T0064_uid" AS "uid_OBI_0000245",  
+    "xid" AS "xid"
+  FROM "OMRSE"."T012d";
+
+COMMENT ON VIEW "OMRSE_iri"."T012d_OBI_0000245_OBI_0000846_OBI_0000245" IS 'organization is member of organization organization::null null null';
+
+CREATE VIEW "OMRSE_iri"."T012e_OBI_0000245_OBI_0001688_NCBITaxon_9606" AS
+  SELECT "T0064_uid" AS "uid_OBI_0000245",  
+    "xid" AS "xid",  
+    "T000d_uid" AS "uid_NCBITaxon_9606"
+  FROM "OMRSE"."T012e";
+
+COMMENT ON VIEW "OMRSE_iri"."T012e_OBI_0000245_OBI_0001688_NCBITaxon_9606" IS 'organization has organization member Homo sapiens::null null null';
+
+CREATE VIEW "OMRSE_iri"."T012f_OBI_0000245_OMIABIS_0000008_BFO_0000040" AS
+  SELECT "T0064_uid" AS "uid_OBI_0000245",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T012f";
+
+COMMENT ON VIEW "OMRSE_iri"."T012f_OBI_0000245_OMIABIS_0000008_BFO_0000040" IS 'organization owns BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0130_OBI_0000245_OMIABIS_0000009_BFO_0000040" AS
+  SELECT "T0064_uid" AS "uid_OBI_0000245",  
+    "xid" AS "xid",  
+    "T00c4_uid" AS "uid_BFO_0000040"
+  FROM "OMRSE"."T0130";
+
+COMMENT ON VIEW "OMRSE_iri"."T0130_OBI_0000245_OMIABIS_0000009_BFO_0000040" IS 'organization administrates BFO_0000040::null null null';
+
+CREATE VIEW "OMRSE_iri"."T0131_C00e3X-OMRSE_00000082-I-RO_0000052_RO_0002350_OMRSE_00000076" AS
+  SELECT "T0066_uid" AS "uid_C00e3X-OMRSE_00000082-I-RO_0000052",  
+    "xid" AS "xid",  
+    "T00cd_uid" AS "uid_OMRSE_00000076"
+  FROM "OMRSE"."T0131";
+
+COMMENT ON VIEW "OMRSE_iri"."T0131_C00e3X-OMRSE_00000082-I-RO_0000052_RO_0002350_OMRSE_00000076" IS 'US Census reference person role INTERSECTION Homo sapiens household RO_0002350 household::US Census reference person role INTERSECTION Homo sapiens household null null';
+

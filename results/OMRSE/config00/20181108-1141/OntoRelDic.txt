@@ -1,0 +1,318 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.obolibrary.org/obo/omrse.owl/C00c7X-OMRSE_00000075-I-BFO_0000051 -> T0001::C00c7X-OMRSE_00000075-I-BFO_0000051::residence function INTERSECTION 
+http://purl.obolibrary.org/obo/omrse.owl/C00cdX-OMRSE_00000019-I-OBI_0001688 -> T0002::C00cdX-OMRSE_00000019-I-OBI_0001688::integrated delivery network INTERSECTION organization has organization member
+http://purl.obolibrary.org/obo/OMRSE_00000069 -> T0003::OMRSE_00000069::burn patient role
+http://purl.obolibrary.org/obo/OMRSE_00000057 -> T0004::OMRSE_00000057::school organization
+http://purl.obolibrary.org/obo/IAO_0000027 -> T0005::IAO_0000027::IAO_0000027
+http://purl.obolibrary.org/obo/OMRSE_00000045 -> T0006::OMRSE_00000045::sovereign state
+http://purl.obolibrary.org/obo/OMRSE_00000142 -> T0007::OMRSE_00000142::sexual orientation identification process
+http://purl.obolibrary.org/obo/OMRSE_00000033 -> T0008::OMRSE_00000033::aggregate of organizations
+http://purl.obolibrary.org/obo/OMRSE_00000130 -> T0009::OMRSE_00000130::anesthesiologist role
+http://purl.obolibrary.org/obo/omrse.owl/C00cbX-IAO_0021022-U -> T000a::C00cbX-IAO_0021022-U::declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations
+http://purl.obolibrary.org/obo/OAE_0002807 -> T000b::OAE_0002807::medical procedure
+http://purl.obolibrary.org/obo/OGMS_0000097 -> T000c::OGMS_0000097::health care encounter
+http://purl.obolibrary.org/obo/NCBITaxon_9606 -> T000d::NCBITaxon_9606::Homo sapiens
+http://purl.obolibrary.org/obo/OGMS_0000102 -> T000e::OGMS_0000102::injury
+http://purl.obolibrary.org/obo/IAO_0000001 -> T000f::IAO_0000001::IAO_0000001
+http://purl.obolibrary.org/obo/OMRSE_00000058 -> T0010::OMRSE_00000058::student role
+http://purl.obolibrary.org/obo/OMRSE_00000046 -> T0011::OMRSE_00000046::subnational entity
+http://purl.obolibrary.org/obo/OMRSE_00000034 -> T0012::OMRSE_00000034::aggregate of sovereign states
+http://purl.obolibrary.org/obo/OMRSE_00000022 -> T0013::OMRSE_00000022::collection of organisms
+http://purl.obolibrary.org/obo/OMRSE_00000010 -> T0014::OMRSE_00000010::human health care role
+http://purl.obolibrary.org/obo/OMRSE_00000131 -> T0015::OMRSE_00000131::OMB racial identification process
+http://purl.obolibrary.org/obo/OMRSE_00000090 -> T0016::OMRSE_00000090::indemnity contract
+http://purl.obolibrary.org/obo/omrse.owl/C00e1X-OMRSE_00000002-U -> T0017::C00e1X-OMRSE_00000002-U::party to a legal entity UNION Homo sapiens organization
+http://purl.obolibrary.org/obo/OMRSE_00000108 -> T0018::OMRSE_00000108::residential facility
+http://purl.obolibrary.org/obo/OMRSE_00000079 -> T0019::OMRSE_00000079::workplace function
+http://purl.obolibrary.org/obo/IAO_0000005 -> T001a::IAO_0000005::IAO_0000005
+http://purl.obolibrary.org/obo/OMRSE_00000067 -> T001b::OMRSE_00000067::injured patient role
+http://purl.obolibrary.org/obo/OMRSE_00000055 -> T001c::OMRSE_00000055::school role
+http://purl.obolibrary.org/obo/OMRSE_00000043 -> T001d::OMRSE_00000043::private governance organizations
+http://purl.obolibrary.org/obo/OMRSE_00000031 -> T001e::OMRSE_00000031::major administrative subdivision
+http://purl.obolibrary.org/obo/OMRSE_00000140 -> T001f::OMRSE_00000140::neurosurgereon role
+http://purl.obolibrary.org/obo/OAE_0000002 -> T0020::OAE_0000002::medical intervention
+http://purl.obolibrary.org/obo/BFO_0000029 -> T0021::BFO_0000029::BFO_0000029
+http://purl.obolibrary.org/obo/OMRSE_00000109 -> T0022::OMRSE_00000109::overnight dialysis facility
+http://purl.obolibrary.org/obo/OMRSE_00000056 -> T0023::OMRSE_00000056::hospital organization
+http://purl.obolibrary.org/obo/IAO_0000572 -> T0024::IAO_0000572::IAO_0000572
+http://purl.obolibrary.org/obo/OMRSE_00000044 -> T0025::OMRSE_00000044::governmental organization
+http://purl.obolibrary.org/obo/OMRSE_00000032 -> T0026::OMRSE_00000032::geopolitical dependency
+http://purl.obolibrary.org/obo/OMRSE_00000141 -> T0027::OMRSE_00000141::male gender identity datum
+http://purl.obolibrary.org/obo/BFO_0000038 -> T0028::BFO_0000038::BFO_0000038
+http://purl.obolibrary.org/obo/IAO_0020024 -> T0029::IAO_0020024::credential role
+http://purl.obolibrary.org/obo/OMRSE_00000502 -> T002a::OMRSE_00000502::government assistance health care plan data
+http://purl.obolibrary.org/obo/OMRSE_00000049 -> T002b::OMRSE_00000049::organism role
+http://purl.obolibrary.org/obo/OMRSE_00000037 -> T002c::OMRSE_00000037::aggregate of major administrative subdivisions
+http://purl.obolibrary.org/obo/OMRSE_00000025 -> T002d::OMRSE_00000025::organization social role
+http://purl.obolibrary.org/obo/OMRSE_00000134 -> T002e::OMRSE_00000134::identification process
+http://purl.obolibrary.org/obo/OMRSE_00000013 -> T002f::OMRSE_00000013::physician role
+http://purl.obolibrary.org/obo/IAO_0000104 -> T0030::IAO_0000104::IAO_0000104
+http://purl.obolibrary.org/obo/OMRSE_00000001 -> T0031::OMRSE_00000001::human social role
+http://purl.obolibrary.org/obo/OMRSE_00000122 -> T0032::OMRSE_00000122::rehabilitation function
+http://purl.obolibrary.org/obo/OMRSE_00000110 -> T0033::OMRSE_00000110::outpatient clinic facility
+http://purl.obolibrary.org/obo/IAO_0000007 -> T0034::IAO_0000007::IAO_0000007
+http://purl.obolibrary.org/obo/OMRSE_00000093 -> T0035::OMRSE_00000093::insurance company
+http://purl.obolibrary.org/obo/IAO_0020023 -> T0036::IAO_0020023::authentication
+http://purl.obolibrary.org/obo/OMRSE_00000081 -> T0037::OMRSE_00000081::US census householder role
+http://purl.obolibrary.org/obo/IAO_0021005 -> T0038::IAO_0021005::declaration
+http://purl.obolibrary.org/obo/omrse.owl/C00c5X-OMRSE_00000024-U -> T0039::C00c5X-OMRSE_00000024-U::role in human social processes UNION organization organism
+http://purl.obolibrary.org/obo/BFO_0000015 -> T003a::BFO_0000015::BFO_0000015
+http://purl.obolibrary.org/obo/BFO_0000027 -> T003b::BFO_0000027::BFO_0000027
+http://purl.obolibrary.org/obo/BFO_0000148 -> T003c::BFO_0000148::BFO_0000148
+http://purl.obolibrary.org/obo/omrse.owl/C00d3X-OMRSE_00000077-I-OBI_0000312 -> T003d::C00d3X-OMRSE_00000077-I-OBI_0000312::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role
+http://purl.obolibrary.org/obo/OMRSE_00000503 -> T003e::OMRSE_00000503::health care plan data
+http://purl.obolibrary.org/obo/OMRSE_00000038 -> T003f::OMRSE_00000038::legal person role
+http://purl.obolibrary.org/obo/OMRSE_00000026 -> T0040::OMRSE_00000026::organism social role
+http://purl.obolibrary.org/obo/OMRSE_00000014 -> T0041::OMRSE_00000014::nurse role
+http://purl.obolibrary.org/obo/OMRSE_00000135 -> T0042::OMRSE_00000135::gender identification process
+http://purl.obolibrary.org/obo/OMRSE_00000002 -> T0043::OMRSE_00000002::party to a legal entity
+http://purl.obolibrary.org/obo/OMRSE_00000123 -> T0044::OMRSE_00000123::skilled nursing function
+http://purl.obolibrary.org/obo/OMRSE_00000111 -> T0045::OMRSE_00000111::physician office facility
+http://purl.obolibrary.org/obo/OMRSE_00000094 -> T0046::OMRSE_00000094::policy holder role
+http://purl.obolibrary.org/obo/OMRSE_00000082 -> T0047::OMRSE_00000082::US Census reference person role
+http://purl.obolibrary.org/obo/IAO_0021004 -> T0048::IAO_0021004::socio-legal generically dependent continuant
+http://purl.obolibrary.org/obo/omrse.owl/C00dbX-OMRSE_00000086-I-OBI_0000312 -> T0049::C00dbX-OMRSE_00000086-I-OBI_0000312::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations
+http://purl.obolibrary.org/obo/IAO_0000578 -> T004a::IAO_0000578::CRID
+http://purl.obolibrary.org/obo/OMRSE_00000059 -> T004b::OMRSE_00000059::nursery school role
+http://purl.obolibrary.org/obo/OMRSE_00000047 -> T004c::OMRSE_00000047::supranational entity
+http://purl.obolibrary.org/obo/OMRSE_00000500 -> T004d::OMRSE_00000500::employment data
+http://purl.obolibrary.org/obo/OMRSE_00000035 -> T004e::OMRSE_00000035::aggregate of geopoli organizations
+http://purl.obolibrary.org/obo/OMRSE_00000023 -> T004f::OMRSE_00000023::collection of humans
+http://purl.obolibrary.org/obo/OMRSE_00000011 -> T0050::OMRSE_00000011::patient role
+http://purl.obolibrary.org/obo/OMRSE_00000132 -> T0051::OMRSE_00000132::identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000120 -> T0052::OMRSE_00000120::outpatient clinic function
+http://purl.obolibrary.org/obo/omrse.owl/C00c1X-OMRSE_00000058-I-OBI_0000312 -> T0053::C00c1X-OMRSE_00000058-I-OBI_0000312::student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization
+http://purl.obolibrary.org/obo/omrse.owl/C00c9X-OMRSE_00000012-U -> T0054::C00c9X-OMRSE_00000012-U::health care provider role UNION Homo sapiens organization
+http://purl.obolibrary.org/obo/OMRSE_00000091 -> T0055::OMRSE_00000091::insurance policy
+http://purl.obolibrary.org/obo/omrse.owl/C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U -> T0056::C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations
+http://purl.obolibrary.org/obo/OMRSE_00000048 -> T0057::OMRSE_00000048::material entity role
+http://purl.obolibrary.org/obo/OMRSE_00000501 -> T0058::OMRSE_00000501::income data
+http://purl.obolibrary.org/obo/OMRSE_00000036 -> T0059::OMRSE_00000036::aggregate of dependencies
+http://purl.obolibrary.org/obo/OMRSE_00000024 -> T005a::OMRSE_00000024::role in human social processes
+http://purl.obolibrary.org/obo/IAO_0000310 -> T005b::IAO_0000310::IAO_0000310
+http://purl.obolibrary.org/obo/OMRSE_00000012 -> T005c::OMRSE_00000012::health care provider role
+http://purl.obolibrary.org/obo/OMRSE_00000133 -> T005d::OMRSE_00000133::gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000000 -> T005e::OMRSE_00000000::social security number
+http://purl.obolibrary.org/obo/OMRSE_00000121 -> T005f::OMRSE_00000121::overnight dialysis function
+http://purl.obolibrary.org/obo/OMRSE_00000092 -> T0060::OMRSE_00000092::insured party role
+http://purl.obolibrary.org/obo/BFO_0000034 -> T0061::BFO_0000034::BFO_0000034
+http://purl.obolibrary.org/obo/OMRSE_00000506 -> T0062::OMRSE_00000506::socio-economic data
+http://purl.obolibrary.org/obo/omrse.owl/C00cfX-OMRSE_00000102-U-el1 -> T0063::C00cfX-OMRSE_00000102-U-el1::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by
+http://purl.obolibrary.org/obo/OBI_0000245 -> T0064::OBI_0000245::organization
+http://purl.obolibrary.org/obo/IAO_0000030 -> T0065::IAO_0000030::IAO_0000030
+http://purl.obolibrary.org/obo/omrse.owl/C00e3X-OMRSE_00000082-I-RO_0000052 -> T0066::C00e3X-OMRSE_00000082-I-RO_0000052::US Census reference person role INTERSECTION Homo sapiens household
+http://purl.obolibrary.org/obo/OMRSE_00000029 -> T0067::OMRSE_00000029::geopoli organization
+http://purl.obolibrary.org/obo/OMRSE_00000017 -> T0068::OMRSE_00000017::physician practice
+http://purl.obolibrary.org/obo/OMRSE_00000138 -> T0069::OMRSE_00000138::female gender identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000005 -> T006a::OMRSE_00000005::party to a marriage contract
+http://purl.obolibrary.org/obo/OMRSE_00000126 -> T006b::OMRSE_00000126::patient discharge
+http://purl.obolibrary.org/obo/OMRSE_00000114 -> T006c::OMRSE_00000114::emergency department facility
+http://purl.obolibrary.org/obo/OMRSE_00000102 -> T006d::OMRSE_00000102::health care facility
+http://purl.obolibrary.org/obo/OMRSE_00000097 -> T006e::OMRSE_00000097::enrollment start date
+http://purl.obolibrary.org/obo/OMRSE_00000085 -> T006f::OMRSE_00000085::socio-legal human social role
+http://purl.obolibrary.org/obo/OMRSE_00000073 -> T0070::OMRSE_00000073::trauma patient role
+http://purl.obolibrary.org/obo/OMRSE_00000182 -> T0071::OMRSE_00000182::black or African American identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000061 -> T0072::OMRSE_00000061::architectural structure
+http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -> T0073::ObsoleteClass::ObsoleteClass
+http://purl.obolibrary.org/obo/BFO_0000023 -> T0074::BFO_0000023::BFO_0000023
+http://purl.obolibrary.org/obo/OMRSE_00000018 -> T0075::OMRSE_00000018::obsolete_hospital role
+http://purl.obolibrary.org/obo/OMRSE_00000139 -> T0076::OMRSE_00000139::surgeon role
+http://purl.obolibrary.org/obo/OMRSE_00000006 -> T0077::OMRSE_00000006::party to a power of attorney
+http://purl.obolibrary.org/obo/OMRSE_00000127 -> T0078::OMRSE_00000127::hispanic or latino identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000115 -> T0079::OMRSE_00000115::urgent care function
+http://purl.obolibrary.org/obo/OMRSE_00000103 -> T007a::OMRSE_00000103::US Census unemployed role
+http://purl.obolibrary.org/obo/OMRSE_00000098 -> T007b::OMRSE_00000098::racial identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000086 -> T007c::OMRSE_00000086::human role within an organization
+http://purl.obolibrary.org/obo/OMRSE_00000074 -> T007d::OMRSE_00000074::housing unit
+http://purl.obolibrary.org/obo/OMRSE_00000062 -> T007e::OMRSE_00000062::facility
+http://purl.obolibrary.org/obo/OMRSE_00000050 -> T007f::OMRSE_00000050::Homo sapiens role
+http://purl.obolibrary.org/obo/OMRSE_00000183 -> T0080::OMRSE_00000183::Native Hawaiian or other Pacific Islander identity datum
+http://purl.obolibrary.org/obo/OAE_0000067 -> T0081::OAE_0000067::surgery
+http://purl.obolibrary.org/obo/IAO_0021002 -> T0082::IAO_0021002::document act
+http://purl.obolibrary.org/obo/OMRSE_00000504 -> T0083::OMRSE_00000504::government assistance income data
+http://purl.obolibrary.org/obo/OMRSE_00000039 -> T0084::OMRSE_00000039::smoker role
+http://purl.obolibrary.org/obo/OMRSE_00000027 -> T0085::OMRSE_00000027::organization health care role
+http://purl.obolibrary.org/obo/OMRSE_00000015 -> T0086::OMRSE_00000015::health care provider organization role
+http://purl.obolibrary.org/obo/OMRSE_00000003 -> T0087::OMRSE_00000003::party to a legal proceeding
+http://purl.obolibrary.org/obo/OMRSE_00000124 -> T0088::OMRSE_00000124::residential function
+http://purl.obolibrary.org/obo/omrse.owl/C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U -> T0089::C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans
+http://purl.obolibrary.org/obo/OMRSE_00000112 -> T008a::OMRSE_00000112::ambulatory surgery facility
+http://purl.obolibrary.org/obo/OMRSE_00000100 -> T008b::OMRSE_00000100::ethnic identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000095 -> T008c::OMRSE_00000095::payer role
+http://purl.obolibrary.org/obo/OMRSE_00000083 -> T008d::OMRSE_00000083::OMB ethnic identity datum
+http://purl.obolibrary.org/obo/IAO_0021003 -> T008e::IAO_0021003::social act
+http://purl.obolibrary.org/obo/OMRSE_00000180 -> T008f::OMRSE_00000180::American Indian or Alaska Native identity datum
+http://purl.obolibrary.org/obo/BFO_0000020 -> T0090::BFO_0000020::BFO_0000020
+http://purl.obolibrary.org/obo/IAO_0020021 -> T0091::IAO_0020021::identity document
+http://purl.obolibrary.org/obo/OMRSE_00000505 -> T0092::OMRSE_00000505::WIC data
+http://purl.obolibrary.org/obo/OMRSE_00000028 -> T0093::OMRSE_00000028::geopolitical organization
+http://purl.obolibrary.org/obo/OMRSE_00000016 -> T0094::OMRSE_00000016::person health care provider role
+http://purl.obolibrary.org/obo/OMRSE_00000004 -> T0095::OMRSE_00000004::party to a legal agreement
+http://purl.obolibrary.org/obo/OMRSE_00000125 -> T0096::OMRSE_00000125::nursing home function
+http://purl.obolibrary.org/obo/OMRSE_00000113 -> T0097::OMRSE_00000113::urgent care facility
+http://purl.obolibrary.org/obo/OMRSE_00000101 -> T0098::OMRSE_00000101::ethnic identification process
+http://purl.obolibrary.org/obo/OMRSE_00000096 -> T0099::OMRSE_00000096::party to an insurance policy
+http://purl.obolibrary.org/obo/OMRSE_00000084 -> T009a::OMRSE_00000084::enrollment end date
+http://purl.obolibrary.org/obo/OMRSE_00000072 -> T009b::OMRSE_00000072::physiatrist role
+http://purl.obolibrary.org/obo/IAO_0020022 -> T009c::IAO_0020022::documented identity
+http://purl.obolibrary.org/obo/OMRSE_00000060 -> T009d::OMRSE_00000060::primary school role
+http://purl.obolibrary.org/obo/omrse.owl/C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312 -> T009e::C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role
+http://purl.obolibrary.org/obo/OMRSE_00000181 -> T009f::OMRSE_00000181::Asian identity datum
+http://purl.obolibrary.org/obo/omrse.owl/C00bdX-OMRSE_00000038-U -> T00a0::C00bdX-OMRSE_00000038-U::legal person role UNION Homo sapiens collection of humans
+http://purl.obolibrary.org/obo/omrse.owl/C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312 -> T00a1::C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations
+http://purl.obolibrary.org/obo/OBI_0000011 -> T00a2::OBI_0000011::OBI_0000011
+http://purl.obolibrary.org/obo/OMRSE_00000009 -> T00a3::OMRSE_00000009::female gender role
+http://purl.obolibrary.org/obo/OMRSE_00000118 -> T00a4::OMRSE_00000118::emergency department function
+http://purl.obolibrary.org/obo/OMRSE_00000106 -> T00a5::OMRSE_00000106::rehabilitation facility
+http://purl.obolibrary.org/obo/OMRSE_00000089 -> T00a6::OMRSE_00000089::contract
+http://purl.obolibrary.org/obo/OMRSE_00000077 -> T00a7::OMRSE_00000077::employee role
+http://purl.obolibrary.org/obo/OMRSE_00000186 -> T00a8::OMRSE_00000186::heavy smoker role
+http://purl.obolibrary.org/obo/OMRSE_00000065 -> T00a9::OMRSE_00000065::secondary school role
+http://purl.obolibrary.org/obo/OMRSE_00000053 -> T00aa::OMRSE_00000053::school function
+http://purl.obolibrary.org/obo/OMRSE_00000041 -> T00ab::OMRSE_00000041::intergovernmental organization
+http://purl.obolibrary.org/obo/omrse.owl/C00bfX-OMRSE_00000017-I-OBI_0001688 -> T00ac::C00bfX-OMRSE_00000017-I-OBI_0001688::physician practice INTERSECTION organization has organization member is bearer of physician role
+http://purl.obolibrary.org/obo/OMRSE_00000119 -> T00ad::OMRSE_00000119::physician office function
+http://purl.obolibrary.org/obo/OMRSE_00000107 -> T00ae::OMRSE_00000107::nursing home facility
+http://purl.obolibrary.org/obo/OMRSE_00000078 -> T00af::OMRSE_00000078::workplace facility
+http://purl.obolibrary.org/obo/OMRSE_00000066 -> T00b0::OMRSE_00000066::pediatric trauma patient role
+http://purl.obolibrary.org/obo/OMRSE_00000054 -> T00b1::OMRSE_00000054::hospital role
+http://purl.obolibrary.org/obo/OMRSE_00000187 -> T00b2::OMRSE_00000187::light smoker role
+http://purl.obolibrary.org/obo/OMRSE_00000042 -> T00b3::OMRSE_00000042::nongovernmental organizations
+http://purl.obolibrary.org/obo/OMRSE_00000030 -> T00b4::OMRSE_00000030::human patient role
+http://purl.obolibrary.org/obo/BFO_0000031 -> T00b5::BFO_0000031::BFO_0000031
+http://purl.obolibrary.org/obo/IAO_0021022 -> T00b6::IAO_0021022::declaration performer role
+http://purl.obolibrary.org/obo/OMRSE_00000019 -> T00b7::OMRSE_00000019::integrated delivery network
+http://purl.obolibrary.org/obo/OBI_0100026 -> T00b8::OBI_0100026::organism
+http://purl.obolibrary.org/obo/OMRSE_00000007 -> T00b9::OMRSE_00000007::gender role
+http://purl.obolibrary.org/obo/OMRSE_00000128 -> T00ba::OMRSE_00000128::not hispanic or latino identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000116 -> T00bb::OMRSE_00000116::ambulatory surgery function
+http://purl.obolibrary.org/obo/OMRSE_00000104 -> T00bc::OMRSE_00000104::hospice facility
+http://purl.obolibrary.org/obo/OMRSE_00000099 -> T00bd::OMRSE_00000099::racial identification process
+http://purl.obolibrary.org/obo/OMRSE_00000087 -> T00be::OMRSE_00000087::employer role
+http://purl.obolibrary.org/obo/OMRSE_00000075 -> T00bf::OMRSE_00000075::residence function
+http://purl.obolibrary.org/obo/OMRSE_00000184 -> T00c0::OMRSE_00000184::white identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000063 -> T00c1::OMRSE_00000063::hospital facility
+http://purl.obolibrary.org/obo/OMRSE_00000051 -> T00c2::OMRSE_00000051::organization role
+http://purl.obolibrary.org/obo/omrse.owl/C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312 -> T00c3::C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312::student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization
+http://purl.obolibrary.org/obo/BFO_0000040 -> T00c4::BFO_0000040::BFO_0000040
+http://purl.obolibrary.org/obo/omrse.owl/C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312 -> T00c5::C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role
+http://purl.obolibrary.org/obo/OMRSE_00000008 -> T00c6::OMRSE_00000008::male gender role
+http://purl.obolibrary.org/obo/OMRSE_00000129 -> T00c7::OMRSE_00000129::US physician assistant role
+http://purl.obolibrary.org/obo/omrse.owl/C00cfX-OMRSE_00000102-U-el0 -> T00c8::C00cfX-OMRSE_00000102-U-el0::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility
+http://purl.obolibrary.org/obo/IAO_0000416 -> T00c9::IAO_0000416::IAO_0000416
+http://purl.obolibrary.org/obo/OMRSE_00000117 -> T00ca::OMRSE_00000117::hospice function
+http://purl.obolibrary.org/obo/OMRSE_00000105 -> T00cb::OMRSE_00000105::skilled nursing facility
+http://purl.obolibrary.org/obo/OMRSE_00000088 -> T00cc::OMRSE_00000088::age measurement datum
+http://purl.obolibrary.org/obo/OMRSE_00000076 -> T00cd::OMRSE_00000076::household
+http://purl.obolibrary.org/obo/OMRSE_00000064 -> T00ce::OMRSE_00000064::school facility
+http://purl.obolibrary.org/obo/OMRSE_00000052 -> T00cf::OMRSE_00000052::hospital function
+http://purl.obolibrary.org/obo/OMRSE_00000185 -> T00d0::OMRSE_00000185::OMB racial identity datum
+http://purl.obolibrary.org/obo/OMRSE_00000040 -> T00d1::OMRSE_00000040::intravenous drug user
+http://purl.obolibrary.org/obo/omrse.owl/C00cfX-OMRSE_00000102-U -> T00d2::C00cfX-OMRSE_00000102-U::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+BFO_0000038 [1..*] OMRSE_00000136 string -> T00d3::BFO_0000038 date
+BFO_0000038 [1..*] OMRSE_00000137 string -> T00d4::BFO_0000038 time of day
+BFO_0000148 [1..*] OMRSE_00000137 string -> T00d5::BFO_0000148 time of day
+BFO_0000040 [1..*] OMIABIS_0000048 NCBITaxon_9606 -> T00d6::BFO_0000040 is owned by Homo sapiens
+IAO_0000030 [1..*] OMIABIS_0000048 NCBITaxon_9606 -> T00d7::IAO_0000030 is owned by Homo sapiens
+IAO_0020022 [1..*] BFO_0000051 IAO_0000030 -> T00d8::documented identity BFO_0000051 IAO_0000030
+IAO_0020022 [1..*] IAO_0000136 IAO_0020021 -> T00d9::documented identity IAO_0000136 identity document
+IAO_0020023 [1..*] BFO_0000055 IAO_0020024 -> T00da::authentication BFO_0000055 credential role
+IAO_0020023 [1..*] RO_0000057 IAO_0000027 -> T00db::authentication RO_0000057 IAO_0000027
+IAO_0020023 [1..*] IAO_0000136 IAO_0000027 -> T00dc::authentication IAO_0000136 IAO_0000027
+IAO_0021022 [1..*] RO_0000052 C00cbX-IAO_0021022-U -> T00dd::declaration performer role inheres in declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations
+OMRSE_00000001 [1..*] RO_0000052 NCBITaxon_9606 -> T00de::human social role inheres in Homo sapiens
+OMRSE_00000002 [1..*] RO_0000052 C00e1X-OMRSE_00000002-U -> T00df::party to a legal entity inheres in party to a legal entity UNION Homo sapiens organization
+OMRSE_00000005 [1..*] RO_0000052 NCBITaxon_9606 -> T00e0::party to a marriage contract inheres in Homo sapiens
+OMRSE_00000007 [1..*] RO_0000052 OBI_0100026 -> T00e1::gender role inheres in organism
+OMRSE_00000008 [1..*] RO_0000052 OBI_0100026 -> T00e2::male gender role inheres in organism
+OMRSE_00000009 [1..*] RO_0000052 OBI_0100026 -> T00e3::female gender role inheres in organism
+OMRSE_00000010 [1..*] BFO_0000054 OGMS_0000097 -> T00e4::human health care role BFO_0000054 health care encounter
+OMRSE_00000011 [1..*] RO_0000052 OBI_0100026 -> T00e5::patient role inheres in organism
+OMRSE_00000012 [1..*] RO_0000052 C00c9X-OMRSE_00000012-U -> T00e6::health care provider role inheres in health care provider role UNION Homo sapiens organization
+OMRSE_00000017 [1..*] RO_0000052 C00bfX-OMRSE_00000017-I-OBI_0001688 -> T00e7::physician practice inheres in physician practice INTERSECTION organization has organization member is bearer of physician role
+OMRSE_00000019 [1..*] RO_0000052 C00cdX-OMRSE_00000019-I-OBI_0001688 -> T00e8::integrated delivery network inheres in integrated delivery network INTERSECTION organization has organization member
+OMRSE_00000024 [1..*] RO_0000052 C00c5X-OMRSE_00000024-U -> T00e9::role in human social processes inheres in role in human social processes UNION organization organism
+OMRSE_00000038 [1..*] RO_0000052 C00bdX-OMRSE_00000038-U -> T00ea::legal person role inheres in legal person role UNION Homo sapiens collection of humans
+OMRSE_00000039 [1..*] RO_0000052 NCBITaxon_9606 -> T00eb::smoker role inheres in Homo sapiens
+OMRSE_00000040 [1..*] RO_0000052 NCBITaxon_9606 -> T00ec::intravenous drug user inheres in Homo sapiens
+OMRSE_00000058 [1..*] RO_0000059 C00c1X-OMRSE_00000058-I-OBI_0000312 -> T00ed::student role RO_0000059 student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization
+OMRSE_00000062 [1..*] OMRSE_00000068 OBI_0000245 -> T00ee::facility is administered by organization
+OMRSE_00000074 [1..*] BFO_0000051 BFO_0000029 -> T00ef::housing unit BFO_0000051 BFO_0000029
+OMRSE_00000074 [1..*] BFO_0000051 BFO_0000040 -> T00f0::housing unit BFO_0000051 BFO_0000040
+OMRSE_00000074 [1..1] RO_0000053 OMRSE_00000075 -> T00f1::housing unit is bearer of residence function
+OMRSE_00000075 [1..*] RO_0000052 C00c7X-OMRSE_00000075-I-BFO_0000051 -> T00f2::residence function inheres in residence function INTERSECTION 
+OMRSE_00000077 [1..*] RO_0000059 C00d3X-OMRSE_00000077-I-OBI_0000312 -> T00f3::employee role RO_0000059 employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role
+OMRSE_00000078 [1..*] RO_0000053 OMRSE_00000079 -> T00f4::workplace facility is bearer of workplace function
+OMRSE_00000081 [1..*] BFO_0000054 IAO_0021003 -> T00f5::US census householder role BFO_0000054 social act
+OMRSE_00000082 [1..*] BFO_0000054 IAO_0000572 -> T00f6::US Census reference person role BFO_0000054 IAO_0000572
+OMRSE_00000085 [1..*] RO_0000059 IAO_0021004 -> T00f7::socio-legal human social role RO_0000059 socio-legal generically dependent continuant
+OMRSE_00000089 [1..*] OBI_0000312 IAO_0021002 -> T00f8::contract OBI_0000312 document act
+OMRSE_00000090 [1..*] BFO_0000051 IAO_0000001 -> T00f9::indemnity contract BFO_0000051 IAO_0000001
+OMRSE_00000090 [1..*] BFO_0000051 IAO_0000005 -> T00fa::indemnity contract BFO_0000051 IAO_0000005
+OMRSE_00000090 [1..*] BFO_0000051 IAO_0000007 -> T00fb::indemnity contract BFO_0000051 IAO_0000007
+OMRSE_00000090 [1..*] BFO_0000051 IAO_0000104 -> T00fc::indemnity contract BFO_0000051 IAO_0000104
+OMRSE_00000091 [1..*] RO_0002218 OMRSE_00000093 -> T00fd::insurance policy has active participant insurance company
+OMRSE_00000092 [1..*] OBI_0000299 OMRSE_00000091 -> T00fe::insured party role OBI_0000299 insurance policy
+OMRSE_00000092 [1..*] BFO_0000050 OMRSE_00000091 -> T00ff::insured party role BFO_0000050 insurance policy
+OMRSE_00000093 [1..*] RO_0000053 OMRSE_00000096 -> T0100::insurance company is bearer of party to an insurance policy
+OMRSE_00000093 [1..*] OBI_0000312 IAO_0021002 -> T0101::insurance company OBI_0000312 document act
+OMRSE_00000093 [1..*] BFO_0000050 OMRSE_00000091 -> T0102::insurance company BFO_0000050 insurance policy
+OMRSE_00000094 [1..*] RO_0000053 OMRSE_00000096 -> T0103::policy holder role is bearer of party to an insurance policy
+OMRSE_00000099 [1..*] BFO_0000050 OMRSE_00000098 -> T0104::racial identification process BFO_0000050 racial identity datum
+OMRSE_00000101 [1..*] BFO_0000050 OMRSE_00000100 -> T0105::ethnic identification process BFO_0000050 ethnic identity datum
+OMRSE_00000104 [1..*] RO_0000053 OMRSE_00000117 -> T0106::hospice facility is bearer of hospice function
+OMRSE_00000105 [1..*] RO_0000053 OMRSE_00000123 -> T0107::skilled nursing facility is bearer of skilled nursing function
+OMRSE_00000106 [1..*] RO_0000053 OMRSE_00000122 -> T0108::rehabilitation facility is bearer of rehabilitation function
+OMRSE_00000107 [1..*] RO_0000053 OMRSE_00000125 -> T0109::nursing home facility is bearer of nursing home function
+OMRSE_00000108 [1..*] RO_0000053 OMRSE_00000124 -> T010a::residential facility is bearer of residential function
+OMRSE_00000109 [1..*] RO_0000053 OMRSE_00000121 -> T010b::overnight dialysis facility is bearer of overnight dialysis function
+OMRSE_00000110 [1..*] RO_0000053 OMRSE_00000120 -> T010c::outpatient clinic facility is bearer of outpatient clinic function
+OMRSE_00000111 [1..*] RO_0000053 OMRSE_00000119 -> T010d::physician office facility is bearer of physician office function
+OMRSE_00000112 [1..*] RO_0000053 OMRSE_00000116 -> T010e::ambulatory surgery facility is bearer of ambulatory surgery function
+OMRSE_00000113 [1..*] RO_0000053 OMRSE_00000115 -> T010f::urgent care facility is bearer of urgent care function
+OMRSE_00000114 [1..*] RO_0000053 OMRSE_00000118 -> T0110::emergency department facility is bearer of emergency department function
+OMRSE_00000126 [1..*] BFO_0000051 IAO_0000005 -> T0111::patient discharge BFO_0000051 IAO_0000005
+OMRSE_00000126 [1..*] BFO_0000051 IAO_0000007 -> T0112::patient discharge BFO_0000051 IAO_0000007
+OMRSE_00000126 [1..*] BFO_0000051 IAO_0000104 -> T0113::patient discharge BFO_0000051 IAO_0000104
+OMRSE_00000126 [1..*] RO_0000053 OMRSE_00000012 -> T0114::patient discharge is bearer of health care provider role
+OMRSE_00000131 [1..*] OBI_0000299 OMRSE_00000185 -> T0115::OMB racial identification process OBI_0000299 OMB racial identity datum
+OMRSE_00000135 [1..*] BFO_0000050 OMRSE_00000133 -> T0116::gender identification process BFO_0000050 gender identity datum
+OMRSE_00000139 [1..*] BFO_0000054 OAE_0000067 -> T0117::surgeon role BFO_0000054 surgery
+OMRSE_00000142 [1..*] BFO_0000050 OMRSE_00000132 -> T0118::sexual orientation identification process BFO_0000050 identity datum
+C00cfX-OMRSE_00000102-U-el0 [1..*] RO_0000053 OMRSE_00000015 -> T0119::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility is bearer of health care provider organization role
+C00cfX-OMRSE_00000102-U-el1 [1..*] RO_0000053 OMRSE_00000015 -> T011a::health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by is bearer of health care provider organization role
+C00bfX-OMRSE_00000017-I-OBI_0001688 [1..*] RO_0000053 OMRSE_00000013 -> T011b::physician practice INTERSECTION organization has organization member is bearer of physician role is bearer of physician role
+C00c1X-OMRSE_00000058-I-OBI_0000312 [1..*] OBI_0000312 C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312 -> T011c::student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization OBI_0000312 student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization
+C00c3X-C00c1X-OMRSE_00000058-I-OBI_0000312-I-OBI_0000312 [1..*] RO_0002218 OMRSE_00000057 -> T011d::student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization has active participant school organization
+C00c7X-OMRSE_00000075-I-BFO_0000051 [1..*] BFO_0000051 BFO_0000029 -> T011e::residence function INTERSECTION  BFO_0000051 BFO_0000029
+OMRSE_00000015 [1..*] BFO_0000054 OGMS_0000097 -> T011f::health care provider organization role BFO_0000054 health care encounter
+C00d3X-OMRSE_00000077-I-OBI_0000312 [1..*] OBI_0000312 C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312 -> T0120::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role OBI_0000312 employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role
+C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312 [1..*] RO_0002218 C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312 -> T0121::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role has active participant employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role
+C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312 [1..*] RO_0002218 C00d9X-C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312-U -> T0122::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role has active participant employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans
+C00d7X-C00d5X-C00d3X-OMRSE_00000077-I-OBI_0000312-I-OBI_0000312-I-OBI_0000312 [1..*] RO_0000053 OMRSE_00000087 -> T0123::employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role is bearer of employer role
+OMRSE_00000023 [1..*] OMIABIS_0000008 BFO_0000040 -> T0124::collection of humans owns BFO_0000040
+OMRSE_00000023 [1..*] OMIABIS_0000009 BFO_0000040 -> T0125::collection of humans administrates BFO_0000040
+C00dbX-OMRSE_00000086-I-OBI_0000312 [1..*] OBI_0000312 C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312 -> T0126::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations OBI_0000312 human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations
+C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312 [1..*] RO_0002218 C00dfX-C00ddX-C00dbX-OMRSE_00000086-I-OBI_0000312-I-OBI_0000312-U -> T0127::human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations has active participant human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations
+OMRSE_00000033 [1..*] OMIABIS_0000008 BFO_0000040 -> T0128::aggregate of organizations owns BFO_0000040
+OMRSE_00000033 [1..*] OMIABIS_0000009 BFO_0000040 -> T0129::aggregate of organizations administrates BFO_0000040
+NCBITaxon_9606 [1..*] OBI_0000846 OBI_0000245 -> T012a::Homo sapiens is member of organization organization
+NCBITaxon_9606 [1..*] OMIABIS_0000008 BFO_0000040 -> T012b::Homo sapiens owns BFO_0000040
+NCBITaxon_9606 [1..*] OMIABIS_0000009 BFO_0000040 -> T012c::Homo sapiens administrates BFO_0000040
+OBI_0000245 [1..*] OBI_0000846 OBI_0000245 -> T012d::organization is member of organization organization
+OBI_0000245 [1..*] OBI_0001688 NCBITaxon_9606 -> T012e::organization has organization member Homo sapiens
+OBI_0000245 [1..*] OMIABIS_0000008 BFO_0000040 -> T012f::organization owns BFO_0000040
+OBI_0000245 [1..*] OMIABIS_0000009 BFO_0000040 -> T0130::organization administrates BFO_0000040
+C00e3X-OMRSE_00000082-I-RO_0000052 [1..*] RO_0002350 OMRSE_00000076 -> T0131::US Census reference person role INTERSECTION Homo sapiens household RO_0002350 household

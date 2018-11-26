@@ -1,0 +1,614 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "BFO_0000015" [ label="\"BFO_0000015\"" ];
+  "BFO_0000020" [ label="\"BFO_0000020\"" ];
+  "BFO_0000023" [ label="\"BFO_0000023\"" ];
+  "BFO_0000027" [ label="\"BFO_0000027\"" ];
+  "BFO_0000031" [ label="\"BFO_0000031\"" ];
+  "BFO_0000034" [ label="\"BFO_0000034\"" ];
+  "BFO_0000038" [ label="\"BFO_0000038\"" ];
+  "BFO_0000040" [ label="\"BFO_0000040\"" ];
+  "BFO_0000148" [ label="\"BFO_0000148\"" ];
+  "IAO_0000001" [ label="\"IAO_0000001\"" ];
+  "IAO_0000005" [ label="\"IAO_0000005\"" ];
+  "IAO_0000007" [ label="\"IAO_0000007\"" ];
+  "IAO_0000027" [ label="\"IAO_0000027\"" ];
+  "IAO_0000030" [ label="\"IAO_0000030\"" ];
+  "IAO_0000104" [ label="\"IAO_0000104\"" ];
+  "IAO_0000310" [ label="\"IAO_0000310\"" ];
+  "IAO_0000416" [ label="\"IAO_0000416\"" ];
+  "IAO_0000572" [ label="\"IAO_0000572\"" ];
+  "CRID" [ label="\"CRID\"" ];
+  "identity document" [ label="\"identity document\"" ];
+  "documented identity" [ label="\"documented identity\"" ];
+  "authentication" [ label="\"authentication\"" ];
+  "credential role" [ label="\"credential role\"" ];
+  "document act" [ label="\"document act\"" ];
+  "social act" [ label="\"social act\"" ];
+  "socio-legal generically dependent continuant" [ label="\"socio-legal generically dependent continuant\"" ];
+  "declaration" [ label="\"declaration\"" ];
+  "declaration performer role" [ label="\"declaration performer role\"" ];
+  "medical intervention" [ label="\"medical intervention\"" ];
+  "surgery" [ label="\"surgery\"" ];
+  "medical procedure" [ label="\"medical procedure\"" ];
+  "OBI_0000011" [ label="\"OBI_0000011\"" ];
+  "health care encounter" [ label="\"health care encounter\"" ];
+  "injury" [ label="\"injury\"" ];
+  "social security number" [ label="\"social security number\"" ];
+  "human social role" [ label="\"human social role\"" ];
+  "party to a legal entity" [ label="\"party to a legal entity\"" ];
+  "party to a legal proceeding" [ label="\"party to a legal proceeding\"" ];
+  "party to a legal agreement" [ label="\"party to a legal agreement\"" ];
+  "party to a marriage contract" [ label="\"party to a marriage contract\"" ];
+  "party to a power of attorney" [ label="\"party to a power of attorney\"" ];
+  "gender role" [ label="\"gender role\"" ];
+  "male gender role" [ label="\"male gender role\"" ];
+  "female gender role" [ label="\"female gender role\"" ];
+  "human health care role" [ label="\"human health care role\"" ];
+  "patient role" [ label="\"patient role\"" ];
+  "health care provider role" [ label="\"health care provider role\"" ];
+  "nurse role" [ label="\"nurse role\"" ];
+  "person health care provider role" [ label="\"person health care provider role\"" ];
+  "physician practice" [ label="\"physician practice\"" ];
+  "obsolete_hospital role" [ label="\"obsolete_hospital role\"" ];
+  "integrated delivery network" [ label="\"integrated delivery network\"" ];
+  "collection of organisms" [ label="\"collection of organisms\"" ];
+  "role in human social processes" [ label="\"role in human social processes\"" ];
+  "organization social role" [ label="\"organization social role\"" ];
+  "organism social role" [ label="\"organism social role\"" ];
+  "organization health care role" [ label="\"organization health care role\"" ];
+  "geopolitical organization" [ label="\"geopolitical organization\"" ];
+  "geopoli organization" [ label="\"geopoli organization\"" ];
+  "human patient role" [ label="\"human patient role\"" ];
+  "major administrative subdivision" [ label="\"major administrative subdivision\"" ];
+  "geopolitical dependency" [ label="\"geopolitical dependency\"" ];
+  "aggregate of sovereign states" [ label="\"aggregate of sovereign states\"" ];
+  "aggregate of geopoli organizations" [ label="\"aggregate of geopoli organizations\"" ];
+  "aggregate of dependencies" [ label="\"aggregate of dependencies\"" ];
+  "aggregate of major administrative subdivisions" [ label="\"aggregate of major administrative subdivisions\"" ];
+  "legal person role" [ label="\"legal person role\"" ];
+  "smoker role" [ label="\"smoker role\"" ];
+  "intravenous drug user" [ label="\"intravenous drug user\"" ];
+  "intergovernmental organization" [ label="\"intergovernmental organization\"" ];
+  "nongovernmental organizations" [ label="\"nongovernmental organizations\"" ];
+  "private governance organizations" [ label="\"private governance organizations\"" ];
+  "governmental organization" [ label="\"governmental organization\"" ];
+  "sovereign state" [ label="\"sovereign state\"" ];
+  "subnational entity" [ label="\"subnational entity\"" ];
+  "supranational entity" [ label="\"supranational entity\"" ];
+  "material entity role" [ label="\"material entity role\"" ];
+  "organism role" [ label="\"organism role\"" ];
+  "Homo sapiens role" [ label="\"Homo sapiens role\"" ];
+  "organization role" [ label="\"organization role\"" ];
+  "hospital function" [ label="\"hospital function\"" ];
+  "school function" [ label="\"school function\"" ];
+  "hospital role" [ label="\"hospital role\"" ];
+  "school role" [ label="\"school role\"" ];
+  "hospital organization" [ label="\"hospital organization\"" ];
+  "student role" [ label="\"student role\"" ];
+  "nursery school role" [ label="\"nursery school role\"" ];
+  "primary school role" [ label="\"primary school role\"" ];
+  "architectural structure" [ label="\"architectural structure\"" ];
+  "facility" [ label="\"facility\"" ];
+  "hospital facility" [ label="\"hospital facility\"" ];
+  "school facility" [ label="\"school facility\"" ];
+  "secondary school role" [ label="\"secondary school role\"" ];
+  "pediatric trauma patient role" [ label="\"pediatric trauma patient role\"" ];
+  "injured patient role" [ label="\"injured patient role\"" ];
+  "burn patient role" [ label="\"burn patient role\"" ];
+  "physiatrist role" [ label="\"physiatrist role\"" ];
+  "trauma patient role" [ label="\"trauma patient role\"" ];
+  "housing unit" [ label="\"housing unit\"" ];
+  "residence function" [ label="\"residence function\"" ];
+  "employee role" [ label="\"employee role\"" ];
+  "workplace facility" [ label="\"workplace facility\"" ];
+  "workplace function" [ label="\"workplace function\"" ];
+  "US census householder role" [ label="\"US census householder role\"" ];
+  "US Census reference person role" [ label="\"US Census reference person role\"" ];
+  "OMB ethnic identity datum" [ label="\"OMB ethnic identity datum\"" ];
+  "enrollment end date" [ label="\"enrollment end date\"" ];
+  "socio-legal human social role" [ label="\"socio-legal human social role\"" ];
+  "human role within an organization" [ label="\"human role within an organization\"" ];
+  "age measurement datum" [ label="\"age measurement datum\"" ];
+  "contract" [ label="\"contract\"" ];
+  "indemnity contract" [ label="\"indemnity contract\"" ];
+  "insurance policy" [ label="\"insurance policy\"" ];
+  "insured party role" [ label="\"insured party role\"" ];
+  "insurance company" [ label="\"insurance company\"" ];
+  "policy holder role" [ label="\"policy holder role\"" ];
+  "payer role" [ label="\"payer role\"" ];
+  "party to an insurance policy" [ label="\"party to an insurance policy\"" ];
+  "enrollment start date" [ label="\"enrollment start date\"" ];
+  "racial identity datum" [ label="\"racial identity datum\"" ];
+  "racial identification process" [ label="\"racial identification process\"" ];
+  "ethnic identity datum" [ label="\"ethnic identity datum\"" ];
+  "ethnic identification process" [ label="\"ethnic identification process\"" ];
+  "health care facility" [ label="\"health care facility\"" ];
+  "US Census unemployed role" [ label="\"US Census unemployed role\"" ];
+  "hospice facility" [ label="\"hospice facility\"" ];
+  "skilled nursing facility" [ label="\"skilled nursing facility\"" ];
+  "rehabilitation facility" [ label="\"rehabilitation facility\"" ];
+  "nursing home facility" [ label="\"nursing home facility\"" ];
+  "residential facility" [ label="\"residential facility\"" ];
+  "overnight dialysis facility" [ label="\"overnight dialysis facility\"" ];
+  "outpatient clinic facility" [ label="\"outpatient clinic facility\"" ];
+  "physician office facility" [ label="\"physician office facility\"" ];
+  "ambulatory surgery facility" [ label="\"ambulatory surgery facility\"" ];
+  "urgent care facility" [ label="\"urgent care facility\"" ];
+  "emergency department facility" [ label="\"emergency department facility\"" ];
+  "urgent care function" [ label="\"urgent care function\"" ];
+  "ambulatory surgery function" [ label="\"ambulatory surgery function\"" ];
+  "hospice function" [ label="\"hospice function\"" ];
+  "emergency department function" [ label="\"emergency department function\"" ];
+  "physician office function" [ label="\"physician office function\"" ];
+  "outpatient clinic function" [ label="\"outpatient clinic function\"" ];
+  "overnight dialysis function" [ label="\"overnight dialysis function\"" ];
+  "rehabilitation function" [ label="\"rehabilitation function\"" ];
+  "skilled nursing function" [ label="\"skilled nursing function\"" ];
+  "residential function" [ label="\"residential function\"" ];
+  "nursing home function" [ label="\"nursing home function\"" ];
+  "patient discharge" [ label="\"patient discharge\"" ];
+  "hispanic or latino identity datum" [ label="\"hispanic or latino identity datum\"" ];
+  "not hispanic or latino identity datum" [ label="\"not hispanic or latino identity datum\"" ];
+  "US physician assistant role" [ label="\"US physician assistant role\"" ];
+  "anesthesiologist role" [ label="\"anesthesiologist role\"" ];
+  "OMB racial identification process" [ label="\"OMB racial identification process\"" ];
+  "identity datum" [ label="\"identity datum\"" ];
+  "gender identity datum" [ label="\"gender identity datum\"" ];
+  "identification process" [ label="\"identification process\"" ];
+  "gender identification process" [ label="\"gender identification process\"" ];
+  "female gender identity datum" [ label="\"female gender identity datum\"" ];
+  "surgeon role" [ label="\"surgeon role\"" ];
+  "neurosurgereon role" [ label="\"neurosurgereon role\"" ];
+  "male gender identity datum" [ label="\"male gender identity datum\"" ];
+  "sexual orientation identification process" [ label="\"sexual orientation identification process\"" ];
+  "American Indian or Alaska Native identity datum" [ label="\"American Indian or Alaska Native identity datum\"" ];
+  "Asian identity datum" [ label="\"Asian identity datum\"" ];
+  "black or African American identity datum" [ label="\"black or African American identity datum\"" ];
+  "Native Hawaiian or other Pacific Islander identity datum" [ label="\"Native Hawaiian or other Pacific Islander identity datum\"" ];
+  "white identity datum" [ label="\"white identity datum\"" ];
+  "OMB racial identity datum" [ label="\"OMB racial identity datum\"" ];
+  "heavy smoker role" [ label="\"heavy smoker role\"" ];
+  "light smoker role" [ label="\"light smoker role\"" ];
+  "employment data" [ label="\"employment data\"" ];
+  "income data" [ label="\"income data\"" ];
+  "government assistance health care plan data" [ label="\"government assistance health care plan data\"" ];
+  "health care plan data" [ label="\"health care plan data\"" ];
+  "government assistance income data" [ label="\"government assistance income data\"" ];
+  "WIC data" [ label="\"WIC data\"" ];
+  "socio-economic data" [ label="\"socio-economic data\"" ];
+  "ObsoleteClass" [ label="\"ObsoleteClass\"" ];
+  "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by" [ label="\"health care facility UNION is owned by is bearer of health care provider organization role facility is administered by\"" ];
+  "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility" [ label="\"health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility\"" ];
+  "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by" [ label="\"health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by\"" ];
+  "legal person role UNION Homo sapiens collection of humans" [ label="\"legal person role UNION Homo sapiens collection of humans\"" ];
+  "physician practice INTERSECTION organization has organization member is bearer of physician role" [ label="\"physician practice INTERSECTION organization has organization member is bearer of physician role\"" ];
+  "physician role" [ label="\"physician role\"" ];
+  "student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization" [ label="\"student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization\"" ];
+  "student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization" [ label="\"student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization\"" ];
+  "school organization" [ label="\"school organization\"" ];
+  "role in human social processes UNION organization organism" [ label="\"role in human social processes UNION organization organism\"" ];
+  "organism" [ label="\"organism\"" ];
+  "residence function INTERSECTION " [ label="\"residence function INTERSECTION \"" ];
+  "BFO_0000029" [ label="\"BFO_0000029\"" ];
+  "health care provider role UNION Homo sapiens organization" [ label="\"health care provider role UNION Homo sapiens organization\"" ];
+  "declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations" [ label="\"declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations\"" ];
+  "integrated delivery network INTERSECTION organization has organization member" [ label="\"integrated delivery network INTERSECTION organization has organization member\"" ];
+  "health care provider organization role" [ label="\"health care provider organization role\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role" [ label="\"employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role" [ label="\"employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role" [ label="\"employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans" [ label="\"employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans\"" ];
+  "collection of humans" [ label="\"collection of humans\"" ];
+  "employer role" [ label="\"employer role\"" ];
+  "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations" [ label="\"human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations\"" ];
+  "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations" [ label="\"human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations\"" ];
+  "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations" [ label="\"human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations\"" ];
+  "aggregate of organizations" [ label="\"aggregate of organizations\"" ];
+  "party to a legal entity UNION Homo sapiens organization" [ label="\"party to a legal entity UNION Homo sapiens organization\"" ];
+  "Homo sapiens" [ label="\"Homo sapiens\"" ];
+  "organization" [ label="\"organization\"" ];
+  "US Census reference person role INTERSECTION Homo sapiens household" [ label="\"US Census reference person role INTERSECTION Homo sapiens household\"" ];
+  "household" [ label="\"household\"" ];
+  "string" [ label="\"string\"" ];
+  "documented identity" -> "IAO_0000030" [ label="\"isa\"" ];
+  "authentication" -> "BFO_0000015" [ label="\"isa\"" ];
+  "credential role" -> "BFO_0000023" [ label="\"isa\"" ];
+  "document act" -> "declaration" [ label="\"isa\"" ];
+  "social act" -> "BFO_0000015" [ label="\"isa\"" ];
+  "socio-legal generically dependent continuant" -> "BFO_0000031" [ label="\"isa\"" ];
+  "declaration" -> "social act" [ label="\"isa\"" ];
+  "declaration performer role" -> "BFO_0000023" [ label="\"isa\"" ];
+  "medical intervention" -> "OBI_0000011" [ label="\"isa\"" ];
+  "surgery" -> "medical procedure" [ label="\"isa\"" ];
+  "medical procedure" -> "medical intervention" [ label="\"isa\"" ];
+  "health care encounter" -> "BFO_0000015" [ label="\"isa\"" ];
+  "injury" -> "BFO_0000040" [ label="\"isa\"" ];
+  "social security number" -> "CRID" [ label="\"isa\"" ];
+  "human social role" -> "organism social role" [ label="\"isa\"" ];
+  "party to a legal entity" -> "role in human social processes" [ label="\"isa\"" ];
+  "party to a legal proceeding" -> "party to a legal entity" [ label="\"isa\"" ];
+  "party to a legal agreement" -> "party to a legal entity" [ label="\"isa\"" ];
+  "party to a marriage contract" -> "party to a legal agreement" [ label="\"isa\"" ];
+  "party to a power of attorney" -> "party to a legal entity" [ label="\"isa\"" ];
+  "gender role" -> "BFO_0000023" [ label="\"isa\"" ];
+  "male gender role" -> "gender role" [ label="\"isa\"" ];
+  "female gender role" -> "gender role" [ label="\"isa\"" ];
+  "human health care role" -> "role in human social processes" [ label="\"isa\"" ];
+  "patient role" -> "human health care role" [ label="\"isa\"" ];
+  "health care provider role" -> "human health care role" [ label="\"isa\"" ];
+  "nurse role" -> "health care provider role" [ label="\"isa\"" ];
+  "person health care provider role" -> "human social role" [ label="\"isa\"" ];
+  "physician practice" -> "health care provider organization role" [ label="\"isa\"" ];
+  "obsolete_hospital role" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "integrated delivery network" -> "health care provider organization role" [ label="\"isa\"" ];
+  "collection of organisms" -> "BFO_0000040" [ label="\"isa\"" ];
+  "role in human social processes" -> "BFO_0000023" [ label="\"isa\"" ];
+  "organization social role" -> "role in human social processes" [ label="\"isa\"" ];
+  "organism social role" -> "role in human social processes" [ label="\"isa\"" ];
+  "organization health care role" -> "organization social role" [ label="\"isa\"" ];
+  "geopolitical organization" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "geopoli organization" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "major administrative subdivision" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "geopolitical dependency" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "aggregate of sovereign states" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "aggregate of geopoli organizations" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "aggregate of dependencies" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "aggregate of major administrative subdivisions" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "legal person role" -> "role in human social processes" [ label="\"isa\"" ];
+  "smoker role" -> "BFO_0000023" [ label="\"isa\"" ];
+  "intravenous drug user" -> "BFO_0000023" [ label="\"isa\"" ];
+  "intergovernmental organization" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "nongovernmental organizations" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "private governance organizations" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "governmental organization" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "sovereign state" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "subnational entity" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "supranational entity" -> "ObsoleteClass" [ label="\"isa\"" ];
+  "organization role" -> "material entity role" [ label="\"isa\"" ];
+  "hospital function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "school function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "hospital role" -> "health care provider organization role" [ label="\"isa\"" ];
+  "school role" -> "organization social role" [ label="\"isa\"" ];
+  "hospital organization" -> "organization" [ label="\"isa\"" ];
+  "student role" -> "human role within an organization" [ label="\"isa\"" ];
+  "nursery school role" -> "school role" [ label="\"isa\"" ];
+  "primary school role" -> "school role" [ label="\"isa\"" ];
+  "architectural structure" -> "BFO_0000040" [ label="\"isa\"" ];
+  "facility" -> "architectural structure" [ label="\"isa\"" ];
+  "hospital facility" -> "health care facility" [ label="\"isa\"" ];
+  "school facility" -> "facility" [ label="\"isa\"" ];
+  "secondary school role" -> "school role" [ label="\"isa\"" ];
+  "pediatric trauma patient role" -> "human patient role" [ label="\"isa\"" ];
+  "injured patient role" -> "patient role" [ label="\"isa\"" ];
+  "burn patient role" -> "injured patient role" [ label="\"isa\"" ];
+  "physiatrist role" -> "physician role" [ label="\"isa\"" ];
+  "trauma patient role" -> "patient role" [ label="\"isa\"" ];
+  "housing unit" -> "BFO_0000040" [ label="\"isa\"" ];
+  "residence function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "employee role" -> "human role within an organization" [ label="\"isa\"" ];
+  "workplace facility" -> "facility" [ label="\"isa\"" ];
+  "workplace function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "US census householder role" -> "US Census reference person role" [ label="\"isa\"" ];
+  "US Census reference person role" -> "human social role" [ label="\"isa\"" ];
+  "OMB ethnic identity datum" -> "ethnic identity datum" [ label="\"isa\"" ];
+  "enrollment end date" -> "BFO_0000038" [ label="\"isa\"" ];
+  "socio-legal human social role" -> "human social role" [ label="\"isa\"" ];
+  "human role within an organization" -> "socio-legal human social role" [ label="\"isa\"" ];
+  "age measurement datum" -> "IAO_0000416" [ label="\"isa\"" ];
+  "contract" -> "IAO_0000310" [ label="\"isa\"" ];
+  "indemnity contract" -> "contract" [ label="\"isa\"" ];
+  "insurance policy" -> "indemnity contract" [ label="\"isa\"" ];
+  "insurance policy" -> "document act" [ label="\"isa\"" ];
+  "insurance policy" -> "collection of humans" [ label="\"isa\"" ];
+  "insured party role" -> "role in human social processes" [ label="\"isa\"" ];
+  "insured party role" -> "document act" [ label="\"isa\"" ];
+  "insured party role" -> "IAO_0000001" [ label="\"isa\"" ];
+  "insurance company" -> "organization" [ label="\"isa\"" ];
+  "insurance company" -> "payer role" [ label="\"isa\"" ];
+  "insurance company" -> "socio-legal generically dependent continuant" [ label="\"isa\"" ];
+  "insurance company" -> "IAO_0000007" [ label="\"isa\"" ];
+  "policy holder role" -> "insured party role" [ label="\"isa\"" ];
+  "payer role" -> "role in human social processes" [ label="\"isa\"" ];
+  "party to an insurance policy" -> "party to a legal agreement" [ label="\"isa\"" ];
+  "enrollment start date" -> "BFO_0000038" [ label="\"isa\"" ];
+  "racial identification process" -> "identification process" [ label="\"isa\"" ];
+  "ethnic identification process" -> "identification process" [ label="\"isa\"" ];
+  "health care facility" -> "facility" [ label="\"isa\"" ];
+  "health care facility" -> "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by" [ label="\"isa\"" ];
+  "US Census unemployed role" -> "human social role" [ label="\"isa\"" ];
+  "hospice facility" -> "health care facility" [ label="\"isa\"" ];
+  "skilled nursing facility" -> "health care facility" [ label="\"isa\"" ];
+  "rehabilitation facility" -> "health care facility" [ label="\"isa\"" ];
+  "nursing home facility" -> "health care facility" [ label="\"isa\"" ];
+  "residential facility" -> "health care facility" [ label="\"isa\"" ];
+  "overnight dialysis facility" -> "health care facility" [ label="\"isa\"" ];
+  "outpatient clinic facility" -> "health care facility" [ label="\"isa\"" ];
+  "physician office facility" -> "health care facility" [ label="\"isa\"" ];
+  "ambulatory surgery facility" -> "health care facility" [ label="\"isa\"" ];
+  "urgent care facility" -> "health care facility" [ label="\"isa\"" ];
+  "emergency department facility" -> "health care facility" [ label="\"isa\"" ];
+  "urgent care function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "ambulatory surgery function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "hospice function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "emergency department function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "physician office function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "outpatient clinic function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "overnight dialysis function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "rehabilitation function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "skilled nursing function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "residential function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "nursing home function" -> "BFO_0000034" [ label="\"isa\"" ];
+  "patient discharge" -> "document act" [ label="\"isa\"" ];
+  "patient discharge" -> "IAO_0000310" [ label="\"isa\"" ];
+  "patient discharge" -> "Homo sapiens" [ label="\"isa\"" ];
+  "hispanic or latino identity datum" -> "OMB ethnic identity datum" [ label="\"isa\"" ];
+  "not hispanic or latino identity datum" -> "OMB ethnic identity datum" [ label="\"isa\"" ];
+  "US physician assistant role" -> "health care provider role" [ label="\"isa\"" ];
+  "anesthesiologist role" -> "physician role" [ label="\"isa\"" ];
+  "OMB racial identification process" -> "racial identification process" [ label="\"isa\"" ];
+  "identification process" -> "social act" [ label="\"isa\"" ];
+  "identification process" -> "OBI_0000011" [ label="\"isa\"" ];
+  "gender identification process" -> "identification process" [ label="\"isa\"" ];
+  "female gender identity datum" -> "gender identity datum" [ label="\"isa\"" ];
+  "surgeon role" -> "physician role" [ label="\"isa\"" ];
+  "neurosurgereon role" -> "surgeon role" [ label="\"isa\"" ];
+  "male gender identity datum" -> "gender identity datum" [ label="\"isa\"" ];
+  "sexual orientation identification process" -> "identification process" [ label="\"isa\"" ];
+  "American Indian or Alaska Native identity datum" -> "OMB racial identity datum" [ label="\"isa\"" ];
+  "Asian identity datum" -> "OMB racial identity datum" [ label="\"isa\"" ];
+  "black or African American identity datum" -> "OMB racial identity datum" [ label="\"isa\"" ];
+  "Native Hawaiian or other Pacific Islander identity datum" -> "OMB racial identity datum" [ label="\"isa\"" ];
+  "white identity datum" -> "OMB racial identity datum" [ label="\"isa\"" ];
+  "OMB racial identity datum" -> "racial identity datum" [ label="\"isa\"" ];
+  "heavy smoker role" -> "smoker role" [ label="\"isa\"" ];
+  "light smoker role" -> "smoker role" [ label="\"isa\"" ];
+  "employment data" -> "socio-economic data" [ label="\"isa\"" ];
+  "income data" -> "socio-economic data" [ label="\"isa\"" ];
+  "government assistance health care plan data" -> "socio-economic data" [ label="\"isa\"" ];
+  "health care plan data" -> "socio-economic data" [ label="\"isa\"" ];
+  "government assistance income data" -> "socio-economic data" [ label="\"isa\"" ];
+  "WIC data" -> "socio-economic data" [ label="\"isa\"" ];
+  "socio-economic data" -> "IAO_0000027" [ label="\"isa\"" ];
+  "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility" -> "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by" [ label="\"isa\"" ];
+  "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility" -> "facility" [ label="\"isa\"" ];
+  "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by" -> "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by" [ label="\"isa\"" ];
+  "physician practice INTERSECTION organization has organization member is bearer of physician role" -> "organization" [ label="\"isa\"" ];
+  "physician role" -> "health care provider role" [ label="\"isa\"" ];
+  "student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization" -> "socio-legal generically dependent continuant" [ label="\"isa\"" ];
+  "student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization" -> "declaration" [ label="\"isa\"" ];
+  "school organization" -> "organization" [ label="\"isa\"" ];
+  "organism" -> "role in human social processes UNION organization organism" [ label="\"isa\"" ];
+  "residence function INTERSECTION " -> "BFO_0000040" [ label="\"isa\"" ];
+  "integrated delivery network INTERSECTION organization has organization member" -> "organization" [ label="\"isa\"" ];
+  "health care provider organization role" -> "organization health care role" [ label="\"isa\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role" -> "socio-legal generically dependent continuant" [ label="\"isa\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role" -> "declaration" [ label="\"isa\"" ];
+  "collection of humans" -> "collection of organisms" [ label="\"isa\"" ];
+  "collection of humans" -> "legal person role UNION Homo sapiens collection of humans" [ label="\"isa\"" ];
+  "collection of humans" -> "declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations" [ label="\"isa\"" ];
+  "collection of humans" -> "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans" [ label="\"isa\"" ];
+  "employer role" -> "role in human social processes" [ label="\"isa\"" ];
+  "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations" -> "socio-legal generically dependent continuant" [ label="\"isa\"" ];
+  "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations" -> "declaration" [ label="\"isa\"" ];
+  "aggregate of organizations" -> "BFO_0000040" [ label="\"isa\"" ];
+  "aggregate of organizations" -> "declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations" [ label="\"isa\"" ];
+  "aggregate of organizations" -> "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations" [ label="\"isa\"" ];
+  "Homo sapiens" -> "legal person role UNION Homo sapiens collection of humans" [ label="\"isa\"" ];
+  "Homo sapiens" -> "health care provider role UNION Homo sapiens organization" [ label="\"isa\"" ];
+  "Homo sapiens" -> "declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations" [ label="\"isa\"" ];
+  "Homo sapiens" -> "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans" [ label="\"isa\"" ];
+  "Homo sapiens" -> "party to a legal entity UNION Homo sapiens organization" [ label="\"isa\"" ];
+  "organization" -> "BFO_0000040" [ label="\"isa\"" ];
+  "organization" -> "role in human social processes UNION organization organism" [ label="\"isa\"" ];
+  "organization" -> "health care provider role UNION Homo sapiens organization" [ label="\"isa\"" ];
+  "organization" -> "declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations" [ label="\"isa\"" ];
+  "organization" -> "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans" [ label="\"isa\"" ];
+  "organization" -> "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations" [ label="\"isa\"" ];
+  "organization" -> "party to a legal entity UNION Homo sapiens organization" [ label="\"isa\"" ];
+  "US Census reference person role INTERSECTION Homo sapiens household" -> "Homo sapiens" [ label="\"isa\"" ];
+  "household" -> "BFO_0000040" [ label="\"isa\"" ];
+  "BFO_0000040" -> "Homo sapiens" [ label="[1..*]
+\"is owned by\"" ];
+  "IAO_0000030" -> "Homo sapiens" [ label="[1..*]
+\"is owned by\"" ];
+  "hospice facility" -> "hospice function" [ label="[1..*]
+\"is bearer of\"" ];
+  "legal person role" -> "legal person role UNION Homo sapiens collection of humans" [ label="[1..*]
+\"inheres in\"" ];
+  "physician practice" -> "physician practice INTERSECTION organization has organization member is bearer of physician role" [ label="[1..*]
+\"inheres in\"" ];
+  "physician practice INTERSECTION organization has organization member is bearer of physician role" -> "physician role" [ label="[1..*]
+\"is bearer of\"" ];
+  "policy holder role" -> "party to an insurance policy" [ label="[1..*]
+\"is bearer of\"" ];
+  "ethnic identification process" -> "ethnic identity datum" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "student role" -> "student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization" [ label="[1..*]
+\"RO_0000059\"" ];
+  "student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization" -> "student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization" [ label="[1..*]
+\"OBI_0000312\"" ];
+  "student role INTERSECTION socio-legal generically dependent continuant has active participant declaration school organization INTERSECTION declaration has active participant school organization" -> "school organization" [ label="[1..*]
+\"has active participant\"" ];
+  "role in human social processes" -> "role in human social processes UNION organization organism" [ label="[1..*]
+\"inheres in\"" ];
+  "residence function" -> "residence function INTERSECTION " [ label="[1..*]
+\"inheres in\"" ];
+  "residence function INTERSECTION " -> "BFO_0000029" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "female gender role" -> "organism" [ label="[1..*]
+\"inheres in\"" ];
+  "insurance policy" -> "insurance company" [ label="[1..*]
+\"has active participant\"" ];
+  "racial identification process" -> "racial identity datum" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "housing unit" -> "BFO_0000029" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "housing unit" -> "BFO_0000040" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "housing unit" -> "residence function" [ label="[1..1]
+\"is bearer of\"" ];
+  "indemnity contract" -> "IAO_0000001" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "indemnity contract" -> "IAO_0000005" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "indemnity contract" -> "IAO_0000007" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "indemnity contract" -> "IAO_0000104" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "nurse role" -> "Homo sapiens" [ label="[1..*]
+\"inheres in\"" ];
+  "gender identification process" -> "gender identity datum" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "health care provider role" -> "health care provider role UNION Homo sapiens organization" [ label="[1..*]
+\"inheres in\"" ];
+  "declaration performer role" -> "declaration performer role UNION Homo sapiens organization collection of humans aggregate of organizations" [ label="[1..*]
+\"inheres in\"" ];
+  "integrated delivery network" -> "integrated delivery network INTERSECTION organization has organization member" [ label="[1..*]
+\"inheres in\"" ];
+  "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is owned by is bearer of health care provider organization role facility" -> "health care provider organization role" [ label="[1..*]
+\"is bearer of\"" ];
+  "health care facility UNION is owned by is bearer of health care provider organization role facility is administered by UNION class element : is bearer of health care provider organization role is administered by" -> "health care provider organization role" [ label="[1..*]
+\"is bearer of\"" ];
+  "OMB racial identification process" -> "OMB racial identity datum" [ label="[1..*]
+\"OBI_0000299\"" ];
+  "smoker role" -> "Homo sapiens" [ label="[1..*]
+\"inheres in\"" ];
+  "patient role" -> "organism" [ label="[1..*]
+\"inheres in\"" ];
+  "overnight dialysis facility" -> "overnight dialysis function" [ label="[1..*]
+\"is bearer of\"" ];
+  "organism social role" -> "organism" [ label="[1..*]
+\"inheres in\"" ];
+  "employee role" -> "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role" [ label="[1..*]
+\"RO_0000059\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role" -> "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role" [ label="[1..*]
+\"OBI_0000312\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role" -> "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role" [ label="[1..*]
+\"has active participant\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role" -> "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role UNION Homo sapiens organization collection of humans" [ label="[1..*]
+\"has active participant\"" ];
+  "collection of humans" -> "BFO_0000040" [ label="[1..*]
+\"owns\"" ];
+  "collection of humans" -> "BFO_0000040" [ label="[1..*]
+\"administrates\"" ];
+  "employee role INTERSECTION socio-legal generically dependent continuant is bearer of has active participant declaration Homo sapiens organization collection of humans employer role INTERSECTION declaration is bearer of has active participant Homo sapiens organization collection of humans employer role INTERSECTION Homo sapiens organization collection of humans is bearer of employer role" -> "employer role" [ label="[1..*]
+\"is bearer of\"" ];
+  "gender role" -> "organism" [ label="[1..*]
+\"inheres in\"" ];
+  "facility" -> "organization" [ label="[1..*]
+\"is administered by\"" ];
+  "intravenous drug user" -> "Homo sapiens" [ label="[1..*]
+\"inheres in\"" ];
+  "rehabilitation facility" -> "rehabilitation function" [ label="[1..*]
+\"is bearer of\"" ];
+  "US physician assistant role" -> "Homo sapiens" [ label="[1..*]
+\"inheres in\"" ];
+  "sexual orientation identification process" -> "identity datum" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "contract" -> "document act" [ label="[1..*]
+\"OBI_0000312\"" ];
+  "male gender role" -> "organism" [ label="[1..*]
+\"inheres in\"" ];
+  "physician office facility" -> "physician office function" [ label="[1..*]
+\"is bearer of\"" ];
+  "insurance company" -> "party to an insurance policy" [ label="[1..*]
+\"is bearer of\"" ];
+  "insurance company" -> "document act" [ label="[1..*]
+\"OBI_0000312\"" ];
+  "insurance company" -> "insurance policy" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "urgent care facility" -> "urgent care function" [ label="[1..*]
+\"is bearer of\"" ];
+  "socio-legal human social role" -> "socio-legal generically dependent continuant" [ label="[1..*]
+\"RO_0000059\"" ];
+  "human health care role" -> "health care encounter" [ label="[1..*]
+\"BFO_0000054\"" ];
+  "human role within an organization" -> "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations" [ label="[1..*]
+\"RO_0000059\"" ];
+  "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations" -> "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations" [ label="[1..*]
+\"OBI_0000312\"" ];
+  "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations" -> "human role within an organization INTERSECTION socio-legal generically dependent continuant has active participant declaration organization aggregate of organizations INTERSECTION declaration has active participant organization aggregate of organizations UNION organization aggregate of organizations" [ label="[1..*]
+\"has active participant\"" ];
+  "aggregate of organizations" -> "BFO_0000040" [ label="[1..*]
+\"owns\"" ];
+  "aggregate of organizations" -> "BFO_0000040" [ label="[1..*]
+\"administrates\"" ];
+  "physician role" -> "Homo sapiens" [ label="[1..*]
+\"inheres in\"" ];
+  "insured party role" -> "insurance policy" [ label="[1..*]
+\"OBI_0000299\"" ];
+  "insured party role" -> "insurance policy" [ label="[1..*]
+\"BFO_0000050\"" ];
+  "patient discharge" -> "IAO_0000005" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "patient discharge" -> "IAO_0000007" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "patient discharge" -> "IAO_0000104" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "patient discharge" -> "health care provider role" [ label="[1..*]
+\"is bearer of\"" ];
+  "outpatient clinic facility" -> "outpatient clinic function" [ label="[1..*]
+\"is bearer of\"" ];
+  "party to a legal entity" -> "party to a legal entity UNION Homo sapiens organization" [ label="[1..*]
+\"inheres in\"" ];
+  "Homo sapiens" -> "organization" [ label="[1..*]
+\"is member of organization\"" ];
+  "Homo sapiens" -> "BFO_0000040" [ label="[1..*]
+\"owns\"" ];
+  "Homo sapiens" -> "BFO_0000040" [ label="[1..*]
+\"administrates\"" ];
+  "organization" -> "Homo sapiens" [ label="[1..*]
+\"has organization member\"" ];
+  "organization" -> "BFO_0000040" [ label="[1..*]
+\"owns\"" ];
+  "organization" -> "BFO_0000040" [ label="[1..*]
+\"administrates\"" ];
+  "nursing home facility" -> "nursing home function" [ label="[1..*]
+\"is bearer of\"" ];
+  "health care provider organization role" -> "health care encounter" [ label="[1..*]
+\"BFO_0000054\"" ];
+  "organization social role" -> "organization" [ label="[1..*]
+\"inheres in\"" ];
+  "US Census reference person role" -> "IAO_0000572" [ label="[1..*]
+\"BFO_0000054\"" ];
+  "party to a marriage contract" -> "Homo sapiens" [ label="[1..*]
+\"inheres in\"" ];
+  "skilled nursing facility" -> "skilled nursing function" [ label="[1..*]
+\"is bearer of\"" ];
+  "emergency department facility" -> "emergency department function" [ label="[1..*]
+\"is bearer of\"" ];
+  "documented identity" -> "IAO_0000030" [ label="[1..*]
+\"BFO_0000051\"" ];
+  "documented identity" -> "identity document" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "residential facility" -> "residential function" [ label="[1..*]
+\"is bearer of\"" ];
+  "ambulatory surgery facility" -> "ambulatory surgery function" [ label="[1..*]
+\"is bearer of\"" ];
+  "authentication" -> "credential role" [ label="[1..*]
+\"BFO_0000055\"" ];
+  "authentication" -> "IAO_0000027" [ label="[1..*]
+\"RO_0000057\"" ];
+  "authentication" -> "IAO_0000027" [ label="[1..*]
+\"IAO_0000136\"" ];
+  "surgeon role" -> "surgery" [ label="[1..*]
+\"BFO_0000054\"" ];
+  "human social role" -> "Homo sapiens" [ label="[1..*]
+\"inheres in\"" ];
+  "US census householder role" -> "social act" [ label="[1..*]
+\"BFO_0000054\"" ];
+  "US Census reference person role" -> "US Census reference person role INTERSECTION Homo sapiens household" [ label="[1..*]
+\"inheres in\"" ];
+  "US Census reference person role INTERSECTION Homo sapiens household" -> "household" [ label="[1..*]
+\"RO_0002350\"" ];
+  "workplace facility" -> "workplace function" [ label="[1..*]
+\"is bearer of\"" ];
+  "BFO_0000038" -> "string" [ label="[1..*]
+\"date\"" ];
+  "BFO_0000038" -> "string" [ label="[1..*]
+\"time of day\"" ];
+  "BFO_0000148" -> "string" [ label="[1..*]
+\"time of day\"" ];
+}

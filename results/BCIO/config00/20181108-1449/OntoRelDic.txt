@@ -1,0 +1,258 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://www.w3.org/ns/ssn/systems/SystemProperty -> T0001::SystemProperty::SystemProperty
+https://w3id.org/BCI-ontology#RecordSpec -> T0002::RecordSpec::RecordSpec
+http://www.w3.org/ns/sosa/Observation -> T0003::Observation::Observation
+http://www.w3.org/ns/sosa/Procedure -> T0004::Procedure::Procedure
+https://w3id.org/BCI-ontology#ProtocolBuffersDataFormat -> T0005::ProtocolBuffersDataFormat::ProtocolBuffersDataFormat
+https://w3id.org/BCI-ontology#Context.Event -> T0006::Context.Event::Context.Event
+https://w3id.org/BCI-ontology#Context.Role -> T0007::Context.Role::Context.Role
+https://www.irit.fr/recherches/MELODI/ontologies/SAN#ActuatorInput -> T0008::ActuatorInput::ActuatorInput
+http://www.w3.org/ns/ssn/systems/Frequency -> T0009::Frequency::Frequency
+https://w3id.org/BCI-ontology#ResponseTag -> T000a::ResponseTag::ResponseTag
+https://w3id.org/BCI-ontology#PlayoutInstant.SubjectAction -> T000b::PlayoutInstant.SubjectAction::PlayoutInstant.SubjectAction
+https://w3id.org/BCI-ontology#C0062X-Context.ObjectComponent-U -> T000c::C0062X-Context.ObjectComponent-U::Context.ObjectComponent UNION 
+https://w3id.org/BCI-ontology#Record -> T000d::Record::Record
+https://w3id.org/BCI-ontology#AccessMethod.RESTful-JSON -> T000e::AccessMethod.RESTful-JSON::AccessMethod.RESTful-JSON
+https://w3id.org/BCI-ontology#NeurologicalAspect -> T000f::NeurologicalAspect::NeurologicalAspect
+http://www.w3.org/ns/sosa/Result -> T0010::Result::Result
+https://w3id.org/BCI-ontology#Context.Object -> T0011::Context.Object::Context.Object
+https://w3id.org/BCI-ontology#Actuation -> T0012::Actuation::Actuation
+https://w3id.org/BCI-ontology#EegRecord -> T0013::EegRecord::EegRecord
+http://www.w3.org/ns/sosa/Actuation -> T0014::Actuation::Actuation
+https://w3id.org/BCI-ontology#Model -> T0015::Model::Model
+http://www.w3.org/ns/sosa/Sensor -> T0016::Sensor::Sensor
+https://w3id.org/BCI-ontology#Command -> T0017::Command::Command
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FormalEntity -> T0018::FormalEntity::FormalEntity
+https://w3id.org/BCI-ontology#AccessMethod.MQTT -> T0019::AccessMethod.MQTT::AccessMethod.MQTT
+https://w3id.org/BCI-ontology#Context -> T001a::Context::Context
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object -> T001b::Object::Object
+https://w3id.org/BCI-ontology#Modality -> T001c::Modality::Modality
+https://w3id.org/BCI-ontology#Actuator -> T001d::Actuator::Actuator
+https://w3id.org/BCI-ontology#AccessMethod -> T001e::AccessMethod::AccessMethod
+https://w3id.org/BCI-ontology#Interaction -> T001f::Interaction::Interaction
+https://w3id.org/BCI-ontology#EegDevice -> T0020::EegDevice::EegDevice
+https://w3id.org/BCI-ontology#ActuationResult -> T0021::ActuationResult::ActuationResult
+https://w3id.org/BCI-ontology#EegNonChannel -> T0022::EegNonChannel::EegNonChannel
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject -> T0023::InformationObject::InformationObject
+http://dbpedia.org/ontology/Person -> T0024::Person::Person
+https://w3id.org/BCI-ontology#ActuationTarget -> T0025::ActuationTarget::ActuationTarget
+https://w3id.org/BCI-ontology#EmotionalAspect -> T0026::EmotionalAspect::EmotionalAspect
+https://w3id.org/BCI-ontology#PlayoutInstant -> T0027::PlayoutInstant::PlayoutInstant
+https://w3id.org/BCI-ontology#StimulusEvent -> T0028::StimulusEvent::StimulusEvent
+https://w3id.org/BCI-ontology#CognitiveAspect -> T0029::CognitiveAspect::CognitiveAspect
+https://w3id.org/BCI-ontology#ChannelingSpec -> T002a::ChannelingSpec::ChannelingSpec
+https://w3id.org/BCI-ontology#SubjectState -> T002b::SubjectState::SubjectState
+https://w3id.org/BCI-ontology#DeviceChannelingSpec -> T002c::DeviceChannelingSpec::DeviceChannelingSpec
+https://w3id.org/BCI-ontology#Subject -> T002d::Subject::Subject
+http://www.w3.org/ns/sosa/ActuatableProperty -> T002e::ActuatableProperty::ActuatableProperty
+https://w3id.org/BCI-ontology#Playout -> T002f::Playout::Playout
+https://w3id.org/BCI-ontology#ActuationEvent -> T0030::ActuationEvent::ActuationEvent
+https://w3id.org/BCI-ontology#SamplingRate -> T0031::SamplingRate::SamplingRate
+https://w3id.org/BCI-ontology#Context.Capability -> T0032::Context.Capability::Context.Capability
+https://w3id.org/BCI-ontology#NonChannel -> T0033::NonChannel::NonChannel
+https://w3id.org/BCI-ontology#Action -> T0034::Action::Action
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation -> T0035::Situation::Situation
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson -> T0036::NaturalPerson::NaturalPerson
+https://w3id.org/BCI-ontology#Aspect -> T0037::Aspect::Aspect
+https://w3id.org/BCI-ontology#AccessMethod.CoAP -> T0038::AccessMethod.CoAP::AccessMethod.CoAP
+https://www.irit.fr/recherches/MELODI/ontologies/SAN#Actuation -> T0039::Actuation::Actuation
+https://w3id.org/BCI-ontology#RecordChannelingSpec -> T003a::RecordChannelingSpec::RecordChannelingSpec
+https://w3id.org/BCI-ontology#DataFormat -> T003b::DataFormat::DataFormat
+https://w3id.org/BCI-ontology#Context.Method -> T003c::Context.Method::Context.Method
+https://w3id.org/BCI-ontology#FeatureParameter -> T003d::FeatureParameter::FeatureParameter
+https://w3id.org/BCI-ontology#XdfDataFormat -> T003e::XdfDataFormat::XdfDataFormat
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpatioTemporalRegion -> T003f::SpatioTemporalRegion::SpatioTemporalRegion
+https://w3id.org/BCI-ontology#RecordedData -> T0040::RecordedData::RecordedData
+http://www.w3.org/ns/sosa/ObservableProperty -> T0041::ObservableProperty::ObservableProperty
+http://purl.org/vocommons/voaf#Vocabulary -> T0042::Vocabulary::Vocabulary
+https://w3id.org/BCI-ontology#Collection -> T0043::Collection::Collection
+https://w3id.org/BCI-ontology#Descriptor -> T0044::Descriptor::Descriptor
+https://w3id.org/BCI-ontology#Session -> T0045::Session::Session
+https://w3id.org/BCI-ontology#Device -> T0046::Device::Device
+https://w3id.org/BCI-ontology#StimulusTag -> T0047::StimulusTag::StimulusTag
+https://w3id.org/BCI-ontology#ActuatorSpec -> T0048::ActuatorSpec::ActuatorSpec
+https://w3id.org/BCI-ontology#Context.ObjectComponent -> T0049::Context.ObjectComponent::Context.ObjectComponent
+https://w3id.org/BCI-ontology#ImpactedProperty -> T004a::ImpactedProperty::ImpactedProperty
+http://www.w3.org/ns/sosa/Actuator -> T004b::Actuator::Actuator
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event -> T004c::Event::Event
+https://w3id.org/BCI-ontology#DataBlock -> T004d::DataBlock::DataBlock
+https://w3id.org/BCI-ontology#Marker -> T004e::Marker::Marker
+http://purl.oclc.org/NET/ssnx/ssn#SensorDataSheet -> T004f::SensorDataSheet::SensorDataSheet
+https://w3id.org/BCI-ontology#EegChannel -> T0050::EegChannel::EegChannel
+http://www.w3.org/ns/ssn/Stimulus -> T0051::Stimulus::Stimulus
+https://www.irit.fr/recherches/MELODI/ontologies/SAN#Effect -> T0052::Effect::Effect
+http://www.w3.org/ns/ssn/systems/SystemCapability -> T0053::SystemCapability::SystemCapability
+https://w3id.org/BCI-ontology#EegModality -> T0054::EegModality::EegModality
+http://www.w3.org/ns/sosa/FeatureOfInterest -> T0055::FeatureOfInterest::FeatureOfInterest
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collection -> T0056::Collection::Collection
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action -> T0057::Action::Action
+https://w3id.org/BCI-ontology#Activity -> T0058::Activity::Activity
+https://w3id.org/BCI-ontology#DeviceSpec -> T0059::DeviceSpec::DeviceSpec
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role -> T005a::Role::Role
+https://w3id.org/BCI-ontology#Context.Scene -> T005b::Context.Scene::Context.Scene
+https://www.irit.fr/recherches/MELODI/ontologies/SAN#ActuationValue -> T005c::ActuationValue::ActuationValue
+https://www.irit.fr/recherches/MELODI/ontologies/SAN#Actuator -> T005d::Actuator::Actuator
+https://w3id.org/BCI-ontology#DataSegment -> T005e::DataSegment::DataSegment
+http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Method -> T005f::Method::Method
+https://w3id.org/BCI-ontology#Channel -> T0060::Channel::Channel
+https://w3id.org/BCI-ontology#Context.AutonomousBeing -> T0061::Context.AutonomousBeing::Context.AutonomousBeing
+https://w3id.org/BCI-ontology#PlayoutInstant.ContextEvent -> T0062::PlayoutInstant.ContextEvent::PlayoutInstant.ContextEvent
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+Aspect [1..1] hasIntensityLevel positiveInteger -> T0063::Aspect hasIntensityLevel
+Marker [1..1] hasLabel Literal -> T0064::Marker hasLabel
+AccessMethod.MQTT [1..1] hasMQTT.Topic Literal -> T0065::AccessMethod.MQTT hasMQTT.Topic
+Channel [1..1] hasTimeStamp dateTimeStamp -> T0066::Channel hasTimeStamp
+DataBlock [1..1] hasTimeStamp dateTimeStamp -> T0067::DataBlock hasTimeStamp
+Marker [1..1] hasTimeStamp dateTimeStamp -> T0068::Marker hasTimeStamp
+PlayoutInstant [1..1] hasTimeStamp dateTimeStamp -> T0069::PlayoutInstant hasTimeStamp
+Context [1..1] hasTitle Literal -> T006a::Context hasTitle
+Context.Event [1..1] hasTitle Literal -> T006b::Context.Event hasTitle
+Context.Object [1..1] hasTitle Literal -> T006c::Context.Object hasTitle
+Context.ObjectComponent [1..1] hasTitle Literal -> T006d::Context.ObjectComponent hasTitle
+Context.Scene [1..1] hasTitle Literal -> T006e::Context.Scene hasTitle
+Interaction [1..1] hasTitle Literal -> T006f::Interaction hasTitle
+Session [1..1] hasTitle Literal -> T0070::Session hasTitle
+Interaction [0..1] hasTitle Literal -> T0071::Interaction hasTitle
+Model [0..1] hasTitle Literal -> T0072::Model hasTitle
+AccessMethod [1..1] hasType Literal -> T0073::AccessMethod hasType
+Record [1..1] hasSampleCount positiveInteger -> T0074::Record hasSampleCount
+AccessMethod [1..1] hasLocator anyURI -> T0075::AccessMethod hasLocator
+Marker [0..1] hasLabel Literal -> T0076::Marker hasLabel
+Marker [1..1] hasTimeStamp dateTime -> T0077::Marker hasTimeStamp
+Context.Scene [0..1] hasTitle Literal -> T0078::Context.Scene hasTitle
+Descriptor [1..1] hasTitle Literal -> T0079::Descriptor hasTitle
+DataBlock [1..1] hasOrdinalPosition positiveInteger -> T007a::DataBlock hasOrdinalPosition
+Record [1..1] hasEndTime dateTime -> T007b::Record hasEndTime
+Model [1..1] hasModelIRI anyURI -> T007c::Model hasModelIRI
+ResponseTag [1..1] hasConfidence float -> T007d::ResponseTag hasConfidence
+ResponseTag [1..1] hasState Literal -> T007e::ResponseTag hasState
+AccessMethod.MQTT [1..1] hasMQTT.ID Literal -> T007f::AccessMethod.MQTT hasMQTT.ID
+Session [1..1] hasStartTime dateTime -> T0080::Session hasStartTime
+AccessMethod.MQTT [1..1] hasMQTT.Broker Literal -> T0081::AccessMethod.MQTT hasMQTT.Broker
+RecordChannelingSpec [1..1] hasStartChannel nonNegativeInteger -> T0082::RecordChannelingSpec hasStartChannel
+DeviceChannelingSpec [1..1] hasNumberOfChannels positiveInteger -> T0083::DeviceChannelingSpec hasNumberOfChannels
+Context.ObjectComponent [0..1] hasTitle Literal -> T0084::Context.ObjectComponent hasTitle
+Actuation [1..1] hasStartTime dateTime -> T0085::Actuation hasStartTime
+Session [1..1] hasEndTime dateTime -> T0086::Session hasEndTime
+RecordChannelingSpec [1..1] hasEndChannel nonNegativeInteger -> T0087::RecordChannelingSpec hasEndChannel
+Descriptor [1..1] hasLocator anyURI -> T0088::Descriptor hasLocator
+Aspect [0..1] hasIntensityLevel positiveInteger -> T0089::Aspect hasIntensityLevel
+DataBlock [1..1] hasOffset long -> T008a::DataBlock hasOffset
+Context [0..1] hasTitle Literal -> T008b::Context hasTitle
+Descriptor [1..1] hasDateTime dateTime -> T008c::Descriptor hasDateTime
+Record [1..1] hasSamplingRate float -> T008d::Record hasSamplingRate
+Record [1..1] hasStartTime dateTime -> T008e::Record hasStartTime
+DataBlock [1..1] hasTimeStamp dateTime -> T008f::DataBlock hasTimeStamp
+PlayoutInstant [1..1] hasTimeStamp dateTime -> T0090::PlayoutInstant hasTimeStamp
+Playout [1..1] hasStartTime dateTime -> T0091::Playout hasStartTime
+AccessMethod.MQTT [1..*] hasMQTT.Topic Literal -> T0092::AccessMethod.MQTT hasMQTT.Topic
+Channel [1..1] hasLabel Literal -> T0093::Channel hasLabel
+Collection [1..1] hasTitle Literal -> T0094::Collection hasTitle
+Session [0..1] hasTitle Literal -> T0095::Session hasTitle
+Context.Object [0..1] hasTitle Literal -> T0096::Context.Object hasTitle
+RecordChannelingSpec [1..1] hasNumberOfChannels positiveInteger -> T0097::RecordChannelingSpec hasNumberOfChannels
+Actuation [1..1] hasEndTime dateTime -> T0098::Actuation hasEndTime
+Playout [1..1] hasEndTime dateTime -> T0099::Playout hasEndTime
+Action [1..*] hasPlayoutInstant PlayoutInstant -> T009a::Action hasPlayoutInstant PlayoutInstant
+Context.Event [1..*] hasPlayoutInstant PlayoutInstant.ContextEvent -> T009b::Context.Event hasPlayoutInstant PlayoutInstant.ContextEvent
+Activity [1..*] hasDescriptor Descriptor -> T009c::Activity hasDescriptor Descriptor
+Activity [1..*] hasAction Action -> T009d::Activity hasAction Action
+Actuation [1..1] isActuationOf Session -> T009e::Actuation isActuationOf Session
+ActuationEvent [1..1] changes ActuationTarget -> T009f::ActuationEvent changes ActuationTarget
+ActuationResult [1..1] involves ActuationEvent -> T00a0::ActuationResult involves ActuationEvent
+Actuator [1..1] triggers ActuationEvent -> T00a1::Actuator triggers ActuationEvent
+ActuatorSpec [1..*] hasActuatorSpec ActuatorSpec -> T00a2::ActuatorSpec hasActuatorSpec ActuatorSpec
+Aspect [1..*] hasModality Modality -> T00a3::Aspect hasModality Modality
+Channel [1..*] hasDescriptor Descriptor -> T00a4::Channel hasDescriptor Descriptor
+Channel [1..*] isChannelDataOf DeviceChannelingSpec -> T00a5::Channel isChannelDataOf DeviceChannelingSpec
+Channel [1..*] forModality Modality -> T00a6::Channel forModality Modality
+Collection [1..*] hasMember Interaction -> T00a7::Collection hasMember Interaction
+Collection [1..*] hasMember Session -> T00a8::Collection hasMember Session
+Command [1..*] consumesInputFrom Record -> T00a9::Command consumesInputFrom Record
+Command [1..*] isExecutedBy Actuator -> T00aa::Command isExecutedBy Actuator
+Context [1..*] hasDescriptor Descriptor -> T00ab::Context hasDescriptor Descriptor
+Context.AutonomousBeing [1..*] canPerform Context.Capability -> T00ac::Context.AutonomousBeing canPerform Context.Capability
+Context.Event [1..1] hasNext Context.Event -> T00ad::Context.Event hasNext Context.Event
+Context.Event [1..*] hasPlayoutInstant PlayoutInstant -> T00ae::Context.Event hasPlayoutInstant PlayoutInstant
+Context.Event [1..*] affects Context.Object -> T00af::Context.Event affects Context.Object
+Context.Method [1..*] raises Context.Event -> T00b0::Context.Method raises Context.Event
+Context.Object [1..*] causes Context.Event -> T00b1::Context.Object causes Context.Event
+Context.Object [1..*] hasObject Context.Object -> T00b2::Context.Object hasObject Context.Object
+Context.Object [1..*] hasRole Context.Role -> T00b3::Context.Object hasRole Context.Role
+Context.ObjectComponent [1..*] hasObjectComponent Context.ObjectComponent -> T00b4::Context.ObjectComponent hasObjectComponent Context.ObjectComponent
+Context.Scene [1..1] hasNext Context.Event -> T00b5::Context.Scene hasNext Context.Event
+Context.Scene [1..1] hasPrevious Context.Scene -> T00b6::Context.Scene hasPrevious Context.Scene
+Context.Scene [1..*] hasScene Context.Scene -> T00b7::Context.Scene hasScene Context.Scene
+DataBlock [1..1] hasNext Context.Event -> T00b8::DataBlock hasNext Context.Event
+DataBlock [1..1] hasPrevious Context.Scene -> T00b9::DataBlock hasPrevious Context.Scene
+DataBlock [1..1] isValueOf RecordedData -> T00ba::DataBlock isValueOf RecordedData
+DataBlock [0..1] hasPrevious DataBlock -> T00bb::DataBlock hasPrevious DataBlock
+DataBlock [0..1] hasNext DataBlock -> T00bc::DataBlock hasNext DataBlock
+DataFormat [1..*] hasDescriptor Descriptor -> T00bd::DataFormat hasDescriptor Descriptor
+DataSegment [1..*] hasDescriptor Descriptor -> T00be::DataSegment hasDescriptor Descriptor
+DataSegment [1..*] isReferencedBy Marker -> T00bf::DataSegment isReferencedBy Marker
+Descriptor [1..*] hasDescriptor Descriptor -> T00c0::Descriptor hasDescriptor Descriptor
+Device [1..*] hasNonChannelData NonChannel -> T00c1::Device hasNonChannelData NonChannel
+Device [1..*] madeRecord Record -> T00c2::Device madeRecord Record
+Device [1..*] detects StimulusEvent -> T00c3::Device detects StimulusEvent
+DeviceChannelingSpec [1..*] hasEegChannelData EegChannel -> T00c4::DeviceChannelingSpec hasEegChannelData EegChannel
+DeviceChannelingSpec [1..*] hasChannelData Channel -> T00c5::DeviceChannelingSpec hasChannelData Channel
+DeviceChannelingSpec [1..1] extendsChannelingSpec ChannelingSpec -> T00c6::DeviceChannelingSpec extendsChannelingSpec ChannelingSpec
+DeviceSpec [1..*] hasDeviceSpec DeviceSpec -> T00c7::DeviceSpec hasDeviceSpec DeviceSpec
+EegChannel [1..*] isEegChannelDataOf DeviceChannelingSpec -> T00c8::EegChannel isEegChannelDataOf DeviceChannelingSpec
+EegDevice [1..*] hasEegNonChannelData EegNonChannel -> T00c9::EegDevice hasEegNonChannelData EegNonChannel
+EegRecord [1..1] observedByEegDevice EegDevice -> T00ca::EegRecord observedByEegDevice EegDevice
+FeatureParameter [1..1] hasModel Model -> T00cb::FeatureParameter hasModel Model
+Interaction [1..*] hasDescriptor Descriptor -> T00cc::Interaction hasDescriptor Descriptor
+Interaction [2..*] hasSession Session -> T00cd::Interaction hasSession Session
+Interaction [2..*] hasSubject Subject -> T00ce::Interaction hasSubject Subject
+Interaction [1..*] isMemberOf Collection -> T00cf::Interaction isMemberOf Collection
+Marker [1..1] pointsTo DataSegment -> T00d0::Marker pointsTo DataSegment
+Modality [1..*] hasDescriptor Descriptor -> T00d1::Modality hasDescriptor Descriptor
+Model [1..*] hasDescriptor Descriptor -> T00d2::Model hasDescriptor Descriptor
+Playout [1..*] hasDescriptor Descriptor -> T00d3::Playout hasDescriptor Descriptor
+Playout [1..*] isPlayoutOf Context -> T00d4::Playout isPlayoutOf Context
+PlayoutInstant [1..1] isPlayoutInstantOf Action -> T00d5::PlayoutInstant isPlayoutInstantOf Action
+Record [1..*] hasMeasurementProperty SystemProperty -> T00d6::Record hasMeasurementProperty SystemProperty
+Record [1..1] hasNext Context.Event -> T00d7::Record hasNext Context.Event
+Record [1..1] hasPrevious Context.Scene -> T00d8::Record hasPrevious Context.Scene
+Record [1..*] isRecordOf Session -> T00d9::Record isRecordOf Session
+RecordChannelingSpec [1..1] extendsDeviceChannelingSpec DeviceChannelingSpec -> T00da::RecordChannelingSpec extendsDeviceChannelingSpec DeviceChannelingSpec
+RecordChannelingSpec [1..*] extends ChannelingSpec -> T00db::RecordChannelingSpec extends ChannelingSpec
+RecordSpec [1..*] hasRecordSpec RecordSpec -> T00dc::RecordSpec hasRecordSpec RecordSpec
+RecordedData [1..1] hasNext Context.Event -> T00dd::RecordedData hasNext Context.Event
+RecordedData [1..1] hasPrevious Context.Scene -> T00de::RecordedData hasPrevious Context.Scene
+RecordedData [1..*] hasValue DataBlock -> T00df::RecordedData hasValue DataBlock
+RecordedData [1..*] hasDataBlock DataBlock -> T00e0::RecordedData hasDataBlock DataBlock
+RecordedData [0..*] hasNext RecordedData -> T00e1::RecordedData hasNext RecordedData
+RecordedData [1..*] hasAccessMethod AccessMethod -> T00e2::RecordedData hasAccessMethod AccessMethod
+RecordedData [1..*] isProducedByDevice Device -> T00e3::RecordedData isProducedByDevice Device
+RecordedData [1..1] isObservationResultOf Record -> T00e4::RecordedData isObservationResultOf Record
+RecordedData [0..1] hasPrevious RecordedData -> T00e5::RecordedData hasPrevious RecordedData
+RecordedData [1..1] hasDataFormat DataFormat -> T00e6::RecordedData hasDataFormat DataFormat
+ResponseTag [1..1] hasModel Model -> T00e7::ResponseTag hasModel Model
+ResponseTag [1..*] hasFeatureParameter FeatureParameter -> T00e8::ResponseTag hasFeatureParameter FeatureParameter
+Session [1..*] hasActuation Actuation -> T00e9::Session hasActuation Actuation
+Session [1..*] hasDescriptor Descriptor -> T00ea::Session hasDescriptor Descriptor
+Session [1..*] hasPlayout Playout -> T00eb::Session hasPlayout Playout
+Session [1..*] hasSubjectState SubjectState -> T00ec::Session hasSubjectState SubjectState
+Session [1..*] isMemberOf Collection -> T00ed::Session isMemberOf Collection
+Session [1..*] isSessionOf Context -> T00ee::Session isSessionOf Context
+StimulusEvent [1..*] isStimulusEventOf StimulusTag -> T00ef::StimulusEvent isStimulusEventOf StimulusTag
+StimulusEvent [1..*] isProxyFor Modality -> T00f0::StimulusEvent isProxyFor Modality
+StimulusTag [1..1] hasStimulusEvent StimulusEvent -> T00f1::StimulusTag hasStimulusEvent StimulusEvent
+Subject [1..*] hasDescriptor Descriptor -> T00f2::Subject hasDescriptor Descriptor
+Subject [1..*] isSubjectOf Interaction -> T00f3::Subject isSubjectOf Interaction
+Subject [1..*] issues Action -> T00f4::Subject issues Action
+Subject [1..*] hasRecord Record -> T00f5::Subject hasRecord Record

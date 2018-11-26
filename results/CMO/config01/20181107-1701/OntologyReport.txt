@@ -1,0 +1,157 @@
+
+======================================================= 
+Ontology Report
+======================================================= 
+IRI_owlapi [ontoIRI=OntoIRI [fullIRI=http://purl.obolibrary.org/obo/cmo.owl, shortIRI=cmo.owl], iriOwlapi=http://purl.obolibrary.org/obo/cmo.owl]
+
+--------------------------------------- 
+Imported Ontology : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Prefixes : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Datatypes : 8
+--------------------------------------- 
+  OntoDatatype [name=real OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#real, shortIRI=real]]
+  OntoDatatype [name=int OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#int, shortIRI=int]]
+  OntoDatatype [name=integer OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#integer, shortIRI=integer]]
+  OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]]
+  OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  OntoDatatype [name=dateTimeStamp OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTimeStamp, shortIRI=dateTimeStamp]]
+  OntoDatatype [name=boolean OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#boolean, shortIRI=boolean]]
+  OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]]
+
+--------------------------------------- 
+Data properties : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Object properties : 1
+--------------------------------------- 
+ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/cmo#part_of>, isFunctional=false]
+  Domain : 
+  Range : 
+
+--------------------------------------- 
+Classes : 25
+--------------------------------------- 
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000035, shortIRI=CMO_0000035],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000584, shortIRI=CMO_0000584],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000035
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000589, shortIRI=CMO_0000589],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000584
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000284, shortIRI=CMO_0000284],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000584
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000036, shortIRI=CMO_0000036],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000035
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000364, shortIRI=CMO_0000364],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000036
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000508, shortIRI=CMO_0000508],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000036
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000507, shortIRI=CMO_0000507],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000508
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000506, shortIRI=CMO_0000506],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000508
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000921, shortIRI=CMO_0000921],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000036
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0001356, shortIRI=CMO_0001356],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000036
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0002341, shortIRI=CMO_0002341],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000036
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000204, shortIRI=CMO_0000204],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000035
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0001321, shortIRI=CMO_0001321],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000035
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000379, shortIRI=CMO_0000379],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000035
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000194, shortIRI=CMO_0000194],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000035
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000106, shortIRI=CMO_0000106],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000013, shortIRI=CMO_0000013],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0001766, shortIRI=CMO_0001766],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0001036, shortIRI=CMO_0001036],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000001, shortIRI=CMO_0000001],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000008, shortIRI=CMO_0000008],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000004, shortIRI=CMO_0000004],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000005, shortIRI=CMO_0000005],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000294, shortIRI=CMO_0000294],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/CMO_0000001
+
+--------------------------------------- 
+Class Inheritance Axioms : 16
+--------------------------------------- 
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000584, shortIRI=CMO_0000584],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000035, shortIRI=CMO_0000035],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000589, shortIRI=CMO_0000589],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000584, shortIRI=CMO_0000584],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000284, shortIRI=CMO_0000284],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000584, shortIRI=CMO_0000584],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000036, shortIRI=CMO_0000036],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000035, shortIRI=CMO_0000035],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000364, shortIRI=CMO_0000364],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000036, shortIRI=CMO_0000036],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000508, shortIRI=CMO_0000508],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000036, shortIRI=CMO_0000036],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000507, shortIRI=CMO_0000507],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000508, shortIRI=CMO_0000508],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000506, shortIRI=CMO_0000506],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000508, shortIRI=CMO_0000508],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000921, shortIRI=CMO_0000921],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000036, shortIRI=CMO_0000036],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0001356, shortIRI=CMO_0001356],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000036, shortIRI=CMO_0000036],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0002341, shortIRI=CMO_0002341],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000036, shortIRI=CMO_0000036],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000204, shortIRI=CMO_0000204],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000035, shortIRI=CMO_0000035],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0001321, shortIRI=CMO_0001321],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000035, shortIRI=CMO_0000035],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000379, shortIRI=CMO_0000379],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000035, shortIRI=CMO_0000035],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000194, shortIRI=CMO_0000194],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000035, shortIRI=CMO_0000035],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000294, shortIRI=CMO_0000294],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/CMO_0000001, shortIRI=CMO_0000001],type=DECLARED]
+ axiomOrigin=DECLARED]
+
+--------------------------------------- 
+Data Association Axioms : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Class Association Axioms : 0
+--------------------------------------- 

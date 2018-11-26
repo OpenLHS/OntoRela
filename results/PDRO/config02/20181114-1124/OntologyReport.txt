@@ -1,0 +1,277 @@
+
+======================================================= 
+Ontology Report
+======================================================= 
+IRI_owlapi [ontoIRI=OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl, shortIRI=PDRO.owl], iriOwlapi=http://purl.obolibrary.org/obo/PDRO.owl]
+
+--------------------------------------- 
+Imported Ontology : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Prefixes : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Datatypes : 11
+--------------------------------------- 
+  OntoDatatype [name=real OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#real, shortIRI=real]]
+  OntoDatatype [name=int OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#int, shortIRI=int]]
+  OntoDatatype [name=integer OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#integer, shortIRI=integer]]
+  OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]]
+  OntoDatatype [name=dateTime OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTime, shortIRI=dateTime]]
+  OntoDatatype [name=dateTimeStamp OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#dateTimeStamp, shortIRI=dateTimeStamp]]
+  OntoDatatype [name=langString OntoIRI [fullIRI=http://www.w3.org/1999/02/22-rdf-syntax-ns#langString, shortIRI=langString]]
+  OntoDatatype [name=boolean OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#boolean, shortIRI=boolean]]
+  OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]]
+  OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]]
+  OntoDatatype [name=rational OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#rational, shortIRI=rational]]
+
+--------------------------------------- 
+Data properties : 2
+--------------------------------------- 
+DataProperty_owlapi [<http://purl.obolibrary.org/obo/PDRO_0000133>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://purl.obolibrary.org/obo/PDRO_0000134>, isFunctional=false]
+  Domain : 
+  Range : 
+
+--------------------------------------- 
+Object properties : 6
+--------------------------------------- 
+ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/BFO_0000051>, isFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/IAO_0000039>, isFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/IAO_0000136>, isFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/IAO_0000219>, isFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/OBI_0001938>, isFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/RO_0000057>, isFunctional=false]
+  Domain : 
+  Range : 
+
+--------------------------------------- 
+Classes : 41
+--------------------------------------- 
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000024, shortIRI=PDRO_0000024],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/IAO_0000302, shortIRI=IAO_0000302],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000003, shortIRI=PDRO_0000003],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000005, shortIRI=PDRO_0000005],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000007, shortIRI=PDRO_0000007],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010022, shortIRI=PDRO_0010022],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000103, shortIRI=PDRO_0000103],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000190, shortIRI=PDRO_0000190],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000020, shortIRI=PDRO_0000020],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010080, shortIRI=PDRO_0010080],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000123, shortIRI=PDRO_0000123],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010037, shortIRI=PDRO_0010037],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000030, shortIRI=PDRO_0000030],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000060, shortIRI=PDRO_0000060],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000097, shortIRI=PDRO_0000097],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000053, shortIRI=PDRO_0000053],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000022, shortIRI=PDRO_0000022],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000126, shortIRI=PDRO_0000126],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/PDRO_0000121
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010035, shortIRI=PDRO_0010035],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/PDRO_0010032
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000151, shortIRI=PDRO_0000151],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000096, shortIRI=PDRO_0000096],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010017, shortIRI=PDRO_0010017],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010032, shortIRI=PDRO_0010032],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000121, shortIRI=PDRO_0000121],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/IAO_0000003, shortIRI=IAO_0000003],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010031, shortIRI=PDRO_0010031],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/OBI_0002139, shortIRI=OBI_0002139],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/OBI_0001929, shortIRI=OBI_0001929],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010036, shortIRI=PDRO_0010036],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/IAO_0000003
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000115, shortIRI=PDRO_0000115],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/IAO_0000003
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010033, shortIRI=PDRO_0010033],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010034, shortIRI=PDRO_0010034],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/PDRO_0010033
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000019, shortIRI=PDRO_0000019],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b5X-PDRO_0000060-U, shortIRI=C00b5X-PDRO_0000060-U],type=UNION_CLASS]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000044, shortIRI=PDRO_0000044],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/PDRO.owl#C00b5X-PDRO_0000060-U
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0040002, shortIRI=PDRO_0040002],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/PDRO.owl#C00b5X-PDRO_0000060-U
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U, shortIRI=C00b7X-PDRO_0010017-U],type=UNION_CLASS]
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000021, shortIRI=PDRO_0000021],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/OBI_0001929
+  ISA http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010023, shortIRI=PDRO_0010023],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010024, shortIRI=PDRO_0010024],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/OBI_0002139
+  ISA http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U
+OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010025, shortIRI=PDRO_0010025],type=DECLARED]
+  ISA http://purl.obolibrary.org/obo/OBI_0001929
+  ISA http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U
+
+--------------------------------------- 
+Class Inheritance Axioms : 14
+--------------------------------------- 
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000126, shortIRI=PDRO_0000126],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000121, shortIRI=PDRO_0000121],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010035, shortIRI=PDRO_0010035],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010032, shortIRI=PDRO_0010032],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010036, shortIRI=PDRO_0010036],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/IAO_0000003, shortIRI=IAO_0000003],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000115, shortIRI=PDRO_0000115],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/IAO_0000003, shortIRI=IAO_0000003],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010034, shortIRI=PDRO_0010034],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010033, shortIRI=PDRO_0010033],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000044, shortIRI=PDRO_0000044],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b5X-PDRO_0000060-U, shortIRI=C00b5X-PDRO_0000060-U],type=UNION_CLASS]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0040002, shortIRI=PDRO_0040002],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b5X-PDRO_0000060-U, shortIRI=C00b5X-PDRO_0000060-U],type=UNION_CLASS]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000021, shortIRI=PDRO_0000021],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/OBI_0001929, shortIRI=OBI_0001929],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000021, shortIRI=PDRO_0000021],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U, shortIRI=C00b7X-PDRO_0010017-U],type=UNION_CLASS]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010023, shortIRI=PDRO_0010023],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U, shortIRI=C00b7X-PDRO_0010017-U],type=UNION_CLASS]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010024, shortIRI=PDRO_0010024],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/OBI_0002139, shortIRI=OBI_0002139],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010024, shortIRI=PDRO_0010024],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U, shortIRI=C00b7X-PDRO_0010017-U],type=UNION_CLASS]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010025, shortIRI=PDRO_0010025],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/OBI_0001929, shortIRI=OBI_0001929],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010025, shortIRI=PDRO_0010025],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U, shortIRI=C00b7X-PDRO_0010017-U],type=UNION_CLASS]
+ axiomOrigin=UNION_AXIOM]
+
+--------------------------------------- 
+Data Association Axioms : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Class Association Axioms : 10
+--------------------------------------- 
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000024, shortIRI=PDRO_0000024],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/BFO_0000051>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010022, shortIRI=PDRO_0010022],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0010022>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0010022>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000060, shortIRI=PDRO_0000060],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/BFO_0000051>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b5X-PDRO_0000060-U, shortIRI=C00b5X-PDRO_0000060-U],type=UNION_CLASS]
+  axiomOrigin=UNION_AXIOM  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectUnionOf(<http://purl.obolibrary.org/obo/PDRO_0000044> <http://purl.obolibrary.org/obo/PDRO_0040002>))]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectUnionOf(<http://purl.obolibrary.org/obo/PDRO_0000044> <http://purl.obolibrary.org/obo/PDRO_0040002>))]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010017, shortIRI=PDRO_0010017],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/OBI_0001938>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO.owl#C00b7X-PDRO_0010017-U, shortIRI=C00b7X-PDRO_0010017-U],type=UNION_CLASS]
+  axiomOrigin=UNION_AXIOM  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001938> ObjectUnionOf(<http://purl.obolibrary.org/obo/PDRO_0000021> <http://purl.obolibrary.org/obo/PDRO_0010023> <http://purl.obolibrary.org/obo/PDRO_0010024> <http://purl.obolibrary.org/obo/PDRO_0010025>))]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001938> ObjectUnionOf(<http://purl.obolibrary.org/obo/PDRO_0000021> <http://purl.obolibrary.org/obo/PDRO_0010023> <http://purl.obolibrary.org/obo/PDRO_0010024> <http://purl.obolibrary.org/obo/PDRO_0010025>))]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010022, shortIRI=PDRO_0010022],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/BFO_0000051>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000060, shortIRI=PDRO_0000060],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0000060>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0000060>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010031, shortIRI=PDRO_0010031],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/IAO_0000039>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010036, shortIRI=PDRO_0010036],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/PDRO_0010036>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000039> <http://purl.obolibrary.org/obo/PDRO_0010036>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000053, shortIRI=PDRO_0000053],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/BFO_0000051>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0040002, shortIRI=PDRO_0040002],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0040002>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0040002>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000190, shortIRI=PDRO_0000190],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/BFO_0000051>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000123, shortIRI=PDRO_0000123],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0000123>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0000123>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000103, shortIRI=PDRO_0000103],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/BFO_0000051>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000190, shortIRI=PDRO_0000190],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0000190>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0000190>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010022, shortIRI=PDRO_0010022],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/BFO_0000051>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000103, shortIRI=PDRO_0000103],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0000103>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/PDRO_0000103>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0000020, shortIRI=PDRO_0000020],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.obolibrary.org/obo/OBI_0001938>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.obolibrary.org/obo/PDRO_0010080, shortIRI=PDRO_0010080],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001938> <http://purl.obolibrary.org/obo/PDRO_0010080>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0001938> <http://purl.obolibrary.org/obo/PDRO_0010080>)]
+]]

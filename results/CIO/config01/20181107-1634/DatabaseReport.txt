@@ -1,0 +1,56 @@
+
+======================================================= 
+Database Report
+======================================================= 
+cio.owl
+Schemas: 1
+  Schema [id=CIO, schemaType=base]
+
+--------------------------------------- 
+CIO
+--------------------------------------- 
+All Tables: 18
+Join Tables: 2
+Types: 11
+Foreign keys: 19
+Constraints: 2
+
+Tables:
+  T0000::Thing
+  T0001::CIO_0000029
+  T0002::CIO_0000028
+  T0003::CIO_0000038
+  T0004::CIO_0000037
+  T0005::CIO_0000036
+  T0006::CIO_0000035
+  T0007::CIO_0000034
+  T0008::CIO_0000033
+  T0009::CIO_0000000
+  T000a::CIO_0000032
+  T000b::CIO_0000043
+  T000c::CIO_0000031
+  T000d::CIO_0000030
+  T000e::CIO_0000041
+  T000f::CIO_0000040
+  TableJoin T0010[leftTable=T0002::CIO_0000028, rightTable=T0002::CIO_0000028, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0002_uid::uid_CIO_0000028 uid_domain=T0002_uid::uid_CIO_0000028 uid_domain}]
+  TableJoin T0011[leftTable=T0009::CIO_0000000, rightTable=T000a::CIO_0000032, participation=Participation [participationType=MINMAX, min=1, max=1], joinAtt={T0009_uid::uid_CIO_0000000 uid_domain=T000a_uid::uid_CIO_0000032 uid_domain}]
+Foreign keys: 
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0009, origin=T0009::CIO_0000000, destination=T0000::Thing, linkedAtt={T0009_uid::uid_CIO_0000000 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000f, origin=T000f::CIO_0000040, destination=T0000::Thing, linkedAtt={T000f_uid::uid_CIO_0000040 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0002, origin=T0002::CIO_0000028, destination=T000f::CIO_0000040, linkedAtt={T0002_uid::uid_CIO_0000028 uid_domain=T000f_uid::uid_CIO_0000040 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0001, origin=T0001::CIO_0000029, destination=T0002::CIO_0000028, linkedAtt={T0001_uid::uid_CIO_0000029 uid_domain=T0002_uid::uid_CIO_0000028 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000d, origin=T000d::CIO_0000030, destination=T0002::CIO_0000028, linkedAtt={T000d_uid::uid_CIO_0000030 uid_domain=T0002_uid::uid_CIO_0000028 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000c, origin=T000c::CIO_0000031, destination=T0002::CIO_0000028, linkedAtt={T000c_uid::uid_CIO_0000031 uid_domain=T0002_uid::uid_CIO_0000028 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000a, origin=T000a::CIO_0000032, destination=T000f::CIO_0000040, linkedAtt={T000a_uid::uid_CIO_0000032 uid_domain=T000f_uid::uid_CIO_0000040 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000b, origin=T000b::CIO_0000043, destination=T000a::CIO_0000032, linkedAtt={T000b_uid::uid_CIO_0000043 uid_domain=T000a_uid::uid_CIO_0000032 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0007, origin=T0007::CIO_0000034, destination=T000b::CIO_0000043, linkedAtt={T0007_uid::uid_CIO_0000034 uid_domain=T000b_uid::uid_CIO_0000043 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0006, origin=T0006::CIO_0000035, destination=T0007::CIO_0000034, linkedAtt={T0006_uid::uid_CIO_0000035 uid_domain=T0007_uid::uid_CIO_0000034 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0005, origin=T0005::CIO_0000036, destination=T0007::CIO_0000034, linkedAtt={T0005_uid::uid_CIO_0000036 uid_domain=T0007_uid::uid_CIO_0000034 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0008, origin=T0008::CIO_0000033, destination=T000b::CIO_0000043, linkedAtt={T0008_uid::uid_CIO_0000033 uid_domain=T000b_uid::uid_CIO_0000043 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000e, origin=T000e::CIO_0000041, destination=T000f::CIO_0000040, linkedAtt={T000e_uid::uid_CIO_0000041 uid_domain=T000f_uid::uid_CIO_0000040 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0003, origin=T0003::CIO_0000038, destination=T000e::CIO_0000041, linkedAtt={T0003_uid::uid_CIO_0000038 uid_domain=T000e_uid::uid_CIO_0000041 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0004, origin=T0004::CIO_0000037, destination=T000e::CIO_0000041, linkedAtt={T0004_uid::uid_CIO_0000037 uid_domain=T000e_uid::uid_CIO_0000041 uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0010, origin=TableJoin T0010[leftTable=T0002::CIO_0000028, rightTable=T0002::CIO_0000028, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0002_uid::uid_CIO_0000028 uid_domain=T0002_uid::uid_CIO_0000028 uid_domain}], destination=T0002::CIO_0000028, linkedAtt={T0002_uid::uid_CIO_0000028 uid_domain=T0002_uid::uid_CIO_0000028 uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0010, origin=TableJoin T0010[leftTable=T0002::CIO_0000028, rightTable=T0002::CIO_0000028, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0002_uid::uid_CIO_0000028 uid_domain=T0002_uid::uid_CIO_0000028 uid_domain}], destination=T0002::CIO_0000028, linkedAtt={T0002_uid::uid_CIO_0000028 uid_domain=T0002_uid::uid_CIO_0000028 uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk0_T0011, origin=TableJoin T0011[leftTable=T0009::CIO_0000000, rightTable=T000a::CIO_0000032, participation=Participation [participationType=MINMAX, min=1, max=1], joinAtt={T0009_uid::uid_CIO_0000000 uid_domain=T000a_uid::uid_CIO_0000032 uid_domain}], destination=T0009::CIO_0000000, linkedAtt={T0009_uid::uid_CIO_0000000 uid_domain=T0009_uid::uid_CIO_0000000 uid_domain}]
+  ForeignKey [foreignKeyType=property, fkId=fk1_T0011, origin=TableJoin T0011[leftTable=T0009::CIO_0000000, rightTable=T000a::CIO_0000032, participation=Participation [participationType=MINMAX, min=1, max=1], joinAtt={T0009_uid::uid_CIO_0000000 uid_domain=T000a_uid::uid_CIO_0000032 uid_domain}], destination=T000a::CIO_0000032, linkedAtt={T000a_uid::uid_CIO_0000032 uid_domain=T000a_uid::uid_CIO_0000032 uid_domain}]

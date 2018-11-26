@@ -1,0 +1,53 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.obolibrary.org/obo/PDRO_0000007 -> T0001::PDRO_0000007::drug administration and dispensing specification
+http://purl.obolibrary.org/obo/OBI_0000093 -> T0002::OBI_0000093::OBI_0000093
+http://purl.obolibrary.org/obo/PDRO_0000129 -> T0003::PDRO_0000129::condition
+http://purl.obolibrary.org/obo/PDRO_0000005 -> T0004::PDRO_0000005::document creation time identification
+http://purl.obolibrary.org/obo/PDRO_0000127 -> T0005::PDRO_0000127::continuing drug administration condition
+http://griis.ca/PDRO-P3.owl#C00d7X-PDRO_0000001-I-IAO_0000142 -> T0006::C00d7X-PDRO_0000001-I-IAO_0000142::health care prescription INTERSECTION 
+http://purl.obolibrary.org/obo/PDRO_0000003 -> T0007::PDRO_0000003::patient identification
+http://purl.obolibrary.org/obo/PDRO_0000103 -> T0008::PDRO_0000103::prescribed dosing specification
+http://purl.obolibrary.org/obo/PDRO_0000001 -> T0009::PDRO_0000001::health care prescription
+http://purl.obolibrary.org/obo/PDRO_0000024 -> T000a::PDRO_0000024::drug prescription
+http://griis.ca/PDRO-P3.owl#C00cbX-PDRO_0000060-U -> T000b::C00cbX-PDRO_0000060-U::drug product specification UNION drug product name active ingredient name
+http://purl.obolibrary.org/obo/PDRO_0010022 -> T000c::PDRO_0010022::drug administration specification
+http://purl.obolibrary.org/obo/PDRO_0000190 -> T000d::PDRO_0000190::dose administration specification
+http://purl.obolibrary.org/obo/PDRO_0040002 -> T000e::PDRO_0040002::active ingredient name
+http://purl.obolibrary.org/obo/PDRO_0000044 -> T000f::PDRO_0000044::drug product name
+http://purl.obolibrary.org/obo/PDRO_0000097 -> T0010::PDRO_0000097::Drug Identification Number
+http://purl.obolibrary.org/obo/PDRO_0000060 -> T0011::PDRO_0000060::drug product specification
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+PDRO_0000127 [0..1] PDRO-P3_0000100 string -> T0012::continuing drug administration condition has value
+PDRO_0000097 [1..1] PDRO-P3_0000100 string -> T0013::Drug Identification Number has value
+PDRO_0000005 [1..1] PDRO-P3_0000100 dateTime -> T0014::document creation time identification has value
+PDRO_0000044 [1..1] PDRO-P3_0000100 string -> T0015::drug product name has value
+PDRO_0040002 [1..1] PDRO-P3_0000100 string -> T0016::active ingredient name has value
+PDRO_0000001 [1..*] BFO_0000051 PDRO_0000003 -> T0017::health care prescription BFO_0000051 patient identification
+PDRO_0000001 [1..*] BFO_0000051 PDRO_0000005 -> T0018::health care prescription BFO_0000051 document creation time identification
+PDRO_0000001 [1..*] IAO_0000142 C00d7X-PDRO_0000001-I-IAO_0000142 -> T0019::health care prescription IAO_0000142 health care prescription INTERSECTION 
+PDRO_0000024 [1..1] PDRO-P3_1000001 PDRO_0000005 -> T001a::drug prescription has sublevel part document creation time identification
+PDRO_0000024 [1..*] PDRO-P3_1000001 PDRO_0000007 -> T001b::drug prescription has sublevel part drug administration and dispensing specification
+PDRO_0000024 [1..1] PDRO-P3_1000001 PDRO_0000003 -> T001c::drug prescription has sublevel part patient identification
+PDRO_0000024 [1..*] BFO_0000051 PDRO_0010022 -> T001d::drug prescription BFO_0000051 drug administration specification
+PDRO_0000007 [1..1] PDRO-P3_1000001 PDRO_0010022 -> T001e::drug administration and dispensing specification has sublevel part drug administration specification
+PDRO_0010022 [1..1] PDRO-P3_1000001 PDRO_0000060 -> T001f::drug administration specification has sublevel part drug product specification
+PDRO_0010022 [1..*] PDRO-P3_1000001 PDRO_0000129 -> T0020::drug administration specification has sublevel part condition
+PDRO_0000060 [0..1] PDRO-P3_1000001 PDRO_0000044 -> T0021::drug product specification has sublevel part drug product name
+PDRO_0000060 [1..*] BFO_0000051 C00cbX-PDRO_0000060-U -> T0022::drug product specification BFO_0000051 drug product specification UNION drug product name active ingredient name
+PDRO_0000060 [0..1] PDRO-P3_1000001 PDRO_0000097 -> T0023::drug product specification has sublevel part Drug Identification Number
+PDRO_0000103 [1..*] PDRO-P3_1000001 PDRO_0000190 -> T0024::prescribed dosing specification has sublevel part dose administration specification
+PDRO_0000103 [1..*] PDRO-P3_1000001 PDRO_0000129 -> T0025::prescribed dosing specification has sublevel part condition
+PDRO_0000190 [1..*] PDRO-P3_1000001 PDRO_0000129 -> T0026::dose administration specification has sublevel part condition
+PDRO_0000127 [1..1] PDRO-P3_1000002 PDRO_0000103 -> T0027::continuing drug administration condition sublevel part of prescribed dosing specification
+C00d7X-PDRO_0000001-I-IAO_0000142 [1..*] RO_0000053 OBI_0000093 -> T0028::health care prescription INTERSECTION  RO_0000053 OBI_0000093

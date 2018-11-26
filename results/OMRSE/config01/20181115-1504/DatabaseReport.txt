@@ -1,0 +1,86 @@
+
+======================================================= 
+Database Report
+======================================================= 
+PDRO.owl
+Schemas: 1
+  Schema [id=PDRO, schemaType=base]
+
+--------------------------------------- 
+PDRO
+--------------------------------------- 
+All Tables: 29
+Join Tables: 10
+Types: 14
+Foreign keys: 38
+Constraints: 10
+
+Tables:
+  T0000::Thing
+  T0001::PDRO_0000190
+  T0002::PDRO_0000060
+  T0003::PDRO_0010022
+  T0004::PDRO_0040002
+  T0005::C00c9X-PDRO_0000001-I-IAO_0000142
+  T0006::PDRO_0000007
+  T0007::OBI_0000093
+  T0008::PDRO_0000127
+  T0009::PDRO_0000129
+  T000a::NCBITaxon_9606
+  T000b::PDRO_0000097
+  T000c::PDRO_0000001
+  T000d::PDRO_0000044
+  T000e::PDRO_0000003
+  T000f::PDRO_0000024
+  T0010::PDRO_0000005
+  T0011::C00b5X-PDRO_0000060-U
+  T0012::PDRO_0000103
+  TableJoin T0013[leftTable=T000c::PDRO_0000001, rightTable=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain}]
+  TableJoin T0014[leftTable=T000c::PDRO_0000001, rightTable=T000e::PDRO_0000003, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T000e_uid::uid_PDRO_0000003 uid_domain}]
+  TableJoin T0015[leftTable=T000c::PDRO_0000001, rightTable=T0010::PDRO_0000005, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T0010_uid::uid_PDRO_0000005 uid_domain}]
+  TableJoin T0016[leftTable=T000f::PDRO_0000024, rightTable=T0003::PDRO_0010022, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000f_uid::uid_PDRO_0000024 uid_domain=T0003_uid::uid_PDRO_0010022 uid_domain}]
+  TableJoin T0017[leftTable=T0003::PDRO_0010022, rightTable=T0002::PDRO_0000060, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0002_uid::uid_PDRO_0000060 uid_domain}]
+  TableJoin T0018[leftTable=T0003::PDRO_0010022, rightTable=T0012::PDRO_0000103, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0012_uid::uid_PDRO_0000103 uid_domain}]
+  TableJoin T0019[leftTable=T0002::PDRO_0000060, rightTable=T0011::C00b5X-PDRO_0000060-U, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0002_uid::uid_PDRO_0000060 uid_domain=T0011_uid::uid_C00b5X-PDRO_0000060-U uid_domain}]
+  TableJoin T001a[leftTable=T0012::PDRO_0000103, rightTable=T0008::PDRO_0000127, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0008_uid::uid_PDRO_0000127 uid_domain}]
+  TableJoin T001b[leftTable=T0012::PDRO_0000103, rightTable=T0001::PDRO_0000190, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0001_uid::uid_PDRO_0000190 uid_domain}]
+  TableJoin T001c[leftTable=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, rightTable=T0007::OBI_0000093, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain=T0007_uid::uid_OBI_0000093 uid_domain}]
+Foreign keys: 
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0001, origin=T0001::PDRO_0000190, destination=T0000::Thing, linkedAtt={T0001_uid::uid_PDRO_0000190 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0002, origin=T0002::PDRO_0000060, destination=T0000::Thing, linkedAtt={T0002_uid::uid_PDRO_0000060 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0003, origin=T0003::PDRO_0010022, destination=T0000::Thing, linkedAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0006, origin=T0006::PDRO_0000007, destination=T0000::Thing, linkedAtt={T0006_uid::uid_PDRO_0000007 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0007, origin=T0007::OBI_0000093, destination=T0000::Thing, linkedAtt={T0007_uid::uid_OBI_0000093 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0009, origin=T0009::PDRO_0000129, destination=T0000::Thing, linkedAtt={T0009_uid::uid_PDRO_0000129 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000a, origin=T000a::NCBITaxon_9606, destination=T0000::Thing, linkedAtt={T000a_uid::uid_NCBITaxon_9606 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000b, origin=T000b::PDRO_0000097, destination=T0000::Thing, linkedAtt={T000b_uid::uid_PDRO_0000097 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000c, origin=T000c::PDRO_0000001, destination=T0000::Thing, linkedAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000e, origin=T000e::PDRO_0000003, destination=T0000::Thing, linkedAtt={T000e_uid::uid_PDRO_0000003 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0010, origin=T0010::PDRO_0000005, destination=T0000::Thing, linkedAtt={T0010_uid::uid_PDRO_0000005 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0011, origin=T0011::C00b5X-PDRO_0000060-U, destination=T0000::Thing, linkedAtt={T0011_uid::uid_C00b5X-PDRO_0000060-U uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0012, origin=T0012::PDRO_0000103, destination=T0000::Thing, linkedAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0000_uid::uid_Thing uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000f, origin=T000f::PDRO_0000024, destination=T000c::PDRO_0000001, linkedAtt={T000f_uid::uid_PDRO_0000024 uid_domain=T000c_uid::uid_PDRO_0000001 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0008, origin=T0008::PDRO_0000127, destination=T0009::PDRO_0000129, linkedAtt={T0008_uid::uid_PDRO_0000127 uid_domain=T0009_uid::uid_PDRO_0000129 uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T000d, origin=T000d::PDRO_0000044, destination=T0011::C00b5X-PDRO_0000060-U, linkedAtt={T000d_uid::uid_PDRO_0000044 uid_domain=T0011_uid::uid_C00b5X-PDRO_0000060-U uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0004, origin=T0004::PDRO_0040002, destination=T0011::C00b5X-PDRO_0000060-U, linkedAtt={T0004_uid::uid_PDRO_0040002 uid_domain=T0011_uid::uid_C00b5X-PDRO_0000060-U uid_domain}]
+  ForeignKey [foreignKeyType=isa, fkId=fk0_T0005, origin=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, destination=T000a::NCBITaxon_9606, linkedAtt={T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain=T000a_uid::uid_NCBITaxon_9606 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T0013, origin=TableJoin T0013[leftTable=T000c::PDRO_0000001, rightTable=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain}], destination=T000c::PDRO_0000001, linkedAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T000c_uid::uid_PDRO_0000001 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T0013, origin=TableJoin T0013[leftTable=T000c::PDRO_0000001, rightTable=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain}], destination=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, linkedAtt={T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain=T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T0014, origin=TableJoin T0014[leftTable=T000c::PDRO_0000001, rightTable=T000e::PDRO_0000003, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T000e_uid::uid_PDRO_0000003 uid_domain}], destination=T000c::PDRO_0000001, linkedAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T000c_uid::uid_PDRO_0000001 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T0014, origin=TableJoin T0014[leftTable=T000c::PDRO_0000001, rightTable=T000e::PDRO_0000003, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T000e_uid::uid_PDRO_0000003 uid_domain}], destination=T000e::PDRO_0000003, linkedAtt={T000e_uid::uid_PDRO_0000003 uid_domain=T000e_uid::uid_PDRO_0000003 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T0015, origin=TableJoin T0015[leftTable=T000c::PDRO_0000001, rightTable=T0010::PDRO_0000005, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T0010_uid::uid_PDRO_0000005 uid_domain}], destination=T000c::PDRO_0000001, linkedAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T000c_uid::uid_PDRO_0000001 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T0015, origin=TableJoin T0015[leftTable=T000c::PDRO_0000001, rightTable=T0010::PDRO_0000005, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000c_uid::uid_PDRO_0000001 uid_domain=T0010_uid::uid_PDRO_0000005 uid_domain}], destination=T0010::PDRO_0000005, linkedAtt={T0010_uid::uid_PDRO_0000005 uid_domain=T0010_uid::uid_PDRO_0000005 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T0016, origin=TableJoin T0016[leftTable=T000f::PDRO_0000024, rightTable=T0003::PDRO_0010022, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000f_uid::uid_PDRO_0000024 uid_domain=T0003_uid::uid_PDRO_0010022 uid_domain}], destination=T000f::PDRO_0000024, linkedAtt={T000f_uid::uid_PDRO_0000024 uid_domain=T000f_uid::uid_PDRO_0000024 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T0016, origin=TableJoin T0016[leftTable=T000f::PDRO_0000024, rightTable=T0003::PDRO_0010022, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T000f_uid::uid_PDRO_0000024 uid_domain=T0003_uid::uid_PDRO_0010022 uid_domain}], destination=T0003::PDRO_0010022, linkedAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0003_uid::uid_PDRO_0010022 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T0017, origin=TableJoin T0017[leftTable=T0003::PDRO_0010022, rightTable=T0002::PDRO_0000060, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0002_uid::uid_PDRO_0000060 uid_domain}], destination=T0003::PDRO_0010022, linkedAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0003_uid::uid_PDRO_0010022 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T0017, origin=TableJoin T0017[leftTable=T0003::PDRO_0010022, rightTable=T0002::PDRO_0000060, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0002_uid::uid_PDRO_0000060 uid_domain}], destination=T0002::PDRO_0000060, linkedAtt={T0002_uid::uid_PDRO_0000060 uid_domain=T0002_uid::uid_PDRO_0000060 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T0018, origin=TableJoin T0018[leftTable=T0003::PDRO_0010022, rightTable=T0012::PDRO_0000103, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0012_uid::uid_PDRO_0000103 uid_domain}], destination=T0003::PDRO_0010022, linkedAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0003_uid::uid_PDRO_0010022 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T0018, origin=TableJoin T0018[leftTable=T0003::PDRO_0010022, rightTable=T0012::PDRO_0000103, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0003_uid::uid_PDRO_0010022 uid_domain=T0012_uid::uid_PDRO_0000103 uid_domain}], destination=T0012::PDRO_0000103, linkedAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0012_uid::uid_PDRO_0000103 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T0019, origin=TableJoin T0019[leftTable=T0002::PDRO_0000060, rightTable=T0011::C00b5X-PDRO_0000060-U, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0002_uid::uid_PDRO_0000060 uid_domain=T0011_uid::uid_C00b5X-PDRO_0000060-U uid_domain}], destination=T0002::PDRO_0000060, linkedAtt={T0002_uid::uid_PDRO_0000060 uid_domain=T0002_uid::uid_PDRO_0000060 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T0019, origin=TableJoin T0019[leftTable=T0002::PDRO_0000060, rightTable=T0011::C00b5X-PDRO_0000060-U, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0002_uid::uid_PDRO_0000060 uid_domain=T0011_uid::uid_C00b5X-PDRO_0000060-U uid_domain}], destination=T0011::C00b5X-PDRO_0000060-U, linkedAtt={T0011_uid::uid_C00b5X-PDRO_0000060-U uid_domain=T0011_uid::uid_C00b5X-PDRO_0000060-U uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T001a, origin=TableJoin T001a[leftTable=T0012::PDRO_0000103, rightTable=T0008::PDRO_0000127, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0008_uid::uid_PDRO_0000127 uid_domain}], destination=T0012::PDRO_0000103, linkedAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0012_uid::uid_PDRO_0000103 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T001a, origin=TableJoin T001a[leftTable=T0012::PDRO_0000103, rightTable=T0008::PDRO_0000127, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0008_uid::uid_PDRO_0000127 uid_domain}], destination=T0008::PDRO_0000127, linkedAtt={T0008_uid::uid_PDRO_0000127 uid_domain=T0008_uid::uid_PDRO_0000127 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T001b, origin=TableJoin T001b[leftTable=T0012::PDRO_0000103, rightTable=T0001::PDRO_0000190, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0001_uid::uid_PDRO_0000190 uid_domain}], destination=T0012::PDRO_0000103, linkedAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0012_uid::uid_PDRO_0000103 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T001b, origin=TableJoin T001b[leftTable=T0012::PDRO_0000103, rightTable=T0001::PDRO_0000190, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0012_uid::uid_PDRO_0000103 uid_domain=T0001_uid::uid_PDRO_0000190 uid_domain}], destination=T0001::PDRO_0000190, linkedAtt={T0001_uid::uid_PDRO_0000190 uid_domain=T0001_uid::uid_PDRO_0000190 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk0_T001c, origin=TableJoin T001c[leftTable=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, rightTable=T0007::OBI_0000093, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain=T0007_uid::uid_OBI_0000093 uid_domain}], destination=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, linkedAtt={T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain=T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain}]
+  ForeignKey [foreignKeyType=objectProperty, fkId=fk1_T001c, origin=TableJoin T001c[leftTable=T0005::C00c9X-PDRO_0000001-I-IAO_0000142, rightTable=T0007::OBI_0000093, participation=Participation [participationType=SOME, min=1, max=2147483647], joinAtt={T0005_uid::uid_C00c9X-PDRO_0000001-I-IAO_0000142 uid_domain=T0007_uid::uid_OBI_0000093 uid_domain}], destination=T0007::OBI_0000093, linkedAtt={T0007_uid::uid_OBI_0000093 uid_domain=T0007_uid::uid_OBI_0000093 uid_domain}]
