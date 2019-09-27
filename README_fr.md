@@ -18,23 +18,25 @@ OntoRelα est mis en œuvre en Java 8 avec les bibliothèques externes suivantes
 Les fichiers de configuration sont définis en YAML.L’ontologie normalisée est générée en μOnto, l’OntoRelDic en JSON, les scripts de la base de données sont générés en SQL/PLSQL, les graphes sont produits au format DOT et les avertissements sont produits au format texte.
 
 ## Utilisation
-Il suffit de lancer OntoRela en ligne de commande en passant en paramètre un dossier de configuration contenant : database_config.yaml et ontology_config.yaml
+Il suffit de lancer OntoRela en ligne de commande en passant en paramètre un dossier de configuration contenant : database_config.yml et ontology_config.yml
 
 java -jar OntoRelA-1.0.0.jar /chemin/config
 
-* ontology_config.yaml, la configuration de l’ontologie doit contenir l’emplacement de l’ontologie. Et si nécessaire la liste de classes et de propriétés d’intérêt et la liste des annotations d’intérêt spécifiées par type et par langue (facultative).
+### Les entrées
+* ontology_config.yml, la configuration de l’ontologie doit contenir l’emplacement de l’ontologie. Et si nécessaire la liste de classes et de propriétés d’intérêt et la liste des annotations d’intérêt spécifiées par type et par langue (facultative).
 
-* database_config.yaml, la configuration de base de données doit contenir o	l’identifiant du schéma de base,la liste des langues pour la production des schémas d’interface, le nom du SGBDR cible, l’identifiant de la clé primaire et son type,le mode de normalisation des types, la liste de correspondance entre les types OWL et les types SQL.
+* database_config.yml, la configuration de base de données doit contenir o	l’identifiant du schéma de base,la liste des langues pour la production des schémas d’interface, le nom du SGBDR cible, l’identifiant de la clé primaire et son type,le mode de normalisation des types, la liste de correspondance entre les types OWL et les types SQL.
 
 Voir dans le dossier __demo__ pour des exemples de configuration.
 
+### Les sorties
 Dans le même dossier, OntoRela va générer tous les résultats :
 * DatabaseIdentifierAnomalies.txt : les identifiants avec le nombre de chaines de caractère qui dépasse le maximum (60 pour PostgreSQL).
 * DatabaseReport.txt : sommaire du contenu de la base de données.
 * DatabaseScripts : dossier contenant tous les scripts SQL de la base de données.
 * <ontologyname>.owl_normalized.txt : l’ontologie normalisée selon μOnto.
 * InitialOntoGraph.dot : le graphe de l’ontologie initiale.
-* MOnto-summary.txt : sommaire quantitatif de l’ontologie normalisée.
+* MOnto-summary.txt : résumé de l'éxecution de contruction de l'ontologie.
 * OntoGraph.dot : le graphe de l’ontologie normalisée et filtrée
 * OntologyAnnotationDiagnostics.txt : les avertissements sur les annotations ontologiques.
 * OntologyAnomalies.txt : les avertissements sur les classes orphelines et sans axiomes de données.
@@ -50,13 +52,14 @@ Dans le même dossier, OntoRela va générer tous les résultats :
 ## Travail en cours
 Cette version :
 * N’inclut PAS l’historicisation.
+* Prend en entrée une ontologie en OWL 2
 * Génère un schéma compatible avec PostgreSQL v9.5+
 
 Le code complet sera bientôt disponible.
 
 ### Structure du dépôt
-__results__ : contain OntoRelα output for various ontologies.  
-__demo__ : un jeu de données avec des ontologies et des configurations.
+__results__ : contain OntoRelα output for various ontologies. <br>
+__demo__ : un jeu de données avec des ontologies et des configurations. <br>
 __OntoRela.exe__ : l’exécutable de l’applicaiton.
 
 ## Responsables
