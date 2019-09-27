@@ -1,0 +1,1703 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="f://Mondial#"
+     xml:base="f://Mondial"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="f://Mondial"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- f://m#believeInReligion -->
+
+    <owl:ObjectProperty rdf:about="f://m#believeInReligion">
+        <owl:inverseOf rdf:resource="f://m#believedInCountry"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#Religion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#believedInCountry -->
+
+    <owl:ObjectProperty rdf:about="f://m#believedInCountry"/>
+    
+
+
+    <!-- f://m#belongToEthnicGroup -->
+
+    <owl:ObjectProperty rdf:about="f://m#belongToEthnicGroup">
+        <owl:inverseOf rdf:resource="f://m#liveInCountry"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#EthnicGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="f://m#belongsTo"/>
+    
+
+
+    <!-- f://m#belongsToIslands -->
+
+    <owl:ObjectProperty rdf:about="f://m#belongsToIslands">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Island"/>
+        <rdfs:range rdf:resource="f://m#Islands"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#borders -->
+
+    <owl:ObjectProperty rdf:about="f://m#borders">
+        <rdfs:domain rdf:resource="f://m#LargeArea"/>
+        <rdfs:range rdf:resource="f://m#LargeArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#capital -->
+
+    <owl:ObjectProperty rdf:about="f://m#capital">
+        <owl:inverseOf rdf:resource="f://m#isCapitalOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#AdministrativeArea"/>
+        <rdfs:range rdf:resource="f://m#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#cityIn -->
+
+    <owl:ObjectProperty rdf:about="f://m#cityIn">
+        <owl:inverseOf rdf:resource="f://m#hasCity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#dependentOf -->
+
+    <owl:ObjectProperty rdf:about="f://m#dependentOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#encompassed -->
+
+    <owl:ObjectProperty rdf:about="f://m#encompassed">
+        <owl:inverseOf rdf:resource="f://m#encompasses"/>
+        <rdfs:domain rdf:resource="f://m#EncompassedArea"/>
+        <rdfs:range rdf:resource="f://m#Continent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#encompassedArea -->
+
+    <owl:ObjectProperty rdf:about="f://m#encompassedArea">
+        <owl:inverseOf rdf:resource="f://m#encompassedByInfo"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Encompassed"/>
+        <rdfs:range rdf:resource="f://m#EncompassedArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#encompassedBy -->
+
+    <owl:ObjectProperty rdf:about="f://m#encompassedBy">
+        <owl:inverseOf rdf:resource="f://m#encompassesInfo"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Encompassed"/>
+        <rdfs:range rdf:resource="f://m#Continent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#encompassedByInfo -->
+
+    <owl:ObjectProperty rdf:about="f://m#encompassedByInfo"/>
+    
+
+
+    <!-- f://m#encompasses -->
+
+    <owl:ObjectProperty rdf:about="f://m#encompasses"/>
+    
+
+
+    <!-- f://m#encompassesInfo -->
+
+    <owl:ObjectProperty rdf:about="f://m#encompassesInfo"/>
+    
+
+
+    <!-- f://m#ethnicInfo -->
+
+    <owl:ObjectProperty rdf:about="f://m#ethnicInfo">
+        <owl:inverseOf rdf:resource="f://m#ethnicInfo-"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#EthnicProportion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#ethnicInfo- -->
+
+    <owl:ObjectProperty rdf:about="f://m#ethnicInfo-"/>
+    
+
+
+    <!-- f://m#flowsInto -->
+
+    <owl:ObjectProperty rdf:about="f://m#flowsInto">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#Lake"/>
+                    <rdf:Description rdf:about="f://m#River"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="f://m#Water"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#flowsThrough -->
+
+    <owl:ObjectProperty rdf:about="f://m#flowsThrough">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#River"/>
+        <rdfs:range rdf:resource="f://m#Lake"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#followedInInfo -->
+
+    <owl:ObjectProperty rdf:about="f://m#followedInInfo">
+        <owl:inverseOf rdf:resource="f://m#onReligion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hadPopulation -->
+
+    <owl:ObjectProperty rdf:about="f://m#hadPopulation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#City"/>
+                    <rdf:Description rdf:about="f://m#Country"/>
+                    <rdf:Description rdf:about="f://m#Province"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="f://m#PopulationCount"/>
+    </owl:ObjectProperty>
+    <rdf:Description>
+        <owl:inverseOf rdf:resource="f://m#hadPopulation"/>
+        <rdfs:subPropertyOf rdf:resource="f://m#ofObject"/>
+    </rdf:Description>
+    
+
+
+    <!-- f://m#hasBorder -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasBorder">
+        <owl:inverseOf rdf:resource="f://m#isBorderOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hasCity -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasCity">
+        <rdfs:domain rdf:resource="f://m#AdministrativeArea"/>
+        <rdfs:range rdf:resource="f://m#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hasEstuary -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasEstuary">
+        <owl:inverseOf rdf:resource="f://m#hasEstuary-"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#River"/>
+        <rdfs:range rdf:resource="f://m#Estuary"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hasEstuary- -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasEstuary-"/>
+    
+
+
+    <!-- f://m#hasHeadq -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasHeadq">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Organization"/>
+        <rdfs:range rdf:resource="f://m#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hasMember -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasMember">
+        <owl:inverseOf rdf:resource="f://m#isMember"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hasMembership -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasMembership">
+        <owl:inverseOf rdf:resource="f://m#inOrganization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hasProvince -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasProvince">
+        <owl:inverseOf rdf:resource="f://m#isProvinceOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#Province"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hasSource -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasSource">
+        <owl:inverseOf rdf:resource="f://m#hasSource-"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#River"/>
+        <rdfs:range rdf:resource="f://m#Source"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#hasSource- -->
+
+    <owl:ObjectProperty rdf:about="f://m#hasSource-"/>
+    
+
+
+    <!-- f://m#inMountains -->
+
+    <owl:ObjectProperty rdf:about="f://m#inMountains">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#Mountain"/>
+                    <rdf:Description rdf:about="f://m#Source"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="f://m#Mountains"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#inOrganization -->
+
+    <owl:ObjectProperty rdf:about="f://m#inOrganization">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Membership"/>
+        <rdfs:range rdf:resource="f://m#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#isBorderOf -->
+
+    <owl:ObjectProperty rdf:about="f://m#isBorderOf">
+        <rdfs:domain rdf:resource="f://m#Border"/>
+        <rdfs:range rdf:resource="f://m#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#isCapitalOf -->
+
+    <owl:ObjectProperty rdf:about="f://m#isCapitalOf"/>
+    
+
+
+    <!-- f://m#isInMembership -->
+
+    <owl:ObjectProperty rdf:about="f://m#isInMembership">
+        <owl:inverseOf rdf:resource="f://m#ofMember"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#isMember -->
+
+    <owl:ObjectProperty rdf:about="f://m#isMember">
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#isProvinceOf -->
+
+    <owl:ObjectProperty rdf:about="f://m#isProvinceOf">
+        <rdfs:subPropertyOf rdf:resource="f://m#belongsTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#languageInfo -->
+
+    <owl:ObjectProperty rdf:about="f://m#languageInfo">
+        <owl:inverseOf rdf:resource="f://m#languageInfo-"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#SpokenBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#languageInfo- -->
+
+    <owl:ObjectProperty rdf:about="f://m#languageInfo-"/>
+    
+
+
+    <!-- f://m#liveInCountry -->
+
+    <owl:ObjectProperty rdf:about="f://m#liveInCountry"/>
+    
+
+
+    <!-- f://m#liveInInfo -->
+
+    <owl:ObjectProperty rdf:about="f://m#liveInInfo">
+        <owl:inverseOf rdf:resource="f://m#onEthnicGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#locatedAt -->
+
+    <owl:ObjectProperty rdf:about="f://m#locatedAt">
+        <rdfs:domain rdf:resource="f://m#City"/>
+        <rdfs:range rdf:resource="f://m#Water"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="f://m#locatedIn">
+        <rdfs:domain rdf:resource="f://m#GeographicalThing"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#GeographicalThing"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Continent"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="f://m#Area"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#locatedInWater -->
+
+    <owl:ObjectProperty rdf:about="f://m#locatedInWater">
+        <rdfs:domain rdf:resource="f://m#Island"/>
+        <rdfs:range rdf:resource="f://m#Water"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#locatedOnIsland -->
+
+    <owl:ObjectProperty rdf:about="f://m#locatedOnIsland">
+        <rdfs:subPropertyOf rdf:resource="f://m#locatedIn"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#City"/>
+                    <rdf:Description rdf:about="f://m#Lake"/>
+                    <rdf:Description rdf:about="f://m#Mountain"/>
+                    <rdf:Description rdf:about="f://m#River"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="f://m#Island"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#mergesWith -->
+
+    <owl:ObjectProperty rdf:about="f://m#mergesWith">
+        <rdfs:subPropertyOf rdf:resource="f://m#borders"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="f://m#Sea"/>
+        <rdfs:range rdf:resource="f://m#Sea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#neighbor -->
+
+    <owl:ObjectProperty rdf:about="f://m#neighbor">
+        <rdfs:subPropertyOf rdf:resource="f://m#borders"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#ofMember -->
+
+    <owl:ObjectProperty rdf:about="f://m#ofMember">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Membership"/>
+        <rdfs:range rdf:resource="f://m#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#ofObject -->
+
+    <owl:ObjectProperty rdf:about="f://m#ofObject">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Measurement"/>
+        <rdfs:range rdf:resource="f://m#MondialThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#onEthnicGroup -->
+
+    <owl:ObjectProperty rdf:about="f://m#onEthnicGroup">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#EthnicProportion"/>
+        <rdfs:range rdf:resource="f://m#EthnicGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#onLanguage -->
+
+    <owl:ObjectProperty rdf:about="f://m#onLanguage">
+        <owl:inverseOf rdf:resource="f://m#spokenInInfo"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#SpokenBy"/>
+        <rdfs:range rdf:resource="f://m#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#onReligion -->
+
+    <owl:ObjectProperty rdf:about="f://m#onReligion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#BelievedBy"/>
+        <rdfs:range rdf:resource="f://m#Religion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#religionInfo -->
+
+    <owl:ObjectProperty rdf:about="f://m#religionInfo">
+        <owl:inverseOf rdf:resource="f://m#religionInfo-"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#BelievedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#religionInfo- -->
+
+    <owl:ObjectProperty rdf:about="f://m#religionInfo-"/>
+    
+
+
+    <!-- f://m#speakLanguage -->
+
+    <owl:ObjectProperty rdf:about="f://m#speakLanguage">
+        <owl:inverseOf rdf:resource="f://m#spokenInCountry"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- f://m#spokenInCountry -->
+
+    <owl:ObjectProperty rdf:about="f://m#spokenInCountry"/>
+    
+
+
+    <!-- f://m#spokenInInfo -->
+
+    <owl:ObjectProperty rdf:about="f://m#spokenInInfo"/>
+    
+
+
+    <!-- f://m#wasDependentOf -->
+
+    <owl:ObjectProperty rdf:about="f://m#wasDependentOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="f://m#PoliticalBody"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- f://m#abbrev -->
+
+    <owl:DatatypeProperty rdf:about="f://m#abbrev">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#area -->
+
+    <owl:DatatypeProperty rdf:about="f://m#area">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#carCode -->
+
+    <owl:DatatypeProperty rdf:about="f://m#carCode">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#depth -->
+
+    <owl:DatatypeProperty rdf:about="f://m#depth">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#elevation -->
+
+    <owl:DatatypeProperty rdf:about="f://m#elevation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Location"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#Location"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Desert"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#established -->
+
+    <owl:DatatypeProperty rdf:about="f://m#established">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#gdpAgri -->
+
+    <owl:DatatypeProperty rdf:about="f://m#gdpAgri">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#gdpInd -->
+
+    <owl:DatatypeProperty rdf:about="f://m#gdpInd">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#gdpServ -->
+
+    <owl:DatatypeProperty rdf:about="f://m#gdpServ">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#gdpTotal -->
+
+    <owl:DatatypeProperty rdf:about="f://m#gdpTotal">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#government -->
+
+    <owl:DatatypeProperty rdf:about="f://m#government">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#independenceDate -->
+
+    <owl:DatatypeProperty rdf:about="f://m#independenceDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#infantMortality -->
+
+    <owl:DatatypeProperty rdf:about="f://m#infantMortality">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#inflation -->
+
+    <owl:DatatypeProperty rdf:about="f://m#inflation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#lastEruption -->
+
+    <owl:DatatypeProperty rdf:about="f://m#lastEruption">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Volcano"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#latitude -->
+
+    <owl:DatatypeProperty rdf:about="f://m#latitude">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#length -->
+
+    <owl:DatatypeProperty rdf:about="f://m#length">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Line"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#localname -->
+
+    <owl:DatatypeProperty rdf:about="f://m#localname">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#City"/>
+                    <rdf:Description rdf:about="f://m#Country"/>
+                    <rdf:Description rdf:about="f://m#Province"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#longitude -->
+
+    <owl:DatatypeProperty rdf:about="f://m#longitude">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#name -->
+
+    <owl:DatatypeProperty rdf:about="f://m#name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#MondialThing"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Border"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Estuary"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#ReifiedThing"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Source"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#othername -->
+
+    <owl:DatatypeProperty rdf:about="f://m#othername">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#MondialThing"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Border"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Estuary"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#ReifiedThing"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Source"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#percent -->
+
+    <owl:DatatypeProperty rdf:about="f://m#percent">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#population -->
+
+    <owl:DatatypeProperty rdf:about="f://m#population">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#PopulationCount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#populationGrowth -->
+
+    <owl:DatatypeProperty rdf:about="f://m#populationGrowth">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#type -->
+
+    <owl:DatatypeProperty rdf:about="f://m#type">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="f://m#GeographicalThing"/>
+                            <rdf:Description rdf:about="f://m#Membership"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#City"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Continent"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Estuary"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#River"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Source"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#unemployment -->
+
+    <owl:DatatypeProperty rdf:about="f://m#unemployment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#value -->
+
+    <owl:DatatypeProperty rdf:about="f://m#value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="f://m#Measurement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- f://m#year -->
+
+    <owl:DatatypeProperty rdf:about="f://m#year">
+        <rdfs:domain rdf:resource="f://m#YearlyMeasurement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- f://m#AdministrativeArea -->
+
+    <owl:Class rdf:about="f://m#AdministrativeArea">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#Country"/>
+            <rdf:Description rdf:about="f://m#Province"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#AdministrativeSubdivision -->
+
+    <owl:Class rdf:about="f://m#AdministrativeSubdivision">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#belongsTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="f://m#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="f://m#PoliticalBody"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#City"/>
+            <rdf:Description rdf:about="f://m#Province"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#AnthropoGeographicalRelationship -->
+
+    <owl:Class rdf:about="f://m#AnthropoGeographicalRelationship">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#BelievedBy"/>
+            <rdf:Description rdf:about="f://m#EthnicProportion"/>
+            <rdf:Description rdf:about="f://m#SpokenBy"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#AnthropoGeographicalThing -->
+
+    <owl:Class rdf:about="f://m#AnthropoGeographicalThing">
+        <owl:disjointWith rdf:resource="f://m#Geometrical"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#EthnicGroup"/>
+            <rdf:Description rdf:about="f://m#Language"/>
+            <rdf:Description rdf:about="f://m#Religion"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Area -->
+
+    <owl:Class rdf:about="f://m#Area">
+        <owl:disjointWith rdf:resource="f://m#Estuary"/>
+        <owl:disjointWith rdf:resource="f://m#Line"/>
+        <owl:disjointWith rdf:resource="f://m#Place"/>
+        <owl:disjointWith rdf:resource="f://m#Source"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#LargeArea"/>
+            <rdf:Description rdf:about="f://m#SmallArea"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#BelievedBy -->
+
+    <owl:Class rdf:about="f://m#BelievedBy">
+        <rdfs:subClassOf rdf:resource="f://m#AnthropoGeographicalRelationship"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Border -->
+
+    <owl:Class rdf:about="f://m#Border">
+        <rdfs:subClassOf rdf:resource="f://m#Line"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#isBorderOf"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#City -->
+
+    <owl:Class rdf:about="f://m#City">
+        <rdfs:subClassOf rdf:resource="f://m#AdministrativeSubdivision"/>
+        <rdfs:subClassOf rdf:resource="f://m#GeographicalThing"/>
+        <rdfs:subClassOf rdf:resource="f://m#SmallArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#cityIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="f://m#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="f://m#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#cityIn"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="f://m#Province"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#isCapitalOf"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="f://m#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="f://m#Province"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#area"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Continent -->
+
+    <owl:Class rdf:about="f://m#Continent">
+        <rdfs:subClassOf rdf:resource="f://m#LargeArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="f://m#Province"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Country -->
+
+    <owl:Class rdf:about="f://m#Country">
+        <rdfs:subClassOf rdf:resource="f://m#LargeArea"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Desert -->
+
+    <owl:Class rdf:about="f://m#Desert">
+        <rdfs:subClassOf rdf:resource="f://m#SmallArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#City"/>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Encompassed -->
+
+    <owl:Class rdf:about="f://m#Encompassed">
+        <rdfs:subClassOf rdf:resource="f://m#ReifiedThing"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#EncompassedArea -->
+
+    <owl:Class rdf:about="f://m#EncompassedArea">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#LargeArea"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Continent"/>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Sea"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Estuary -->
+
+    <owl:Class rdf:about="f://m#Estuary">
+        <rdfs:subClassOf rdf:resource="f://m#Place"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#hasEstuary-"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#EthnicGroup -->
+
+    <owl:Class rdf:about="f://m#EthnicGroup">
+        <rdfs:subClassOf rdf:resource="f://m#AnthropoGeographicalThing"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#EthnicProportion -->
+
+    <owl:Class rdf:about="f://m#EthnicProportion">
+        <rdfs:subClassOf rdf:resource="f://m#AnthropoGeographicalRelationship"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#GeographicalNonPoliticalThing -->
+
+    <owl:Class rdf:about="f://m#GeographicalNonPoliticalThing">
+        <owl:disjointWith rdf:resource="f://m#PoliticalThing"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#Continent"/>
+            <rdf:Description rdf:about="f://m#Desert"/>
+            <rdf:Description rdf:about="f://m#Estuary"/>
+            <rdf:Description rdf:about="f://m#Island"/>
+            <rdf:Description rdf:about="f://m#Islands"/>
+            <rdf:Description rdf:about="f://m#Mountain"/>
+            <rdf:Description rdf:about="f://m#Mountains"/>
+            <rdf:Description rdf:about="f://m#Source"/>
+            <rdf:Description rdf:about="f://m#Water"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#GeographicalThing -->
+
+    <owl:Class rdf:about="f://m#GeographicalThing">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#City"/>
+            <rdf:Description rdf:about="f://m#GeographicalNonPoliticalThing"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Geometrical -->
+
+    <owl:Class rdf:about="f://m#Geometrical">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#Area"/>
+                    <rdf:Description rdf:about="f://m#Line"/>
+                    <rdf:Description rdf:about="f://m#Place"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="f://m#Organization"/>
+        <owl:disjointWith rdf:resource="f://m#ReifiedThing"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Island -->
+
+    <owl:Class rdf:about="f://m#Island">
+        <rdfs:subClassOf rdf:resource="f://m#SmallArea"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Islands -->
+
+    <owl:Class rdf:about="f://m#Islands">
+        <rdfs:subClassOf rdf:resource="f://m#SmallArea"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Lake -->
+
+    <owl:Class rdf:about="f://m#Lake">
+        <rdfs:subClassOf rdf:resource="f://m#SmallArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#Lake"/>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Language -->
+
+    <owl:Class rdf:about="f://m#Language">
+        <rdfs:subClassOf rdf:resource="f://m#AnthropoGeographicalThing"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#LargeArea -->
+
+    <owl:Class rdf:about="f://m#LargeArea">
+        <rdfs:subClassOf rdf:resource="f://m#Area"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Line -->
+
+    <owl:Class rdf:about="f://m#Line">
+        <owl:disjointWith rdf:resource="f://m#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Location -->
+
+    <owl:Class rdf:about="f://m#Location">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#Place"/>
+            <rdf:Description rdf:about="f://m#SmallArea"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Measurement -->
+
+    <owl:Class rdf:about="f://m#Measurement">
+        <rdfs:subClassOf rdf:resource="f://m#TimeSeriesElement"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Membership -->
+
+    <owl:Class rdf:about="f://m#Membership">
+        <rdfs:subClassOf rdf:resource="f://m#ReifiedThing"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#MondialThing -->
+
+    <owl:Class rdf:about="f://m#MondialThing">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#AnthropoGeographicalThing"/>
+            <rdf:Description rdf:about="f://m#PoliticalOrGeographicalThing"/>
+            <rdf:Description rdf:about="f://m#ReifiedThing"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Mountain -->
+
+    <owl:Class rdf:about="f://m#Mountain">
+        <rdfs:subClassOf rdf:resource="f://m#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Mountains -->
+
+    <owl:Class rdf:about="f://m#Mountains">
+        <rdfs:subClassOf rdf:resource="f://m#SmallArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#City"/>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#NonGeographicalPoliticalThing -->
+
+    <owl:Class rdf:about="f://m#NonGeographicalPoliticalThing">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#Border"/>
+            <rdf:Description rdf:about="f://m#Country"/>
+            <rdf:Description rdf:about="f://m#Organization"/>
+            <rdf:Description rdf:about="f://m#Province"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Organization -->
+
+    <owl:Class rdf:about="f://m#Organization"/>
+    
+
+
+    <!-- f://m#Place -->
+
+    <owl:Class rdf:about="f://m#Place"/>
+    
+
+
+    <!-- f://m#PoliticalBody -->
+
+    <owl:Class rdf:about="f://m#PoliticalBody">
+        <rdfs:subClassOf rdf:resource="f://m#PoliticalThing"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#Country"/>
+            <rdf:Description rdf:about="f://m#Organization"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#PoliticalOrGeographicalThing -->
+
+    <owl:Class rdf:about="f://m#PoliticalOrGeographicalThing">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="f://m#GeographicalThing"/>
+                    <rdf:Description rdf:about="f://m#PoliticalThing"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- f://m#PoliticalThing -->
+
+    <owl:Class rdf:about="f://m#PoliticalThing">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#City"/>
+            <rdf:Description rdf:about="f://m#NonGeographicalPoliticalThing"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#PopulationCount -->
+
+    <owl:Class rdf:about="f://m#PopulationCount">
+        <rdfs:subClassOf rdf:resource="f://m#YearlyMeasurement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#ofObject"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="f://m#City"/>
+                            <rdf:Description rdf:about="f://m#Country"/>
+                            <rdf:Description rdf:about="f://m#Province"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Province -->
+
+    <owl:Class rdf:about="f://m#Province">
+        <rdfs:subClassOf rdf:resource="f://m#LargeArea"/>
+        <owl:disjointWith rdf:resource="f://m#Sea"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#ReifiedThing -->
+
+    <owl:Class rdf:about="f://m#ReifiedThing">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#BelievedBy"/>
+            <rdf:Description rdf:about="f://m#Encompassed"/>
+            <rdf:Description rdf:about="f://m#EthnicProportion"/>
+            <rdf:Description rdf:about="f://m#Membership"/>
+            <rdf:Description rdf:about="f://m#SpokenBy"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Religion -->
+
+    <owl:Class rdf:about="f://m#Religion">
+        <rdfs:subClassOf rdf:resource="f://m#AnthropoGeographicalThing"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#River -->
+
+    <owl:Class rdf:about="f://m#River">
+        <rdfs:subClassOf rdf:resource="f://m#Line"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="f://m#City"/>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#hasEstuary"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#hasSource"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Sea -->
+
+    <owl:Class rdf:about="f://m#Sea">
+        <rdfs:subClassOf rdf:resource="f://m#LargeArea"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="f://m#Continent"/>
+                            <rdf:Description rdf:about="f://m#Country"/>
+                            <rdf:Description rdf:about="f://m#Province"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#SmallArea -->
+
+    <owl:Class rdf:about="f://m#SmallArea"/>
+    
+
+
+    <!-- f://m#Source -->
+
+    <owl:Class rdf:about="f://m#Source">
+        <rdfs:subClassOf rdf:resource="f://m#Place"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#hasSource-"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#SpokenBy -->
+
+    <owl:Class rdf:about="f://m#SpokenBy">
+        <rdfs:subClassOf rdf:resource="f://m#AnthropoGeographicalRelationship"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#TimeSeriesElement -->
+
+    <owl:Class rdf:about="f://m#TimeSeriesElement"/>
+    
+
+
+    <!-- f://m#Volcano -->
+
+    <owl:Class rdf:about="f://m#Volcano">
+        <rdfs:subClassOf rdf:resource="f://m#Mountain"/>
+    </owl:Class>
+    
+
+
+    <!-- f://m#Water -->
+
+    <owl:Class rdf:about="f://m#Water">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#flowsInto"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#Lake"/>
+            <rdf:Description rdf:about="f://m#River"/>
+            <rdf:Description rdf:about="f://m#Sea"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- f://m#YearlyMeasurement -->
+
+    <owl:Class rdf:about="f://m#YearlyMeasurement">
+        <rdfs:subClassOf rdf:resource="f://m#Measurement"/>
+        <rdfs:subClassOf rdf:resource="f://m#TimeSeriesElement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#year"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#GeographicalThing"/>
+            <owl:Class>
+                <owl:complementOf rdf:resource="f://m#Continent"/>
+            </owl:Class>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedIn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="f://m#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#PopulationCount"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#ofObject"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="f://m#hadPopulation"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="f://m#Lake"/>
+            <rdf:Description rdf:about="f://m#Mountain"/>
+            <rdf:Description rdf:about="f://m#River"/>
+        </owl:unionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="f://m#locatedOnIsland"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

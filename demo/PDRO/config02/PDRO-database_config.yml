@@ -1,0 +1,13 @@
+# Default database configurations
+schemaName: PDRO
+rdbmsName: postgresql
+defaultKeyName: uid
+defaultKeyDomainName: uid_domain
+defaultKeyType: UUID
+defaultAttributeName : value
+defaultAttributeDomaineName: value_domain
+defaultAttributeType: TEXT
+normalizeDatatype: false
+languages:
+  - en
+  - fr

@@ -1,0 +1,22 @@
+owlFilePath: /Depots/Kagou/Logitheques/OntoRelA/jeux/demo/UNIVBENCH/univ-bench.owl
+
+annotations:
+  labels:
+    - "http://www.w3.org/2000/01/rdf-schema#label"
+  definitions:
+    - "http://purl.org/dc/elements/1.1/description"
+
+classes:
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchWork"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article"
+  - "http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual"
