@@ -5,6 +5,9 @@ OntoRelα generates from an ontology and a set of configuration files, a set of 
 
 Ontorelα generates from an OWL ontology and some configuration files: (1) scripts for the RDB (RDB scripts), (2) a list of warnings, (3) a mapping dictionary (OntorelDic) and (4) a normalized ontology formalized according to μOnto. μOnto is an abstract notation inspired by the set theory and the description logic ALCQI(D) needed for the logical formulation of a relational data model (Chomicki and Saake, 1998).
 
+### References
+Khnaisser C, Lavoie L, Burgun A, et al. Generating a relational database for heterogeneous data using an ontology. (research report available through the URL and scientific article currently submitted to JODS). 2019. A summary can be found here http://griis.ca/horg-ontorela/
+
 ## Environnement
 μOnto is implemented as in internal independent librabrat and integrated in OntoRelα to represent ontological constructs.
 

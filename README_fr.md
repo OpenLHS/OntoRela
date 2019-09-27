@@ -1,9 +1,12 @@
 # OntoRelα
 ## Application pour la génération d’une base de données relationnelle à partir d’une ontologie.
 
-L’application permet de générer un schéma relationnel historicisé à partir d’une ontologie : l’ontologie est d’abord analysée, simplifiée puis réduite ; ensuite, chaque composant ontologique est converti en un composant relationnel ; finalement, chaque composant relationnel est historicisé, puis traduit en SQL. Tout au long du processus des messages sont produits afin de consigner les anomalies et d’aider leur éventuel traitement.
+L’application permet de générer un schéma relationnel à partir d’une ontologie : l’ontologie est d’abord analysée, simplifiée puis réduite ; ensuite, chaque composant ontologique est converti en un composant relationnel ; finalement, chaque composant relationnel est traduit en SQL. Tout au long du processus des messages sont produits afin de consigner les anomalies et d’aider leur éventuel traitement.
 
 OntoRelα génère à partir d’une ontologie OWL et de fichiers de configuration : (1) des scripts pour une base de données relationnelle (2) des listes d’avertissements (3) un dictionnaire d’arrimage (OntoRelDic), et (4) une ontologie normalisée formalisée selon μOnto. μOnto, un modèle simplifié qui est inspiré de la théorie d’ensemble et à certaines parties de la logique de description, notamment ALCQI(D) [Chomicki and Saake 1998:8]. Le but de μOnto est de définir des composants ontologiques et fournir une classification des axiomes adéquate et suffisante pour la conversion en un schéma relationnel tout en préservant l’expressivité ontologique.
+
+### Références
+Khnaisser C, Lavoie L, Burgun A, et al. Generating a relational database for heterogeneous data using an ontology. (research report available through the URL and scientific article currently submitted to JODS). 2019. A summary can be found here http://griis.ca/horg-ontorela/
 
 ## Environnement
 μOnto est une bibliothèque interne indépendante qui est intégrée dans OntoRelα pour représenter les composants ontologiques.
@@ -51,7 +54,6 @@ Dans le même dossier, OntoRela va générer tous les résultats :
 
 ## Travail en cours
 Cette version :
-* N’inclut PAS l’historicisation.
 * Prend en entrée une ontologie en OWL 2
 * Génère un schéma compatible avec PostgreSQL v9.5+
 
