@@ -1,0 +1,80 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer -> T0001::Lecturer::lecturer
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor -> T0002::Professor::professor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication -> T0003::Publication::publication
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article -> T0004::Article::article
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant -> T0005::TeachingAssistant::university teaching assistant
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor -> T0006::AssociateProfessor::associate professor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor -> T0007::FullProfessor::full professor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual -> T0008::Manual::manual
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff -> T0009::SystemsStaff::systems staff worker
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff -> T000a::AdministrativeStaff::administrative staff worker
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute -> T000b::Institute::institute
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean -> T000c::Dean::dean
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle -> T000d::JournalArticle::journal article
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research -> T000e::Research::research work
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification -> T000f::Specification::published specification
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent -> T0010::UndergraduateStudent::undergraduate student
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student -> T0011::Student::student
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor -> T0012::AssistantProfessor::assistant professor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule -> T0013::Schedule::schedule
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work -> T0014::Work::Work
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person -> T0015::Person::person
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup -> T0016::ResearchGroup::research group
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization -> T0017::Organization::organization
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department -> T0018::Department::university department
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty -> T0019::Faculty::faculty member
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent -> T001a::GraduateStudent::graduate student
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair -> T001b::Chair::chair
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course -> T001c::Course::teaching course
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper -> T001d::ConferencePaper::conference paper
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff -> T001e::ClericalStaff::clerical staff worker
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication -> T001f::UnofficialPublication::unnoficial publication
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book -> T0020::Book::book
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport -> T0021::TechnicalReport::technical report
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor -> T0022::VisitingProfessor::visiting professor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software -> T0023::Software::software program
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director -> T0024::Director::director
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#College -> T0025::College::school
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#University -> T0026::University::university
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc -> T0027::PostDoc::post doctorate
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse -> T0028::GraduateCourse::Graduate Level Courses
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program -> T0029::Program::program
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant -> T002a::ResearchAssistant::university research assistant
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee -> T002b::Employee::Employee
+
+--------------------------------------- 
+Type-Table Catalog
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+Publication [1..*] publicationAuthor Person -> T002c::publication was written by person
+Publication [1..*] publicationResearch Research -> T002d::publication is about research work
+TeachingAssistant [1..*] teachingAssistantOf Course -> T002e::university teaching assistant is a teaching assistant for teaching course
+Schedule [1..*] listedCourse Course -> T002f::schedule lists as a course teaching course
+Person [1..*] advisor Professor -> T0030::person is being advised by professor
+Person [1..*] degreeFrom University -> T0031::person has a degree from university
+Person [1..*] doctoralDegreeFrom University -> T0032::person has a doctoral degree from university
+Person [1..*] mastersDegreeFrom University -> T0033::person has a masters degree from university
+Person [1..*] undergraduateDegreeFrom University -> T0034::person has an undergraduate degree from university
+ResearchGroup [1..*] researchProject Research -> T0035::research group has as a research project research work
+Organization [1..*] affiliateOf Person -> T0036::organization is affiliated with person
+Organization [1..*] affiliatedOrganizationOf Organization -> T0037::organization is affiliated with organization
+Organization [1..*] member Person -> T0038::organization has as a member person
+Organization [1..*] orgPublication Publication -> T0039::organization publishes publication
+Organization [1..*] subOrganizationOf Organization -> T003a::organization is part of organization
+Faculty [1..*] teacherOf Course -> T003b::faculty member teaches teaching course
+GraduateStudent [1..*] takesCourse GraduateCourse -> T003c::graduate student is taking Graduate Level Courses
+Software [1..*] softwareDocumentation Publication -> T003d::software program is documented in publication
+University [1..*] hasAlumnus Person -> T003e::university has as an alumnus person
+ResearchAssistant [1..*] worksFor ResearchGroup -> T003f::university research assistant Works For research group

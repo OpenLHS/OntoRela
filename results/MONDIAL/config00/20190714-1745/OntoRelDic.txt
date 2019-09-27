@@ -1,0 +1,150 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+f://m#YearlyMeasurement -> T0001::YearlyMeasurement::YearlyMeasurement
+f://m#PoliticalThing -> T0002::PoliticalThing::PoliticalThing
+f://m#LargeArea -> T0003::LargeArea::LargeArea
+f://m#PoliticalOrGeographicalThing -> T0004::PoliticalOrGeographicalThing::PoliticalOrGeographicalThing
+f://m#GeographicalThing -> T0005::GeographicalThing::GeographicalThing
+f://m#Estuary -> T0006::Estuary::Estuary
+f://m#Water -> T0007::Water::Water
+f://m#TimeSeriesElement -> T0008::TimeSeriesElement::TimeSeriesElement
+f://m#PopulationCount -> T0009::PopulationCount::PopulationCount
+f://m#Language -> T000a::Language::Language
+f://m#SmallArea -> T000b::SmallArea::SmallArea
+f://m#AdministrativeSubdivision -> T000c::AdministrativeSubdivision::AdministrativeSubdivision
+f://m#AnthropoGeographicalThing -> T000d::AnthropoGeographicalThing::AnthropoGeographicalThing
+f://m#Country -> T000e::Country::Country
+f://m#Organization -> T000f::Organization::Organization
+f://m#GeographicalNonPoliticalThing -> T0010::GeographicalNonPoliticalThing::GeographicalNonPoliticalThing
+f://m#NonGeographicalPoliticalThing -> T0011::NonGeographicalPoliticalThing::NonGeographicalPoliticalThing
+f://m#Line -> T0012::Line::Line
+f://m#Encompassed -> T0013::Encompassed::Encompassed
+f://m#Continent -> T0014::Continent::Continent
+f://m#Area -> T0015::Area::Area
+f://m#BelievedBy -> T0016::BelievedBy::BelievedBy
+f://m#Location -> T0017::Location::Location
+f://m#EthnicProportion -> T0018::EthnicProportion::EthnicProportion
+f://m#MondialThing -> T0019::MondialThing::MondialThing
+f://m#City -> T001a::City::City
+f://m#Island -> T001b::Island::Island
+f://m#Desert -> T001c::Desert::Desert
+f://m#SpokenBy -> T001d::SpokenBy::SpokenBy
+f://m#Sea -> T001e::Sea::Sea
+f://m#Membership -> T001f::Membership::Membership
+f://m#River -> T0020::River::River
+f://m#AdministrativeArea -> T0021::AdministrativeArea::AdministrativeArea
+f://m#Volcano -> T0022::Volcano::Volcano
+f://m#Source -> T0023::Source::Source
+f://m#Measurement -> T0024::Measurement::Measurement
+f://m#Province -> T0025::Province::Province
+f://m#Mountains -> T0026::Mountains::Mountains
+f://m#Islands -> T0027::Islands::Islands
+f://m#Border -> T0028::Border::Border
+f://m#Religion -> T0029::Religion::Religion
+f://m#Lake -> T002a::Lake::Lake
+f://m#Place -> T002b::Place::Place
+f://m#ReifiedThing -> T002c::ReifiedThing::ReifiedThing
+http://www.w3.org/2002/07/owl#Nothing -> T002d::Nothing::Nothing
+f://m#EthnicGroup -> T002e::EthnicGroup::EthnicGroup
+f://m#Geometrical -> T002f::Geometrical::Geometrical
+f://m#Mountain -> T0030::Mountain::Mountain
+f://m#EncompassedArea -> T0031::EncompassedArea::EncompassedArea
+f://m#PoliticalBody -> T0032::PoliticalBody::PoliticalBody
+f://m#AnthropoGeographicalRelationship -> T0033::AnthropoGeographicalRelationship::AnthropoGeographicalRelationship
+
+--------------------------------------- 
+Type-Table Catalog
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+Organization [1..1] abbrev string -> T0034::Organization abbrev
+Country [1..1] carCode string -> T0035::Country carCode
+Location [1..1] elevation decimal -> T0036::Location elevation
+Organization [1..1] established date -> T0037::Organization established
+Country [1..1] gdpAgri decimal -> T0038::Country gdpAgri
+Country [1..1] gdpInd decimal -> T0039::Country gdpInd
+Country [1..1] gdpServ decimal -> T003a::Country gdpServ
+Country [1..1] gdpTotal decimal -> T003b::Country gdpTotal
+Country [1..1] government string -> T003c::Country government
+Country [1..1] independenceDate date -> T003d::Country independenceDate
+Country [1..1] infantMortality decimal -> T003e::Country infantMortality
+Country [1..1] inflation decimal -> T003f::Country inflation
+Volcano [1..1] lastEruption date -> T0040::Volcano lastEruption
+Location [1..1] latitude decimal -> T0041::Location latitude
+Line [1..1] length decimal -> T0042::Line length
+City [1..1] localname string -> T0043::City localname
+Country [1..1] localname string -> T0044::Country localname
+Province [1..1] localname string -> T0045::Province localname
+Location [1..1] longitude decimal -> T0046::Location longitude
+PopulationCount [1..1] population nonNegativeInteger -> T0047::PopulationCount population
+Country [1..1] populationGrowth decimal -> T0048::Country populationGrowth
+Country [1..1] unemployment decimal -> T0049::Country unemployment
+Measurement [1..1] value decimal -> T004a::Measurement value
+YearlyMeasurement [1..*] year nonNegativeInteger -> T004b::YearlyMeasurement year
+City [0..0] area Literal -> T004c::City area
+YearlyMeasurement [1..1] year Literal -> T004d::YearlyMeasurement year
+LargeArea [1..*] borders LargeArea -> T004e::LargeArea borders LargeArea
+GeographicalThing [1..*] locatedIn Area -> T004f::GeographicalThing locatedIn Area
+Estuary [1..1] hasEstuary- Thing -> T0050::Estuary hasEstuary- Thing
+Water [0..1] flowsInto Thing -> T0051::Water flowsInto Thing
+AdministrativeSubdivision [1..1] belongsTo Country -> T0052::AdministrativeSubdivision belongsTo Country
+Country [1..*] believeInReligion Religion -> T0053::Country believeInReligion Religion
+Country [1..*] belongToEthnicGroup EthnicGroup -> T0054::Country belongToEthnicGroup EthnicGroup
+Country [1..1] dependentOf Country -> T0055::Country dependentOf Country
+Country [1..*] ethnicInfo EthnicProportion -> T0056::Country ethnicInfo EthnicProportion
+Country [1..*] hadPopulation PopulationCount -> T0057::Country hadPopulation PopulationCount
+Country [1..*] hasProvince Province -> T0058::Country hasProvince Province
+Country [1..*] isMember Organization -> T0059::Country isMember Organization
+Country [1..*] languageInfo SpokenBy -> T005a::Country languageInfo SpokenBy
+Country [1..*] neighbor Country -> T005b::Country neighbor Country
+Country [1..*] religionInfo BelievedBy -> T005c::Country religionInfo BelievedBy
+Country [1..*] speakLanguage Language -> T005d::Country speakLanguage Language
+Country [1..1] wasDependentOf PoliticalBody -> T005e::Country wasDependentOf PoliticalBody
+Organization [1..1] hasHeadq City -> T005f::Organization hasHeadq City
+Encompassed [1..1] encompassedArea EncompassedArea -> T0060::Encompassed encompassedArea EncompassedArea
+Encompassed [1..1] encompassedBy Continent -> T0061::Encompassed encompassedBy Continent
+BelievedBy [1..1] onReligion Religion -> T0062::BelievedBy onReligion Religion
+EthnicProportion [1..1] onEthnicGroup EthnicGroup -> T0063::EthnicProportion onEthnicGroup EthnicGroup
+City [1..*] hadPopulation PopulationCount -> T0064::City hadPopulation PopulationCount
+City [1..*] locatedAt Water -> T0065::City locatedAt Water
+City [1..*] locatedOnIsland Island -> T0066::City locatedOnIsland Island
+City [1..1] locatedIn Country -> T0067::City locatedIn Country
+City [0..1] locatedIn Province -> T0068::City locatedIn Province
+City [1..1] cityIn Country -> T0069::City cityIn Country
+City [0..1] cityIn Province -> T006a::City cityIn Province
+City [0..1] isCapitalOf Country -> T006b::City isCapitalOf Country
+Island [1..1] belongsToIslands Islands -> T006c::Island belongsToIslands Islands
+Island [1..*] locatedInWater Water -> T006d::Island locatedInWater Water
+SpokenBy [1..1] onLanguage Language -> T006e::SpokenBy onLanguage Language
+Sea [1..*] mergesWith Sea -> T006f::Sea mergesWith Sea
+Membership [1..1] inOrganization Organization -> T0070::Membership inOrganization Organization
+Membership [1..1] ofMember Country -> T0071::Membership ofMember Country
+River [1..*] flowsInto Water -> T0072::River flowsInto Water
+River [1..*] flowsThrough Lake -> T0073::River flowsThrough Lake
+River [1..1] hasEstuary Estuary -> T0074::River hasEstuary Estuary
+River [1..1] hasSource Source -> T0075::River hasSource Source
+River [1..*] locatedOnIsland Island -> T0076::River locatedOnIsland Island
+River [1..1] hasEstuary Thing -> T0077::River hasEstuary Thing
+River [1..1] hasSource Thing -> T0078::River hasSource Thing
+AdministrativeArea [1..1] capital City -> T0079::AdministrativeArea capital City
+AdministrativeArea [1..*] hasCity City -> T007a::AdministrativeArea hasCity City
+Source [1..1] inMountains Mountains -> T007b::Source inMountains Mountains
+Source [1..1] hasSource- Thing -> T007c::Source hasSource- Thing
+Measurement [1..1] ofObject MondialThing -> T007d::Measurement ofObject MondialThing
+Province [1..*] hadPopulation PopulationCount -> T007e::Province hadPopulation PopulationCount
+Border [1..*] isBorderOf Country -> T007f::Border isBorderOf Country
+Border [2..2] isBorderOf Thing -> T0080::Border isBorderOf Thing
+Lake [1..*] flowsInto Water -> T0081::Lake flowsInto Water
+Lake [1..*] locatedOnIsland Island -> T0082::Lake locatedOnIsland Island
+Mountain [1..1] inMountains Mountains -> T0083::Mountain inMountains Mountains
+Mountain [1..*] locatedOnIsland Island -> T0084::Mountain locatedOnIsland Island
+EncompassedArea [1..*] encompassed Continent -> T0085::EncompassedArea encompassed Continent

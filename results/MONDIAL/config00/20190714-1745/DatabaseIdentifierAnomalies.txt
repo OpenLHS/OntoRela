@@ -1,0 +1,334 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+Table T0000
+
+Table T0001
+
+Table T0002
+
+Table T0003
+
+Table T0004
+    View attribute IRIPoliticalOrGeographicalThing_uid
+    View attribute @en: uid PoliticalOrGeographicalThing
+    View attribute @fr: uid PoliticalOrGeographicalThing_fr
+
+Table T0005
+
+Table T0006
+
+Table T0007
+
+Table T0008
+
+Table T0009
+
+Table T000a
+
+Table T000b
+
+Table T000c
+    View attribute @fr: uid AdministrativeSubdivision_fr
+
+Table T000d
+    View attribute @fr: uid AnthropoGeographicalThing_fr
+
+Table T000e
+
+Table T000f
+
+Table T0010
+    View attribute IRIGeographicalNonPoliticalThing_uid
+    View attribute @en: uid GeographicalNonPoliticalThing
+    View attribute @fr: uid GeographicalNonPoliticalThing_fr
+
+Table T0011
+    View attribute IRINonGeographicalPoliticalThing_uid
+    View attribute @en: uid NonGeographicalPoliticalThing
+    View attribute @fr: uid NonGeographicalPoliticalThing_fr
+
+Table T0012
+
+Table T0013
+
+Table T0014
+
+Table T0015
+
+Table T0016
+
+Table T0017
+
+Table T0018
+
+Table T0019
+
+Table T001a
+
+Table T001b
+
+Table T001c
+
+Table T001d
+
+Table T001e
+
+Table T001f
+
+Table T0020
+
+Table T0021
+
+Table T0022
+
+Table T0023
+
+Table T0024
+
+Table T0025
+
+Table T0026
+
+Table T0027
+
+Table T0028
+
+Table T0029
+
+Table T002a
+
+Table T002b
+
+Table T002c
+
+Table T002d
+
+Table T002e
+
+Table T002f
+
+Table T0030
+
+Table T0031
+
+Table T0032
+
+Table T0033
+  View name IRI AnthropoGeographicalRelationship
+  View name @en: AnthropoGeographicalRelationship
+    View attribute IRIAnthropoGeographicalRelationship_uid
+    View attribute @en: uid AnthropoGeographicalRelationship
+    View attribute @fr: uid AnthropoGeographicalRelationship_fr
+
+Table T0034
+
+Table T0035
+
+Table T0036
+
+Table T0037
+
+Table T0038
+
+Table T0039
+
+Table T003a
+
+Table T003b
+
+Table T003c
+
+Table T003d
+
+Table T003e
+
+Table T003f
+
+Table T0040
+
+Table T0041
+
+Table T0042
+
+Table T0043
+
+Table T0044
+
+Table T0045
+
+Table T0046
+
+Table T0047
+
+Table T0048
+
+Table T0049
+
+Table T004a
+
+Table T004b
+
+Table T004c
+
+Table T004d
+
+Table T004e
+
+Table T004f
+  View name IRI GeographicalThing_locatedIn_Area
+  View name @en: GeographicalThing locatedIn Area
+
+Table T0050
+
+Table T0051
+
+Table T0052
+  View name IRI AdministrativeSubdivision_belongsTo_Country
+  View name @en: AdministrativeSubdivision belongsTo Country
+    View attribute @fr: uid AdministrativeSubdivision_fr
+
+Table T0053
+  View name IRI Country_believeInReligion_Religion
+  View name @en: Country believeInReligion Religion
+
+Table T0054
+  View name IRI Country_belongToEthnicGroup_EthnicGroup
+  View name @en: Country belongToEthnicGroup EthnicGroup
+
+Table T0055
+
+Table T0056
+  View name IRI Country_ethnicInfo_EthnicProportion
+  View name @en: Country ethnicInfo EthnicProportion
+
+Table T0057
+  View name IRI Country_hadPopulation_PopulationCount
+  View name @en: Country hadPopulation PopulationCount
+
+Table T0058
+
+Table T0059
+
+Table T005a
+
+Table T005b
+
+Table T005c
+  View name IRI Country_religionInfo_BelievedBy
+  View name @en: Country religionInfo BelievedBy
+
+Table T005d
+
+Table T005e
+  View name IRI Country_wasDependentOf_PoliticalBody
+  View name @en: Country wasDependentOf PoliticalBody
+
+Table T005f
+
+Table T0060
+  View name IRI Encompassed_encompassedArea_EncompassedArea
+  View name @en: Encompassed encompassedArea EncompassedArea
+
+Table T0061
+  View name IRI Encompassed_encompassedBy_Continent
+  View name @en: Encompassed encompassedBy Continent
+
+Table T0062
+
+Table T0063
+  View name IRI EthnicProportion_onEthnicGroup_EthnicGroup
+  View name @en: EthnicProportion onEthnicGroup EthnicGroup
+
+Table T0064
+  View name IRI City_hadPopulation_PopulationCount
+  View name @en: City hadPopulation PopulationCount
+
+Table T0065
+
+Table T0066
+
+Table T0067
+
+Table T0068
+
+Table T0069
+
+Table T006a
+
+Table T006b
+
+Table T006c
+  View name IRI Island_belongsToIslands_Islands
+  View name @en: Island belongsToIslands Islands
+
+Table T006d
+
+Table T006e
+
+Table T006f
+
+Table T0070
+  View name IRI Membership_inOrganization_Organization
+  View name @en: Membership inOrganization Organization
+
+Table T0071
+
+Table T0072
+
+Table T0073
+
+Table T0074
+
+Table T0075
+
+Table T0076
+
+Table T0077
+
+Table T0078
+
+Table T0079
+  View name IRI AdministrativeArea_capital_City
+  View name @en: AdministrativeArea capital City
+
+Table T007a
+  View name IRI AdministrativeArea_hasCity_City
+  View name @en: AdministrativeArea hasCity City
+
+Table T007b
+
+Table T007c
+
+Table T007d
+  View name IRI Measurement_ofObject_MondialThing
+  View name @en: Measurement ofObject MondialThing
+
+Table T007e
+  View name IRI Province_hadPopulation_PopulationCount
+  View name @en: Province hadPopulation PopulationCount
+
+Table T007f
+
+Table T0080
+
+Table T0081
+
+Table T0082
+
+Table T0083
+
+Table T0084
+  View name IRI Mountain_locatedOnIsland_Island
+  View name @en: Mountain locatedOnIsland Island
+
+Table T0085
+  View name IRI EncompassedArea_encompassed_Continent
+  View name @en: EncompassedArea encompassed Continent
+

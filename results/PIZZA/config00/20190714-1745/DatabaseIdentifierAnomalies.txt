@@ -1,0 +1,776 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+Table T0000
+
+Table T0001
+
+Table T0002
+
+Table T0003
+
+Table T0004
+
+Table T0005
+
+Table T0006
+
+Table T0007
+
+Table T0008
+
+Table T0009
+
+Table T000a
+
+Table T000b
+
+Table T000c
+
+Table T000d
+
+Table T000e
+
+Table T000f
+
+Table T0010
+
+Table T0011
+
+Table T0012
+
+Table T0013
+
+Table T0014
+
+Table T0015
+
+Table T0016
+
+Table T0017
+
+Table T0018
+
+Table T0019
+
+Table T001a
+
+Table T001b
+
+Table T001c
+
+Table T001d
+
+Table T001e
+
+Table T001f
+
+Table T0020
+
+Table T0021
+
+Table T0022
+
+Table T0023
+
+Table T0024
+
+Table T0025
+
+Table T0026
+
+Table T0027
+
+Table T0028
+
+Table T0029
+
+Table T002a
+
+Table T002b
+
+Table T002c
+
+Table T002d
+
+Table T002e
+
+Table T002f
+
+Table T0030
+
+Table T0031
+
+Table T0032
+
+Table T0033
+
+Table T0034
+
+Table T0035
+
+Table T0036
+    View attribute @fr: uid VegetarianPizzaEquivalent1_fr
+
+Table T0037
+
+Table T0038
+
+Table T0039
+
+Table T003a
+
+Table T003b
+
+Table T003c
+
+Table T003d
+
+Table T003e
+
+Table T003f
+
+Table T0040
+
+Table T0041
+
+Table T0042
+
+Table T0043
+    View attribute @fr: uid VegetarianPizzaEquivalent2_fr
+
+Table T0044
+
+Table T0045
+
+Table T0046
+
+Table T0047
+
+Table T0048
+
+Table T0049
+
+Table T004a
+
+Table T004b
+
+Table T004c
+
+Table T004d
+
+Table T004e
+
+Table T004f
+
+Table T0050
+
+Table T0051
+
+Table T0052
+
+Table T0053
+
+Table T0054
+
+Table T0055
+
+Table T0056
+
+Table T0057
+
+Table T0058
+
+Table T0059
+
+Table T005a
+
+Table T005b
+
+Table T005c
+
+Table T005d
+
+Table T005e
+
+Table T005f
+
+Table T0060
+
+Table T0061
+
+Table T0062
+
+Table T0063
+
+Table T0064
+  View name IRI FourSeasons_hasTopping_CaperTopping
+  View name @en: FourSeasons hasTopping CaperTopping
+
+Table T0065
+  View name IRI FourSeasons_hasTopping_MushroomTopping
+  View name @en: FourSeasons hasTopping MushroomTopping
+
+Table T0066
+  View name IRI FourSeasons_hasTopping_TomatoTopping
+  View name @en: FourSeasons hasTopping TomatoTopping
+
+Table T0067
+  View name IRI FourSeasons_hasTopping_MozzarellaTopping
+  View name @en: FourSeasons hasTopping MozzarellaTopping
+
+Table T0068
+  View name IRI FourSeasons_hasTopping_OliveTopping
+  View name @en: FourSeasons hasTopping OliveTopping
+
+Table T0069
+  View name IRI FourSeasons_hasTopping_AnchoviesTopping
+  View name @en: FourSeasons hasTopping AnchoviesTopping
+
+Table T006a
+  View name IRI FourSeasons_hasTopping_PeperoniSausageTopping
+  View name @en: FourSeasons hasTopping PeperoniSausageTopping
+
+Table T006b
+  View name @en: SeafoodTopping hasSpiciness Mild
+
+Table T006c
+
+Table T006d
+  View name IRI AsparagusTopping_hasSpiciness_Mild
+  View name @en: AsparagusTopping hasSpiciness Mild
+
+Table T006e
+  View name IRI American_hasTopping_MozzarellaTopping
+  View name @en: American hasTopping MozzarellaTopping
+
+Table T006f
+  View name IRI American_hasTopping_PeperoniSausageTopping
+  View name @en: American hasTopping PeperoniSausageTopping
+
+Table T0070
+  View name IRI American_hasTopping_TomatoTopping
+  View name @en: American hasTopping TomatoTopping
+
+Table T0071
+
+Table T0072
+  View name IRI MushroomTopping_hasSpiciness_Mild
+  View name @en: MushroomTopping hasSpiciness Mild
+
+Table T0073
+  View name IRI SweetPepperTopping_hasSpiciness_Mild
+  View name @en: SweetPepperTopping hasSpiciness Mild
+
+Table T0074
+
+Table T0075
+
+Table T0076
+  View name IRI RosemaryTopping_hasSpiciness_Mild
+  View name @en: RosemaryTopping hasSpiciness Mild
+
+Table T0077
+  View name IRI AmericanHot_hasTopping_HotGreenPepperTopping
+  View name @en: AmericanHot hasTopping HotGreenPepperTopping
+
+Table T0078
+  View name IRI AmericanHot_hasTopping_MozzarellaTopping
+  View name @en: AmericanHot hasTopping MozzarellaTopping
+
+Table T0079
+  View name IRI AmericanHot_hasTopping_JalapenoPepperTopping
+  View name @en: AmericanHot hasTopping JalapenoPepperTopping
+
+Table T007a
+  View name IRI AmericanHot_hasTopping_PeperoniSausageTopping
+  View name @en: AmericanHot hasTopping PeperoniSausageTopping
+
+Table T007b
+  View name IRI AmericanHot_hasTopping_TomatoTopping
+  View name @en: AmericanHot hasTopping TomatoTopping
+
+Table T007c
+  View name IRI Napoletana_hasTopping_MozzarellaTopping
+  View name @en: Napoletana hasTopping MozzarellaTopping
+
+Table T007d
+  View name IRI Napoletana_hasTopping_OliveTopping
+  View name @en: Napoletana hasTopping OliveTopping
+
+Table T007e
+  View name IRI Napoletana_hasTopping_AnchoviesTopping
+  View name @en: Napoletana hasTopping AnchoviesTopping
+
+Table T007f
+  View name IRI Napoletana_hasTopping_CaperTopping
+  View name @en: Napoletana hasTopping CaperTopping
+
+Table T0080
+  View name IRI Napoletana_hasTopping_TomatoTopping
+  View name @en: Napoletana hasTopping TomatoTopping
+
+Table T0081
+  View name IRI OnionTopping_hasSpiciness_Medium
+  View name @en: OnionTopping hasSpiciness Medium
+
+Table T0082
+  View name IRI PetitPoisTopping_hasSpiciness_Mild
+  View name @en: PetitPoisTopping hasSpiciness Mild
+
+Table T0083
+  View name IRI HotSpicedBeefTopping_hasSpiciness_Hot
+  View name @en: HotSpicedBeefTopping hasSpiciness Hot
+
+Table T0084
+  View name IRI PeperoniSausageTopping_hasSpiciness_Medium
+  View name @en: PeperoniSausageTopping hasSpiciness Medium
+
+Table T0085
+  View name IRI CajunSpiceTopping_hasSpiciness_Hot
+  View name @en: CajunSpiceTopping hasSpiciness Hot
+
+Table T0086
+  View name IRI Mushroom_hasTopping_TomatoTopping
+  View name @en: Mushroom hasTopping TomatoTopping
+
+Table T0087
+  View name IRI Mushroom_hasTopping_MozzarellaTopping
+  View name @en: Mushroom hasTopping MozzarellaTopping
+
+Table T0088
+  View name IRI Mushroom_hasTopping_MushroomTopping
+  View name @en: Mushroom hasTopping MushroomTopping
+
+Table T0089
+  View name IRI SpinachTopping_hasSpiciness_Mild
+  View name @en: SpinachTopping hasSpiciness Mild
+
+Table T008a
+  View name IRI MozzarellaTopping_hasSpiciness_Mild
+  View name @en: MozzarellaTopping hasSpiciness Mild
+
+Table T008b
+  View name IRI Siciliana_hasTopping_MozzarellaTopping
+  View name @en: Siciliana hasTopping MozzarellaTopping
+
+Table T008c
+  View name IRI Siciliana_hasTopping_ArtichokeTopping
+  View name @en: Siciliana hasTopping ArtichokeTopping
+
+Table T008d
+  View name IRI Siciliana_hasTopping_OliveTopping
+  View name @en: Siciliana hasTopping OliveTopping
+
+Table T008e
+  View name IRI Siciliana_hasTopping_GarlicTopping
+  View name @en: Siciliana hasTopping GarlicTopping
+
+Table T008f
+  View name IRI Siciliana_hasTopping_HamTopping
+  View name @en: Siciliana hasTopping HamTopping
+
+Table T0090
+  View name IRI Siciliana_hasTopping_AnchoviesTopping
+  View name @en: Siciliana hasTopping AnchoviesTopping
+
+Table T0091
+  View name IRI Siciliana_hasTopping_TomatoTopping
+  View name @en: Siciliana hasTopping TomatoTopping
+
+Table T0092
+  View name IRI SlicedTomatoTopping_hasSpiciness_Mild
+  View name @en: SlicedTomatoTopping hasSpiciness Mild
+
+Table T0093
+  View name IRI SlicedTomatoTopping_hasSpiciness_Mild
+  View name @en: SlicedTomatoTopping hasSpiciness Mild
+
+Table T0094
+  View name IRI QuattroFormaggi_hasTopping_TomatoTopping
+  View name @en: QuattroFormaggi hasTopping TomatoTopping
+
+Table T0095
+  View name IRI QuattroFormaggi_hasTopping_FourCheesesTopping
+  View name @en: QuattroFormaggi hasTopping FourCheesesTopping
+
+Table T0096
+  View name IRI PrinceCarlo_hasTopping_RosemaryTopping
+  View name @en: PrinceCarlo hasTopping RosemaryTopping
+
+Table T0097
+  View name IRI PrinceCarlo_hasTopping_ParmesanTopping
+  View name @en: PrinceCarlo hasTopping ParmezanTopping
+
+Table T0098
+  View name IRI PrinceCarlo_hasTopping_LeekTopping
+  View name @en: PrinceCarlo hasTopping LeekTopping
+
+Table T0099
+  View name IRI PrinceCarlo_hasTopping_TomatoTopping
+  View name @en: PrinceCarlo hasTopping TomatoTopping
+
+Table T009a
+  View name IRI PrinceCarlo_hasTopping_MozzarellaTopping
+  View name @en: PrinceCarlo hasTopping MozzarellaTopping
+
+Table T009b
+
+Table T009c
+  View name IRI FourCheesesTopping_hasSpiciness_Mild
+  View name @en: FourCheesesTopping hasSpiciness Mild
+
+Table T009d
+  View name IRI Cajun_hasTopping_TobascoPepperSauce
+  View name @en: Cajun hasTopping TobascoPepperSauceTopping
+
+Table T009e
+  View name IRI Cajun_hasTopping_PeperonataTopping
+  View name @en: Cajun hasTopping PeperonataTopping
+
+Table T009f
+  View name IRI Cajun_hasTopping_MozzarellaTopping
+  View name @en: Cajun hasTopping MozzarellaTopping
+
+Table T00a0
+
+Table T00a1
+
+Table T00a2
+
+Table T00a3
+  View name IRI GorgonzolaTopping_hasSpiciness_Mild
+  View name @en: GorgonzolaTopping hasSpiciness Mild
+
+Table T00a4
+  View name IRI UnclosedPizza_hasTopping_MozzarellaTopping
+  View name @en: UnclosedPizza hasTopping MozzarellaTopping
+
+Table T00a5
+  View name IRI HotGreenPepperTopping_hasSpiciness_Hot
+  View name @en: HotGreenPepperTopping hasSpiciness Hot
+
+Table T00a6
+  View name IRI Caprina_hasTopping_TomatoTopping
+  View name @en: Caprina hasTopping TomatoTopping
+
+Table T00a7
+  View name IRI Caprina_hasTopping_SundriedTomatoTopping
+  View name @en: Caprina hasTopping SundriedTomatoTopping
+
+Table T00a8
+  View name IRI Caprina_hasTopping_GoatsCheeseTopping
+  View name @en: Caprina hasTopping GoatsCheeseTopping
+
+Table T00a9
+  View name IRI Caprina_hasTopping_MozzarellaTopping
+  View name @en: Caprina hasTopping MozzarellaTopping
+
+Table T00aa
+  View name IRI Fiorentina_hasTopping_OliveTopping
+  View name @en: Fiorentina hasTopping OliveTopping
+
+Table T00ab
+  View name IRI Fiorentina_hasTopping_ParmesanTopping
+  View name @en: Fiorentina hasTopping ParmezanTopping
+
+Table T00ac
+  View name IRI Fiorentina_hasTopping_GarlicTopping
+  View name @en: Fiorentina hasTopping GarlicTopping
+
+Table T00ad
+  View name IRI Fiorentina_hasTopping_MozzarellaTopping
+  View name @en: Fiorentina hasTopping MozzarellaTopping
+
+Table T00ae
+  View name IRI Fiorentina_hasTopping_TomatoTopping
+  View name @en: Fiorentina hasTopping TomatoTopping
+
+Table T00af
+  View name IRI Fiorentina_hasTopping_SpinachTopping
+  View name @en: Fiorentina hasTopping SpinachTopping
+
+Table T00b0
+  View name IRI Margherita_hasTopping_TomatoTopping
+  View name @en: Margherita hasTopping TomatoTopping
+
+Table T00b1
+  View name IRI Margherita_hasTopping_MozzarellaTopping
+  View name @en: Margherita hasTopping MozzarellaTopping
+
+Table T00b2
+  View name IRI JalapenoPepperTopping_hasSpiciness_Hot
+  View name @en: JalapenoPepperTopping hasSpiciness Hot
+
+Table T00b3
+  View name IRI ArtichokeTopping_hasSpiciness_Mild
+  View name @en: ArtichokeTopping hasSpiciness Mild
+
+Table T00b4
+  View name IRI TobascoPepperSauce_hasSpiciness_Hot
+  View name @en: TobascoPepperSauceTopping hasSpiciness Hot
+
+Table T00b5
+  View name IRI Veneziana_hasTopping_OliveTopping
+  View name @en: Veneziana hasTopping OliveTopping
+
+Table T00b6
+  View name IRI Veneziana_hasTopping_OnionTopping
+  View name @en: Veneziana hasTopping OnionTopping
+
+Table T00b7
+  View name IRI Veneziana_hasTopping_CaperTopping
+  View name @en: Veneziana hasTopping CaperTopping
+
+Table T00b8
+  View name IRI Veneziana_hasTopping_SultanaTopping
+  View name @en: Veneziana hasTopping SultanaTopping
+
+Table T00b9
+  View name IRI Veneziana_hasTopping_PineKernels
+  View name @en: Veneziana hasTopping PineKernelTopping
+
+Table T00ba
+  View name IRI Veneziana_hasTopping_TomatoTopping
+  View name @en: Veneziana hasTopping TomatoTopping
+
+Table T00bb
+  View name IRI Veneziana_hasTopping_MozzarellaTopping
+  View name @en: Veneziana hasTopping MozzarellaTopping
+
+Table T00bc
+  View name IRI Giardiniera_hasTopping_OliveTopping
+  View name @en: Giardiniera hasTopping OliveTopping
+
+Table T00bd
+  View name IRI Giardiniera_hasTopping_PetitPoisTopping
+  View name @en: Giardiniera hasTopping PetitPoisTopping
+
+Table T00be
+  View name IRI Giardiniera_hasTopping_PeperonataTopping
+  View name @en: Giardiniera hasTopping PeperonataTopping
+
+Table T00bf
+  View name IRI Giardiniera_hasTopping_MozzarellaTopping
+  View name @en: Giardiniera hasTopping MozzarellaTopping
+
+Table T00c0
+  View name IRI Giardiniera_hasTopping_MushroomTopping
+  View name @en: Giardiniera hasTopping MushroomTopping
+
+Table T00c1
+  View name IRI Giardiniera_hasTopping_TomatoTopping
+  View name @en: Giardiniera hasTopping TomatoTopping
+
+Table T00c2
+  View name IRI Giardiniera_hasTopping_SlicedTomatoTopping
+  View name @en: Giardiniera hasTopping SlicedTomatoTopping
+
+Table T00c3
+  View name IRI Giardiniera_hasTopping_LeekTopping
+  View name @en: Giardiniera hasTopping LeekTopping
+
+Table T00c4
+  View name IRI Soho_hasTopping_MozzarellaTopping
+  View name @en: Soho hasTopping MozzarellaTopping
+
+Table T00c5
+
+Table T00c6
+
+Table T00c7
+
+Table T00c8
+
+Table T00c9
+  View name IRI Soho_hasTopping_ParmesanTopping
+  View name @en: Soho hasTopping ParmezanTopping
+
+Table T00ca
+  View name IRI IceCream_hasTopping_FruitTopping
+  View name @en: IceCream hasTopping FruitTopping
+
+Table T00cb
+  View name IRI LaReine_hasTopping_OliveTopping
+  View name @en: LaReine hasTopping OliveTopping
+
+Table T00cc
+
+Table T00cd
+  View name IRI LaReine_hasTopping_MushroomTopping
+  View name @en: LaReine hasTopping MushroomTopping
+
+Table T00ce
+  View name IRI LaReine_hasTopping_MozzarellaTopping
+  View name @en: LaReine hasTopping MozzarellaTopping
+
+Table T00cf
+  View name IRI LaReine_hasTopping_TomatoTopping
+  View name @en: LaReine hasTopping TomatoTopping
+
+Table T00d0
+  View name IRI SultanaTopping_hasSpiciness_Medium
+  View name @en: SultanaTopping hasSpiciness Medium
+
+Table T00d1
+  View name IRI SloppyGiuseppe_hasTopping_GreenPepperTopping
+  View name @en: SloppyGiuseppe hasTopping GreenPepperTopping
+
+Table T00d2
+  View name IRI SloppyGiuseppe_hasTopping_OnionTopping
+  View name @en: SloppyGiuseppe hasTopping OnionTopping
+
+Table T00d3
+  View name IRI SloppyGiuseppe_hasTopping_TomatoTopping
+  View name @en: SloppyGiuseppe hasTopping TomatoTopping
+
+Table T00d4
+  View name IRI SloppyGiuseppe_hasTopping_MozzarellaTopping
+  View name @en: SloppyGiuseppe hasTopping MozzarellaTopping
+
+Table T00d5
+  View name IRI SloppyGiuseppe_hasTopping_HotSpicedBeefTopping
+  View name @en: SloppyGiuseppe hasTopping HotSpicedBeefTopping
+
+Table T00d6
+  View name IRI ParmesanTopping_hasSpiciness_Mild
+  View name @en: ParmezanTopping hasSpiciness Mild
+
+Table T00d7
+  View name IRI Capricciosa_hasTopping_MozzarellaTopping
+  View name @en: Capricciosa hasTopping MozzarellaTopping
+
+Table T00d8
+  View name IRI Capricciosa_hasTopping_TomatoTopping
+  View name @en: Capricciosa hasTopping TomatoTopping
+
+Table T00d9
+  View name IRI Capricciosa_hasTopping_OliveTopping
+  View name @en: Capricciosa hasTopping OliveTopping
+
+Table T00da
+  View name IRI Capricciosa_hasTopping_PeperonataTopping
+  View name @en: Capricciosa hasTopping PeperonataTopping
+
+Table T00db
+  View name IRI Capricciosa_hasTopping_HamTopping
+  View name @en: Capricciosa hasTopping HamTopping
+
+Table T00dc
+  View name IRI Capricciosa_hasTopping_AnchoviesTopping
+  View name @en: Capricciosa hasTopping AnchoviesTopping
+
+Table T00dd
+  View name IRI Capricciosa_hasTopping_CaperTopping
+  View name @en: Capricciosa hasTopping CaperTopping
+
+Table T00de
+  View name IRI SundriedTomatoTopping_hasSpiciness_Mild
+  View name @en: SundriedTomatoTopping hasSpiciness Mild
+
+Table T00df
+  View name IRI SundriedTomatoTopping_hasSpiciness_Mild
+  View name @en: SundriedTomatoTopping hasSpiciness Mild
+
+Table T00e0
+  View name IRI ParmaHamTopping_hasSpiciness_Mild
+  View name @en: ParmaHamTopping hasSpiciness Mild
+
+Table T00e1
+  View name IRI Rosa_hasTopping_MozzarellaTopping
+  View name @en: Rosa hasTopping MozzarellaTopping
+
+Table T00e2
+  View name IRI Rosa_hasTopping_GorgonzolaTopping
+  View name @en: Rosa hasTopping GorgonzolaTopping
+
+Table T00e3
+
+Table T00e4
+  View name IRI Parmense_hasTopping_AsparagusTopping
+  View name @en: Parmense hasTopping AsparagusTopping
+
+Table T00e5
+  View name IRI Parmense_hasTopping_MozzarellaTopping
+  View name @en: Parmense hasTopping MozzarellaTopping
+
+Table T00e6
+  View name IRI Parmense_hasTopping_TomatoTopping
+  View name @en: Parmense hasTopping TomatoTopping
+
+Table T00e7
+
+Table T00e8
+  View name IRI Parmense_hasTopping_ParmesanTopping
+  View name @en: Parmense hasTopping ParmezanTopping
+
+Table T00e9
+  View name IRI ChickenTopping_hasSpiciness_Mild
+  View name @en: ChickenTopping hasSpiciness Mild
+
+Table T00ea
+  View name IRI PolloAdAstra_hasTopping_RedOnionTopping
+  View name @en: PolloAdAstra hasTopping RedOnionTopping
+
+Table T00eb
+  View name IRI PolloAdAstra_hasTopping_MozzarellaTopping
+  View name @en: PolloAdAstra hasTopping MozzarellaTopping
+
+Table T00ec
+  View name IRI PolloAdAstra_hasTopping_GarlicTopping
+  View name @en: PolloAdAstra hasTopping GarlicTopping
+
+Table T00ed
+  View name IRI PolloAdAstra_hasTopping_SweetPepperTopping
+  View name @en: PolloAdAstra hasTopping SweetPepperTopping
+
+Table T00ee
+  View name IRI PolloAdAstra_hasTopping_TomatoTopping
+  View name @en: PolloAdAstra hasTopping TomatoTopping
+
+Table T00ef
+  View name IRI PolloAdAstra_hasTopping_ChickenTopping
+  View name @en: PolloAdAstra hasTopping ChickenTopping
+
+Table T00f0
+  View name IRI PolloAdAstra_hasTopping_CajunSpiceTopping
+  View name @en: PolloAdAstra hasTopping CajunSpiceTopping
+
+Table T00f1
+  View name IRI RocketTopping_hasSpiciness_Medium
+  View name @en: RocketTopping hasSpiciness Medium
+
+Table T00f2
+  View name IRI PeperonataTopping_hasSpiciness_Medium
+  View name @en: PeperonataTopping hasSpiciness Medium
+
+Table T00f3
+
+Table T00f4
+  View name IRI FruttiDiMare_hasTopping_TomatoTopping
+  View name @en: FruttiDiMare hasTopping TomatoTopping
+
+Table T00f5
+  View name IRI FruttiDiMare_hasTopping_MixedSeafoodTopping
+  View name @en: FruttiDiMare hasTopping MixedSeafoodTopping
+
+Table T00f6
+  View name IRI FruttiDiMare_hasTopping_GarlicTopping
+  View name @en: FruttiDiMare hasTopping GarlicTopping
+
+Table T00f7
+  View name IRI GoatsCheeseTopping_hasSpiciness_Mild
+  View name @en: GoatsCheeseTopping hasSpiciness Mild
+
+Table T00f8
+
+Table T00f9
+  View name IRI GarlicTopping_hasSpiciness_Medium
+  View name @en: GarlicTopping hasSpiciness Medium
+

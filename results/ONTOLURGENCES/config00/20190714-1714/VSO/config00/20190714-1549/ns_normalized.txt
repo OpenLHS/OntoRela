@@ -1,0 +1,383 @@
+ONTOLOGY :"ns"  
+
+PROPERTY :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"valueReference"  
+
+PROPERTY :"acceleration"   
+  LABEL @en 'acceleration (0..*)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"axles"   
+  LABEL @en 'axles (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"bodyStyle"   
+  LABEL @en 'bodyStyle (0..1)' 
+  ISA :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"cargoVolume"   
+  LABEL @en 'cargoVolume (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"doors"   
+  LABEL @en 'doors (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"driveWheelConfiguration"   
+  LABEL @en 'driveWheelConfiguration (0..1)' 
+  ISA :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"engineDisplacement"   
+  LABEL @en 'engineDisplacement (0..*)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"enginePower"   
+  LABEL @en 'enginePower (0..*)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"engineType"   
+  LABEL @en 'engineType (0..*)' 
+  ISA :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"feature"   
+  LABEL @en 'feature (0..*)' 
+  ISA :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"fuelConsumption"   
+  LABEL @en 'fuelConsumption (0..*)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"fuelEconomy"   
+  LABEL @en 'fuelEconomy (0..*)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"fuelTankVolume"   
+  LABEL @en 'fuelTankVolume (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"fuelType"   
+  LABEL @en 'fuelType (0..*)' 
+  ISA :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"gearsTotal"   
+  LABEL @en 'gearsTotal (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"height"   
+  LABEL @en 'height (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"length"   
+  LABEL @en 'length (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"meetsEmissionStandard"   
+  LABEL @en 'meetsEmissionStandard (0..*)' 
+  ISA :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"mileageFromOdometer"   
+  LABEL @en 'mileageFromOdometer (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"payload"   
+  LABEL @en 'payload (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"previousOwners"   
+  LABEL @en 'previousOwners (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"referenceDistance"   
+  LABEL @en 'referenceDistance (0..1)' 
+  ISA :"valueReference"  
+
+PROPERTY :"referenceFuelQuantity"   
+  LABEL @en 'referenceFuelQuantity (0..1)' 
+  ISA :"valueReference"  
+
+PROPERTY :"referenceSpeeds"   
+  LABEL @en 'referenceSpeeds (0..1)' 
+  ISA :"valueReference"  
+
+PROPERTY :"roofLoad"   
+  LABEL @en 'roofLoad (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"seatingCapacity"   
+  LABEL @en 'seatingCapacity (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"speed"   
+  LABEL @en 'speed (0..*)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"steeringPosition"   
+  LABEL @en 'steeringPosition (0..1)' 
+  ISA :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"tongueWeight"   
+  LABEL @en 'tongueWeight (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"trailerWeight"   
+  LABEL @en 'trailerWeight (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"transmission"   
+  LABEL @en 'transmission (0..*)' 
+  ISA :"qualitativeProductOrServiceProperty"  
+
+PROPERTY :"weight"   
+  LABEL @en 'weight (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"weightTotal"   
+  LABEL @en 'weightTotal (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"wheelbase"   
+  LABEL @en 'wheelbase (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"width"   
+  LABEL @en 'width (0..1)' 
+  ISA :"quantitativeProductOrServiceProperty"  
+
+PROPERTY :"datatypeProductOrServiceProperty"  
+
+PROPERTY :"hasMaxValueFloat"  
+
+PROPERTY :"hasMinValueFloat"  
+
+PROPERTY :"hasUnitOfMeasurement"  
+
+PROPERTY :"hasValueFloat"  
+
+PROPERTY :"serialNumber"  
+
+PROPERTY :"ACRISSCode"   
+  LABEL @en 'ACRISSCode (0..1)' 
+
+PROPERTY :"VIN"   
+  LABEL @en 'VIN [Vehicle Identification Number] (0..1)' 
+
+PROPERTY :"color"   
+  LABEL @en 'color (0..*)' 
+
+PROPERTY :"condition"   
+  LABEL @en 'condition (0..*)' 
+
+PROPERTY :"damages"   
+  LABEL @en 'damages (0..*)' 
+
+PROPERTY :"engineName"   
+  LABEL @en 'engineName (0..*)' 
+
+PROPERTY :"firstRegistration"   
+  LABEL @en 'firstRegistration (0..1)' 
+
+PROPERTY :"modelDate"   
+  LABEL @en 'modelDate (0..1)' 
+
+PROPERTY :"productionDate"   
+  LABEL @en 'productionDate (0..1)' 
+
+PROPERTY :"rentalUsage"   
+  LABEL @en 'rentalUsage (0..1)' 
+
+CLASS :"BusOrCoach"   
+  LABEL @en 'Bus or coach (gr:ProductOrService)'  
+  ISA :"MotorizedRoadVehicle"  
+
+CLASS :"FeatureValue"   
+  LABEL @en 'Feature value (the class of predefined values)'  
+  ISA :"QualitativeValue"  
+
+CLASS :"Motorcycle"   
+  LABEL @en 'Motorcycle (gr:ProductOrService)'  
+  ISA :"MotorizedRoadVehicle"  
+
+CLASS :"Automobile"   
+  LABEL @en 'Automobile (gr:ProductOrService)'  
+  ISA :"MotorizedRoadVehicle"  
+
+CLASS :"Truck"   
+  LABEL @en 'Truck (gr:ProductOrService)'  
+  ISA :"MotorizedRoadVehicle"  
+
+CLASS :"EmissionStandardValue"   
+  LABEL @en 'Emission standard value (the class of predefined values)'  
+  ISA :"QualitativeValue"  
+
+CLASS :"DriveWheelConfigurationValue"   
+  LABEL @en 'Drive wheel configuration value (the class of predefined values)'  
+  ISA :"QualitativeValue"  
+
+CLASS :"Kayak"   
+  LABEL @en 'Kayak (gr:ProductOrService)'  
+  ISA :"Watercraft"  
+
+CLASS :"Watercraft"   
+  LABEL @en 'Watercraft (gr:ProductOrService)'  
+  ISA :"Vehicle"  
+  :"cargoVolume"  [1..*] :"QuantitativeValueFloat" 
+
+CLASS :"Vehicle"   
+  LABEL @en 'Vehicle (gr:ProductOrService)'  
+  ISA :"ProductOrService"  
+
+CLASS :"EngineTypeValue"   
+  LABEL @en 'Engine type value (the class of predefined values)'  
+  ISA :"QualitativeValue"  
+
+CLASS :"QuantitativeValueFloat"   
+  :"referenceDistance"  [1..*] :"QuantitativeValue" 
+  :"referenceFuelQuantity"  [1..*] :"FuelQuantity" 
+  :"referenceSpeeds"  [1..*] :"SpeedInterval" 
+
+CLASS :"QuantitativeValue"   
+
+CLASS :"FuelQuantity"   
+  LABEL @en 'FuelQuantity'  
+  ISA :"QuantitativeValueFloat"  
+
+CLASS :"QuantitativeValueInteger"   
+
+CLASS :"Rickshaw"   
+  LABEL @en 'Rickshaw (gr:ProductOrService)'  
+  ISA :"Vehicle"  
+
+CLASS :"Canoe"   
+  LABEL @en 'Canoe (gr:ProductOrService)'  
+  ISA :"Boat"  
+
+CLASS :"MotorizedRoadVehicle"   
+  LABEL @en 'Motorized road vehicle (gr:ProductOrService)'  
+  ISA :"Vehicle"  
+  :"acceleration"  [1..*] :"QuantitativeValueFloat" 
+  :"axles"  [1..*] :"QuantitativeValueInteger" 
+  :"cargoVolume"  [1..*] :"QuantitativeValueFloat" 
+  :"doors"  [1..*] :"QuantitativeValueInteger" 
+  :"driveWheelConfiguration"  [1..*] :"DriveWheelConfigurationValue" 
+  :"engineDisplacement"  [1..*] :"QuantitativeValueFloat" 
+  :"enginePower"  [1..*] :"QuantitativeValueFloat" 
+  :"engineType"  [1..*] :"EngineTypeValue" 
+  :"fuelConsumption"  [1..*] :"QuantitativeValueFloat" 
+  :"fuelEconomy"  [1..*] :"QuantitativeValueFloat" 
+  :"fuelTankVolume"  [1..*] :"QuantitativeValueFloat" 
+  :"gearsTotal"  [1..*] :"QuantitativeValueInteger" 
+  :"mileageFromOdometer"  [1..*] :"QuantitativeValueFloat" 
+  :"roofLoad"  [1..*] :"QuantitativeValueFloat" 
+  :"steeringPosition"  [1..*] :"SteeringPositionValue" 
+  :"tongueWeight"  [1..*] :"QuantitativeValueFloat" 
+  :"trailerWeight"  [1..*] :"QuantitativeValueFloat" 
+  :"transmission"  [1..*] :"TransmissionTypeValue" 
+  :"wheelbase"  [1..*] :"QuantitativeValueFloat" 
+  :"ACRISSCode"  [1..*] :"string" 
+  :"VIN"  [1..*] :"string" 
+  :"engineName"  [1..*] :"Literal" 
+
+CLASS :"Boat"   
+  LABEL @en 'Boat (gr:ProductOrService)'  
+  ISA :"Watercraft"  
+  :"acceleration"  [1..*] :"QuantitativeValueFloat" 
+  :"engineDisplacement"  [1..*] :"QuantitativeValueFloat" 
+  :"enginePower"  [1..*] :"QuantitativeValueFloat" 
+  :"engineType"  [1..*] :"EngineTypeValue" 
+  :"fuelConsumption"  [1..*] :"QuantitativeValueFloat" 
+  :"fuelTankVolume"  [1..*] :"QuantitativeValueFloat" 
+  :"gearsTotal"  [1..*] :"QuantitativeValueInteger" 
+  :"transmission"  [1..*] :"TransmissionTypeValue" 
+  :"engineName"  [1..*] :"Literal" 
+
+CLASS :"Van"   
+  LABEL @en 'Van (gr:ProductOrService)'  
+  ISA :"MotorizedRoadVehicle"  
+
+CLASS :"BodyStyleValue"   
+  LABEL @en 'Body style value (the class of predefined values)'  
+  ISA :"QualitativeValue"  
+
+CLASS :"Quadracycle"   
+  LABEL @en 'Quadracycle (gr:ProductOrService) '  
+  ISA :"Vehicle"  
+  :"gearsTotal"  [1..*] :"QuantitativeValueInteger" 
+  :"transmission"  [1..*] :"TransmissionTypeValue" 
+  :"wheelbase"  [1..*] :"QuantitativeValueFloat" 
+
+CLASS :"MotorizedBicycle"   
+  LABEL @en 'Motorized bicycle (gr:ProductOrService)'  
+  ISA :"MotorizedRoadVehicle"  
+
+CLASS :"QualitativeValue"   
+
+CLASS :"FuelTypeValue"   
+  LABEL @en 'Fuel type value (the class of predefined values)'  
+  ISA :"QualitativeValue"  
+
+CLASS :"Ship"   
+  LABEL @en 'Ship (gr:ProductOrService)'  
+  ISA :"Watercraft"  
+  :"acceleration"  [1..*] :"QuantitativeValueFloat" 
+  :"engineDisplacement"  [1..*] :"QuantitativeValueFloat" 
+  :"enginePower"  [1..*] :"QuantitativeValueFloat" 
+  :"engineType"  [1..*] :"EngineTypeValue" 
+  :"fuelConsumption"  [1..*] :"QuantitativeValueFloat" 
+  :"fuelTankVolume"  [1..*] :"QuantitativeValueFloat" 
+  :"gearsTotal"  [1..*] :"QuantitativeValueInteger" 
+  :"transmission"  [1..*] :"TransmissionTypeValue" 
+  :"engineName"  [1..*] :"Literal" 
+
+CLASS :"Bicycle"   
+  LABEL @en 'Bicycle (gr:ProductOrService)'  
+  ISA :"Vehicle"  
+  :"gearsTotal"  [1..*] :"QuantitativeValueInteger" 
+  :"transmission"  [1..*] :"TransmissionTypeValue" 
+  :"wheelbase"  [1..*] :"QuantitativeValueFloat" 
+  :"engineName"  [1..*] :"Literal" 
+
+CLASS :"SailingBoat"   
+  LABEL @en 'Sailing boat (gr:ProductOrService)'  
+  ISA :"Boat"  
+
+CLASS :"TransmissionTypeValue"   
+  LABEL @en 'Transmission type value (the class of predefined values)'  
+  ISA :"QualitativeValue"  
+
+CLASS :"ProductOrService"   
+  :"bodyStyle"  [1..*] :"BodyStyleValue" 
+  :"feature"  [1..*] :"FeatureValue" 
+  :"fuelType"  [1..*] :"FuelTypeValue" 
+  :"height"  [1..*] :"QuantitativeValueFloat" 
+  :"length"  [1..*] :"QuantitativeValueFloat" 
+  :"meetsEmissionStandard"  [1..*] :"EmissionStandardValue" 
+  :"payload"  [1..*] :"QuantitativeValueFloat" 
+  :"previousOwners"  [1..*] :"QuantitativeValueInteger" 
+  :"seatingCapacity"  [1..*] :"QuantitativeValueInteger" 
+  :"speed"  [1..*] :"QuantitativeValueFloat" 
+  :"weight"  [1..*] :"QuantitativeValueFloat" 
+  :"weightTotal"  [1..*] :"QuantitativeValueFloat" 
+  :"width"  [1..*] :"QuantitativeValueFloat" 
+  :"color"  [1..*] :"Literal" 
+  :"condition"  [1..*] :"Literal" 
+  :"damages"  [1..*] :"Literal" 
+  :"firstRegistration"  [1..*] :"date" 
+  :"modelDate"  [1..*] :"date" 
+  :"productionDate"  [1..*] :"date" 
+  :"rentalUsage"  [1..*] :"boolean" 
+
+CLASS :"MotorBoat"   
+  LABEL @en 'Motor boat (gr:ProductOrService)'  
+  ISA :"Boat"  
+
+CLASS :"SpeedInterval"   
+  LABEL @en 'SpeedInterval'  
+  ISA :"QuantitativeValueFloat"  
+
+CLASS :"SteeringPositionValue"   
+  LABEL @en 'Steering position value (the class of predefined values)'  
+  ISA :"QualitativeValue"  
+

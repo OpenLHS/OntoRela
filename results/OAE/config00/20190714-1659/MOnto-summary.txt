@@ -1,0 +1,33 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+
+--------------------------------------- 
+Origin OWL Ontology
+--------------------------------------- 
+http://purl.obolibrary.org/obo/oae.owl
+Nb. classes          : 5700
+Nb. data properties  : 3
+Nb. object properties: 120
+Nb. isa axioms       : 6294
+Nb. data axioms      : 0
+Nb. class axioms     : 4588
+
+--------------------------------------- 
+Reduced Ontology (axiom complexity reduction)
+--------------------------------------- 
+http://purl.obolibrary.org/obo/oae.owl
+Nb. classes          : 6497
+Nb. data properties  : 3
+Nb. object properties: 120
+Nb. isa axioms       : 9268
+Nb. data axioms      : 1
+Nb. class axioms     : 4591
+Nb. reduced class axioms: 764
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 12667 KB

@@ -1,0 +1,30 @@
+
+======================================================= 
+OntoRelA summary
+======================================================= 
+
+--------------------------------------- 
+Reduced Ontology (axiom redundancy reduction)
+--------------------------------------- 
+http://www.limics.fr/ontologies/ontolurgences
+Nb. classes          : 10043
+Nb. data properties  : 1
+Nb. object properties: 60
+Nb. isa axioms       : 10799
+Nb. data axioms      : 1
+Nb. class axioms     : 1436
+Nb. reduced axioms : 78
+
+--------------------------------------- 
+OntoRel database
+--------------------------------------- 
+Nb. all tables          : 11480
+Nb. association tables  : 1436
+Nb. fks                 : 13743
+Nb. constraint functions: 1444
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 533 sec
+Output total size: 48981 KB

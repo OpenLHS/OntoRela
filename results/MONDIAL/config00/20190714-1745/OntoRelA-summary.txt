@@ -1,0 +1,30 @@
+
+======================================================= 
+OntoRelA summary
+======================================================= 
+
+--------------------------------------- 
+Reduced Ontology (axiom redundancy reduction)
+--------------------------------------- 
+f://Mondial
+Nb. classes          : 52
+Nb. data properties  : 28
+Nb. object properties: 59
+Nb. isa axioms       : 32
+Nb. data axioms      : 26
+Nb. class axioms     : 56
+Nb. reduced axioms : 1
+
+--------------------------------------- 
+OntoRel database
+--------------------------------------- 
+Nb. all tables          : 134
+Nb. association tables  : 56
+Nb. fks                 : 192
+Nb. constraint functions: 82
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 2 sec
+Output total size: 528 KB

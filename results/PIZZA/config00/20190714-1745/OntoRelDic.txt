@@ -1,0 +1,266 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyBase -> T0001::ThinAndCrispyBase::ThinAndCrispyBase
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons -> T0002::FourSeasons::FourSeasons
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping -> T0003::FishTopping::SeafoodTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping -> T0004::GreenPepperTopping::GreenPepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#NonVegetarianPizza -> T0005::NonVegetarianPizza::NonVegetarianPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping -> T0006::OliveTopping::OliveTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping -> T0007::AsparagusTopping::AsparagusTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#American -> T0008::American::American
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping -> T0009::CaperTopping::CaperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Country -> T000a::Country::Country
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping -> T000b::MushroomTopping::MushroomTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping -> T000c::TomatoTopping::TomatoTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping -> T000d::SweetPepperTopping::SweetPepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping -> T000e::PepperTopping::PepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza -> T000f::Pizza::Pizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianTopping -> T0010::VegetarianTopping::VegetarianTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping -> T0011::RosemaryTopping::RosemaryTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping -> T0012::AnchoviesTopping::AnchoviesTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium -> T0013::Medium::Medium
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizza -> T0014::SpicyPizza::SpicyPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot -> T0015::AmericanHot::AmericanHot
+http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza -> T0016::NamedPizza::NamedPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyPizza -> T0017::ThinAndCrispyPizza::ThinAndCrispyPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana -> T0018::Napoletana::Napoletana
+http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping -> T0019::OnionTopping::OnionTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping -> T001a::PetitPoisTopping::PetitPoisTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizza -> T001b::VegetarianPizza::VegetarianPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping -> T001c::HotSpicedBeefTopping::HotSpicedBeefTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping -> T001d::FruitTopping::FruitTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping -> T001e::CheeseTopping::CheeseTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping -> T001f::PeperoniSausageTopping::PeperoniSausageTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CajunSpiceTopping -> T0020::CajunSpiceTopping::CajunSpiceTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyTopping -> T0021::SpicyTopping::SpicyTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatyPizza -> T0022::MeatyPizza::MeatyPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom -> T0023::Mushroom::Mushroom
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping -> T0024::SpinachTopping::SpinachTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PineKernels -> T0025::PineKernels::PineKernelTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping -> T0026::MozzarellaTopping::MozzarellaTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana -> T0027::Siciliana::Siciliana
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SlicedTomatoTopping -> T0028::SlicedTomatoTopping::SlicedTomatoTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi -> T0029::QuattroFormaggi::QuattroFormaggi
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo -> T002a::PrinceCarlo::PrinceCarlo
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Food -> T002b::Food::Food
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FourCheesesTopping -> T002c::FourCheesesTopping::FourCheesesTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun -> T002d::Cajun::Cajun
+http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping -> T002e::GorgonzolaTopping::GorgonzolaTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza -> T002f::UnclosedPizza::UnclosedPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#HotGreenPepperTopping -> T0030::HotGreenPepperTopping::HotGreenPepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina -> T0031::Caprina::Caprina
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild -> T0032::Mild::Mild
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ValuePartition -> T0033::ValuePartition::ValuePartition
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina -> T0034::Fiorentina::Fiorentina
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita -> T0035::Margherita::Margherita
+http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent1 -> T0036::VegetarianPizzaEquivalent1::VegetarianPizza1
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyVegetableTopping -> T0037::CheeseyVegetableTopping::CheesyVegetableTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase -> T0038::DeepPanBase::DeepPanBase
+http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping -> T0039::JalapenoPepperTopping::JalapenoPepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ArtichokeTopping -> T003a::ArtichokeTopping::ArtichokeTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#TobascoPepperSauce -> T003b::TobascoPepperSauce::TobascoPepperSauceTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana -> T003c::Veneziana::Veneziana
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping -> T003d::MixedSeafoodTopping::MixedSeafoodTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera -> T003e::Giardiniera::Giardiniera
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho -> T003f::Soho::Soho
+http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping -> T0040::HerbSpiceTopping::HerbSpiceTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#IceCream -> T0041::IceCream::IceCream
+http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine -> T0042::LaReine::LaReine
+http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent2 -> T0043::VegetarianPizzaEquivalent2::VegetarianPizza2
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SultanaTopping -> T0044::SultanaTopping::SultanaTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe -> T0045::SloppyGiuseppe::SloppyGiuseppe
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping -> T0046::ParmesanTopping::ParmezanTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa -> T0047::Capricciosa::Capricciosa
+http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping -> T0048::RedOnionTopping::RedOnionTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#InterestingPizza -> T0049::InterestingPizza::InterestingPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot -> T004a::Hot::Hot
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping -> T004b::SundriedTomatoTopping::SundriedTomatoTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizzaEquivalent -> T004c::SpicyPizzaEquivalent::SpicyPizzaEquivalent
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness -> T004d::Spiciness::Spiciness
+http://www.co-ode.org/ontologies/pizza/pizza.owl#DomainConcept -> T004e::DomainConcept::DomainThing
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmaHamTopping -> T004f::ParmaHamTopping::ParmaHamTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa -> T0050::Rosa::Rosa
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense -> T0051::Parmense::Parmense
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping -> T0052::ChickenTopping::ChickenTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping -> T0053::MeatTopping::MeatTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra -> T0054::PolloAdAstra::PolloAdAstra
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping -> T0055::PrawnsTopping::PrawnsTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping -> T0056::RocketTopping::RocketTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping -> T0057::PeperonataTopping::PeperonataTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping -> T0058::LeekTopping::LeekTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping -> T0059::SauceTopping::SauceTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare -> T005a::FruttiDiMare::FruttiDiMare
+http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping -> T005b::VegetableTopping::VegetableTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase -> T005c::PizzaBase::PizzaBase
+http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping -> T005d::GoatsCheeseTopping::GoatsCheeseTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping -> T005e::HamTopping::HamTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping -> T005f::NutTopping::NutTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping -> T0060::PizzaTopping::PizzaTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping -> T0061::GarlicTopping::GarlicTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#RealItalianPizza -> T0062::RealItalianPizza::RealItalianPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyPizza -> T0063::CheeseyPizza::CheesyPizza
+
+--------------------------------------- 
+Type-Table Catalog
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+FourSeasons [1..*] hasTopping CaperTopping -> T0064::FourSeasons hasTopping CaperTopping
+FourSeasons [1..*] hasTopping MushroomTopping -> T0065::FourSeasons hasTopping MushroomTopping
+FourSeasons [1..*] hasTopping TomatoTopping -> T0066::FourSeasons hasTopping TomatoTopping
+FourSeasons [1..*] hasTopping MozzarellaTopping -> T0067::FourSeasons hasTopping MozzarellaTopping
+FourSeasons [1..*] hasTopping OliveTopping -> T0068::FourSeasons hasTopping OliveTopping
+FourSeasons [1..*] hasTopping AnchoviesTopping -> T0069::FourSeasons hasTopping AnchoviesTopping
+FourSeasons [1..*] hasTopping PeperoniSausageTopping -> T006a::FourSeasons hasTopping PeperoniSausageTopping
+FishTopping [1..*] hasSpiciness Mild -> T006b::SeafoodTopping hasSpiciness Mild
+OliveTopping [1..*] hasSpiciness Mild -> T006c::OliveTopping hasSpiciness Mild
+AsparagusTopping [1..*] hasSpiciness Mild -> T006d::AsparagusTopping hasSpiciness Mild
+American [1..*] hasTopping MozzarellaTopping -> T006e::American hasTopping MozzarellaTopping
+American [1..*] hasTopping PeperoniSausageTopping -> T006f::American hasTopping PeperoniSausageTopping
+American [1..*] hasTopping TomatoTopping -> T0070::American hasTopping TomatoTopping
+CaperTopping [1..*] hasSpiciness Mild -> T0071::CaperTopping hasSpiciness Mild
+MushroomTopping [1..*] hasSpiciness Mild -> T0072::MushroomTopping hasSpiciness Mild
+SweetPepperTopping [1..*] hasSpiciness Mild -> T0073::SweetPepperTopping hasSpiciness Mild
+Pizza [1..*] hasTopping PizzaTopping -> T0074::Pizza hasTopping PizzaTopping
+Pizza [1..1] hasBase PizzaBase -> T0075::Pizza hasBase PizzaBase
+RosemaryTopping [1..*] hasSpiciness Mild -> T0076::RosemaryTopping hasSpiciness Mild
+AmericanHot [1..*] hasTopping HotGreenPepperTopping -> T0077::AmericanHot hasTopping HotGreenPepperTopping
+AmericanHot [1..*] hasTopping MozzarellaTopping -> T0078::AmericanHot hasTopping MozzarellaTopping
+AmericanHot [1..*] hasTopping JalapenoPepperTopping -> T0079::AmericanHot hasTopping JalapenoPepperTopping
+AmericanHot [1..*] hasTopping PeperoniSausageTopping -> T007a::AmericanHot hasTopping PeperoniSausageTopping
+AmericanHot [1..*] hasTopping TomatoTopping -> T007b::AmericanHot hasTopping TomatoTopping
+Napoletana [1..*] hasTopping MozzarellaTopping -> T007c::Napoletana hasTopping MozzarellaTopping
+Napoletana [1..*] hasTopping OliveTopping -> T007d::Napoletana hasTopping OliveTopping
+Napoletana [1..*] hasTopping AnchoviesTopping -> T007e::Napoletana hasTopping AnchoviesTopping
+Napoletana [1..*] hasTopping CaperTopping -> T007f::Napoletana hasTopping CaperTopping
+Napoletana [1..*] hasTopping TomatoTopping -> T0080::Napoletana hasTopping TomatoTopping
+OnionTopping [1..*] hasSpiciness Medium -> T0081::OnionTopping hasSpiciness Medium
+PetitPoisTopping [1..*] hasSpiciness Mild -> T0082::PetitPoisTopping hasSpiciness Mild
+HotSpicedBeefTopping [1..*] hasSpiciness Hot -> T0083::HotSpicedBeefTopping hasSpiciness Hot
+PeperoniSausageTopping [1..*] hasSpiciness Medium -> T0084::PeperoniSausageTopping hasSpiciness Medium
+CajunSpiceTopping [1..*] hasSpiciness Hot -> T0085::CajunSpiceTopping hasSpiciness Hot
+Mushroom [1..*] hasTopping TomatoTopping -> T0086::Mushroom hasTopping TomatoTopping
+Mushroom [1..*] hasTopping MozzarellaTopping -> T0087::Mushroom hasTopping MozzarellaTopping
+Mushroom [1..*] hasTopping MushroomTopping -> T0088::Mushroom hasTopping MushroomTopping
+SpinachTopping [1..*] hasSpiciness Mild -> T0089::SpinachTopping hasSpiciness Mild
+MozzarellaTopping [1..*] hasSpiciness Mild -> T008a::MozzarellaTopping hasSpiciness Mild
+Siciliana [1..*] hasTopping MozzarellaTopping -> T008b::Siciliana hasTopping MozzarellaTopping
+Siciliana [1..*] hasTopping ArtichokeTopping -> T008c::Siciliana hasTopping ArtichokeTopping
+Siciliana [1..*] hasTopping OliveTopping -> T008d::Siciliana hasTopping OliveTopping
+Siciliana [1..*] hasTopping GarlicTopping -> T008e::Siciliana hasTopping GarlicTopping
+Siciliana [1..*] hasTopping HamTopping -> T008f::Siciliana hasTopping HamTopping
+Siciliana [1..*] hasTopping AnchoviesTopping -> T0090::Siciliana hasTopping AnchoviesTopping
+Siciliana [1..*] hasTopping TomatoTopping -> T0091::Siciliana hasTopping TomatoTopping
+SlicedTomatoTopping [1..*] hasSpiciness Mild -> T0092::SlicedTomatoTopping hasSpiciness Mild
+SlicedTomatoTopping [1..*] hasSpiciness Mild -> T0093::SlicedTomatoTopping hasSpiciness Mild
+QuattroFormaggi [1..*] hasTopping TomatoTopping -> T0094::QuattroFormaggi hasTopping TomatoTopping
+QuattroFormaggi [1..*] hasTopping FourCheesesTopping -> T0095::QuattroFormaggi hasTopping FourCheesesTopping
+PrinceCarlo [1..*] hasTopping RosemaryTopping -> T0096::PrinceCarlo hasTopping RosemaryTopping
+PrinceCarlo [1..*] hasTopping ParmesanTopping -> T0097::PrinceCarlo hasTopping ParmezanTopping
+PrinceCarlo [1..*] hasTopping LeekTopping -> T0098::PrinceCarlo hasTopping LeekTopping
+PrinceCarlo [1..*] hasTopping TomatoTopping -> T0099::PrinceCarlo hasTopping TomatoTopping
+PrinceCarlo [1..*] hasTopping MozzarellaTopping -> T009a::PrinceCarlo hasTopping MozzarellaTopping
+Food [1..*] hasIngredient Food -> T009b::Food hasIngredient Food
+FourCheesesTopping [1..*] hasSpiciness Mild -> T009c::FourCheesesTopping hasSpiciness Mild
+Cajun [1..*] hasTopping TobascoPepperSauce -> T009d::Cajun hasTopping TobascoPepperSauceTopping
+Cajun [1..*] hasTopping PeperonataTopping -> T009e::Cajun hasTopping PeperonataTopping
+Cajun [1..*] hasTopping MozzarellaTopping -> T009f::Cajun hasTopping MozzarellaTopping
+Cajun [1..*] hasTopping PrawnsTopping -> T00a0::Cajun hasTopping PrawnsTopping
+Cajun [1..*] hasTopping OnionTopping -> T00a1::Cajun hasTopping OnionTopping
+Cajun [1..*] hasTopping TomatoTopping -> T00a2::Cajun hasTopping TomatoTopping
+GorgonzolaTopping [1..*] hasSpiciness Mild -> T00a3::GorgonzolaTopping hasSpiciness Mild
+UnclosedPizza [1..*] hasTopping MozzarellaTopping -> T00a4::UnclosedPizza hasTopping MozzarellaTopping
+HotGreenPepperTopping [1..*] hasSpiciness Hot -> T00a5::HotGreenPepperTopping hasSpiciness Hot
+Caprina [1..*] hasTopping TomatoTopping -> T00a6::Caprina hasTopping TomatoTopping
+Caprina [1..*] hasTopping SundriedTomatoTopping -> T00a7::Caprina hasTopping SundriedTomatoTopping
+Caprina [1..*] hasTopping GoatsCheeseTopping -> T00a8::Caprina hasTopping GoatsCheeseTopping
+Caprina [1..*] hasTopping MozzarellaTopping -> T00a9::Caprina hasTopping MozzarellaTopping
+Fiorentina [1..*] hasTopping OliveTopping -> T00aa::Fiorentina hasTopping OliveTopping
+Fiorentina [1..*] hasTopping ParmesanTopping -> T00ab::Fiorentina hasTopping ParmezanTopping
+Fiorentina [1..*] hasTopping GarlicTopping -> T00ac::Fiorentina hasTopping GarlicTopping
+Fiorentina [1..*] hasTopping MozzarellaTopping -> T00ad::Fiorentina hasTopping MozzarellaTopping
+Fiorentina [1..*] hasTopping TomatoTopping -> T00ae::Fiorentina hasTopping TomatoTopping
+Fiorentina [1..*] hasTopping SpinachTopping -> T00af::Fiorentina hasTopping SpinachTopping
+Margherita [1..*] hasTopping TomatoTopping -> T00b0::Margherita hasTopping TomatoTopping
+Margherita [1..*] hasTopping MozzarellaTopping -> T00b1::Margherita hasTopping MozzarellaTopping
+JalapenoPepperTopping [1..*] hasSpiciness Hot -> T00b2::JalapenoPepperTopping hasSpiciness Hot
+ArtichokeTopping [1..*] hasSpiciness Mild -> T00b3::ArtichokeTopping hasSpiciness Mild
+TobascoPepperSauce [1..*] hasSpiciness Hot -> T00b4::TobascoPepperSauceTopping hasSpiciness Hot
+Veneziana [1..*] hasTopping OliveTopping -> T00b5::Veneziana hasTopping OliveTopping
+Veneziana [1..*] hasTopping OnionTopping -> T00b6::Veneziana hasTopping OnionTopping
+Veneziana [1..*] hasTopping CaperTopping -> T00b7::Veneziana hasTopping CaperTopping
+Veneziana [1..*] hasTopping SultanaTopping -> T00b8::Veneziana hasTopping SultanaTopping
+Veneziana [1..*] hasTopping PineKernels -> T00b9::Veneziana hasTopping PineKernelTopping
+Veneziana [1..*] hasTopping TomatoTopping -> T00ba::Veneziana hasTopping TomatoTopping
+Veneziana [1..*] hasTopping MozzarellaTopping -> T00bb::Veneziana hasTopping MozzarellaTopping
+Giardiniera [1..*] hasTopping OliveTopping -> T00bc::Giardiniera hasTopping OliveTopping
+Giardiniera [1..*] hasTopping PetitPoisTopping -> T00bd::Giardiniera hasTopping PetitPoisTopping
+Giardiniera [1..*] hasTopping PeperonataTopping -> T00be::Giardiniera hasTopping PeperonataTopping
+Giardiniera [1..*] hasTopping MozzarellaTopping -> T00bf::Giardiniera hasTopping MozzarellaTopping
+Giardiniera [1..*] hasTopping MushroomTopping -> T00c0::Giardiniera hasTopping MushroomTopping
+Giardiniera [1..*] hasTopping TomatoTopping -> T00c1::Giardiniera hasTopping TomatoTopping
+Giardiniera [1..*] hasTopping SlicedTomatoTopping -> T00c2::Giardiniera hasTopping SlicedTomatoTopping
+Giardiniera [1..*] hasTopping LeekTopping -> T00c3::Giardiniera hasTopping LeekTopping
+Soho [1..*] hasTopping MozzarellaTopping -> T00c4::Soho hasTopping MozzarellaTopping
+Soho [1..*] hasTopping OliveTopping -> T00c5::Soho hasTopping OliveTopping
+Soho [1..*] hasTopping GarlicTopping -> T00c6::Soho hasTopping GarlicTopping
+Soho [1..*] hasTopping RocketTopping -> T00c7::Soho hasTopping RocketTopping
+Soho [1..*] hasTopping TomatoTopping -> T00c8::Soho hasTopping TomatoTopping
+Soho [1..*] hasTopping ParmesanTopping -> T00c9::Soho hasTopping ParmezanTopping
+IceCream [1..*] hasTopping FruitTopping -> T00ca::IceCream hasTopping FruitTopping
+LaReine [1..*] hasTopping OliveTopping -> T00cb::LaReine hasTopping OliveTopping
+LaReine [1..*] hasTopping HamTopping -> T00cc::LaReine hasTopping HamTopping
+LaReine [1..*] hasTopping MushroomTopping -> T00cd::LaReine hasTopping MushroomTopping
+LaReine [1..*] hasTopping MozzarellaTopping -> T00ce::LaReine hasTopping MozzarellaTopping
+LaReine [1..*] hasTopping TomatoTopping -> T00cf::LaReine hasTopping TomatoTopping
+SultanaTopping [1..*] hasSpiciness Medium -> T00d0::SultanaTopping hasSpiciness Medium
+SloppyGiuseppe [1..*] hasTopping GreenPepperTopping -> T00d1::SloppyGiuseppe hasTopping GreenPepperTopping
+SloppyGiuseppe [1..*] hasTopping OnionTopping -> T00d2::SloppyGiuseppe hasTopping OnionTopping
+SloppyGiuseppe [1..*] hasTopping TomatoTopping -> T00d3::SloppyGiuseppe hasTopping TomatoTopping
+SloppyGiuseppe [1..*] hasTopping MozzarellaTopping -> T00d4::SloppyGiuseppe hasTopping MozzarellaTopping
+SloppyGiuseppe [1..*] hasTopping HotSpicedBeefTopping -> T00d5::SloppyGiuseppe hasTopping HotSpicedBeefTopping
+ParmesanTopping [1..*] hasSpiciness Mild -> T00d6::ParmezanTopping hasSpiciness Mild
+Capricciosa [1..*] hasTopping MozzarellaTopping -> T00d7::Capricciosa hasTopping MozzarellaTopping
+Capricciosa [1..*] hasTopping TomatoTopping -> T00d8::Capricciosa hasTopping TomatoTopping
+Capricciosa [1..*] hasTopping OliveTopping -> T00d9::Capricciosa hasTopping OliveTopping
+Capricciosa [1..*] hasTopping PeperonataTopping -> T00da::Capricciosa hasTopping PeperonataTopping
+Capricciosa [1..*] hasTopping HamTopping -> T00db::Capricciosa hasTopping HamTopping
+Capricciosa [1..*] hasTopping AnchoviesTopping -> T00dc::Capricciosa hasTopping AnchoviesTopping
+Capricciosa [1..*] hasTopping CaperTopping -> T00dd::Capricciosa hasTopping CaperTopping
+SundriedTomatoTopping [1..*] hasSpiciness Mild -> T00de::SundriedTomatoTopping hasSpiciness Mild
+SundriedTomatoTopping [1..*] hasSpiciness Mild -> T00df::SundriedTomatoTopping hasSpiciness Mild
+ParmaHamTopping [1..*] hasSpiciness Mild -> T00e0::ParmaHamTopping hasSpiciness Mild
+Rosa [1..*] hasTopping MozzarellaTopping -> T00e1::Rosa hasTopping MozzarellaTopping
+Rosa [1..*] hasTopping GorgonzolaTopping -> T00e2::Rosa hasTopping GorgonzolaTopping
+Rosa [1..*] hasTopping TomatoTopping -> T00e3::Rosa hasTopping TomatoTopping
+Parmense [1..*] hasTopping AsparagusTopping -> T00e4::Parmense hasTopping AsparagusTopping
+Parmense [1..*] hasTopping MozzarellaTopping -> T00e5::Parmense hasTopping MozzarellaTopping
+Parmense [1..*] hasTopping TomatoTopping -> T00e6::Parmense hasTopping TomatoTopping
+Parmense [1..*] hasTopping HamTopping -> T00e7::Parmense hasTopping HamTopping
+Parmense [1..*] hasTopping ParmesanTopping -> T00e8::Parmense hasTopping ParmezanTopping
+ChickenTopping [1..*] hasSpiciness Mild -> T00e9::ChickenTopping hasSpiciness Mild
+PolloAdAstra [1..*] hasTopping RedOnionTopping -> T00ea::PolloAdAstra hasTopping RedOnionTopping
+PolloAdAstra [1..*] hasTopping MozzarellaTopping -> T00eb::PolloAdAstra hasTopping MozzarellaTopping
+PolloAdAstra [1..*] hasTopping GarlicTopping -> T00ec::PolloAdAstra hasTopping GarlicTopping
+PolloAdAstra [1..*] hasTopping SweetPepperTopping -> T00ed::PolloAdAstra hasTopping SweetPepperTopping
+PolloAdAstra [1..*] hasTopping TomatoTopping -> T00ee::PolloAdAstra hasTopping TomatoTopping
+PolloAdAstra [1..*] hasTopping ChickenTopping -> T00ef::PolloAdAstra hasTopping ChickenTopping
+PolloAdAstra [1..*] hasTopping CajunSpiceTopping -> T00f0::PolloAdAstra hasTopping CajunSpiceTopping
+RocketTopping [1..*] hasSpiciness Medium -> T00f1::RocketTopping hasSpiciness Medium
+PeperonataTopping [1..*] hasSpiciness Medium -> T00f2::PeperonataTopping hasSpiciness Medium
+LeekTopping [1..*] hasSpiciness Mild -> T00f3::LeekTopping hasSpiciness Mild
+FruttiDiMare [1..*] hasTopping TomatoTopping -> T00f4::FruttiDiMare hasTopping TomatoTopping
+FruttiDiMare [1..*] hasTopping MixedSeafoodTopping -> T00f5::FruttiDiMare hasTopping MixedSeafoodTopping
+FruttiDiMare [1..*] hasTopping GarlicTopping -> T00f6::FruttiDiMare hasTopping GarlicTopping
+GoatsCheeseTopping [1..*] hasSpiciness Mild -> T00f7::GoatsCheeseTopping hasSpiciness Mild
+NutTopping [1..*] hasSpiciness Mild -> T00f8::NutTopping hasSpiciness Mild
+GarlicTopping [1..*] hasSpiciness Medium -> T00f9::GarlicTopping hasSpiciness Medium

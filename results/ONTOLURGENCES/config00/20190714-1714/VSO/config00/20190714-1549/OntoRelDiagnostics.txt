@@ -1,0 +1,1334 @@
+
+======================================================= 
+OntoRel Diagnostics
+======================================================= 
+
+--------------------------------------- 
+OWL to SQL datatypes
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom redundancy reduction
+--------------------------------------- 
+============ Reducing class axioms of http://purl.org/vso/ns#FuelQuantity
+
+============ Reducing class axioms of http://purl.org/vso/ns#Boat
+Boat [1..*] acceleration QuantitativeValueFloat
+Boat [1..*] engineDisplacement QuantitativeValueFloat
+Boat [1..*] enginePower QuantitativeValueFloat
+Boat [1..*] engineType EngineTypeValue
+Boat [1..*] fuelConsumption QuantitativeValueFloat
+Boat [1..*] fuelTankVolume QuantitativeValueFloat
+Boat [1..*] gearsTotal QuantitativeValueInteger
+Boat [1..*] transmission TransmissionTypeValue
+Reduction of: Boat [1..*] acceleration QuantitativeValueFloat and Boat [1..*] engineDisplacement QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] acceleration QuantitativeValueFloat and Boat [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] acceleration QuantitativeValueFloat and Boat [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] acceleration QuantitativeValueFloat and Boat [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] acceleration QuantitativeValueFloat and Boat [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] acceleration QuantitativeValueFloat and Boat [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] acceleration QuantitativeValueFloat and Boat [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineDisplacement QuantitativeValueFloat and Boat [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineDisplacement QuantitativeValueFloat and Boat [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineDisplacement QuantitativeValueFloat and Boat [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineDisplacement QuantitativeValueFloat and Boat [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineDisplacement QuantitativeValueFloat and Boat [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineDisplacement QuantitativeValueFloat and Boat [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] enginePower QuantitativeValueFloat and Boat [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] enginePower QuantitativeValueFloat and Boat [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] enginePower QuantitativeValueFloat and Boat [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] enginePower QuantitativeValueFloat and Boat [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] enginePower QuantitativeValueFloat and Boat [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineType EngineTypeValue and Boat [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineType EngineTypeValue and Boat [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineType EngineTypeValue and Boat [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] engineType EngineTypeValue and Boat [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] fuelConsumption QuantitativeValueFloat and Boat [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] fuelConsumption QuantitativeValueFloat and Boat [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] fuelConsumption QuantitativeValueFloat and Boat [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] fuelTankVolume QuantitativeValueFloat and Boat [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] fuelTankVolume QuantitativeValueFloat and Boat [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Boat [1..*] gearsTotal QuantitativeValueInteger and Boat [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.org/vso/ns#SailingBoat
+
+============ Reducing class axioms of http://purl.org/vso/ns#Canoe
+
+============ Reducing class axioms of http://purl.org/vso/ns#Truck
+
+============ Reducing class axioms of http://purl.org/goodrelations/v1#QuantitativeValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#SpeedInterval
+
+============ Reducing class axioms of http://purl.org/vso/ns#EngineTypeValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#Automobile
+
+============ Reducing class axioms of http://purl.org/vso/ns#BusOrCoach
+
+============ Reducing class axioms of http://purl.org/vso/ns#Motorcycle
+
+============ Reducing class axioms of http://purl.org/vso/ns#BodyStyleValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#Van
+
+============ Reducing class axioms of http://purl.org/vso/ns#DriveWheelConfigurationValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#Rickshaw
+
+============ Reducing class axioms of http://purl.org/vso/ns#Bicycle
+Bicycle [1..*] gearsTotal QuantitativeValueInteger
+Bicycle [1..*] transmission TransmissionTypeValue
+Bicycle [1..*] wheelbase QuantitativeValueFloat
+Reduction of: Bicycle [1..*] gearsTotal QuantitativeValueInteger and Bicycle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Bicycle [1..*] gearsTotal QuantitativeValueInteger and Bicycle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Bicycle [1..*] transmission TransmissionTypeValue and Bicycle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.org/vso/ns#Kayak
+
+============ Reducing class axioms of http://purl.org/vso/ns#MotorBoat
+
+============ Reducing class axioms of http://purl.org/vso/ns#FeatureValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#MotorizedRoadVehicle
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] engineType EngineTypeValue and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger and MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat and MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat and MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue and MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat and MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat and MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue and MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.org/vso/ns#Ship
+Ship [1..*] acceleration QuantitativeValueFloat
+Ship [1..*] engineDisplacement QuantitativeValueFloat
+Ship [1..*] enginePower QuantitativeValueFloat
+Ship [1..*] engineType EngineTypeValue
+Ship [1..*] fuelConsumption QuantitativeValueFloat
+Ship [1..*] fuelTankVolume QuantitativeValueFloat
+Ship [1..*] gearsTotal QuantitativeValueInteger
+Ship [1..*] transmission TransmissionTypeValue
+Reduction of: Ship [1..*] acceleration QuantitativeValueFloat and Ship [1..*] engineDisplacement QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] acceleration QuantitativeValueFloat and Ship [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] acceleration QuantitativeValueFloat and Ship [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] acceleration QuantitativeValueFloat and Ship [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] acceleration QuantitativeValueFloat and Ship [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] acceleration QuantitativeValueFloat and Ship [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] acceleration QuantitativeValueFloat and Ship [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineDisplacement QuantitativeValueFloat and Ship [1..*] enginePower QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineDisplacement QuantitativeValueFloat and Ship [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineDisplacement QuantitativeValueFloat and Ship [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineDisplacement QuantitativeValueFloat and Ship [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineDisplacement QuantitativeValueFloat and Ship [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineDisplacement QuantitativeValueFloat and Ship [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] enginePower QuantitativeValueFloat and Ship [1..*] engineType EngineTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] enginePower QuantitativeValueFloat and Ship [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] enginePower QuantitativeValueFloat and Ship [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] enginePower QuantitativeValueFloat and Ship [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] enginePower QuantitativeValueFloat and Ship [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineType EngineTypeValue and Ship [1..*] fuelConsumption QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineType EngineTypeValue and Ship [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineType EngineTypeValue and Ship [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] engineType EngineTypeValue and Ship [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] fuelConsumption QuantitativeValueFloat and Ship [1..*] fuelTankVolume QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] fuelConsumption QuantitativeValueFloat and Ship [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] fuelConsumption QuantitativeValueFloat and Ship [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] fuelTankVolume QuantitativeValueFloat and Ship [1..*] gearsTotal QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] fuelTankVolume QuantitativeValueFloat and Ship [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Ship [1..*] gearsTotal QuantitativeValueInteger and Ship [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.org/goodrelations/v1#ProductOrService
+ProductOrService [1..*] bodyStyle BodyStyleValue
+ProductOrService [1..*] feature FeatureValue
+ProductOrService [1..*] fuelType FuelTypeValue
+ProductOrService [1..*] height QuantitativeValueFloat
+ProductOrService [1..*] length QuantitativeValueFloat
+ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue
+ProductOrService [1..*] payload QuantitativeValueFloat
+ProductOrService [1..*] previousOwners QuantitativeValueInteger
+ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+ProductOrService [1..*] speed QuantitativeValueFloat
+ProductOrService [1..*] weight QuantitativeValueFloat
+ProductOrService [1..*] weightTotal QuantitativeValueFloat
+ProductOrService [1..*] width QuantitativeValueFloat
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] feature FeatureValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] fuelType FuelTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] height QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] length QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] payload QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] previousOwners QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] bodyStyle BodyStyleValue and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] fuelType FuelTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] height QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] length QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] payload QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] previousOwners QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] feature FeatureValue and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] height QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] length QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] payload QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] previousOwners QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] fuelType FuelTypeValue and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] length QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] payload QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] previousOwners QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] height QuantitativeValueFloat and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] length QuantitativeValueFloat and ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] length QuantitativeValueFloat and ProductOrService [1..*] payload QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] length QuantitativeValueFloat and ProductOrService [1..*] previousOwners QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] length QuantitativeValueFloat and ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] length QuantitativeValueFloat and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] length QuantitativeValueFloat and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] length QuantitativeValueFloat and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] length QuantitativeValueFloat and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue and ProductOrService [1..*] payload QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue and ProductOrService [1..*] previousOwners QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue and ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] payload QuantitativeValueFloat and ProductOrService [1..*] previousOwners QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] payload QuantitativeValueFloat and ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] payload QuantitativeValueFloat and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] payload QuantitativeValueFloat and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] payload QuantitativeValueFloat and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] payload QuantitativeValueFloat and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] previousOwners QuantitativeValueInteger and ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] previousOwners QuantitativeValueInteger and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] previousOwners QuantitativeValueInteger and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] previousOwners QuantitativeValueInteger and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] previousOwners QuantitativeValueInteger and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] seatingCapacity QuantitativeValueInteger and ProductOrService [1..*] speed QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] seatingCapacity QuantitativeValueInteger and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] seatingCapacity QuantitativeValueInteger and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] seatingCapacity QuantitativeValueInteger and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] speed QuantitativeValueFloat and ProductOrService [1..*] weight QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] speed QuantitativeValueFloat and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] speed QuantitativeValueFloat and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] weight QuantitativeValueFloat and ProductOrService [1..*] weightTotal QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] weight QuantitativeValueFloat and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: ProductOrService [1..*] weightTotal QuantitativeValueFloat and ProductOrService [1..*] width QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.org/goodrelations/v1#QuantitativeValueInteger
+
+============ Reducing class axioms of http://purl.org/vso/ns#TransmissionTypeValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#EmissionStandardValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#Watercraft
+Watercraft [1..*] cargoVolume QuantitativeValueFloat
+
+============ Reducing class axioms of http://purl.org/vso/ns#SteeringPositionValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#Vehicle
+
+============ Reducing class axioms of http://purl.org/goodrelations/v1#QuantitativeValueFloat
+QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue
+QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity
+QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval
+Reduction of: QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue and QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue and QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity and QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.org/vso/ns#FuelTypeValue
+
+============ Reducing class axioms of http://purl.org/vso/ns#Quadracycle
+Quadracycle [1..*] gearsTotal QuantitativeValueInteger
+Quadracycle [1..*] transmission TransmissionTypeValue
+Quadracycle [1..*] wheelbase QuantitativeValueFloat
+Reduction of: Quadracycle [1..*] gearsTotal QuantitativeValueInteger and Quadracycle [1..*] transmission TransmissionTypeValue
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Quadracycle [1..*] gearsTotal QuantitativeValueInteger and Quadracycle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Quadracycle [1..*] transmission TransmissionTypeValue and Quadracycle [1..*] wheelbase QuantitativeValueFloat
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.org/vso/ns#MotorizedBicycle
+
+============ Reducing class axioms of http://purl.org/goodrelations/v1#QualitativeValue
+
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#FuelQuantity
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Boat
+http://purl.org/vso/ns#SailingBoat
+http://purl.org/vso/ns#Canoe
+http://purl.org/vso/ns#MotorBoat
+===== Les axiomes 
+Boat [1..*] acceleration QuantitativeValueFloat
+Boat [1..*] engineDisplacement QuantitativeValueFloat
+Boat [1..*] enginePower QuantitativeValueFloat
+Boat [1..*] engineType EngineTypeValue
+Boat [1..*] fuelConsumption QuantitativeValueFloat
+Boat [1..*] fuelTankVolume QuantitativeValueFloat
+Boat [1..*] gearsTotal QuantitativeValueInteger
+Boat [1..*] transmission TransmissionTypeValue
+===== Les permutations 
+
+
+
+
+
+
+
+
+===== Les axiomes 
+Boat [1..*] acceleration QuantitativeValueFloat
+Boat [1..*] engineDisplacement QuantitativeValueFloat
+Boat [1..*] enginePower QuantitativeValueFloat
+Boat [1..*] engineType EngineTypeValue
+Boat [1..*] fuelConsumption QuantitativeValueFloat
+Boat [1..*] fuelTankVolume QuantitativeValueFloat
+Boat [1..*] gearsTotal QuantitativeValueInteger
+Boat [1..*] transmission TransmissionTypeValue
+===== Les permutations 
+
+
+
+
+
+
+
+
+===== Les axiomes 
+Boat [1..*] acceleration QuantitativeValueFloat
+Boat [1..*] engineDisplacement QuantitativeValueFloat
+Boat [1..*] enginePower QuantitativeValueFloat
+Boat [1..*] engineType EngineTypeValue
+Boat [1..*] fuelConsumption QuantitativeValueFloat
+Boat [1..*] fuelTankVolume QuantitativeValueFloat
+Boat [1..*] gearsTotal QuantitativeValueInteger
+Boat [1..*] transmission TransmissionTypeValue
+===== Les permutations 
+
+
+
+
+
+
+
+
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#SailingBoat
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Canoe
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Truck
+============ Reducing class and subclasses axioms of http://purl.org/goodrelations/v1#QuantitativeValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#SpeedInterval
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#EngineTypeValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Automobile
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#BusOrCoach
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Motorcycle
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#BodyStyleValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Van
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#DriveWheelConfigurationValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Rickshaw
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Bicycle
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Kayak
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#MotorBoat
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#FeatureValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#MotorizedRoadVehicle
+http://purl.org/vso/ns#Motorcycle
+http://purl.org/vso/ns#BusOrCoach
+http://purl.org/vso/ns#Automobile
+http://purl.org/vso/ns#MotorizedBicycle
+http://purl.org/vso/ns#Van
+http://purl.org/vso/ns#Truck
+===== Les axiomes 
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Les axiomes 
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Les axiomes 
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Les axiomes 
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Les axiomes 
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===== Les axiomes 
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Ship
+============ Reducing class and subclasses axioms of http://purl.org/goodrelations/v1#ProductOrService
+http://purl.org/vso/ns#Vehicle
+===== Les axiomes 
+ProductOrService [1..*] bodyStyle BodyStyleValue
+ProductOrService [1..*] feature FeatureValue
+ProductOrService [1..*] fuelType FuelTypeValue
+ProductOrService [1..*] height QuantitativeValueFloat
+ProductOrService [1..*] length QuantitativeValueFloat
+ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue
+ProductOrService [1..*] payload QuantitativeValueFloat
+ProductOrService [1..*] previousOwners QuantitativeValueInteger
+ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+ProductOrService [1..*] speed QuantitativeValueFloat
+ProductOrService [1..*] weight QuantitativeValueFloat
+ProductOrService [1..*] weightTotal QuantitativeValueFloat
+ProductOrService [1..*] width QuantitativeValueFloat
+===== Les permutations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+============ Reducing class and subclasses axioms of http://purl.org/goodrelations/v1#QuantitativeValueInteger
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#TransmissionTypeValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#EmissionStandardValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Watercraft
+http://purl.org/vso/ns#Boat
+http://purl.org/vso/ns#Ship
+http://purl.org/vso/ns#Kayak
+===== Les axiomes 
+Watercraft [1..*] cargoVolume QuantitativeValueFloat
+Boat [1..*] acceleration QuantitativeValueFloat
+Boat [1..*] engineDisplacement QuantitativeValueFloat
+Boat [1..*] enginePower QuantitativeValueFloat
+Boat [1..*] engineType EngineTypeValue
+Boat [1..*] fuelConsumption QuantitativeValueFloat
+Boat [1..*] fuelTankVolume QuantitativeValueFloat
+Boat [1..*] gearsTotal QuantitativeValueInteger
+Boat [1..*] transmission TransmissionTypeValue
+===== Les permutations 
+Reduction of: Boat [1..*] acceleration QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Boat [1..*] engineDisplacement QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Boat [1..*] enginePower QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Boat [1..*] engineType EngineTypeValue and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Boat [1..*] fuelConsumption QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Boat [1..*] fuelTankVolume QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Boat [1..*] gearsTotal QuantitativeValueInteger and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Boat [1..*] transmission TransmissionTypeValue and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+Watercraft [1..*] cargoVolume QuantitativeValueFloat
+Ship [1..*] acceleration QuantitativeValueFloat
+Ship [1..*] engineDisplacement QuantitativeValueFloat
+Ship [1..*] enginePower QuantitativeValueFloat
+Ship [1..*] engineType EngineTypeValue
+Ship [1..*] fuelConsumption QuantitativeValueFloat
+Ship [1..*] fuelTankVolume QuantitativeValueFloat
+Ship [1..*] gearsTotal QuantitativeValueInteger
+Ship [1..*] transmission TransmissionTypeValue
+===== Les permutations 
+Reduction of: Ship [1..*] acceleration QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Ship [1..*] engineDisplacement QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Ship [1..*] enginePower QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Ship [1..*] engineType EngineTypeValue and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Ship [1..*] fuelConsumption QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Ship [1..*] fuelTankVolume QuantitativeValueFloat and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Ship [1..*] gearsTotal QuantitativeValueInteger and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Ship [1..*] transmission TransmissionTypeValue and Watercraft [1..*] cargoVolume QuantitativeValueFloat
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+Watercraft [1..*] cargoVolume QuantitativeValueFloat
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#SteeringPositionValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Vehicle
+http://purl.org/vso/ns#Quadracycle
+http://purl.org/vso/ns#Rickshaw
+http://purl.org/vso/ns#Bicycle
+http://purl.org/vso/ns#Watercraft
+http://purl.org/vso/ns#MotorizedRoadVehicle
+===== Les axiomes 
+Quadracycle [1..*] gearsTotal QuantitativeValueInteger
+Quadracycle [1..*] transmission TransmissionTypeValue
+Quadracycle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+Bicycle [1..*] gearsTotal QuantitativeValueInteger
+Bicycle [1..*] transmission TransmissionTypeValue
+Bicycle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+===== Les axiomes 
+Watercraft [1..*] cargoVolume QuantitativeValueFloat
+===== Les permutations 
+===== Les axiomes 
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.org/goodrelations/v1#QuantitativeValueFloat
+http://purl.org/vso/ns#FuelQuantity
+http://purl.org/vso/ns#SpeedInterval
+===== Les axiomes 
+QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue
+QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity
+QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval
+===== Les permutations 
+
+
+
+===== Les axiomes 
+QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue
+QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity
+QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval
+===== Les permutations 
+
+
+
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#FuelTypeValue
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#Quadracycle
+============ Reducing class and subclasses axioms of http://purl.org/vso/ns#MotorizedBicycle
+============ Reducing class and subclasses axioms of http://purl.org/goodrelations/v1#QualitativeValue
+http://purl.org/vso/ns#EngineTypeValue
+http://purl.org/vso/ns#EmissionStandardValue
+http://purl.org/vso/ns#FuelTypeValue
+http://purl.org/vso/ns#SteeringPositionValue
+http://purl.org/vso/ns#DriveWheelConfigurationValue
+http://purl.org/vso/ns#BodyStyleValue
+http://purl.org/vso/ns#TransmissionTypeValue
+http://purl.org/vso/ns#FeatureValue
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reduction summary
+Creating join table for: Boat [1..*] acceleration QuantitativeValueFloat
+Creating join table for: Boat [1..*] engineDisplacement QuantitativeValueFloat
+Creating join table for: Boat [1..*] enginePower QuantitativeValueFloat
+Creating join table for: Boat [1..*] engineType EngineTypeValue
+Creating join table for: Boat [1..*] fuelConsumption QuantitativeValueFloat
+Creating join table for: Boat [1..*] fuelTankVolume QuantitativeValueFloat
+Creating join table for: Boat [1..*] gearsTotal QuantitativeValueInteger
+Creating join table for: Boat [1..*] transmission TransmissionTypeValue
+Creating join table for: Bicycle [1..*] gearsTotal QuantitativeValueInteger
+Creating join table for: Bicycle [1..*] transmission TransmissionTypeValue
+Creating join table for: Bicycle [1..*] wheelbase QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger
+Creating join table for: MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger
+Creating join table for: MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue
+Creating join table for: MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] engineType EngineTypeValue
+Creating join table for: MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger
+Creating join table for: MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue
+Creating join table for: MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat
+Creating join table for: MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue
+Creating join table for: MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat
+Creating join table for: Ship [1..*] acceleration QuantitativeValueFloat
+Creating join table for: Ship [1..*] engineDisplacement QuantitativeValueFloat
+Creating join table for: Ship [1..*] enginePower QuantitativeValueFloat
+Creating join table for: Ship [1..*] engineType EngineTypeValue
+Creating join table for: Ship [1..*] fuelConsumption QuantitativeValueFloat
+Creating join table for: Ship [1..*] fuelTankVolume QuantitativeValueFloat
+Creating join table for: Ship [1..*] gearsTotal QuantitativeValueInteger
+Creating join table for: Ship [1..*] transmission TransmissionTypeValue
+Creating join table for: ProductOrService [1..*] bodyStyle BodyStyleValue
+Creating join table for: ProductOrService [1..*] feature FeatureValue
+Creating join table for: ProductOrService [1..*] fuelType FuelTypeValue
+Creating join table for: ProductOrService [1..*] height QuantitativeValueFloat
+Creating join table for: ProductOrService [1..*] length QuantitativeValueFloat
+Creating join table for: ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue
+Creating join table for: ProductOrService [1..*] payload QuantitativeValueFloat
+Creating join table for: ProductOrService [1..*] previousOwners QuantitativeValueInteger
+Creating join table for: ProductOrService [1..*] seatingCapacity QuantitativeValueInteger
+Creating join table for: ProductOrService [1..*] speed QuantitativeValueFloat
+Creating join table for: ProductOrService [1..*] weight QuantitativeValueFloat
+Creating join table for: ProductOrService [1..*] weightTotal QuantitativeValueFloat
+Creating join table for: ProductOrService [1..*] width QuantitativeValueFloat
+Creating join table for: Watercraft [1..*] cargoVolume QuantitativeValueFloat
+Creating join table for: QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue
+Creating join table for: QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity
+Creating join table for: QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval
+Creating join table for: Quadracycle [1..*] gearsTotal QuantitativeValueInteger
+Creating join table for: Quadracycle [1..*] transmission TransmissionTypeValue
+Creating join table for: Quadracycle [1..*] wheelbase QuantitativeValueFloat

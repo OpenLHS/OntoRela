@@ -1,0 +1,33 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+
+--------------------------------------- 
+Origin OWL Ontology
+--------------------------------------- 
+http://purl.obolibrary.org/obo/pdro_merged.owl
+Nb. classes          : 3952
+Nb. data properties  : 12
+Nb. object properties: 131
+Nb. isa axioms       : 4153
+Nb. data axioms      : 25
+Nb. class axioms     : 2087
+
+--------------------------------------- 
+Reduced Ontology (axiom complexity reduction)
+--------------------------------------- 
+http://purl.obolibrary.org/obo/pdro_merged.owl
+Nb. classes          : 4625
+Nb. data properties  : 12
+Nb. object properties: 131
+Nb. isa axioms       : 4879
+Nb. data axioms      : 25
+Nb. class axioms     : 2639
+Nb. reduced class axioms: 543
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 9322 KB

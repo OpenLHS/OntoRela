@@ -1,0 +1,121 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.org/vso/ns#FuelQuantity -> T0001::FuelQuantity::FuelQuantity
+http://purl.org/vso/ns#Boat -> T0002::Boat::Boat (gr:ProductOrService)
+http://purl.org/vso/ns#SailingBoat -> T0003::SailingBoat::Sailing boat (gr:ProductOrService)
+http://purl.org/vso/ns#Canoe -> T0004::Canoe::Canoe (gr:ProductOrService)
+http://purl.org/vso/ns#Truck -> T0005::Truck::Truck (gr:ProductOrService)
+http://purl.org/goodrelations/v1#QuantitativeValue -> T0006::QuantitativeValue::QuantitativeValue
+http://purl.org/vso/ns#SpeedInterval -> T0007::SpeedInterval::SpeedInterval
+http://purl.org/vso/ns#EngineTypeValue -> T0008::EngineTypeValue::Engine type value (the class of predefined values)
+http://purl.org/vso/ns#Automobile -> T0009::Automobile::Automobile (gr:ProductOrService)
+http://purl.org/vso/ns#BusOrCoach -> T000a::BusOrCoach::Bus or coach (gr:ProductOrService)
+http://purl.org/vso/ns#Motorcycle -> T000b::Motorcycle::Motorcycle (gr:ProductOrService)
+http://purl.org/vso/ns#BodyStyleValue -> T000c::BodyStyleValue::Body style value (the class of predefined values)
+http://purl.org/vso/ns#Van -> T000d::Van::Van (gr:ProductOrService)
+http://purl.org/vso/ns#DriveWheelConfigurationValue -> T000e::DriveWheelConfigurationValue::Drive wheel configuration value (the class of predefined values)
+http://purl.org/vso/ns#Rickshaw -> T000f::Rickshaw::Rickshaw (gr:ProductOrService)
+http://purl.org/vso/ns#Bicycle -> T0010::Bicycle::Bicycle (gr:ProductOrService)
+http://purl.org/vso/ns#Kayak -> T0011::Kayak::Kayak (gr:ProductOrService)
+http://purl.org/vso/ns#MotorBoat -> T0012::MotorBoat::Motor boat (gr:ProductOrService)
+http://purl.org/vso/ns#FeatureValue -> T0013::FeatureValue::Feature value (the class of predefined values)
+http://purl.org/vso/ns#MotorizedRoadVehicle -> T0014::MotorizedRoadVehicle::Motorized road vehicle (gr:ProductOrService)
+http://purl.org/vso/ns#Ship -> T0015::Ship::Ship (gr:ProductOrService)
+http://purl.org/goodrelations/v1#ProductOrService -> T0016::ProductOrService::ProductOrService
+http://purl.org/goodrelations/v1#QuantitativeValueInteger -> T0017::QuantitativeValueInteger::QuantitativeValueInteger
+http://purl.org/vso/ns#TransmissionTypeValue -> T0018::TransmissionTypeValue::Transmission type value (the class of predefined values)
+http://purl.org/vso/ns#EmissionStandardValue -> T0019::EmissionStandardValue::Emission standard value (the class of predefined values)
+http://purl.org/vso/ns#Watercraft -> T001a::Watercraft::Watercraft (gr:ProductOrService)
+http://purl.org/vso/ns#SteeringPositionValue -> T001b::SteeringPositionValue::Steering position value (the class of predefined values)
+http://purl.org/vso/ns#Vehicle -> T001c::Vehicle::Vehicle (gr:ProductOrService)
+http://purl.org/goodrelations/v1#QuantitativeValueFloat -> T001d::QuantitativeValueFloat::QuantitativeValueFloat
+http://purl.org/vso/ns#FuelTypeValue -> T001e::FuelTypeValue::Fuel type value (the class of predefined values)
+http://purl.org/vso/ns#Quadracycle -> T001f::Quadracycle::Quadracycle (gr:ProductOrService) 
+http://purl.org/vso/ns#MotorizedBicycle -> T0020::MotorizedBicycle::Motorized bicycle (gr:ProductOrService)
+http://purl.org/goodrelations/v1#QualitativeValue -> T0021::QualitativeValue::QualitativeValue
+
+--------------------------------------- 
+Type-Table Catalog
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+MotorizedRoadVehicle [1..*] ACRISSCode string -> T0022::Motorized road vehicle (gr:ProductOrService) ACRISSCode (0..1)
+MotorizedRoadVehicle [1..*] VIN string -> T0023::Motorized road vehicle (gr:ProductOrService) VIN [Vehicle Identification Number] (0..1)
+ProductOrService [1..*] color Literal -> T0024::ProductOrService color (0..*)
+ProductOrService [1..*] condition Literal -> T0025::ProductOrService condition (0..*)
+ProductOrService [1..*] damages Literal -> T0026::ProductOrService damages (0..*)
+Bicycle [1..*] engineName Literal -> T0027::Bicycle (gr:ProductOrService) engineName (0..*)
+Boat [1..*] engineName Literal -> T0028::Boat (gr:ProductOrService) engineName (0..*)
+MotorizedRoadVehicle [1..*] engineName Literal -> T0029::Motorized road vehicle (gr:ProductOrService) engineName (0..*)
+Ship [1..*] engineName Literal -> T002a::Ship (gr:ProductOrService) engineName (0..*)
+ProductOrService [1..*] firstRegistration date -> T002b::ProductOrService firstRegistration (0..1)
+ProductOrService [1..*] modelDate date -> T002c::ProductOrService modelDate (0..1)
+ProductOrService [1..*] productionDate date -> T002d::ProductOrService productionDate (0..1)
+ProductOrService [1..*] rentalUsage boolean -> T002e::ProductOrService rentalUsage (0..1)
+Boat [1..*] acceleration QuantitativeValueFloat -> T002f::Boat (gr:ProductOrService) acceleration (0..*) QuantitativeValueFloat
+Boat [1..*] engineDisplacement QuantitativeValueFloat -> T0030::Boat (gr:ProductOrService) engineDisplacement (0..*) QuantitativeValueFloat
+Boat [1..*] enginePower QuantitativeValueFloat -> T0031::Boat (gr:ProductOrService) enginePower (0..*) QuantitativeValueFloat
+Boat [1..*] engineType EngineTypeValue -> T0032::Boat (gr:ProductOrService) engineType (0..*) Engine type value (the class of predefined values)
+Boat [1..*] fuelConsumption QuantitativeValueFloat -> T0033::Boat (gr:ProductOrService) fuelConsumption (0..*) QuantitativeValueFloat
+Boat [1..*] fuelTankVolume QuantitativeValueFloat -> T0034::Boat (gr:ProductOrService) fuelTankVolume (0..1) QuantitativeValueFloat
+Boat [1..*] gearsTotal QuantitativeValueInteger -> T0035::Boat (gr:ProductOrService) gearsTotal (0..1) QuantitativeValueInteger
+Boat [1..*] transmission TransmissionTypeValue -> T0036::Boat (gr:ProductOrService) transmission (0..*) Transmission type value (the class of predefined values)
+Bicycle [1..*] gearsTotal QuantitativeValueInteger -> T0037::Bicycle (gr:ProductOrService) gearsTotal (0..1) QuantitativeValueInteger
+Bicycle [1..*] transmission TransmissionTypeValue -> T0038::Bicycle (gr:ProductOrService) transmission (0..*) Transmission type value (the class of predefined values)
+Bicycle [1..*] wheelbase QuantitativeValueFloat -> T0039::Bicycle (gr:ProductOrService) wheelbase (0..1) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat -> T003a::Motorized road vehicle (gr:ProductOrService) acceleration (0..*) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger -> T003b::Motorized road vehicle (gr:ProductOrService) axles (0..1) QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat -> T003c::Motorized road vehicle (gr:ProductOrService) cargoVolume (0..1) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger -> T003d::Motorized road vehicle (gr:ProductOrService) doors (0..1) QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue -> T003e::Motorized road vehicle (gr:ProductOrService) driveWheelConfiguration (0..1) Drive wheel configuration value (the class of predefined values)
+MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat -> T003f::Motorized road vehicle (gr:ProductOrService) engineDisplacement (0..*) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat -> T0040::Motorized road vehicle (gr:ProductOrService) enginePower (0..*) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] engineType EngineTypeValue -> T0041::Motorized road vehicle (gr:ProductOrService) engineType (0..*) Engine type value (the class of predefined values)
+MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat -> T0042::Motorized road vehicle (gr:ProductOrService) fuelConsumption (0..*) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat -> T0043::Motorized road vehicle (gr:ProductOrService) fuelEconomy (0..*) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat -> T0044::Motorized road vehicle (gr:ProductOrService) fuelTankVolume (0..1) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger -> T0045::Motorized road vehicle (gr:ProductOrService) gearsTotal (0..1) QuantitativeValueInteger
+MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat -> T0046::Motorized road vehicle (gr:ProductOrService) mileageFromOdometer (0..1) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat -> T0047::Motorized road vehicle (gr:ProductOrService) roofLoad (0..1) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue -> T0048::Motorized road vehicle (gr:ProductOrService) steeringPosition (0..1) Steering position value (the class of predefined values)
+MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat -> T0049::Motorized road vehicle (gr:ProductOrService) tongueWeight (0..1) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat -> T004a::Motorized road vehicle (gr:ProductOrService) trailerWeight (0..1) QuantitativeValueFloat
+MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue -> T004b::Motorized road vehicle (gr:ProductOrService) transmission (0..*) Transmission type value (the class of predefined values)
+MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat -> T004c::Motorized road vehicle (gr:ProductOrService) wheelbase (0..1) QuantitativeValueFloat
+Ship [1..*] acceleration QuantitativeValueFloat -> T004d::Ship (gr:ProductOrService) acceleration (0..*) QuantitativeValueFloat
+Ship [1..*] engineDisplacement QuantitativeValueFloat -> T004e::Ship (gr:ProductOrService) engineDisplacement (0..*) QuantitativeValueFloat
+Ship [1..*] enginePower QuantitativeValueFloat -> T004f::Ship (gr:ProductOrService) enginePower (0..*) QuantitativeValueFloat
+Ship [1..*] engineType EngineTypeValue -> T0050::Ship (gr:ProductOrService) engineType (0..*) Engine type value (the class of predefined values)
+Ship [1..*] fuelConsumption QuantitativeValueFloat -> T0051::Ship (gr:ProductOrService) fuelConsumption (0..*) QuantitativeValueFloat
+Ship [1..*] fuelTankVolume QuantitativeValueFloat -> T0052::Ship (gr:ProductOrService) fuelTankVolume (0..1) QuantitativeValueFloat
+Ship [1..*] gearsTotal QuantitativeValueInteger -> T0053::Ship (gr:ProductOrService) gearsTotal (0..1) QuantitativeValueInteger
+Ship [1..*] transmission TransmissionTypeValue -> T0054::Ship (gr:ProductOrService) transmission (0..*) Transmission type value (the class of predefined values)
+ProductOrService [1..*] bodyStyle BodyStyleValue -> T0055::ProductOrService bodyStyle (0..1) Body style value (the class of predefined values)
+ProductOrService [1..*] feature FeatureValue -> T0056::ProductOrService feature (0..*) Feature value (the class of predefined values)
+ProductOrService [1..*] fuelType FuelTypeValue -> T0057::ProductOrService fuelType (0..*) Fuel type value (the class of predefined values)
+ProductOrService [1..*] height QuantitativeValueFloat -> T0058::ProductOrService height (0..1) QuantitativeValueFloat
+ProductOrService [1..*] length QuantitativeValueFloat -> T0059::ProductOrService length (0..1) QuantitativeValueFloat
+ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue -> T005a::ProductOrService meetsEmissionStandard (0..*) Emission standard value (the class of predefined values)
+ProductOrService [1..*] payload QuantitativeValueFloat -> T005b::ProductOrService payload (0..1) QuantitativeValueFloat
+ProductOrService [1..*] previousOwners QuantitativeValueInteger -> T005c::ProductOrService previousOwners (0..1) QuantitativeValueInteger
+ProductOrService [1..*] seatingCapacity QuantitativeValueInteger -> T005d::ProductOrService seatingCapacity (0..1) QuantitativeValueInteger
+ProductOrService [1..*] speed QuantitativeValueFloat -> T005e::ProductOrService speed (0..*) QuantitativeValueFloat
+ProductOrService [1..*] weight QuantitativeValueFloat -> T005f::ProductOrService weight (0..1) QuantitativeValueFloat
+ProductOrService [1..*] weightTotal QuantitativeValueFloat -> T0060::ProductOrService weightTotal (0..1) QuantitativeValueFloat
+ProductOrService [1..*] width QuantitativeValueFloat -> T0061::ProductOrService width (0..1) QuantitativeValueFloat
+Watercraft [1..*] cargoVolume QuantitativeValueFloat -> T0062::Watercraft (gr:ProductOrService) cargoVolume (0..1) QuantitativeValueFloat
+QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue -> T0063::QuantitativeValueFloat referenceDistance (0..1) QuantitativeValue
+QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity -> T0064::QuantitativeValueFloat referenceFuelQuantity (0..1) FuelQuantity
+QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval -> T0065::QuantitativeValueFloat referenceSpeeds (0..1) SpeedInterval
+Quadracycle [1..*] gearsTotal QuantitativeValueInteger -> T0066::Quadracycle (gr:ProductOrService)  gearsTotal (0..1) QuantitativeValueInteger
+Quadracycle [1..*] transmission TransmissionTypeValue -> T0067::Quadracycle (gr:ProductOrService)  transmission (0..*) Transmission type value (the class of predefined values)
+Quadracycle [1..*] wheelbase QuantitativeValueFloat -> T0068::Quadracycle (gr:ProductOrService)  wheelbase (0..1) QuantitativeValueFloat

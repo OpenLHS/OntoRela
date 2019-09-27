@@ -1,0 +1,2647 @@
+ONTOLOGY :"ECSO_"  
+
+PROPERTY :"measuresCharacteristic"  
+
+PROPERTY :"measuresEntity"  
+
+PROPERTY :"measuresUsingProtocol"  
+
+PROPERTY :"measuresUsingStandard"  
+
+PROPERTY :"ECSO_00000318"   
+  LABEL @en 'has state' 
+
+PROPERTY :"ECSO_00000319"   
+  LABEL @en 'has location' 
+
+PROPERTY :"ECSO_00000333"   
+  LABEL @en 'has result' 
+
+PROPERTY :"ECSO_00000339"   
+  LABEL @en 'has input' 
+
+PROPERTY :"ECSO_00000340"   
+  LABEL @en 'has output' 
+
+PROPERTY :"BFO_0000050"  
+
+PROPERTY :"BFO_0000051"  
+
+PROPERTY :"ENVO_2100001"   
+  LABEL @en 'determined by' 
+
+PROPERTY :"RO_0000056"   
+  LABEL @en 'participates in' 
+
+PROPERTY :"RO_0000086"  
+
+PROPERTY :"RO_0001000"  
+
+PROPERTY :"RO_0001001"   
+  LABEL @en 'derives into' 
+
+PROPERTY :"RO_0001025"  
+
+PROPERTY :"RO_0002473"   
+  LABEL @en 'composed primarily of' 
+  ISA :"topObjectProperty"  
+
+PROPERTY :"STATO_0000101"   
+  LABEL @en 'has numerator' 
+
+PROPERTY :"STATO_0000259"   
+  LABEL @en 'has denominator' 
+
+PROPERTY :"topObjectProperty"  
+
+PROPERTY :"related"   
+  LABEL @en 'related' 
+
+PROPERTY :"relatedMatch"   
+  LABEL @en 'relatedMatch' 
+
+PROPERTY :"altLabel"  
+
+PROPERTY :"definition"  
+
+CLASS :"ENVO_00002011"   
+
+CLASS :"ENVO_00002010"   
+
+CLASS :"ECSO_00001169"   
+  LABEL @en 'Non-Plant Material Count Aerial Density'  
+  ISA :"ECSO_00001160"  
+  :"measuresEntity"  [1..*] :"ECSO_00000312" 
+
+CLASS :"ECSO_00000077"   
+  LABEL @en 'Shortwave Albedo MOV'  
+  ISA :"ECSO_00001102"  
+
+CLASS :"ECSO_00001166"   
+  LABEL @en 'Volume Fraction Biomass Concentration'  
+  ISA :"ECSO_00000512"  
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00000076"   
+  LABEL @en 'Net_Ecosystem_Exchange_MOV'  
+  ISA :"ECSO_00000014"  
+  :"RO_0000056"  [1..*] :"carbon_cycling" 
+
+CLASS :"ECSO_00001165"   
+  LABEL @en 'Soil Porewater Salinity Concentration'  
+  ISA :"ECSO_00000512"  
+  :"STATO_0000101"  [1..*] :"ENVO_00002006" 
+  :"STATO_0000259"  [1..*] :"ENVO_00001998" 
+  :"measuresEntity"  [1..*] :"ONTORELA_C0254X" 
+
+CLASS :"ECSO_00000079"   
+  LABEL @en 'Total Evaporation MOV'  
+  ISA :"ECSO_00000519"  
+  :"RO_0000056"  [1..*] :"ENVO_02500034" 
+
+CLASS :"ECSO_00001168"   
+  LABEL @en 'areal_density_MeasurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"Protocol"   
+  LABEL @en 'Protocol'  
+
+CLASS :"ECSO_00000078"   
+  LABEL @en 'Surface_Incident_Shortwave_Radiation_MOV'  
+  ISA :"ECSO_00001106"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000324" 
+
+CLASS :"ECSO_00001167"   
+  LABEL @en 'Temporal Measurement Type'  
+  ISA :"MeasurementType"  
+  :"measuresCharacteristic"  [1..*] :"PATO_0001309" 
+  :"measuresUsingStandard"  [1..*] :"UO_0000003" 
+
+CLASS :"ECSO_00000073"   
+  LABEL @en 'Above Ground Woody Biomass MOV'  
+  ISA :"ECSO_00001147"  
+  :"RO_0002473"  [1..*] :"ENVO_00002040" 
+
+CLASS :"ECSO_00001162"   
+  LABEL @en 'Precipitation Rate'  
+  ISA :"ECSO_00000519"  
+  :"measuresEntity"  [1..*] :"ENVO_00002006" 
+
+CLASS :"GramPerMeterCubed"   
+
+CLASS :"ECSO_00000072"   
+  LABEL @en 'Surface_Incident_Longwave_Radiation_MOV'  
+  ISA :"ECSO_00001106"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000324" 
+
+CLASS :"ECSO_00001161"   
+  LABEL @en 'Potential Temperature'  
+  ISA :"ECSO_00001104"  
+  :"measuresEntity"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00000075"   
+  LABEL @en 'Sensible_Heat_MOV'  
+  ISA :"ECSO_00001106"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000323" 
+
+CLASS :"ECSO_00001164"   
+  LABEL @en 'Water Salinity'  
+  ISA :"ECSO_00000512"  
+
+CLASS :"ECSO_00000074"   
+  LABEL @en 'Subsurface Runoff MOV'  
+  ISA :"ECSO_00000519"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000324" 
+
+CLASS :"ECSO_00001163"   
+  LABEL @en 'Air Moisture Percentage'  
+  ISA :"ECSO_00001102"  
+
+CLASS :"WattPerMeterSquared"   
+  ISA :"ECSO_00000560"  
+
+CLASS :"ECSO_00000080"   
+  LABEL @en 'Latent_Heat_MOV'  
+  ISA :"ECSO_00001106"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000323" 
+
+CLASS :"ECSO_00000082"   
+  LABEL @en 'Field Method'  
+  ISA :"Protocol"  
+
+CLASS :"ECSO_00001171"   
+  LABEL @en 'Built Feature Count Aerial Density'  
+  ISA :"ECSO_00001160"  
+  :"measuresEntity"  [1..*] :"ENVO_00003075" 
+
+CLASS :"ECSO_00001170"   
+  LABEL @en 'Plant Material Count Aerial Density'  
+  ISA :"ECSO_00001160"  
+  :"measuresEntity"  [1..*] :"ECSO_00000503" 
+
+CLASS :"MeterPerSecond"   
+  ISA :"ECSO_00000561"  
+
+CLASS :"CHEBI_51143"   
+
+CLASS :"ENVO_00005774"   
+
+CLASS :"ENVO_00002006"   
+  ISA :"ONTORELA_C0236X" 
+  ISA :"ONTORELA_C0246X"  
+
+CLASS :"ENVO_00002005"   
+  ISA :"ONTORELA_C0246X"  
+
+CLASS :"Pressure"   
+  LABEL @en 'Pressure'  
+
+CLASS :"ENVO_01000830"   
+  LABEL @en 'water-based rainfall'  
+  ISA :"ENVO_02500000"  
+
+CLASS :"ECSO_00001159"   
+  LABEL @en 'Water pH'  
+  ISA :"ECSO_00000512"  
+
+CLASS :"ECSO_00000069"   
+  LABEL @en 'Net Shortwave Radiation MOV'  
+  ISA :"ECSO_00001106"  
+
+CLASS :"ECSO_00001158"   
+  LABEL @en 'square kilometer'  
+  ISA :"UO_0000047"  
+
+CLASS :"ENVO_00000063"   
+  ISA :"ONTORELA_C024aX"  
+
+CLASS :"ECSO_00000066"   
+  LABEL @en 'Soil Layer Bottom Depth MOV'  
+  ISA :"ECSO_00001207"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000574" 
+
+CLASS :"ECSO_00001155"   
+  LABEL @en 'hectare'  
+  ISA :"UO_0000047"  
+
+CLASS :"ECSO_00000065"   
+  LABEL @en 'Name_Of_Each_Carbon_Pool_MOV'  
+  ISA :"ECSO_00001193"  
+
+CLASS :"ECSO_00001154"   
+  LABEL @en 'Ocean'  
+  ISA :"ECSO_00001208"  
+
+CLASS :"ECSO_00000068"   
+  LABEL @en 'Active Layer Thickness MOV'  
+  ISA :"ECSO_00001207"  
+  :"ENVO_2100001"  [1..*] :"ENVO_00000134" 
+
+CLASS :"ECSO_00001157"   
+  LABEL @en 'Identity'  
+  ISA :"ECSO_00001101"  
+  :"measuresCharacteristic"  [1..*] :"Identifier" 
+
+CLASS :"ECSO_00000067"   
+  LABEL @en 'Heterotrophic_Respiration_MOV'  
+  ISA :"ECSO_00000018"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000569" 
+
+CLASS :"ECSO_00001156"   
+  LABEL @en 'Leaf Area Index'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C024eX" 
+
+CLASS :"ECSO_00000062"   
+  LABEL @en 'Rainfall Rate MOV'  
+  ISA :"ECSO_00000519"  
+  :"RO_0000056"  [1..*] :"ENVO_01000830" 
+
+CLASS :"ECSO_00001151"   
+  LABEL @en 'Ash Free Dry Weight Biomass'  
+  ISA :"ECSO_00000513"  
+  :"RO_0000086"  [1..*] :"PATO_0001824" 
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00000061"   
+  LABEL @en 'Autotrophic_Respiration_MOV'  
+  ISA :"ECSO_00000017"  
+  :"ENVO_2100001"  [1..*] :"ONTORELA_C025cX" 
+
+CLASS :"ECSO_00001150"   
+  LABEL @en 'Non-Plant Material Biomass'  
+  ISA :"ECSO_00000513"  
+  :"measuresEntity"  [1..*] :"ECSO_00000312" 
+
+CLASS :"ArealDensity"   
+  LABEL @en 'ArealDensity'  
+
+CLASS :"ECSO_00000064"   
+  LABEL @en 'Gross_Primary_Productivity_MOV'  
+  ISA :"ECSO_00000015"  
+  :"RO_0000056"  [1..*] :"ENVO_02500007" 
+
+CLASS :"ECSO_00001153"   
+  LABEL @en 'Dry Weight Biomass'  
+  ISA :"ECSO_00000513"  
+  :"RO_0000086"  [1..*] :"PATO_0001824" 
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00000063"   
+  LABEL @en 'Longwave_Albedo_MOV'  
+  ISA :"ECSO_00001102"  
+
+CLASS :"ECSO_00001152"   
+  LABEL @en 'Sampling Site Area'  
+  ISA :"ECSO_00001117"  
+  :"measuresEntity"  [1..*] :"ENVO_00010504" 
+
+CLASS :"ECSO_00000071"   
+  LABEL @en 'Fire Emissions MOV'  
+  ISA :"ECSO_00001105"  
+  :"RO_0000056"  [1..*] :"ENVO_01000786" 
+
+CLASS :"ECSO_00001160"   
+  LABEL @en 'Count Density'  
+  ISA :"ECSO_00001168"  
+
+CLASS :"ECSO_00000070"   
+  LABEL @en 'Total Snow Depth MOV'  
+  ISA :"ECSO_00001205"  
+
+CLASS :"Time"   
+  LABEL @en 'Time'  
+
+CLASS :"VolumePerVolume"   
+  LABEL @en 'VolumePerVolume'  
+  ISA :"Proportion"  
+
+CLASS :"Kelvin"   
+
+CLASS :"ECSO_00000099"   
+  LABEL @en 'CLM4VIC_MstmipVersion1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00001188"   
+  LABEL @en 'Sample Count'  
+  ISA :"ECSO_00001141"  
+
+CLASS :"ECSO_00000098"   
+  LABEL @en 'CLASS-CTEMNplus_Mstmip_Version1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00001187"   
+  LABEL @en 'Seawater Pressure'  
+  ISA :"ECSO_00001185"  
+  :"measuresEntity"  [1..*] :"ENVO_00002149" 
+
+CLASS :"carbon_cycling"   
+  LABEL @en 'carbon cycling'  
+  ISA :"ENVO_02500000"  
+  :"RO_0002473"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ECSO_00001189"   
+  LABEL @en 'Entity Count'  
+  ISA :"ECSO_00001141"  
+
+CLASS :"ECSO_00000095"   
+  LABEL @en 'LIDAR Method'  
+  ISA :"ECSO_00000082"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000635" 
+
+CLASS :"ECSO_00001184"   
+  LABEL @en 'Dry Mass Density'  
+  ISA :"ECSO_00000552"  
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00000094"   
+  LABEL @en 'Allometric Method'  
+  ISA :"ECSO_00000082"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000540" 
+
+CLASS :"ECSO_00001183"   
+  LABEL @en 'Time Step'  
+  ISA :"ECSO_00001167"  
+
+CLASS :"MassFlux"   
+  LABEL @en 'MassFlux'  
+  ISA :"ECSO_00001121"  
+
+CLASS :"ECSO_00000097"   
+  LABEL @en 'BIOME-BGC_Mstmip_Version1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00001186"   
+  LABEL @en 'Air Pressure'  
+  ISA :"ECSO_00001185"  
+  :"measuresEntity"  [1..*] :"ENVO_00002005" 
+
+CLASS :"ECSO_00000096"   
+  LABEL @en 'MsTMIP_Simulation'  
+  ISA :"ECSO_00000083"  
+
+CLASS :"ECSO_00001185"   
+  LABEL @en 'Pressure Measurement Type'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00001191"   
+  LABEL @en 'Crown Cover Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ECSO_00000503" 
+
+CLASS :"ECSO_00001190"   
+  LABEL @en 'Aerial Cover Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C0240X" 
+
+CLASS :"ECSO_00001193"   
+  LABEL @en 'Name'  
+  ISA :"ECSO_00001101"  
+  :"measuresCharacteristic"  [1..*] :"Name" 
+
+CLASS :"ECSO_00001192"   
+  LABEL @en 'Canopy Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ENVO_00000047" 
+
+CLASS :"KilometerSquared"   
+
+CLASS :"ENVO_00000047"   
+
+CLASS :"ECSO_00001177"   
+  LABEL @en 'Non-Plant Material Length'  
+  ISA :"ECSO_00001253"  
+  :"measuresEntity"  [1..*] :"ECSO_00000312" 
+
+CLASS :"ECSO_00001176"   
+  LABEL @en 'Wave Height'  
+  ISA :"ECSO_00001175"  
+
+CLASS :"ECSO_00001179"   
+  LABEL @en 'Nitrogen Biomass Density'  
+  ISA :"ECSO_00000552"  
+  :"measuresEntity"  [1..*] :"CHEBI_25555" 
+
+CLASS :"ECSO_00001178"   
+  LABEL @en 'Soil Wet Weight'  
+  ISA :"ECSO_00001242"  
+  :"measuresEntity"  [1..*] :"ENVO_00001998" 
+  :"RO_0000086"  [1..*] :"PATO_0001823" 
+
+CLASS :"ECSO_00001173"   
+  LABEL @en 'Tide Height'  
+  ISA :"ECSO_00001175"  
+
+CLASS :"ECSO_00000083"   
+  LABEL @en 'Modeled Method'  
+  ISA :"Protocol"  
+
+CLASS :"ECSO_00001172"   
+  LABEL @en 'Litter Biomass Density'  
+  ISA :"ECSO_00001147"  
+  :"measuresEntity"  [1..*] :"ENVO_01000628" 
+
+CLASS :"ECSO_00001175"   
+  LABEL @en 'Water Height'  
+  ISA :"ECSO_00001252"  
+  :"measuresEntity"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00001174"   
+  LABEL @en 'Sea Level Height'  
+  ISA :"ECSO_00001175"  
+  :"ENVO_2100001"  [1..*] :"ocean_surface" 
+
+CLASS :"IAO_0000109"   
+  LABEL @en 'measurement data item'  
+  ISA :"IAO_0000027"  
+
+CLASS :"ECSO_00000091"   
+  LABEL @en 'Eddy Covariance Method'  
+  ISA :"ECSO_00000082" 
+  ISA :"ONTORELA_C0248X"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000323" 
+
+CLASS :"ECSO_00001180"   
+  LABEL @en 'Carbon Biomass Density'  
+  ISA :"ECSO_00000552"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ECSO_00000090"   
+  LABEL @en 'Peak Biomass Harvest Method'  
+  ISA :"ECSO_00000555"  
+
+CLASS :"ECSO_00000093"   
+  LABEL @en 'Oxygen Evolution LightDark Method'  
+  ISA :"ECSO_00000082"  
+  :"ENVO_2100001"  [1..*] :"oxygen_atom" 
+
+CLASS :"ECSO_00001182"   
+  LABEL @en 'GramPerMeterSquared'  
+  ISA :"UO_0000052"  
+
+CLASS :"ECSO_00000092"   
+  LABEL @en 'Carbon14 Uptake Method'  
+  ISA :"ECSO_00000082"  
+  :"ENVO_2100001"  [1..*] :"CHEBI_36927" 
+
+CLASS :"ECSO_00001181"   
+  LABEL @en 'NumberPerMeterSquared'  
+  ISA :"UO_0000054"  
+
+CLASS :"UO_0000109"   
+  LABEL @en 'pressure unit'  
+  ISA :"UO_0000000"  
+
+CLASS :"Name"   
+
+CLASS :"ECSO_00001129"   
+  LABEL @en 'Net Carbon Respiration Rate Flux'  
+  ISA :"ECSO_00000016"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"Concept"   
+  LABEL @en 'Concept'  
+
+CLASS :"ENVO_00002297"   
+  LABEL @en 'environmental feature'  
+  ISA :"Entity"  
+
+CLASS :"ECSO_00000037"   
+  LABEL @en 'Annual Net Primary Productivity Flux'  
+  ISA :"ECSO_00000021"  
+
+CLASS :"ECSO_00001126"   
+  LABEL @en 'Oceanic Carbonate Concentration'  
+  ISA :"ECSO_00000565"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000325" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002010" 
+
+CLASS :"ECSO_00001247"   
+  LABEL @en 'volumetric density unit'  
+  ISA :"UO_0000182"  
+
+CLASS :"ECSO_00001125"   
+  LABEL @en 'Dissolved Organic Carbon Concentration'  
+  ISA :"ECSO_00000512"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000329" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002006" 
+  :"measuresEntity"  [1..*] :"ONTORELA_C0258X" 
+
+CLASS :"ECSO_00001246"   
+  LABEL @en 'Oxygen Concentration'  
+  ISA :"ECSO_00000512"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C025aX" 
+
+CLASS :"ECSO_00001128"   
+  LABEL @en 'Carbon Specific Net Production Rate'  
+  ISA :"ECSO_00000519"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ECSO_00001249"   
+  LABEL @en 'Pheophytin Concentration'  
+  ISA :"ECSO_00000518"  
+  :"measuresEntity"  [1..*] :"ECSO_00000564" 
+
+CLASS :"ECSO_00001127"   
+  LABEL @en 'Carbon Percentage'  
+  ISA :"ECSO_00001102" 
+  ISA :"ECSO_00000520"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ECSO_00001248"   
+  LABEL @en 'GramPerMeterCubed'  
+  ISA :"ECSO_00001247"  
+
+CLASS :"ECSO_00000033"   
+  LABEL @en 'Wood Carbon Pool'  
+  ISA :"ECSO_00000343"  
+
+CLASS :"ECSO_00001122"   
+  LABEL @en 'Freshwater Total Inorganic Carbon Concentration'  
+  ISA :"ECSO_00000539"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000337" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002011" 
+  :"measuresEntity"  [1..*] :"ONTORELA_C0250X" 
+
+CLASS :"ECSO_00001243"   
+  LABEL @en 'Chlorophyll Concentration'  
+  ISA :"ECSO_00000518"  
+  :"measuresEntity"  [1..*] :"ECSO_00000562" 
+
+CLASS :"ECSO_00000032"   
+  LABEL @en 'Grass Carbon Pool'  
+  ISA :"ECSO_00000343"  
+
+CLASS :"ECSO_00001121"   
+  LABEL @en 'Flux'  
+  ISA :"MeasuredCharacteristic"  
+
+CLASS :"ECSO_00001242"   
+  LABEL @en 'mass_measurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00000035"   
+  LABEL @en 'Dissolved Organic Carbon Pool'  
+  ISA :"ECSO_00000331"  
+
+CLASS :"ECSO_00001245"   
+  LABEL @en 'GramPerCentimeterCubed'  
+  ISA :"UO_0000052"  
+
+CLASS :"ECSO_00000034"   
+  LABEL @en 'Leaf Litter Carbon Pool'  
+  ISA :"ECSO_00000206"  
+
+CLASS :"ECSO_00001123"   
+  LABEL @en 'Net Assimilation Rate Flux'  
+  ISA :"ECSO_00000514"  
+
+CLASS :"ECSO_00001244"   
+  LABEL @en 'GramPerCentimeterCubed'  
+  ISA :"UO_0000052"  
+
+CLASS :"ECSO_00000031"   
+  LABEL @en 'Benthic Algae Carbon Pool'  
+  ISA :"ECSO_00000343"  
+
+CLASS :"ECSO_00001120"   
+  LABEL @en 'Concentration'  
+  ISA :"MeasuredCharacteristic"  
+
+CLASS :"ECSO_00001241"   
+  LABEL @en 'Soil Dry Weight'  
+  ISA :"ECSO_00001242"  
+  :"RO_0000086"  [1..*] :"PATO_0001824" 
+  :"measuresEntity"  [1..*] :"ENVO_00001998" 
+
+CLASS :"UO_0000110"   
+  LABEL @en 'pascal'  
+  ISA :"UO_0000109"  
+
+CLASS :"ECSO_00000030"   
+  LABEL @en 'Leaf Carbon Pool'  
+  ISA :"ECSO_00000343"  
+
+CLASS :"ECSO_00001240"   
+  LABEL @en 'Number'  
+  ISA :"ECSO_00001239"  
+
+CLASS :"CHEBI_27594"   
+  LABEL @en 'carbon atom'  
+  ISA :"CHEBI_33560"  
+
+CLASS :"ECSO_00001118"   
+  LABEL @en 'Aquatic Total Organic Carbon Concentration'  
+  ISA :"ECSO_00001130"  
+
+CLASS :"ECSO_00001239"   
+  LABEL @en 'count unit'  
+  ISA :"UO_0000000"  
+
+CLASS :"ENVO_01000635"   
+  LABEL @en 'land'  
+  ISA :"ENVO_01000324" 
+  ISA :"ONTORELA_C024aX"  
+
+CLASS :"ECSO_00001115"   
+  LABEL @en 'Temporal Rate'  
+  ISA :"MeasuredCharacteristic"  
+
+CLASS :"ECSO_00001236"   
+  LABEL @en 'Volume Measurement Type'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00000025"   
+  LABEL @en 'Carbon Pool'  
+  ISA :"Entity"  
+  :"RO_0002473"  [1..*] :"ECSO_00000329" 
+
+CLASS :"ECSO_00001114"   
+  LABEL @en 'biomass'  
+  ISA :"Mass"  
+  :"RO_0002473"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00001235"   
+  LABEL @en 'Seawater Velocity'  
+  ISA :"ECSO_00001234"  
+  :"BFO_0000050"  [1..*] :"ENVO_00001999" 
+
+CLASS :"ECSO_00002569"   
+  LABEL @en 'carbon'  
+  ISA :"CHEBI_23367"  
+
+CLASS :"ENVO_00002042"   
+  :"BFO_0000050"  [1..*] :"ENVO_00010504" 
+
+CLASS :"ECSO_00000028"   
+  LABEL @en 'Plankton Carbon Pool'  
+  ISA :"ECSO_00000343"  
+
+CLASS :"ECSO_00001117"   
+  LABEL @en 'Area Measurement Type'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00001238"   
+  LABEL @en 'Physical Feature Width'  
+  ISA :"ECSO_00001254"  
+  :"measuresEntity"  [1..*] :"ENVO_00003075" 
+
+CLASS :"ENVO_00002041"   
+
+CLASS :"ECSO_00000027"   
+  LABEL @en 'Soil Carbon Pool'  
+  ISA :"ECSO_00000341" 
+  ISA :"ECSO_00000331"  
+
+CLASS :"ECSO_00001116"   
+  LABEL @en 'Ammonium Concentration'  
+  ISA :"ECSO_00000512"  
+  :"STATO_0000101"  [1..*] :"CHEBI_51143" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002006" 
+  :"measuresEntity"  [1..*] :"CHEBI_51143" 
+  :"BFO_0000050"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00001237"   
+  LABEL @en 'Precipitation Volume'  
+  ISA :"ECSO_00001236"  
+  :"measuresEntity"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ENVO_00002040"   
+  ISA :"ONTORELA_C0266X"  
+
+CLASS :"ECSO_00001111"   
+  LABEL @en 'Belowground Biomass'  
+  ISA :"ECSO_00000513"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C023eX" 
+
+CLASS :"ECSO_00001232"   
+  LABEL @en 'Specifc Gross Production Flux'  
+  ISA :"ECSO_00001256"  
+
+CLASS :"ECSO_00000021"   
+  LABEL @en 'Net Primary Production Carbon Flux'  
+  ISA :"ECSO_00000015"  
+
+CLASS :"ECSO_00001110"   
+  LABEL @en 'Soil Bulk Density'  
+  ISA :"ECSO_00001198"  
+  :"RO_0002473"  [1..*] :"ENVO_00005802" 
+  :"measuresEntity"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ECSO_00001231"   
+  LABEL @en 'Lake Temperature'  
+  ISA :"ECSO_00001227"  
+
+CLASS :"ECSO_00001113"   
+  LABEL @en 'High Temperature Combustion'  
+  ISA :"ECSO_00000082"  
+
+CLASS :"ECSO_00001234"   
+  LABEL @en 'Water Velocity'  
+  ISA :"ECSO_00000519"  
+  :"measuresEntity"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00001112"   
+  LABEL @en 'Volumetric Water Content Method'  
+  ISA :"ECSO_00000082"  
+
+CLASS :"ECSO_00001233"   
+  LABEL @en 'Wind Speed'  
+  ISA :"ECSO_00000519"  
+  :"measuresEntity"  [1..*] :"ENVO_00002005" 
+
+CLASS :"UO_0000002"   
+
+CLASS :"UO_0000003"   
+
+CLASS :"ECSO_00000020"   
+  LABEL @en 'Gross Primary Production Carbon Flux'  
+  ISA :"ECSO_00000015"  
+  :"ENVO_2100001"  [1..*] :"ONTORELA_C024aX" 
+
+CLASS :"ECSO_00001230"   
+  LABEL @en 'Soil Temperature'  
+  ISA :"ECSO_00001104"  
+  :"measuresEntity"  [1..*] :"ENVO_00001998" 
+
+CLASS :"UO_0000000"   
+  LABEL @en 'Unit'  
+
+CLASS :"UO_0000001"   
+  LABEL @en 'linear unit'  
+  ISA :"UO_0000000"  
+
+CLASS :"UO_0000005"   
+  LABEL @en 'temperature unit'  
+  ISA :"UO_0000000"  
+
+CLASS :"UO_0000008"   
+  ISA :"UO_0000001"  
+
+CLASS :"ArealMassDensity"   
+  LABEL @en 'ArealMassDensity'  
+  ISA :"ECSO_00000551"  
+
+CLASS :"ocean_surface"   
+  LABEL @en 'ocean surface'  
+  ISA :"ENVO_00010504" 
+  ISA :"ONTORELA_C0244X"  
+
+CLASS :"Unit"   
+  LABEL @en 'Unit'  
+
+CLASS :"PAR"   
+  LABEL @en 'PAR'  
+  ISA :"ECSO_00001103"  
+
+CLASS :"ENVO_00002033"   
+  :"RO_0000086"  [1..*] :"PATO_0001422" 
+
+CLASS :"ECSO_00000059"   
+  LABEL @en 'Snow_Water_Equivalent_MOV'  
+  ISA :"ECSO_00001102"  
+
+CLASS :"ECSO_00001148"   
+  LABEL @en 'Plant Material Biomass'  
+  ISA :"ECSO_00000513"  
+  :"measuresEntity"  [1..*] :"ECSO_00000503" 
+
+CLASS :"ECSO_00000058"   
+  LABEL @en 'Soil Layer Node Depth MOV'  
+  ISA :"ECSO_00001207"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000574" 
+
+CLASS :"ECSO_00001147"   
+  LABEL @en 'Plant Material Biomass Density'  
+  ISA :"ECSO_00000552"  
+  :"measuresEntity"  [1..*] :"ECSO_00000503" 
+
+CLASS :"ENVO_00002030"   
+
+CLASS :"ECSO_00001149"   
+  LABEL @en 'Non-Plant Material Biomass Density'  
+  ISA :"ECSO_00000552"  
+  :"measuresEntity"  [1..*] :"ECSO_00000312" 
+
+CLASS :"CHEBI_38101"   
+
+CLASS :"ECSO_00000055"   
+  LABEL @en 'Soil Layer Top Depth MOV'  
+  ISA :"ECSO_00001207"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000574" 
+
+CLASS :"ECSO_00001144"   
+  LABEL @en 'Total Soil Nitrogen Concentration'  
+  ISA :"ECSO_00000512"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C0238X" 
+  :"STATO_0000101"  [1..*] :"CHEBI_25555" 
+  :"STATO_0000259"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ECSO_00000054"   
+  LABEL @en 'Surface_Runoff_MOV'  
+  ISA :"ECSO_00000519"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000635" 
+
+CLASS :"ECSO_00001143"   
+  LABEL @en 'Carbon Biomass'  
+  ISA :"ECSO_00000513"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ECSO_00000057"   
+  LABEL @en 'Size_Of_Each_Carbon_Pool_MOV'  
+  ISA :"ECSO_00001180"  
+
+CLASS :"ECSO_00001146"   
+  LABEL @en 'Freshwater'  
+  ISA :"ECSO_00001208"  
+
+CLASS :"Centimeter"   
+
+CLASS :"ECSO_00000056"   
+  LABEL @en 'Near_Surface_Module_Of_The_Wind_MOV'  
+  ISA :"ECSO_00000519"  
+  :"RO_0000056"  [1..*] :"ENVO_01000793" 
+  :"ENVO_2100001"  [1..*] :"ENVO_01000324" 
+
+CLASS :"ECSO_00001145"   
+  LABEL @en 'Nitrogen Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"CHEBI_25555" 
+
+CLASS :"ECSO_00000051"   
+  LABEL @en 'Surface_Pressure_MOV'  
+  ISA :"ECSO_00001185"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000324" 
+
+CLASS :"ECSO_00001140"   
+  LABEL @en 'Transpiration Height'  
+  ISA :"ECSO_00001175"  
+
+CLASS :"ECSO_00000050"   
+  LABEL @en 'Leaf Area Index MOV'  
+  ISA :"ECSO_00001102"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000503" 
+
+CLASS :"ECSO_00000053"   
+  LABEL @en 'Average Layer Soil Temperature MOV'  
+  ISA :"ECSO_00001104"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000574" 
+
+CLASS :"ECSO_00001142"   
+  LABEL @en 'Carbon Stable Isotope Ratio'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"CHEBI_36928" 
+
+CLASS :"ENVO_01000628"   
+  LABEL @en 'plant litter'  
+  ISA :"ENVO_01000155"  
+  :"RO_0000086"  [1..*] :"PATO_0001422" 
+  :"RO_0002473"  [1..*] :"ECSO_00000503" 
+
+CLASS :"ECSO_00000052"   
+  LABEL @en 'Average_Layer_Soil_Moisture_MOV'  
+  ISA :"ECSO_00001102"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000574" 
+
+CLASS :"ECSO_00001141"   
+  LABEL @en 'count_MeasurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"UO_0000012"   
+  LABEL @en 'kelvin'  
+  ISA :"UO_0000005"  
+
+CLASS :"MassDensity"   
+  LABEL @en 'MassDensity'  
+
+CLASS :"ECSO_00000060"   
+  LABEL @en 'Total_Soil_Carbon_MOV'  
+  ISA :"ECSO_00001180"  
+
+CLASS :"UO_0000015"   
+  LABEL @en 'centimeter'  
+  ISA :"UO_0000001"  
+
+CLASS :"UO_0000016"   
+  LABEL @en 'millimeter'  
+  ISA :"UO_0000001"  
+
+CLASS :"Length"   
+  LABEL @en 'Length'  
+
+CLASS :"IAO_0000030"   
+  LABEL @en 'information content entity'  
+  ISA :"BFO_0000031"  
+
+CLASS :"ENVO_00002149"   
+
+CLASS :"LiterPerSecond"   
+  ISA :"ECSO_00000561"  
+
+CLASS :"ECSO_00000048"   
+  LABEL @en 'Absorbed Fraction Incoming PAR MOV'  
+  ISA :"ECSO_00001102"  
+
+CLASS :"ECSO_00001137"   
+  LABEL @en 'Net Primary Production Biomass Flux'  
+  ISA :"ECSO_00000514"  
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00000047"   
+  LABEL @en 'Total Respiration MOV'  
+  ISA :"ECSO_00000016"  
+  :"RO_0000056"  [1..*] :"ENVO_02500008" 
+
+CLASS :"ECSO_00001136"   
+  LABEL @en 'Growth Rate'  
+  ISA :"ECSO_00000519"  
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00001257"   
+  LABEL @en 'Specific Respiration Flux'  
+  ISA :"ECSO_00001256"  
+
+CLASS :"ECSO_00001139"   
+  LABEL @en 'Wet Weight Biomass'  
+  ISA :"ECSO_00000513"  
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+  :"RO_0000086"  [1..*] :"PATO_0001823" 
+
+CLASS :"ECSO_00000049"   
+  LABEL @en 'Near_Surface_Air_Temperature_MOV'  
+  ISA :"ECSO_00001104"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000324" 
+
+CLASS :"ECSO_00001138"   
+  LABEL @en 'Carbon to Nitrogen Ratio'  
+  ISA :"ECSO_00001102" 
+  ISA :"ONTORELA_C0261X"  
+  :"measuresEntity"  [1..*] :"CHEBI_25555" 
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ECSO_00000044"   
+  LABEL @en 'Net_Longwave_Radiation_MOV'  
+  ISA :"ECSO_00001106"  
+
+CLASS :"ECSO_00001133"   
+  LABEL @en 'Vegetation Carbon Change Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C026aX" 
+
+CLASS :"ECSO_00001254"   
+  LABEL @en 'Width'  
+  ISA :"ECSO_00000553" 
+  ISA :"ONTORELA_C025eX"  
+
+CLASS :"ECSO_00000043"   
+  LABEL @en 'Total_Living_Biomass_MOV'  
+  ISA :"ECSO_00001147"  
+  :"RO_0002473"  [1..*] :"ONTORELA_C0266X" 
+
+CLASS :"ECSO_00001132"   
+  LABEL @en 'Oceanic Carbon Dioxide Concentration'  
+  ISA :"ECSO_00000530"  
+  :"measuresEntity"  [1..*] :"ECSO_00000323" 
+  :"BFO_0000050"  [1..*] :"ENVO_00002010" 
+  :"STATO_0000101"  [1..*] :"ECSO_00000323" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002010" 
+
+CLASS :"ECSO_00001253"   
+  LABEL @en 'Length'  
+  ISA :"ECSO_00000553" 
+  ISA :"ONTORELA_C026eX"  
+
+CLASS :"ECSO_00000046"   
+  LABEL @en 'Near Surface CO2 Concentration MOV'  
+  ISA :"ECSO_00000580"  
+  :"ENVO_2100001"  [1..*] :"ENVO_00010504" 
+  :"measuresEntity"  [1..*] :"ECSO_00000323" 
+  :"BFO_0000050"  [1..*] :"ENVO_00002005" 
+  :"STATO_0000101"  [1..*] :"ECSO_00000323" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002005" 
+
+CLASS :"ECSO_00001135"   
+  LABEL @en 'Aboveground Biomass'  
+  ISA :"ECSO_00000513"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C026cX" 
+
+CLASS :"ECSO_00001256"   
+  LABEL @en 'Specific Flux'  
+  ISA :"ECSO_00000514"  
+  :"measuresUsingStandard"  [1..*] :"ECSO_00000560" 
+
+CLASS :"ECSO_00000045"   
+  LABEL @en 'Total Soil Wetness MOV'  
+  ISA :"ECSO_00001102"  
+
+CLASS :"ECSO_00001134"   
+  LABEL @en 'Soil Carbon Change Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C0252X" 
+
+CLASS :"ECSO_00001255"   
+  LABEL @en 'Circumference'  
+  ISA :"ECSO_00000553"  
+
+CLASS :"ECSO_00001250"   
+  LABEL @en 'Depth'  
+  ISA :"ECSO_00000553"  
+
+CLASS :"ECSO_00001131"   
+  LABEL @en 'Oceanic Bicarbonate Concentration'  
+  ISA :"ECSO_00000538"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000326" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002010" 
+
+CLASS :"ECSO_00001252"   
+  LABEL @en 'Height'  
+  ISA :"ECSO_00000553" 
+  ISA :"ONTORELA_C0231X"  
+
+CLASS :"ECSO_00001130"   
+  LABEL @en 'Organic Carbon Concentration, in Water'  
+  ISA :"ECSO_00000520"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000329" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002006" 
+  :"measuresEntity"  [1..*] :"ECSO_00000329" 
+  :"BFO_0000050"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00001251"   
+  LABEL @en 'Diameter'  
+  ISA :"ECSO_00000553"  
+
+CLASS :"Volume"   
+  LABEL @en 'Volume'  
+
+CLASS :"IAO_0000027"   
+  LABEL @en 'data item'  
+  ISA :"IAO_0000030"  
+
+CLASS :"UO_0000027"   
+  LABEL @en 'degree Celsius'  
+  ISA :"UO_0000005"  
+
+CLASS :"Molality"   
+  LABEL @en 'Molality'  
+  ISA :"ECSO_00001120"  
+
+CLASS :"PATO_0000128"   
+  LABEL @en 'weight'  
+  ISA :"PATO_0001018"  
+
+CLASS :"UO_0000272"   
+  LABEL @en 'millimetres of mercury'  
+  ISA :"UO_0000109"  
+
+CLASS :"PATO_0000125"   
+  LABEL @en 'mass'  
+  ISA :"PATO_0001018"  
+
+CLASS :"MeasurementType"   
+  LABEL @en 'Measurement Type'  
+  :"RO_0000056"  [1..*] :"ECSO_00000546" 
+
+CLASS :"ECSO_00003195"   
+  LABEL @en 'Calcium Carbonate'  
+  ISA :"CHEBI_24835"  
+
+CLASS :"ECSO_Leaf_Decomposition"   
+  ISA :"Concept"  
+
+CLASS :"MilligramPerMeterCubedPerDay"   
+  ISA :"ECSO_00000561"  
+
+CLASS :"ENVO_00003075"   
+
+CLASS :"UO_0000163"   
+  ISA :"UO_0000187"  
+
+CLASS :"UO_0000164"   
+  LABEL @en 'mass volume percentage'  
+  ISA :"UO_0000187"  
+
+CLASS :"UO_0000047"   
+
+CLASS :"UO_0000168"   
+  LABEL @en 'parts per thousand'  
+  ISA :"UO_0000166"  
+
+CLASS :"UO_0000165"   
+  LABEL @en 'volume percentage'  
+  ISA :"UO_0000187"  
+
+CLASS :"UO_0000166"   
+  LABEL @en 'parts per notation unit'  
+  ISA :"UO_0000186"  
+
+CLASS :"UO_0000169"   
+  LABEL @en 'parts per million'  
+  ISA :"UO_0000166"  
+
+CLASS :"Celsius"   
+
+CLASS :"MeasuredCharacteristic"   
+
+CLASS :"UO_0000054"   
+  LABEL @en 'areal density unit'  
+  ISA :"UO_0000182"  
+
+CLASS :"UO_0000051"   
+
+CLASS :"UO_0000052"   
+  LABEL @en 'mass density unit'  
+  ISA :"UO_0000182"  
+
+CLASS :"PATO_0001432"   
+  LABEL @en 'decayed'  
+  ISA :"PATO_0000169"  
+
+CLASS :"PATO_0001674"   
+  LABEL @en 'catalytic (activity) concentration'  
+  ISA :"PATO_0000033"  
+
+CLASS :"PATO_0001681"   
+  LABEL @en 'molar mass'  
+  ISA :"PATO_0000125"  
+
+CLASS :"KilogramPerMeterSquaredPerDay"   
+  ISA :"ECSO_00000560"  
+
+CLASS :"PATO_0001680"   
+  LABEL @en 'molar volume'  
+  ISA :"PATO_0001241"  
+
+CLASS :"VolumetricRate"   
+  LABEL @en 'VolumetricRate'  
+  ISA :"ECSO_00001115"  
+
+CLASS :"Speed"   
+  LABEL @en 'Speed'  
+  ISA :"ECSO_00001115"  
+
+CLASS :"ENVO_00010504"   
+  :"BFO_0000050"  [1..*] :"ONTORELA_C0244X" 
+
+CLASS :"UO_0000182"   
+  LABEL @en 'density unit'  
+  ISA :"UO_0000000"  
+
+CLASS :"UO_0000186"   
+  LABEL @en 'dimensionless unit'  
+  ISA :"UO_0000000"  
+
+CLASS :"UO_0000183"   
+  LABEL @en 'linear density unit'  
+  ISA :"UO_0000182"  
+
+CLASS :"ECSO_00003196"   
+  LABEL @en 'Calcium Carbonate Concentration'  
+  ISA :"ECSO_00000512"  
+  :"measuresEntity"  [1..*] :"ECSO_00003195" 
+  :"measuresCharacteristic"  [1..*] :"ECSO_00001120" 
+
+CLASS :"UO_0000187"   
+  LABEL @en 'percent'  
+  ISA :"UO_0000190"  
+
+CLASS :"PATO_0000001"   
+  LABEL @en 'quality'  
+  ISA :"BFO_0000020"  
+
+CLASS :"UO_0000190"   
+  LABEL @en 'ratio'  
+  ISA :"UO_0000186"  
+
+CLASS :"UO_0000191"   
+  LABEL @en 'fraction'  
+  ISA :"UO_0000190"  
+
+CLASS :"UO_0000076"   
+  ISA :"UO_0000191"  
+
+CLASS :"PATO_0001018"   
+
+CLASS :"PATO_0000169"   
+  LABEL @en 'viability'  
+  ISA :"PATO_0001995"  
+
+CLASS :"ECSO_00003030"   
+  LABEL @en 'organic_content'  
+  ISA :"MeasuredCharacteristic"  
+
+CLASS :"MolePerKilogram"   
+  ISA :"UO_0000051"  
+
+CLASS :"MicroeinsteinsPerMeterSquaredPerSecond"   
+  ISA :"ECSO_00000560"  
+
+CLASS :"ECSO_00001199"   
+  LABEL @en 'volumetric_density_MeasurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00001198"   
+  LABEL @en 'mass_density_MeasurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00001195"   
+  LABEL @en 'Area Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ENVO_00010504" 
+
+CLASS :"ECSO_00001194"   
+  LABEL @en 'Sampled Individuals Proportion'  
+  ISA :"ECSO_00001102"  
+
+CLASS :"ECSO_00001197"   
+  LABEL @en 'Plant Cover Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C023cX" 
+
+CLASS :"PATO_0001025"   
+
+CLASS :"ECSO_00001196"   
+  LABEL @en 'Carbon Specific Gross Production Rate'  
+  ISA :"ECSO_00000519"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"MicromolePerKilogram"   
+  ISA :"UO_0000051"  
+
+CLASS :"CHEBI_50860"   
+
+CLASS :"UO_0000095"   
+
+CLASS :"PATO_0000033"   
+
+CLASS :"Proportion"   
+  LABEL @en 'Proportion'  
+
+CLASS :"PATO_0001241"   
+
+CLASS :"CHEBI_25555"   
+  LABEL @en 'nitrogen atom'  
+  ISA :"CHEBI_33300"  
+
+CLASS :"ECSO_00003031"   
+  LABEL @en 'soil organic_content'  
+  ISA :"ECSO_00000513"  
+  :"measuresEntity"  [1..*] :"ENVO_00001998" 
+  :"measuresCharacteristic"  [1..*] :"ECSO_00003030" 
+
+CLASS :"PATO_0000165"   
+  LABEL @en 'time'  
+  ISA :"PATO_0001018"  
+
+CLASS :"Pascal"   
+
+CLASS :"ECSO_00000514"   
+  LABEL @en 'Flux Measurement Type'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00000513"   
+  LABEL @en 'biomass_MeasurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00000516"   
+  LABEL @en 'Chlorophyll-a Concentration'  
+  ISA :"ECSO_00001243"  
+  :"measuresEntity"  [1..*] :"ECSO_00000563" 
+
+CLASS :"ECSO_00000515"   
+  LABEL @en 'depth'  
+  ISA :"Length"  
+
+CLASS :"ECSO_00000510"   
+  LABEL @en 'Circumference'  
+  ISA :"Length"  
+
+CLASS :"ECSO_00002932"   
+  LABEL @en 'carbon concentration_of'  
+  ISA :"ECSO_00000512"  
+  :"measuresEntity"  [1..*] :"ECSO_00002569" 
+  :"measuresCharacteristic"  [1..*] :"ECSO_00001120" 
+
+CLASS :"ECSO_00000512"   
+  LABEL @en 'Concentration Measurement Type'  
+  ISA :"MeasurementType"  
+  :"STATO_0000101"  [1..*] :"Entity" 
+  :"STATO_0000259"  [1..*] :"Entity" 
+
+CLASS :"ECSO_00000511"   
+  LABEL @en 'Height'  
+  ISA :"Length"  
+
+CLASS :"ENVO_01000048"   
+  ISA :"ONTORELA_C0268X"  
+
+CLASS :"FahrenheitDegree"   
+
+CLASS :"ECSO_00000518"   
+  LABEL @en 'Plant Pigment Concentration'  
+  ISA :"ECSO_00000512"  
+
+CLASS :"MassSpecificCount"   
+  LABEL @en 'MassSpecificCount'  
+  ISA :"ECSO_00001120"  
+
+CLASS :"ECSO_00000517"   
+  LABEL @en 'Soil Moisture Percentage'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C0234X" 
+  :"measuresUsingProtocol"  [1..*] :"ECSO_00001112" 
+
+CLASS :"ECSO_00000519"   
+  LABEL @en 'temporal_rate_MeasurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"NumberPerMeterSquared"   
+
+CLASS :"ECSO_00000503"   
+  LABEL @en 'Plant Material'  
+  ISA :"ENVO_01000155" 
+  ISA :"ONTORELA_C0266X"  
+
+CLASS :"ECSO_00000502"   
+  LABEL @en 'Litter Carbon Concentration'  
+  ISA :"ECSO_00000520"  
+  :"STATO_0000101"  [1..*] :"CHEBI_27594" 
+  :"STATO_0000259"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00000505"   
+  LABEL @en 'Experiment'  
+  ISA :"Protocol"  
+
+CLASS :"ECSO_00000504"   
+  LABEL @en 'Phytoplankton'  
+  ISA :"ECSO_00000310" 
+  ISA :"ONTORELA_C025cX"  
+
+CLASS :"ENVO_01000155"   
+  :"ENVO_2100001"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ENVO_01000277"   
+  ISA :"ONTORELA_C0236X"  
+
+CLASS :"ECSO_00000501"   
+  LABEL @en 'Tree'  
+  ISA :"ECSO_00000306"  
+  :"RO_0002473"  [1..*] :"ENVO_00002040" 
+
+CLASS :"MolePerLiter"   
+  ISA :"UO_0000051"  
+
+CLASS :"degree_Fahrenheit"   
+  LABEL @en 'degree Fahrenheit'  
+  ISA :"UO_0000005"  
+
+CLASS :"ECSO_00000507"   
+  LABEL @en 'Natural experiment'  
+  ISA :"ECSO_00000505"  
+
+CLASS :"VolumetricDensity"   
+  LABEL @en 'VolumetricMassDensity'  
+
+CLASS :"ECSO_00000506"   
+  LABEL @en 'Manipulative experiment'  
+  ISA :"ECSO_00000505"  
+
+CLASS :"CHEBI_23367"   
+
+CLASS :"ECSO_00000509"   
+  LABEL @en 'diameter'  
+  ISA :"Length"  
+
+CLASS :"ENVO_01000281"   
+
+CLASS :"ECSO_00000508"   
+  LABEL @en 'Macroalgae'  
+  ISA :"ECSO_00000570"  
+
+CLASS :"ECSO_00000536"   
+  LABEL @en 'Carbon Dioxide Flux'  
+  ISA :"ECSO_00000514"  
+
+CLASS :"ECSO_00000535"   
+  LABEL @en 'Oceanic Total Inorganic Carbon Concentration'  
+  ISA :"ECSO_00000539"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000337" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002010" 
+  :"measuresEntity"  [1..*] :"ONTORELA_C024cX" 
+
+CLASS :"ECSO_00000538"   
+  LABEL @en 'Bicarbonate Concentration'  
+  ISA :"ECSO_00000539"  
+  :"measuresEntity"  [1..*] :"ONTORELA_C0242X" 
+  :"STATO_0000101"  [1..*] :"ECSO_00000326" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00000537"   
+  LABEL @en 'Freshwater Chlorophyll Fluorescence'  
+  ISA :"ECSO_00000524"  
+
+CLASS :"ECSO_00000532"   
+  LABEL @en 'Soil Heterotrophic Respiration Carbon Flux'  
+  ISA :"ECSO_00000018"  
+
+CLASS :"Foot"   
+  LABEL @en 'foot'  
+  ISA :"UO_0000001"  
+
+CLASS :"ECSO_00000531"   
+  LABEL @en 'Total Soil Carbon'  
+  ISA :"ECSO_00001143"  
+  :"measuresUsingProtocol"  [1..*] :"ECSO_00000555" 
+  :"measuresEntity"  [1..*] :"ONTORELA_C023aX" 
+
+CLASS :"ENVO_01000266"   
+
+CLASS :"ECSO_00000534"   
+  LABEL @en 'Phytoplankton Primary Production Carbon Flux'  
+  ISA :"ECSO_00000015"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000504" 
+  :"RO_0001025"  [1..*] :"ENVO_00002030" 
+
+CLASS :"ECSO_00000533"   
+  LABEL @en 'Grassland Above Ground Net Primary Production Carbon Flux'  
+  ISA :"ECSO_00000301"  
+  :"measuresUsingProtocol"  [1..*] :"ECSO_00000090" 
+  :"BFO_0000050"  [1..*] :"ECSO_00000503" 
+
+CLASS :"ECSO_00000530"   
+  LABEL @en 'CO2 Concentration'  
+  ISA :"ECSO_00000512"  
+  :"measuresEntity"  [1..*] :"ECSO_00000323" 
+  :"BFO_0000050"  [1..*] :"ONTORELA_C0246X" 
+
+CLASS :"PATO_0001710"   
+  LABEL @en '3-D extent'  
+  ISA :"PATO_0001241"  
+
+CLASS :"ECSO_00000539"   
+  LABEL @en 'Aquatic Inorganic Carbon Concentration, all forms'  
+  ISA :"ECSO_00000512"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000337" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00000525"   
+  LABEL @en 'Molar concentration'  
+  ISA :"PATO_0000033"  
+
+CLASS :"ECSO_00000524"   
+  LABEL @en 'Fluorescence_measurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00000527"   
+  LABEL @en 'ecosystem component entity'  
+  ISA :"Entity"  
+
+CLASS :"ECSO_00000526"   
+  LABEL @en 'group'  
+  ISA :"Entity"  
+
+CLASS :"ECSO_00000521"   
+  LABEL @en 'Alkalinity'  
+  ISA :"MeasuredCharacteristic"  
+
+CLASS :"ENVO_01000254"   
+  LABEL @en 'environmental system'  
+  ISA :"Entity"  
+
+CLASS :"ECSO_00000520"   
+  LABEL @en 'Organic Carbon Concentration'  
+  ISA :"ECSO_00000512"  
+
+CLASS :"ECSO_00000523"   
+  LABEL @en 'thickness'  
+  ISA :"Length"  
+
+CLASS :"ECSO_00000522"   
+  LABEL @en 'Freshwater Carbon Dioxide Concentration'  
+  ISA :"ECSO_00000530"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000323" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002011" 
+  :"measuresEntity"  [1..*] :"ECSO_00000323" 
+  :"BFO_0000050"  [1..*] :"ENVO_00002011" 
+
+CLASS :"Area"   
+  LABEL @en 'Area'  
+
+CLASS :"Count"   
+  LABEL @en 'Count'  
+
+CLASS :"Millimeter"   
+
+CLASS :"CHEBI_24431"   
+  ISA :"ECSO_00000527"  
+
+CLASS :"ENVO_01000020"   
+  ISA :"ONTORELA_C0268X"  
+
+CLASS :"ECSO_00000529"   
+  LABEL @en 'mass concentration'  
+  ISA :"PATO_0000033"  
+
+CLASS :"ECSO_00000528"   
+  LABEL @en 'Near_Surface_Specific_Humidity_MOV'  
+  ISA :"ECSO_00001102"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01000324" 
+
+CLASS :"TagNumber"   
+
+CLASS :"MilligramPerMeterSquaredPerDay"   
+  ISA :"ECSO_00000560"  
+
+CLASS :"ENVO_00001999"   
+
+CLASS :"ENVO_00001998"   
+
+CLASS :"PATO_00002035"   
+
+CLASS :"PATO_0001309"   
+  LABEL @en 'duration'  
+  ISA :"PATO_0000001"  
+
+CLASS :"PATO_0001422"   
+  LABEL @en 'dead'  
+  ISA :"PATO_0000169"  
+
+CLASS :"oxygen_atom"   
+  LABEL @en 'oxygen atom'  
+  ISA :"CHEBI_33303"  
+
+CLASS :"Irradiance"   
+  LABEL @en 'Irradiance'  
+  ISA :"Proportion" 
+  ISA :"ECSO_00001121"  
+
+CLASS :"STATO_0000184"   
+  LABEL @en 'ratio'  
+  ISA :"IAO_0000027"  
+
+CLASS :"Characteristic"   
+  LABEL @en 'Characteristic'  
+
+CLASS :"CentimeterPerSecond"   
+  ISA :"ECSO_00000561"  
+
+CLASS :"PATO_0001995"   
+
+CLASS :"ENVO_01000406"   
+  LABEL @en 'snow'  
+  ISA :"ENVO_00010483"  
+  :"RO_0002473"  [1..*] :"ONTORELA_C0236X" 
+
+CLASS :"ENVO_01000177"   
+
+CLASS :"CHEBI_33582"   
+
+CLASS :"Entity"   
+  LABEL @en 'Entity'  
+  :"ECSO_00000318"  [1..*] :"ECSO_00000314" 
+
+CLASS :"ECSO_00001207"   
+  LABEL @en 'Soil Depth'  
+  ISA :"ECSO_00001250"  
+  :"measuresEntity"  [1..*] :"ENVO_00001998" 
+
+CLASS :"CHEBI_24835"   
+  ISA :"CHEBI_23367"  
+
+CLASS :"ENVO_01000203"   
+  LABEL @en 'Environmental Condition'  
+  ISA :"PATO_0000001"  
+
+CLASS :"ENVO_01000324"   
+  ISA :"ONTORELA_C0244X"  
+
+CLASS :"Number"   
+
+CLASS :"ECSO_00001206"   
+  LABEL @en 'Lake Depth'  
+  ISA :"ECSO_00001203"  
+  :"ENVO_2100001"  [1..*] :"ENVO_00000105" 
+
+CLASS :"ENVO_00000111"   
+  :"RO_0002473"  [1..*] :"ECSO_00000501" 
+
+CLASS :"ECSO_00001209"   
+  LABEL @en 'Litter Depth'  
+  ISA :"ECSO_00001250"  
+  :"measuresEntity"  [1..*] :"ENVO_01000628" 
+
+CLASS :"ENVO_00005802"   
+
+CLASS :"ECSO_00001208"   
+  LABEL @en 'Secchi Depth Method'  
+  ISA :"ECSO_00000082"  
+
+CLASS :"ENVO_00005801"   
+  :"RO_0002473"  [1..*] :"ENVO_01000349" 
+
+CLASS :"ECSO_00001203"   
+  LABEL @en 'Water Depth'  
+  ISA :"ECSO_00001250"  
+  :"measuresEntity"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00002777"   
+  LABEL @en 'periphyton MassSpecificProductionRate'  
+  ISA :"ECSO_00000519"  
+  :"measuresEntity"  [1..*] :"ECSO_00002776" 
+  :"measuresCharacteristic"  [1..*] :"ECSO_00002775" 
+
+CLASS :"ECSO_00001202"   
+  LABEL @en 'Biomass Concentration'  
+  ISA :"ECSO_00000512"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+  :"BFO_0000050"  [1..*] :"ENVO_01000155" 
+  :"STATO_0000101"  [1..*] :"CHEBI_27594" 
+  :"STATO_0000259"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ENVO_01000321"   
+
+CLASS :"ECSO_00001205"   
+  LABEL @en 'Snow Depth'  
+  ISA :"ECSO_00001250"  
+  :"measuresEntity"  [1..*] :"ENVO_01000406" 
+
+CLASS :"ECSO_00002775"   
+  LABEL @en 'MassSpecificProductionRate'  
+  ISA :"MeasuredCharacteristic"  
+
+CLASS :"ECSO_00001204"   
+  LABEL @en 'Seawater Depth'  
+  ISA :"ECSO_00001203"  
+  :"ENVO_2100001"  [1..*] :"ocean_surface" 
+
+CLASS :"ECSO_00002776"   
+  LABEL @en 'periphyton'  
+  ISA :"ECSO_00000310"  
+
+CLASS :"ENVO_01000323"   
+
+CLASS :"ECSO_00000110"   
+  LABEL @en 'VEGAS2.1_MstmipVersion1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"BFO_0000005"   
+  LABEL @en 'dependent continuant'  
+
+CLASS :"AmountOfSubstanceConcentration"   
+  LABEL @en 'AmountOfSubstanceConcentration'  
+  ISA :"ECSO_00001121" 
+  ISA :"ECSO_00001120" 
+  ISA :"Proportion"  
+
+CLASS :"ECSO_00001201"   
+  LABEL @en 'Number Volumetric Density'  
+  ISA :"ECSO_00001199"  
+
+CLASS :"BFO_0000003"   
+  LABEL @en 'Occurrent'  
+
+CLASS :"ECSO_00000111"   
+  LABEL @en 'VISIT_MstmipVersion1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00001200"   
+  LABEL @en 'Biomass Volumetric Density'  
+  ISA :"ECSO_00001199"  
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ENVO_00000105"   
+
+CLASS :"MassPerMass"   
+  LABEL @en 'MassPerMass'  
+  ISA :"Proportion"  
+
+CLASS :"ECSO_00000107"   
+  LABEL @en 'SIBCASA_MstmipVersion1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000106"   
+  LABEL @en 'SIB3-JPL_MstmipVersion1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000109"   
+  LABEL @en 'TRIPLEX-GHG_MstmipVersion1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000108"   
+  LABEL @en 'TEM6_MstmipVersion1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000103"   
+  LABEL @en 'ISAM_Mstmip_Version1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000102"   
+  LABEL @en 'GTEC_Mstmip_Version1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ENVO_01000793"   
+  LABEL @en 'atmospheric wind'  
+  ISA :"ENVO_02500000"  
+
+CLASS :"ECSO_00000105"   
+  LABEL @en 'ORCHIDEE-LSCE_MstmipVersion1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000104"   
+  LABEL @en 'LPJ-wsl_Mstmip_Version1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000341"   
+  LABEL @en 'Inorganic Carbon Pool'  
+  ISA :"ECSO_00000025"  
+
+CLASS :"ECSO_00000582"   
+  LABEL @en 'Methane Flux'  
+  ISA :"ECSO_00000514"  
+  :"measuresEntity"  [1..*] :"ECSO_00000324" 
+
+CLASS :"ECSO_00000101"   
+  LABEL @en 'DLEM_Mstmip_Version1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000343"   
+  LABEL @en 'Total Living Biomass Carbon Pool'  
+  ISA :"ECSO_00000206"  
+
+CLASS :"ECSO_00000100"   
+  LABEL @en 'CLM_Mstmip_Version1_Modeled_Method'  
+  ISA :"ECSO_00000096"  
+
+CLASS :"ECSO_00000580"   
+  LABEL @en 'CO2 Concentration in air'  
+  ISA :"ECSO_00000530"  
+  :"measuresEntity"  [1..*] :"ECSO_00000323" 
+  :"BFO_0000050"  [1..*] :"ENVO_00002005" 
+  :"STATO_0000101"  [1..*] :"ECSO_00000323" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002005" 
+  :"ENVO_2100001"  [1..*] :"ENVO_00010504" 
+
+CLASS :"ultraviolet"   
+  LABEL @en 'Ultraviolet'  
+  ISA :"ECSO_00001103"  
+
+CLASS :"infrared"   
+  LABEL @en 'infrared'  
+  ISA :"ECSO_00001103"  
+
+CLASS :"CHEBI_33560"   
+
+CLASS :"ECSO_00001108"   
+  LABEL @en 'Ash Weight Biomass'  
+  ISA :"ECSO_00000513"  
+  :"measuresEntity"  [1..*] :"ENVO_01000155" 
+
+CLASS :"ECSO_00001229"   
+  LABEL @en 'Ground Temperature'  
+  ISA :"ECSO_00001104"  
+  :"measuresEntity"  [1..*] :"ENVO_01000635" 
+
+CLASS :"ECSO_00000018"   
+  LABEL @en 'Heterotrophic Respiration Carbon Flux'  
+  ISA :"ECSO_00000016"  
+
+CLASS :"ECSO_00001107"   
+  LABEL @en 'Momentum Flux'  
+  ISA :"ECSO_00000514"  
+
+CLASS :"ECSO_00001228"   
+  LABEL @en 'Peat Temperature'  
+  ISA :"ECSO_00001104"  
+  :"measuresEntity"  [1..*] :"ENVO_00005774" 
+
+CLASS :"ENVO_01000786"   
+  LABEL @en 'fire'  
+  ISA :"ENVO_02500000"  
+
+CLASS :"ECSO_00001109"   
+  LABEL @en 'Nitrogen Fixation Rate'  
+  ISA :"ECSO_00000519"  
+  :"measuresEntity"  [1..*] :"CHEBI_25555" 
+
+CLASS :"ECSO_00000015"   
+  LABEL @en 'Primary Production Carbon Flux'  
+  ISA :"ECSO_00001105"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ECSO_00001104"   
+  LABEL @en 'temperature_measurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00001225"   
+  LABEL @en 'Air Temperature'  
+  ISA :"ECSO_00001104"  
+  :"measuresEntity"  [1..*] :"ENVO_00002005" 
+
+CLASS :"ECSO_00000014"   
+  LABEL @en 'Net Ecosystem Exchange Carbon Flux'  
+  ISA :"ECSO_00001105"  
+  :"measuresEntity"  [1..*] :"CHEBI_27594" 
+
+CLASS :"ECSO_00001103"   
+  LABEL @en 'solar radiation'  
+  ISA :"ECSO_00001100"  
+
+CLASS :"ECSO_00001224"   
+  LABEL @en 'Carbon Dioxide Pressure'  
+  ISA :"ECSO_00001185"  
+  :"measuresEntity"  [1..*] :"ECSO_00000323" 
+
+CLASS :"ECSO_00000017"   
+  LABEL @en 'Autotrophic Respiration Carbon Flux'  
+  ISA :"ECSO_00000016"  
+
+CLASS :"ECSO_00001106"   
+  LABEL @en 'Radiative flux'  
+  ISA :"ECSO_00000514"  
+
+CLASS :"ECSO_00001227"   
+  LABEL @en 'Water Temperature'  
+  ISA :"ECSO_00001104"  
+  :"measuresEntity"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00000016"   
+  LABEL @en 'Respiration Carbon Flux'  
+  ISA :"ECSO_00001105"  
+
+CLASS :"ECSO_00001105"   
+  LABEL @en 'Carbon Flux'  
+  ISA :"ECSO_00000514"  
+
+CLASS :"ECSO_00001226"   
+  LABEL @en 'Seawater Temperature'  
+  ISA :"ECSO_00001227"  
+  :"BFO_0000050"  [1..*] :"ENVO_00001999" 
+
+CLASS :"ECSO_00001100"   
+  LABEL @en 'electromagnetic radiation'  
+  ISA :"ENVO_00010483"  
+
+CLASS :"ECSO_00001221"   
+  LABEL @en 'Tree Crown Height'  
+  ISA :"ECSO_00001252"  
+  :"measuresEntity"  [1..*] :"ECSO_00000503" 
+
+CLASS :"ECSO_00000010"   
+  LABEL @en 'Carbon Cycle Component'  
+
+CLASS :"ECSO_00001220"   
+  LABEL @en 'Tree Canopy Height'  
+  ISA :"ECSO_00001252"  
+  :"measuresEntity"  [1..*] :"ENVO_00000047" 
+
+CLASS :"ECSO_00000013"   
+  LABEL @en 'Fire Carbon Flux'  
+  ISA :"ECSO_00001105"  
+  :"BFO_0000050"  [1..*] :"ENVO_01001305" 
+  :"measuresUsingProtocol"  [1..*] :"ONTORELA_C0248X" 
+
+CLASS :"ECSO_00001102"   
+  LABEL @en 'proportion_measurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00001223"   
+  LABEL @en 'Precipitation Height'  
+  ISA :"ECSO_00001175"  
+
+CLASS :"ECSO_00000012"   
+  LABEL @en 'Dissolved Organic Carbon Flux'  
+  ISA :"ECSO_00001105"  
+
+CLASS :"ECSO_00001101"   
+  LABEL @en '00_unclassified_measurementType'  
+  ISA :"MeasurementType"  
+
+CLASS :"ECSO_00001222"   
+  LABEL @en 'Plant Material Height'  
+  ISA :"ECSO_00001252"  
+  :"measuresEntity"  [1..*] :"ECSO_00000503" 
+
+CLASS :"ENVO_01000307"   
+
+CLASS :"ENVO_02500034"   
+  LABEL @en 'evaporation'  
+  ISA :"ENVO_02500000"  
+
+CLASS :"BFO_0000031"   
+  LABEL @en 'generically dependent continuant'  
+  ISA :"BFO_0000005"  
+
+CLASS :"ECSO_00001218"   
+  LABEL @en 'Occurrence'  
+  ISA :"ECSO_00001101"  
+
+CLASS :"ECSO_00001217"   
+  LABEL @en 'Tag Number'  
+  ISA :"ECSO_00001157"  
+  :"measuresCharacteristic"  [1..*] :"TagNumber" 
+
+CLASS :"ECSO_00001219"   
+  LABEL @en 'Latent Heat Flux'  
+  ISA :"ECSO_00001106"  
+  :"measuresEntity"  [1..*] :"ECSO_00001100" 
+
+CLASS :"ECSO_00001214"   
+  LABEL @en 'Tree Crown Diameter'  
+  ISA :"ECSO_00001251"  
+
+CLASS :"ECSO_00001213"   
+  LABEL @en 'Groundwater Depth'  
+  ISA :"ECSO_00001203"  
+  :"ENVO_2100001"  [1..*] :"ENVO_00002041" 
+
+CLASS :"ECSO_00001216"   
+  LABEL @en 'Ground Heat Flux'  
+  ISA :"ECSO_00001106"  
+  :"measuresEntity"  [1..*] :"ENVO_01000635" 
+
+CLASS :"ECSO_00001215"   
+  LABEL @en 'Tree Canopy Diameter'  
+  ISA :"ECSO_00001251"  
+
+CLASS :"ECSO_00001210"   
+  LABEL @en 'Soil Active Layer Depth'  
+  ISA :"ECSO_00001207"  
+  :"measuresEntity"  [1..*] :"ECSO_00000575" 
+
+CLASS :"ECSO_00001212"   
+  LABEL @en 'Stream Depth'  
+  ISA :"ECSO_00001203"  
+  :"ENVO_2100001"  [1..*] :"ENVO_00000023" 
+
+CLASS :"ECSO_00001211"   
+  LABEL @en 'Specifc Net Production Flux'  
+  ISA :"ECSO_00001256"  
+
+CLASS :"CHEBI_36931"   
+  LABEL @en 'carbon-12'  
+  ISA :"CHEBI_27594"  
+
+CLASS :"CHEBI_33303"   
+  LABEL @en 'chalcogen'  
+  ISA :"CHEBI_33560"  
+
+CLASS :"BFO_0000020"   
+  LABEL @en 'specifically dependent continuant'  
+
+CLASS :"CHEBI_33300"   
+
+CLASS :"CHEBI_36927"   
+  LABEL @en 'carbon-14'  
+  ISA :"CHEBI_27594"  
+
+CLASS :"CHEBI_36928"   
+  LABEL @en 'carbon-13'  
+  ISA :"CHEBI_27594"  
+
+CLASS :"ECSO_00000316"   
+  LABEL @en 'Liquid'  
+  ISA :"ECSO_00000314"  
+
+CLASS :"ECSO_00000558"   
+  LABEL @en 'Fluorescence'  
+  ISA :"MeasuredCharacteristic"  
+
+CLASS :"ECSO_00000315"   
+  LABEL @en 'Gas'  
+  ISA :"ECSO_00000314"  
+
+CLASS :"ECSO_00000557"   
+  LABEL @en 'ash_weight'  
+  ISA :"ECSO_00000556"  
+
+CLASS :"ECSO_00000317"   
+  LABEL @en 'Solid'  
+  ISA :"ECSO_00000314"  
+
+CLASS :"ECSO_00000559"   
+  LABEL @en 'rate unit'  
+  ISA :"UO_0000000"  
+
+CLASS :"ECSO_00000312"   
+  LABEL @en 'Organism'  
+  ISA :"Entity" 
+  ISA :"ONTORELA_C0231X" 
+  ISA :"ONTORELA_C025eX" 
+  ISA :"ONTORELA_C0261X" 
+  ISA :"ONTORELA_C026eX"  
+
+CLASS :"ECSO_00000554"   
+  LABEL @en 'radius'  
+  ISA :"Length"  
+
+CLASS :"ECSO_00000311"   
+  LABEL @en 'Population'  
+  ISA :"ECSO_00000526"  
+
+CLASS :"ECSO_00000553"   
+  LABEL @en 'linear_MeasurementType'  
+  ISA :"MeasurementType"  
+  :"measuresUsingProtocol"  [1..*] :"ECSO_00000094" 
+
+CLASS :"ECSO_00000314"   
+  LABEL @en 'Physical State'  
+
+CLASS :"ECSO_00000556"   
+  LABEL @en 'dry_weight'  
+  ISA :"Mass"  
+  :"RO_0000086"  [1..*] :"PATO_0001824" 
+
+CLASS :"ECSO_00000313"   
+  LABEL @en 'Species'  
+  ISA :"ECSO_00000526"  
+
+CLASS :"ECSO_00000555"   
+  LABEL @en 'Biomass Method'  
+  ISA :"ECSO_00000082" 
+  ISA :"ONTORELA_C0248X"  
+  :"ENVO_2100001"  [1..*] :"ENVO_01001305" 
+
+CLASS :"ECSO_00000550"   
+  LABEL @en 'ash_free_dry_weight'  
+  ISA :"ECSO_00000556"  
+
+CLASS :"ECSO_00000310"   
+  LABEL @en 'Community'  
+  ISA :"ECSO_00000526"  
+
+CLASS :"ECSO_00000552"   
+  LABEL @en 'biomass density'  
+  ISA :"ECSO_00001168"  
+
+CLASS :"ECSO_00000551"   
+  LABEL @en 'biomass_density'  
+  ISA :"MeasuredCharacteristic"  
+  :"RO_0002473"  [1..*] :"ECSO_00001114" 
+
+CLASS :"ENVO_02500008"   
+  LABEL @en 'ecosystem-wide respiration'  
+  ISA :"ENVO_02500000"  
+
+CLASS :"ENVO_02500007"   
+  LABEL @en 'ecosystem-wide photosynthesis'  
+  ISA :"ENVO_02500000"  
+
+CLASS :"ENVO_00010483"   
+  LABEL @en 'environmental material'  
+  ISA :"Entity"  
+
+CLASS :"ECSO_00000305"   
+  LABEL @en 'Single-Celled Organism'  
+  ISA :"ECSO_00000312"  
+
+CLASS :"ECSO_00000547"   
+  LABEL @en 'Tree growth'  
+  ISA :"ECSO_00000540"  
+
+CLASS :"ECSO_00000546"   
+  LABEL @en 'Process'  
+  ISA :"BFO_0000003" 
+  ISA :"Entity"  
+
+CLASS :"ENVO_00000023"   
+
+CLASS :"ECSO_00000307"   
+  LABEL @en 'Microbe'  
+  ISA :"ECSO_00000305"  
+
+CLASS :"ECSO_00000549"   
+  LABEL @en 'Tree Diameter at Breast Height'  
+  ISA :"ECSO_00000544"  
+
+CLASS :"ECSO_00000306"   
+  LABEL @en 'Multi-Celled Organism'  
+  ISA :"ECSO_00000312"  
+
+CLASS :"ECSO_00000548"   
+  LABEL @en 'wet_weight'  
+  ISA :"Mass"  
+  :"RO_0000086"  [1..*] :"PATO_0001823" 
+
+CLASS :"PATO_0001709"   
+  LABEL @en '2-D extent'  
+  ISA :"PATO_0001241"  
+
+CLASS :"ECSO_00000301"   
+  LABEL @en 'Aboveground Net Primary Production Carbon Flux'  
+  ISA :"ECSO_00000021"  
+
+CLASS :"ECSO_00000543"   
+  LABEL @en 'Oceanic Carbon Dioxide Flux'  
+  ISA :"ECSO_00000536"  
+  :"RO_0001025"  [1..*] :"ocean_surface" 
+
+CLASS :"ECSO_00000300"   
+  LABEL @en 'CO2 Enrichment Method'  
+  ISA :"ECSO_00000506"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000323" 
+
+CLASS :"ECSO_00000542"   
+  LABEL @en 'Marine Macroalgae Net Primary Production Carbon Flux'  
+  ISA :"ECSO_00000021"  
+  :"ENVO_2100001"  [1..*] :"ECSO_00000508" 
+  :"RO_0001025"  [1..*] :"ONTORELA_C0268X" 
+
+CLASS :"ECSO_00000545"   
+  LABEL @en 'Tree Circumference'  
+  ISA :"ECSO_00001255"  
+  :"measuresUsingProtocol"  [1..*] :"ECSO_00000094" 
+
+CLASS :"ECSO_00000544"   
+  LABEL @en 'Tree Diameter'  
+  ISA :"ECSO_00001251"  
+  :"measuresUsingProtocol"  [1..*] :"ECSO_00000094" 
+
+CLASS :"PATO_0001823"   
+  LABEL @en 'wet'  
+  ISA :"PATO_0001822"  
+
+CLASS :"PATO_0001824"   
+
+CLASS :"ECSO_00000541"   
+  LABEL @en 'Tree Height'  
+  ISA :"ECSO_00001252"  
+  :"measuresUsingProtocol"  [1..*] :"ECSO_00000094" 
+
+CLASS :"ECSO_00000540"   
+  LABEL @en 'Growth'  
+  ISA :"ECSO_00000546"  
+
+CLASS :"PATO_0001822"   
+
+CLASS :"Meter"   
+
+CLASS :"Identifier"   
+
+CLASS :"PartPerThousand"   
+
+CLASS :"ECSO_00000309"   
+  LABEL @en 'Ecosystem'  
+  ISA :"ECSO_00000526"  
+
+CLASS :"ENVO_00000015"   
+
+CLASS :"ECSO_00000308"   
+  LABEL @en 'Functional Level'  
+  ISA :"ECSO_00000010"  
+
+CLASS :"ENVO_00000134"   
+
+CLASS :"ECSO_00000337"   
+  LABEL @en 'Inorganic Carbon'  
+  ISA :"CHEBI_23367"  
+
+CLASS :"ECSO_00000579"   
+  LABEL @en 'Soil organic matter proportion'  
+  ISA :"ECSO_00001102"  
+  :"measuresEntity"  [1..*] :"ENVO_00001998" 
+  :"measuresCharacteristic"  [1..*] :"ECSO_00003030" 
+
+CLASS :"ENVO_01000349"   
+  LABEL @en 'root matter'  
+  ISA :"ENVO_01000155" 
+  ISA :"ONTORELA_C0266X"  
+
+CLASS :"ECSO_00000576"   
+  LABEL @en 'Soil Carbon Concentration'  
+  ISA :"ECSO_00000520"  
+  :"STATO_0000101"  [1..*] :"CHEBI_27594" 
+  :"STATO_0000259"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ECSO_00000575"   
+  LABEL @en 'soil active layer'  
+  ISA :"ECSO_00000574"  
+
+CLASS :"ECSO_00000336"   
+  LABEL @en 'Particulate Organic Carbon Pool'  
+  ISA :"ECSO_00000331"  
+
+CLASS :"ECSO_00000578"   
+  LABEL @en 'Aquatic Particulate Organic Carbon'  
+  ISA :"ECSO_00001130"  
+
+CLASS :"ECSO_00000335"   
+  LABEL @en 'Aboveground Woody Biomass Carbon Pool'  
+  ISA :"ECSO_00000033"  
+
+CLASS :"ECSO_00000577"   
+  LABEL @en 'Aquatic Dissolved Organic Carbon'  
+  ISA :"ECSO_00001130"  
+  :"BFO_0000050"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ECSO_00000572"   
+  LABEL @en 'particulate organic carbon'  
+  ISA :"ENVO_01000155"  
+
+CLASS :"ECSO_Leaves"   
+  ISA :"Concept"  
+
+CLASS :"ECSO_00000571"   
+  LABEL @en 'dissolved organic carbon'  
+  ISA :"ENVO_01000155"  
+
+CLASS :"ECSO_00000574"   
+  LABEL @en 'soil layer'  
+  ISA :"ENVO_01000281"  
+  :"RO_0002473"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ECSO_00000331"   
+  LABEL @en 'Organic Carbon Pool'  
+  ISA :"ECSO_00000025"  
+
+CLASS :"ECSO_00000573"   
+  LABEL @en 'plant'  
+  ISA :"ECSO_00000306" 
+  ISA :"ONTORELA_C025cX"  
+
+CLASS :"Leaf_Area_Index"   
+  LABEL @en 'Leaf Area Index'  
+  ISA :"UO_0000190"  
+
+CLASS :"ECSO_00000570"   
+  LABEL @en 'Algae'  
+  ISA :"ECSO_00000306"  
+
+CLASS :"KilogramPerMeterSquaredPerSecond"   
+  ISA :"ECSO_00000561" 
+  ISA :"ECSO_00000560"  
+
+CLASS :"Hectare"   
+
+CLASS :"Mass"   
+  LABEL @en 'Mass'  
+
+CLASS :"ECSO_00000206"   
+  LABEL @en 'Fixed Carbon Pool'  
+  ISA :"ECSO_00000331"  
+
+CLASS :"ECSO_00000327"   
+  LABEL @en 'Carbohydrate'  
+  ISA :"ECSO_00000329"  
+
+CLASS :"ECSO_00000569"   
+  LABEL @en 'Bacteria'  
+  ISA :"ECSO_00000305"  
+
+CLASS :"ECSO_00000205"   
+  LABEL @en 'Methane Pool'  
+  ISA :"ECSO_00000341"  
+
+CLASS :"ECSO_00000326"   
+  LABEL @en 'Bicarbonate'  
+  ISA :"ECSO_00000337"  
+
+CLASS :"ECSO_00000568"   
+  LABEL @en '%'Seawater Chlorophyll Fluorescence%''  
+  ISA :"ECSO_00000524"  
+
+CLASS :"ECSO_00000208"   
+  LABEL @en 'Dissolved Carbon Dioxide Pool'  
+
+CLASS :"ECSO_00000329"   
+  LABEL @en 'Organic Carbon'  
+  ISA :"CHEBI_50860"  
+
+CLASS :"ECSO_00000207"   
+  LABEL @en 'Atmospheric Carbon Dioxide Pool'  
+
+CLASS :"ECSO_00000328"   
+  LABEL @en 'Carbon Monoxide'  
+  ISA :"ECSO_00000337"  
+
+CLASS :"ENVO_01001305"   
+  :"RO_0002473"  [1..*] :"ECSO_00000573" 
+
+CLASS :"ECSO_00000202"   
+  LABEL @en 'Bicarbonate Pool'  
+  ISA :"ECSO_00000341"  
+
+CLASS :"ECSO_00000323"   
+  LABEL @en 'Carbon Dioxide'  
+  ISA :"ECSO_00000337"  
+
+CLASS :"ECSO_00000565"   
+  LABEL @en 'Carbonate Concentration'  
+  ISA :"ECSO_00000539"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000325" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002006" 
+  :"measuresEntity"  [1..*] :"ONTORELA_C0264X" 
+
+CLASS :"ECSO_00000201"   
+  LABEL @en 'Carbon Dioxide Diffusion Flux'  
+  ISA :"ECSO_00000536"  
+  :"measuresUsingProtocol"  [1..*] :"ECSO_00000091" 
+
+CLASS :"ECSO_00000564"   
+  LABEL @en 'Pheophytin'  
+  ISA :"CHEBI_38101"  
+
+CLASS :"ECSO_00000204"   
+  LABEL @en 'Carbonate Pool'  
+  ISA :"ECSO_00000341"  
+
+CLASS :"ECSO_00000325"   
+  LABEL @en 'Carbonate'  
+  ISA :"ECSO_00000337"  
+
+CLASS :"ECSO_00000567"   
+  LABEL @en 'Freshwater Bicarbonate Concentration'  
+  ISA :"ECSO_00000538"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000326" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002011" 
+  :"measuresEntity"  [1..*] :"ONTORELA_C0256X" 
+
+CLASS :"ECSO_00000203"   
+  LABEL @en 'Carbon Dioxide Pool'  
+  ISA :"ECSO_00000341"  
+
+CLASS :"ECSO_00000324"   
+  LABEL @en 'Methane'  
+  ISA :"ECSO_00000329"  
+
+CLASS :"ECSO_00000566"   
+  LABEL @en 'Freshwater Carbonate Concentration'  
+  ISA :"ECSO_00000565"  
+  :"STATO_0000101"  [1..*] :"ECSO_00000325" 
+  :"STATO_0000259"  [1..*] :"ENVO_00002011" 
+  :"measuresEntity"  [1..*] :"ECSO_00000325" 
+  :"BFO_0000050"  [1..*] :"ENVO_00002011" 
+
+CLASS :"ECSO_00000561"   
+  LABEL @en 'temporal rate unit'  
+  ISA :"ECSO_00000559"  
+
+CLASS :"ENVO_02500000"   
+  LABEL @en 'Environmental System Process'  
+  ISA :"ECSO_00000546"  
+
+CLASS :"ECSO_00000560"   
+  LABEL @en 'flux unit'  
+  ISA :"UO_0000000"  
+
+CLASS :"ECSO_00000321"   
+  LABEL @en 'Dissolved'  
+  ISA :"ECSO_00000314"  
+
+CLASS :"ECSO_00000563"   
+  LABEL @en 'chloroplyll-a'  
+  ISA :"ECSO_00000562"  
+
+CLASS :"ECSO_00000320"   
+  LABEL @en 'Dissolution Carbon Flux'  
+  ISA :"ECSO_00001105"  
+
+CLASS :"ECSO_00000562"   
+  LABEL @en 'Chlorophyll'  
+  ISA :"CHEBI_38101"  
+
+CLASS :"KilogramPerMeterSquared"   
+  ISA :"UO_0000052"  
+
+CLASS :"ONTORELA_C0231X"   
+  LABEL @fr 'ECSO_00001252 unionOf '
+    @en 'Height unionOf Organism | environmental feature' 
+  DESCRIPTION @fr 'ECSO_00001252 unionOf '
+    @en 'Height unionOf ' 
+
+CLASS :"ONTORELA_C0231X-el0"   
+  LABEL @fr 'ECSO_00001252 unionOf  element '
+    @en 'Height unionOf Organism | environmental feature element environmental feature' 
+  DESCRIPTION @fr 'ECSO_00001252 unionOf  element '
+    @en 'Height unionOf Organism | environmental feature element ' 
+  ISA :"ONTORELA_C0231X"  
+
+CLASS :"ONTORELA_C0234X"   
+  LABEL @fr 'ECSO_00000517 intersectionOf '
+    @en 'Soil Moisture Percentage intersectionOf ENVO_00002006' 
+  DESCRIPTION @fr 'ECSO_00000517 intersectionOf '
+    @en 'Soil Moisture Percentage intersectionOf ' 
+  ISA :"ENVO_00002006"  
+  :"BFO_0000050"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ONTORELA_C0236X"   
+  LABEL @fr 'ENVO_01000406 unionOf '
+    @en 'snow unionOf ENVO_00002006' 
+  DESCRIPTION @fr 'ENVO_01000406 unionOf '
+    @en 'snow unionOf ' 
+
+CLASS :"ONTORELA_C0238X"   
+  LABEL @fr 'ECSO_00001144 intersectionOf '
+    @en 'Total Soil Nitrogen Concentration intersectionOf nitrogen atom' 
+  DESCRIPTION @fr 'ECSO_00001144 intersectionOf '
+    @en 'Total Soil Nitrogen Concentration intersectionOf ' 
+  ISA :"CHEBI_25555"  
+  :"BFO_0000050"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ONTORELA_C023aX"   
+  LABEL @fr 'ECSO_00000531 intersectionOf '
+    @en 'Total Soil Carbon intersectionOf Organic Carbon' 
+  DESCRIPTION @fr 'ECSO_00000531 intersectionOf '
+    @en 'Total Soil Carbon intersectionOf ' 
+  ISA :"ECSO_00000329"  
+
+CLASS :"ONTORELA_C023cX"   
+  LABEL @fr 'ECSO_00001197 intersectionOf '
+    @en 'Plant Cover Percentage intersectionOf plant | ENVO_00010504' 
+  DESCRIPTION @fr 'ECSO_00001197 intersectionOf '
+    @en 'Plant Cover Percentage intersectionOf ' 
+  ISA :"ECSO_00000573"  
+  :"BFO_0000050"  [1..*] :"ENVO_00010504" 
+
+CLASS :"ONTORELA_C023eX"   
+  LABEL @fr 'ECSO_00001111 intersectionOf '
+    @en 'Belowground Biomass intersectionOf ' 
+  DESCRIPTION @fr 'ECSO_00001111 intersectionOf '
+    @en 'Belowground Biomass intersectionOf ' 
+  ISA :"ENVO_01000155"  
+  :"BFO_0000050"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ONTORELA_C0240X"   
+  LABEL @fr 'ECSO_00001190 intersectionOf '
+    @en 'Aerial Cover Percentage intersectionOf Entity | ENVO_00010504' 
+  DESCRIPTION @fr 'ECSO_00001190 intersectionOf '
+    @en 'Aerial Cover Percentage intersectionOf ' 
+  ISA :"Entity"  
+  :"BFO_0000050"  [1..*] :"ENVO_00010504" 
+
+CLASS :"ONTORELA_C0242X"   
+  LABEL @fr 'ECSO_00000538 intersectionOf '
+    @en 'Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006' 
+  DESCRIPTION @fr 'ECSO_00000538 intersectionOf '
+    @en 'Bicarbonate Concentration intersectionOf ' 
+  ISA :"ECSO_00000326"  
+  :"BFO_0000050"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ONTORELA_C0244X"   
+  LABEL @fr 'ENVO_00010504 unionOf '
+    @en 'ENVO_00010504 unionOf ocean surface | ENVO_01000324' 
+  DESCRIPTION @fr 'ENVO_00010504 unionOf '
+    @en 'ENVO_00010504 unionOf ' 
+
+CLASS :"ONTORELA_C0246X"   
+  LABEL @fr 'ECSO_00000530 unionOf '
+    @en 'CO2 Concentration unionOf ENVO_00002005 | ENVO_00002006' 
+  DESCRIPTION @fr 'ECSO_00000530 unionOf '
+    @en 'CO2 Concentration unionOf ' 
+
+CLASS :"ONTORELA_C0248X"   
+  LABEL @fr 'ECSO_00000013 unionOf '
+    @en 'Fire Carbon Flux unionOf Eddy Covariance Method | Biomass Method' 
+  DESCRIPTION @fr 'ECSO_00000013 unionOf '
+    @en 'Fire Carbon Flux unionOf ' 
+
+CLASS :"ONTORELA_C024aX"   
+  LABEL @fr 'ECSO_00000020 unionOf '
+    @en 'Gross Primary Production Carbon Flux unionOf ENVO_00000063 | land' 
+  DESCRIPTION @fr 'ECSO_00000020 unionOf '
+    @en 'Gross Primary Production Carbon Flux unionOf ' 
+
+CLASS :"ONTORELA_C024cX"   
+  LABEL @fr 'ECSO_00000535 intersectionOf '
+    @en 'Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010' 
+  DESCRIPTION @fr 'ECSO_00000535 intersectionOf '
+    @en 'Oceanic Total Inorganic Carbon Concentration intersectionOf ' 
+  ISA :"ECSO_00000337"  
+  :"BFO_0000050"  [1..*] :"ENVO_00002010" 
+
+CLASS :"ONTORELA_C024eX"   
+  LABEL @fr 'ECSO_00001156 intersectionOf '
+    @en 'Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504' 
+  DESCRIPTION @fr 'ECSO_00001156 intersectionOf '
+    @en 'Leaf Area Index intersectionOf ' 
+  ISA :"ECSO_00000503"  
+  :"BFO_0000050"  [1..*] :"ENVO_00010504" 
+
+CLASS :"ONTORELA_C0250X"   
+  LABEL @fr 'ECSO_00001122 intersectionOf '
+    @en 'Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011' 
+  DESCRIPTION @fr 'ECSO_00001122 intersectionOf '
+    @en 'Freshwater Total Inorganic Carbon Concentration intersectionOf ' 
+  ISA :"ECSO_00000337"  
+  :"BFO_0000050"  [1..*] :"ENVO_00002011" 
+
+CLASS :"ONTORELA_C0252X"   
+  LABEL @fr 'ECSO_00001134 intersectionOf '
+    @en 'Soil Carbon Change Percentage intersectionOf carbon atom' 
+  DESCRIPTION @fr 'ECSO_00001134 intersectionOf '
+    @en 'Soil Carbon Change Percentage intersectionOf ' 
+  ISA :"CHEBI_27594"  
+  :"BFO_0000050"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ONTORELA_C0254X"   
+  LABEL @fr 'ECSO_00001165 intersectionOf '
+    @en 'Soil Porewater Salinity Concentration intersectionOf ENVO_00002006' 
+  DESCRIPTION @fr 'ECSO_00001165 intersectionOf '
+    @en 'Soil Porewater Salinity Concentration intersectionOf ' 
+  ISA :"ENVO_00002006"  
+  :"BFO_0000050"  [1..*] :"ENVO_00001998" 
+
+CLASS :"ONTORELA_C0256X"   
+  LABEL @fr 'ECSO_00000567 intersectionOf '
+    @en 'Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011' 
+  DESCRIPTION @fr 'ECSO_00000567 intersectionOf '
+    @en 'Freshwater Bicarbonate Concentration intersectionOf ' 
+  ISA :"ECSO_00000326"  
+  :"BFO_0000050"  [1..*] :"ENVO_00002011" 
+
+CLASS :"ONTORELA_C0258X"   
+  LABEL @fr 'ECSO_00001125 intersectionOf '
+    @en 'Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006' 
+  DESCRIPTION @fr 'ECSO_00001125 intersectionOf '
+    @en 'Dissolved Organic Carbon Concentration intersectionOf ' 
+  ISA :"ECSO_00000329"  
+  :"BFO_0000050"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ONTORELA_C025aX"   
+  LABEL @fr 'ECSO_00001246 intersectionOf '
+    @en 'Oxygen Concentration intersectionOf oxygen atom | environmental material' 
+  DESCRIPTION @fr 'ECSO_00001246 intersectionOf '
+    @en 'Oxygen Concentration intersectionOf ' 
+  ISA :"oxygen_atom"  
+  :"BFO_0000050"  [1..*] :"ENVO_00010483" 
+
+CLASS :"ONTORELA_C025cX"   
+  LABEL @fr 'ECSO_00000061 unionOf '
+    @en 'Autotrophic Respiration MOV unionOf phytoplankton | Phytoplankton | plant' 
+  DESCRIPTION @fr 'ECSO_00000061 unionOf '
+    @en 'Autotrophic Respiration MOV unionOf ' 
+
+CLASS :"ONTORELA_C025eX"   
+  LABEL @fr 'ECSO_00001254 unionOf '
+    @en 'Width unionOf Organism | environmental feature' 
+  DESCRIPTION @fr 'ECSO_00001254 unionOf '
+    @en 'Width unionOf ' 
+
+CLASS :"ONTORELA_C025eX-el0"   
+  LABEL @fr 'ECSO_00001254 unionOf  element '
+    @en 'Width unionOf Organism | environmental feature element environmental feature' 
+  DESCRIPTION @fr 'ECSO_00001254 unionOf  element '
+    @en 'Width unionOf Organism | environmental feature element ' 
+  ISA :"ONTORELA_C025eX"  
+
+CLASS :"ONTORELA_C0261X"   
+  LABEL @fr 'ECSO_00001138 unionOf '
+    @en 'Carbon to Nitrogen Ratio unionOf Organism | environmental material' 
+  DESCRIPTION @fr 'ECSO_00001138 unionOf '
+    @en 'Carbon to Nitrogen Ratio unionOf ' 
+
+CLASS :"ONTORELA_C0261X-el0"   
+  LABEL @fr 'ECSO_00001138 unionOf  element '
+    @en 'Carbon to Nitrogen Ratio unionOf Organism | environmental material element environmental material' 
+  DESCRIPTION @fr 'ECSO_00001138 unionOf  element '
+    @en 'Carbon to Nitrogen Ratio unionOf Organism | environmental material element ' 
+  ISA :"ONTORELA_C0261X"  
+  :"BFO_0000050"  [1..*] :"ENVO_00010483" 
+
+CLASS :"ONTORELA_C0264X"   
+  LABEL @fr 'ECSO_00000565 intersectionOf '
+    @en 'Carbonate Concentration intersectionOf Carbonate | ENVO_00002006' 
+  DESCRIPTION @fr 'ECSO_00000565 intersectionOf '
+    @en 'Carbonate Concentration intersectionOf ' 
+  ISA :"ECSO_00000325"  
+  :"BFO_0000050"  [1..*] :"ENVO_00002006" 
+
+CLASS :"ONTORELA_C0266X"   
+  LABEL @fr 'ECSO_00000043 unionOf '
+    @en 'Total Living Biomass MOV unionOf plant-derived organic material | Plant Material | ENVO_00002040 | root matter' 
+  DESCRIPTION @fr 'ECSO_00000043 unionOf '
+    @en 'Total Living Biomass MOV unionOf ' 
+
+CLASS :"ONTORELA_C0268X"   
+  LABEL @fr 'ECSO_00000542 unionOf '
+    @en 'Marine Macroalgae Net Primary Production Carbon Flux unionOf ENVO_01000020 | ENVO_01000048' 
+  DESCRIPTION @fr 'ECSO_00000542 unionOf '
+    @en 'Marine Macroalgae Net Primary Production Carbon Flux unionOf ' 
+
+CLASS :"ONTORELA_C026aX"   
+  LABEL @fr 'ECSO_00001133 intersectionOf '
+    @en 'Vegetation Carbon Change Percentage intersectionOf carbon atom' 
+  DESCRIPTION @fr 'ECSO_00001133 intersectionOf '
+    @en 'Vegetation Carbon Change Percentage intersectionOf ' 
+  ISA :"CHEBI_27594"  
+  :"BFO_0000050"  [1..*] :"ENVO_01001305" 
+
+CLASS :"ONTORELA_C026cX"   
+  LABEL @fr 'ECSO_00001135 intersectionOf '
+    @en 'Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504' 
+  DESCRIPTION @fr 'ECSO_00001135 intersectionOf '
+    @en 'Aboveground Biomass intersectionOf ' 
+  ISA :"ECSO_00000503"  
+  :"BFO_0000050"  [1..*] :"ENVO_00010504" 
+
+CLASS :"ONTORELA_C026eX"   
+  LABEL @fr 'ECSO_00001253 unionOf '
+    @en 'Length unionOf Organism | environmental feature' 
+  DESCRIPTION @fr 'ECSO_00001253 unionOf '
+    @en 'Length unionOf ' 
+
+CLASS :"ONTORELA_C026eX-el0"   
+  LABEL @fr 'ECSO_00001253 unionOf  element '
+    @en 'Length unionOf Organism | environmental feature element environmental feature' 
+  DESCRIPTION @fr 'ECSO_00001253 unionOf  element '
+    @en 'Length unionOf Organism | environmental feature element ' 
+  ISA :"ONTORELA_C026eX"  
+

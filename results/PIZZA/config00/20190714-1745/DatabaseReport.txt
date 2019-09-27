@@ -1,0 +1,669 @@
+
+======================================================= 
+Database Report
+======================================================= 
+pizza
+Schemas: 1
+  Schema [id=ONTORELA, schemaType=BASE]
+
+--------------------------------------- 
+ONTORELA
+--------------------------------------- 
+All Tables: 250
+Join Tables: 150
+Types: 2
+Foreign keys: 400
+Constraints: 150
+
+Tables:
+  T0000::Thing
+  T0001::ThinAndCrispyBase
+  T0002::FourSeasons
+  T0003::FishTopping
+  T0004::GreenPepperTopping
+  T0005::NonVegetarianPizza
+  T0006::OliveTopping
+  T0007::AsparagusTopping
+  T0008::American
+  T0009::CaperTopping
+  T000a::Country
+  T000b::MushroomTopping
+  T000c::TomatoTopping
+  T000d::SweetPepperTopping
+  T000e::PepperTopping
+  T000f::Pizza
+  T0010::VegetarianTopping
+  T0011::RosemaryTopping
+  T0012::AnchoviesTopping
+  T0013::Medium
+  T0014::SpicyPizza
+  T0015::AmericanHot
+  T0016::NamedPizza
+  T0017::ThinAndCrispyPizza
+  T0018::Napoletana
+  T0019::OnionTopping
+  T001a::PetitPoisTopping
+  T001b::VegetarianPizza
+  T001c::HotSpicedBeefTopping
+  T001d::FruitTopping
+  T001e::CheeseTopping
+  T001f::PeperoniSausageTopping
+  T0020::CajunSpiceTopping
+  T0021::SpicyTopping
+  T0022::MeatyPizza
+  T0023::Mushroom
+  T0024::SpinachTopping
+  T0025::PineKernels
+  T0026::MozzarellaTopping
+  T0027::Siciliana
+  T0028::SlicedTomatoTopping
+  T0029::QuattroFormaggi
+  T002a::PrinceCarlo
+  T002b::Food
+  T002c::FourCheesesTopping
+  T002d::Cajun
+  T002e::GorgonzolaTopping
+  T002f::UnclosedPizza
+  T0030::HotGreenPepperTopping
+  T0031::Caprina
+  T0032::Mild
+  T0033::ValuePartition
+  T0034::Fiorentina
+  T0035::Margherita
+  T0036::VegetarianPizzaEquivalent1
+  T0037::CheeseyVegetableTopping
+  T0038::DeepPanBase
+  T0039::JalapenoPepperTopping
+  T003a::ArtichokeTopping
+  T003b::TobascoPepperSauce
+  T003c::Veneziana
+  T003d::MixedSeafoodTopping
+  T003e::Giardiniera
+  T003f::Soho
+  T0040::HerbSpiceTopping
+  T0041::IceCream
+  T0042::LaReine
+  T0043::VegetarianPizzaEquivalent2
+  T0044::SultanaTopping
+  T0045::SloppyGiuseppe
+  T0046::ParmesanTopping
+  T0047::Capricciosa
+  T0048::RedOnionTopping
+  T0049::InterestingPizza
+  T004a::Hot
+  T004b::SundriedTomatoTopping
+  T004c::SpicyPizzaEquivalent
+  T004d::Spiciness
+  T004e::DomainConcept
+  T004f::ParmaHamTopping
+  T0050::Rosa
+  T0051::Parmense
+  T0052::ChickenTopping
+  T0053::MeatTopping
+  T0054::PolloAdAstra
+  T0055::PrawnsTopping
+  T0056::RocketTopping
+  T0057::PeperonataTopping
+  T0058::LeekTopping
+  T0059::SauceTopping
+  T005a::FruttiDiMare
+  T005b::VegetableTopping
+  T005c::PizzaBase
+  T005d::GoatsCheeseTopping
+  T005e::HamTopping
+  T005f::NutTopping
+  T0060::PizzaTopping
+  T0061::GarlicTopping
+  T0062::RealItalianPizza
+  T0063::CheeseyPizza
+  T0064::FourSeasons_hasTopping_CaperTopping
+  T0065::FourSeasons_hasTopping_MushroomTopping
+  T0066::FourSeasons_hasTopping_TomatoTopping
+  T0067::FourSeasons_hasTopping_MozzarellaTopping
+  T0068::FourSeasons_hasTopping_OliveTopping
+  T0069::FourSeasons_hasTopping_AnchoviesTopping
+  T006a::FourSeasons_hasTopping_PeperoniSausageTopping
+  T006b::FishTopping_hasSpiciness_Mild
+  T006c::OliveTopping_hasSpiciness_Mild
+  T006d::AsparagusTopping_hasSpiciness_Mild
+  T006e::American_hasTopping_MozzarellaTopping
+  T006f::American_hasTopping_PeperoniSausageTopping
+  T0070::American_hasTopping_TomatoTopping
+  T0071::CaperTopping_hasSpiciness_Mild
+  T0072::MushroomTopping_hasSpiciness_Mild
+  T0073::SweetPepperTopping_hasSpiciness_Mild
+  T0074::Pizza_hasTopping_PizzaTopping
+  T0075::Pizza_hasBase_PizzaBase
+  T0076::RosemaryTopping_hasSpiciness_Mild
+  T0077::AmericanHot_hasTopping_HotGreenPepperTopping
+  T0078::AmericanHot_hasTopping_MozzarellaTopping
+  T0079::AmericanHot_hasTopping_JalapenoPepperTopping
+  T007a::AmericanHot_hasTopping_PeperoniSausageTopping
+  T007b::AmericanHot_hasTopping_TomatoTopping
+  T007c::Napoletana_hasTopping_MozzarellaTopping
+  T007d::Napoletana_hasTopping_OliveTopping
+  T007e::Napoletana_hasTopping_AnchoviesTopping
+  T007f::Napoletana_hasTopping_CaperTopping
+  T0080::Napoletana_hasTopping_TomatoTopping
+  T0081::OnionTopping_hasSpiciness_Medium
+  T0082::PetitPoisTopping_hasSpiciness_Mild
+  T0083::HotSpicedBeefTopping_hasSpiciness_Hot
+  T0084::PeperoniSausageTopping_hasSpiciness_Medium
+  T0085::CajunSpiceTopping_hasSpiciness_Hot
+  T0086::Mushroom_hasTopping_TomatoTopping
+  T0087::Mushroom_hasTopping_MozzarellaTopping
+  T0088::Mushroom_hasTopping_MushroomTopping
+  T0089::SpinachTopping_hasSpiciness_Mild
+  T008a::MozzarellaTopping_hasSpiciness_Mild
+  T008b::Siciliana_hasTopping_MozzarellaTopping
+  T008c::Siciliana_hasTopping_ArtichokeTopping
+  T008d::Siciliana_hasTopping_OliveTopping
+  T008e::Siciliana_hasTopping_GarlicTopping
+  T008f::Siciliana_hasTopping_HamTopping
+  T0090::Siciliana_hasTopping_AnchoviesTopping
+  T0091::Siciliana_hasTopping_TomatoTopping
+  T0092::SlicedTomatoTopping_hasSpiciness_Mild
+  T0093::SlicedTomatoTopping_hasSpiciness_Mild
+  T0094::QuattroFormaggi_hasTopping_TomatoTopping
+  T0095::QuattroFormaggi_hasTopping_FourCheesesTopping
+  T0096::PrinceCarlo_hasTopping_RosemaryTopping
+  T0097::PrinceCarlo_hasTopping_ParmesanTopping
+  T0098::PrinceCarlo_hasTopping_LeekTopping
+  T0099::PrinceCarlo_hasTopping_TomatoTopping
+  T009a::PrinceCarlo_hasTopping_MozzarellaTopping
+  T009b::Food_hasIngredient_Food
+  T009c::FourCheesesTopping_hasSpiciness_Mild
+  T009d::Cajun_hasTopping_TobascoPepperSauce
+  T009e::Cajun_hasTopping_PeperonataTopping
+  T009f::Cajun_hasTopping_MozzarellaTopping
+  T00a0::Cajun_hasTopping_PrawnsTopping
+  T00a1::Cajun_hasTopping_OnionTopping
+  T00a2::Cajun_hasTopping_TomatoTopping
+  T00a3::GorgonzolaTopping_hasSpiciness_Mild
+  T00a4::UnclosedPizza_hasTopping_MozzarellaTopping
+  T00a5::HotGreenPepperTopping_hasSpiciness_Hot
+  T00a6::Caprina_hasTopping_TomatoTopping
+  T00a7::Caprina_hasTopping_SundriedTomatoTopping
+  T00a8::Caprina_hasTopping_GoatsCheeseTopping
+  T00a9::Caprina_hasTopping_MozzarellaTopping
+  T00aa::Fiorentina_hasTopping_OliveTopping
+  T00ab::Fiorentina_hasTopping_ParmesanTopping
+  T00ac::Fiorentina_hasTopping_GarlicTopping
+  T00ad::Fiorentina_hasTopping_MozzarellaTopping
+  T00ae::Fiorentina_hasTopping_TomatoTopping
+  T00af::Fiorentina_hasTopping_SpinachTopping
+  T00b0::Margherita_hasTopping_TomatoTopping
+  T00b1::Margherita_hasTopping_MozzarellaTopping
+  T00b2::JalapenoPepperTopping_hasSpiciness_Hot
+  T00b3::ArtichokeTopping_hasSpiciness_Mild
+  T00b4::TobascoPepperSauce_hasSpiciness_Hot
+  T00b5::Veneziana_hasTopping_OliveTopping
+  T00b6::Veneziana_hasTopping_OnionTopping
+  T00b7::Veneziana_hasTopping_CaperTopping
+  T00b8::Veneziana_hasTopping_SultanaTopping
+  T00b9::Veneziana_hasTopping_PineKernels
+  T00ba::Veneziana_hasTopping_TomatoTopping
+  T00bb::Veneziana_hasTopping_MozzarellaTopping
+  T00bc::Giardiniera_hasTopping_OliveTopping
+  T00bd::Giardiniera_hasTopping_PetitPoisTopping
+  T00be::Giardiniera_hasTopping_PeperonataTopping
+  T00bf::Giardiniera_hasTopping_MozzarellaTopping
+  T00c0::Giardiniera_hasTopping_MushroomTopping
+  T00c1::Giardiniera_hasTopping_TomatoTopping
+  T00c2::Giardiniera_hasTopping_SlicedTomatoTopping
+  T00c3::Giardiniera_hasTopping_LeekTopping
+  T00c4::Soho_hasTopping_MozzarellaTopping
+  T00c5::Soho_hasTopping_OliveTopping
+  T00c6::Soho_hasTopping_GarlicTopping
+  T00c7::Soho_hasTopping_RocketTopping
+  T00c8::Soho_hasTopping_TomatoTopping
+  T00c9::Soho_hasTopping_ParmesanTopping
+  T00ca::IceCream_hasTopping_FruitTopping
+  T00cb::LaReine_hasTopping_OliveTopping
+  T00cc::LaReine_hasTopping_HamTopping
+  T00cd::LaReine_hasTopping_MushroomTopping
+  T00ce::LaReine_hasTopping_MozzarellaTopping
+  T00cf::LaReine_hasTopping_TomatoTopping
+  T00d0::SultanaTopping_hasSpiciness_Medium
+  T00d1::SloppyGiuseppe_hasTopping_GreenPepperTopping
+  T00d2::SloppyGiuseppe_hasTopping_OnionTopping
+  T00d3::SloppyGiuseppe_hasTopping_TomatoTopping
+  T00d4::SloppyGiuseppe_hasTopping_MozzarellaTopping
+  T00d5::SloppyGiuseppe_hasTopping_HotSpicedBeefTopping
+  T00d6::ParmesanTopping_hasSpiciness_Mild
+  T00d7::Capricciosa_hasTopping_MozzarellaTopping
+  T00d8::Capricciosa_hasTopping_TomatoTopping
+  T00d9::Capricciosa_hasTopping_OliveTopping
+  T00da::Capricciosa_hasTopping_PeperonataTopping
+  T00db::Capricciosa_hasTopping_HamTopping
+  T00dc::Capricciosa_hasTopping_AnchoviesTopping
+  T00dd::Capricciosa_hasTopping_CaperTopping
+  T00de::SundriedTomatoTopping_hasSpiciness_Mild
+  T00df::SundriedTomatoTopping_hasSpiciness_Mild
+  T00e0::ParmaHamTopping_hasSpiciness_Mild
+  T00e1::Rosa_hasTopping_MozzarellaTopping
+  T00e2::Rosa_hasTopping_GorgonzolaTopping
+  T00e3::Rosa_hasTopping_TomatoTopping
+  T00e4::Parmense_hasTopping_AsparagusTopping
+  T00e5::Parmense_hasTopping_MozzarellaTopping
+  T00e6::Parmense_hasTopping_TomatoTopping
+  T00e7::Parmense_hasTopping_HamTopping
+  T00e8::Parmense_hasTopping_ParmesanTopping
+  T00e9::ChickenTopping_hasSpiciness_Mild
+  T00ea::PolloAdAstra_hasTopping_RedOnionTopping
+  T00eb::PolloAdAstra_hasTopping_MozzarellaTopping
+  T00ec::PolloAdAstra_hasTopping_GarlicTopping
+  T00ed::PolloAdAstra_hasTopping_SweetPepperTopping
+  T00ee::PolloAdAstra_hasTopping_TomatoTopping
+  T00ef::PolloAdAstra_hasTopping_ChickenTopping
+  T00f0::PolloAdAstra_hasTopping_CajunSpiceTopping
+  T00f1::RocketTopping_hasSpiciness_Medium
+  T00f2::PeperonataTopping_hasSpiciness_Medium
+  T00f3::LeekTopping_hasSpiciness_Mild
+  T00f4::FruttiDiMare_hasTopping_TomatoTopping
+  T00f5::FruttiDiMare_hasTopping_MixedSeafoodTopping
+  T00f6::FruttiDiMare_hasTopping_GarlicTopping
+  T00f7::GoatsCheeseTopping_hasSpiciness_Mild
+  T00f8::NutTopping_hasSpiciness_Mild
+  T00f9::GarlicTopping_hasSpiciness_Medium
+Foreign keys: 
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0005, origin=T0005::NonVegetarianPizza, destination=T0000::Thing, linkedAtt={T0005_uid::NonVegetarianPizza_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000a, origin=T000a::Country, destination=T0000::Thing, linkedAtt={T000a_uid::Country_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0010, origin=T0010::VegetarianTopping, destination=T0000::Thing, linkedAtt={T0010_uid::VegetarianTopping_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0014, origin=T0014::SpicyPizza, destination=T0000::Thing, linkedAtt={T0014_uid::SpicyPizza_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0017, origin=T0017::ThinAndCrispyPizza, destination=T0000::Thing, linkedAtt={T0017_uid::ThinAndCrispyPizza_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001b, origin=T001b::VegetarianPizza, destination=T0000::Thing, linkedAtt={T001b_uid::VegetarianPizza_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0021, origin=T0021::SpicyTopping, destination=T0000::Thing, linkedAtt={T0021_uid::SpicyTopping_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0022, origin=T0022::MeatyPizza, destination=T0000::Thing, linkedAtt={T0022_uid::MeatyPizza_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0033, origin=T0033::ValuePartition, destination=T0000::Thing, linkedAtt={T0033_uid::ValuePartition_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0036, origin=T0036::VegetarianPizzaEquivalent1, destination=T0000::Thing, linkedAtt={T0036_uid::VegetarianPizzaEquivalent1_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0043, origin=T0043::VegetarianPizzaEquivalent2, destination=T0000::Thing, linkedAtt={T0043_uid::VegetarianPizzaEquivalent2_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0049, origin=T0049::InterestingPizza, destination=T0000::Thing, linkedAtt={T0049_uid::InterestingPizza_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004c, origin=T004c::SpicyPizzaEquivalent, destination=T0000::Thing, linkedAtt={T004c_uid::SpicyPizzaEquivalent_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004e, origin=T004e::DomainConcept, destination=T0000::Thing, linkedAtt={T004e_uid::DomainConcept_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0062, origin=T0062::RealItalianPizza, destination=T0000::Thing, linkedAtt={T0062_uid::RealItalianPizza_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0063, origin=T0063::CheeseyPizza, destination=T0000::Thing, linkedAtt={T0063_uid::CheeseyPizza_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002e, origin=T002e::GorgonzolaTopping, destination=T001e::CheeseTopping, linkedAtt={T002e_uid::GorgonzolaTopping_uid uid_domain=T001e_uid::CheeseTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0051, origin=T0051::Parmense, destination=T0016::NamedPizza, linkedAtt={T0051_uid::Parmense_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002f, origin=T002f::UnclosedPizza, destination=T000f::Pizza, linkedAtt={T002f_uid::UnclosedPizza_uid uid_domain=T000f_uid::Pizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002c, origin=T002c::FourCheesesTopping, destination=T001e::CheeseTopping, linkedAtt={T002c_uid::FourCheesesTopping_uid uid_domain=T001e_uid::CheeseTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0026, origin=T0026::MozzarellaTopping, destination=T001e::CheeseTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T001e_uid::CheeseTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0002, origin=T0002::FourSeasons, destination=T0016::NamedPizza, linkedAtt={T0002_uid::FourSeasons_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0053, origin=T0053::MeatTopping, destination=T0060::PizzaTopping, linkedAtt={T0053_uid::MeatTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003d, origin=T003d::MixedSeafoodTopping, destination=T0003::FishTopping, linkedAtt={T003d_uid::MixedSeafoodTopping_uid uid_domain=T0003_uid::FishTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0058, origin=T0058::LeekTopping, destination=T005b::VegetableTopping, linkedAtt={T0058_uid::LeekTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000c, origin=T000c::TomatoTopping, destination=T005b::VegetableTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004f, origin=T004f::ParmaHamTopping, destination=T005e::HamTopping, linkedAtt={T004f_uid::ParmaHamTopping_uid uid_domain=T005e_uid::HamTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0007, origin=T0007::AsparagusTopping, destination=T005b::VegetableTopping, linkedAtt={T0007_uid::AsparagusTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0041, origin=T0041::IceCream, destination=T002b::Food, linkedAtt={T0041_uid::IceCream_uid uid_domain=T002b_uid::Food_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002a, origin=T002a::PrinceCarlo, destination=T0016::NamedPizza, linkedAtt={T002a_uid::PrinceCarlo_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0001, origin=T0001::ThinAndCrispyBase, destination=T005c::PizzaBase, linkedAtt={T0001_uid::ThinAndCrispyBase_uid uid_domain=T005c_uid::PizzaBase_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0048, origin=T0048::RedOnionTopping, destination=T0019::OnionTopping, linkedAtt={T0048_uid::RedOnionTopping_uid uid_domain=T0019_uid::OnionTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0003, origin=T0003::FishTopping, destination=T0060::PizzaTopping, linkedAtt={T0003_uid::FishTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0024, origin=T0024::SpinachTopping, destination=T005b::VegetableTopping, linkedAtt={T0024_uid::SpinachTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0034, origin=T0034::Fiorentina, destination=T0016::NamedPizza, linkedAtt={T0034_uid::Fiorentina_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0015, origin=T0015::AmericanHot, destination=T0016::NamedPizza, linkedAtt={T0015_uid::AmericanHot_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000e, origin=T000e::PepperTopping, destination=T005b::VegetableTopping, linkedAtt={T000e_uid::PepperTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0009, origin=T0009::CaperTopping, destination=T005b::VegetableTopping, linkedAtt={T0009_uid::CaperTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001f, origin=T001f::PeperoniSausageTopping, destination=T0053::MeatTopping, linkedAtt={T001f_uid::PeperoniSausageTopping_uid uid_domain=T0053_uid::MeatTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005b, origin=T005b::VegetableTopping, destination=T0060::PizzaTopping, linkedAtt={T005b_uid::VegetableTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000f, origin=T000f::Pizza, destination=T002b::Food, linkedAtt={T000f_uid::Pizza_uid uid_domain=T002b_uid::Food_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003e, origin=T003e::Giardiniera, destination=T0016::NamedPizza, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0031, origin=T0031::Caprina, destination=T0016::NamedPizza, linkedAtt={T0031_uid::Caprina_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003c, origin=T003c::Veneziana, destination=T0016::NamedPizza, linkedAtt={T003c_uid::Veneziana_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005e, origin=T005e::HamTopping, destination=T0053::MeatTopping, linkedAtt={T005e_uid::HamTopping_uid uid_domain=T0053_uid::MeatTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0019, origin=T0019::OnionTopping, destination=T005b::VegetableTopping, linkedAtt={T0019_uid::OnionTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0037, origin=T0037::CheeseyVegetableTopping, destination=T001e::CheeseTopping, linkedAtt={T0037_uid::CheeseyVegetableTopping_uid uid_domain=T001e_uid::CheeseTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0020, origin=T0020::CajunSpiceTopping, destination=T0040::HerbSpiceTopping, linkedAtt={T0020_uid::CajunSpiceTopping_uid uid_domain=T0040_uid::HerbSpiceTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0023, origin=T0023::Mushroom, destination=T0016::NamedPizza, linkedAtt={T0023_uid::Mushroom_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0016, origin=T0016::NamedPizza, destination=T000f::Pizza, linkedAtt={T0016_uid::NamedPizza_uid uid_domain=T000f_uid::Pizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0028, origin=T0028::SlicedTomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T0028_uid::SlicedTomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0061, origin=T0061::GarlicTopping, destination=T005b::VegetableTopping, linkedAtt={T0061_uid::GarlicTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0059, origin=T0059::SauceTopping, destination=T0060::PizzaTopping, linkedAtt={T0059_uid::SauceTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0025, origin=T0025::PineKernels, destination=T005f::NutTopping, linkedAtt={T0025_uid::PineKernels_uid uid_domain=T005f_uid::NutTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0056, origin=T0056::RocketTopping, destination=T005b::VegetableTopping, linkedAtt={T0056_uid::RocketTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0018, origin=T0018::Napoletana, destination=T0016::NamedPizza, linkedAtt={T0018_uid::Napoletana_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003b, origin=T003b::TobascoPepperSauce, destination=T0059::SauceTopping, linkedAtt={T003b_uid::TobascoPepperSauce_uid uid_domain=T0059_uid::SauceTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0006, origin=T0006::OliveTopping, destination=T005b::VegetableTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001d, origin=T001d::FruitTopping, destination=T0060::PizzaTopping, linkedAtt={T001d_uid::FruitTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0045, origin=T0045::SloppyGiuseppe, destination=T0016::NamedPizza, linkedAtt={T0045_uid::SloppyGiuseppe_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0038, origin=T0038::DeepPanBase, destination=T005c::PizzaBase, linkedAtt={T0038_uid::DeepPanBase_uid uid_domain=T005c_uid::PizzaBase_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0047, origin=T0047::Capricciosa, destination=T0016::NamedPizza, linkedAtt={T0047_uid::Capricciosa_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0011, origin=T0011::RosemaryTopping, destination=T0040::HerbSpiceTopping, linkedAtt={T0011_uid::RosemaryTopping_uid uid_domain=T0040_uid::HerbSpiceTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004b, origin=T004b::SundriedTomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T004b_uid::SundriedTomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0039, origin=T0039::JalapenoPepperTopping, destination=T000e::PepperTopping, linkedAtt={T0039_uid::JalapenoPepperTopping_uid uid_domain=T000e_uid::PepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0042, origin=T0042::LaReine, destination=T0016::NamedPizza, linkedAtt={T0042_uid::LaReine_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004a, origin=T004a::Hot, destination=T004d::Spiciness, linkedAtt={T004a_uid::Hot_uid uid_domain=T004d_uid::Spiciness_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0004, origin=T0004::GreenPepperTopping, destination=T000e::PepperTopping, linkedAtt={T0004_uid::GreenPepperTopping_uid uid_domain=T000e_uid::PepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0030, origin=T0030::HotGreenPepperTopping, destination=T0004::GreenPepperTopping, linkedAtt={T0030_uid::HotGreenPepperTopping_uid uid_domain=T0004_uid::GreenPepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0029, origin=T0029::QuattroFormaggi, destination=T0016::NamedPizza, linkedAtt={T0029_uid::QuattroFormaggi_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0057, origin=T0057::PeperonataTopping, destination=T000e::PepperTopping, linkedAtt={T0057_uid::PeperonataTopping_uid uid_domain=T000e_uid::PepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000b, origin=T000b::MushroomTopping, destination=T005b::VegetableTopping, linkedAtt={T000b_uid::MushroomTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005c, origin=T005c::PizzaBase, destination=T002b::Food, linkedAtt={T005c_uid::PizzaBase_uid uid_domain=T002b_uid::Food_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005f, origin=T005f::NutTopping, destination=T0060::PizzaTopping, linkedAtt={T005f_uid::NutTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0046, origin=T0046::ParmesanTopping, destination=T001e::CheeseTopping, linkedAtt={T0046_uid::ParmesanTopping_uid uid_domain=T001e_uid::CheeseTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005d, origin=T005d::GoatsCheeseTopping, destination=T001e::CheeseTopping, linkedAtt={T005d_uid::GoatsCheeseTopping_uid uid_domain=T001e_uid::CheeseTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0052, origin=T0052::ChickenTopping, destination=T0053::MeatTopping, linkedAtt={T0052_uid::ChickenTopping_uid uid_domain=T0053_uid::MeatTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001e, origin=T001e::CheeseTopping, destination=T0060::PizzaTopping, linkedAtt={T001e_uid::CheeseTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000d, origin=T000d::SweetPepperTopping, destination=T000e::PepperTopping, linkedAtt={T000d_uid::SweetPepperTopping_uid uid_domain=T000e_uid::PepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003a, origin=T003a::ArtichokeTopping, destination=T005b::VegetableTopping, linkedAtt={T003a_uid::ArtichokeTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0032, origin=T0032::Mild, destination=T004d::Spiciness, linkedAtt={T0032_uid::Mild_uid uid_domain=T004d_uid::Spiciness_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001a, origin=T001a::PetitPoisTopping, destination=T005b::VegetableTopping, linkedAtt={T001a_uid::PetitPoisTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0035, origin=T0035::Margherita, destination=T0016::NamedPizza, linkedAtt={T0035_uid::Margherita_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0040, origin=T0040::HerbSpiceTopping, destination=T0060::PizzaTopping, linkedAtt={T0040_uid::HerbSpiceTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003f, origin=T003f::Soho, destination=T0016::NamedPizza, linkedAtt={T003f_uid::Soho_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T0037, origin=T0037::CheeseyVegetableTopping, destination=T005b::VegetableTopping, linkedAtt={T0037_uid::CheeseyVegetableTopping_uid uid_domain=T005b_uid::VegetableTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0013, origin=T0013::Medium, destination=T004d::Spiciness, linkedAtt={T0013_uid::Medium_uid uid_domain=T004d_uid::Spiciness_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0027, origin=T0027::Siciliana, destination=T0016::NamedPizza, linkedAtt={T0027_uid::Siciliana_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0060, origin=T0060::PizzaTopping, destination=T002b::Food, linkedAtt={T0060_uid::PizzaTopping_uid uid_domain=T002b_uid::Food_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0054, origin=T0054::PolloAdAstra, destination=T0016::NamedPizza, linkedAtt={T0054_uid::PolloAdAstra_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001c, origin=T001c::HotSpicedBeefTopping, destination=T0053::MeatTopping, linkedAtt={T001c_uid::HotSpicedBeefTopping_uid uid_domain=T0053_uid::MeatTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0055, origin=T0055::PrawnsTopping, destination=T0003::FishTopping, linkedAtt={T0055_uid::PrawnsTopping_uid uid_domain=T0003_uid::FishTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0044, origin=T0044::SultanaTopping, destination=T001d::FruitTopping, linkedAtt={T0044_uid::SultanaTopping_uid uid_domain=T001d_uid::FruitTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0008, origin=T0008::American, destination=T0016::NamedPizza, linkedAtt={T0008_uid::American_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005a, origin=T005a::FruttiDiMare, destination=T0016::NamedPizza, linkedAtt={T005a_uid::FruttiDiMare_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002d, origin=T002d::Cajun, destination=T0016::NamedPizza, linkedAtt={T002d_uid::Cajun_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0050, origin=T0050::Rosa, destination=T0016::NamedPizza, linkedAtt={T0050_uid::Rosa_uid uid_domain=T0016_uid::NamedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004d, origin=T004d::Spiciness, destination=T0033::ValuePartition, linkedAtt={T004d_uid::Spiciness_uid uid_domain=T0033_uid::ValuePartition_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002b, origin=T002b::Food, destination=T004e::DomainConcept, linkedAtt={T002b_uid::Food_uid uid_domain=T004e_uid::DomainConcept_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0012, origin=T0012::AnchoviesTopping, destination=T0003::FishTopping, linkedAtt={T0012_uid::AnchoviesTopping_uid uid_domain=T0003_uid::FishTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0064, origin=T0064::FourSeasons_hasTopping_CaperTopping, destination=T0002::FourSeasons, linkedAtt={T0002_uid::FourSeasons_uid uid_domain=T0002_uid::FourSeasons_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0064, origin=T0064::FourSeasons_hasTopping_CaperTopping, destination=T0009::CaperTopping, linkedAtt={T0009_uid::CaperTopping_uid uid_domain=T0009_uid::CaperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0065, origin=T0065::FourSeasons_hasTopping_MushroomTopping, destination=T0002::FourSeasons, linkedAtt={T0002_uid::FourSeasons_uid uid_domain=T0002_uid::FourSeasons_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0065, origin=T0065::FourSeasons_hasTopping_MushroomTopping, destination=T000b::MushroomTopping, linkedAtt={T000b_uid::MushroomTopping_uid uid_domain=T000b_uid::MushroomTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0066, origin=T0066::FourSeasons_hasTopping_TomatoTopping, destination=T0002::FourSeasons, linkedAtt={T0002_uid::FourSeasons_uid uid_domain=T0002_uid::FourSeasons_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0066, origin=T0066::FourSeasons_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0067, origin=T0067::FourSeasons_hasTopping_MozzarellaTopping, destination=T0002::FourSeasons, linkedAtt={T0002_uid::FourSeasons_uid uid_domain=T0002_uid::FourSeasons_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0067, origin=T0067::FourSeasons_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0068, origin=T0068::FourSeasons_hasTopping_OliveTopping, destination=T0002::FourSeasons, linkedAtt={T0002_uid::FourSeasons_uid uid_domain=T0002_uid::FourSeasons_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0068, origin=T0068::FourSeasons_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0069, origin=T0069::FourSeasons_hasTopping_AnchoviesTopping, destination=T0002::FourSeasons, linkedAtt={T0002_uid::FourSeasons_uid uid_domain=T0002_uid::FourSeasons_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0069, origin=T0069::FourSeasons_hasTopping_AnchoviesTopping, destination=T0012::AnchoviesTopping, linkedAtt={T0012_uid::AnchoviesTopping_uid uid_domain=T0012_uid::AnchoviesTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006a, origin=T006a::FourSeasons_hasTopping_PeperoniSausageTopping, destination=T0002::FourSeasons, linkedAtt={T0002_uid::FourSeasons_uid uid_domain=T0002_uid::FourSeasons_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006a, origin=T006a::FourSeasons_hasTopping_PeperoniSausageTopping, destination=T001f::PeperoniSausageTopping, linkedAtt={T001f_uid::PeperoniSausageTopping_uid uid_domain=T001f_uid::PeperoniSausageTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006b, origin=T006b::FishTopping_hasSpiciness_Mild, destination=T0003::FishTopping, linkedAtt={T0003_uid::FishTopping_uid uid_domain=T0003_uid::FishTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006b, origin=T006b::FishTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006c, origin=T006c::OliveTopping_hasSpiciness_Mild, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006c, origin=T006c::OliveTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006d, origin=T006d::AsparagusTopping_hasSpiciness_Mild, destination=T0007::AsparagusTopping, linkedAtt={T0007_uid::AsparagusTopping_uid uid_domain=T0007_uid::AsparagusTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006d, origin=T006d::AsparagusTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006e, origin=T006e::American_hasTopping_MozzarellaTopping, destination=T0008::American, linkedAtt={T0008_uid::American_uid uid_domain=T0008_uid::American_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006e, origin=T006e::American_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006f, origin=T006f::American_hasTopping_PeperoniSausageTopping, destination=T0008::American, linkedAtt={T0008_uid::American_uid uid_domain=T0008_uid::American_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006f, origin=T006f::American_hasTopping_PeperoniSausageTopping, destination=T001f::PeperoniSausageTopping, linkedAtt={T001f_uid::PeperoniSausageTopping_uid uid_domain=T001f_uid::PeperoniSausageTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0070, origin=T0070::American_hasTopping_TomatoTopping, destination=T0008::American, linkedAtt={T0008_uid::American_uid uid_domain=T0008_uid::American_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0070, origin=T0070::American_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0071, origin=T0071::CaperTopping_hasSpiciness_Mild, destination=T0009::CaperTopping, linkedAtt={T0009_uid::CaperTopping_uid uid_domain=T0009_uid::CaperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0071, origin=T0071::CaperTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0072, origin=T0072::MushroomTopping_hasSpiciness_Mild, destination=T000b::MushroomTopping, linkedAtt={T000b_uid::MushroomTopping_uid uid_domain=T000b_uid::MushroomTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0072, origin=T0072::MushroomTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0073, origin=T0073::SweetPepperTopping_hasSpiciness_Mild, destination=T000d::SweetPepperTopping, linkedAtt={T000d_uid::SweetPepperTopping_uid uid_domain=T000d_uid::SweetPepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0073, origin=T0073::SweetPepperTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0074, origin=T0074::Pizza_hasTopping_PizzaTopping, destination=T000f::Pizza, linkedAtt={T000f_uid::Pizza_uid uid_domain=T000f_uid::Pizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0074, origin=T0074::Pizza_hasTopping_PizzaTopping, destination=T0060::PizzaTopping, linkedAtt={T0060_uid::PizzaTopping_uid uid_domain=T0060_uid::PizzaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0075, origin=T0075::Pizza_hasBase_PizzaBase, destination=T000f::Pizza, linkedAtt={T000f_uid::Pizza_uid uid_domain=T000f_uid::Pizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0075, origin=T0075::Pizza_hasBase_PizzaBase, destination=T005c::PizzaBase, linkedAtt={T005c_uid::PizzaBase_uid uid_domain=T005c_uid::PizzaBase_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0076, origin=T0076::RosemaryTopping_hasSpiciness_Mild, destination=T0011::RosemaryTopping, linkedAtt={T0011_uid::RosemaryTopping_uid uid_domain=T0011_uid::RosemaryTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0076, origin=T0076::RosemaryTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0077, origin=T0077::AmericanHot_hasTopping_HotGreenPepperTopping, destination=T0015::AmericanHot, linkedAtt={T0015_uid::AmericanHot_uid uid_domain=T0015_uid::AmericanHot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0077, origin=T0077::AmericanHot_hasTopping_HotGreenPepperTopping, destination=T0030::HotGreenPepperTopping, linkedAtt={T0030_uid::HotGreenPepperTopping_uid uid_domain=T0030_uid::HotGreenPepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0078, origin=T0078::AmericanHot_hasTopping_MozzarellaTopping, destination=T0015::AmericanHot, linkedAtt={T0015_uid::AmericanHot_uid uid_domain=T0015_uid::AmericanHot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0078, origin=T0078::AmericanHot_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0079, origin=T0079::AmericanHot_hasTopping_JalapenoPepperTopping, destination=T0015::AmericanHot, linkedAtt={T0015_uid::AmericanHot_uid uid_domain=T0015_uid::AmericanHot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0079, origin=T0079::AmericanHot_hasTopping_JalapenoPepperTopping, destination=T0039::JalapenoPepperTopping, linkedAtt={T0039_uid::JalapenoPepperTopping_uid uid_domain=T0039_uid::JalapenoPepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007a, origin=T007a::AmericanHot_hasTopping_PeperoniSausageTopping, destination=T0015::AmericanHot, linkedAtt={T0015_uid::AmericanHot_uid uid_domain=T0015_uid::AmericanHot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007a, origin=T007a::AmericanHot_hasTopping_PeperoniSausageTopping, destination=T001f::PeperoniSausageTopping, linkedAtt={T001f_uid::PeperoniSausageTopping_uid uid_domain=T001f_uid::PeperoniSausageTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007b, origin=T007b::AmericanHot_hasTopping_TomatoTopping, destination=T0015::AmericanHot, linkedAtt={T0015_uid::AmericanHot_uid uid_domain=T0015_uid::AmericanHot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007b, origin=T007b::AmericanHot_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007c, origin=T007c::Napoletana_hasTopping_MozzarellaTopping, destination=T0018::Napoletana, linkedAtt={T0018_uid::Napoletana_uid uid_domain=T0018_uid::Napoletana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007c, origin=T007c::Napoletana_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007d, origin=T007d::Napoletana_hasTopping_OliveTopping, destination=T0018::Napoletana, linkedAtt={T0018_uid::Napoletana_uid uid_domain=T0018_uid::Napoletana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007d, origin=T007d::Napoletana_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007e, origin=T007e::Napoletana_hasTopping_AnchoviesTopping, destination=T0018::Napoletana, linkedAtt={T0018_uid::Napoletana_uid uid_domain=T0018_uid::Napoletana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007e, origin=T007e::Napoletana_hasTopping_AnchoviesTopping, destination=T0012::AnchoviesTopping, linkedAtt={T0012_uid::AnchoviesTopping_uid uid_domain=T0012_uid::AnchoviesTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007f, origin=T007f::Napoletana_hasTopping_CaperTopping, destination=T0018::Napoletana, linkedAtt={T0018_uid::Napoletana_uid uid_domain=T0018_uid::Napoletana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007f, origin=T007f::Napoletana_hasTopping_CaperTopping, destination=T0009::CaperTopping, linkedAtt={T0009_uid::CaperTopping_uid uid_domain=T0009_uid::CaperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0080, origin=T0080::Napoletana_hasTopping_TomatoTopping, destination=T0018::Napoletana, linkedAtt={T0018_uid::Napoletana_uid uid_domain=T0018_uid::Napoletana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0080, origin=T0080::Napoletana_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0081, origin=T0081::OnionTopping_hasSpiciness_Medium, destination=T0019::OnionTopping, linkedAtt={T0019_uid::OnionTopping_uid uid_domain=T0019_uid::OnionTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0081, origin=T0081::OnionTopping_hasSpiciness_Medium, destination=T0013::Medium, linkedAtt={T0013_uid::Medium_uid uid_domain=T0013_uid::Medium_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0082, origin=T0082::PetitPoisTopping_hasSpiciness_Mild, destination=T001a::PetitPoisTopping, linkedAtt={T001a_uid::PetitPoisTopping_uid uid_domain=T001a_uid::PetitPoisTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0082, origin=T0082::PetitPoisTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0083, origin=T0083::HotSpicedBeefTopping_hasSpiciness_Hot, destination=T001c::HotSpicedBeefTopping, linkedAtt={T001c_uid::HotSpicedBeefTopping_uid uid_domain=T001c_uid::HotSpicedBeefTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0083, origin=T0083::HotSpicedBeefTopping_hasSpiciness_Hot, destination=T004a::Hot, linkedAtt={T004a_uid::Hot_uid uid_domain=T004a_uid::Hot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0084, origin=T0084::PeperoniSausageTopping_hasSpiciness_Medium, destination=T001f::PeperoniSausageTopping, linkedAtt={T001f_uid::PeperoniSausageTopping_uid uid_domain=T001f_uid::PeperoniSausageTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0084, origin=T0084::PeperoniSausageTopping_hasSpiciness_Medium, destination=T0013::Medium, linkedAtt={T0013_uid::Medium_uid uid_domain=T0013_uid::Medium_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0085, origin=T0085::CajunSpiceTopping_hasSpiciness_Hot, destination=T0020::CajunSpiceTopping, linkedAtt={T0020_uid::CajunSpiceTopping_uid uid_domain=T0020_uid::CajunSpiceTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0085, origin=T0085::CajunSpiceTopping_hasSpiciness_Hot, destination=T004a::Hot, linkedAtt={T004a_uid::Hot_uid uid_domain=T004a_uid::Hot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0086, origin=T0086::Mushroom_hasTopping_TomatoTopping, destination=T0023::Mushroom, linkedAtt={T0023_uid::Mushroom_uid uid_domain=T0023_uid::Mushroom_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0086, origin=T0086::Mushroom_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0087, origin=T0087::Mushroom_hasTopping_MozzarellaTopping, destination=T0023::Mushroom, linkedAtt={T0023_uid::Mushroom_uid uid_domain=T0023_uid::Mushroom_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0087, origin=T0087::Mushroom_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0088, origin=T0088::Mushroom_hasTopping_MushroomTopping, destination=T0023::Mushroom, linkedAtt={T0023_uid::Mushroom_uid uid_domain=T0023_uid::Mushroom_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0088, origin=T0088::Mushroom_hasTopping_MushroomTopping, destination=T000b::MushroomTopping, linkedAtt={T000b_uid::MushroomTopping_uid uid_domain=T000b_uid::MushroomTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0089, origin=T0089::SpinachTopping_hasSpiciness_Mild, destination=T0024::SpinachTopping, linkedAtt={T0024_uid::SpinachTopping_uid uid_domain=T0024_uid::SpinachTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0089, origin=T0089::SpinachTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T008a, origin=T008a::MozzarellaTopping_hasSpiciness_Mild, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T008a, origin=T008a::MozzarellaTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T008b, origin=T008b::Siciliana_hasTopping_MozzarellaTopping, destination=T0027::Siciliana, linkedAtt={T0027_uid::Siciliana_uid uid_domain=T0027_uid::Siciliana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T008b, origin=T008b::Siciliana_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T008c, origin=T008c::Siciliana_hasTopping_ArtichokeTopping, destination=T0027::Siciliana, linkedAtt={T0027_uid::Siciliana_uid uid_domain=T0027_uid::Siciliana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T008c, origin=T008c::Siciliana_hasTopping_ArtichokeTopping, destination=T003a::ArtichokeTopping, linkedAtt={T003a_uid::ArtichokeTopping_uid uid_domain=T003a_uid::ArtichokeTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T008d, origin=T008d::Siciliana_hasTopping_OliveTopping, destination=T0027::Siciliana, linkedAtt={T0027_uid::Siciliana_uid uid_domain=T0027_uid::Siciliana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T008d, origin=T008d::Siciliana_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T008e, origin=T008e::Siciliana_hasTopping_GarlicTopping, destination=T0027::Siciliana, linkedAtt={T0027_uid::Siciliana_uid uid_domain=T0027_uid::Siciliana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T008e, origin=T008e::Siciliana_hasTopping_GarlicTopping, destination=T0061::GarlicTopping, linkedAtt={T0061_uid::GarlicTopping_uid uid_domain=T0061_uid::GarlicTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T008f, origin=T008f::Siciliana_hasTopping_HamTopping, destination=T0027::Siciliana, linkedAtt={T0027_uid::Siciliana_uid uid_domain=T0027_uid::Siciliana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T008f, origin=T008f::Siciliana_hasTopping_HamTopping, destination=T005e::HamTopping, linkedAtt={T005e_uid::HamTopping_uid uid_domain=T005e_uid::HamTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0090, origin=T0090::Siciliana_hasTopping_AnchoviesTopping, destination=T0027::Siciliana, linkedAtt={T0027_uid::Siciliana_uid uid_domain=T0027_uid::Siciliana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0090, origin=T0090::Siciliana_hasTopping_AnchoviesTopping, destination=T0012::AnchoviesTopping, linkedAtt={T0012_uid::AnchoviesTopping_uid uid_domain=T0012_uid::AnchoviesTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0091, origin=T0091::Siciliana_hasTopping_TomatoTopping, destination=T0027::Siciliana, linkedAtt={T0027_uid::Siciliana_uid uid_domain=T0027_uid::Siciliana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0091, origin=T0091::Siciliana_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0092, origin=T0092::SlicedTomatoTopping_hasSpiciness_Mild, destination=T0028::SlicedTomatoTopping, linkedAtt={T0028_uid::SlicedTomatoTopping_uid uid_domain=T0028_uid::SlicedTomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0092, origin=T0092::SlicedTomatoTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0093, origin=T0093::SlicedTomatoTopping_hasSpiciness_Mild, destination=T0028::SlicedTomatoTopping, linkedAtt={T0028_uid::SlicedTomatoTopping_uid uid_domain=T0028_uid::SlicedTomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0093, origin=T0093::SlicedTomatoTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0094, origin=T0094::QuattroFormaggi_hasTopping_TomatoTopping, destination=T0029::QuattroFormaggi, linkedAtt={T0029_uid::QuattroFormaggi_uid uid_domain=T0029_uid::QuattroFormaggi_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0094, origin=T0094::QuattroFormaggi_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0095, origin=T0095::QuattroFormaggi_hasTopping_FourCheesesTopping, destination=T0029::QuattroFormaggi, linkedAtt={T0029_uid::QuattroFormaggi_uid uid_domain=T0029_uid::QuattroFormaggi_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0095, origin=T0095::QuattroFormaggi_hasTopping_FourCheesesTopping, destination=T002c::FourCheesesTopping, linkedAtt={T002c_uid::FourCheesesTopping_uid uid_domain=T002c_uid::FourCheesesTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0096, origin=T0096::PrinceCarlo_hasTopping_RosemaryTopping, destination=T002a::PrinceCarlo, linkedAtt={T002a_uid::PrinceCarlo_uid uid_domain=T002a_uid::PrinceCarlo_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0096, origin=T0096::PrinceCarlo_hasTopping_RosemaryTopping, destination=T0011::RosemaryTopping, linkedAtt={T0011_uid::RosemaryTopping_uid uid_domain=T0011_uid::RosemaryTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0097, origin=T0097::PrinceCarlo_hasTopping_ParmesanTopping, destination=T002a::PrinceCarlo, linkedAtt={T002a_uid::PrinceCarlo_uid uid_domain=T002a_uid::PrinceCarlo_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0097, origin=T0097::PrinceCarlo_hasTopping_ParmesanTopping, destination=T0046::ParmesanTopping, linkedAtt={T0046_uid::ParmesanTopping_uid uid_domain=T0046_uid::ParmesanTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0098, origin=T0098::PrinceCarlo_hasTopping_LeekTopping, destination=T002a::PrinceCarlo, linkedAtt={T002a_uid::PrinceCarlo_uid uid_domain=T002a_uid::PrinceCarlo_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0098, origin=T0098::PrinceCarlo_hasTopping_LeekTopping, destination=T0058::LeekTopping, linkedAtt={T0058_uid::LeekTopping_uid uid_domain=T0058_uid::LeekTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0099, origin=T0099::PrinceCarlo_hasTopping_TomatoTopping, destination=T002a::PrinceCarlo, linkedAtt={T002a_uid::PrinceCarlo_uid uid_domain=T002a_uid::PrinceCarlo_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0099, origin=T0099::PrinceCarlo_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T009a, origin=T009a::PrinceCarlo_hasTopping_MozzarellaTopping, destination=T002a::PrinceCarlo, linkedAtt={T002a_uid::PrinceCarlo_uid uid_domain=T002a_uid::PrinceCarlo_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T009a, origin=T009a::PrinceCarlo_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T009b, origin=T009b::Food_hasIngredient_Food, destination=T002b::Food, linkedAtt={T002b_uid_domain::Food_uid_domain uid_domain=T002b_uid::Food_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T009b, origin=T009b::Food_hasIngredient_Food, destination=T002b::Food, linkedAtt={T002b_uid_range::Food_uid_range uid_domain=T002b_uid::Food_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T009c, origin=T009c::FourCheesesTopping_hasSpiciness_Mild, destination=T002c::FourCheesesTopping, linkedAtt={T002c_uid::FourCheesesTopping_uid uid_domain=T002c_uid::FourCheesesTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T009c, origin=T009c::FourCheesesTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T009d, origin=T009d::Cajun_hasTopping_TobascoPepperSauce, destination=T002d::Cajun, linkedAtt={T002d_uid::Cajun_uid uid_domain=T002d_uid::Cajun_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T009d, origin=T009d::Cajun_hasTopping_TobascoPepperSauce, destination=T003b::TobascoPepperSauce, linkedAtt={T003b_uid::TobascoPepperSauce_uid uid_domain=T003b_uid::TobascoPepperSauce_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T009e, origin=T009e::Cajun_hasTopping_PeperonataTopping, destination=T002d::Cajun, linkedAtt={T002d_uid::Cajun_uid uid_domain=T002d_uid::Cajun_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T009e, origin=T009e::Cajun_hasTopping_PeperonataTopping, destination=T0057::PeperonataTopping, linkedAtt={T0057_uid::PeperonataTopping_uid uid_domain=T0057_uid::PeperonataTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T009f, origin=T009f::Cajun_hasTopping_MozzarellaTopping, destination=T002d::Cajun, linkedAtt={T002d_uid::Cajun_uid uid_domain=T002d_uid::Cajun_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T009f, origin=T009f::Cajun_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a0, origin=T00a0::Cajun_hasTopping_PrawnsTopping, destination=T002d::Cajun, linkedAtt={T002d_uid::Cajun_uid uid_domain=T002d_uid::Cajun_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a0, origin=T00a0::Cajun_hasTopping_PrawnsTopping, destination=T0055::PrawnsTopping, linkedAtt={T0055_uid::PrawnsTopping_uid uid_domain=T0055_uid::PrawnsTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a1, origin=T00a1::Cajun_hasTopping_OnionTopping, destination=T002d::Cajun, linkedAtt={T002d_uid::Cajun_uid uid_domain=T002d_uid::Cajun_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a1, origin=T00a1::Cajun_hasTopping_OnionTopping, destination=T0019::OnionTopping, linkedAtt={T0019_uid::OnionTopping_uid uid_domain=T0019_uid::OnionTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a2, origin=T00a2::Cajun_hasTopping_TomatoTopping, destination=T002d::Cajun, linkedAtt={T002d_uid::Cajun_uid uid_domain=T002d_uid::Cajun_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a2, origin=T00a2::Cajun_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a3, origin=T00a3::GorgonzolaTopping_hasSpiciness_Mild, destination=T002e::GorgonzolaTopping, linkedAtt={T002e_uid::GorgonzolaTopping_uid uid_domain=T002e_uid::GorgonzolaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a3, origin=T00a3::GorgonzolaTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a4, origin=T00a4::UnclosedPizza_hasTopping_MozzarellaTopping, destination=T002f::UnclosedPizza, linkedAtt={T002f_uid::UnclosedPizza_uid uid_domain=T002f_uid::UnclosedPizza_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a4, origin=T00a4::UnclosedPizza_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a5, origin=T00a5::HotGreenPepperTopping_hasSpiciness_Hot, destination=T0030::HotGreenPepperTopping, linkedAtt={T0030_uid::HotGreenPepperTopping_uid uid_domain=T0030_uid::HotGreenPepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a5, origin=T00a5::HotGreenPepperTopping_hasSpiciness_Hot, destination=T004a::Hot, linkedAtt={T004a_uid::Hot_uid uid_domain=T004a_uid::Hot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a6, origin=T00a6::Caprina_hasTopping_TomatoTopping, destination=T0031::Caprina, linkedAtt={T0031_uid::Caprina_uid uid_domain=T0031_uid::Caprina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a6, origin=T00a6::Caprina_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a7, origin=T00a7::Caprina_hasTopping_SundriedTomatoTopping, destination=T0031::Caprina, linkedAtt={T0031_uid::Caprina_uid uid_domain=T0031_uid::Caprina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a7, origin=T00a7::Caprina_hasTopping_SundriedTomatoTopping, destination=T004b::SundriedTomatoTopping, linkedAtt={T004b_uid::SundriedTomatoTopping_uid uid_domain=T004b_uid::SundriedTomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a8, origin=T00a8::Caprina_hasTopping_GoatsCheeseTopping, destination=T0031::Caprina, linkedAtt={T0031_uid::Caprina_uid uid_domain=T0031_uid::Caprina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a8, origin=T00a8::Caprina_hasTopping_GoatsCheeseTopping, destination=T005d::GoatsCheeseTopping, linkedAtt={T005d_uid::GoatsCheeseTopping_uid uid_domain=T005d_uid::GoatsCheeseTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00a9, origin=T00a9::Caprina_hasTopping_MozzarellaTopping, destination=T0031::Caprina, linkedAtt={T0031_uid::Caprina_uid uid_domain=T0031_uid::Caprina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00a9, origin=T00a9::Caprina_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00aa, origin=T00aa::Fiorentina_hasTopping_OliveTopping, destination=T0034::Fiorentina, linkedAtt={T0034_uid::Fiorentina_uid uid_domain=T0034_uid::Fiorentina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00aa, origin=T00aa::Fiorentina_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ab, origin=T00ab::Fiorentina_hasTopping_ParmesanTopping, destination=T0034::Fiorentina, linkedAtt={T0034_uid::Fiorentina_uid uid_domain=T0034_uid::Fiorentina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ab, origin=T00ab::Fiorentina_hasTopping_ParmesanTopping, destination=T0046::ParmesanTopping, linkedAtt={T0046_uid::ParmesanTopping_uid uid_domain=T0046_uid::ParmesanTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ac, origin=T00ac::Fiorentina_hasTopping_GarlicTopping, destination=T0034::Fiorentina, linkedAtt={T0034_uid::Fiorentina_uid uid_domain=T0034_uid::Fiorentina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ac, origin=T00ac::Fiorentina_hasTopping_GarlicTopping, destination=T0061::GarlicTopping, linkedAtt={T0061_uid::GarlicTopping_uid uid_domain=T0061_uid::GarlicTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ad, origin=T00ad::Fiorentina_hasTopping_MozzarellaTopping, destination=T0034::Fiorentina, linkedAtt={T0034_uid::Fiorentina_uid uid_domain=T0034_uid::Fiorentina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ad, origin=T00ad::Fiorentina_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ae, origin=T00ae::Fiorentina_hasTopping_TomatoTopping, destination=T0034::Fiorentina, linkedAtt={T0034_uid::Fiorentina_uid uid_domain=T0034_uid::Fiorentina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ae, origin=T00ae::Fiorentina_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00af, origin=T00af::Fiorentina_hasTopping_SpinachTopping, destination=T0034::Fiorentina, linkedAtt={T0034_uid::Fiorentina_uid uid_domain=T0034_uid::Fiorentina_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00af, origin=T00af::Fiorentina_hasTopping_SpinachTopping, destination=T0024::SpinachTopping, linkedAtt={T0024_uid::SpinachTopping_uid uid_domain=T0024_uid::SpinachTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b0, origin=T00b0::Margherita_hasTopping_TomatoTopping, destination=T0035::Margherita, linkedAtt={T0035_uid::Margherita_uid uid_domain=T0035_uid::Margherita_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b0, origin=T00b0::Margherita_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b1, origin=T00b1::Margherita_hasTopping_MozzarellaTopping, destination=T0035::Margherita, linkedAtt={T0035_uid::Margherita_uid uid_domain=T0035_uid::Margherita_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b1, origin=T00b1::Margherita_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b2, origin=T00b2::JalapenoPepperTopping_hasSpiciness_Hot, destination=T0039::JalapenoPepperTopping, linkedAtt={T0039_uid::JalapenoPepperTopping_uid uid_domain=T0039_uid::JalapenoPepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b2, origin=T00b2::JalapenoPepperTopping_hasSpiciness_Hot, destination=T004a::Hot, linkedAtt={T004a_uid::Hot_uid uid_domain=T004a_uid::Hot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b3, origin=T00b3::ArtichokeTopping_hasSpiciness_Mild, destination=T003a::ArtichokeTopping, linkedAtt={T003a_uid::ArtichokeTopping_uid uid_domain=T003a_uid::ArtichokeTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b3, origin=T00b3::ArtichokeTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b4, origin=T00b4::TobascoPepperSauce_hasSpiciness_Hot, destination=T003b::TobascoPepperSauce, linkedAtt={T003b_uid::TobascoPepperSauce_uid uid_domain=T003b_uid::TobascoPepperSauce_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b4, origin=T00b4::TobascoPepperSauce_hasSpiciness_Hot, destination=T004a::Hot, linkedAtt={T004a_uid::Hot_uid uid_domain=T004a_uid::Hot_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b5, origin=T00b5::Veneziana_hasTopping_OliveTopping, destination=T003c::Veneziana, linkedAtt={T003c_uid::Veneziana_uid uid_domain=T003c_uid::Veneziana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b5, origin=T00b5::Veneziana_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b6, origin=T00b6::Veneziana_hasTopping_OnionTopping, destination=T003c::Veneziana, linkedAtt={T003c_uid::Veneziana_uid uid_domain=T003c_uid::Veneziana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b6, origin=T00b6::Veneziana_hasTopping_OnionTopping, destination=T0019::OnionTopping, linkedAtt={T0019_uid::OnionTopping_uid uid_domain=T0019_uid::OnionTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b7, origin=T00b7::Veneziana_hasTopping_CaperTopping, destination=T003c::Veneziana, linkedAtt={T003c_uid::Veneziana_uid uid_domain=T003c_uid::Veneziana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b7, origin=T00b7::Veneziana_hasTopping_CaperTopping, destination=T0009::CaperTopping, linkedAtt={T0009_uid::CaperTopping_uid uid_domain=T0009_uid::CaperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b8, origin=T00b8::Veneziana_hasTopping_SultanaTopping, destination=T003c::Veneziana, linkedAtt={T003c_uid::Veneziana_uid uid_domain=T003c_uid::Veneziana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b8, origin=T00b8::Veneziana_hasTopping_SultanaTopping, destination=T0044::SultanaTopping, linkedAtt={T0044_uid::SultanaTopping_uid uid_domain=T0044_uid::SultanaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00b9, origin=T00b9::Veneziana_hasTopping_PineKernels, destination=T003c::Veneziana, linkedAtt={T003c_uid::Veneziana_uid uid_domain=T003c_uid::Veneziana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00b9, origin=T00b9::Veneziana_hasTopping_PineKernels, destination=T0025::PineKernels, linkedAtt={T0025_uid::PineKernels_uid uid_domain=T0025_uid::PineKernels_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ba, origin=T00ba::Veneziana_hasTopping_TomatoTopping, destination=T003c::Veneziana, linkedAtt={T003c_uid::Veneziana_uid uid_domain=T003c_uid::Veneziana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ba, origin=T00ba::Veneziana_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00bb, origin=T00bb::Veneziana_hasTopping_MozzarellaTopping, destination=T003c::Veneziana, linkedAtt={T003c_uid::Veneziana_uid uid_domain=T003c_uid::Veneziana_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00bb, origin=T00bb::Veneziana_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00bc, origin=T00bc::Giardiniera_hasTopping_OliveTopping, destination=T003e::Giardiniera, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T003e_uid::Giardiniera_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00bc, origin=T00bc::Giardiniera_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00bd, origin=T00bd::Giardiniera_hasTopping_PetitPoisTopping, destination=T003e::Giardiniera, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T003e_uid::Giardiniera_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00bd, origin=T00bd::Giardiniera_hasTopping_PetitPoisTopping, destination=T001a::PetitPoisTopping, linkedAtt={T001a_uid::PetitPoisTopping_uid uid_domain=T001a_uid::PetitPoisTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00be, origin=T00be::Giardiniera_hasTopping_PeperonataTopping, destination=T003e::Giardiniera, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T003e_uid::Giardiniera_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00be, origin=T00be::Giardiniera_hasTopping_PeperonataTopping, destination=T0057::PeperonataTopping, linkedAtt={T0057_uid::PeperonataTopping_uid uid_domain=T0057_uid::PeperonataTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00bf, origin=T00bf::Giardiniera_hasTopping_MozzarellaTopping, destination=T003e::Giardiniera, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T003e_uid::Giardiniera_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00bf, origin=T00bf::Giardiniera_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c0, origin=T00c0::Giardiniera_hasTopping_MushroomTopping, destination=T003e::Giardiniera, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T003e_uid::Giardiniera_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c0, origin=T00c0::Giardiniera_hasTopping_MushroomTopping, destination=T000b::MushroomTopping, linkedAtt={T000b_uid::MushroomTopping_uid uid_domain=T000b_uid::MushroomTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c1, origin=T00c1::Giardiniera_hasTopping_TomatoTopping, destination=T003e::Giardiniera, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T003e_uid::Giardiniera_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c1, origin=T00c1::Giardiniera_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c2, origin=T00c2::Giardiniera_hasTopping_SlicedTomatoTopping, destination=T003e::Giardiniera, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T003e_uid::Giardiniera_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c2, origin=T00c2::Giardiniera_hasTopping_SlicedTomatoTopping, destination=T0028::SlicedTomatoTopping, linkedAtt={T0028_uid::SlicedTomatoTopping_uid uid_domain=T0028_uid::SlicedTomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c3, origin=T00c3::Giardiniera_hasTopping_LeekTopping, destination=T003e::Giardiniera, linkedAtt={T003e_uid::Giardiniera_uid uid_domain=T003e_uid::Giardiniera_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c3, origin=T00c3::Giardiniera_hasTopping_LeekTopping, destination=T0058::LeekTopping, linkedAtt={T0058_uid::LeekTopping_uid uid_domain=T0058_uid::LeekTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c4, origin=T00c4::Soho_hasTopping_MozzarellaTopping, destination=T003f::Soho, linkedAtt={T003f_uid::Soho_uid uid_domain=T003f_uid::Soho_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c4, origin=T00c4::Soho_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c5, origin=T00c5::Soho_hasTopping_OliveTopping, destination=T003f::Soho, linkedAtt={T003f_uid::Soho_uid uid_domain=T003f_uid::Soho_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c5, origin=T00c5::Soho_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c6, origin=T00c6::Soho_hasTopping_GarlicTopping, destination=T003f::Soho, linkedAtt={T003f_uid::Soho_uid uid_domain=T003f_uid::Soho_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c6, origin=T00c6::Soho_hasTopping_GarlicTopping, destination=T0061::GarlicTopping, linkedAtt={T0061_uid::GarlicTopping_uid uid_domain=T0061_uid::GarlicTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c7, origin=T00c7::Soho_hasTopping_RocketTopping, destination=T003f::Soho, linkedAtt={T003f_uid::Soho_uid uid_domain=T003f_uid::Soho_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c7, origin=T00c7::Soho_hasTopping_RocketTopping, destination=T0056::RocketTopping, linkedAtt={T0056_uid::RocketTopping_uid uid_domain=T0056_uid::RocketTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c8, origin=T00c8::Soho_hasTopping_TomatoTopping, destination=T003f::Soho, linkedAtt={T003f_uid::Soho_uid uid_domain=T003f_uid::Soho_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c8, origin=T00c8::Soho_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00c9, origin=T00c9::Soho_hasTopping_ParmesanTopping, destination=T003f::Soho, linkedAtt={T003f_uid::Soho_uid uid_domain=T003f_uid::Soho_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00c9, origin=T00c9::Soho_hasTopping_ParmesanTopping, destination=T0046::ParmesanTopping, linkedAtt={T0046_uid::ParmesanTopping_uid uid_domain=T0046_uid::ParmesanTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ca, origin=T00ca::IceCream_hasTopping_FruitTopping, destination=T0041::IceCream, linkedAtt={T0041_uid::IceCream_uid uid_domain=T0041_uid::IceCream_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ca, origin=T00ca::IceCream_hasTopping_FruitTopping, destination=T001d::FruitTopping, linkedAtt={T001d_uid::FruitTopping_uid uid_domain=T001d_uid::FruitTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00cb, origin=T00cb::LaReine_hasTopping_OliveTopping, destination=T0042::LaReine, linkedAtt={T0042_uid::LaReine_uid uid_domain=T0042_uid::LaReine_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00cb, origin=T00cb::LaReine_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00cc, origin=T00cc::LaReine_hasTopping_HamTopping, destination=T0042::LaReine, linkedAtt={T0042_uid::LaReine_uid uid_domain=T0042_uid::LaReine_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00cc, origin=T00cc::LaReine_hasTopping_HamTopping, destination=T005e::HamTopping, linkedAtt={T005e_uid::HamTopping_uid uid_domain=T005e_uid::HamTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00cd, origin=T00cd::LaReine_hasTopping_MushroomTopping, destination=T0042::LaReine, linkedAtt={T0042_uid::LaReine_uid uid_domain=T0042_uid::LaReine_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00cd, origin=T00cd::LaReine_hasTopping_MushroomTopping, destination=T000b::MushroomTopping, linkedAtt={T000b_uid::MushroomTopping_uid uid_domain=T000b_uid::MushroomTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ce, origin=T00ce::LaReine_hasTopping_MozzarellaTopping, destination=T0042::LaReine, linkedAtt={T0042_uid::LaReine_uid uid_domain=T0042_uid::LaReine_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ce, origin=T00ce::LaReine_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00cf, origin=T00cf::LaReine_hasTopping_TomatoTopping, destination=T0042::LaReine, linkedAtt={T0042_uid::LaReine_uid uid_domain=T0042_uid::LaReine_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00cf, origin=T00cf::LaReine_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d0, origin=T00d0::SultanaTopping_hasSpiciness_Medium, destination=T0044::SultanaTopping, linkedAtt={T0044_uid::SultanaTopping_uid uid_domain=T0044_uid::SultanaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d0, origin=T00d0::SultanaTopping_hasSpiciness_Medium, destination=T0013::Medium, linkedAtt={T0013_uid::Medium_uid uid_domain=T0013_uid::Medium_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d1, origin=T00d1::SloppyGiuseppe_hasTopping_GreenPepperTopping, destination=T0045::SloppyGiuseppe, linkedAtt={T0045_uid::SloppyGiuseppe_uid uid_domain=T0045_uid::SloppyGiuseppe_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d1, origin=T00d1::SloppyGiuseppe_hasTopping_GreenPepperTopping, destination=T0004::GreenPepperTopping, linkedAtt={T0004_uid::GreenPepperTopping_uid uid_domain=T0004_uid::GreenPepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d2, origin=T00d2::SloppyGiuseppe_hasTopping_OnionTopping, destination=T0045::SloppyGiuseppe, linkedAtt={T0045_uid::SloppyGiuseppe_uid uid_domain=T0045_uid::SloppyGiuseppe_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d2, origin=T00d2::SloppyGiuseppe_hasTopping_OnionTopping, destination=T0019::OnionTopping, linkedAtt={T0019_uid::OnionTopping_uid uid_domain=T0019_uid::OnionTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d3, origin=T00d3::SloppyGiuseppe_hasTopping_TomatoTopping, destination=T0045::SloppyGiuseppe, linkedAtt={T0045_uid::SloppyGiuseppe_uid uid_domain=T0045_uid::SloppyGiuseppe_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d3, origin=T00d3::SloppyGiuseppe_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d4, origin=T00d4::SloppyGiuseppe_hasTopping_MozzarellaTopping, destination=T0045::SloppyGiuseppe, linkedAtt={T0045_uid::SloppyGiuseppe_uid uid_domain=T0045_uid::SloppyGiuseppe_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d4, origin=T00d4::SloppyGiuseppe_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d5, origin=T00d5::SloppyGiuseppe_hasTopping_HotSpicedBeefTopping, destination=T0045::SloppyGiuseppe, linkedAtt={T0045_uid::SloppyGiuseppe_uid uid_domain=T0045_uid::SloppyGiuseppe_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d5, origin=T00d5::SloppyGiuseppe_hasTopping_HotSpicedBeefTopping, destination=T001c::HotSpicedBeefTopping, linkedAtt={T001c_uid::HotSpicedBeefTopping_uid uid_domain=T001c_uid::HotSpicedBeefTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d6, origin=T00d6::ParmesanTopping_hasSpiciness_Mild, destination=T0046::ParmesanTopping, linkedAtt={T0046_uid::ParmesanTopping_uid uid_domain=T0046_uid::ParmesanTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d6, origin=T00d6::ParmesanTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d7, origin=T00d7::Capricciosa_hasTopping_MozzarellaTopping, destination=T0047::Capricciosa, linkedAtt={T0047_uid::Capricciosa_uid uid_domain=T0047_uid::Capricciosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d7, origin=T00d7::Capricciosa_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d8, origin=T00d8::Capricciosa_hasTopping_TomatoTopping, destination=T0047::Capricciosa, linkedAtt={T0047_uid::Capricciosa_uid uid_domain=T0047_uid::Capricciosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d8, origin=T00d8::Capricciosa_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00d9, origin=T00d9::Capricciosa_hasTopping_OliveTopping, destination=T0047::Capricciosa, linkedAtt={T0047_uid::Capricciosa_uid uid_domain=T0047_uid::Capricciosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00d9, origin=T00d9::Capricciosa_hasTopping_OliveTopping, destination=T0006::OliveTopping, linkedAtt={T0006_uid::OliveTopping_uid uid_domain=T0006_uid::OliveTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00da, origin=T00da::Capricciosa_hasTopping_PeperonataTopping, destination=T0047::Capricciosa, linkedAtt={T0047_uid::Capricciosa_uid uid_domain=T0047_uid::Capricciosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00da, origin=T00da::Capricciosa_hasTopping_PeperonataTopping, destination=T0057::PeperonataTopping, linkedAtt={T0057_uid::PeperonataTopping_uid uid_domain=T0057_uid::PeperonataTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00db, origin=T00db::Capricciosa_hasTopping_HamTopping, destination=T0047::Capricciosa, linkedAtt={T0047_uid::Capricciosa_uid uid_domain=T0047_uid::Capricciosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00db, origin=T00db::Capricciosa_hasTopping_HamTopping, destination=T005e::HamTopping, linkedAtt={T005e_uid::HamTopping_uid uid_domain=T005e_uid::HamTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00dc, origin=T00dc::Capricciosa_hasTopping_AnchoviesTopping, destination=T0047::Capricciosa, linkedAtt={T0047_uid::Capricciosa_uid uid_domain=T0047_uid::Capricciosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00dc, origin=T00dc::Capricciosa_hasTopping_AnchoviesTopping, destination=T0012::AnchoviesTopping, linkedAtt={T0012_uid::AnchoviesTopping_uid uid_domain=T0012_uid::AnchoviesTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00dd, origin=T00dd::Capricciosa_hasTopping_CaperTopping, destination=T0047::Capricciosa, linkedAtt={T0047_uid::Capricciosa_uid uid_domain=T0047_uid::Capricciosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00dd, origin=T00dd::Capricciosa_hasTopping_CaperTopping, destination=T0009::CaperTopping, linkedAtt={T0009_uid::CaperTopping_uid uid_domain=T0009_uid::CaperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00de, origin=T00de::SundriedTomatoTopping_hasSpiciness_Mild, destination=T004b::SundriedTomatoTopping, linkedAtt={T004b_uid::SundriedTomatoTopping_uid uid_domain=T004b_uid::SundriedTomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00de, origin=T00de::SundriedTomatoTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00df, origin=T00df::SundriedTomatoTopping_hasSpiciness_Mild, destination=T004b::SundriedTomatoTopping, linkedAtt={T004b_uid::SundriedTomatoTopping_uid uid_domain=T004b_uid::SundriedTomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00df, origin=T00df::SundriedTomatoTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e0, origin=T00e0::ParmaHamTopping_hasSpiciness_Mild, destination=T004f::ParmaHamTopping, linkedAtt={T004f_uid::ParmaHamTopping_uid uid_domain=T004f_uid::ParmaHamTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e0, origin=T00e0::ParmaHamTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e1, origin=T00e1::Rosa_hasTopping_MozzarellaTopping, destination=T0050::Rosa, linkedAtt={T0050_uid::Rosa_uid uid_domain=T0050_uid::Rosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e1, origin=T00e1::Rosa_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e2, origin=T00e2::Rosa_hasTopping_GorgonzolaTopping, destination=T0050::Rosa, linkedAtt={T0050_uid::Rosa_uid uid_domain=T0050_uid::Rosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e2, origin=T00e2::Rosa_hasTopping_GorgonzolaTopping, destination=T002e::GorgonzolaTopping, linkedAtt={T002e_uid::GorgonzolaTopping_uid uid_domain=T002e_uid::GorgonzolaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e3, origin=T00e3::Rosa_hasTopping_TomatoTopping, destination=T0050::Rosa, linkedAtt={T0050_uid::Rosa_uid uid_domain=T0050_uid::Rosa_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e3, origin=T00e3::Rosa_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e4, origin=T00e4::Parmense_hasTopping_AsparagusTopping, destination=T0051::Parmense, linkedAtt={T0051_uid::Parmense_uid uid_domain=T0051_uid::Parmense_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e4, origin=T00e4::Parmense_hasTopping_AsparagusTopping, destination=T0007::AsparagusTopping, linkedAtt={T0007_uid::AsparagusTopping_uid uid_domain=T0007_uid::AsparagusTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e5, origin=T00e5::Parmense_hasTopping_MozzarellaTopping, destination=T0051::Parmense, linkedAtt={T0051_uid::Parmense_uid uid_domain=T0051_uid::Parmense_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e5, origin=T00e5::Parmense_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e6, origin=T00e6::Parmense_hasTopping_TomatoTopping, destination=T0051::Parmense, linkedAtt={T0051_uid::Parmense_uid uid_domain=T0051_uid::Parmense_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e6, origin=T00e6::Parmense_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e7, origin=T00e7::Parmense_hasTopping_HamTopping, destination=T0051::Parmense, linkedAtt={T0051_uid::Parmense_uid uid_domain=T0051_uid::Parmense_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e7, origin=T00e7::Parmense_hasTopping_HamTopping, destination=T005e::HamTopping, linkedAtt={T005e_uid::HamTopping_uid uid_domain=T005e_uid::HamTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e8, origin=T00e8::Parmense_hasTopping_ParmesanTopping, destination=T0051::Parmense, linkedAtt={T0051_uid::Parmense_uid uid_domain=T0051_uid::Parmense_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e8, origin=T00e8::Parmense_hasTopping_ParmesanTopping, destination=T0046::ParmesanTopping, linkedAtt={T0046_uid::ParmesanTopping_uid uid_domain=T0046_uid::ParmesanTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00e9, origin=T00e9::ChickenTopping_hasSpiciness_Mild, destination=T0052::ChickenTopping, linkedAtt={T0052_uid::ChickenTopping_uid uid_domain=T0052_uid::ChickenTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00e9, origin=T00e9::ChickenTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ea, origin=T00ea::PolloAdAstra_hasTopping_RedOnionTopping, destination=T0054::PolloAdAstra, linkedAtt={T0054_uid::PolloAdAstra_uid uid_domain=T0054_uid::PolloAdAstra_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ea, origin=T00ea::PolloAdAstra_hasTopping_RedOnionTopping, destination=T0048::RedOnionTopping, linkedAtt={T0048_uid::RedOnionTopping_uid uid_domain=T0048_uid::RedOnionTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00eb, origin=T00eb::PolloAdAstra_hasTopping_MozzarellaTopping, destination=T0054::PolloAdAstra, linkedAtt={T0054_uid::PolloAdAstra_uid uid_domain=T0054_uid::PolloAdAstra_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00eb, origin=T00eb::PolloAdAstra_hasTopping_MozzarellaTopping, destination=T0026::MozzarellaTopping, linkedAtt={T0026_uid::MozzarellaTopping_uid uid_domain=T0026_uid::MozzarellaTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ec, origin=T00ec::PolloAdAstra_hasTopping_GarlicTopping, destination=T0054::PolloAdAstra, linkedAtt={T0054_uid::PolloAdAstra_uid uid_domain=T0054_uid::PolloAdAstra_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ec, origin=T00ec::PolloAdAstra_hasTopping_GarlicTopping, destination=T0061::GarlicTopping, linkedAtt={T0061_uid::GarlicTopping_uid uid_domain=T0061_uid::GarlicTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ed, origin=T00ed::PolloAdAstra_hasTopping_SweetPepperTopping, destination=T0054::PolloAdAstra, linkedAtt={T0054_uid::PolloAdAstra_uid uid_domain=T0054_uid::PolloAdAstra_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ed, origin=T00ed::PolloAdAstra_hasTopping_SweetPepperTopping, destination=T000d::SweetPepperTopping, linkedAtt={T000d_uid::SweetPepperTopping_uid uid_domain=T000d_uid::SweetPepperTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ee, origin=T00ee::PolloAdAstra_hasTopping_TomatoTopping, destination=T0054::PolloAdAstra, linkedAtt={T0054_uid::PolloAdAstra_uid uid_domain=T0054_uid::PolloAdAstra_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ee, origin=T00ee::PolloAdAstra_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00ef, origin=T00ef::PolloAdAstra_hasTopping_ChickenTopping, destination=T0054::PolloAdAstra, linkedAtt={T0054_uid::PolloAdAstra_uid uid_domain=T0054_uid::PolloAdAstra_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00ef, origin=T00ef::PolloAdAstra_hasTopping_ChickenTopping, destination=T0052::ChickenTopping, linkedAtt={T0052_uid::ChickenTopping_uid uid_domain=T0052_uid::ChickenTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f0, origin=T00f0::PolloAdAstra_hasTopping_CajunSpiceTopping, destination=T0054::PolloAdAstra, linkedAtt={T0054_uid::PolloAdAstra_uid uid_domain=T0054_uid::PolloAdAstra_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f0, origin=T00f0::PolloAdAstra_hasTopping_CajunSpiceTopping, destination=T0020::CajunSpiceTopping, linkedAtt={T0020_uid::CajunSpiceTopping_uid uid_domain=T0020_uid::CajunSpiceTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f1, origin=T00f1::RocketTopping_hasSpiciness_Medium, destination=T0056::RocketTopping, linkedAtt={T0056_uid::RocketTopping_uid uid_domain=T0056_uid::RocketTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f1, origin=T00f1::RocketTopping_hasSpiciness_Medium, destination=T0013::Medium, linkedAtt={T0013_uid::Medium_uid uid_domain=T0013_uid::Medium_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f2, origin=T00f2::PeperonataTopping_hasSpiciness_Medium, destination=T0057::PeperonataTopping, linkedAtt={T0057_uid::PeperonataTopping_uid uid_domain=T0057_uid::PeperonataTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f2, origin=T00f2::PeperonataTopping_hasSpiciness_Medium, destination=T0013::Medium, linkedAtt={T0013_uid::Medium_uid uid_domain=T0013_uid::Medium_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f3, origin=T00f3::LeekTopping_hasSpiciness_Mild, destination=T0058::LeekTopping, linkedAtt={T0058_uid::LeekTopping_uid uid_domain=T0058_uid::LeekTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f3, origin=T00f3::LeekTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f4, origin=T00f4::FruttiDiMare_hasTopping_TomatoTopping, destination=T005a::FruttiDiMare, linkedAtt={T005a_uid::FruttiDiMare_uid uid_domain=T005a_uid::FruttiDiMare_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f4, origin=T00f4::FruttiDiMare_hasTopping_TomatoTopping, destination=T000c::TomatoTopping, linkedAtt={T000c_uid::TomatoTopping_uid uid_domain=T000c_uid::TomatoTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f5, origin=T00f5::FruttiDiMare_hasTopping_MixedSeafoodTopping, destination=T005a::FruttiDiMare, linkedAtt={T005a_uid::FruttiDiMare_uid uid_domain=T005a_uid::FruttiDiMare_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f5, origin=T00f5::FruttiDiMare_hasTopping_MixedSeafoodTopping, destination=T003d::MixedSeafoodTopping, linkedAtt={T003d_uid::MixedSeafoodTopping_uid uid_domain=T003d_uid::MixedSeafoodTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f6, origin=T00f6::FruttiDiMare_hasTopping_GarlicTopping, destination=T005a::FruttiDiMare, linkedAtt={T005a_uid::FruttiDiMare_uid uid_domain=T005a_uid::FruttiDiMare_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f6, origin=T00f6::FruttiDiMare_hasTopping_GarlicTopping, destination=T0061::GarlicTopping, linkedAtt={T0061_uid::GarlicTopping_uid uid_domain=T0061_uid::GarlicTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f7, origin=T00f7::GoatsCheeseTopping_hasSpiciness_Mild, destination=T005d::GoatsCheeseTopping, linkedAtt={T005d_uid::GoatsCheeseTopping_uid uid_domain=T005d_uid::GoatsCheeseTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f7, origin=T00f7::GoatsCheeseTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f8, origin=T00f8::NutTopping_hasSpiciness_Mild, destination=T005f::NutTopping, linkedAtt={T005f_uid::NutTopping_uid uid_domain=T005f_uid::NutTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f8, origin=T00f8::NutTopping_hasSpiciness_Mild, destination=T0032::Mild, linkedAtt={T0032_uid::Mild_uid uid_domain=T0032_uid::Mild_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T00f9, origin=T00f9::GarlicTopping_hasSpiciness_Medium, destination=T0061::GarlicTopping, linkedAtt={T0061_uid::GarlicTopping_uid uid_domain=T0061_uid::GarlicTopping_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T00f9, origin=T00f9::GarlicTopping_hasSpiciness_Medium, destination=T0013::Medium, linkedAtt={T0013_uid::Medium_uid uid_domain=T0013_uid::Medium_uid uid_domain}]

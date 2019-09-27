@@ -1,0 +1,33 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+
+--------------------------------------- 
+Origin OWL Ontology
+--------------------------------------- 
+http://www.limics.fr/ontologies/ontolurgences
+Nb. classes          : 10031
+Nb. data properties  : 1
+Nb. object properties: 60
+Nb. isa axioms       : 10781
+Nb. data axioms      : 0
+Nb. class axioms     : 1218
+
+--------------------------------------- 
+Reduced Ontology (axiom complexity reduction)
+--------------------------------------- 
+http://www.limics.fr/ontologies/ontolurgences
+Nb. classes          : 10043
+Nb. data properties  : 1
+Nb. object properties: 60
+Nb. isa axioms       : 10799
+Nb. data axioms      : 1
+Nb. class axioms     : 1212
+Nb. reduced class axioms: 6
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 15684 KB

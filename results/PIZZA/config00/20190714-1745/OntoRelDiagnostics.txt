@@ -1,0 +1,1609 @@
+
+======================================================= 
+OntoRel Diagnostics
+======================================================= 
+
+--------------------------------------- 
+OWL to SQL datatypes
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom redundancy reduction
+--------------------------------------- 
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyBase
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons
+FourSeasons [1..*] hasTopping CaperTopping
+FourSeasons [1..*] hasTopping MushroomTopping
+FourSeasons [1..*] hasTopping TomatoTopping
+FourSeasons [1..*] hasTopping MozzarellaTopping
+FourSeasons [1..*] hasTopping OliveTopping
+FourSeasons [1..*] hasTopping AnchoviesTopping
+FourSeasons [1..*] hasTopping PeperoniSausageTopping
+Reduction of: FourSeasons [1..*] hasTopping CaperTopping and FourSeasons [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping CaperTopping and FourSeasons [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping CaperTopping and FourSeasons [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping CaperTopping and FourSeasons [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping CaperTopping and FourSeasons [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping CaperTopping and FourSeasons [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping MushroomTopping and FourSeasons [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping MushroomTopping and FourSeasons [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping MushroomTopping and FourSeasons [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping MushroomTopping and FourSeasons [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping MushroomTopping and FourSeasons [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping TomatoTopping and FourSeasons [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping TomatoTopping and FourSeasons [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping TomatoTopping and FourSeasons [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping TomatoTopping and FourSeasons [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping MozzarellaTopping and FourSeasons [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping MozzarellaTopping and FourSeasons [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping MozzarellaTopping and FourSeasons [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping OliveTopping and FourSeasons [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping OliveTopping and FourSeasons [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FourSeasons [1..*] hasTopping AnchoviesTopping and FourSeasons [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping
+FishTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#NonVegetarianPizza
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping
+OliveTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping
+AsparagusTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#American
+American [1..*] hasTopping MozzarellaTopping
+American [1..*] hasTopping PeperoniSausageTopping
+American [1..*] hasTopping TomatoTopping
+Reduction of: American [1..*] hasTopping MozzarellaTopping and American [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: American [1..*] hasTopping MozzarellaTopping and American [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: American [1..*] hasTopping PeperoniSausageTopping and American [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping
+CaperTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Country
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping
+MushroomTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping
+TomatoTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping
+SweetPepperTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza
+Pizza [1..1] hasBase PizzaBase
+Pizza [1..*] hasTopping PizzaTopping
+Pizza [1..*] hasBase PizzaBase
+Reduction of: Pizza [1..1] hasBase PizzaBase and Pizza [1..*] hasTopping PizzaTopping
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Pizza [1..1] hasBase PizzaBase and Pizza [1..*] hasBase PizzaBase
+  d1=d2 & op1=op2 & r1=r2  -> reduce: Pizza [1..1] hasBase PizzaBase
+Pizza [1..*] hasTopping PizzaTopping
+Pizza [1..1] hasBase PizzaBase
+Reduction of: Pizza [1..*] hasTopping PizzaTopping and Pizza [1..1] hasBase PizzaBase
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Reduction of: Pizza [1..*] hasTopping PizzaTopping and Pizza [1..*] hasBase PizzaBase
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping
+RosemaryTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizza
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot
+AmericanHot [1..*] hasTopping HotGreenPepperTopping
+AmericanHot [1..*] hasTopping MozzarellaTopping
+AmericanHot [1..*] hasTopping JalapenoPepperTopping
+AmericanHot [1..*] hasTopping PeperoniSausageTopping
+AmericanHot [1..*] hasTopping TomatoTopping
+Reduction of: AmericanHot [1..*] hasTopping HotGreenPepperTopping and AmericanHot [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping HotGreenPepperTopping and AmericanHot [1..*] hasTopping JalapenoPepperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping HotGreenPepperTopping and AmericanHot [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping HotGreenPepperTopping and AmericanHot [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping MozzarellaTopping and AmericanHot [1..*] hasTopping JalapenoPepperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping MozzarellaTopping and AmericanHot [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping MozzarellaTopping and AmericanHot [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping JalapenoPepperTopping and AmericanHot [1..*] hasTopping PeperoniSausageTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping JalapenoPepperTopping and AmericanHot [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: AmericanHot [1..*] hasTopping PeperoniSausageTopping and AmericanHot [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyPizza
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana
+Napoletana [1..*] hasTopping MozzarellaTopping
+Napoletana [1..*] hasTopping OliveTopping
+Napoletana [1..*] hasTopping AnchoviesTopping
+Napoletana [1..*] hasTopping CaperTopping
+Napoletana [1..*] hasTopping TomatoTopping
+Reduction of: Napoletana [1..*] hasTopping MozzarellaTopping and Napoletana [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping MozzarellaTopping and Napoletana [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping MozzarellaTopping and Napoletana [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping MozzarellaTopping and Napoletana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping OliveTopping and Napoletana [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping OliveTopping and Napoletana [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping OliveTopping and Napoletana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping AnchoviesTopping and Napoletana [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping AnchoviesTopping and Napoletana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Napoletana [1..*] hasTopping CaperTopping and Napoletana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping
+OnionTopping [1..*] hasSpiciness Medium
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping
+PetitPoisTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizza
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping
+HotSpicedBeefTopping [1..*] hasSpiciness Hot
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping
+PeperoniSausageTopping [1..*] hasSpiciness Medium
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CajunSpiceTopping
+CajunSpiceTopping [1..*] hasSpiciness Hot
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatyPizza
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom
+Mushroom [1..*] hasTopping TomatoTopping
+Mushroom [1..*] hasTopping MozzarellaTopping
+Mushroom [1..*] hasTopping MushroomTopping
+Reduction of: Mushroom [1..*] hasTopping TomatoTopping and Mushroom [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Mushroom [1..*] hasTopping TomatoTopping and Mushroom [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Mushroom [1..*] hasTopping MozzarellaTopping and Mushroom [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping
+SpinachTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PineKernels
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping
+MozzarellaTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana
+Siciliana [1..*] hasTopping MozzarellaTopping
+Siciliana [1..*] hasTopping ArtichokeTopping
+Siciliana [1..*] hasTopping OliveTopping
+Siciliana [1..*] hasTopping GarlicTopping
+Siciliana [1..*] hasTopping HamTopping
+Siciliana [1..*] hasTopping AnchoviesTopping
+Siciliana [1..*] hasTopping TomatoTopping
+Reduction of: Siciliana [1..*] hasTopping MozzarellaTopping and Siciliana [1..*] hasTopping ArtichokeTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping MozzarellaTopping and Siciliana [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping MozzarellaTopping and Siciliana [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping MozzarellaTopping and Siciliana [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping MozzarellaTopping and Siciliana [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping MozzarellaTopping and Siciliana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping ArtichokeTopping and Siciliana [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping ArtichokeTopping and Siciliana [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping ArtichokeTopping and Siciliana [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping ArtichokeTopping and Siciliana [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping ArtichokeTopping and Siciliana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping OliveTopping and Siciliana [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping OliveTopping and Siciliana [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping OliveTopping and Siciliana [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping OliveTopping and Siciliana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping GarlicTopping and Siciliana [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping GarlicTopping and Siciliana [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping GarlicTopping and Siciliana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping HamTopping and Siciliana [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping HamTopping and Siciliana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Siciliana [1..*] hasTopping AnchoviesTopping and Siciliana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SlicedTomatoTopping
+SlicedTomatoTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi
+QuattroFormaggi [1..*] hasTopping TomatoTopping
+QuattroFormaggi [1..*] hasTopping FourCheesesTopping
+Reduction of: QuattroFormaggi [1..*] hasTopping TomatoTopping and QuattroFormaggi [1..*] hasTopping FourCheesesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo
+PrinceCarlo [1..*] hasTopping RosemaryTopping
+PrinceCarlo [1..*] hasTopping ParmesanTopping
+PrinceCarlo [1..*] hasTopping LeekTopping
+PrinceCarlo [1..*] hasTopping TomatoTopping
+PrinceCarlo [1..*] hasTopping MozzarellaTopping
+Reduction of: PrinceCarlo [1..*] hasTopping RosemaryTopping and PrinceCarlo [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping RosemaryTopping and PrinceCarlo [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping RosemaryTopping and PrinceCarlo [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping RosemaryTopping and PrinceCarlo [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping ParmesanTopping and PrinceCarlo [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping ParmesanTopping and PrinceCarlo [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping ParmesanTopping and PrinceCarlo [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping LeekTopping and PrinceCarlo [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping LeekTopping and PrinceCarlo [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PrinceCarlo [1..*] hasTopping TomatoTopping and PrinceCarlo [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Food
+Food [1..*] hasIngredient Food
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FourCheesesTopping
+FourCheesesTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun
+Cajun [1..*] hasTopping TobascoPepperSauce
+Cajun [1..*] hasTopping PeperonataTopping
+Cajun [1..*] hasTopping MozzarellaTopping
+Cajun [1..*] hasTopping PrawnsTopping
+Cajun [1..*] hasTopping OnionTopping
+Cajun [1..*] hasTopping TomatoTopping
+Reduction of: Cajun [1..*] hasTopping TobascoPepperSauce and Cajun [1..*] hasTopping PeperonataTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping TobascoPepperSauce and Cajun [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping TobascoPepperSauce and Cajun [1..*] hasTopping PrawnsTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping TobascoPepperSauce and Cajun [1..*] hasTopping OnionTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping TobascoPepperSauce and Cajun [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping PeperonataTopping and Cajun [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping PeperonataTopping and Cajun [1..*] hasTopping PrawnsTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping PeperonataTopping and Cajun [1..*] hasTopping OnionTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping PeperonataTopping and Cajun [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping MozzarellaTopping and Cajun [1..*] hasTopping PrawnsTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping MozzarellaTopping and Cajun [1..*] hasTopping OnionTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping MozzarellaTopping and Cajun [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping PrawnsTopping and Cajun [1..*] hasTopping OnionTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping PrawnsTopping and Cajun [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Cajun [1..*] hasTopping OnionTopping and Cajun [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping
+GorgonzolaTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza
+UnclosedPizza [1..*] hasTopping MozzarellaTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#HotGreenPepperTopping
+HotGreenPepperTopping [1..*] hasSpiciness Hot
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina
+Caprina [1..*] hasTopping TomatoTopping
+Caprina [1..*] hasTopping SundriedTomatoTopping
+Caprina [1..*] hasTopping GoatsCheeseTopping
+Caprina [1..*] hasTopping MozzarellaTopping
+Reduction of: Caprina [1..*] hasTopping TomatoTopping and Caprina [1..*] hasTopping SundriedTomatoTopping
+  d1=d2 & op1=op2 & r2<r1  -> parametric Reduce 
+Reduction of: Caprina [1..*] hasTopping TomatoTopping and Caprina [1..*] hasTopping GoatsCheeseTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Caprina [1..*] hasTopping TomatoTopping and Caprina [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Caprina [1..*] hasTopping SundriedTomatoTopping and Caprina [1..*] hasTopping GoatsCheeseTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Caprina [1..*] hasTopping SundriedTomatoTopping and Caprina [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Caprina [1..*] hasTopping GoatsCheeseTopping and Caprina [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ValuePartition
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina
+Fiorentina [1..*] hasTopping OliveTopping
+Fiorentina [1..*] hasTopping ParmesanTopping
+Fiorentina [1..*] hasTopping GarlicTopping
+Fiorentina [1..*] hasTopping MozzarellaTopping
+Fiorentina [1..*] hasTopping TomatoTopping
+Fiorentina [1..*] hasTopping SpinachTopping
+Reduction of: Fiorentina [1..*] hasTopping OliveTopping and Fiorentina [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping OliveTopping and Fiorentina [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping OliveTopping and Fiorentina [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping OliveTopping and Fiorentina [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping OliveTopping and Fiorentina [1..*] hasTopping SpinachTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping ParmesanTopping and Fiorentina [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping ParmesanTopping and Fiorentina [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping ParmesanTopping and Fiorentina [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping ParmesanTopping and Fiorentina [1..*] hasTopping SpinachTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping GarlicTopping and Fiorentina [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping GarlicTopping and Fiorentina [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping GarlicTopping and Fiorentina [1..*] hasTopping SpinachTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping MozzarellaTopping and Fiorentina [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping MozzarellaTopping and Fiorentina [1..*] hasTopping SpinachTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Fiorentina [1..*] hasTopping TomatoTopping and Fiorentina [1..*] hasTopping SpinachTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita
+Margherita [1..*] hasTopping TomatoTopping
+Margherita [1..*] hasTopping MozzarellaTopping
+Reduction of: Margherita [1..*] hasTopping TomatoTopping and Margherita [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent1
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyVegetableTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping
+JalapenoPepperTopping [1..*] hasSpiciness Hot
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ArtichokeTopping
+ArtichokeTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#TobascoPepperSauce
+TobascoPepperSauce [1..*] hasSpiciness Hot
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana
+Veneziana [1..*] hasTopping OliveTopping
+Veneziana [1..*] hasTopping OnionTopping
+Veneziana [1..*] hasTopping CaperTopping
+Veneziana [1..*] hasTopping SultanaTopping
+Veneziana [1..*] hasTopping PineKernels
+Veneziana [1..*] hasTopping TomatoTopping
+Veneziana [1..*] hasTopping MozzarellaTopping
+Reduction of: Veneziana [1..*] hasTopping OliveTopping and Veneziana [1..*] hasTopping OnionTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OliveTopping and Veneziana [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OliveTopping and Veneziana [1..*] hasTopping SultanaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OliveTopping and Veneziana [1..*] hasTopping PineKernels
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OliveTopping and Veneziana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OliveTopping and Veneziana [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OnionTopping and Veneziana [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OnionTopping and Veneziana [1..*] hasTopping SultanaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OnionTopping and Veneziana [1..*] hasTopping PineKernels
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OnionTopping and Veneziana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping OnionTopping and Veneziana [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping CaperTopping and Veneziana [1..*] hasTopping SultanaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping CaperTopping and Veneziana [1..*] hasTopping PineKernels
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping CaperTopping and Veneziana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping CaperTopping and Veneziana [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping SultanaTopping and Veneziana [1..*] hasTopping PineKernels
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping SultanaTopping and Veneziana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping SultanaTopping and Veneziana [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping PineKernels and Veneziana [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping PineKernels and Veneziana [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Veneziana [1..*] hasTopping TomatoTopping and Veneziana [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera
+Giardiniera [1..*] hasTopping OliveTopping
+Giardiniera [1..*] hasTopping PetitPoisTopping
+Giardiniera [1..*] hasTopping PeperonataTopping
+Giardiniera [1..*] hasTopping MozzarellaTopping
+Giardiniera [1..*] hasTopping MushroomTopping
+Giardiniera [1..*] hasTopping TomatoTopping
+Giardiniera [1..*] hasTopping SlicedTomatoTopping
+Giardiniera [1..*] hasTopping LeekTopping
+Reduction of: Giardiniera [1..*] hasTopping OliveTopping and Giardiniera [1..*] hasTopping PetitPoisTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping OliveTopping and Giardiniera [1..*] hasTopping PeperonataTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping OliveTopping and Giardiniera [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping OliveTopping and Giardiniera [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping OliveTopping and Giardiniera [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping OliveTopping and Giardiniera [1..*] hasTopping SlicedTomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping OliveTopping and Giardiniera [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PetitPoisTopping and Giardiniera [1..*] hasTopping PeperonataTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PetitPoisTopping and Giardiniera [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PetitPoisTopping and Giardiniera [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PetitPoisTopping and Giardiniera [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PetitPoisTopping and Giardiniera [1..*] hasTopping SlicedTomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PetitPoisTopping and Giardiniera [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PeperonataTopping and Giardiniera [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PeperonataTopping and Giardiniera [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PeperonataTopping and Giardiniera [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PeperonataTopping and Giardiniera [1..*] hasTopping SlicedTomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping PeperonataTopping and Giardiniera [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping MozzarellaTopping and Giardiniera [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping MozzarellaTopping and Giardiniera [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping MozzarellaTopping and Giardiniera [1..*] hasTopping SlicedTomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping MozzarellaTopping and Giardiniera [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping MushroomTopping and Giardiniera [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping MushroomTopping and Giardiniera [1..*] hasTopping SlicedTomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping MushroomTopping and Giardiniera [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping TomatoTopping and Giardiniera [1..*] hasTopping SlicedTomatoTopping
+  d1=d2 & op1=op2 & r2<r1  -> parametric Reduce 
+Reduction of: Giardiniera [1..*] hasTopping TomatoTopping and Giardiniera [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Giardiniera [1..*] hasTopping SlicedTomatoTopping and Giardiniera [1..*] hasTopping LeekTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho
+Soho [1..*] hasTopping MozzarellaTopping
+Soho [1..*] hasTopping OliveTopping
+Soho [1..*] hasTopping GarlicTopping
+Soho [1..*] hasTopping RocketTopping
+Soho [1..*] hasTopping TomatoTopping
+Soho [1..*] hasTopping ParmesanTopping
+Reduction of: Soho [1..*] hasTopping MozzarellaTopping and Soho [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping MozzarellaTopping and Soho [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping MozzarellaTopping and Soho [1..*] hasTopping RocketTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping MozzarellaTopping and Soho [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping MozzarellaTopping and Soho [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping OliveTopping and Soho [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping OliveTopping and Soho [1..*] hasTopping RocketTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping OliveTopping and Soho [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping OliveTopping and Soho [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping GarlicTopping and Soho [1..*] hasTopping RocketTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping GarlicTopping and Soho [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping GarlicTopping and Soho [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping RocketTopping and Soho [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping RocketTopping and Soho [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Soho [1..*] hasTopping TomatoTopping and Soho [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#IceCream
+IceCream [1..*] hasTopping FruitTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine
+LaReine [1..*] hasTopping OliveTopping
+LaReine [1..*] hasTopping HamTopping
+LaReine [1..*] hasTopping MushroomTopping
+LaReine [1..*] hasTopping MozzarellaTopping
+LaReine [1..*] hasTopping TomatoTopping
+Reduction of: LaReine [1..*] hasTopping OliveTopping and LaReine [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping OliveTopping and LaReine [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping OliveTopping and LaReine [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping OliveTopping and LaReine [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping HamTopping and LaReine [1..*] hasTopping MushroomTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping HamTopping and LaReine [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping HamTopping and LaReine [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping MushroomTopping and LaReine [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping MushroomTopping and LaReine [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: LaReine [1..*] hasTopping MozzarellaTopping and LaReine [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent2
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SultanaTopping
+SultanaTopping [1..*] hasSpiciness Medium
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe
+SloppyGiuseppe [1..*] hasTopping GreenPepperTopping
+SloppyGiuseppe [1..*] hasTopping OnionTopping
+SloppyGiuseppe [1..*] hasTopping TomatoTopping
+SloppyGiuseppe [1..*] hasTopping MozzarellaTopping
+SloppyGiuseppe [1..*] hasTopping HotSpicedBeefTopping
+Reduction of: SloppyGiuseppe [1..*] hasTopping GreenPepperTopping and SloppyGiuseppe [1..*] hasTopping OnionTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping GreenPepperTopping and SloppyGiuseppe [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping GreenPepperTopping and SloppyGiuseppe [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping GreenPepperTopping and SloppyGiuseppe [1..*] hasTopping HotSpicedBeefTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping OnionTopping and SloppyGiuseppe [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping OnionTopping and SloppyGiuseppe [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping OnionTopping and SloppyGiuseppe [1..*] hasTopping HotSpicedBeefTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping TomatoTopping and SloppyGiuseppe [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping TomatoTopping and SloppyGiuseppe [1..*] hasTopping HotSpicedBeefTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: SloppyGiuseppe [1..*] hasTopping MozzarellaTopping and SloppyGiuseppe [1..*] hasTopping HotSpicedBeefTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping
+ParmesanTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa
+Capricciosa [1..*] hasTopping MozzarellaTopping
+Capricciosa [1..*] hasTopping TomatoTopping
+Capricciosa [1..*] hasTopping OliveTopping
+Capricciosa [1..*] hasTopping PeperonataTopping
+Capricciosa [1..*] hasTopping HamTopping
+Capricciosa [1..*] hasTopping AnchoviesTopping
+Capricciosa [1..*] hasTopping CaperTopping
+Reduction of: Capricciosa [1..*] hasTopping MozzarellaTopping and Capricciosa [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping MozzarellaTopping and Capricciosa [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping MozzarellaTopping and Capricciosa [1..*] hasTopping PeperonataTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping MozzarellaTopping and Capricciosa [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping MozzarellaTopping and Capricciosa [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping MozzarellaTopping and Capricciosa [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping TomatoTopping and Capricciosa [1..*] hasTopping OliveTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping TomatoTopping and Capricciosa [1..*] hasTopping PeperonataTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping TomatoTopping and Capricciosa [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping TomatoTopping and Capricciosa [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping TomatoTopping and Capricciosa [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping OliveTopping and Capricciosa [1..*] hasTopping PeperonataTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping OliveTopping and Capricciosa [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping OliveTopping and Capricciosa [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping OliveTopping and Capricciosa [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping PeperonataTopping and Capricciosa [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping PeperonataTopping and Capricciosa [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping PeperonataTopping and Capricciosa [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping HamTopping and Capricciosa [1..*] hasTopping AnchoviesTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping HamTopping and Capricciosa [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Capricciosa [1..*] hasTopping AnchoviesTopping and Capricciosa [1..*] hasTopping CaperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#InterestingPizza
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping
+SundriedTomatoTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizzaEquivalent
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#DomainConcept
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmaHamTopping
+ParmaHamTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa
+Rosa [1..*] hasTopping MozzarellaTopping
+Rosa [1..*] hasTopping GorgonzolaTopping
+Rosa [1..*] hasTopping TomatoTopping
+Reduction of: Rosa [1..*] hasTopping MozzarellaTopping and Rosa [1..*] hasTopping GorgonzolaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Rosa [1..*] hasTopping MozzarellaTopping and Rosa [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Rosa [1..*] hasTopping GorgonzolaTopping and Rosa [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense
+Parmense [1..*] hasTopping AsparagusTopping
+Parmense [1..*] hasTopping MozzarellaTopping
+Parmense [1..*] hasTopping TomatoTopping
+Parmense [1..*] hasTopping HamTopping
+Parmense [1..*] hasTopping ParmesanTopping
+Reduction of: Parmense [1..*] hasTopping AsparagusTopping and Parmense [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping AsparagusTopping and Parmense [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping AsparagusTopping and Parmense [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping AsparagusTopping and Parmense [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping MozzarellaTopping and Parmense [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping MozzarellaTopping and Parmense [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping MozzarellaTopping and Parmense [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping TomatoTopping and Parmense [1..*] hasTopping HamTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping TomatoTopping and Parmense [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: Parmense [1..*] hasTopping HamTopping and Parmense [1..*] hasTopping ParmesanTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping
+ChickenTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra
+PolloAdAstra [1..*] hasTopping RedOnionTopping
+PolloAdAstra [1..*] hasTopping MozzarellaTopping
+PolloAdAstra [1..*] hasTopping GarlicTopping
+PolloAdAstra [1..*] hasTopping SweetPepperTopping
+PolloAdAstra [1..*] hasTopping TomatoTopping
+PolloAdAstra [1..*] hasTopping ChickenTopping
+PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+Reduction of: PolloAdAstra [1..*] hasTopping RedOnionTopping and PolloAdAstra [1..*] hasTopping MozzarellaTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping RedOnionTopping and PolloAdAstra [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping RedOnionTopping and PolloAdAstra [1..*] hasTopping SweetPepperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping RedOnionTopping and PolloAdAstra [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping RedOnionTopping and PolloAdAstra [1..*] hasTopping ChickenTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping RedOnionTopping and PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping MozzarellaTopping and PolloAdAstra [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping MozzarellaTopping and PolloAdAstra [1..*] hasTopping SweetPepperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping MozzarellaTopping and PolloAdAstra [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping MozzarellaTopping and PolloAdAstra [1..*] hasTopping ChickenTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping MozzarellaTopping and PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping GarlicTopping and PolloAdAstra [1..*] hasTopping SweetPepperTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping GarlicTopping and PolloAdAstra [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping GarlicTopping and PolloAdAstra [1..*] hasTopping ChickenTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping GarlicTopping and PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping SweetPepperTopping and PolloAdAstra [1..*] hasTopping TomatoTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping SweetPepperTopping and PolloAdAstra [1..*] hasTopping ChickenTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping SweetPepperTopping and PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping TomatoTopping and PolloAdAstra [1..*] hasTopping ChickenTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping TomatoTopping and PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: PolloAdAstra [1..*] hasTopping ChickenTopping and PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping
+RocketTopping [1..*] hasSpiciness Medium
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping
+PeperonataTopping [1..*] hasSpiciness Medium
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping
+LeekTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare
+FruttiDiMare [1..*] hasTopping TomatoTopping
+FruttiDiMare [1..*] hasTopping MixedSeafoodTopping
+FruttiDiMare [1..*] hasTopping GarlicTopping
+Reduction of: FruttiDiMare [1..*] hasTopping TomatoTopping and FruttiDiMare [1..*] hasTopping MixedSeafoodTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FruttiDiMare [1..*] hasTopping TomatoTopping and FruttiDiMare [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: FruttiDiMare [1..*] hasTopping MixedSeafoodTopping and FruttiDiMare [1..*] hasTopping GarlicTopping
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping
+GoatsCheeseTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping
+NutTopping [1..*] hasSpiciness Mild
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping
+GarlicTopping [1..*] hasSpiciness Medium
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#RealItalianPizza
+
+============ Reducing class axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyPizza
+
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyBase
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping
+===== Les axiomes 
+FishTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+
+===== Les axiomes 
+FishTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+
+===== Les axiomes 
+FishTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#HotGreenPepperTopping
+===== Les axiomes 
+HotGreenPepperTopping [1..*] hasSpiciness Hot
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#NonVegetarianPizza
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#American
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Country
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SlicedTomatoTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping
+===== Les axiomes 
+TomatoTopping [1..*] hasSpiciness Mild
+SlicedTomatoTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+Reduction of: SlicedTomatoTopping [1..*] hasSpiciness Mild and TomatoTopping [1..*] hasSpiciness Mild
+  d1<d2 & op1=op2 & r1=r2  -> reduce: SlicedTomatoTopping [1..*] hasSpiciness Mild
+Adding: SlicedTomatoTopping [1..*] hasSpiciness Mild
+
+===== Les axiomes 
+TomatoTopping [1..*] hasSpiciness Mild
+SundriedTomatoTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+Reduction of: SundriedTomatoTopping [1..*] hasSpiciness Mild and TomatoTopping [1..*] hasSpiciness Mild
+  d1<d2 & op1=op2 & r1=r2  -> reduce: SundriedTomatoTopping [1..*] hasSpiciness Mild
+Adding: SundriedTomatoTopping [1..*] hasSpiciness Mild
+
+===== Reduce class axioms http://www.co-ode.org/ontologies/pizza/pizza.owl#SlicedTomatoTopping
+SlicedTomatoTopping [1..*] hasSpiciness Mild
+SlicedTomatoTopping [1..*] hasSpiciness Mild
+Reduction of: SlicedTomatoTopping [1..*] hasSpiciness Mild and SlicedTomatoTopping [1..*] hasSpiciness Mild
+  d1=d2 & op1=op2 & r1=r2  -> reduce: SlicedTomatoTopping [1..*] hasSpiciness Mild
+SlicedTomatoTopping [1..*] hasSpiciness Mild
+
+
+Removing: TomatoTopping [1..*] hasSpiciness Mild
+===== Reduce class axioms http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping
+SundriedTomatoTopping [1..*] hasSpiciness Mild
+SundriedTomatoTopping [1..*] hasSpiciness Mild
+Reduction of: SundriedTomatoTopping [1..*] hasSpiciness Mild and SundriedTomatoTopping [1..*] hasSpiciness Mild
+  d1=d2 & op1=op2 & r1=r2  -> reduce: SundriedTomatoTopping [1..*] hasSpiciness Mild
+SundriedTomatoTopping [1..*] hasSpiciness Mild
+
+
+Removing: TomatoTopping [1..*] hasSpiciness Mild
+Adding: SlicedTomatoTopping [1..*] hasSpiciness Mild
+===== Les axiomes 
+SlicedTomatoTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+Adding: SundriedTomatoTopping [1..*] hasSpiciness Mild
+===== Les axiomes 
+SundriedTomatoTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#GreenPepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SweetPepperTopping
+===== Les axiomes 
+JalapenoPepperTopping [1..*] hasSpiciness Hot
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+PeperonataTopping [1..*] hasSpiciness Medium
+===== Les permutations 
+===== Les axiomes 
+SweetPepperTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza
+===== Les axiomes 
+Pizza [1..*] hasTopping PizzaTopping
+Pizza [1..1] hasBase PizzaBase
+UnclosedPizza [1..*] hasTopping MozzarellaTopping
+===== Les permutations 
+Reduction of: UnclosedPizza [1..*] hasTopping MozzarellaTopping and Pizza [1..*] hasTopping PizzaTopping
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+
+Reduction of: UnclosedPizza [1..*] hasTopping MozzarellaTopping and Pizza [1..1] hasBase PizzaBase
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+Pizza [1..*] hasTopping PizzaTopping
+Pizza [1..1] hasBase PizzaBase
+===== Les permutations 
+
+
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizza
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FourSeasons
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina
+http://www.co-ode.org/ontologies/pizza/pizza.owl#AmericanHot
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa
+http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine
+http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra
+http://www.co-ode.org/ontologies/pizza/pizza.owl#American
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa
+===== Les axiomes 
+Parmense [1..*] hasTopping AsparagusTopping
+Parmense [1..*] hasTopping MozzarellaTopping
+Parmense [1..*] hasTopping TomatoTopping
+Parmense [1..*] hasTopping HamTopping
+Parmense [1..*] hasTopping ParmesanTopping
+===== Les permutations 
+===== Les axiomes 
+FourSeasons [1..*] hasTopping CaperTopping
+FourSeasons [1..*] hasTopping MushroomTopping
+FourSeasons [1..*] hasTopping TomatoTopping
+FourSeasons [1..*] hasTopping MozzarellaTopping
+FourSeasons [1..*] hasTopping OliveTopping
+FourSeasons [1..*] hasTopping AnchoviesTopping
+FourSeasons [1..*] hasTopping PeperoniSausageTopping
+===== Les permutations 
+===== Les axiomes 
+PrinceCarlo [1..*] hasTopping RosemaryTopping
+PrinceCarlo [1..*] hasTopping ParmesanTopping
+PrinceCarlo [1..*] hasTopping LeekTopping
+PrinceCarlo [1..*] hasTopping TomatoTopping
+PrinceCarlo [1..*] hasTopping MozzarellaTopping
+===== Les permutations 
+===== Les axiomes 
+Fiorentina [1..*] hasTopping OliveTopping
+Fiorentina [1..*] hasTopping ParmesanTopping
+Fiorentina [1..*] hasTopping GarlicTopping
+Fiorentina [1..*] hasTopping MozzarellaTopping
+Fiorentina [1..*] hasTopping TomatoTopping
+Fiorentina [1..*] hasTopping SpinachTopping
+===== Les permutations 
+===== Les axiomes 
+AmericanHot [1..*] hasTopping HotGreenPepperTopping
+AmericanHot [1..*] hasTopping MozzarellaTopping
+AmericanHot [1..*] hasTopping JalapenoPepperTopping
+AmericanHot [1..*] hasTopping PeperoniSausageTopping
+AmericanHot [1..*] hasTopping TomatoTopping
+===== Les permutations 
+===== Les axiomes 
+Giardiniera [1..*] hasTopping OliveTopping
+Giardiniera [1..*] hasTopping PetitPoisTopping
+Giardiniera [1..*] hasTopping PeperonataTopping
+Giardiniera [1..*] hasTopping MozzarellaTopping
+Giardiniera [1..*] hasTopping MushroomTopping
+Giardiniera [1..*] hasTopping TomatoTopping
+Giardiniera [1..*] hasTopping SlicedTomatoTopping
+Giardiniera [1..*] hasTopping LeekTopping
+===== Les permutations 
+===== Les axiomes 
+Caprina [1..*] hasTopping TomatoTopping
+Caprina [1..*] hasTopping SundriedTomatoTopping
+Caprina [1..*] hasTopping GoatsCheeseTopping
+Caprina [1..*] hasTopping MozzarellaTopping
+===== Les permutations 
+===== Les axiomes 
+Veneziana [1..*] hasTopping OliveTopping
+Veneziana [1..*] hasTopping OnionTopping
+Veneziana [1..*] hasTopping CaperTopping
+Veneziana [1..*] hasTopping SultanaTopping
+Veneziana [1..*] hasTopping PineKernels
+Veneziana [1..*] hasTopping TomatoTopping
+Veneziana [1..*] hasTopping MozzarellaTopping
+===== Les permutations 
+===== Les axiomes 
+Mushroom [1..*] hasTopping TomatoTopping
+Mushroom [1..*] hasTopping MozzarellaTopping
+Mushroom [1..*] hasTopping MushroomTopping
+===== Les permutations 
+===== Les axiomes 
+Napoletana [1..*] hasTopping MozzarellaTopping
+Napoletana [1..*] hasTopping OliveTopping
+Napoletana [1..*] hasTopping AnchoviesTopping
+Napoletana [1..*] hasTopping CaperTopping
+Napoletana [1..*] hasTopping TomatoTopping
+===== Les permutations 
+===== Les axiomes 
+SloppyGiuseppe [1..*] hasTopping GreenPepperTopping
+SloppyGiuseppe [1..*] hasTopping OnionTopping
+SloppyGiuseppe [1..*] hasTopping TomatoTopping
+SloppyGiuseppe [1..*] hasTopping MozzarellaTopping
+SloppyGiuseppe [1..*] hasTopping HotSpicedBeefTopping
+===== Les permutations 
+===== Les axiomes 
+Capricciosa [1..*] hasTopping MozzarellaTopping
+Capricciosa [1..*] hasTopping TomatoTopping
+Capricciosa [1..*] hasTopping OliveTopping
+Capricciosa [1..*] hasTopping PeperonataTopping
+Capricciosa [1..*] hasTopping HamTopping
+Capricciosa [1..*] hasTopping AnchoviesTopping
+Capricciosa [1..*] hasTopping CaperTopping
+===== Les permutations 
+===== Les axiomes 
+LaReine [1..*] hasTopping OliveTopping
+LaReine [1..*] hasTopping HamTopping
+LaReine [1..*] hasTopping MushroomTopping
+LaReine [1..*] hasTopping MozzarellaTopping
+LaReine [1..*] hasTopping TomatoTopping
+===== Les permutations 
+===== Les axiomes 
+QuattroFormaggi [1..*] hasTopping TomatoTopping
+QuattroFormaggi [1..*] hasTopping FourCheesesTopping
+===== Les permutations 
+===== Les axiomes 
+Margherita [1..*] hasTopping TomatoTopping
+Margherita [1..*] hasTopping MozzarellaTopping
+===== Les permutations 
+===== Les axiomes 
+Soho [1..*] hasTopping MozzarellaTopping
+Soho [1..*] hasTopping OliveTopping
+Soho [1..*] hasTopping GarlicTopping
+Soho [1..*] hasTopping RocketTopping
+Soho [1..*] hasTopping TomatoTopping
+Soho [1..*] hasTopping ParmesanTopping
+===== Les permutations 
+===== Les axiomes 
+Siciliana [1..*] hasTopping MozzarellaTopping
+Siciliana [1..*] hasTopping ArtichokeTopping
+Siciliana [1..*] hasTopping OliveTopping
+Siciliana [1..*] hasTopping GarlicTopping
+Siciliana [1..*] hasTopping HamTopping
+Siciliana [1..*] hasTopping AnchoviesTopping
+Siciliana [1..*] hasTopping TomatoTopping
+===== Les permutations 
+===== Les axiomes 
+PolloAdAstra [1..*] hasTopping RedOnionTopping
+PolloAdAstra [1..*] hasTopping MozzarellaTopping
+PolloAdAstra [1..*] hasTopping GarlicTopping
+PolloAdAstra [1..*] hasTopping SweetPepperTopping
+PolloAdAstra [1..*] hasTopping TomatoTopping
+PolloAdAstra [1..*] hasTopping ChickenTopping
+PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+===== Les permutations 
+===== Les axiomes 
+American [1..*] hasTopping MozzarellaTopping
+American [1..*] hasTopping PeperoniSausageTopping
+American [1..*] hasTopping TomatoTopping
+===== Les permutations 
+===== Les axiomes 
+FruttiDiMare [1..*] hasTopping TomatoTopping
+FruttiDiMare [1..*] hasTopping MixedSeafoodTopping
+FruttiDiMare [1..*] hasTopping GarlicTopping
+===== Les permutations 
+===== Les axiomes 
+Cajun [1..*] hasTopping TobascoPepperSauce
+Cajun [1..*] hasTopping PeperonataTopping
+Cajun [1..*] hasTopping MozzarellaTopping
+Cajun [1..*] hasTopping PrawnsTopping
+Cajun [1..*] hasTopping OnionTopping
+Cajun [1..*] hasTopping TomatoTopping
+===== Les permutations 
+===== Les axiomes 
+Rosa [1..*] hasTopping MozzarellaTopping
+Rosa [1..*] hasTopping GorgonzolaTopping
+Rosa [1..*] hasTopping TomatoTopping
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyPizza
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping
+===== Les axiomes 
+OnionTopping [1..*] hasSpiciness Medium
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizza
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SultanaTopping
+===== Les axiomes 
+SultanaTopping [1..*] hasSpiciness Medium
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FourCheesesTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyVegetableTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping
+===== Les axiomes 
+GorgonzolaTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+FourCheesesTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+MozzarellaTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+ParmesanTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+GoatsCheeseTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CajunSpiceTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatyPizza
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Mushroom
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PineKernels
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SlicedTomatoTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Food
+http://www.co-ode.org/ontologies/pizza/pizza.owl#IceCream
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping
+===== Les axiomes 
+Food [1..*] hasIngredient Food
+IceCream [1..*] hasTopping FruitTopping
+===== Les permutations 
+Reduction of: IceCream [1..*] hasTopping FruitTopping and Food [1..*] hasIngredient Food
+  d1<d2 & op1<op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+Food [1..*] hasIngredient Food
+Pizza [1..*] hasTopping PizzaTopping
+Pizza [1..1] hasBase PizzaBase
+===== Les permutations 
+Reduction of: Pizza [1..*] hasTopping PizzaTopping and Food [1..*] hasIngredient Food
+  d1<d2 & op1<op2 & r1<r2  -> parametric Reduce 
+Reduction of: Pizza [1..1] hasBase PizzaBase and Food [1..*] hasIngredient Food
+  d1<d2 & op1<op2 & r1<r2  -> parametric Reduce 
+
+===== Les axiomes 
+Food [1..*] hasIngredient Food
+===== Les permutations 
+
+===== Les axiomes 
+Food [1..*] hasIngredient Food
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FourCheesesTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Cajun
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#GorgonzolaTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#UnclosedPizza
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#HotGreenPepperTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Caprina
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ValuePartition
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Fiorentina
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent1
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyVegetableTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#JalapenoPepperTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ArtichokeTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#TobascoPepperSauce
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Veneziana
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MixedSeafoodTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Giardiniera
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Soho
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CajunSpiceTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping
+===== Les axiomes 
+CajunSpiceTopping [1..*] hasSpiciness Hot
+===== Les permutations 
+===== Les axiomes 
+RosemaryTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#IceCream
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#LaReine
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetarianPizzaEquivalent2
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SultanaTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SloppyGiuseppe
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Capricciosa
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#InterestingPizza
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SundriedTomatoTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SpicyPizzaEquivalent
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Spiciness
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#DomainConcept
+http://www.co-ode.org/ontologies/pizza/pizza.owl#Food
+===== Les axiomes 
+Food [1..*] hasIngredient Food
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmaHamTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#Parmense
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperoniSausageTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#HotSpicedBeefTopping
+===== Les axiomes 
+PeperoniSausageTopping [1..*] hasSpiciness Medium
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+ChickenTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+HotSpicedBeefTopping [1..*] hasSpiciness Hot
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PolloAdAstra
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PrawnsTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PeperonataTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#TobascoPepperSauce
+===== Les axiomes 
+TobascoPepperSauce [1..*] hasSpiciness Hot
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#FruttiDiMare
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#LeekTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#AsparagusTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SpinachTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CaperTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#OnionTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#RocketTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MushroomTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ArtichokeTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PetitPoisTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyVegetableTopping
+===== Les axiomes 
+LeekTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+AsparagusTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+SpinachTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+CaperTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+OnionTopping [1..*] hasSpiciness Medium
+===== Les permutations 
+===== Les axiomes 
+GarlicTopping [1..*] hasSpiciness Medium
+===== Les permutations 
+===== Les axiomes 
+RocketTopping [1..*] hasSpiciness Medium
+===== Les permutations 
+===== Les axiomes 
+OliveTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+MushroomTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+ArtichokeTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+PetitPoisTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ThinAndCrispyBase
+http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#GoatsCheeseTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmaHamTopping
+===== Les axiomes 
+ParmaHamTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#PineKernels
+===== Les axiomes 
+NutTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#MeatTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FishTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#VegetableTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#FruitTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#NutTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseTopping
+http://www.co-ode.org/ontologies/pizza/pizza.owl#HerbSpiceTopping
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+FishTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+NutTopping [1..*] hasSpiciness Mild
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#RealItalianPizza
+============ Reducing class and subclasses axioms of http://www.co-ode.org/ontologies/pizza/pizza.owl#CheeseyPizza
+============ Reduction summary
+Creating join table for: FourSeasons [1..*] hasTopping CaperTopping
+Creating join table for: FourSeasons [1..*] hasTopping MushroomTopping
+Creating join table for: FourSeasons [1..*] hasTopping TomatoTopping
+Creating join table for: FourSeasons [1..*] hasTopping MozzarellaTopping
+Creating join table for: FourSeasons [1..*] hasTopping OliveTopping
+Creating join table for: FourSeasons [1..*] hasTopping AnchoviesTopping
+Creating join table for: FourSeasons [1..*] hasTopping PeperoniSausageTopping
+Creating join table for: FishTopping [1..*] hasSpiciness Mild
+Creating join table for: OliveTopping [1..*] hasSpiciness Mild
+Creating join table for: AsparagusTopping [1..*] hasSpiciness Mild
+Creating join table for: American [1..*] hasTopping MozzarellaTopping
+Creating join table for: American [1..*] hasTopping PeperoniSausageTopping
+Creating join table for: American [1..*] hasTopping TomatoTopping
+Creating join table for: CaperTopping [1..*] hasSpiciness Mild
+Creating join table for: MushroomTopping [1..*] hasSpiciness Mild
+Creating join table for: SweetPepperTopping [1..*] hasSpiciness Mild
+Creating join table for: Pizza [1..*] hasTopping PizzaTopping
+Creating join table for: Pizza [1..1] hasBase PizzaBase
+Creating join table for: RosemaryTopping [1..*] hasSpiciness Mild
+Creating join table for: AmericanHot [1..*] hasTopping HotGreenPepperTopping
+Creating join table for: AmericanHot [1..*] hasTopping MozzarellaTopping
+Creating join table for: AmericanHot [1..*] hasTopping JalapenoPepperTopping
+Creating join table for: AmericanHot [1..*] hasTopping PeperoniSausageTopping
+Creating join table for: AmericanHot [1..*] hasTopping TomatoTopping
+Creating join table for: Napoletana [1..*] hasTopping MozzarellaTopping
+Creating join table for: Napoletana [1..*] hasTopping OliveTopping
+Creating join table for: Napoletana [1..*] hasTopping AnchoviesTopping
+Creating join table for: Napoletana [1..*] hasTopping CaperTopping
+Creating join table for: Napoletana [1..*] hasTopping TomatoTopping
+Creating join table for: OnionTopping [1..*] hasSpiciness Medium
+Creating join table for: PetitPoisTopping [1..*] hasSpiciness Mild
+Creating join table for: HotSpicedBeefTopping [1..*] hasSpiciness Hot
+Creating join table for: PeperoniSausageTopping [1..*] hasSpiciness Medium
+Creating join table for: CajunSpiceTopping [1..*] hasSpiciness Hot
+Creating join table for: Mushroom [1..*] hasTopping TomatoTopping
+Creating join table for: Mushroom [1..*] hasTopping MozzarellaTopping
+Creating join table for: Mushroom [1..*] hasTopping MushroomTopping
+Creating join table for: SpinachTopping [1..*] hasSpiciness Mild
+Creating join table for: MozzarellaTopping [1..*] hasSpiciness Mild
+Creating join table for: Siciliana [1..*] hasTopping MozzarellaTopping
+Creating join table for: Siciliana [1..*] hasTopping ArtichokeTopping
+Creating join table for: Siciliana [1..*] hasTopping OliveTopping
+Creating join table for: Siciliana [1..*] hasTopping GarlicTopping
+Creating join table for: Siciliana [1..*] hasTopping HamTopping
+Creating join table for: Siciliana [1..*] hasTopping AnchoviesTopping
+Creating join table for: Siciliana [1..*] hasTopping TomatoTopping
+Creating join table for: SlicedTomatoTopping [1..*] hasSpiciness Mild
+Creating join table for: SlicedTomatoTopping [1..*] hasSpiciness Mild
+Creating join table for: QuattroFormaggi [1..*] hasTopping TomatoTopping
+Creating join table for: QuattroFormaggi [1..*] hasTopping FourCheesesTopping
+Creating join table for: PrinceCarlo [1..*] hasTopping RosemaryTopping
+Creating join table for: PrinceCarlo [1..*] hasTopping ParmesanTopping
+Creating join table for: PrinceCarlo [1..*] hasTopping LeekTopping
+Creating join table for: PrinceCarlo [1..*] hasTopping TomatoTopping
+Creating join table for: PrinceCarlo [1..*] hasTopping MozzarellaTopping
+Creating join table for: Food [1..*] hasIngredient Food
+Creating join table for: FourCheesesTopping [1..*] hasSpiciness Mild
+Creating join table for: Cajun [1..*] hasTopping TobascoPepperSauce
+Creating join table for: Cajun [1..*] hasTopping PeperonataTopping
+Creating join table for: Cajun [1..*] hasTopping MozzarellaTopping
+Creating join table for: Cajun [1..*] hasTopping PrawnsTopping
+Creating join table for: Cajun [1..*] hasTopping OnionTopping
+Creating join table for: Cajun [1..*] hasTopping TomatoTopping
+Creating join table for: GorgonzolaTopping [1..*] hasSpiciness Mild
+Creating join table for: UnclosedPizza [1..*] hasTopping MozzarellaTopping
+Creating join table for: HotGreenPepperTopping [1..*] hasSpiciness Hot
+Creating join table for: Caprina [1..*] hasTopping TomatoTopping
+Creating join table for: Caprina [1..*] hasTopping SundriedTomatoTopping
+Creating join table for: Caprina [1..*] hasTopping GoatsCheeseTopping
+Creating join table for: Caprina [1..*] hasTopping MozzarellaTopping
+Creating join table for: Fiorentina [1..*] hasTopping OliveTopping
+Creating join table for: Fiorentina [1..*] hasTopping ParmesanTopping
+Creating join table for: Fiorentina [1..*] hasTopping GarlicTopping
+Creating join table for: Fiorentina [1..*] hasTopping MozzarellaTopping
+Creating join table for: Fiorentina [1..*] hasTopping TomatoTopping
+Creating join table for: Fiorentina [1..*] hasTopping SpinachTopping
+Creating join table for: Margherita [1..*] hasTopping TomatoTopping
+Creating join table for: Margherita [1..*] hasTopping MozzarellaTopping
+Creating join table for: JalapenoPepperTopping [1..*] hasSpiciness Hot
+Creating join table for: ArtichokeTopping [1..*] hasSpiciness Mild
+Creating join table for: TobascoPepperSauce [1..*] hasSpiciness Hot
+Creating join table for: Veneziana [1..*] hasTopping OliveTopping
+Creating join table for: Veneziana [1..*] hasTopping OnionTopping
+Creating join table for: Veneziana [1..*] hasTopping CaperTopping
+Creating join table for: Veneziana [1..*] hasTopping SultanaTopping
+Creating join table for: Veneziana [1..*] hasTopping PineKernels
+Creating join table for: Veneziana [1..*] hasTopping TomatoTopping
+Creating join table for: Veneziana [1..*] hasTopping MozzarellaTopping
+Creating join table for: Giardiniera [1..*] hasTopping OliveTopping
+Creating join table for: Giardiniera [1..*] hasTopping PetitPoisTopping
+Creating join table for: Giardiniera [1..*] hasTopping PeperonataTopping
+Creating join table for: Giardiniera [1..*] hasTopping MozzarellaTopping
+Creating join table for: Giardiniera [1..*] hasTopping MushroomTopping
+Creating join table for: Giardiniera [1..*] hasTopping TomatoTopping
+Creating join table for: Giardiniera [1..*] hasTopping SlicedTomatoTopping
+Creating join table for: Giardiniera [1..*] hasTopping LeekTopping
+Creating join table for: Soho [1..*] hasTopping MozzarellaTopping
+Creating join table for: Soho [1..*] hasTopping OliveTopping
+Creating join table for: Soho [1..*] hasTopping GarlicTopping
+Creating join table for: Soho [1..*] hasTopping RocketTopping
+Creating join table for: Soho [1..*] hasTopping TomatoTopping
+Creating join table for: Soho [1..*] hasTopping ParmesanTopping
+Creating join table for: IceCream [1..*] hasTopping FruitTopping
+Creating join table for: LaReine [1..*] hasTopping OliveTopping
+Creating join table for: LaReine [1..*] hasTopping HamTopping
+Creating join table for: LaReine [1..*] hasTopping MushroomTopping
+Creating join table for: LaReine [1..*] hasTopping MozzarellaTopping
+Creating join table for: LaReine [1..*] hasTopping TomatoTopping
+Creating join table for: SultanaTopping [1..*] hasSpiciness Medium
+Creating join table for: SloppyGiuseppe [1..*] hasTopping GreenPepperTopping
+Creating join table for: SloppyGiuseppe [1..*] hasTopping OnionTopping
+Creating join table for: SloppyGiuseppe [1..*] hasTopping TomatoTopping
+Creating join table for: SloppyGiuseppe [1..*] hasTopping MozzarellaTopping
+Creating join table for: SloppyGiuseppe [1..*] hasTopping HotSpicedBeefTopping
+Creating join table for: ParmesanTopping [1..*] hasSpiciness Mild
+Creating join table for: Capricciosa [1..*] hasTopping MozzarellaTopping
+Creating join table for: Capricciosa [1..*] hasTopping TomatoTopping
+Creating join table for: Capricciosa [1..*] hasTopping OliveTopping
+Creating join table for: Capricciosa [1..*] hasTopping PeperonataTopping
+Creating join table for: Capricciosa [1..*] hasTopping HamTopping
+Creating join table for: Capricciosa [1..*] hasTopping AnchoviesTopping
+Creating join table for: Capricciosa [1..*] hasTopping CaperTopping
+Creating join table for: SundriedTomatoTopping [1..*] hasSpiciness Mild
+Creating join table for: SundriedTomatoTopping [1..*] hasSpiciness Mild
+Creating join table for: ParmaHamTopping [1..*] hasSpiciness Mild
+Creating join table for: Rosa [1..*] hasTopping MozzarellaTopping
+Creating join table for: Rosa [1..*] hasTopping GorgonzolaTopping
+Creating join table for: Rosa [1..*] hasTopping TomatoTopping
+Creating join table for: Parmense [1..*] hasTopping AsparagusTopping
+Creating join table for: Parmense [1..*] hasTopping MozzarellaTopping
+Creating join table for: Parmense [1..*] hasTopping TomatoTopping
+Creating join table for: Parmense [1..*] hasTopping HamTopping
+Creating join table for: Parmense [1..*] hasTopping ParmesanTopping
+Creating join table for: ChickenTopping [1..*] hasSpiciness Mild
+Creating join table for: PolloAdAstra [1..*] hasTopping RedOnionTopping
+Creating join table for: PolloAdAstra [1..*] hasTopping MozzarellaTopping
+Creating join table for: PolloAdAstra [1..*] hasTopping GarlicTopping
+Creating join table for: PolloAdAstra [1..*] hasTopping SweetPepperTopping
+Creating join table for: PolloAdAstra [1..*] hasTopping TomatoTopping
+Creating join table for: PolloAdAstra [1..*] hasTopping ChickenTopping
+Creating join table for: PolloAdAstra [1..*] hasTopping CajunSpiceTopping
+Creating join table for: RocketTopping [1..*] hasSpiciness Medium
+Creating join table for: PeperonataTopping [1..*] hasSpiciness Medium
+Creating join table for: LeekTopping [1..*] hasSpiciness Mild
+Creating join table for: FruttiDiMare [1..*] hasTopping TomatoTopping
+Creating join table for: FruttiDiMare [1..*] hasTopping MixedSeafoodTopping
+Creating join table for: FruttiDiMare [1..*] hasTopping GarlicTopping
+Creating join table for: GoatsCheeseTopping [1..*] hasSpiciness Mild
+Creating join table for: NutTopping [1..*] hasSpiciness Mild
+Creating join table for: GarlicTopping [1..*] hasSpiciness Medium

@@ -1,0 +1,33 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+
+--------------------------------------- 
+Origin OWL Ontology
+--------------------------------------- 
+http://purl.org/vso/ns
+Nb. classes          : 33
+Nb. data properties  : 16
+Nb. object properties: 38
+Nb. isa axioms       : 28
+Nb. data axioms      : 13
+Nb. class axioms     : 58
+
+--------------------------------------- 
+Reduced Ontology (axiom complexity reduction)
+--------------------------------------- 
+http://purl.org/vso/ns
+Nb. classes          : 33
+Nb. data properties  : 16
+Nb. object properties: 38
+Nb. isa axioms       : 28
+Nb. data axioms      : 13
+Nb. class axioms     : 58
+Nb. reduced class axioms: 0
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 129 KB
