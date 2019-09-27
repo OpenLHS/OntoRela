@@ -1,0 +1,33 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+
+--------------------------------------- 
+Origin OWL Ontology
+--------------------------------------- 
+http://purl.obolibrary.org/obo/chmo.owl
+Nb. classes          : 3078
+Nb. data properties  : 0
+Nb. object properties: 25
+Nb. isa axioms       : 3056
+Nb. data axioms      : 0
+Nb. class axioms     : 251
+
+--------------------------------------- 
+Reduced Ontology (axiom complexity reduction)
+--------------------------------------- 
+http://purl.obolibrary.org/obo/chmo.owl
+Nb. classes          : 3078
+Nb. data properties  : 0
+Nb. object properties: 25
+Nb. isa axioms       : 3056
+Nb. data axioms      : 0
+Nb. class axioms     : 251
+Nb. reduced class axioms: 0
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 3252 KB

@@ -1,0 +1,166 @@
+
+======================================================= 
+Database Report
+======================================================= 
+univ-bench.owl
+Schemas: 1
+  Schema [id=ONTORELA, schemaType=BASE]
+
+--------------------------------------- 
+ONTORELA
+--------------------------------------- 
+All Tables: 64
+Join Tables: 20
+Types: 2
+Foreign keys: 83
+Constraints: 20
+
+Tables:
+  T0000::Thing
+  T0001::Lecturer
+  T0002::Professor
+  T0003::Publication
+  T0004::Article
+  T0005::TeachingAssistant
+  T0006::AssociateProfessor
+  T0007::FullProfessor
+  T0008::Manual
+  T0009::SystemsStaff
+  T000a::AdministrativeStaff
+  T000b::Institute
+  T000c::Dean
+  T000d::JournalArticle
+  T000e::Research
+  T000f::Specification
+  T0010::UndergraduateStudent
+  T0011::Student
+  T0012::AssistantProfessor
+  T0013::Schedule
+  T0014::Work
+  T0015::Person
+  T0016::ResearchGroup
+  T0017::Organization
+  T0018::Department
+  T0019::Faculty
+  T001a::GraduateStudent
+  T001b::Chair
+  T001c::Course
+  T001d::ConferencePaper
+  T001e::ClericalStaff
+  T001f::UnofficialPublication
+  T0020::Book
+  T0021::TechnicalReport
+  T0022::VisitingProfessor
+  T0023::Software
+  T0024::Director
+  T0025::College
+  T0026::University
+  T0027::PostDoc
+  T0028::GraduateCourse
+  T0029::Program
+  T002a::ResearchAssistant
+  T002b::Employee
+  T002c::Publication_publicationAuthor_Person
+  T002d::Publication_publicationResearch_Research
+  T002e::TeachingAssistant_teachingAssistantOf_Course
+  T002f::Schedule_listedCourse_Course
+  T0030::Person_advisor_Professor
+  T0031::Person_degreeFrom_University
+  T0032::Person_doctoralDegreeFrom_University
+  T0033::Person_mastersDegreeFrom_University
+  T0034::Person_undergraduateDegreeFrom_University
+  T0035::ResearchGroup_researchProject_Research
+  T0036::Organization_affiliateOf_Person
+  T0037::Organization_affiliatedOrganizationOf_Organization
+  T0038::Organization_member_Person
+  T0039::Organization_orgPublication_Publication
+  T003a::Organization_subOrganizationOf_Organization
+  T003b::Faculty_teacherOf_Course
+  T003c::GraduateStudent_takesCourse_GraduateCourse
+  T003d::Software_softwareDocumentation_Publication
+  T003e::University_hasAlumnus_Person
+  T003f::ResearchAssistant_worksFor_ResearchGroup
+Foreign keys: 
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0003, origin=T0003::Publication, destination=T0000::Thing, linkedAtt={T0003_uid::Publication_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0005, origin=T0005::TeachingAssistant, destination=T0000::Thing, linkedAtt={T0005_uid::TeachingAssistant_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0011, origin=T0011::Student, destination=T0000::Thing, linkedAtt={T0011_uid::Student_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0013, origin=T0013::Schedule, destination=T0000::Thing, linkedAtt={T0013_uid::Schedule_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0014, origin=T0014::Work, destination=T0000::Thing, linkedAtt={T0014_uid::Work_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0015, origin=T0015::Person, destination=T0000::Thing, linkedAtt={T0015_uid::Person_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0017, origin=T0017::Organization, destination=T0000::Thing, linkedAtt={T0017_uid::Organization_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0024, origin=T0024::Director, destination=T0000::Thing, linkedAtt={T0024_uid::Director_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002b, origin=T002b::Employee, destination=T0000::Thing, linkedAtt={T002b_uid::Employee_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000c, origin=T000c::Dean, destination=T0002::Professor, linkedAtt={T000c_uid::Dean_uid uid_domain=T0002_uid::Professor_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002a, origin=T002a::ResearchAssistant, destination=T0015::Person, linkedAtt={T002a_uid::ResearchAssistant_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000e, origin=T000e::Research, destination=T0014::Work, linkedAtt={T000e_uid::Research_uid uid_domain=T0014_uid::Work_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0004, origin=T0004::Article, destination=T0003::Publication, linkedAtt={T0004_uid::Article_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0027, origin=T0027::PostDoc, destination=T0019::Faculty, linkedAtt={T0027_uid::PostDoc_uid uid_domain=T0019_uid::Faculty_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000d, origin=T000d::JournalArticle, destination=T0004::Article, linkedAtt={T000d_uid::JournalArticle_uid uid_domain=T0004_uid::Article_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0008, origin=T0008::Manual, destination=T0003::Publication, linkedAtt={T0008_uid::Manual_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0026, origin=T0026::University, destination=T0017::Organization, linkedAtt={T0026_uid::University_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001a, origin=T001a::GraduateStudent, destination=T0015::Person, linkedAtt={T001a_uid::GraduateStudent_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0009, origin=T0009::SystemsStaff, destination=T000a::AdministrativeStaff, linkedAtt={T0009_uid::SystemsStaff_uid uid_domain=T000a_uid::AdministrativeStaff_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0007, origin=T0007::FullProfessor, destination=T0002::Professor, linkedAtt={T0007_uid::FullProfessor_uid uid_domain=T0002_uid::Professor_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0018, origin=T0018::Department, destination=T0017::Organization, linkedAtt={T0018_uid::Department_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0002, origin=T0002::Professor, destination=T0019::Faculty, linkedAtt={T0002_uid::Professor_uid uid_domain=T0019_uid::Faculty_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001f, origin=T001f::UnofficialPublication, destination=T0003::Publication, linkedAtt={T001f_uid::UnofficialPublication_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0019, origin=T0019::Faculty, destination=T002b::Employee, linkedAtt={T0019_uid::Faculty_uid uid_domain=T002b_uid::Employee_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0022, origin=T0022::VisitingProfessor, destination=T0002::Professor, linkedAtt={T0022_uid::VisitingProfessor_uid uid_domain=T0002_uid::Professor_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0010, origin=T0010::UndergraduateStudent, destination=T0011::Student, linkedAtt={T0010_uid::UndergraduateStudent_uid uid_domain=T0011_uid::Student_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0029, origin=T0029::Program, destination=T0017::Organization, linkedAtt={T0029_uid::Program_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0012, origin=T0012::AssistantProfessor, destination=T0002::Professor, linkedAtt={T0012_uid::AssistantProfessor_uid uid_domain=T0002_uid::Professor_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001b, origin=T001b::Chair, destination=T0002::Professor, linkedAtt={T001b_uid::Chair_uid uid_domain=T0002_uid::Professor_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0021, origin=T0021::TechnicalReport, destination=T0004::Article, linkedAtt={T0021_uid::TechnicalReport_uid uid_domain=T0004_uid::Article_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0001, origin=T0001::Lecturer, destination=T0019::Faculty, linkedAtt={T0001_uid::Lecturer_uid uid_domain=T0019_uid::Faculty_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0006, origin=T0006::AssociateProfessor, destination=T0002::Professor, linkedAtt={T0006_uid::AssociateProfessor_uid uid_domain=T0002_uid::Professor_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000b, origin=T000b::Institute, destination=T0017::Organization, linkedAtt={T000b_uid::Institute_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0028, origin=T0028::GraduateCourse, destination=T001c::Course, linkedAtt={T0028_uid::GraduateCourse_uid uid_domain=T001c_uid::Course_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0016, origin=T0016::ResearchGroup, destination=T0017::Organization, linkedAtt={T0016_uid::ResearchGroup_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0025, origin=T0025::College, destination=T0017::Organization, linkedAtt={T0025_uid::College_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0023, origin=T0023::Software, destination=T0003::Publication, linkedAtt={T0023_uid::Software_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0020, origin=T0020::Book, destination=T0003::Publication, linkedAtt={T0020_uid::Book_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001d, origin=T001d::ConferencePaper, destination=T0004::Article, linkedAtt={T001d_uid::ConferencePaper_uid uid_domain=T0004_uid::Article_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001c, origin=T001c::Course, destination=T0014::Work, linkedAtt={T001c_uid::Course_uid uid_domain=T0014_uid::Work_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000a, origin=T000a::AdministrativeStaff, destination=T002b::Employee, linkedAtt={T000a_uid::AdministrativeStaff_uid uid_domain=T002b_uid::Employee_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001e, origin=T001e::ClericalStaff, destination=T000a::AdministrativeStaff, linkedAtt={T001e_uid::ClericalStaff_uid uid_domain=T000a_uid::AdministrativeStaff_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000f, origin=T000f::Specification, destination=T0003::Publication, linkedAtt={T000f_uid::Specification_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T002c, origin=T002c::Publication_publicationAuthor_Person, destination=T0003::Publication, linkedAtt={T0003_uid::Publication_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T002c, origin=T002c::Publication_publicationAuthor_Person, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T002d, origin=T002d::Publication_publicationResearch_Research, destination=T0003::Publication, linkedAtt={T0003_uid::Publication_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T002d, origin=T002d::Publication_publicationResearch_Research, destination=T000e::Research, linkedAtt={T000e_uid::Research_uid uid_domain=T000e_uid::Research_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T002e, origin=T002e::TeachingAssistant_teachingAssistantOf_Course, destination=T0005::TeachingAssistant, linkedAtt={T0005_uid::TeachingAssistant_uid uid_domain=T0005_uid::TeachingAssistant_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T002e, origin=T002e::TeachingAssistant_teachingAssistantOf_Course, destination=T001c::Course, linkedAtt={T001c_uid::Course_uid uid_domain=T001c_uid::Course_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T002f, origin=T002f::Schedule_listedCourse_Course, destination=T0013::Schedule, linkedAtt={T0013_uid::Schedule_uid uid_domain=T0013_uid::Schedule_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T002f, origin=T002f::Schedule_listedCourse_Course, destination=T001c::Course, linkedAtt={T001c_uid::Course_uid uid_domain=T001c_uid::Course_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0030, origin=T0030::Person_advisor_Professor, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0030, origin=T0030::Person_advisor_Professor, destination=T0002::Professor, linkedAtt={T0002_uid::Professor_uid uid_domain=T0002_uid::Professor_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0031, origin=T0031::Person_degreeFrom_University, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0031, origin=T0031::Person_degreeFrom_University, destination=T0026::University, linkedAtt={T0026_uid::University_uid uid_domain=T0026_uid::University_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0032, origin=T0032::Person_doctoralDegreeFrom_University, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0032, origin=T0032::Person_doctoralDegreeFrom_University, destination=T0026::University, linkedAtt={T0026_uid::University_uid uid_domain=T0026_uid::University_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0033, origin=T0033::Person_mastersDegreeFrom_University, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0033, origin=T0033::Person_mastersDegreeFrom_University, destination=T0026::University, linkedAtt={T0026_uid::University_uid uid_domain=T0026_uid::University_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0034, origin=T0034::Person_undergraduateDegreeFrom_University, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0034, origin=T0034::Person_undergraduateDegreeFrom_University, destination=T0026::University, linkedAtt={T0026_uid::University_uid uid_domain=T0026_uid::University_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0035, origin=T0035::ResearchGroup_researchProject_Research, destination=T0016::ResearchGroup, linkedAtt={T0016_uid::ResearchGroup_uid uid_domain=T0016_uid::ResearchGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0035, origin=T0035::ResearchGroup_researchProject_Research, destination=T000e::Research, linkedAtt={T000e_uid::Research_uid uid_domain=T000e_uid::Research_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0036, origin=T0036::Organization_affiliateOf_Person, destination=T0017::Organization, linkedAtt={T0017_uid::Organization_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0036, origin=T0036::Organization_affiliateOf_Person, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0037, origin=T0037::Organization_affiliatedOrganizationOf_Organization, destination=T0017::Organization, linkedAtt={T0017_uid_domain::Organization_uid_domain uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0037, origin=T0037::Organization_affiliatedOrganizationOf_Organization, destination=T0017::Organization, linkedAtt={T0017_uid_range::Organization_uid_range uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0038, origin=T0038::Organization_member_Person, destination=T0017::Organization, linkedAtt={T0017_uid::Organization_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0038, origin=T0038::Organization_member_Person, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0039, origin=T0039::Organization_orgPublication_Publication, destination=T0017::Organization, linkedAtt={T0017_uid::Organization_uid uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0039, origin=T0039::Organization_orgPublication_Publication, destination=T0003::Publication, linkedAtt={T0003_uid::Publication_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003a, origin=T003a::Organization_subOrganizationOf_Organization, destination=T0017::Organization, linkedAtt={T0017_uid_domain::Organization_uid_domain uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003a, origin=T003a::Organization_subOrganizationOf_Organization, destination=T0017::Organization, linkedAtt={T0017_uid_range::Organization_uid_range uid_domain=T0017_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003b, origin=T003b::Faculty_teacherOf_Course, destination=T0019::Faculty, linkedAtt={T0019_uid::Faculty_uid uid_domain=T0019_uid::Faculty_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003b, origin=T003b::Faculty_teacherOf_Course, destination=T001c::Course, linkedAtt={T001c_uid::Course_uid uid_domain=T001c_uid::Course_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003c, origin=T003c::GraduateStudent_takesCourse_GraduateCourse, destination=T001a::GraduateStudent, linkedAtt={T001a_uid::GraduateStudent_uid uid_domain=T001a_uid::GraduateStudent_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003c, origin=T003c::GraduateStudent_takesCourse_GraduateCourse, destination=T0028::GraduateCourse, linkedAtt={T0028_uid::GraduateCourse_uid uid_domain=T0028_uid::GraduateCourse_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003d, origin=T003d::Software_softwareDocumentation_Publication, destination=T0023::Software, linkedAtt={T0023_uid::Software_uid uid_domain=T0023_uid::Software_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003d, origin=T003d::Software_softwareDocumentation_Publication, destination=T0003::Publication, linkedAtt={T0003_uid::Publication_uid uid_domain=T0003_uid::Publication_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003e, origin=T003e::University_hasAlumnus_Person, destination=T0026::University, linkedAtt={T0026_uid::University_uid uid_domain=T0026_uid::University_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003e, origin=T003e::University_hasAlumnus_Person, destination=T0015::Person, linkedAtt={T0015_uid::Person_uid uid_domain=T0015_uid::Person_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003f, origin=T003f::ResearchAssistant_worksFor_ResearchGroup, destination=T002a::ResearchAssistant, linkedAtt={T002a_uid::ResearchAssistant_uid uid_domain=T002a_uid::ResearchAssistant_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003f, origin=T003f::ResearchAssistant_worksFor_ResearchGroup, destination=T0016::ResearchGroup, linkedAtt={T0016_uid::ResearchGroup_uid uid_domain=T0016_uid::ResearchGroup_uid uid_domain}]

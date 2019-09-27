@@ -1,0 +1,33 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+
+--------------------------------------- 
+Origin OWL Ontology
+--------------------------------------- 
+http://www.gamuts.net/entity
+Nb. classes          : 18001
+Nb. data properties  : 0
+Nb. object properties: 0
+Nb. isa axioms       : 6249
+Nb. data axioms      : 0
+Nb. class axioms     : 0
+
+--------------------------------------- 
+Reduced Ontology (axiom complexity reduction)
+--------------------------------------- 
+http://www.gamuts.net/entity
+Nb. classes          : 18001
+Nb. data properties  : 0
+Nb. object properties: 0
+Nb. isa axioms       : 6249
+Nb. data axioms      : 0
+Nb. class axioms     : 0
+Nb. reduced class axioms: 0
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 14341 KB

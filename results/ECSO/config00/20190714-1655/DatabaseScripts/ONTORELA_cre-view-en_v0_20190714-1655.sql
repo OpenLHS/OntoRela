@@ -1,0 +1,4404 @@
+/*
+-- =========================================================================== A
+Schema : ONTORELA_en
+Creation Date : 20190714-1655
+Encoding : UTF-8, sans BOM, fin de ligne Unix (LF)
+Plateforme : PostgreSQL 9.6
+Responsable : OntoRelA
+Version : v0
+Status : dev
+Objet :
+  Create views in en of ONTORELA
+-- =========================================================================== A
+*/
+
+CREATE SCHEMA IF NOT EXISTS "ONTORELA_en";
+
+COMMENT ON SCHEMA "ONTORELA_en" IS 'Create views in en of ONTORELA 20190714-1655';
+
+CREATE VIEW "ONTORELA_en"."T0000_Thing" AS
+  SELECT "T0000_uid" AS "uid Thing"
+  FROM "ONTORELA"."T0000";
+
+COMMENT ON VIEW "ONTORELA_en"."T0000_Thing" IS 'Top table';
+
+CREATE VIEW "ONTORELA_en"."T0001_ECSO_00000110" AS
+  SELECT "T0001_uid" AS "T0001_uid"
+  FROM "ONTORELA"."T0001";
+
+CREATE VIEW "ONTORELA_en"."T0002_Fire Carbon Flux" AS
+  SELECT "T0002_uid" AS "uid Fire Carbon Flux"
+  FROM "ONTORELA"."T0002";
+
+CREATE VIEW "ONTORELA_en"."T0003_ECSO_00000049" AS
+  SELECT "T0003_uid" AS "T0003_uid"
+  FROM "ONTORELA"."T0003";
+
+CREATE VIEW "ONTORELA_en"."T0004_Millimeter" AS
+  SELECT "T0004_uid" AS "uid Millimeter"
+  FROM "ONTORELA"."T0004";
+
+CREATE VIEW "ONTORELA_en"."T0005_Carbon Pool" AS
+  SELECT "T0005_uid" AS "uid Carbon Pool"
+  FROM "ONTORELA"."T0005";
+
+CREATE VIEW "ONTORELA_en"."T0006_ENVO_00002010" AS
+  SELECT "T0006_uid" AS "uid ENVO_00002010"
+  FROM "ONTORELA"."T0006";
+
+CREATE VIEW "ONTORELA_en"."T0007_ECSO_00000037" AS
+  SELECT "T0007_uid" AS "T0007_uid"
+  FROM "ONTORELA"."T0007";
+
+CREATE VIEW "ONTORELA_en"."T0008_CHEBI_24835" AS
+  SELECT "T0008_uid" AS "uid CHEBI_24835"
+  FROM "ONTORELA"."T0008";
+
+CREATE VIEW "ONTORELA_en"."T0009_ENVO_02500008" AS
+  SELECT "T0009_uid" AS "uid ecosystem-wide respiration"
+  FROM "ONTORELA"."T0009";
+
+CREATE VIEW "ONTORELA_en"."T000a_Stream Depth" AS
+  SELECT "T000a_uid" AS "uid Stream Depth"
+  FROM "ONTORELA"."T000a";
+
+CREATE VIEW "ONTORELA_en"."T000b_ECSO_00001200" AS
+  SELECT "T000b_uid" AS "uid Biomass Volumetric Density"
+  FROM "ONTORELA"."T000b";
+
+CREATE VIEW "ONTORELA_en"."T000c_KilogramPerMeterSquaredPerSecond" AS
+  SELECT "T000c_uid" AS "T000c_uid"
+  FROM "ONTORELA"."T000c";
+
+CREATE VIEW "ONTORELA_en"."T000d_Wet Weight Biomass" AS
+  SELECT "T000d_uid" AS "uid Wet Weight Biomass"
+  FROM "ONTORELA"."T000d";
+
+CREATE VIEW "ONTORELA_en"."T000e_molar volume" AS
+  SELECT "T000e_uid" AS "uid molar volume"
+  FROM "ONTORELA"."T000e";
+
+CREATE VIEW "ONTORELA_en"."T000f_Carbon Percentage" AS
+  SELECT "T000f_uid" AS "uid Carbon Percentage"
+  FROM "ONTORELA"."T000f";
+
+CREATE VIEW "ONTORELA_en"."T0010_GramPerMeterCubed" AS
+  SELECT "T0010_uid" AS "uid GramPerMeterCubed"
+  FROM "ONTORELA"."T0010";
+
+CREATE VIEW "ONTORELA_en"."T0011_Temporal Rate" AS
+  SELECT "T0011_uid" AS "uid Temporal Rate"
+  FROM "ONTORELA"."T0011";
+
+CREATE VIEW "ONTORELA_en"."T0012_volume_measurementType" AS
+  SELECT "T0012_uid" AS "uid volume_measurementType"
+  FROM "ONTORELA"."T0012";
+
+CREATE VIEW "ONTORELA_en"."T0013_solar radiation" AS
+  SELECT "T0013_uid" AS "uid solar radiation"
+  FROM "ONTORELA"."T0013";
+
+CREATE VIEW "ONTORELA_en"."T0014_Carbon Dioxide Pressure" AS
+  SELECT "T0014_uid" AS "uid Carbon Dioxide Pressure"
+  FROM "ONTORELA"."T0014";
+
+CREATE VIEW "ONTORELA_en"."T0015_dissolved organic carbon" AS
+  SELECT "T0015_uid" AS "uid dissolved organic carbon"
+  FROM "ONTORELA"."T0015";
+
+CREATE VIEW "ONTORELA_en"."T0016_ENVO_00005774" AS
+  SELECT "T0016_uid" AS "uid ENVO_00005774"
+  FROM "ONTORELA"."T0016";
+
+CREATE VIEW "ONTORELA_en"."T0017_BFO_0000020" AS
+  SELECT "T0017_uid" AS "T0017_uid"
+  FROM "ONTORELA"."T0017";
+
+CREATE VIEW "ONTORELA_en"."T0018_Pressure" AS
+  SELECT "T0018_uid" AS "uid Pressure"
+  FROM "ONTORELA"."T0018";
+
+CREATE VIEW "ONTORELA_en"."T0019_snow" AS
+  SELECT "T0019_uid" AS "uid snow"
+  FROM "ONTORELA"."T0019";
+
+CREATE VIEW "ONTORELA_en"."T001a_Inorganic Carbon Pool" AS
+  SELECT "T001a_uid" AS "uid Inorganic Carbon Pool"
+  FROM "ONTORELA"."T001a";
+
+CREATE VIEW "ONTORELA_en"."T001b_ECSO_00000111" AS
+  SELECT "T001b_uid" AS "T001b_uid"
+  FROM "ONTORELA"."T001b";
+
+CREATE VIEW "ONTORELA_en"."T001c_KilometerSquared" AS
+  SELECT "T001c_uid" AS "uid KilometerSquared"
+  FROM "ONTORELA"."T001c";
+
+CREATE VIEW "ONTORELA_en"."T001d_ENVO_00002033" AS
+  SELECT "T001d_uid" AS "uid ENVO_00002033"
+  FROM "ONTORELA"."T001d";
+
+CREATE VIEW "ONTORELA_en"."T001e_ECSO_00000014" AS
+  SELECT "T001e_uid" AS "T001e_uid"
+  FROM "ONTORELA"."T001e";
+
+CREATE VIEW "ONTORELA_en"."T001f_environmental material" AS
+  SELECT "T001f_uid" AS "uid environmental material"
+  FROM "ONTORELA"."T001f";
+
+CREATE VIEW "ONTORELA_en"."T0020_PATO_0000033" AS
+  SELECT "T0020_uid" AS "uid PATO_0000033"
+  FROM "ONTORELA"."T0020";
+
+CREATE VIEW "ONTORELA_en"."T0021_ECSO_00001102" AS
+  SELECT "T0021_uid" AS "T0021_uid"
+  FROM "ONTORELA"."T0021";
+
+CREATE VIEW "ONTORELA_en"."T0022_Precipitation Height" AS
+  SELECT "T0022_uid" AS "uid Precipitation Height"
+  FROM "ONTORELA"."T0022";
+
+CREATE VIEW "ONTORELA_en"."T0023_ECSO_00001211" AS
+  SELECT "T0023_uid" AS "T0023_uid"
+  FROM "ONTORELA"."T0023";
+
+CREATE VIEW "ONTORELA_en"."T0024_Carbon to Nitrogen Ratio" AS
+  SELECT "T0024_uid" AS "uid Carbon to Nitrogen Ratio"
+  FROM "ONTORELA"."T0024";
+
+CREATE VIEW "ONTORELA_en"."T0025_ECSO_00001126" AS
+  SELECT "T0025_uid" AS "T0025_uid"
+  FROM "ONTORELA"."T0025";
+
+CREATE VIEW "ONTORELA_en"."T0026_volumetric density unit" AS
+  SELECT "T0026_uid" AS "uid volumetric density unit"
+  FROM "ONTORELA"."T0026";
+
+CREATE VIEW "ONTORELA_en"."T0027_PATO_0001025" AS
+  SELECT "T0027_uid" AS "uid PATO_0001025"
+  FROM "ONTORELA"."T0027";
+
+CREATE VIEW "ONTORELA_en"."T0028_Biomass" AS
+  SELECT "T0028_uid" AS "uid Biomass"
+  FROM "ONTORELA"."T0028";
+
+CREATE VIEW "ONTORELA_en"."T0029_Seawater Velocity" AS
+  SELECT "T0029_uid" AS "uid Seawater Velocity"
+  FROM "ONTORELA"."T0029";
+
+CREATE VIEW "ONTORELA_en"."T002a_Methane Flux" AS
+  SELECT "T002a_uid" AS "uid Methane Flux"
+  FROM "ONTORELA"."T002a";
+
+CREATE VIEW "ONTORELA_en"."T002b_Algae" AS
+  SELECT "T002b_uid" AS "uid Algae"
+  FROM "ONTORELA"."T002b";
+
+CREATE VIEW "ONTORELA_en"."T002c_measurement data item" AS
+  SELECT "T002c_uid" AS "uid measurement data item"
+  FROM "ONTORELA"."T002c";
+
+CREATE VIEW "ONTORELA_en"."T002d_ECSO_00000035" AS
+  SELECT "T002d_uid" AS "T002d_uid"
+  FROM "ONTORELA"."T002d";
+
+CREATE VIEW "ONTORELA_en"."T002e_Total_Respiration_MOV" AS
+  SELECT "T002e_uid" AS "uid Total_Respiration_MOV"
+  FROM "ONTORELA"."T002e";
+
+CREATE VIEW "ONTORELA_en"."T002f_ECSO_00000059" AS
+  SELECT "T002f_uid" AS "uid Snow Water Equivalent MOV"
+  FROM "ONTORELA"."T002f";
+
+CREATE VIEW "ONTORELA_en"."T0030_ENVO_01000307" AS
+  SELECT "T0030_uid" AS "uid ENVO_01000307"
+  FROM "ONTORELA"."T0030";
+
+CREATE VIEW "ONTORELA_en"."T0031_time" AS
+  SELECT "T0031_uid" AS "uid time"
+  FROM "ONTORELA"."T0031";
+
+CREATE VIEW "ONTORELA_en"."T0032_ECSO_00001113" AS
+  SELECT "T0032_uid" AS "T0032_uid"
+  FROM "ONTORELA"."T0032";
+
+CREATE VIEW "ONTORELA_en"."T0033_Water Velocity" AS
+  SELECT "T0033_uid" AS "uid Water Velocity"
+  FROM "ONTORELA"."T0033";
+
+CREATE VIEW "ONTORELA_en"."T0034_ECSO_00001101" AS
+  SELECT "T0034_uid" AS "T0034_uid"
+  FROM "ONTORELA"."T0034";
+
+CREATE VIEW "ONTORELA_en"."T0035_Plant Material Height" AS
+  SELECT "T0035_uid" AS "uid Plant Material Height"
+  FROM "ONTORELA"."T0035";
+
+CREATE VIEW "ONTORELA_en"."T0036_Soil Active Layer Depth" AS
+  SELECT "T0036_uid" AS "uid Soil Active Layer Depth"
+  FROM "ONTORELA"."T0036";
+
+CREATE VIEW "ONTORELA_en"."T0037_ECSO_00001149" AS
+  SELECT "T0037_uid" AS "T0037_uid"
+  FROM "ONTORELA"."T0037";
+
+CREATE VIEW "ONTORELA_en"."T0038_ECSO_00001137" AS
+  SELECT "T0038_uid" AS "T0038_uid"
+  FROM "ONTORELA"."T0038";
+
+CREATE VIEW "ONTORELA_en"."T0039_ECSO_00001125" AS
+  SELECT "T0039_uid" AS "T0039_uid"
+  FROM "ONTORELA"."T0039";
+
+CREATE VIEW "ONTORELA_en"."T003a_Oxygen Concentration" AS
+  SELECT "T003a_uid" AS "uid Oxygen Concentration"
+  FROM "ONTORELA"."T003a";
+
+CREATE VIEW "ONTORELA_en"."T003b_Protocol" AS
+  SELECT "T003b_uid" AS "uid Protocol"
+  FROM "ONTORELA"."T003b";
+
+CREATE VIEW "ONTORELA_en"."T003c_Volume" AS
+  SELECT "T003c_uid" AS "uid Volume"
+  FROM "ONTORELA"."T003c";
+
+CREATE VIEW "ONTORELA_en"."T003d_ECSO_00000012" AS
+  SELECT "T003d_uid" AS "T003d_uid"
+  FROM "ONTORELA"."T003d";
+
+CREATE VIEW "ONTORELA_en"."T003e_environmental feature" AS
+  SELECT "T003e_uid" AS "uid environmental feature"
+  FROM "ONTORELA"."T003e";
+
+CREATE VIEW "ONTORELA_en"."T003f_ECSO_00000048" AS
+  SELECT "T003f_uid" AS "T003f_uid"
+  FROM "ONTORELA"."T003f";
+
+CREATE VIEW "ONTORELA_en"."T0040_MassDensity" AS
+  SELECT "T0040_uid" AS "uid MassDensity"
+  FROM "ONTORELA"."T0040";
+
+CREATE VIEW "ONTORELA_en"."T0041_GramPerCentimeterCubed" AS
+  SELECT "T0041_uid" AS "uid GramPerCentimeterCubed"
+  FROM "ONTORELA"."T0041";
+
+CREATE VIEW "ONTORELA_en"."T0042_ECSO_00001112" AS
+  SELECT "T0042_uid" AS "T0042_uid"
+  FROM "ONTORELA"."T0042";
+
+CREATE VIEW "ONTORELA_en"."T0043_Wind Speed" AS
+  SELECT "T0043_uid" AS "uid Wind Speed"
+  FROM "ONTORELA"."T0043";
+
+CREATE VIEW "ONTORELA_en"."T0044_ECSO_00001100" AS
+  SELECT "T0044_uid" AS "uid electromagnetic radiation"
+  FROM "ONTORELA"."T0044";
+
+CREATE VIEW "ONTORELA_en"."T0045_Crown Height" AS
+  SELECT "T0045_uid" AS "uid Crown Height"
+  FROM "ONTORELA"."T0045";
+
+CREATE VIEW "ONTORELA_en"."T0046_PATO_0001241" AS
+  SELECT "T0046_uid" AS "uid PATO_0001241"
+  FROM "ONTORELA"."T0046";
+
+CREATE VIEW "ONTORELA_en"."T0047_Plant Material Biomass" AS
+  SELECT "T0047_uid" AS "uid Plant Material Biomass"
+  FROM "ONTORELA"."T0047";
+
+CREATE VIEW "ONTORELA_en"."T0048_Growth Rate" AS
+  SELECT "T0048_uid" AS "uid Growth Rate"
+  FROM "ONTORELA"."T0048";
+
+CREATE VIEW "ONTORELA_en"."T0049_ECSO_00001257" AS
+  SELECT "T0049_uid" AS "uid Specific Respiration Flux"
+  FROM "ONTORELA"."T0049";
+
+CREATE VIEW "ONTORELA_en"."T004a_CO2 Concentration in air" AS
+  SELECT "T004a_uid" AS "uid CO2 Concentration in air"
+  FROM "ONTORELA"."T004a";
+
+CREATE VIEW "ONTORELA_en"."T004b_Total_Soil_Wetness_MOV" AS
+  SELECT "T004b_uid" AS "uid Total_Soil_Wetness_MOV"
+  FROM "ONTORELA"."T004b";
+
+CREATE VIEW "ONTORELA_en"."T004c_ENVO_00002030" AS
+  SELECT "T004c_uid" AS "uid ENVO_00002030"
+  FROM "ONTORELA"."T004c";
+
+CREATE VIEW "ONTORELA_en"."T004d_ECSO_00000057" AS
+  SELECT "T004d_uid" AS "T004d_uid"
+  FROM "ONTORELA"."T004d";
+
+CREATE VIEW "ONTORELA_en"."T004e_ECSO_00000021" AS
+  SELECT "T004e_uid" AS "T004e_uid"
+  FROM "ONTORELA"."T004e";
+
+CREATE VIEW "ONTORELA_en"."T004f_Wood Carbon Pool" AS
+  SELECT "T004f_uid" AS "uid Wood Carbon Pool"
+  FROM "ONTORELA"."T004f";
+
+CREATE VIEW "ONTORELA_en"."T0050_ECSO_00000069" AS
+  SELECT "T0050_uid" AS "T0050_uid"
+  FROM "ONTORELA"."T0050";
+
+CREATE VIEW "ONTORELA_en"."T0051_ENVO_00002042" AS
+  SELECT "T0051_uid" AS "uid ENVO_00002042"
+  FROM "ONTORELA"."T0051";
+
+CREATE VIEW "ONTORELA_en"."T0052_root matter" AS
+  SELECT "T0052_uid" AS "uid root matter"
+  FROM "ONTORELA"."T0052";
+
+CREATE VIEW "ONTORELA_en"."T0053_Length" AS
+  SELECT "T0053_uid" AS "uid Length"
+  FROM "ONTORELA"."T0053";
+
+CREATE VIEW "ONTORELA_en"."T0054_pressure unit" AS
+  SELECT "T0054_uid" AS "uid pressure unit"
+  FROM "ONTORELA"."T0054";
+
+CREATE VIEW "ONTORELA_en"."T0055_Aboveground Biomass" AS
+  SELECT "T0055_uid" AS "uid Aboveground Biomass"
+  FROM "ONTORELA"."T0055";
+
+CREATE VIEW "ONTORELA_en"."T0056_Specific Flux" AS
+  SELECT "T0056_uid" AS "uid Specific Flux"
+  FROM "ONTORELA"."T0056";
+
+CREATE VIEW "ONTORELA_en"."T0057_ECSO_00001123" AS
+  SELECT "T0057_uid" AS "uid Net Assimilation Rate Flux"
+  FROM "ONTORELA"."T0057";
+
+CREATE VIEW "ONTORELA_en"."T0058_GramPerCentimeterCubed" AS
+  SELECT "T0058_uid" AS "uid GramPerCentimeterCubed"
+  FROM "ONTORELA"."T0058";
+
+CREATE VIEW "ONTORELA_en"."T0059_Belowground Biomass" AS
+  SELECT "T0059_uid" AS "uid Belowground Biomass"
+  FROM "ONTORELA"."T0059";
+
+CREATE VIEW "ONTORELA_en"."T005a_ECSO_00001232" AS
+  SELECT "T005a_uid" AS "T005a_uid"
+  FROM "ONTORELA"."T005a";
+
+CREATE VIEW "ONTORELA_en"."T005b_Tree Canopy Height" AS
+  SELECT "T005b_uid" AS "uid Tree Canopy Height"
+  FROM "ONTORELA"."T005b";
+
+CREATE VIEW "ONTORELA_en"."T005c_ONTORELA_C0238X" AS
+  SELECT "T005c_uid" AS "T005c_uid"
+  FROM "ONTORELA"."T005c";
+
+COMMENT ON VIEW "ONTORELA_en"."T005c_ONTORELA_C0238X" IS 'Total Soil Nitrogen Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T005d_Water pH" AS
+  SELECT "T005d_uid" AS "uid Water pH"
+  FROM "ONTORELA"."T005d";
+
+CREATE VIEW "ONTORELA_en"."T005e_ECSO_00001147" AS
+  SELECT "T005e_uid" AS "T005e_uid"
+  FROM "ONTORELA"."T005e";
+
+CREATE VIEW "ONTORELA_en"."T005f_oxygen atom" AS
+  SELECT "T005f_uid" AS "uid oxygen atom"
+  FROM "ONTORELA"."T005f";
+
+CREATE VIEW "ONTORELA_en"."T0060_foot" AS
+  SELECT "T0060_uid" AS "uid foot"
+  FROM "ONTORELA"."T0060";
+
+CREATE VIEW "ONTORELA_en"."T0061_MicromolePerKilogram" AS
+  SELECT "T0061_uid" AS "uid MicromolePerKilogram"
+  FROM "ONTORELA"."T0061";
+
+CREATE VIEW "ONTORELA_en"."T0062_Leaf Litter Carbon Pool" AS
+  SELECT "T0062_uid" AS "uid Leaf Litter Carbon Pool"
+  FROM "ONTORELA"."T0062";
+
+CREATE VIEW "ONTORELA_en"."T0063_ENVO_00002041" AS
+  SELECT "T0063_uid" AS "uid ENVO_00002041"
+  FROM "ONTORELA"."T0063";
+
+CREATE VIEW "ONTORELA_en"."T0064_ECSO_00000046" AS
+  SELECT "T0064_uid" AS "T0064_uid"
+  FROM "ONTORELA"."T0064";
+
+CREATE VIEW "ONTORELA_en"."T0065_PATO_0001018" AS
+  SELECT "T0065_uid" AS "uid PATO_0001018"
+  FROM "ONTORELA"."T0065";
+
+CREATE VIEW "ONTORELA_en"."T0066_Carbon Cycle Component" AS
+  SELECT "T0066_uid" AS "uid Carbon Cycle Component"
+  FROM "ONTORELA"."T0066";
+
+CREATE VIEW "ONTORELA_en"."T0067_ENVO_01000324" AS
+  SELECT "T0067_uid" AS "uid ENVO_01000324"
+  FROM "ONTORELA"."T0067";
+
+CREATE VIEW "ONTORELA_en"."T0068_ECSO_00000058" AS
+  SELECT "T0068_uid" AS "uid Soil_Layer_Node_Depth_MOV"
+  FROM "ONTORELA"."T0068";
+
+CREATE VIEW "ONTORELA_en"."T0069_Environmental Condition" AS
+  SELECT "T0069_uid" AS "uid Environmental Condition"
+  FROM "ONTORELA"."T0069";
+
+CREATE VIEW "ONTORELA_en"."T006a_quality" AS
+  SELECT "T006a_uid" AS "uid quality"
+  FROM "ONTORELA"."T006a";
+
+CREATE VIEW "ONTORELA_en"."T006b_Freshwater" AS
+  SELECT "T006b_uid" AS "uid Freshwater"
+  FROM "ONTORELA"."T006b";
+
+CREATE VIEW "ONTORELA_en"."T006c_ECSO_00001134" AS
+  SELECT "T006c_uid" AS "T006c_uid"
+  FROM "ONTORELA"."T006c";
+
+CREATE VIEW "ONTORELA_en"."T006d_Circumference" AS
+  SELECT "T006d_uid" AS "uid Circumference"
+  FROM "ONTORELA"."T006d";
+
+CREATE VIEW "ONTORELA_en"."T006e_ECSO_00001122" AS
+  SELECT "T006e_uid" AS "T006e_uid"
+  FROM "ONTORELA"."T006e";
+
+CREATE VIEW "ONTORELA_en"."T006f_ECSO_00001243" AS
+  SELECT "T006f_uid" AS "uid Chlorophyll Concentration"
+  FROM "ONTORELA"."T006f";
+
+CREATE VIEW "ONTORELA_en"."T0070_Soil Bulk Density" AS
+  SELECT "T0070_uid" AS "uid Soil Bulk Density"
+  FROM "ONTORELA"."T0070";
+
+CREATE VIEW "ONTORELA_en"."T0071_Lake Temperature" AS
+  SELECT "T0071_uid" AS "uid Lake Temperature"
+  FROM "ONTORELA"."T0071";
+
+CREATE VIEW "ONTORELA_en"."T0072_ONTORELA_C0261X" AS
+  SELECT "T0072_uid" AS "T0072_uid"
+  FROM "ONTORELA"."T0072";
+
+COMMENT ON VIEW "ONTORELA_en"."T0072_ONTORELA_C0261X" IS 'Carbon to Nitrogen Ratio unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0073_carbon atom" AS
+  SELECT "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T0073";
+
+CREATE VIEW "ONTORELA_en"."T0074_MeterPerSecond" AS
+  SELECT "T0074_uid" AS "uid MeterPerSecond"
+  FROM "ONTORELA"."T0074";
+
+CREATE VIEW "ONTORELA_en"."T0075_square kilometer" AS
+  SELECT "T0075_uid" AS "uid square kilometer"
+  FROM "ONTORELA"."T0075";
+
+CREATE VIEW "ONTORELA_en"."T0076_ECSO_00000031" AS
+  SELECT "T0076_uid" AS "uid Benthic Algae Carbon Pool"
+  FROM "ONTORELA"."T0076";
+
+CREATE VIEW "ONTORELA_en"."T0077_BFO_0000031" AS
+  SELECT "T0077_uid" AS "T0077_uid"
+  FROM "ONTORELA"."T0077";
+
+CREATE VIEW "ONTORELA_en"."T0078_ECSO_00000067" AS
+  SELECT "T0078_uid" AS "T0078_uid"
+  FROM "ONTORELA"."T0078";
+
+CREATE VIEW "ONTORELA_en"."T0079_ENVO_00002040" AS
+  SELECT "T0079_uid" AS "uid ENVO_00002040"
+  FROM "ONTORELA"."T0079";
+
+CREATE VIEW "ONTORELA_en"."T007a_KilogramPerMeterSquaredPerDay" AS
+  SELECT "T007a_uid" AS "T007a_uid"
+  FROM "ONTORELA"."T007a";
+
+CREATE VIEW "ONTORELA_en"."T007b_Total_Evaporation_MOV" AS
+  SELECT "T007b_uid" AS "uid Total_Evaporation_MOV"
+  FROM "ONTORELA"."T007b";
+
+CREATE VIEW "ONTORELA_en"."T007c_Total Living Biomass MOV" AS
+  SELECT "T007c_uid" AS "uid Total Living Biomass MOV"
+  FROM "ONTORELA"."T007c";
+
+CREATE VIEW "ONTORELA_en"."T007d_Soil_Layer_Top_Depth_MOV" AS
+  SELECT "T007d_uid" AS "uid Soil_Layer_Top_Depth_MOV"
+  FROM "ONTORELA"."T007d";
+
+CREATE VIEW "ONTORELA_en"."T007e_Soil Temperature" AS
+  SELECT "T007e_uid" AS "uid Soil Temperature"
+  FROM "ONTORELA"."T007e";
+
+CREATE VIEW "ONTORELA_en"."T007f_Entity" AS
+  SELECT "T007f_uid" AS "uid Entity"
+  FROM "ONTORELA"."T007f";
+
+CREATE VIEW "ONTORELA_en"."T0080_Identity" AS
+  SELECT "T0080_uid" AS "uid Identity"
+  FROM "ONTORELA"."T0080";
+
+CREATE VIEW "ONTORELA_en"."T0081_Nitrogen Percentage" AS
+  SELECT "T0081_uid" AS "uid Nitrogen Percentage"
+  FROM "ONTORELA"."T0081";
+
+CREATE VIEW "ONTORELA_en"."T0082_ECSO_00001133" AS
+  SELECT "T0082_uid" AS "T0082_uid"
+  FROM "ONTORELA"."T0082";
+
+CREATE VIEW "ONTORELA_en"."T0083_Width" AS
+  SELECT "T0083_uid" AS "uid Width"
+  FROM "ONTORELA"."T0083";
+
+CREATE VIEW "ONTORELA_en"."T0084_Flux" AS
+  SELECT "T0084_uid" AS "uid Flux"
+  FROM "ONTORELA"."T0084";
+
+CREATE VIEW "ONTORELA_en"."T0085_Mass Measurement Type" AS
+  SELECT "T0085_uid" AS "uid Mass Measurement Type"
+  FROM "ONTORELA"."T0085";
+
+CREATE VIEW "ONTORELA_en"."T0086_CHEBI_33582" AS
+  SELECT "T0086_uid" AS "uid CHEBI_33582"
+  FROM "ONTORELA"."T0086";
+
+CREATE VIEW "ONTORELA_en"."T0087_ECSO_00001169" AS
+  SELECT "T0087_uid" AS "T0087_uid"
+  FROM "ONTORELA"."T0087";
+
+CREATE VIEW "ONTORELA_en"."T0088_ECSO_00000020" AS
+  SELECT "T0088_uid" AS "T0088_uid"
+  FROM "ONTORELA"."T0088";
+
+CREATE VIEW "ONTORELA_en"."T0089_ECSO_00000056" AS
+  SELECT "T0089_uid" AS "T0089_uid"
+  FROM "ONTORELA"."T0089";
+
+CREATE VIEW "ONTORELA_en"."T008a_ECSO_00000068" AS
+  SELECT "T008a_uid" AS "uid Active_Layer_Thickness_MOV"
+  FROM "ONTORELA"."T008a";
+
+CREATE VIEW "ONTORELA_en"."T008b_Grass Carbon Pool" AS
+  SELECT "T008b_uid" AS "uid Grass Carbon Pool"
+  FROM "ONTORELA"."T008b";
+
+CREATE VIEW "ONTORELA_en"."T008c_ECSO_00000044" AS
+  SELECT "T008c_uid" AS "uid Net Longwave Radiation MOV"
+  FROM "ONTORELA"."T008c";
+
+CREATE VIEW "ONTORELA_en"."T008d_fire" AS
+  SELECT "T008d_uid" AS "uid fire"
+  FROM "ONTORELA"."T008d";
+
+CREATE VIEW "ONTORELA_en"."T008e_MassPerMass" AS
+  SELECT "T008e_uid" AS "uid MassPerMass"
+  FROM "ONTORELA"."T008e";
+
+CREATE VIEW "ONTORELA_en"."T008f_Kelvin" AS
+  SELECT "T008f_uid" AS "uid Kelvin"
+  FROM "ONTORELA"."T008f";
+
+CREATE VIEW "ONTORELA_en"."T0090_Concentration" AS
+  SELECT "T0090_uid" AS "uid Concentration"
+  FROM "ONTORELA"."T0090";
+
+CREATE VIEW "ONTORELA_en"."T0091_Soil Dry Weight" AS
+  SELECT "T0091_uid" AS "uid Soil Dry Weight"
+  FROM "ONTORELA"."T0091";
+
+CREATE VIEW "ONTORELA_en"."T0092_viability" AS
+  SELECT "T0092_uid" AS "uid viability"
+  FROM "ONTORELA"."T0092";
+
+CREATE VIEW "ONTORELA_en"."T0093_ECSO_00001168" AS
+  SELECT "T0093_uid" AS "T0093_uid"
+  FROM "ONTORELA"."T0093";
+
+CREATE VIEW "ONTORELA_en"."T0094_Leaf Area Index" AS
+  SELECT "T0094_uid" AS "uid Leaf Area Index"
+  FROM "ONTORELA"."T0094";
+
+CREATE VIEW "ONTORELA_en"."T0095_ECSO_00001144" AS
+  SELECT "T0095_uid" AS "T0095_uid"
+  FROM "ONTORELA"."T0095";
+
+CREATE VIEW "ONTORELA_en"."T0096_ECSO_00001132" AS
+  SELECT "T0096_uid" AS "T0096_uid"
+  FROM "ONTORELA"."T0096";
+
+CREATE VIEW "ONTORELA_en"."T0097_Length" AS
+  SELECT "T0097_uid" AS "uid Length"
+  FROM "ONTORELA"."T0097";
+
+CREATE VIEW "ONTORELA_en"."T0098_Measurement Type" AS
+  SELECT "T0098_uid" AS "uid Measurement Type"
+  FROM "ONTORELA"."T0098";
+
+CREATE VIEW "ONTORELA_en"."T0099_ENVO_01001305" AS
+  SELECT "T0099_uid" AS "uid ENVO_01001305"
+  FROM "ONTORELA"."T0099";
+
+CREATE VIEW "ONTORELA_en"."T009a_molar mass" AS
+  SELECT "T009a_uid" AS "uid molar mass"
+  FROM "ONTORELA"."T009a";
+
+CREATE VIEW "ONTORELA_en"."T009b_Characteristic" AS
+  SELECT "T009b_uid" AS "uid Characteristic"
+  FROM "ONTORELA"."T009b";
+
+CREATE VIEW "ONTORELA_en"."T009c_mass density unit" AS
+  SELECT "T009c_uid" AS "uid mass density unit"
+  FROM "ONTORELA"."T009c";
+
+CREATE VIEW "ONTORELA_en"."T009d_degree Fahrenheit" AS
+  SELECT "T009d_uid" AS "uid degree Fahrenheit"
+  FROM "ONTORELA"."T009d";
+
+CREATE VIEW "ONTORELA_en"."T009e_CO2 Concentration" AS
+  SELECT "T009e_uid" AS "uid CO2 Concentration"
+  FROM "ONTORELA"."T009e";
+
+CREATE VIEW "ONTORELA_en"."T009f_UO_0000076" AS
+  SELECT "T009f_uid" AS "uid UO_0000076"
+  FROM "ONTORELA"."T009f";
+
+CREATE VIEW "ONTORELA_en"."T00a0_ECSO_00000542" AS
+  SELECT "T00a0_uid" AS "T00a0_uid"
+  FROM "ONTORELA"."T00a0";
+
+CREATE VIEW "ONTORELA_en"."T00a1_Organism" AS
+  SELECT "T00a1_uid" AS "uid Organism"
+  FROM "ONTORELA"."T00a1";
+
+CREATE VIEW "ONTORELA_en"."T00a2_radius" AS
+  SELECT "T00a2_uid" AS "uid radius"
+  FROM "ONTORELA"."T00a2";
+
+CREATE VIEW "ONTORELA_en"."T00a3_CO2 Enrichment Method" AS
+  SELECT "T00a3_uid" AS "uid CO2 Enrichment Method"
+  FROM "ONTORELA"."T00a3";
+
+CREATE VIEW "ONTORELA_en"."T00a4_Methane" AS
+  SELECT "T00a4_uid" AS "uid Methane"
+  FROM "ONTORELA"."T00a4";
+
+CREATE VIEW "ONTORELA_en"."T00a5_ECSO_00000566" AS
+  SELECT "T00a5_uid" AS "T00a5_uid"
+  FROM "ONTORELA"."T00a5";
+
+CREATE VIEW "ONTORELA_en"."T00a6_ECSO_00000336" AS
+  SELECT "T00a6_uid" AS "T00a6_uid"
+  FROM "ONTORELA"."T00a6";
+
+CREATE VIEW "ONTORELA_en"."T00a7_Carbon Dioxide Pool" AS
+  SELECT "T00a7_uid" AS "uid Carbon Dioxide Pool"
+  FROM "ONTORELA"."T00a7";
+
+CREATE VIEW "ONTORELA_en"."T00a8_ECSO_00000106" AS
+  SELECT "T00a8_uid" AS "T00a8_uid"
+  FROM "ONTORELA"."T00a8";
+
+CREATE VIEW "ONTORELA_en"."T00a9_ECSO_00000579" AS
+  SELECT "T00a9_uid" AS "T00a9_uid"
+  FROM "ONTORELA"."T00a9";
+
+CREATE VIEW "ONTORELA_en"."T00aa_CHEBI_33560" AS
+  SELECT "T00aa_uid" AS "uid CHEBI_33560"
+  FROM "ONTORELA"."T00aa";
+
+CREATE VIEW "ONTORELA_en"."T00ab_Secchi Depth Method" AS
+  SELECT "T00ab_uid" AS "uid Secchi Depth Method"
+  FROM "ONTORELA"."T00ab";
+
+CREATE VIEW "ONTORELA_en"."T00ac_UO_0000051" AS
+  SELECT "T00ac_uid" AS "uid UO_0000051"
+  FROM "ONTORELA"."T00ac";
+
+CREATE VIEW "ONTORELA_en"."T00ad_GramPerMeterCubed" AS
+  SELECT "T00ad_uid" AS "uid GramPerMeterCubed"
+  FROM "ONTORELA"."T00ad";
+
+CREATE VIEW "ONTORELA_en"."T00ae_Total Soil Carbon" AS
+  SELECT "T00ae_uid" AS "uid Total Soil Carbon"
+  FROM "ONTORELA"."T00ae";
+
+CREATE VIEW "ONTORELA_en"."T00af_ECSO_00000301" AS
+  SELECT "T00af_uid" AS "T00af_uid"
+  FROM "ONTORELA"."T00af";
+
+CREATE VIEW "ONTORELA_en"."T00b0_ECSO_00000543" AS
+  SELECT "T00b0_uid" AS "T00b0_uid"
+  FROM "ONTORELA"."T00b0";
+
+CREATE VIEW "ONTORELA_en"."T00b1_Species" AS
+  SELECT "T00b1_uid" AS "uid Species"
+  FROM "ONTORELA"."T00b1";
+
+CREATE VIEW "ONTORELA_en"."T00b2_Biomass Method" AS
+  SELECT "T00b2_uid" AS "uid Biomass Method"
+  FROM "ONTORELA"."T00b2";
+
+CREATE VIEW "ONTORELA_en"."T00b3_Carbonate Pool" AS
+  SELECT "T00b3_uid" AS "uid Carbonate Pool"
+  FROM "ONTORELA"."T00b3";
+
+CREATE VIEW "ONTORELA_en"."T00b4_Carbonate" AS
+  SELECT "T00b4_uid" AS "uid Carbonate"
+  FROM "ONTORELA"."T00b4";
+
+CREATE VIEW "ONTORELA_en"."T00b5_ECSO_00000567" AS
+  SELECT "T00b5_uid" AS "T00b5_uid"
+  FROM "ONTORELA"."T00b5";
+
+CREATE VIEW "ONTORELA_en"."T00b6_ECSO_00000107" AS
+  SELECT "T00b6_uid" AS "T00b6_uid"
+  FROM "ONTORELA"."T00b6";
+
+CREATE VIEW "ONTORELA_en"."T00b7_Inorganic Carbon" AS
+  SELECT "T00b7_uid" AS "uid Inorganic Carbon"
+  FROM "ONTORELA"."T00b7";
+
+CREATE VIEW "ONTORELA_en"."T00b8_ECSO_00000578" AS
+  SELECT "T00b8_uid" AS "T00b8_uid"
+  FROM "ONTORELA"."T00b8";
+
+CREATE VIEW "ONTORELA_en"."T00b9_ENVO_00001999" AS
+  SELECT "T00b9_uid" AS "uid ENVO_00001999"
+  FROM "ONTORELA"."T00b9";
+
+CREATE VIEW "ONTORELA_en"."T00ba_dependent continuant" AS
+  SELECT "T00ba_uid" AS "uid dependent continuant"
+  FROM "ONTORELA"."T00ba";
+
+CREATE VIEW "ONTORELA_en"."T00bb_Latent Heat Flux" AS
+  SELECT "T00bb_uid" AS "uid Latent Heat Flux"
+  FROM "ONTORELA"."T00bb";
+
+CREATE VIEW "ONTORELA_en"."T00bc_Soil Depth" AS
+  SELECT "T00bc_uid" AS "uid Soil Depth"
+  FROM "ONTORELA"."T00bc";
+
+CREATE VIEW "ONTORELA_en"."T00bd_ONTORELA_C0248X" AS
+  SELECT "T00bd_uid" AS "T00bd_uid"
+  FROM "ONTORELA"."T00bd";
+
+COMMENT ON VIEW "ONTORELA_en"."T00bd_ONTORELA_C0248X" IS 'Fire Carbon Flux unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T00be_linear density unit" AS
+  SELECT "T00be_uid" AS "uid linear density unit"
+  FROM "ONTORELA"."T00be";
+
+CREATE VIEW "ONTORELA_en"."T00bf_Growth" AS
+  SELECT "T00bf_uid" AS "uid Growth"
+  FROM "ONTORELA"."T00bf";
+
+CREATE VIEW "ONTORELA_en"."T00c0_Community" AS
+  SELECT "T00c0_uid" AS "uid Community"
+  FROM "ONTORELA"."T00c0";
+
+CREATE VIEW "ONTORELA_en"."T00c1_ECSO_00000552" AS
+  SELECT "T00c1_uid" AS "T00c1_uid"
+  FROM "ONTORELA"."T00c1";
+
+CREATE VIEW "ONTORELA_en"."T00c2_pheophytin" AS
+  SELECT "T00c2_uid" AS "uid pheophytin"
+  FROM "ONTORELA"."T00c2";
+
+CREATE VIEW "ONTORELA_en"."T00c3_ECSO_00000201" AS
+  SELECT "T00c3_uid" AS "T00c3_uid"
+  FROM "ONTORELA"."T00c3";
+
+CREATE VIEW "ONTORELA_en"."T00c4_ENVO_01000323" AS
+  SELECT "T00c4_uid" AS "uid ENVO_01000323"
+  FROM "ONTORELA"."T00c4";
+
+CREATE VIEW "ONTORELA_en"."T00c5_ECSO_00000104" AS
+  SELECT "T00c5_uid" AS "T00c5_uid"
+  FROM "ONTORELA"."T00c5";
+
+CREATE VIEW "ONTORELA_en"."T00c6_ECSO_00000577" AS
+  SELECT "T00c6_uid" AS "T00c6_uid"
+  FROM "ONTORELA"."T00c6";
+
+CREATE VIEW "ONTORELA_en"."T00c7_Nitrogen Fixation Rate" AS
+  SELECT "T00c7_uid" AS "uid Nitrogen Fixation Rate"
+  FROM "ONTORELA"."T00c7";
+
+CREATE VIEW "ONTORELA_en"."T00c8_Occurrence" AS
+  SELECT "T00c8_uid" AS "uid Occurrence"
+  FROM "ONTORELA"."T00c8";
+
+CREATE VIEW "ONTORELA_en"."T00c9_ENVO_00001998" AS
+  SELECT "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T00c9";
+
+CREATE VIEW "ONTORELA_en"."T00ca_Lake Depth" AS
+  SELECT "T00ca_uid" AS "uid Lake Depth"
+  FROM "ONTORELA"."T00ca";
+
+CREATE VIEW "ONTORELA_en"."T00cb_density unit" AS
+  SELECT "T00cb_uid" AS "uid density unit"
+  FROM "ONTORELA"."T00cb";
+
+CREATE VIEW "ONTORELA_en"."T00cc_PATO_0001824" AS
+  SELECT "T00cc_uid" AS "uid PATO_0001824"
+  FROM "ONTORELA"."T00cc";
+
+CREATE VIEW "ONTORELA_en"."T00cd_Tree Height" AS
+  SELECT "T00cd_uid" AS "uid Tree Height"
+  FROM "ONTORELA"."T00cd";
+
+CREATE VIEW "ONTORELA_en"."T00ce_Population" AS
+  SELECT "T00ce_uid" AS "uid Population"
+  FROM "ONTORELA"."T00ce";
+
+CREATE VIEW "ONTORELA_en"."T00cf_Linear Measurement Type" AS
+  SELECT "T00cf_uid" AS "uid Linear Measurement Type"
+  FROM "ONTORELA"."T00cf";
+
+CREATE VIEW "ONTORELA_en"."T00d0_Bicarbonate Pool" AS
+  SELECT "T00d0_uid" AS "uid Bicarbonate Pool"
+  FROM "ONTORELA"."T00d0";
+
+CREATE VIEW "ONTORELA_en"."T00d1_Carbon Dioxide" AS
+  SELECT "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T00d1";
+
+CREATE VIEW "ONTORELA_en"."T00d2_Carbonate Concentration" AS
+  SELECT "T00d2_uid" AS "uid Carbonate Concentration"
+  FROM "ONTORELA"."T00d2";
+
+CREATE VIEW "ONTORELA_en"."T00d3_ECSO_00000105" AS
+  SELECT "T00d3_uid" AS "T00d3_uid"
+  FROM "ONTORELA"."T00d3";
+
+CREATE VIEW "ONTORELA_en"."T00d4_ECSO_00000335" AS
+  SELECT "T00d4_uid" AS "T00d4_uid"
+  FROM "ONTORELA"."T00d4";
+
+CREATE VIEW "ONTORELA_en"."T00d5_ENVO_00003075" AS
+  SELECT "T00d5_uid" AS "uid ENVO_00003075"
+  FROM "ONTORELA"."T00d5";
+
+CREATE VIEW "ONTORELA_en"."T00d6_ENVO_01000321" AS
+  SELECT "T00d6_uid" AS "uid ENVO_01000321"
+  FROM "ONTORELA"."T00d6";
+
+CREATE VIEW "ONTORELA_en"."T00d7_ECSO_00000576" AS
+  SELECT "T00d7_uid" AS "uid Soil Carbon Concentration"
+  FROM "ONTORELA"."T00d7";
+
+CREATE VIEW "ONTORELA_en"."T00d8_atmospheric wind" AS
+  SELECT "T00d8_uid" AS "uid atmospheric wind"
+  FROM "ONTORELA"."T00d8";
+
+CREATE VIEW "ONTORELA_en"."T00d9_Snow Depth" AS
+  SELECT "T00d9_uid" AS "uid Snow Depth"
+  FROM "ONTORELA"."T00d9";
+
+CREATE VIEW "ONTORELA_en"."T00da_Ash Weight Biomass" AS
+  SELECT "T00da_uid" AS "uid Ash Weight Biomass"
+  FROM "ONTORELA"."T00da";
+
+CREATE VIEW "ONTORELA_en"."T00db_Ground Temperature" AS
+  SELECT "T00db_uid" AS "uid Ground Temperature"
+  FROM "ONTORELA"."T00db";
+
+CREATE VIEW "ONTORELA_en"."T00dc_Tag Number" AS
+  SELECT "T00dc_uid" AS "uid Tag Number"
+  FROM "ONTORELA"."T00dc";
+
+CREATE VIEW "ONTORELA_en"."T00dd_ash_free_dry_weight" AS
+  SELECT "T00dd_uid" AS "uid ash_free_dry_weight"
+  FROM "ONTORELA"."T00dd";
+
+CREATE VIEW "ONTORELA_en"."T00de_Dissolution Carbon Flux" AS
+  SELECT "T00de_uid" AS "uid Dissolution Carbon Flux"
+  FROM "ONTORELA"."T00de";
+
+CREATE VIEW "ONTORELA_en"."T00df_chlorophyll" AS
+  SELECT "T00df_uid" AS "uid chlorophyll"
+  FROM "ONTORELA"."T00df";
+
+CREATE VIEW "ONTORELA_en"."T00e0_ECSO_00002777" AS
+  SELECT "T00e0_uid" AS "T00e0_uid"
+  FROM "ONTORELA"."T00e0";
+
+CREATE VIEW "ONTORELA_en"."T00e1_ECSO_00000102" AS
+  SELECT "T00e1_uid" AS "T00e1_uid"
+  FROM "ONTORELA"."T00e1";
+
+CREATE VIEW "ONTORELA_en"."T00e2_ECSO_00000017" AS
+  SELECT "T00e2_uid" AS "T00e2_uid"
+  FROM "ONTORELA"."T00e2";
+
+CREATE VIEW "ONTORELA_en"."T00e3_ECSO_Leaves" AS
+  SELECT "T00e3_uid" AS "uid ECSO_Leaves"
+  FROM "ONTORELA"."T00e3";
+
+CREATE VIEW "ONTORELA_en"."T00e4_Proportion" AS
+  SELECT "T00e4_uid" AS "uid Proportion"
+  FROM "ONTORELA"."T00e4";
+
+CREATE VIEW "ONTORELA_en"."T00e5_ENVO_00010504" AS
+  SELECT "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T00e5";
+
+CREATE VIEW "ONTORELA_en"."T00e6_Unit" AS
+  SELECT "T00e6_uid" AS "uid Unit"
+  FROM "ONTORELA"."T00e6";
+
+CREATE VIEW "ONTORELA_en"."T00e7_soil active layer" AS
+  SELECT "T00e7_uid" AS "uid soil active layer"
+  FROM "ONTORELA"."T00e7";
+
+CREATE VIEW "ONTORELA_en"."T00e8_Ground Heat Flux" AS
+  SELECT "T00e8_uid" AS "uid Ground Heat Flux"
+  FROM "ONTORELA"."T00e8";
+
+CREATE VIEW "ONTORELA_en"."T00e9_Seawater Depth" AS
+  SELECT "T00e9_uid" AS "uid Seawater Depth"
+  FROM "ONTORELA"."T00e9";
+
+CREATE VIEW "ONTORELA_en"."T00ea_Momentum Flux" AS
+  SELECT "T00ea_uid" AS "uid Momentum Flux"
+  FROM "ONTORELA"."T00ea";
+
+CREATE VIEW "ONTORELA_en"."T00eb_Peat Temperature" AS
+  SELECT "T00eb_uid" AS "uid Peat Temperature"
+  FROM "ONTORELA"."T00eb";
+
+CREATE VIEW "ONTORELA_en"."T00ec_ONTORELA_C026aX" AS
+  SELECT "T00ec_uid" AS "T00ec_uid"
+  FROM "ONTORELA"."T00ec";
+
+COMMENT ON VIEW "ONTORELA_en"."T00ec_ONTORELA_C026aX" IS 'Vegetation Carbon Change Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T00ed_Speed" AS
+  SELECT "T00ed_uid" AS "uid Speed"
+  FROM "ONTORELA"."T00ed";
+
+CREATE VIEW "ONTORELA_en"."T00ee_ENVO_00005801" AS
+  SELECT "T00ee_uid" AS "uid ENVO_00005801"
+  FROM "ONTORELA"."T00ee";
+
+CREATE VIEW "ONTORELA_en"."T00ef_biomass_density" AS
+  SELECT "T00ef_uid" AS "uid biomass_density"
+  FROM "ONTORELA"."T00ef";
+
+CREATE VIEW "ONTORELA_en"."T00f0_UO_0000095" AS
+  SELECT "T00f0_uid" AS "uid UO_0000095"
+  FROM "ONTORELA"."T00f0";
+
+CREATE VIEW "ONTORELA_en"."T00f1_Dissolved" AS
+  SELECT "T00f1_uid" AS "uid Dissolved"
+  FROM "ONTORELA"."T00f1";
+
+CREATE VIEW "ONTORELA_en"."T00f2_chloroplyll-a" AS
+  SELECT "T00f2_uid" AS "uid chloroplyll-a"
+  FROM "ONTORELA"."T00f2";
+
+CREATE VIEW "ONTORELA_en"."T00f3_ECSO_00000103" AS
+  SELECT "T00f3_uid" AS "T00f3_uid"
+  FROM "ONTORELA"."T00f3";
+
+CREATE VIEW "ONTORELA_en"."T00f4_2-D extent" AS
+  SELECT "T00f4_uid" AS "uid 2-D extent"
+  FROM "ONTORELA"."T00f4";
+
+CREATE VIEW "ONTORELA_en"."T00f5_periphyton" AS
+  SELECT "T00f5_uid" AS "uid periphyton"
+  FROM "ONTORELA"."T00f5";
+
+CREATE VIEW "ONTORELA_en"."T00f6_Molality" AS
+  SELECT "T00f6_uid" AS "uid Molality"
+  FROM "ONTORELA"."T00f6";
+
+CREATE VIEW "ONTORELA_en"."T00f7_FahrenheitDegree" AS
+  SELECT "T00f7_uid" AS "uid FahrenheitDegree"
+  FROM "ONTORELA"."T00f7";
+
+CREATE VIEW "ONTORELA_en"."T00f8_ECSO_00000018" AS
+  SELECT "T00f8_uid" AS "T00f8_uid"
+  FROM "ONTORELA"."T00f8";
+
+CREATE VIEW "ONTORELA_en"."T00f9_MeasuredCharacteristic" AS
+  SELECT "T00f9_uid" AS "uid MeasuredCharacteristic"
+  FROM "ONTORELA"."T00f9";
+
+CREATE VIEW "ONTORELA_en"."T00fa_environmental system" AS
+  SELECT "T00fa_uid" AS "uid environmental system"
+  FROM "ONTORELA"."T00fa";
+
+CREATE VIEW "ONTORELA_en"."T00fb_ENVO_01000266" AS
+  SELECT "T00fb_uid" AS "uid ENVO_01000266"
+  FROM "ONTORELA"."T00fb";
+
+CREATE VIEW "ONTORELA_en"."T00fc_Radiative Flux" AS
+  SELECT "T00fc_uid" AS "uid Radiative Flux"
+  FROM "ONTORELA"."T00fc";
+
+CREATE VIEW "ONTORELA_en"."T00fd_Water Temperature" AS
+  SELECT "T00fd_uid" AS "uid Water Temperature"
+  FROM "ONTORELA"."T00fd";
+
+CREATE VIEW "ONTORELA_en"."T00fe_soil layer" AS
+  SELECT "T00fe_uid" AS "uid soil layer"
+  FROM "ONTORELA"."T00fe";
+
+CREATE VIEW "ONTORELA_en"."T00ff_Tree Canopy Diameter" AS
+  SELECT "T00ff_uid" AS "uid Tree Canopy Diameter"
+  FROM "ONTORELA"."T00ff";
+
+CREATE VIEW "ONTORELA_en"."T0100_Water Depth" AS
+  SELECT "T0100_uid" AS "uid Water Depth"
+  FROM "ONTORELA"."T0100";
+
+CREATE VIEW "ONTORELA_en"."T0101_ECSO_00001118" AS
+  SELECT "T0101_uid" AS "T0101_uid"
+  FROM "ONTORELA"."T0101";
+
+CREATE VIEW "ONTORELA_en"."T0102_count unit" AS
+  SELECT "T0102_uid" AS "uid count unit"
+  FROM "ONTORELA"."T0102";
+
+CREATE VIEW "ONTORELA_en"."T0103_fraction" AS
+  SELECT "T0103_uid" AS "uid fraction"
+  FROM "ONTORELA"."T0103";
+
+CREATE VIEW "ONTORELA_en"."T0104_Hectare" AS
+  SELECT "T0104_uid" AS "uid Hectare"
+  FROM "ONTORELA"."T0104";
+
+CREATE VIEW "ONTORELA_en"."T0105_flux unit" AS
+  SELECT "T0105_uid" AS "uid flux unit"
+  FROM "ONTORELA"."T0105";
+
+CREATE VIEW "ONTORELA_en"."T0106_ENVO_00005802" AS
+  SELECT "T0106_uid" AS "uid ENVO_00005802"
+  FROM "ONTORELA"."T0106";
+
+CREATE VIEW "ONTORELA_en"."T0107_Occurrent" AS
+  SELECT "T0107_uid" AS "uid Occurrent"
+  FROM "ONTORELA"."T0107";
+
+CREATE VIEW "ONTORELA_en"."T0108_ECSO_00000100" AS
+  SELECT "T0108_uid" AS "T0108_uid"
+  FROM "ONTORELA"."T0108";
+
+CREATE VIEW "ONTORELA_en"."T0109_carbon" AS
+  SELECT "T0109_uid" AS "uid carbon"
+  FROM "ONTORELA"."T0109";
+
+CREATE VIEW "ONTORELA_en"."T010a_Soil Carbon Pool" AS
+  SELECT "T010a_uid" AS "uid Soil Carbon Pool"
+  FROM "ONTORELA"."T010a";
+
+CREATE VIEW "ONTORELA_en"."T010b_ONTORELA_C0250X" AS
+  SELECT "T010b_uid" AS "T010b_uid"
+  FROM "ONTORELA"."T010b";
+
+COMMENT ON VIEW "ONTORELA_en"."T010b_ONTORELA_C0250X" IS 'Freshwater Total Inorganic Carbon Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T010c_ECSO_00002775" AS
+  SELECT "T010c_uid" AS "uid MassSpecificProductionRate"
+  FROM "ONTORELA"."T010c";
+
+CREATE VIEW "ONTORELA_en"."T010d_CHEBI_33300" AS
+  SELECT "T010d_uid" AS "uid CHEBI_33300"
+  FROM "ONTORELA"."T010d";
+
+CREATE VIEW "ONTORELA_en"."T010e_ECSO_00000015" AS
+  SELECT "T010e_uid" AS "T010e_uid"
+  FROM "ONTORELA"."T010e";
+
+CREATE VIEW "ONTORELA_en"."T010f_ENVO_00000105" AS
+  SELECT "T010f_uid" AS "uid ENVO_00000105"
+  FROM "ONTORELA"."T010f";
+
+CREATE VIEW "ONTORELA_en"."T0110_MicroeinsteinsPerMeterSquaredPerSecond" AS
+  SELECT "T0110_uid" AS "T0110_uid"
+  FROM "ONTORELA"."T0110";
+
+CREATE VIEW "ONTORELA_en"."T0111_area_MeasurementType" AS
+  SELECT "T0111_uid" AS "uid area_MeasurementType"
+  FROM "ONTORELA"."T0111";
+
+CREATE VIEW "ONTORELA_en"."T0112_Physical Feature Width" AS
+  SELECT "T0112_uid" AS "uid Physical Feature Width"
+  FROM "ONTORELA"."T0112";
+
+CREATE VIEW "ONTORELA_en"."T0113_carbon-12" AS
+  SELECT "T0113_uid" AS "uid carbon-12"
+  FROM "ONTORELA"."T0113";
+
+CREATE VIEW "ONTORELA_en"."T0114_Carbon Flux" AS
+  SELECT "T0114_uid" AS "uid Carbon Flux"
+  FROM "ONTORELA"."T0114";
+
+CREATE VIEW "ONTORELA_en"."T0115_Seawater Temperature" AS
+  SELECT "T0115_uid" AS "uid Seawater Temperature"
+  FROM "ONTORELA"."T0115";
+
+CREATE VIEW "ONTORELA_en"."T0116_plant" AS
+  SELECT "T0116_uid" AS "uid plant"
+  FROM "ONTORELA"."T0116";
+
+CREATE VIEW "ONTORELA_en"."T0117_Tree Crown Diameter" AS
+  SELECT "T0117_uid" AS "uid Tree Crown Diameter"
+  FROM "ONTORELA"."T0117";
+
+CREATE VIEW "ONTORELA_en"."T0118_Biomass Concentration" AS
+  SELECT "T0118_uid" AS "uid Biomass Concentration"
+  FROM "ONTORELA"."T0118";
+
+CREATE VIEW "ONTORELA_en"."T0119_ECSO_00001129" AS
+  SELECT "T0119_uid" AS "T0119_uid"
+  FROM "ONTORELA"."T0119";
+
+CREATE VIEW "ONTORELA_en"."T011a_UO_0000190" AS
+  SELECT "T011a_uid" AS "T011a_uid"
+  FROM "ONTORELA"."T011a";
+
+CREATE VIEW "ONTORELA_en"."T011b_Area" AS
+  SELECT "T011b_uid" AS "uid Area"
+  FROM "ONTORELA"."T011b";
+
+CREATE VIEW "ONTORELA_en"."T011c_temporal rate unit" AS
+  SELECT "T011c_uid" AS "uid temporal rate unit"
+  FROM "ONTORELA"."T011c";
+
+CREATE VIEW "ONTORELA_en"."T011d_ECSO_00000101" AS
+  SELECT "T011d_uid" AS "T011d_uid"
+  FROM "ONTORELA"."T011d";
+
+CREATE VIEW "ONTORELA_en"."T011e_Organic Carbon Pool" AS
+  SELECT "T011e_uid" AS "uid Organic Carbon Pool"
+  FROM "ONTORELA"."T011e";
+
+CREATE VIEW "ONTORELA_en"."T011f_ECSO_00000343" AS
+  SELECT "T011f_uid" AS "T011f_uid"
+  FROM "ONTORELA"."T011f";
+
+CREATE VIEW "ONTORELA_en"."T0120_Respiration Carbon Flux" AS
+  SELECT "T0120_uid" AS "uid Respiration Carbon Flux"
+  FROM "ONTORELA"."T0120";
+
+CREATE VIEW "ONTORELA_en"."T0121_Plankton Carbon Pool" AS
+  SELECT "T0121_uid" AS "uid Plankton Carbon Pool"
+  FROM "ONTORELA"."T0121";
+
+CREATE VIEW "ONTORELA_en"."T0122_ECSO_00001201" AS
+  SELECT "T0122_uid" AS "uid Number Volumetric Density"
+  FROM "ONTORELA"."T0122";
+
+CREATE VIEW "ONTORELA_en"."T0123_CHEBI_51143" AS
+  SELECT "T0123_uid" AS "uid CHEBI_51143"
+  FROM "ONTORELA"."T0123";
+
+CREATE VIEW "ONTORELA_en"."T0124_ECSO_00001128" AS
+  SELECT "T0124_uid" AS "T0124_uid"
+  FROM "ONTORELA"."T0124";
+
+CREATE VIEW "ONTORELA_en"."T0125_Pheophytin Concentration" AS
+  SELECT "T0125_uid" AS "uid Pheophytin Concentration"
+  FROM "ONTORELA"."T0125";
+
+CREATE VIEW "ONTORELA_en"."T0126_ONTORELA_C025aX" AS
+  SELECT "T0126_uid" AS "T0126_uid"
+  FROM "ONTORELA"."T0126";
+
+COMMENT ON VIEW "ONTORELA_en"."T0126_ONTORELA_C025aX" IS 'Oxygen Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0127_Ammonium Concentration" AS
+  SELECT "T0127_uid" AS "uid Ammonium Concentration"
+  FROM "ONTORELA"."T0127";
+
+CREATE VIEW "ONTORELA_en"."T0128_Precipitation Volume" AS
+  SELECT "T0128_uid" AS "uid Precipitation Volume"
+  FROM "ONTORELA"."T0128";
+
+CREATE VIEW "ONTORELA_en"."T0129_ECSO_00001104" AS
+  SELECT "T0129_uid" AS "T0129_uid"
+  FROM "ONTORELA"."T0129";
+
+CREATE VIEW "ONTORELA_en"."T012a_Air Temperature" AS
+  SELECT "T012a_uid" AS "uid Air Temperature"
+  FROM "ONTORELA"."T012a";
+
+CREATE VIEW "ONTORELA_en"."T012b_ECSO_00000572" AS
+  SELECT "T012b_uid" AS "uid particulate organic carbon"
+  FROM "ONTORELA"."T012b";
+
+CREATE VIEW "ONTORELA_en"."T012c_Groundwater Depth" AS
+  SELECT "T012c_uid" AS "uid Groundwater Depth"
+  FROM "ONTORELA"."T012c";
+
+CREATE VIEW "ONTORELA_en"."T012d_3-D extent" AS
+  SELECT "T012d_uid" AS "uid 3-D extent"
+  FROM "ONTORELA"."T012d";
+
+CREATE VIEW "ONTORELA_en"."T012e_CHEBI_24431" AS
+  SELECT "T012e_uid" AS "uid CHEBI_24431"
+  FROM "ONTORELA"."T012e";
+
+CREATE VIEW "ONTORELA_en"."T012f_VolumePerVolume" AS
+  SELECT "T012f_uid" AS "uid VolumePerVolume"
+  FROM "ONTORELA"."T012f";
+
+CREATE VIEW "ONTORELA_en"."T0130_kelvin" AS
+  SELECT "T0130_uid" AS "uid kelvin"
+  FROM "ONTORELA"."T0130";
+
+CREATE VIEW "ONTORELA_en"."T0131_Unit" AS
+  SELECT "T0131_uid" AS "uid Unit"
+  FROM "ONTORELA"."T0131";
+
+CREATE VIEW "ONTORELA_en"."T0132_GramPerMeterSquared" AS
+  SELECT "T0132_uid" AS "uid GramPerMeterSquared"
+  FROM "ONTORELA"."T0132";
+
+CREATE VIEW "ONTORELA_en"."T0133_ECSO_00000502" AS
+  SELECT "T0133_uid" AS "T0133_uid"
+  FROM "ONTORELA"."T0133";
+
+CREATE VIEW "ONTORELA_en"."T0134_ECSO_00001170" AS
+  SELECT "T0134_uid" AS "T0134_uid"
+  FROM "ONTORELA"."T0134";
+
+CREATE VIEW "ONTORELA_en"."T0135_flux_MeasurementType" AS
+  SELECT "T0135_uid" AS "uid flux_MeasurementType"
+  FROM "ONTORELA"."T0135";
+
+CREATE VIEW "ONTORELA_en"."T0136_parts per million" AS
+  SELECT "T0136_uid" AS "uid parts per million"
+  FROM "ONTORELA"."T0136";
+
+CREATE VIEW "ONTORELA_en"."T0137_group" AS
+  SELECT "T0137_uid" AS "uid group"
+  FROM "ONTORELA"."T0137";
+
+CREATE VIEW "ONTORELA_en"."T0138_ECSO_00000538" AS
+  SELECT "T0138_uid" AS "uid Bicarbonate Concentration"
+  FROM "ONTORELA"."T0138";
+
+CREATE VIEW "ONTORELA_en"."T0139_IAO_0000030" AS
+  SELECT "T0139_uid" AS "uid information content entity"
+  FROM "ONTORELA"."T0139";
+
+CREATE VIEW "ONTORELA_en"."T013a_Functional Level" AS
+  SELECT "T013a_uid" AS "uid Functional Level"
+  FROM "ONTORELA"."T013a";
+
+CREATE VIEW "ONTORELA_en"."T013b_Area Percentage" AS
+  SELECT "T013b_uid" AS "uid Area Percentage"
+  FROM "ONTORELA"."T013b";
+
+CREATE VIEW "ONTORELA_en"."T013c_Time Step" AS
+  SELECT "T013c_uid" AS "uid Time Step"
+  FROM "ONTORELA"."T013c";
+
+CREATE VIEW "ONTORELA_en"."T013d_ratio" AS
+  SELECT "T013d_uid" AS "uid ratio"
+  FROM "ONTORELA"."T013d";
+
+CREATE VIEW "ONTORELA_en"."T013e_ONTORELA_C026cX" AS
+  SELECT "T013e_uid" AS "T013e_uid"
+  FROM "ONTORELA"."T013e";
+
+COMMENT ON VIEW "ONTORELA_en"."T013e_ONTORELA_C026cX" IS 'Aboveground Biomass intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T013f_ECSO_Leaf_Decomposition" AS
+  SELECT "T013f_uid" AS "uid ECSO_Leaf_Decomposition"
+  FROM "ONTORELA"."T013f";
+
+CREATE VIEW "ONTORELA_en"."T0140_VolumetricDensity" AS
+  SELECT "T0140_uid" AS "uid VolumetricDensity"
+  FROM "ONTORELA"."T0140";
+
+CREATE VIEW "ONTORELA_en"."T0141_Carbon14 Uptake Method" AS
+  SELECT "T0141_uid" AS "uid Carbon14 Uptake Method"
+  FROM "ONTORELA"."T0141";
+
+CREATE VIEW "ONTORELA_en"."T0142_Latent Heat MOV" AS
+  SELECT "T0142_uid" AS "uid Latent Heat MOV"
+  FROM "ONTORELA"."T0142";
+
+CREATE VIEW "ONTORELA_en"."T0143_Allometric Method" AS
+  SELECT "T0143_uid" AS "uid Allometric Method"
+  FROM "ONTORELA"."T0143";
+
+CREATE VIEW "ONTORELA_en"."T0144_duration" AS
+  SELECT "T0144_uid" AS "uid duration"
+  FROM "ONTORELA"."T0144";
+
+CREATE VIEW "ONTORELA_en"."T0145_Name" AS
+  SELECT "T0145_uid" AS "uid Name"
+  FROM "ONTORELA"."T0145";
+
+CREATE VIEW "ONTORELA_en"."T0146_UO_0000047" AS
+  SELECT "T0146_uid" AS "uid UO_0000047"
+  FROM "ONTORELA"."T0146";
+
+CREATE VIEW "ONTORELA_en"."T0147_NumberPerMeterSquared" AS
+  SELECT "T0147_uid" AS "uid NumberPerMeterSquared"
+  FROM "ONTORELA"."T0147";
+
+CREATE VIEW "ONTORELA_en"."T0148_parts per thousand" AS
+  SELECT "T0148_uid" AS "uid parts per thousand"
+  FROM "ONTORELA"."T0148";
+
+CREATE VIEW "ONTORELA_en"."T0149_ECSO_00000503" AS
+  SELECT "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T0149";
+
+CREATE VIEW "ONTORELA_en"."T014a_chalcogen" AS
+  SELECT "T014a_uid" AS "uid chalcogen"
+  FROM "ONTORELA"."T014a";
+
+CREATE VIEW "ONTORELA_en"."T014b_depth" AS
+  SELECT "T014b_uid" AS "uid depth"
+  FROM "ONTORELA"."T014b";
+
+CREATE VIEW "ONTORELA_en"."T014c_ECSO_00000527" AS
+  SELECT "T014c_uid" AS "uid ecosystem component entity"
+  FROM "ONTORELA"."T014c";
+
+CREATE VIEW "ONTORELA_en"."T014d_ONTORELA_C0240X" AS
+  SELECT "T014d_uid" AS "T014d_uid"
+  FROM "ONTORELA"."T014d";
+
+COMMENT ON VIEW "ONTORELA_en"."T014d_ONTORELA_C0240X" IS 'Aerial Cover Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T014e_ECSO_00000539" AS
+  SELECT "T014e_uid" AS "T014e_uid"
+  FROM "ONTORELA"."T014e";
+
+CREATE VIEW "ONTORELA_en"."T014f_Ecosystem" AS
+  SELECT "T014f_uid" AS "uid Ecosystem"
+  FROM "ONTORELA"."T014f";
+
+CREATE VIEW "ONTORELA_en"."T0150_ENVO_01000177" AS
+  SELECT "T0150_uid" AS "uid ENVO_01000177"
+  FROM "ONTORELA"."T0150";
+
+CREATE VIEW "ONTORELA_en"."T0151_ECSO_00001194" AS
+  SELECT "T0151_uid" AS "T0151_uid"
+  FROM "ONTORELA"."T0151";
+
+CREATE VIEW "ONTORELA_en"."T0152_ENVO_01000020" AS
+  SELECT "T0152_uid" AS "uid ENVO_01000020"
+  FROM "ONTORELA"."T0152";
+
+CREATE VIEW "ONTORELA_en"."T0153_KilogramPerMeterSquared" AS
+  SELECT "T0153_uid" AS "uid KilogramPerMeterSquared"
+  FROM "ONTORELA"."T0153";
+
+CREATE VIEW "ONTORELA_en"."T0154_ONTORELA_C0244X" AS
+  SELECT "T0154_uid" AS "T0154_uid"
+  FROM "ONTORELA"."T0154";
+
+COMMENT ON VIEW "ONTORELA_en"."T0154_ONTORELA_C0244X" IS 'ENVO_00010504 unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0155_ECSO_00000093" AS
+  SELECT "T0155_uid" AS "T0155_uid"
+  FROM "ONTORELA"."T0155";
+
+CREATE VIEW "ONTORELA_en"."T0156_nitrogen atom" AS
+  SELECT "T0156_uid" AS "uid nitrogen atom"
+  FROM "ONTORELA"."T0156";
+
+CREATE VIEW "ONTORELA_en"."T0157_MassSpecificCount" AS
+  SELECT "T0157_uid" AS "uid MassSpecificCount"
+  FROM "ONTORELA"."T0157";
+
+CREATE VIEW "ONTORELA_en"."T0158_Name" AS
+  SELECT "T0158_uid" AS "uid Name"
+  FROM "ONTORELA"."T0158";
+
+CREATE VIEW "ONTORELA_en"."T0159_ECSO_00000512" AS
+  SELECT "T0159_uid" AS "T0159_uid"
+  FROM "ONTORELA"."T0159";
+
+CREATE VIEW "ONTORELA_en"."T015a_ENVO_01000048" AS
+  SELECT "T015a_uid" AS "uid ENVO_01000048"
+  FROM "ONTORELA"."T015a";
+
+CREATE VIEW "ONTORELA_en"."T015b_ECSO_00000524" AS
+  SELECT "T015b_uid" AS "T015b_uid"
+  FROM "ONTORELA"."T015b";
+
+CREATE VIEW "ONTORELA_en"."T015c_Canopy Percentage" AS
+  SELECT "T015c_uid" AS "uid Canopy Percentage"
+  FROM "ONTORELA"."T015c";
+
+CREATE VIEW "ONTORELA_en"."T015d_Carbon Dioxide Flux" AS
+  SELECT "T015d_uid" AS "uid Carbon Dioxide Flux"
+  FROM "ONTORELA"."T015d";
+
+CREATE VIEW "ONTORELA_en"."T015e_Carbon Biomass Density" AS
+  SELECT "T015e_uid" AS "uid Carbon Biomass Density"
+  FROM "ONTORELA"."T015e";
+
+CREATE VIEW "ONTORELA_en"."T015f_wet_weight" AS
+  SELECT "T015f_uid" AS "uid wet_weight"
+  FROM "ONTORELA"."T015f";
+
+CREATE VIEW "ONTORELA_en"."T0160_ONTORELA_C0252X" AS
+  SELECT "T0160_uid" AS "T0160_uid"
+  FROM "ONTORELA"."T0160";
+
+COMMENT ON VIEW "ONTORELA_en"."T0160_ONTORELA_C0252X" IS 'Soil Carbon Change Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0161_Multi-Celled Organism" AS
+  SELECT "T0161_uid" AS "uid Multi-Celled Organism"
+  FROM "ONTORELA"."T0161";
+
+CREATE VIEW "ONTORELA_en"."T0162_MilligramPerMeterCubedPerDay" AS
+  SELECT "T0162_uid" AS "T0162_uid"
+  FROM "ONTORELA"."T0162";
+
+CREATE VIEW "ONTORELA_en"."T0163_Irradiance" AS
+  SELECT "T0163_uid" AS "uid Irradiance"
+  FROM "ONTORELA"."T0163";
+
+CREATE VIEW "ONTORELA_en"."T0164_ENVO_01000277" AS
+  SELECT "T0164_uid" AS "uid ENVO_01000277"
+  FROM "ONTORELA"."T0164";
+
+CREATE VIEW "ONTORELA_en"."T0165_PAR" AS
+  SELECT "T0165_uid" AS "uid PAR"
+  FROM "ONTORELA"."T0165";
+
+CREATE VIEW "ONTORELA_en"."T0166_ONTORELA_C025eX-el0" AS
+  SELECT "T0166_uid" AS "T0166_uid"
+  FROM "ONTORELA"."T0166";
+
+COMMENT ON VIEW "ONTORELA_en"."T0166_ONTORELA_C025eX-el0" IS 'Width unionOf Organism | environmental feature element ';
+
+CREATE VIEW "ONTORELA_en"."T0167_ECSO_00000090" AS
+  SELECT "T0167_uid" AS "T0167_uid"
+  FROM "ONTORELA"."T0167";
+
+CREATE VIEW "ONTORELA_en"."T0168_Identifier" AS
+  SELECT "T0168_uid" AS "uid Identifier"
+  FROM "ONTORELA"."T0168";
+
+CREATE VIEW "ONTORELA_en"."T0169_carbon concentration_of" AS
+  SELECT "T0169_uid" AS "uid carbon concentration_of"
+  FROM "ONTORELA"."T0169";
+
+CREATE VIEW "ONTORELA_en"."T016a_ONTORELA_C0264X" AS
+  SELECT "T016a_uid" AS "T016a_uid"
+  FROM "ONTORELA"."T016a";
+
+COMMENT ON VIEW "ONTORELA_en"."T016a_ONTORELA_C0264X" IS 'Carbonate Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T016b_parts per notation unit" AS
+  SELECT "T016b_uid" AS "uid parts per notation unit"
+  FROM "ONTORELA"."T016b";
+
+CREATE VIEW "ONTORELA_en"."T016c_Tree" AS
+  SELECT "T016c_uid" AS "uid Tree"
+  FROM "ONTORELA"."T016c";
+
+CREATE VIEW "ONTORELA_en"."T016d_Biomass Measurement Type" AS
+  SELECT "T016d_uid" AS "uid Biomass Measurement Type"
+  FROM "ONTORELA"."T016d";
+
+CREATE VIEW "ONTORELA_en"."T016e_molar concentration" AS
+  SELECT "T016e_uid" AS "uid molar concentration"
+  FROM "ONTORELA"."T016e";
+
+CREATE VIEW "ONTORELA_en"."T016f_Crown Cover Percentage" AS
+  SELECT "T016f_uid" AS "uid Crown Cover Percentage"
+  FROM "ONTORELA"."T016f";
+
+CREATE VIEW "ONTORELA_en"."T0170_ECSO_00000537" AS
+  SELECT "T0170_uid" AS "T0170_uid"
+  FROM "ONTORELA"."T0170";
+
+CREATE VIEW "ONTORELA_en"."T0171_Microbe" AS
+  SELECT "T0171_uid" AS "uid Microbe"
+  FROM "ONTORELA"."T0171";
+
+CREATE VIEW "ONTORELA_en"."T0172_PartPerThousand" AS
+  SELECT "T0172_uid" AS "uid PartPerThousand"
+  FROM "ONTORELA"."T0172";
+
+CREATE VIEW "ONTORELA_en"."T0173_ECSO_00000549" AS
+  SELECT "T0173_uid" AS "T0173_uid"
+  FROM "ONTORELA"."T0173";
+
+CREATE VIEW "ONTORELA_en"."T0174_ArealMassDensity" AS
+  SELECT "T0174_uid" AS "uid ArealMassDensity"
+  FROM "ONTORELA"."T0174";
+
+CREATE VIEW "ONTORELA_en"."T0175_ENVO_01000155" AS
+  SELECT "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T0175";
+
+CREATE VIEW "ONTORELA_en"."T0176_ONTORELA_C0268X" AS
+  SELECT "T0176_uid" AS "T0176_uid"
+  FROM "ONTORELA"."T0176";
+
+COMMENT ON VIEW "ONTORELA_en"."T0176_ONTORELA_C0268X" IS 'Marine Macroalgae Net Primary Production Carbon Flux unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0177_Eddy Covariance Method" AS
+  SELECT "T0177_uid" AS "uid Eddy Covariance Method"
+  FROM "ONTORELA"."T0177";
+
+CREATE VIEW "ONTORELA_en"."T0178_wet" AS
+  SELECT "T0178_uid" AS "uid wet"
+  FROM "ONTORELA"."T0178";
+
+CREATE VIEW "ONTORELA_en"."T0179_Leaf Area Index" AS
+  SELECT "T0179_uid" AS "uid Leaf Area Index"
+  FROM "ONTORELA"."T0179";
+
+CREATE VIEW "ONTORELA_en"."T017a_circumference" AS
+  SELECT "T017a_uid" AS "uid circumference"
+  FROM "ONTORELA"."T017a";
+
+CREATE VIEW "ONTORELA_en"."T017b_volume percentage" AS
+  SELECT "T017b_uid" AS "uid volume percentage"
+  FROM "ONTORELA"."T017b";
+
+CREATE VIEW "ONTORELA_en"."T017c_ECSO_00000522" AS
+  SELECT "T017c_uid" AS "T017c_uid"
+  FROM "ONTORELA"."T017c";
+
+CREATE VIEW "ONTORELA_en"."T017d_Mass" AS
+  SELECT "T017d_uid" AS "uid Mass"
+  FROM "ONTORELA"."T017d";
+
+CREATE VIEW "ONTORELA_en"."T017e_ECSO_00000534" AS
+  SELECT "T017e_uid" AS "T017e_uid"
+  FROM "ONTORELA"."T017e";
+
+CREATE VIEW "ONTORELA_en"."T017f_Process" AS
+  SELECT "T017f_uid" AS "uid Process"
+  FROM "ONTORELA"."T017f";
+
+CREATE VIEW "ONTORELA_en"."T0180_Liquid" AS
+  SELECT "T0180_uid" AS "uid Liquid"
+  FROM "ONTORELA"."T0180";
+
+CREATE VIEW "ONTORELA_en"."T0181_Fluorescence" AS
+  SELECT "T0181_uid" AS "uid Fluorescence"
+  FROM "ONTORELA"."T0181";
+
+CREATE VIEW "ONTORELA_en"."T0182_Carbon Monoxide" AS
+  SELECT "T0182_uid" AS "uid Carbon Monoxide"
+  FROM "ONTORELA"."T0182";
+
+CREATE VIEW "ONTORELA_en"."T0183_Aerial Cover Percentage" AS
+  SELECT "T0183_uid" AS "uid Aerial Cover Percentage"
+  FROM "ONTORELA"."T0183";
+
+CREATE VIEW "ONTORELA_en"."T0184_ECSO_00000207" AS
+  SELECT "T0184_uid" AS "T0184_uid"
+  FROM "ONTORELA"."T0184";
+
+CREATE VIEW "ONTORELA_en"."T0185_ENVO_00000134" AS
+  SELECT "T0185_uid" AS "uid ENVO_00000134"
+  FROM "ONTORELA"."T0185";
+
+CREATE VIEW "ONTORELA_en"."T0186_PATO_0001822" AS
+  SELECT "T0186_uid" AS "uid PATO_0001822"
+  FROM "ONTORELA"."T0186";
+
+CREATE VIEW "ONTORELA_en"."T0187_mass volume percentage" AS
+  SELECT "T0187_uid" AS "uid mass volume percentage"
+  FROM "ONTORELA"."T0187";
+
+CREATE VIEW "ONTORELA_en"."T0188_height" AS
+  SELECT "T0188_uid" AS "uid height"
+  FROM "ONTORELA"."T0188";
+
+CREATE VIEW "ONTORELA_en"."T0189_thickness" AS
+  SELECT "T0189_uid" AS "uid thickness"
+  FROM "ONTORELA"."T0189";
+
+CREATE VIEW "ONTORELA_en"."T018a_ECSO_00000535" AS
+  SELECT "T018a_uid" AS "T018a_uid"
+  FROM "ONTORELA"."T018a";
+
+CREATE VIEW "ONTORELA_en"."T018b_Single-Celled Organism" AS
+  SELECT "T018b_uid" AS "uid Single-Celled Organism"
+  FROM "ONTORELA"."T018b";
+
+CREATE VIEW "ONTORELA_en"."T018c_Tree growth" AS
+  SELECT "T018c_uid" AS "uid Tree growth"
+  FROM "ONTORELA"."T018c";
+
+CREATE VIEW "ONTORELA_en"."T018d_ONTORELA_C0242X" AS
+  SELECT "T018d_uid" AS "T018d_uid"
+  FROM "ONTORELA"."T018d";
+
+COMMENT ON VIEW "ONTORELA_en"."T018d_ONTORELA_C0242X" IS 'Bicarbonate Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T018e_Solid" AS
+  SELECT "T018e_uid" AS "uid Solid"
+  FROM "ONTORELA"."T018e";
+
+CREATE VIEW "ONTORELA_en"."T018f_rate unit" AS
+  SELECT "T018f_uid" AS "uid rate unit"
+  FROM "ONTORELA"."T018f";
+
+CREATE VIEW "ONTORELA_en"."T0190_ENVO_00000015" AS
+  SELECT "T0190_uid" AS "uid ENVO_00000015"
+  FROM "ONTORELA"."T0190";
+
+CREATE VIEW "ONTORELA_en"."T0191_ECSO_00000208" AS
+  SELECT "T0191_uid" AS "T0191_uid"
+  FROM "ONTORELA"."T0191";
+
+CREATE VIEW "ONTORELA_en"."T0192_infrared" AS
+  SELECT "T0192_uid" AS "uid infrared"
+  FROM "ONTORELA"."T0192";
+
+CREATE VIEW "ONTORELA_en"."T0193_Organic Carbon" AS
+  SELECT "T0193_uid" AS "uid Organic Carbon"
+  FROM "ONTORELA"."T0193";
+
+CREATE VIEW "ONTORELA_en"."T0194_ENVO_00000111" AS
+  SELECT "T0194_uid" AS "uid ENVO_00000111"
+  FROM "ONTORELA"."T0194";
+
+CREATE VIEW "ONTORELA_en"."T0195_ONTORELA_C023aX" AS
+  SELECT "T0195_uid" AS "T0195_uid"
+  FROM "ONTORELA"."T0195";
+
+COMMENT ON VIEW "ONTORELA_en"."T0195_ONTORELA_C023aX" IS 'Total Soil Carbon intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0196_ONTORELA_C0246X" AS
+  SELECT "T0196_uid" AS "T0196_uid"
+  FROM "ONTORELA"."T0196";
+
+COMMENT ON VIEW "ONTORELA_en"."T0196_ONTORELA_C0246X" IS 'CO2 Concentration unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0197_carbon-13" AS
+  SELECT "T0197_uid" AS "uid carbon-13"
+  FROM "ONTORELA"."T0197";
+
+CREATE VIEW "ONTORELA_en"."T0198_millimetres of mercury" AS
+  SELECT "T0198_uid" AS "uid millimetres of mercury"
+  FROM "ONTORELA"."T0198";
+
+CREATE VIEW "ONTORELA_en"."T0199_UO_0000163" AS
+  SELECT "T0199_uid" AS "uid UO_0000163"
+  FROM "ONTORELA"."T0199";
+
+CREATE VIEW "ONTORELA_en"."T019a_areal density unit" AS
+  SELECT "T019a_uid" AS "uid areal density unit"
+  FROM "ONTORELA"."T019a";
+
+CREATE VIEW "ONTORELA_en"."T019b_ECSO_00000520" AS
+  SELECT "T019b_uid" AS "T019b_uid"
+  FROM "ONTORELA"."T019b";
+
+CREATE VIEW "ONTORELA_en"."T019c_ECSO_00000532" AS
+  SELECT "T019c_uid" AS "T019c_uid"
+  FROM "ONTORELA"."T019c";
+
+CREATE VIEW "ONTORELA_en"."T019d_percent" AS
+  SELECT "T019d_uid" AS "uid percent"
+  FROM "ONTORELA"."T019d";
+
+CREATE VIEW "ONTORELA_en"."T019e_Tree Diameter" AS
+  SELECT "T019e_uid" AS "uid Tree Diameter"
+  FROM "ONTORELA"."T019e";
+
+CREATE VIEW "ONTORELA_en"."T019f_Physical State" AS
+  SELECT "T019f_uid" AS "uid Physical State"
+  FROM "ONTORELA"."T019f";
+
+CREATE VIEW "ONTORELA_en"."T01a0_dry_weight" AS
+  SELECT "T01a0_uid" AS "uid dry_weight"
+  FROM "ONTORELA"."T01a0";
+
+CREATE VIEW "ONTORELA_en"."T01a1_Bicarbonate" AS
+  SELECT "T01a1_uid" AS "uid Bicarbonate"
+  FROM "ONTORELA"."T01a1";
+
+CREATE VIEW "ONTORELA_en"."T01a2_ECSO_00000568" AS
+  SELECT "T01a2_uid" AS "T01a2_uid"
+  FROM "ONTORELA"."T01a2";
+
+CREATE VIEW "ONTORELA_en"."T01a3_ONTORELA_C0254X" AS
+  SELECT "T01a3_uid" AS "T01a3_uid"
+  FROM "ONTORELA"."T01a3";
+
+COMMENT ON VIEW "ONTORELA_en"."T01a3_ONTORELA_C0254X" IS 'Soil Porewater Salinity Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01a4_Methane Pool" AS
+  SELECT "T01a4_uid" AS "uid Methane Pool"
+  FROM "ONTORELA"."T01a4";
+
+CREATE VIEW "ONTORELA_en"."T01a5_ECSO_00000108" AS
+  SELECT "T01a5_uid" AS "T01a5_uid"
+  FROM "ONTORELA"."T01a5";
+
+CREATE VIEW "ONTORELA_en"."T01a6_ENVO_00000047" AS
+  SELECT "T01a6_uid" AS "uid ENVO_00000047"
+  FROM "ONTORELA"."T01a6";
+
+CREATE VIEW "ONTORELA_en"."T01a7_ENVO_00000023" AS
+  SELECT "T01a7_uid" AS "uid ENVO_00000023"
+  FROM "ONTORELA"."T01a7";
+
+CREATE VIEW "ONTORELA_en"."T01a8_ONTORELA_C0231X-el0" AS
+  SELECT "T01a8_uid" AS "T01a8_uid"
+  FROM "ONTORELA"."T01a8";
+
+COMMENT ON VIEW "ONTORELA_en"."T01a8_ONTORELA_C0231X-el0" IS 'Height unionOf Organism | environmental feature element ';
+
+CREATE VIEW "ONTORELA_en"."T01a9_ONTORELA_C0236X" AS
+  SELECT "T01a9_uid" AS "uid snow unionOf ENVO_00002006"
+  FROM "ONTORELA"."T01a9";
+
+COMMENT ON VIEW "ONTORELA_en"."T01a9_ONTORELA_C0236X" IS 'snow unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01aa_ONTORELA_C024cX" AS
+  SELECT "T01aa_uid" AS "T01aa_uid"
+  FROM "ONTORELA"."T01aa";
+
+COMMENT ON VIEW "ONTORELA_en"."T01aa_ONTORELA_C024cX" IS 'Oceanic Total Inorganic Carbon Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01ab_Time" AS
+  SELECT "T01ab_uid" AS "uid Time"
+  FROM "ONTORELA"."T01ab";
+
+CREATE VIEW "ONTORELA_en"."T01ac_CHEBI_23367" AS
+  SELECT "T01ac_uid" AS "uid CHEBI_23367"
+  FROM "ONTORELA"."T01ac";
+
+CREATE VIEW "ONTORELA_en"."T01ad_carbon-14" AS
+  SELECT "T01ad_uid" AS "uid carbon-14"
+  FROM "ONTORELA"."T01ad";
+
+CREATE VIEW "ONTORELA_en"."T01ae_PATO_00002035" AS
+  SELECT "T01ae_uid" AS "uid PATO_00002035"
+  FROM "ONTORELA"."T01ae";
+
+CREATE VIEW "ONTORELA_en"."T01af_dimensionless unit" AS
+  SELECT "T01af_uid" AS "uid dimensionless unit"
+  FROM "ONTORELA"."T01af";
+
+CREATE VIEW "ONTORELA_en"."T01b0_Alkalinity" AS
+  SELECT "T01b0_uid" AS "uid Alkalinity"
+  FROM "ONTORELA"."T01b0";
+
+CREATE VIEW "ONTORELA_en"."T01b1_ECSO_00000533" AS
+  SELECT "T01b1_uid" AS "T01b1_uid"
+  FROM "ONTORELA"."T01b1";
+
+CREATE VIEW "ONTORELA_en"."T01b2_LiterPerSecond" AS
+  SELECT "T01b2_uid" AS "uid LiterPerSecond"
+  FROM "ONTORELA"."T01b2";
+
+CREATE VIEW "ONTORELA_en"."T01b3_Tree Circumference" AS
+  SELECT "T01b3_uid" AS "uid Tree Circumference"
+  FROM "ONTORELA"."T01b3";
+
+CREATE VIEW "ONTORELA_en"."T01b4_Gas" AS
+  SELECT "T01b4_uid" AS "uid Gas"
+  FROM "ONTORELA"."T01b4";
+
+CREATE VIEW "ONTORELA_en"."T01b5_ash_weight" AS
+  SELECT "T01b5_uid" AS "uid ash_weight"
+  FROM "ONTORELA"."T01b5";
+
+CREATE VIEW "ONTORELA_en"."T01b6_Fixed Carbon Pool" AS
+  SELECT "T01b6_uid" AS "uid Fixed Carbon Pool"
+  FROM "ONTORELA"."T01b6";
+
+CREATE VIEW "ONTORELA_en"."T01b7_Carbohydrate" AS
+  SELECT "T01b7_uid" AS "uid Carbohydrate"
+  FROM "ONTORELA"."T01b7";
+
+CREATE VIEW "ONTORELA_en"."T01b8_Bacteria" AS
+  SELECT "T01b8_uid" AS "uid Bacteria"
+  FROM "ONTORELA"."T01b8";
+
+CREATE VIEW "ONTORELA_en"."T01b9_ECSO_00000109" AS
+  SELECT "T01b9_uid" AS "T01b9_uid"
+  FROM "ONTORELA"."T01b9";
+
+CREATE VIEW "ONTORELA_en"."T01ba_evaporation" AS
+  SELECT "T01ba_uid" AS "uid evaporation"
+  FROM "ONTORELA"."T01ba";
+
+CREATE VIEW "ONTORELA_en"."T01bb_NumberPerMeterSquared" AS
+  SELECT "T01bb_uid" AS "uid NumberPerMeterSquared"
+  FROM "ONTORELA"."T01bb";
+
+CREATE VIEW "ONTORELA_en"."T01bc_Litter Depth" AS
+  SELECT "T01bc_uid" AS "uid Litter Depth"
+  FROM "ONTORELA"."T01bc";
+
+CREATE VIEW "ONTORELA_en"."T01bd_CHEBI_38101" AS
+  SELECT "T01bd_uid" AS "uid CHEBI_38101"
+  FROM "ONTORELA"."T01bd";
+
+CREATE VIEW "ONTORELA_en"."T01be_ECSO_00000053" AS
+  SELECT "T01be_uid" AS "T01be_uid"
+  FROM "ONTORELA"."T01be";
+
+CREATE VIEW "ONTORELA_en"."T01bf_plant litter" AS
+  SELECT "T01bf_uid" AS "uid plant litter"
+  FROM "ONTORELA"."T01bf";
+
+CREATE VIEW "ONTORELA_en"."T01c0_ONTORELA_C023cX" AS
+  SELECT "T01c0_uid" AS "T01c0_uid"
+  FROM "ONTORELA"."T01c0";
+
+COMMENT ON VIEW "ONTORELA_en"."T01c0_ONTORELA_C023cX" IS 'Plant Cover Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01c1_ECSO_00000065" AS
+  SELECT "T01c1_uid" AS "T01c1_uid"
+  FROM "ONTORELA"."T01c1";
+
+CREATE VIEW "ONTORELA_en"."T01c2_Shortwave_Albedo_MOV" AS
+  SELECT "T01c2_uid" AS "uid Shortwave_Albedo_MOV"
+  FROM "ONTORELA"."T01c2";
+
+CREATE VIEW "ONTORELA_en"."T01c3_Calcium Carbonate" AS
+  SELECT "T01c3_uid" AS "uid Calcium Carbonate"
+  FROM "ONTORELA"."T01c3";
+
+CREATE VIEW "ONTORELA_en"."T01c4_ONTORELA_C025cX" AS
+  SELECT "T01c4_uid" AS "T01c4_uid"
+  FROM "ONTORELA"."T01c4";
+
+COMMENT ON VIEW "ONTORELA_en"."T01c4_ONTORELA_C025cX" IS 'Autotrophic Respiration MOV unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01c5_ECSO_00001131" AS
+  SELECT "T01c5_uid" AS "T01c5_uid"
+  FROM "ONTORELA"."T01c5";
+
+CREATE VIEW "ONTORELA_en"."T01c6_Height" AS
+  SELECT "T01c6_uid" AS "uid Height"
+  FROM "ONTORELA"."T01c6";
+
+CREATE VIEW "ONTORELA_en"."T01c7_AmountOfSubstanceConcentration" AS
+  SELECT "T01c7_uid" AS "T01c7_uid"
+  FROM "ONTORELA"."T01c7";
+
+CREATE VIEW "ONTORELA_en"."T01c8_Number" AS
+  SELECT "T01c8_uid" AS "uid Number"
+  FROM "ONTORELA"."T01c8";
+
+CREATE VIEW "ONTORELA_en"."T01c9_weight" AS
+  SELECT "T01c9_uid" AS "uid weight"
+  FROM "ONTORELA"."T01c9";
+
+CREATE VIEW "ONTORELA_en"."T01ca_UO_0000008" AS
+  SELECT "T01ca_uid" AS "uid UO_0000008"
+  FROM "ONTORELA"."T01ca";
+
+CREATE VIEW "ONTORELA_en"."T01cb_Nitrogen Biomass Density" AS
+  SELECT "T01cb_uid" AS "uid Nitrogen Biomass Density"
+  FROM "ONTORELA"."T01cb";
+
+CREATE VIEW "ONTORELA_en"."T01cc_temporal_MeasurementType" AS
+  SELECT "T01cc_uid" AS "uid temporal_MeasurementType"
+  FROM "ONTORELA"."T01cc";
+
+CREATE VIEW "ONTORELA_en"."T01cd_hectare" AS
+  SELECT "T01cd_uid" AS "uid hectare"
+  FROM "ONTORELA"."T01cd";
+
+CREATE VIEW "ONTORELA_en"."T01ce_ocean surface" AS
+  SELECT "T01ce_uid" AS "uid ocean surface"
+  FROM "ONTORELA"."T01ce";
+
+CREATE VIEW "ONTORELA_en"."T01cf_Carbon Biomass" AS
+  SELECT "T01cf_uid" AS "uid Carbon Biomass"
+  FROM "ONTORELA"."T01cf";
+
+CREATE VIEW "ONTORELA_en"."T01d0_ECSO_00003196" AS
+  SELECT "T01d0_uid" AS "T01d0_uid"
+  FROM "ONTORELA"."T01d0";
+
+CREATE VIEW "ONTORELA_en"."T01d1_Count" AS
+  SELECT "T01d1_uid" AS "uid Count"
+  FROM "ONTORELA"."T01d1";
+
+CREATE VIEW "ONTORELA_en"."T01d2_dead" AS
+  SELECT "T01d2_uid" AS "uid dead"
+  FROM "ONTORELA"."T01d2";
+
+CREATE VIEW "ONTORELA_en"."T01d3_Leaf Carbon Pool" AS
+  SELECT "T01d3_uid" AS "uid Leaf Carbon Pool"
+  FROM "ONTORELA"."T01d3";
+
+CREATE VIEW "ONTORELA_en"."T01d4_ONTORELA_C024eX" AS
+  SELECT "T01d4_uid" AS "T01d4_uid"
+  FROM "ONTORELA"."T01d4";
+
+COMMENT ON VIEW "ONTORELA_en"."T01d4_ONTORELA_C024eX" IS 'Leaf Area Index intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01d5_ONTORELA_C026eX-el0" AS
+  SELECT "T01d5_uid" AS "T01d5_uid"
+  FROM "ONTORELA"."T01d5";
+
+COMMENT ON VIEW "ONTORELA_en"."T01d5_ONTORELA_C026eX-el0" IS 'Length unionOf Organism | environmental feature element ';
+
+CREATE VIEW "ONTORELA_en"."T01d6_ECSO_00000078" AS
+  SELECT "T01d6_uid" AS "T01d6_uid"
+  FROM "ONTORELA"."T01d6";
+
+CREATE VIEW "ONTORELA_en"."T01d7_ONTORELA_C024aX" AS
+  SELECT "T01d7_uid" AS "T01d7_uid"
+  FROM "ONTORELA"."T01d7";
+
+COMMENT ON VIEW "ONTORELA_en"."T01d7_ONTORELA_C024aX" IS 'Gross Primary Production Carbon Flux unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01d8_Surface Runoff MOV" AS
+  SELECT "T01d8_uid" AS "uid Surface Runoff MOV"
+  FROM "ONTORELA"."T01d8";
+
+CREATE VIEW "ONTORELA_en"."T01d9_ECSO_00000066" AS
+  SELECT "T01d9_uid" AS "T01d9_uid"
+  FROM "ONTORELA"."T01d9";
+
+CREATE VIEW "ONTORELA_en"."T01da_carbon cycling" AS
+  SELECT "T01da_uid" AS "uid carbon cycling"
+  FROM "ONTORELA"."T01da";
+
+CREATE VIEW "ONTORELA_en"."T01db_ENVO_00002005" AS
+  SELECT "T01db_uid" AS "uid ENVO_00002005"
+  FROM "ONTORELA"."T01db";
+
+CREATE VIEW "ONTORELA_en"."T01dc_ECSO_00001142" AS
+  SELECT "T01dc_uid" AS "T01dc_uid"
+  FROM "ONTORELA"."T01dc";
+
+CREATE VIEW "ONTORELA_en"."T01dd_ECSO_00001130" AS
+  SELECT "T01dd_uid" AS "T01dd_uid"
+  FROM "ONTORELA"."T01dd";
+
+CREATE VIEW "ONTORELA_en"."T01de_Diameter" AS
+  SELECT "T01de_uid" AS "uid Diameter"
+  FROM "ONTORELA"."T01de";
+
+CREATE VIEW "ONTORELA_en"."T01df_ENVO_00002006" AS
+  SELECT "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T01df";
+
+CREATE VIEW "ONTORELA_en"."T01e0_MassFlux" AS
+  SELECT "T01e0_uid" AS "uid MassFlux"
+  FROM "ONTORELA"."T01e0";
+
+CREATE VIEW "ONTORELA_en"."T01e1_Number" AS
+  SELECT "T01e1_uid" AS "uid Number"
+  FROM "ONTORELA"."T01e1";
+
+CREATE VIEW "ONTORELA_en"."T01e2_Soil Wet Weight" AS
+  SELECT "T01e2_uid" AS "uid Soil Wet Weight"
+  FROM "ONTORELA"."T01e2";
+
+CREATE VIEW "ONTORELA_en"."T01e3_ENVO_02500000" AS
+  SELECT "T01e3_uid" AS "T01e3_uid"
+  FROM "ONTORELA"."T01e3";
+
+CREATE VIEW "ONTORELA_en"."T01e4_ECSO_00001166" AS
+  SELECT "T01e4_uid" AS "T01e4_uid"
+  FROM "ONTORELA"."T01e4";
+
+CREATE VIEW "ONTORELA_en"."T01e5_Ocean" AS
+  SELECT "T01e5_uid" AS "uid Ocean"
+  FROM "ONTORELA"."T01e5";
+
+CREATE VIEW "ONTORELA_en"."T01e6_data item" AS
+  SELECT "T01e6_uid" AS "uid data item"
+  FROM "ONTORELA"."T01e6";
+
+CREATE VIEW "ONTORELA_en"."T01e7_Longwave Albedo MOV" AS
+  SELECT "T01e7_uid" AS "uid Longwave Albedo MOV"
+  FROM "ONTORELA"."T01e7";
+
+CREATE VIEW "ONTORELA_en"."T01e8_Sensible Heat MOV" AS
+  SELECT "T01e8_uid" AS "uid Sensible Heat MOV"
+  FROM "ONTORELA"."T01e8";
+
+CREATE VIEW "ONTORELA_en"."T01e9_Surface Pressure MOV" AS
+  SELECT "T01e9_uid" AS "uid Surface Pressure MOV"
+  FROM "ONTORELA"."T01e9";
+
+CREATE VIEW "ONTORELA_en"."T01ea_ECSO_00000099" AS
+  SELECT "T01ea_uid" AS "T01ea_uid"
+  FROM "ONTORELA"."T01ea";
+
+CREATE VIEW "ONTORELA_en"."T01eb_Dry Weight Biomass" AS
+  SELECT "T01eb_uid" AS "uid Dry Weight Biomass"
+  FROM "ONTORELA"."T01eb";
+
+CREATE VIEW "ONTORELA_en"."T01ec_Count Measurement Type" AS
+  SELECT "T01ec_uid" AS "uid Count Measurement Type"
+  FROM "ONTORELA"."T01ec";
+
+CREATE VIEW "ONTORELA_en"."T01ed_Depth" AS
+  SELECT "T01ed_uid" AS "uid Depth"
+  FROM "ONTORELA"."T01ed";
+
+CREATE VIEW "ONTORELA_en"."T01ee_Macroalgae" AS
+  SELECT "T01ee_uid" AS "uid Macroalgae"
+  FROM "ONTORELA"."T01ee";
+
+CREATE VIEW "ONTORELA_en"."T01ef_ONTORELA_C0256X" AS
+  SELECT "T01ef_uid" AS "T01ef_uid"
+  FROM "ONTORELA"."T01ef";
+
+COMMENT ON VIEW "ONTORELA_en"."T01ef_ONTORELA_C0256X" IS 'Freshwater Bicarbonate Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01f0_ONTORELA_C0261X-el0" AS
+  SELECT "T01f0_uid" AS "T01f0_uid"
+  FROM "ONTORELA"."T01f0";
+
+COMMENT ON VIEW "ONTORELA_en"."T01f0_ONTORELA_C0261X-el0" IS 'Carbon to Nitrogen Ratio unionOf Organism | environmental material element ';
+
+CREATE VIEW "ONTORELA_en"."T01f1_ENVO_01000281" AS
+  SELECT "T01f1_uid" AS "uid ENVO_01000281"
+  FROM "ONTORELA"."T01f1";
+
+CREATE VIEW "ONTORELA_en"."T01f2_Entity Count" AS
+  SELECT "T01f2_uid" AS "uid Entity Count"
+  FROM "ONTORELA"."T01f2";
+
+CREATE VIEW "ONTORELA_en"."T01f3_ECSO_00001177" AS
+  SELECT "T01f3_uid" AS "uid Non-Plant Material Length"
+  FROM "ONTORELA"."T01f3";
+
+CREATE VIEW "ONTORELA_en"."T01f4_ECSO_00001165" AS
+  SELECT "T01f4_uid" AS "T01f4_uid"
+  FROM "ONTORELA"."T01f4";
+
+CREATE VIEW "ONTORELA_en"."T01f5_ultraviolet" AS
+  SELECT "T01f5_uid" AS "uid ultraviolet"
+  FROM "ONTORELA"."T01f5";
+
+CREATE VIEW "ONTORELA_en"."T01f6_decayed" AS
+  SELECT "T01f6_uid" AS "uid decayed"
+  FROM "ONTORELA"."T01f6";
+
+CREATE VIEW "ONTORELA_en"."T01f7_PATO_0001674" AS
+  SELECT "T01f7_uid" AS "T01f7_uid"
+  FROM "ONTORELA"."T01f7";
+
+CREATE VIEW "ONTORELA_en"."T01f8_ECSO_00000052" AS
+  SELECT "T01f8_uid" AS "T01f8_uid"
+  FROM "ONTORELA"."T01f8";
+
+CREATE VIEW "ONTORELA_en"."T01f9_ECSO_00000064" AS
+  SELECT "T01f9_uid" AS "T01f9_uid"
+  FROM "ONTORELA"."T01f9";
+
+CREATE VIEW "ONTORELA_en"."T01fa_CentimeterPerSecond" AS
+  SELECT "T01fa_uid" AS "uid CentimeterPerSecond"
+  FROM "ONTORELA"."T01fa";
+
+CREATE VIEW "ONTORELA_en"."T01fb_ECSO_00000076" AS
+  SELECT "T01fb_uid" AS "uid Net Ecosystem Exchange MOV"
+  FROM "ONTORELA"."T01fb";
+
+CREATE VIEW "ONTORELA_en"."T01fc_ONTORELA_C026eX" AS
+  SELECT "T01fc_uid" AS "T01fc_uid"
+  FROM "ONTORELA"."T01fc";
+
+COMMENT ON VIEW "ONTORELA_en"."T01fc_ONTORELA_C026eX" IS 'Length unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T01fd_temperature unit" AS
+  SELECT "T01fd_uid" AS "uid temperature unit"
+  FROM "ONTORELA"."T01fd";
+
+CREATE VIEW "ONTORELA_en"."T01fe_Water Salinity" AS
+  SELECT "T01fe_uid" AS "uid Water Salinity"
+  FROM "ONTORELA"."T01fe";
+
+CREATE VIEW "ONTORELA_en"."T01ff_Sampling Site Area" AS
+  SELECT "T01ff_uid" AS "uid Sampling Site Area"
+  FROM "ONTORELA"."T01ff";
+
+CREATE VIEW "ONTORELA_en"."T0200_ENVO_00002149" AS
+  SELECT "T0200_uid" AS "uid ENVO_00002149"
+  FROM "ONTORELA"."T0200";
+
+CREATE VIEW "ONTORELA_en"."T0201_mass" AS
+  SELECT "T0201_uid" AS "uid mass"
+  FROM "ONTORELA"."T0201";
+
+CREATE VIEW "ONTORELA_en"."T0202_Transpiration Height" AS
+  SELECT "T0202_uid" AS "uid Transpiration Height"
+  FROM "ONTORELA"."T0202";
+
+CREATE VIEW "ONTORELA_en"."T0203_diameter" AS
+  SELECT "T0203_uid" AS "uid diameter"
+  FROM "ONTORELA"."T0203";
+
+CREATE VIEW "ONTORELA_en"."T0204_Meter" AS
+  SELECT "T0204_uid" AS "uid Meter"
+  FROM "ONTORELA"."T0204";
+
+CREATE VIEW "ONTORELA_en"."T0205_Sample Count" AS
+  SELECT "T0205_uid" AS "uid Sample Count"
+  FROM "ONTORELA"."T0205";
+
+CREATE VIEW "ONTORELA_en"."T0206_Wave Height" AS
+  SELECT "T0206_uid" AS "uid Wave Height"
+  FROM "ONTORELA"."T0206";
+
+CREATE VIEW "ONTORELA_en"."T0207_ECSO_00000097" AS
+  SELECT "T0207_uid" AS "T0207_uid"
+  FROM "ONTORELA"."T0207";
+
+CREATE VIEW "ONTORELA_en"."T0208_ONTORELA_C023eX" AS
+  SELECT "T0208_uid" AS "T0208_uid"
+  FROM "ONTORELA"."T0208";
+
+COMMENT ON VIEW "ONTORELA_en"."T0208_ONTORELA_C023eX" IS 'Belowground Biomass intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0209_ECSO_00000061" AS
+  SELECT "T0209_uid" AS "T0209_uid"
+  FROM "ONTORELA"."T0209";
+
+CREATE VIEW "ONTORELA_en"."T020a_ECSO_00000073" AS
+  SELECT "T020a_uid" AS "T020a_uid"
+  FROM "ONTORELA"."T020a";
+
+CREATE VIEW "ONTORELA_en"."T020b_Centimeter" AS
+  SELECT "T020b_uid" AS "uid Centimeter"
+  FROM "ONTORELA"."T020b";
+
+CREATE VIEW "ONTORELA_en"."T020c_Celsius" AS
+  SELECT "T020c_uid" AS "uid Celsius"
+  FROM "ONTORELA"."T020c";
+
+CREATE VIEW "ONTORELA_en"."T020d_organic_content" AS
+  SELECT "T020d_uid" AS "uid organic_content"
+  FROM "ONTORELA"."T020d";
+
+CREATE VIEW "ONTORELA_en"."T020e_Pascal" AS
+  SELECT "T020e_uid" AS "uid Pascal"
+  FROM "ONTORELA"."T020e";
+
+CREATE VIEW "ONTORELA_en"."T020f_ONTORELA_C025eX" AS
+  SELECT "T020f_uid" AS "T020f_uid"
+  FROM "ONTORELA"."T020f";
+
+COMMENT ON VIEW "ONTORELA_en"."T020f_ONTORELA_C025eX" IS 'Width unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0210_water-based rainfall" AS
+  SELECT "T0210_uid" AS "uid water-based rainfall"
+  FROM "ONTORELA"."T0210";
+
+CREATE VIEW "ONTORELA_en"."T0211_millimeter" AS
+  SELECT "T0211_uid" AS "uid millimeter"
+  FROM "ONTORELA"."T0211";
+
+CREATE VIEW "ONTORELA_en"."T0212_Water Height" AS
+  SELECT "T0212_uid" AS "uid Water Height"
+  FROM "ONTORELA"."T0212";
+
+CREATE VIEW "ONTORELA_en"."T0213_Manipulative experiment" AS
+  SELECT "T0213_uid" AS "uid Manipulative experiment"
+  FROM "ONTORELA"."T0213";
+
+CREATE VIEW "ONTORELA_en"."T0214_Air Moisture Percentage" AS
+  SELECT "T0214_uid" AS "uid Air Moisture Percentage"
+  FROM "ONTORELA"."T0214";
+
+CREATE VIEW "ONTORELA_en"."T0215_ECSO_00000518" AS
+  SELECT "T0215_uid" AS "T0215_uid"
+  FROM "ONTORELA"."T0215";
+
+CREATE VIEW "ONTORELA_en"."T0216_ECSO_00001151" AS
+  SELECT "T0216_uid" AS "T0216_uid"
+  FROM "ONTORELA"."T0216";
+
+CREATE VIEW "ONTORELA_en"."T0217_ONTORELA_C0234X" AS
+  SELECT "T0217_uid" AS "T0217_uid"
+  FROM "ONTORELA"."T0217";
+
+COMMENT ON VIEW "ONTORELA_en"."T0217_ONTORELA_C0234X" IS 'Soil Moisture Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0218_ECSO_00001199" AS
+  SELECT "T0218_uid" AS "T0218_uid"
+  FROM "ONTORELA"."T0218";
+
+CREATE VIEW "ONTORELA_en"."T0219_Seawater Pressure" AS
+  SELECT "T0219_uid" AS "uid Seawater Pressure"
+  FROM "ONTORELA"."T0219";
+
+CREATE VIEW "ONTORELA_en"."T021a_soil organic_content" AS
+  SELECT "T021a_uid" AS "uid soil organic_content"
+  FROM "ONTORELA"."T021a";
+
+CREATE VIEW "ONTORELA_en"."T021b_ONTORELA_C0231X" AS
+  SELECT "T021b_uid" AS "T021b_uid"
+  FROM "ONTORELA"."T021b";
+
+COMMENT ON VIEW "ONTORELA_en"."T021b_ONTORELA_C0231X" IS 'Height unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T021c_Total Soil Carbon MOV" AS
+  SELECT "T021c_uid" AS "uid Total Soil Carbon MOV"
+  FROM "ONTORELA"."T021c";
+
+CREATE VIEW "ONTORELA_en"."T021d_Subsurface_Runoff_MOV" AS
+  SELECT "T021d_uid" AS "uid Subsurface_Runoff_MOV"
+  FROM "ONTORELA"."T021d";
+
+CREATE VIEW "ONTORELA_en"."T021e_PATO_0001995" AS
+  SELECT "T021e_uid" AS "uid PATO_0001995"
+  FROM "ONTORELA"."T021e";
+
+CREATE VIEW "ONTORELA_en"."T021f_Leaf_Area_Index_MOV" AS
+  SELECT "T021f_uid" AS "uid Leaf_Area_Index_MOV"
+  FROM "ONTORELA"."T021f";
+
+CREATE VIEW "ONTORELA_en"."T0220_Rainfall_Rate_MOV" AS
+  SELECT "T0220_uid" AS "uid Rainfall_Rate_MOV"
+  FROM "ONTORELA"."T0220";
+
+CREATE VIEW "ONTORELA_en"."T0221_ArealDensity" AS
+  SELECT "T0221_uid" AS "uid ArealDensity"
+  FROM "ONTORELA"."T0221";
+
+CREATE VIEW "ONTORELA_en"."T0222_ECSO_00000098" AS
+  SELECT "T0222_uid" AS "T0222_uid"
+  FROM "ONTORELA"."T0222";
+
+CREATE VIEW "ONTORELA_en"."T0223_UO_0000003" AS
+  SELECT "T0223_uid" AS "uid UO_0000003"
+  FROM "ONTORELA"."T0223";
+
+CREATE VIEW "ONTORELA_en"."T0224_degree Celsius" AS
+  SELECT "T0224_uid" AS "uid degree Celsius"
+  FROM "ONTORELA"."T0224";
+
+CREATE VIEW "ONTORELA_en"."T0225_land" AS
+  SELECT "T0225_uid" AS "uid land"
+  FROM "ONTORELA"."T0225";
+
+CREATE VIEW "ONTORELA_en"."T0226_centimeter" AS
+  SELECT "T0226_uid" AS "uid centimeter"
+  FROM "ONTORELA"."T0226";
+
+CREATE VIEW "ONTORELA_en"."T0227_Air Pressure" AS
+  SELECT "T0227_uid" AS "uid Air Pressure"
+  FROM "ONTORELA"."T0227";
+
+CREATE VIEW "ONTORELA_en"."T0228_CHEBI_50860" AS
+  SELECT "T0228_uid" AS "uid CHEBI_50860"
+  FROM "ONTORELA"."T0228";
+
+CREATE VIEW "ONTORELA_en"."T0229_Sea Level Height" AS
+  SELECT "T0229_uid" AS "uid Sea Level Height"
+  FROM "ONTORELA"."T0229";
+
+CREATE VIEW "ONTORELA_en"."T022a_Natural experiment" AS
+  SELECT "T022a_uid" AS "uid Natural experiment"
+  FROM "ONTORELA"."T022a";
+
+CREATE VIEW "ONTORELA_en"."T022b_Precipitation Rate" AS
+  SELECT "T022b_uid" AS "uid Precipitation Rate"
+  FROM "ONTORELA"."T022b";
+
+CREATE VIEW "ONTORELA_en"."T022c_ECSO_00000519" AS
+  SELECT "T022c_uid" AS "T022c_uid"
+  FROM "ONTORELA"."T022c";
+
+CREATE VIEW "ONTORELA_en"."T022d_ECSO_00001150" AS
+  SELECT "T022d_uid" AS "uid Non-Plant Material Biomass"
+  FROM "ONTORELA"."T022d";
+
+CREATE VIEW "ONTORELA_en"."T022e_ECSO_00001198" AS
+  SELECT "T022e_uid" AS "T022e_uid"
+  FROM "ONTORELA"."T022e";
+
+CREATE VIEW "ONTORELA_en"."T022f_VolumetricRate" AS
+  SELECT "T022f_uid" AS "uid VolumetricRate"
+  FROM "ONTORELA"."T022f";
+
+CREATE VIEW "ONTORELA_en"."T0230_Modeled Method" AS
+  SELECT "T0230_uid" AS "uid Modeled Method"
+  FROM "ONTORELA"."T0230";
+
+CREATE VIEW "ONTORELA_en"."T0231_LIDAR Method" AS
+  SELECT "T0231_uid" AS "uid LIDAR Method"
+  FROM "ONTORELA"."T0231";
+
+CREATE VIEW "ONTORELA_en"."T0232_MolePerKilogram" AS
+  SELECT "T0232_uid" AS "uid MolePerKilogram"
+  FROM "ONTORELA"."T0232";
+
+CREATE VIEW "ONTORELA_en"."T0233_MolePerLiter" AS
+  SELECT "T0233_uid" AS "uid MolePerLiter"
+  FROM "ONTORELA"."T0233";
+
+CREATE VIEW "ONTORELA_en"."T0234_Count Density" AS
+  SELECT "T0234_uid" AS "uid Count Density"
+  FROM "ONTORELA"."T0234";
+
+CREATE VIEW "ONTORELA_en"."T0235_UO_0000002" AS
+  SELECT "T0235_uid" AS "uid UO_0000002"
+  FROM "ONTORELA"."T0235";
+
+CREATE VIEW "ONTORELA_en"."T0236_phytoplankton" AS
+  SELECT "T0236_uid" AS "uid phytoplankton"
+  FROM "ONTORELA"."T0236";
+
+CREATE VIEW "ONTORELA_en"."T0237_ECSO_00000516" AS
+  SELECT "T0237_uid" AS "T0237_uid"
+  FROM "ONTORELA"."T0237";
+
+CREATE VIEW "ONTORELA_en"."T0238_Plant Cover Percentage" AS
+  SELECT "T0238_uid" AS "uid Plant Cover Percentage"
+  FROM "ONTORELA"."T0238";
+
+CREATE VIEW "ONTORELA_en"."T0239_ECSO_00000528" AS
+  SELECT "T0239_uid" AS "T0239_uid"
+  FROM "ONTORELA"."T0239";
+
+CREATE VIEW "ONTORELA_en"."T023a_ONTORELA_C0258X" AS
+  SELECT "T023a_uid" AS "T023a_uid"
+  FROM "ONTORELA"."T023a";
+
+COMMENT ON VIEW "ONTORELA_en"."T023a_ONTORELA_C0258X" IS 'Dissolved Organic Carbon Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T023b_pressure_MeasurementType" AS
+  SELECT "T023b_uid" AS "uid pressure_MeasurementType"
+  FROM "ONTORELA"."T023b";
+
+CREATE VIEW "ONTORELA_en"."T023c_Tide Height" AS
+  SELECT "T023c_uid" AS "uid Tide Height"
+  FROM "ONTORELA"."T023c";
+
+CREATE VIEW "ONTORELA_en"."T023d_Potential Temperature" AS
+  SELECT "T023d_uid" AS "uid Potential Temperature"
+  FROM "ONTORELA"."T023d";
+
+CREATE VIEW "ONTORELA_en"."T023e_ENVO_00000063" AS
+  SELECT "T023e_uid" AS "uid ENVO_00000063"
+  FROM "ONTORELA"."T023e";
+
+CREATE VIEW "ONTORELA_en"."T023f_Total_Snow_Depth_MOV" AS
+  SELECT "T023f_uid" AS "uid Total_Snow_Depth_MOV"
+  FROM "ONTORELA"."T023f";
+
+CREATE VIEW "ONTORELA_en"."T0240_Field Method" AS
+  SELECT "T0240_uid" AS "uid Field Method"
+  FROM "ONTORELA"."T0240";
+
+CREATE VIEW "ONTORELA_en"."T0241_MsTMIP_Simulation" AS
+  SELECT "T0241_uid" AS "uid MsTMIP_Simulation"
+  FROM "ONTORELA"."T0241";
+
+CREATE VIEW "ONTORELA_en"."T0242_ECSO_00000072" AS
+  SELECT "T0242_uid" AS "T0242_uid"
+  FROM "ONTORELA"."T0242";
+
+CREATE VIEW "ONTORELA_en"."T0243_Concept" AS
+  SELECT "T0243_uid" AS "uid Concept"
+  FROM "ONTORELA"."T0243";
+
+CREATE VIEW "ONTORELA_en"."T0244_ENVO_00002011" AS
+  SELECT "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T0244";
+
+CREATE VIEW "ONTORELA_en"."T0245_MilligramPerMeterSquaredPerDay" AS
+  SELECT "T0245_uid" AS "T0245_uid"
+  FROM "ONTORELA"."T0245";
+
+CREATE VIEW "ONTORELA_en"."T0246_pascal" AS
+  SELECT "T0246_uid" AS "uid pascal"
+  FROM "ONTORELA"."T0246";
+
+CREATE VIEW "ONTORELA_en"."T0247_linear unit" AS
+  SELECT "T0247_uid" AS "uid linear unit"
+  FROM "ONTORELA"."T0247";
+
+CREATE VIEW "ONTORELA_en"."T0248_ECSO_00001171" AS
+  SELECT "T0248_uid" AS "T0248_uid"
+  FROM "ONTORELA"."T0248";
+
+CREATE VIEW "ONTORELA_en"."T0249_ENVO_02500007" AS
+  SELECT "T0249_uid" AS "T0249_uid"
+  FROM "ONTORELA"."T0249";
+
+CREATE VIEW "ONTORELA_en"."T024a_Experiment" AS
+  SELECT "T024a_uid" AS "uid Experiment"
+  FROM "ONTORELA"."T024a";
+
+CREATE VIEW "ONTORELA_en"."T024b_Soil Moisture Percentage" AS
+  SELECT "T024b_uid" AS "uid Soil Moisture Percentage"
+  FROM "ONTORELA"."T024b";
+
+CREATE VIEW "ONTORELA_en"."T024c_WattPerMeterSquared" AS
+  SELECT "T024c_uid" AS "uid WattPerMeterSquared"
+  FROM "ONTORELA"."T024c";
+
+CREATE VIEW "ONTORELA_en"."T024d_ECSO_00001196" AS
+  SELECT "T024d_uid" AS "T024d_uid"
+  FROM "ONTORELA"."T024d";
+
+CREATE VIEW "ONTORELA_en"."T024e_mass concentration" AS
+  SELECT "T024e_uid" AS "uid mass concentration"
+  FROM "ONTORELA"."T024e";
+
+CREATE VIEW "ONTORELA_en"."T024f_Dry Mass Density" AS
+  SELECT "T024f_uid" AS "uid Dry Mass Density"
+  FROM "ONTORELA"."T024f";
+
+CREATE VIEW "ONTORELA_en"."T0250_Litter Biomass Density" AS
+  SELECT "T0250_uid" AS "uid Litter Biomass Density"
+  FROM "ONTORELA"."T0250";
+
+CREATE VIEW "ONTORELA_en"."T0251_ONTORELA_C0266X" AS
+  SELECT "T0251_uid" AS "T0251_uid"
+  FROM "ONTORELA"."T0251";
+
+COMMENT ON VIEW "ONTORELA_en"."T0251_ONTORELA_C0266X" IS 'Total Living Biomass MOV unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0252_TagNumber" AS
+  SELECT "T0252_uid" AS "uid TagNumber"
+  FROM "ONTORELA"."T0252";
+
+CREATE VIEW "ONTORELA_en"."T0253_Fire_Emissions_MOV" AS
+  SELECT "T0253_uid" AS "uid Fire_Emissions_MOV"
+  FROM "ONTORELA"."T0253";
+
+CREATE VIEW "ONTORELA_en"."T0254_ECSO_00000013_BFO_0000050_ENVO_01001305" AS
+  SELECT "T0002_uid" AS "uid Fire Carbon Flux",  
+    "T0099_uid" AS "uid ENVO_01001305"
+  FROM "ONTORELA"."T0254";
+
+COMMENT ON VIEW "ONTORELA_en"."T0254_ECSO_00000013_BFO_0000050_ENVO_01001305" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0255_ECSO_00000013_measuresUsingProtocol_ONTORELA_C0248X" AS
+  SELECT "T0002_uid" AS "uid Fire Carbon Flux",  
+    "T00bd_uid" AS "T00bd_uid"
+  FROM "ONTORELA"."T0255";
+
+COMMENT ON VIEW "ONTORELA_en"."T0255_ECSO_00000013_measuresUsingProtocol_ONTORELA_C0248X" IS 'null null Fire Carbon Flux unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0256_ECSO_00000049_ENVO_2100001_ENVO_01000324" AS
+  SELECT "T0003_uid" AS "T0003_uid",  
+    "T0067_uid" AS "uid ENVO_01000324"
+  FROM "ONTORELA"."T0256";
+
+COMMENT ON VIEW "ONTORELA_en"."T0256_ECSO_00000049_ENVO_2100001_ENVO_01000324" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0257_ECSO_00000025_RO_0002473_ECSO_00000329" AS
+  SELECT "T0005_uid" AS "uid Carbon Pool",  
+    "T0193_uid" AS "uid Organic Carbon"
+  FROM "ONTORELA"."T0257";
+
+COMMENT ON VIEW "ONTORELA_en"."T0257_ECSO_00000025_RO_0002473_ECSO_00000329" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0258_ECSO_00001212_ENVO_2100001_ENVO_00000023" AS
+  SELECT "T000a_uid" AS "uid Stream Depth",  
+    "T01a7_uid" AS "uid ENVO_00000023"
+  FROM "ONTORELA"."T0258";
+
+COMMENT ON VIEW "ONTORELA_en"."T0258_ECSO_00001212_ENVO_2100001_ENVO_00000023" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0259_ECSO_00001200_measuresEntity_ENVO_01000155" AS
+  SELECT "T000b_uid" AS "uid Biomass Volumetric Density",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T0259";
+
+COMMENT ON VIEW "ONTORELA_en"."T0259_ECSO_00001200_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T025a_ECSO_00001139_measuresEntity_ENVO_01000155" AS
+  SELECT "T000d_uid" AS "uid Wet Weight Biomass",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T025a";
+
+COMMENT ON VIEW "ONTORELA_en"."T025a_ECSO_00001139_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T025b_ECSO_00001139_RO_0000086_PATO_0001823" AS
+  SELECT "T000d_uid" AS "uid Wet Weight Biomass",  
+    "T0178_uid" AS "uid wet"
+  FROM "ONTORELA"."T025b";
+
+COMMENT ON VIEW "ONTORELA_en"."T025b_ECSO_00001139_RO_0000086_PATO_0001823" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T025c_ECSO_00001127_measuresEntity_CHEBI_27594" AS
+  SELECT "T000f_uid" AS "uid Carbon Percentage",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T025c";
+
+COMMENT ON VIEW "ONTORELA_en"."T025c_ECSO_00001127_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T025d_ECSO_00001224_measuresEntity_ECSO_00000323" AS
+  SELECT "T0014_uid" AS "uid Carbon Dioxide Pressure",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T025d";
+
+COMMENT ON VIEW "ONTORELA_en"."T025d_ECSO_00001224_measuresEntity_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T025e_ENVO_01000406_RO_0002473_ONTORELA_C0236X" AS
+  SELECT "T0019_uid" AS "uid snow",  
+    "T01a9_uid" AS "uid snow unionOf ENVO_00002006"
+  FROM "ONTORELA"."T025e";
+
+COMMENT ON VIEW "ONTORELA_en"."T025e_ENVO_01000406_RO_0002473_ONTORELA_C0236X" IS 'null null snow unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T025f_ENVO_00002033_RO_0000086_PATO_0001422" AS
+  SELECT "T001d_uid" AS "uid ENVO_00002033",  
+    "T01d2_uid" AS "uid dead"
+  FROM "ONTORELA"."T025f";
+
+COMMENT ON VIEW "ONTORELA_en"."T025f_ENVO_00002033_RO_0000086_PATO_0001422" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0260_ECSO_00000014_measuresEntity_CHEBI_27594" AS
+  SELECT "T001e_uid" AS "T001e_uid",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T0260";
+
+COMMENT ON VIEW "ONTORELA_en"."T0260_ECSO_00000014_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0261_ECSO_00001138_measuresEntity_CHEBI_25555" AS
+  SELECT "T0024_uid" AS "uid Carbon to Nitrogen Ratio",  
+    "T0156_uid" AS "uid nitrogen atom"
+  FROM "ONTORELA"."T0261";
+
+COMMENT ON VIEW "ONTORELA_en"."T0261_ECSO_00001138_measuresEntity_CHEBI_25555" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0262_ECSO_00001138_measuresEntity_CHEBI_27594" AS
+  SELECT "T0024_uid" AS "uid Carbon to Nitrogen Ratio",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T0262";
+
+COMMENT ON VIEW "ONTORELA_en"."T0262_ECSO_00001138_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0263_ECSO_00001126_STATO_0000259_ENVO_00002010" AS
+  SELECT "T0025_uid" AS "T0025_uid",  
+    "T0006_uid" AS "uid ENVO_00002010"
+  FROM "ONTORELA"."T0263";
+
+COMMENT ON VIEW "ONTORELA_en"."T0263_ECSO_00001126_STATO_0000259_ENVO_00002010" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0264_ECSO_00001126_STATO_0000101_ECSO_00000325" AS
+  SELECT "T0025_uid" AS "T0025_uid",  
+    "T00b4_uid" AS "uid Carbonate"
+  FROM "ONTORELA"."T0264";
+
+COMMENT ON VIEW "ONTORELA_en"."T0264_ECSO_00001126_STATO_0000101_ECSO_00000325" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0265_ECSO_00001126_STATO_0000101_ECSO_00000325" AS
+  SELECT "T0025_uid" AS "T0025_uid",  
+    "T00b4_uid" AS "uid Carbonate"
+  FROM "ONTORELA"."T0265";
+
+COMMENT ON VIEW "ONTORELA_en"."T0265_ECSO_00001126_STATO_0000101_ECSO_00000325" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0266_ECSO_00001114_RO_0002473_ENVO_01000155" AS
+  SELECT "T0028_uid" AS "uid Biomass",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T0266";
+
+COMMENT ON VIEW "ONTORELA_en"."T0266_ECSO_00001114_RO_0002473_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0267_ECSO_00001235_BFO_0000050_ENVO_00001999" AS
+  SELECT "T0029_uid" AS "uid Seawater Velocity",  
+    "T00b9_uid" AS "uid ENVO_00001999"
+  FROM "ONTORELA"."T0267";
+
+COMMENT ON VIEW "ONTORELA_en"."T0267_ECSO_00001235_BFO_0000050_ENVO_00001999" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0268_ECSO_00000582_measuresEntity_ECSO_00000324" AS
+  SELECT "T002a_uid" AS "uid Methane Flux",  
+    "T00a4_uid" AS "uid Methane"
+  FROM "ONTORELA"."T0268";
+
+COMMENT ON VIEW "ONTORELA_en"."T0268_ECSO_00000582_measuresEntity_ECSO_00000324" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0269_ECSO_00000047_RO_0000056_ENVO_02500008" AS
+  SELECT "T002e_uid" AS "uid Total_Respiration_MOV",  
+    "T0009_uid" AS "uid ecosystem-wide respiration"
+  FROM "ONTORELA"."T0269";
+
+COMMENT ON VIEW "ONTORELA_en"."T0269_ECSO_00000047_RO_0000056_ENVO_02500008" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T026a_ECSO_00001234_measuresEntity_ENVO_00002006" AS
+  SELECT "T0033_uid" AS "uid Water Velocity",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T026a";
+
+COMMENT ON VIEW "ONTORELA_en"."T026a_ECSO_00001234_measuresEntity_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T026b_ECSO_00001222_measuresEntity_ECSO_00000503" AS
+  SELECT "T0035_uid" AS "uid Plant Material Height",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T026b";
+
+COMMENT ON VIEW "ONTORELA_en"."T026b_ECSO_00001222_measuresEntity_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T026c_ECSO_00001210_measuresEntity_ECSO_00000575" AS
+  SELECT "T0036_uid" AS "uid Soil Active Layer Depth",  
+    "T00e7_uid" AS "uid soil active layer"
+  FROM "ONTORELA"."T026c";
+
+COMMENT ON VIEW "ONTORELA_en"."T026c_ECSO_00001210_measuresEntity_ECSO_00000575" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T026d_ECSO_00001149_measuresEntity_ECSO_00000312" AS
+  SELECT "T0037_uid" AS "T0037_uid",  
+    "T00a1_uid" AS "uid Organism"
+  FROM "ONTORELA"."T026d";
+
+COMMENT ON VIEW "ONTORELA_en"."T026d_ECSO_00001149_measuresEntity_ECSO_00000312" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T026e_ECSO_00001137_measuresEntity_ENVO_01000155" AS
+  SELECT "T0038_uid" AS "T0038_uid",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T026e";
+
+COMMENT ON VIEW "ONTORELA_en"."T026e_ECSO_00001137_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T026f_ECSO_00001125_STATO_0000101_ECSO_00000329" AS
+  SELECT "T0039_uid" AS "T0039_uid",  
+    "T0193_uid" AS "uid Organic Carbon"
+  FROM "ONTORELA"."T026f";
+
+COMMENT ON VIEW "ONTORELA_en"."T026f_ECSO_00001125_STATO_0000101_ECSO_00000329" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0270_ECSO_00001125_STATO_0000259_ENVO_00002006" AS
+  SELECT "T0039_uid" AS "T0039_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T0270";
+
+COMMENT ON VIEW "ONTORELA_en"."T0270_ECSO_00001125_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0271_ECSO_00001125_measuresEntity_ONTORELA_C0258X" AS
+  SELECT "T0039_uid" AS "T0039_uid",  
+    "T023a_uid" AS "T023a_uid"
+  FROM "ONTORELA"."T0271";
+
+COMMENT ON VIEW "ONTORELA_en"."T0271_ECSO_00001125_measuresEntity_ONTORELA_C0258X" IS 'null null Dissolved Organic Carbon Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0272_ECSO_00001246_measuresEntity_ONTORELA_C025aX" AS
+  SELECT "T003a_uid" AS "uid Oxygen Concentration",  
+    "T0126_uid" AS "T0126_uid"
+  FROM "ONTORELA"."T0272";
+
+COMMENT ON VIEW "ONTORELA_en"."T0272_ECSO_00001246_measuresEntity_ONTORELA_C025aX" IS 'null null Oxygen Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0273_ECSO_00001233_measuresEntity_ENVO_00002005" AS
+  SELECT "T0043_uid" AS "uid Wind Speed",  
+    "T01db_uid" AS "uid ENVO_00002005"
+  FROM "ONTORELA"."T0273";
+
+COMMENT ON VIEW "ONTORELA_en"."T0273_ECSO_00001233_measuresEntity_ENVO_00002005" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0274_ECSO_00001221_measuresEntity_ECSO_00000503" AS
+  SELECT "T0045_uid" AS "uid Crown Height",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T0274";
+
+COMMENT ON VIEW "ONTORELA_en"."T0274_ECSO_00001221_measuresEntity_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0275_ECSO_00001148_measuresEntity_ECSO_00000503" AS
+  SELECT "T0047_uid" AS "uid Plant Material Biomass",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T0275";
+
+COMMENT ON VIEW "ONTORELA_en"."T0275_ECSO_00001148_measuresEntity_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0276_ECSO_00001136_measuresEntity_ENVO_01000155" AS
+  SELECT "T0048_uid" AS "uid Growth Rate",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T0276";
+
+COMMENT ON VIEW "ONTORELA_en"."T0276_ECSO_00001136_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0277_ECSO_00000580_measuresEntity_ECSO_00000323" AS
+  SELECT "T004a_uid" AS "uid CO2 Concentration in air",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T0277";
+
+COMMENT ON VIEW "ONTORELA_en"."T0277_ECSO_00000580_measuresEntity_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0278_ENVO_00002042_BFO_0000050_ENVO_00010504" AS
+  SELECT "T0051_uid" AS "uid ENVO_00002042",  
+    "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T0278";
+
+COMMENT ON VIEW "ONTORELA_en"."T0278_ENVO_00002042_BFO_0000050_ENVO_00010504" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0279_ECSO_00001135_measuresEntity_ONTORELA_C026cX" AS
+  SELECT "T0055_uid" AS "uid Aboveground Biomass",  
+    "T013e_uid" AS "T013e_uid"
+  FROM "ONTORELA"."T0279";
+
+COMMENT ON VIEW "ONTORELA_en"."T0279_ECSO_00001135_measuresEntity_ONTORELA_C026cX" IS 'null null Aboveground Biomass intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T027a_ECSO_00001256_measuresUsingStandard_ECSO_00000560" AS
+  SELECT "T0056_uid" AS "uid Specific Flux",  
+    "T0105_uid" AS "uid flux unit"
+  FROM "ONTORELA"."T027a";
+
+COMMENT ON VIEW "ONTORELA_en"."T027a_ECSO_00001256_measuresUsingStandard_ECSO_00000560" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T027b_ECSO_00001111_measuresEntity_ONTORELA_C023eX" AS
+  SELECT "T0059_uid" AS "uid Belowground Biomass",  
+    "T0208_uid" AS "T0208_uid"
+  FROM "ONTORELA"."T027b";
+
+COMMENT ON VIEW "ONTORELA_en"."T027b_ECSO_00001111_measuresEntity_ONTORELA_C023eX" IS 'null null Belowground Biomass intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T027c_ECSO_00001220_measuresEntity_ENVO_00000047" AS
+  SELECT "T005b_uid" AS "uid Tree Canopy Height",  
+    "T01a6_uid" AS "uid ENVO_00000047"
+  FROM "ONTORELA"."T027c";
+
+COMMENT ON VIEW "ONTORELA_en"."T027c_ECSO_00001220_measuresEntity_ENVO_00000047" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T027d_ONTORELA_C0238X_BFO_0000050_ENVO_00001998" AS
+  SELECT "T005c_uid" AS "T005c_uid",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T027d";
+
+COMMENT ON VIEW "ONTORELA_en"."T027d_ONTORELA_C0238X_BFO_0000050_ENVO_00001998" IS 'Total Soil Nitrogen Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T027e_ECSO_00001147_measuresEntity_ECSO_00000503" AS
+  SELECT "T005e_uid" AS "T005e_uid",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T027e";
+
+COMMENT ON VIEW "ONTORELA_en"."T027e_ECSO_00001147_measuresEntity_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T027f_ECSO_00000046_ENVO_2100001_ENVO_00010504" AS
+  SELECT "T0064_uid" AS "T0064_uid",  
+    "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T027f";
+
+COMMENT ON VIEW "ONTORELA_en"."T027f_ECSO_00000046_ENVO_2100001_ENVO_00010504" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0280_ECSO_00000046_measuresEntity_ECSO_00000323" AS
+  SELECT "T0064_uid" AS "T0064_uid",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T0280";
+
+COMMENT ON VIEW "ONTORELA_en"."T0280_ECSO_00000046_measuresEntity_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0281_ECSO_00000046_BFO_0000050_ENVO_00002005" AS
+  SELECT "T0064_uid" AS "T0064_uid",  
+    "T01db_uid" AS "uid ENVO_00002005"
+  FROM "ONTORELA"."T0281";
+
+COMMENT ON VIEW "ONTORELA_en"."T0281_ECSO_00000046_BFO_0000050_ENVO_00002005" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0282_ECSO_00000046_STATO_0000101_ECSO_00000323" AS
+  SELECT "T0064_uid" AS "T0064_uid",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T0282";
+
+COMMENT ON VIEW "ONTORELA_en"."T0282_ECSO_00000046_STATO_0000101_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0283_ECSO_00000046_STATO_0000259_ENVO_00002005" AS
+  SELECT "T0064_uid" AS "T0064_uid",  
+    "T01db_uid" AS "uid ENVO_00002005"
+  FROM "ONTORELA"."T0283";
+
+COMMENT ON VIEW "ONTORELA_en"."T0283_ECSO_00000046_STATO_0000259_ENVO_00002005" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0284_ECSO_00000058_ENVO_2100001_ECSO_00000574" AS
+  SELECT "T0068_uid" AS "uid Soil_Layer_Node_Depth_MOV",  
+    "T00fe_uid" AS "uid soil layer"
+  FROM "ONTORELA"."T0284";
+
+COMMENT ON VIEW "ONTORELA_en"."T0284_ECSO_00000058_ENVO_2100001_ECSO_00000574" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0285_ECSO_00001134_measuresEntity_ONTORELA_C0252X" AS
+  SELECT "T006c_uid" AS "T006c_uid",  
+    "T0160_uid" AS "T0160_uid"
+  FROM "ONTORELA"."T0285";
+
+COMMENT ON VIEW "ONTORELA_en"."T0285_ECSO_00001134_measuresEntity_ONTORELA_C0252X" IS 'null null Soil Carbon Change Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0286_ECSO_00001122_STATO_0000259_ENVO_00002011" AS
+  SELECT "T006e_uid" AS "T006e_uid",  
+    "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T0286";
+
+COMMENT ON VIEW "ONTORELA_en"."T0286_ECSO_00001122_STATO_0000259_ENVO_00002011" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0287_ECSO_00001122_measuresEntity_ONTORELA_C0250X" AS
+  SELECT "T006e_uid" AS "T006e_uid",  
+    "T010b_uid" AS "T010b_uid"
+  FROM "ONTORELA"."T0287";
+
+COMMENT ON VIEW "ONTORELA_en"."T0287_ECSO_00001122_measuresEntity_ONTORELA_C0250X" IS 'null null Freshwater Total Inorganic Carbon Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0288_ECSO_00001122_STATO_0000101_ECSO_00000337" AS
+  SELECT "T006e_uid" AS "T006e_uid",  
+    "T00b7_uid" AS "uid Inorganic Carbon"
+  FROM "ONTORELA"."T0288";
+
+COMMENT ON VIEW "ONTORELA_en"."T0288_ECSO_00001122_STATO_0000101_ECSO_00000337" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0289_ECSO_00001122_STATO_0000259_ENVO_00002006" AS
+  SELECT "T006e_uid" AS "T006e_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T0289";
+
+COMMENT ON VIEW "ONTORELA_en"."T0289_ECSO_00001122_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T028a_ECSO_00001122_STATO_0000101_ECSO_00000337" AS
+  SELECT "T006e_uid" AS "T006e_uid",  
+    "T00b7_uid" AS "uid Inorganic Carbon"
+  FROM "ONTORELA"."T028a";
+
+COMMENT ON VIEW "ONTORELA_en"."T028a_ECSO_00001122_STATO_0000101_ECSO_00000337" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T028b_ECSO_00001243_measuresEntity_ECSO_00000562" AS
+  SELECT "T006f_uid" AS "uid Chlorophyll Concentration",  
+    "T00df_uid" AS "uid chlorophyll"
+  FROM "ONTORELA"."T028b";
+
+COMMENT ON VIEW "ONTORELA_en"."T028b_ECSO_00001243_measuresEntity_ECSO_00000562" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T028c_ECSO_00001110_RO_0002473_ENVO_00005802" AS
+  SELECT "T0070_uid" AS "uid Soil Bulk Density",  
+    "T0106_uid" AS "uid ENVO_00005802"
+  FROM "ONTORELA"."T028c";
+
+COMMENT ON VIEW "ONTORELA_en"."T028c_ECSO_00001110_RO_0002473_ENVO_00005802" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T028d_ECSO_00001110_measuresEntity_ENVO_00001998" AS
+  SELECT "T0070_uid" AS "uid Soil Bulk Density",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T028d";
+
+COMMENT ON VIEW "ONTORELA_en"."T028d_ECSO_00001110_measuresEntity_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T028e_ECSO_00000067_ENVO_2100001_ECSO_00000569" AS
+  SELECT "T0078_uid" AS "T0078_uid",  
+    "T01b8_uid" AS "uid Bacteria"
+  FROM "ONTORELA"."T028e";
+
+COMMENT ON VIEW "ONTORELA_en"."T028e_ECSO_00000067_ENVO_2100001_ECSO_00000569" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T028f_ECSO_00000079_RO_0000056_ENVO_02500034" AS
+  SELECT "T007b_uid" AS "uid Total_Evaporation_MOV",  
+    "T01ba_uid" AS "uid evaporation"
+  FROM "ONTORELA"."T028f";
+
+COMMENT ON VIEW "ONTORELA_en"."T028f_ECSO_00000079_RO_0000056_ENVO_02500034" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0290_ECSO_00000043_RO_0002473_ONTORELA_C0266X" AS
+  SELECT "T007c_uid" AS "uid Total Living Biomass MOV",  
+    "T0251_uid" AS "T0251_uid"
+  FROM "ONTORELA"."T0290";
+
+COMMENT ON VIEW "ONTORELA_en"."T0290_ECSO_00000043_RO_0002473_ONTORELA_C0266X" IS 'null null Total Living Biomass MOV unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0291_ECSO_00000055_ENVO_2100001_ECSO_00000574" AS
+  SELECT "T007d_uid" AS "uid Soil_Layer_Top_Depth_MOV",  
+    "T00fe_uid" AS "uid soil layer"
+  FROM "ONTORELA"."T0291";
+
+COMMENT ON VIEW "ONTORELA_en"."T0291_ECSO_00000055_ENVO_2100001_ECSO_00000574" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0292_ECSO_00001230_measuresEntity_ENVO_00001998" AS
+  SELECT "T007e_uid" AS "uid Soil Temperature",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T0292";
+
+COMMENT ON VIEW "ONTORELA_en"."T0292_ECSO_00001230_measuresEntity_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0293_Entity_ECSO_00000318_ECSO_00000314" AS
+  SELECT "T007f_uid" AS "uid Entity",  
+    "T019f_uid" AS "uid Physical State"
+  FROM "ONTORELA"."T0293";
+
+COMMENT ON VIEW "ONTORELA_en"."T0293_Entity_ECSO_00000318_ECSO_00000314" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0294_ECSO_00001157_measuresCharacteristic_Identifier" AS
+  SELECT "T0080_uid" AS "uid Identity",  
+    "T0168_uid" AS "uid Identifier"
+  FROM "ONTORELA"."T0294";
+
+COMMENT ON VIEW "ONTORELA_en"."T0294_ECSO_00001157_measuresCharacteristic_Identifier" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0295_ECSO_00001145_measuresEntity_CHEBI_25555" AS
+  SELECT "T0081_uid" AS "uid Nitrogen Percentage",  
+    "T0156_uid" AS "uid nitrogen atom"
+  FROM "ONTORELA"."T0295";
+
+COMMENT ON VIEW "ONTORELA_en"."T0295_ECSO_00001145_measuresEntity_CHEBI_25555" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0296_ECSO_00001133_measuresEntity_ONTORELA_C026aX" AS
+  SELECT "T0082_uid" AS "T0082_uid",  
+    "T00ec_uid" AS "T00ec_uid"
+  FROM "ONTORELA"."T0296";
+
+COMMENT ON VIEW "ONTORELA_en"."T0296_ECSO_00001133_measuresEntity_ONTORELA_C026aX" IS 'null null Vegetation Carbon Change Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0297_ECSO_00001169_measuresEntity_ECSO_00000312" AS
+  SELECT "T0087_uid" AS "T0087_uid",  
+    "T00a1_uid" AS "uid Organism"
+  FROM "ONTORELA"."T0297";
+
+COMMENT ON VIEW "ONTORELA_en"."T0297_ECSO_00001169_measuresEntity_ECSO_00000312" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0298_ECSO_00000020_ENVO_2100001_ONTORELA_C024aX" AS
+  SELECT "T0088_uid" AS "T0088_uid",  
+    "T01d7_uid" AS "T01d7_uid"
+  FROM "ONTORELA"."T0298";
+
+COMMENT ON VIEW "ONTORELA_en"."T0298_ECSO_00000020_ENVO_2100001_ONTORELA_C024aX" IS 'null null Gross Primary Production Carbon Flux unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0299_ECSO_00000056_RO_0000056_ENVO_01000793" AS
+  SELECT "T0089_uid" AS "T0089_uid",  
+    "T00d8_uid" AS "uid atmospheric wind"
+  FROM "ONTORELA"."T0299";
+
+COMMENT ON VIEW "ONTORELA_en"."T0299_ECSO_00000056_RO_0000056_ENVO_01000793" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T029a_ECSO_00000056_ENVO_2100001_ENVO_01000324" AS
+  SELECT "T0089_uid" AS "T0089_uid",  
+    "T0067_uid" AS "uid ENVO_01000324"
+  FROM "ONTORELA"."T029a";
+
+COMMENT ON VIEW "ONTORELA_en"."T029a_ECSO_00000056_ENVO_2100001_ENVO_01000324" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T029b_ECSO_00000068_ENVO_2100001_ENVO_00000134" AS
+  SELECT "T008a_uid" AS "uid Active_Layer_Thickness_MOV",  
+    "T0185_uid" AS "uid ENVO_00000134"
+  FROM "ONTORELA"."T029b";
+
+COMMENT ON VIEW "ONTORELA_en"."T029b_ECSO_00000068_ENVO_2100001_ENVO_00000134" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T029c_ECSO_00001241_RO_0000086_PATO_0001824" AS
+  SELECT "T0091_uid" AS "uid Soil Dry Weight",  
+    "T00cc_uid" AS "uid PATO_0001824"
+  FROM "ONTORELA"."T029c";
+
+COMMENT ON VIEW "ONTORELA_en"."T029c_ECSO_00001241_RO_0000086_PATO_0001824" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T029d_ECSO_00001241_measuresEntity_ENVO_00001998" AS
+  SELECT "T0091_uid" AS "uid Soil Dry Weight",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T029d";
+
+COMMENT ON VIEW "ONTORELA_en"."T029d_ECSO_00001241_measuresEntity_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T029e_ECSO_00001156_measuresEntity_ONTORELA_C024eX" AS
+  SELECT "T0094_uid" AS "uid Leaf Area Index",  
+    "T01d4_uid" AS "T01d4_uid"
+  FROM "ONTORELA"."T029e";
+
+COMMENT ON VIEW "ONTORELA_en"."T029e_ECSO_00001156_measuresEntity_ONTORELA_C024eX" IS 'null null Leaf Area Index intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T029f_ECSO_00001144_measuresEntity_ONTORELA_C0238X" AS
+  SELECT "T0095_uid" AS "T0095_uid",  
+    "T005c_uid" AS "T005c_uid"
+  FROM "ONTORELA"."T029f";
+
+COMMENT ON VIEW "ONTORELA_en"."T029f_ECSO_00001144_measuresEntity_ONTORELA_C0238X" IS 'null null Total Soil Nitrogen Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T02a0_ECSO_00001144_STATO_0000101_CHEBI_25555" AS
+  SELECT "T0095_uid" AS "T0095_uid",  
+    "T0156_uid" AS "uid nitrogen atom"
+  FROM "ONTORELA"."T02a0";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a0_ECSO_00001144_STATO_0000101_CHEBI_25555" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a1_ECSO_00001144_STATO_0000259_ENVO_00001998" AS
+  SELECT "T0095_uid" AS "T0095_uid",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T02a1";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a1_ECSO_00001144_STATO_0000259_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a2_ECSO_00001132_BFO_0000050_ENVO_00002010" AS
+  SELECT "T0096_uid" AS "T0096_uid",  
+    "T0006_uid" AS "uid ENVO_00002010"
+  FROM "ONTORELA"."T02a2";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a2_ECSO_00001132_BFO_0000050_ENVO_00002010" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a3_ECSO_00001132_STATO_0000101_ECSO_00000323" AS
+  SELECT "T0096_uid" AS "T0096_uid",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T02a3";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a3_ECSO_00001132_STATO_0000101_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a4_ECSO_00001132_STATO_0000259_ENVO_00002010" AS
+  SELECT "T0096_uid" AS "T0096_uid",  
+    "T0006_uid" AS "uid ENVO_00002010"
+  FROM "ONTORELA"."T02a4";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a4_ECSO_00001132_STATO_0000259_ENVO_00002010" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a5_ECSO_00001132_measuresEntity_ECSO_00000323" AS
+  SELECT "T0096_uid" AS "T0096_uid",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T02a5";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a5_ECSO_00001132_measuresEntity_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a6_ECSO_00001132_measuresEntity_ECSO_00000323" AS
+  SELECT "T0096_uid" AS "T0096_uid",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T02a6";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a6_ECSO_00001132_measuresEntity_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a7_MeasurementType_RO_0000056_ECSO_00000546" AS
+  SELECT "T0098_uid" AS "uid Measurement Type",  
+    "T017f_uid" AS "uid Process"
+  FROM "ONTORELA"."T02a7";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a7_MeasurementType_RO_0000056_ECSO_00000546" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a8_ENVO_01001305_RO_0002473_ECSO_00000573" AS
+  SELECT "T0099_uid" AS "uid ENVO_01001305",  
+    "T0116_uid" AS "uid plant"
+  FROM "ONTORELA"."T02a8";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a8_ENVO_01001305_RO_0002473_ECSO_00000573" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02a9_ECSO_00000530_BFO_0000050_ONTORELA_C0246X" AS
+  SELECT "T009e_uid" AS "uid CO2 Concentration",  
+    "T0196_uid" AS "T0196_uid"
+  FROM "ONTORELA"."T02a9";
+
+COMMENT ON VIEW "ONTORELA_en"."T02a9_ECSO_00000530_BFO_0000050_ONTORELA_C0246X" IS 'null null CO2 Concentration unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T02aa_ECSO_00000542_ENVO_2100001_ECSO_00000508" AS
+  SELECT "T00a0_uid" AS "T00a0_uid",  
+    "T01ee_uid" AS "uid Macroalgae"
+  FROM "ONTORELA"."T02aa";
+
+COMMENT ON VIEW "ONTORELA_en"."T02aa_ECSO_00000542_ENVO_2100001_ECSO_00000508" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ab_ECSO_00000542_RO_0001025_ONTORELA_C0268X" AS
+  SELECT "T00a0_uid" AS "T00a0_uid",  
+    "T0176_uid" AS "T0176_uid"
+  FROM "ONTORELA"."T02ab";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ab_ECSO_00000542_RO_0001025_ONTORELA_C0268X" IS 'null null Marine Macroalgae Net Primary Production Carbon Flux unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T02ac_ECSO_00000300_ENVO_2100001_ECSO_00000323" AS
+  SELECT "T00a3_uid" AS "uid CO2 Enrichment Method",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T02ac";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ac_ECSO_00000300_ENVO_2100001_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ad_ECSO_00000566_STATO_0000259_ENVO_00002011" AS
+  SELECT "T00a5_uid" AS "T00a5_uid",  
+    "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T02ad";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ad_ECSO_00000566_STATO_0000259_ENVO_00002011" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ae_ECSO_00000566_measuresEntity_ECSO_00000325" AS
+  SELECT "T00a5_uid" AS "T00a5_uid",  
+    "T00b4_uid" AS "uid Carbonate"
+  FROM "ONTORELA"."T02ae";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ae_ECSO_00000566_measuresEntity_ECSO_00000325" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02af_ECSO_00000566_BFO_0000050_ENVO_00002011" AS
+  SELECT "T00a5_uid" AS "T00a5_uid",  
+    "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T02af";
+
+COMMENT ON VIEW "ONTORELA_en"."T02af_ECSO_00000566_BFO_0000050_ENVO_00002011" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b0_ECSO_00000566_STATO_0000101_ECSO_00000325" AS
+  SELECT "T00a5_uid" AS "T00a5_uid",  
+    "T00b4_uid" AS "uid Carbonate"
+  FROM "ONTORELA"."T02b0";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b0_ECSO_00000566_STATO_0000101_ECSO_00000325" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b1_ECSO_00000566_STATO_0000101_ECSO_00000325" AS
+  SELECT "T00a5_uid" AS "T00a5_uid",  
+    "T00b4_uid" AS "uid Carbonate"
+  FROM "ONTORELA"."T02b1";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b1_ECSO_00000566_STATO_0000101_ECSO_00000325" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b2_ECSO_00000579_measuresEntity_ENVO_00001998" AS
+  SELECT "T00a9_uid" AS "T00a9_uid",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T02b2";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b2_ECSO_00000579_measuresEntity_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b3_ECSO_00000579_measuresCharacteristic_ECSO_00003030" AS
+  SELECT "T00a9_uid" AS "T00a9_uid",  
+    "T020d_uid" AS "uid organic_content"
+  FROM "ONTORELA"."T02b3";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b3_ECSO_00000579_measuresCharacteristic_ECSO_00003030" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b4_ECSO_00000531_measuresUsingProtocol_ECSO_00000555" AS
+  SELECT "T00ae_uid" AS "uid Total Soil Carbon",  
+    "T00b2_uid" AS "uid Biomass Method"
+  FROM "ONTORELA"."T02b4";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b4_ECSO_00000531_measuresUsingProtocol_ECSO_00000555" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b5_ECSO_00000531_measuresEntity_ONTORELA_C023aX" AS
+  SELECT "T00ae_uid" AS "uid Total Soil Carbon",  
+    "T0195_uid" AS "T0195_uid"
+  FROM "ONTORELA"."T02b5";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b5_ECSO_00000531_measuresEntity_ONTORELA_C023aX" IS 'null null Total Soil Carbon intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T02b6_ECSO_00000543_RO_0001025_ocean_surface" AS
+  SELECT "T00b0_uid" AS "T00b0_uid",  
+    "T01ce_uid" AS "uid ocean surface"
+  FROM "ONTORELA"."T02b6";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b6_ECSO_00000543_RO_0001025_ocean_surface" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b7_ECSO_00000555_ENVO_2100001_ENVO_01001305" AS
+  SELECT "T00b2_uid" AS "uid Biomass Method",  
+    "T0099_uid" AS "uid ENVO_01001305"
+  FROM "ONTORELA"."T02b7";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b7_ECSO_00000555_ENVO_2100001_ENVO_01001305" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b8_ECSO_00000567_STATO_0000259_ENVO_00002011" AS
+  SELECT "T00b5_uid" AS "T00b5_uid",  
+    "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T02b8";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b8_ECSO_00000567_STATO_0000259_ENVO_00002011" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02b9_ECSO_00000567_measuresEntity_ONTORELA_C0256X" AS
+  SELECT "T00b5_uid" AS "T00b5_uid",  
+    "T01ef_uid" AS "T01ef_uid"
+  FROM "ONTORELA"."T02b9";
+
+COMMENT ON VIEW "ONTORELA_en"."T02b9_ECSO_00000567_measuresEntity_ONTORELA_C0256X" IS 'null null Freshwater Bicarbonate Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T02ba_ECSO_00000567_STATO_0000101_ECSO_00000326" AS
+  SELECT "T00b5_uid" AS "T00b5_uid",  
+    "T01a1_uid" AS "uid Bicarbonate"
+  FROM "ONTORELA"."T02ba";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ba_ECSO_00000567_STATO_0000101_ECSO_00000326" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02bb_ECSO_00000567_STATO_0000101_ECSO_00000326" AS
+  SELECT "T00b5_uid" AS "T00b5_uid",  
+    "T01a1_uid" AS "uid Bicarbonate"
+  FROM "ONTORELA"."T02bb";
+
+COMMENT ON VIEW "ONTORELA_en"."T02bb_ECSO_00000567_STATO_0000101_ECSO_00000326" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02bc_ECSO_00000578_BFO_0000050_ENVO_00002006" AS
+  SELECT "T00b8_uid" AS "T00b8_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02bc";
+
+COMMENT ON VIEW "ONTORELA_en"."T02bc_ECSO_00000578_BFO_0000050_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02bd_ECSO_00001219_measuresEntity_ECSO_00001100" AS
+  SELECT "T00bb_uid" AS "uid Latent Heat Flux",  
+    "T0044_uid" AS "uid electromagnetic radiation"
+  FROM "ONTORELA"."T02bd";
+
+COMMENT ON VIEW "ONTORELA_en"."T02bd_ECSO_00001219_measuresEntity_ECSO_00001100" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02be_ECSO_00001207_measuresEntity_ENVO_00001998" AS
+  SELECT "T00bc_uid" AS "uid Soil Depth",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T02be";
+
+COMMENT ON VIEW "ONTORELA_en"."T02be_ECSO_00001207_measuresEntity_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02bf_ECSO_00000201_measuresUsingProtocol_ECSO_00000091" AS
+  SELECT "T00c3_uid" AS "T00c3_uid",  
+    "T0177_uid" AS "uid Eddy Covariance Method"
+  FROM "ONTORELA"."T02bf";
+
+COMMENT ON VIEW "ONTORELA_en"."T02bf_ECSO_00000201_measuresUsingProtocol_ECSO_00000091" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c0_ECSO_00000577_BFO_0000050_ENVO_00002006" AS
+  SELECT "T00c6_uid" AS "T00c6_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02c0";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c0_ECSO_00000577_BFO_0000050_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c1_ECSO_00001109_measuresEntity_CHEBI_25555" AS
+  SELECT "T00c7_uid" AS "uid Nitrogen Fixation Rate",  
+    "T0156_uid" AS "uid nitrogen atom"
+  FROM "ONTORELA"."T02c1";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c1_ECSO_00001109_measuresEntity_CHEBI_25555" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c2_ECSO_00001206_ENVO_2100001_ENVO_00000105" AS
+  SELECT "T00ca_uid" AS "uid Lake Depth",  
+    "T010f_uid" AS "uid ENVO_00000105"
+  FROM "ONTORELA"."T02c2";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c2_ECSO_00001206_ENVO_2100001_ENVO_00000105" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c3_ECSO_00000541_measuresUsingProtocol_ECSO_00000094" AS
+  SELECT "T00cd_uid" AS "uid Tree Height",  
+    "T0143_uid" AS "uid Allometric Method"
+  FROM "ONTORELA"."T02c3";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c3_ECSO_00000541_measuresUsingProtocol_ECSO_00000094" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c4_ECSO_00000553_measuresUsingProtocol_ECSO_00000094" AS
+  SELECT "T00cf_uid" AS "uid Linear Measurement Type",  
+    "T0143_uid" AS "uid Allometric Method"
+  FROM "ONTORELA"."T02c4";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c4_ECSO_00000553_measuresUsingProtocol_ECSO_00000094" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c5_ECSO_00000565_measuresEntity_ONTORELA_C0264X" AS
+  SELECT "T00d2_uid" AS "uid Carbonate Concentration",  
+    "T016a_uid" AS "T016a_uid"
+  FROM "ONTORELA"."T02c5";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c5_ECSO_00000565_measuresEntity_ONTORELA_C0264X" IS 'null null Carbonate Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T02c6_ECSO_00000565_STATO_0000259_ENVO_00002006" AS
+  SELECT "T00d2_uid" AS "uid Carbonate Concentration",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02c6";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c6_ECSO_00000565_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c7_ECSO_00000565_STATO_0000101_ECSO_00000337" AS
+  SELECT "T00d2_uid" AS "uid Carbonate Concentration",  
+    "T00b7_uid" AS "uid Inorganic Carbon"
+  FROM "ONTORELA"."T02c7";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c7_ECSO_00000565_STATO_0000101_ECSO_00000337" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c8_ECSO_00000565_STATO_0000259_ENVO_00002006" AS
+  SELECT "T00d2_uid" AS "uid Carbonate Concentration",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02c8";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c8_ECSO_00000565_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02c9_ECSO_00000576_STATO_0000101_CHEBI_27594" AS
+  SELECT "T00d7_uid" AS "uid Soil Carbon Concentration",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T02c9";
+
+COMMENT ON VIEW "ONTORELA_en"."T02c9_ECSO_00000576_STATO_0000101_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ca_ECSO_00000576_STATO_0000259_ENVO_00001998" AS
+  SELECT "T00d7_uid" AS "uid Soil Carbon Concentration",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T02ca";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ca_ECSO_00000576_STATO_0000259_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02cb_ECSO_00001205_measuresEntity_ENVO_01000406" AS
+  SELECT "T00d9_uid" AS "uid Snow Depth",  
+    "T0019_uid" AS "uid snow"
+  FROM "ONTORELA"."T02cb";
+
+COMMENT ON VIEW "ONTORELA_en"."T02cb_ECSO_00001205_measuresEntity_ENVO_01000406" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02cc_ECSO_00001108_measuresEntity_ENVO_01000155" AS
+  SELECT "T00da_uid" AS "uid Ash Weight Biomass",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T02cc";
+
+COMMENT ON VIEW "ONTORELA_en"."T02cc_ECSO_00001108_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02cd_ECSO_00001229_measuresEntity_ENVO_01000635" AS
+  SELECT "T00db_uid" AS "uid Ground Temperature",  
+    "T0225_uid" AS "uid land"
+  FROM "ONTORELA"."T02cd";
+
+COMMENT ON VIEW "ONTORELA_en"."T02cd_ECSO_00001229_measuresEntity_ENVO_01000635" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ce_ECSO_00001217_measuresCharacteristic_TagNumber" AS
+  SELECT "T00dc_uid" AS "uid Tag Number",  
+    "T0252_uid" AS "uid TagNumber"
+  FROM "ONTORELA"."T02ce";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ce_ECSO_00001217_measuresCharacteristic_TagNumber" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02cf_ECSO_00002777_measuresEntity_ECSO_00002776" AS
+  SELECT "T00e0_uid" AS "T00e0_uid",  
+    "T00f5_uid" AS "uid periphyton"
+  FROM "ONTORELA"."T02cf";
+
+COMMENT ON VIEW "ONTORELA_en"."T02cf_ECSO_00002777_measuresEntity_ECSO_00002776" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02d0_ECSO_00002777_measuresCharacteristic_ECSO_00002775" AS
+  SELECT "T00e0_uid" AS "T00e0_uid",  
+    "T010c_uid" AS "uid MassSpecificProductionRate"
+  FROM "ONTORELA"."T02d0";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d0_ECSO_00002777_measuresCharacteristic_ECSO_00002775" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02d1_ENVO_00010504_BFO_0000050_ONTORELA_C0244X" AS
+  SELECT "T00e5_uid" AS "uid ENVO_00010504",  
+    "T0154_uid" AS "T0154_uid"
+  FROM "ONTORELA"."T02d1";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d1_ENVO_00010504_BFO_0000050_ONTORELA_C0244X" IS 'null null ENVO_00010504 unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T02d2_ECSO_00001216_measuresEntity_ENVO_01000635" AS
+  SELECT "T00e8_uid" AS "uid Ground Heat Flux",  
+    "T0225_uid" AS "uid land"
+  FROM "ONTORELA"."T02d2";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d2_ECSO_00001216_measuresEntity_ENVO_01000635" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02d3_ECSO_00001204_ENVO_2100001_ocean_surface" AS
+  SELECT "T00e9_uid" AS "uid Seawater Depth",  
+    "T01ce_uid" AS "uid ocean surface"
+  FROM "ONTORELA"."T02d3";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d3_ECSO_00001204_ENVO_2100001_ocean_surface" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02d4_ECSO_00001228_measuresEntity_ENVO_00005774" AS
+  SELECT "T00eb_uid" AS "uid Peat Temperature",  
+    "T0016_uid" AS "uid ENVO_00005774"
+  FROM "ONTORELA"."T02d4";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d4_ECSO_00001228_measuresEntity_ENVO_00005774" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02d5_ONTORELA_C026aX_BFO_0000050_ENVO_01001305" AS
+  SELECT "T00ec_uid" AS "T00ec_uid",  
+    "T0099_uid" AS "uid ENVO_01001305"
+  FROM "ONTORELA"."T02d5";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d5_ONTORELA_C026aX_BFO_0000050_ENVO_01001305" IS 'Vegetation Carbon Change Percentage intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T02d6_ENVO_00005801_RO_0002473_ENVO_01000349" AS
+  SELECT "T00ee_uid" AS "uid ENVO_00005801",  
+    "T0052_uid" AS "uid root matter"
+  FROM "ONTORELA"."T02d6";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d6_ENVO_00005801_RO_0002473_ENVO_01000349" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02d7_ECSO_00000551_RO_0002473_ECSO_00001114" AS
+  SELECT "T00ef_uid" AS "uid biomass_density",  
+    "T0028_uid" AS "uid Biomass"
+  FROM "ONTORELA"."T02d7";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d7_ECSO_00000551_RO_0002473_ECSO_00001114" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02d8_ECSO_00001227_measuresEntity_ENVO_00002006" AS
+  SELECT "T00fd_uid" AS "uid Water Temperature",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02d8";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d8_ECSO_00001227_measuresEntity_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02d9_ECSO_00000574_RO_0002473_ENVO_00001998" AS
+  SELECT "T00fe_uid" AS "uid soil layer",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T02d9";
+
+COMMENT ON VIEW "ONTORELA_en"."T02d9_ECSO_00000574_RO_0002473_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02da_ECSO_00001203_measuresEntity_ENVO_00002006" AS
+  SELECT "T0100_uid" AS "uid Water Depth",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02da";
+
+COMMENT ON VIEW "ONTORELA_en"."T02da_ECSO_00001203_measuresEntity_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02db_ECSO_00001118_BFO_0000050_ENVO_00002006" AS
+  SELECT "T0101_uid" AS "T0101_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02db";
+
+COMMENT ON VIEW "ONTORELA_en"."T02db_ECSO_00001118_BFO_0000050_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02dc_ONTORELA_C0250X_BFO_0000050_ENVO_00002011" AS
+  SELECT "T010b_uid" AS "T010b_uid",  
+    "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T02dc";
+
+COMMENT ON VIEW "ONTORELA_en"."T02dc_ONTORELA_C0250X_BFO_0000050_ENVO_00002011" IS 'Freshwater Total Inorganic Carbon Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T02dd_ECSO_00000015_measuresEntity_CHEBI_27594" AS
+  SELECT "T010e_uid" AS "T010e_uid",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T02dd";
+
+COMMENT ON VIEW "ONTORELA_en"."T02dd_ECSO_00000015_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02de_ECSO_00001238_measuresEntity_ENVO_00003075" AS
+  SELECT "T0112_uid" AS "uid Physical Feature Width",  
+    "T00d5_uid" AS "uid ENVO_00003075"
+  FROM "ONTORELA"."T02de";
+
+COMMENT ON VIEW "ONTORELA_en"."T02de_ECSO_00001238_measuresEntity_ENVO_00003075" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02df_ECSO_00001226_BFO_0000050_ENVO_00001999" AS
+  SELECT "T0115_uid" AS "uid Seawater Temperature",  
+    "T00b9_uid" AS "uid ENVO_00001999"
+  FROM "ONTORELA"."T02df";
+
+COMMENT ON VIEW "ONTORELA_en"."T02df_ECSO_00001226_BFO_0000050_ENVO_00001999" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e0_ECSO_00001202_measuresEntity_CHEBI_27594" AS
+  SELECT "T0118_uid" AS "uid Biomass Concentration",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T02e0";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e0_ECSO_00001202_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e1_ECSO_00001202_BFO_0000050_ENVO_01000155" AS
+  SELECT "T0118_uid" AS "uid Biomass Concentration",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T02e1";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e1_ECSO_00001202_BFO_0000050_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e2_ECSO_00001202_STATO_0000101_CHEBI_27594" AS
+  SELECT "T0118_uid" AS "uid Biomass Concentration",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T02e2";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e2_ECSO_00001202_STATO_0000101_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e3_ECSO_00001202_STATO_0000259_ENVO_01000155" AS
+  SELECT "T0118_uid" AS "uid Biomass Concentration",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T02e3";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e3_ECSO_00001202_STATO_0000259_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e4_ECSO_00001129_measuresEntity_CHEBI_27594" AS
+  SELECT "T0119_uid" AS "T0119_uid",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T02e4";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e4_ECSO_00001129_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e5_ECSO_00001128_measuresEntity_CHEBI_27594" AS
+  SELECT "T0124_uid" AS "T0124_uid",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T02e5";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e5_ECSO_00001128_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e6_ECSO_00001249_measuresEntity_ECSO_00000564" AS
+  SELECT "T0125_uid" AS "uid Pheophytin Concentration",  
+    "T00c2_uid" AS "uid pheophytin"
+  FROM "ONTORELA"."T02e6";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e6_ECSO_00001249_measuresEntity_ECSO_00000564" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e7_ONTORELA_C025aX_BFO_0000050_ENVO_00010483" AS
+  SELECT "T0126_uid" AS "T0126_uid",  
+    "T001f_uid" AS "uid environmental material"
+  FROM "ONTORELA"."T02e7";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e7_ONTORELA_C025aX_BFO_0000050_ENVO_00010483" IS 'Oxygen Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T02e8_ECSO_00001116_STATO_0000101_CHEBI_51143" AS
+  SELECT "T0127_uid" AS "uid Ammonium Concentration",  
+    "T0123_uid" AS "uid CHEBI_51143"
+  FROM "ONTORELA"."T02e8";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e8_ECSO_00001116_STATO_0000101_CHEBI_51143" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02e9_ECSO_00001116_STATO_0000259_ENVO_00002006" AS
+  SELECT "T0127_uid" AS "uid Ammonium Concentration",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02e9";
+
+COMMENT ON VIEW "ONTORELA_en"."T02e9_ECSO_00001116_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ea_ECSO_00001116_measuresEntity_CHEBI_51143" AS
+  SELECT "T0127_uid" AS "uid Ammonium Concentration",  
+    "T0123_uid" AS "uid CHEBI_51143"
+  FROM "ONTORELA"."T02ea";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ea_ECSO_00001116_measuresEntity_CHEBI_51143" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02eb_ECSO_00001116_BFO_0000050_ENVO_00002006" AS
+  SELECT "T0127_uid" AS "uid Ammonium Concentration",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02eb";
+
+COMMENT ON VIEW "ONTORELA_en"."T02eb_ECSO_00001116_BFO_0000050_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ec_ECSO_00001237_measuresEntity_ENVO_00002006" AS
+  SELECT "T0128_uid" AS "uid Precipitation Volume",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02ec";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ec_ECSO_00001237_measuresEntity_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ed_ECSO_00001225_measuresEntity_ENVO_00002005" AS
+  SELECT "T012a_uid" AS "uid Air Temperature",  
+    "T01db_uid" AS "uid ENVO_00002005"
+  FROM "ONTORELA"."T02ed";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ed_ECSO_00001225_measuresEntity_ENVO_00002005" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ee_ECSO_00001213_ENVO_2100001_ENVO_00002041" AS
+  SELECT "T012c_uid" AS "uid Groundwater Depth",  
+    "T0063_uid" AS "uid ENVO_00002041"
+  FROM "ONTORELA"."T02ee";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ee_ECSO_00001213_ENVO_2100001_ENVO_00002041" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ef_ECSO_00000502_STATO_0000101_CHEBI_27594" AS
+  SELECT "T0133_uid" AS "T0133_uid",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T02ef";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ef_ECSO_00000502_STATO_0000101_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02f0_ECSO_00000502_STATO_0000259_ENVO_01000155" AS
+  SELECT "T0133_uid" AS "T0133_uid",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T02f0";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f0_ECSO_00000502_STATO_0000259_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02f1_ECSO_00001170_measuresEntity_ECSO_00000503" AS
+  SELECT "T0134_uid" AS "T0134_uid",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T02f1";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f1_ECSO_00001170_measuresEntity_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02f2_ECSO_00000538_measuresEntity_ONTORELA_C0242X" AS
+  SELECT "T0138_uid" AS "uid Bicarbonate Concentration",  
+    "T018d_uid" AS "T018d_uid"
+  FROM "ONTORELA"."T02f2";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f2_ECSO_00000538_measuresEntity_ONTORELA_C0242X" IS 'null null Bicarbonate Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T02f3_ECSO_00000538_STATO_0000259_ENVO_00002006" AS
+  SELECT "T0138_uid" AS "uid Bicarbonate Concentration",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02f3";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f3_ECSO_00000538_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02f4_ECSO_00000538_STATO_0000259_ENVO_00002006" AS
+  SELECT "T0138_uid" AS "uid Bicarbonate Concentration",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T02f4";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f4_ECSO_00000538_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02f5_ECSO_00000538_STATO_0000101_ECSO_00000337" AS
+  SELECT "T0138_uid" AS "uid Bicarbonate Concentration",  
+    "T00b7_uid" AS "uid Inorganic Carbon"
+  FROM "ONTORELA"."T02f5";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f5_ECSO_00000538_STATO_0000101_ECSO_00000337" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02f6_ECSO_00001195_measuresEntity_ENVO_00010504" AS
+  SELECT "T013b_uid" AS "uid Area Percentage",  
+    "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T02f6";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f6_ECSO_00001195_measuresEntity_ENVO_00010504" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02f7_ONTORELA_C026cX_BFO_0000050_ENVO_00010504" AS
+  SELECT "T013e_uid" AS "T013e_uid",  
+    "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T02f7";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f7_ONTORELA_C026cX_BFO_0000050_ENVO_00010504" IS 'Aboveground Biomass intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T02f8_ECSO_00000092_ENVO_2100001_CHEBI_36927" AS
+  SELECT "T0141_uid" AS "uid Carbon14 Uptake Method",  
+    "T01ad_uid" AS "uid carbon-14"
+  FROM "ONTORELA"."T02f8";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f8_ECSO_00000092_ENVO_2100001_CHEBI_36927" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02f9_ECSO_00000080_ENVO_2100001_ENVO_01000323" AS
+  SELECT "T0142_uid" AS "uid Latent Heat MOV",  
+    "T00c4_uid" AS "uid ENVO_01000323"
+  FROM "ONTORELA"."T02f9";
+
+COMMENT ON VIEW "ONTORELA_en"."T02f9_ECSO_00000080_ENVO_2100001_ENVO_01000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02fa_ECSO_00000094_ENVO_2100001_ECSO_00000540" AS
+  SELECT "T0143_uid" AS "uid Allometric Method",  
+    "T00bf_uid" AS "uid Growth"
+  FROM "ONTORELA"."T02fa";
+
+COMMENT ON VIEW "ONTORELA_en"."T02fa_ECSO_00000094_ENVO_2100001_ECSO_00000540" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02fb_ECSO_00001193_measuresCharacteristic_Name" AS
+  SELECT "T0145_uid" AS "uid Name",  
+    "T0158_uid" AS "uid Name"
+  FROM "ONTORELA"."T02fb";
+
+COMMENT ON VIEW "ONTORELA_en"."T02fb_ECSO_00001193_measuresCharacteristic_Name" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02fc_ONTORELA_C0240X_BFO_0000050_ENVO_00010504" AS
+  SELECT "T014d_uid" AS "T014d_uid",  
+    "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T02fc";
+
+COMMENT ON VIEW "ONTORELA_en"."T02fc_ONTORELA_C0240X_BFO_0000050_ENVO_00010504" IS 'Aerial Cover Percentage intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T02fd_ECSO_00000093_ENVO_2100001_oxygen_atom" AS
+  SELECT "T0155_uid" AS "T0155_uid",  
+    "T005f_uid" AS "uid oxygen atom"
+  FROM "ONTORELA"."T02fd";
+
+COMMENT ON VIEW "ONTORELA_en"."T02fd_ECSO_00000093_ENVO_2100001_oxygen_atom" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02fe_ECSO_00000512_STATO_0000101_Entity" AS
+  SELECT "T0159_uid" AS "T0159_uid",  
+    "T007f_uid" AS "uid Entity"
+  FROM "ONTORELA"."T02fe";
+
+COMMENT ON VIEW "ONTORELA_en"."T02fe_ECSO_00000512_STATO_0000101_Entity" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T02ff_ECSO_00000512_STATO_0000259_Entity" AS
+  SELECT "T0159_uid" AS "T0159_uid",  
+    "T007f_uid" AS "uid Entity"
+  FROM "ONTORELA"."T02ff";
+
+COMMENT ON VIEW "ONTORELA_en"."T02ff_ECSO_00000512_STATO_0000259_Entity" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0300_ECSO_00001192_measuresEntity_ENVO_00000047" AS
+  SELECT "T015c_uid" AS "uid Canopy Percentage",  
+    "T01a6_uid" AS "uid ENVO_00000047"
+  FROM "ONTORELA"."T0300";
+
+COMMENT ON VIEW "ONTORELA_en"."T0300_ECSO_00001192_measuresEntity_ENVO_00000047" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0301_ECSO_00001180_measuresEntity_CHEBI_27594" AS
+  SELECT "T015e_uid" AS "uid Carbon Biomass Density",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T0301";
+
+COMMENT ON VIEW "ONTORELA_en"."T0301_ECSO_00001180_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0302_ECSO_00000548_RO_0000086_PATO_0001823" AS
+  SELECT "T015f_uid" AS "uid wet_weight",  
+    "T0178_uid" AS "uid wet"
+  FROM "ONTORELA"."T0302";
+
+COMMENT ON VIEW "ONTORELA_en"."T0302_ECSO_00000548_RO_0000086_PATO_0001823" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0303_ONTORELA_C0252X_BFO_0000050_ENVO_00001998" AS
+  SELECT "T0160_uid" AS "T0160_uid",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T0303";
+
+COMMENT ON VIEW "ONTORELA_en"."T0303_ONTORELA_C0252X_BFO_0000050_ENVO_00001998" IS 'Soil Carbon Change Percentage intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T0304_ECSO_00002932_measuresEntity_ECSO_00002569" AS
+  SELECT "T0169_uid" AS "uid carbon concentration_of",  
+    "T0109_uid" AS "uid carbon"
+  FROM "ONTORELA"."T0304";
+
+COMMENT ON VIEW "ONTORELA_en"."T0304_ECSO_00002932_measuresEntity_ECSO_00002569" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0305_ECSO_00002932_measuresCharacteristic_ECSO_00001120" AS
+  SELECT "T0169_uid" AS "uid carbon concentration_of",  
+    "T0090_uid" AS "uid Concentration"
+  FROM "ONTORELA"."T0305";
+
+COMMENT ON VIEW "ONTORELA_en"."T0305_ECSO_00002932_measuresCharacteristic_ECSO_00001120" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0306_ONTORELA_C0264X_BFO_0000050_ENVO_00002006" AS
+  SELECT "T016a_uid" AS "T016a_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T0306";
+
+COMMENT ON VIEW "ONTORELA_en"."T0306_ONTORELA_C0264X_BFO_0000050_ENVO_00002006" IS 'Carbonate Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T0307_ECSO_00000501_RO_0002473_ENVO_00002040" AS
+  SELECT "T016c_uid" AS "uid Tree",  
+    "T0079_uid" AS "uid ENVO_00002040"
+  FROM "ONTORELA"."T0307";
+
+COMMENT ON VIEW "ONTORELA_en"."T0307_ECSO_00000501_RO_0002473_ENVO_00002040" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0308_ECSO_00001191_measuresEntity_ECSO_00000503" AS
+  SELECT "T016f_uid" AS "uid Crown Cover Percentage",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T0308";
+
+COMMENT ON VIEW "ONTORELA_en"."T0308_ECSO_00001191_measuresEntity_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0309_ENVO_01000155_ENVO_2100001_CHEBI_27594" AS
+  SELECT "T0175_uid" AS "uid ENVO_01000155",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T0309";
+
+COMMENT ON VIEW "ONTORELA_en"."T0309_ENVO_01000155_ENVO_2100001_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T030a_ECSO_00000091_ENVO_2100001_ENVO_01000323" AS
+  SELECT "T0177_uid" AS "uid Eddy Covariance Method",  
+    "T00c4_uid" AS "uid ENVO_01000323"
+  FROM "ONTORELA"."T030a";
+
+COMMENT ON VIEW "ONTORELA_en"."T030a_ECSO_00000091_ENVO_2100001_ENVO_01000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T030b_ECSO_00000522_STATO_0000101_ECSO_00000323" AS
+  SELECT "T017c_uid" AS "T017c_uid",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T030b";
+
+COMMENT ON VIEW "ONTORELA_en"."T030b_ECSO_00000522_STATO_0000101_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T030c_ECSO_00000522_STATO_0000259_ENVO_00002011" AS
+  SELECT "T017c_uid" AS "T017c_uid",  
+    "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T030c";
+
+COMMENT ON VIEW "ONTORELA_en"."T030c_ECSO_00000522_STATO_0000259_ENVO_00002011" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T030d_ECSO_00000522_BFO_0000050_ENVO_00002011" AS
+  SELECT "T017c_uid" AS "T017c_uid",  
+    "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T030d";
+
+COMMENT ON VIEW "ONTORELA_en"."T030d_ECSO_00000522_BFO_0000050_ENVO_00002011" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T030e_ECSO_00000522_measuresEntity_ECSO_00000323" AS
+  SELECT "T017c_uid" AS "T017c_uid",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T030e";
+
+COMMENT ON VIEW "ONTORELA_en"."T030e_ECSO_00000522_measuresEntity_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T030f_ECSO_00000522_measuresEntity_ECSO_00000323" AS
+  SELECT "T017c_uid" AS "T017c_uid",  
+    "T00d1_uid" AS "uid Carbon Dioxide"
+  FROM "ONTORELA"."T030f";
+
+COMMENT ON VIEW "ONTORELA_en"."T030f_ECSO_00000522_measuresEntity_ECSO_00000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0310_ECSO_00000534_ENVO_2100001_ECSO_00000504" AS
+  SELECT "T017e_uid" AS "T017e_uid",  
+    "T0236_uid" AS "uid phytoplankton"
+  FROM "ONTORELA"."T0310";
+
+COMMENT ON VIEW "ONTORELA_en"."T0310_ECSO_00000534_ENVO_2100001_ECSO_00000504" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0311_ECSO_00000534_RO_0001025_ENVO_00002030" AS
+  SELECT "T017e_uid" AS "T017e_uid",  
+    "T004c_uid" AS "uid ENVO_00002030"
+  FROM "ONTORELA"."T0311";
+
+COMMENT ON VIEW "ONTORELA_en"."T0311_ECSO_00000534_RO_0001025_ENVO_00002030" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0312_ECSO_00001190_measuresEntity_ONTORELA_C0240X" AS
+  SELECT "T0183_uid" AS "uid Aerial Cover Percentage",  
+    "T014d_uid" AS "T014d_uid"
+  FROM "ONTORELA"."T0312";
+
+COMMENT ON VIEW "ONTORELA_en"."T0312_ECSO_00001190_measuresEntity_ONTORELA_C0240X" IS 'null null Aerial Cover Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0313_ECSO_00000535_STATO_0000259_ENVO_00002010" AS
+  SELECT "T018a_uid" AS "T018a_uid",  
+    "T0006_uid" AS "uid ENVO_00002010"
+  FROM "ONTORELA"."T0313";
+
+COMMENT ON VIEW "ONTORELA_en"."T0313_ECSO_00000535_STATO_0000259_ENVO_00002010" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0314_ECSO_00000535_measuresEntity_ONTORELA_C024cX" AS
+  SELECT "T018a_uid" AS "T018a_uid",  
+    "T01aa_uid" AS "T01aa_uid"
+  FROM "ONTORELA"."T0314";
+
+COMMENT ON VIEW "ONTORELA_en"."T0314_ECSO_00000535_measuresEntity_ONTORELA_C024cX" IS 'null null Oceanic Total Inorganic Carbon Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0315_ECSO_00000535_STATO_0000101_ECSO_00000337" AS
+  SELECT "T018a_uid" AS "T018a_uid",  
+    "T00b7_uid" AS "uid Inorganic Carbon"
+  FROM "ONTORELA"."T0315";
+
+COMMENT ON VIEW "ONTORELA_en"."T0315_ECSO_00000535_STATO_0000101_ECSO_00000337" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0316_ECSO_00000535_STATO_0000259_ENVO_00002006" AS
+  SELECT "T018a_uid" AS "T018a_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T0316";
+
+COMMENT ON VIEW "ONTORELA_en"."T0316_ECSO_00000535_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0317_ECSO_00000535_STATO_0000101_ECSO_00000337" AS
+  SELECT "T018a_uid" AS "T018a_uid",  
+    "T00b7_uid" AS "uid Inorganic Carbon"
+  FROM "ONTORELA"."T0317";
+
+COMMENT ON VIEW "ONTORELA_en"."T0317_ECSO_00000535_STATO_0000101_ECSO_00000337" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0318_ONTORELA_C0242X_BFO_0000050_ENVO_00002006" AS
+  SELECT "T018d_uid" AS "T018d_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T0318";
+
+COMMENT ON VIEW "ONTORELA_en"."T0318_ONTORELA_C0242X_BFO_0000050_ENVO_00002006" IS 'Bicarbonate Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T0319_ENVO_00000111_RO_0002473_ECSO_00000501" AS
+  SELECT "T0194_uid" AS "uid ENVO_00000111",  
+    "T016c_uid" AS "uid Tree"
+  FROM "ONTORELA"."T0319";
+
+COMMENT ON VIEW "ONTORELA_en"."T0319_ENVO_00000111_RO_0002473_ECSO_00000501" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T031a_ECSO_00000544_measuresUsingProtocol_ECSO_00000094" AS
+  SELECT "T019e_uid" AS "uid Tree Diameter",  
+    "T0143_uid" AS "uid Allometric Method"
+  FROM "ONTORELA"."T031a";
+
+COMMENT ON VIEW "ONTORELA_en"."T031a_ECSO_00000544_measuresUsingProtocol_ECSO_00000094" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T031b_ECSO_00000556_RO_0000086_PATO_0001824" AS
+  SELECT "T01a0_uid" AS "uid dry_weight",  
+    "T00cc_uid" AS "uid PATO_0001824"
+  FROM "ONTORELA"."T031b";
+
+COMMENT ON VIEW "ONTORELA_en"."T031b_ECSO_00000556_RO_0000086_PATO_0001824" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T031c_ONTORELA_C0254X_BFO_0000050_ENVO_00001998" AS
+  SELECT "T01a3_uid" AS "T01a3_uid",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T031c";
+
+COMMENT ON VIEW "ONTORELA_en"."T031c_ONTORELA_C0254X_BFO_0000050_ENVO_00001998" IS 'Soil Porewater Salinity Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T031d_ONTORELA_C024cX_BFO_0000050_ENVO_00002010" AS
+  SELECT "T01aa_uid" AS "T01aa_uid",  
+    "T0006_uid" AS "uid ENVO_00002010"
+  FROM "ONTORELA"."T031d";
+
+COMMENT ON VIEW "ONTORELA_en"."T031d_ONTORELA_C024cX_BFO_0000050_ENVO_00002010" IS 'Oceanic Total Inorganic Carbon Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T031e_ECSO_00000533_measuresUsingProtocol_ECSO_00000090" AS
+  SELECT "T01b1_uid" AS "T01b1_uid",  
+    "T0167_uid" AS "T0167_uid"
+  FROM "ONTORELA"."T031e";
+
+COMMENT ON VIEW "ONTORELA_en"."T031e_ECSO_00000533_measuresUsingProtocol_ECSO_00000090" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T031f_ECSO_00000533_BFO_0000050_ECSO_00000503" AS
+  SELECT "T01b1_uid" AS "T01b1_uid",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T031f";
+
+COMMENT ON VIEW "ONTORELA_en"."T031f_ECSO_00000533_BFO_0000050_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0320_ECSO_00000545_measuresUsingProtocol_ECSO_00000094" AS
+  SELECT "T01b3_uid" AS "uid Tree Circumference",  
+    "T0143_uid" AS "uid Allometric Method"
+  FROM "ONTORELA"."T0320";
+
+COMMENT ON VIEW "ONTORELA_en"."T0320_ECSO_00000545_measuresUsingProtocol_ECSO_00000094" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0321_ECSO_00001209_measuresEntity_ENVO_01000628" AS
+  SELECT "T01bc_uid" AS "uid Litter Depth",  
+    "T01bf_uid" AS "uid plant litter"
+  FROM "ONTORELA"."T0321";
+
+COMMENT ON VIEW "ONTORELA_en"."T0321_ECSO_00001209_measuresEntity_ENVO_01000628" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0322_ECSO_00000053_ENVO_2100001_ECSO_00000574" AS
+  SELECT "T01be_uid" AS "T01be_uid",  
+    "T00fe_uid" AS "uid soil layer"
+  FROM "ONTORELA"."T0322";
+
+COMMENT ON VIEW "ONTORELA_en"."T0322_ECSO_00000053_ENVO_2100001_ECSO_00000574" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0323_ENVO_01000628_RO_0000086_PATO_0001422" AS
+  SELECT "T01bf_uid" AS "uid plant litter",  
+    "T01d2_uid" AS "uid dead"
+  FROM "ONTORELA"."T0323";
+
+COMMENT ON VIEW "ONTORELA_en"."T0323_ENVO_01000628_RO_0000086_PATO_0001422" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0324_ENVO_01000628_RO_0002473_ECSO_00000503" AS
+  SELECT "T01bf_uid" AS "uid plant litter",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T0324";
+
+COMMENT ON VIEW "ONTORELA_en"."T0324_ENVO_01000628_RO_0002473_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0325_ONTORELA_C023cX_BFO_0000050_ENVO_00010504" AS
+  SELECT "T01c0_uid" AS "T01c0_uid",  
+    "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T0325";
+
+COMMENT ON VIEW "ONTORELA_en"."T0325_ONTORELA_C023cX_BFO_0000050_ENVO_00010504" IS 'Plant Cover Percentage intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T0326_ECSO_00001131_STATO_0000259_ENVO_00002010" AS
+  SELECT "T01c5_uid" AS "T01c5_uid",  
+    "T0006_uid" AS "uid ENVO_00002010"
+  FROM "ONTORELA"."T0326";
+
+COMMENT ON VIEW "ONTORELA_en"."T0326_ECSO_00001131_STATO_0000259_ENVO_00002010" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0327_ECSO_00001131_STATO_0000101_ECSO_00000326" AS
+  SELECT "T01c5_uid" AS "T01c5_uid",  
+    "T01a1_uid" AS "uid Bicarbonate"
+  FROM "ONTORELA"."T0327";
+
+COMMENT ON VIEW "ONTORELA_en"."T0327_ECSO_00001131_STATO_0000101_ECSO_00000326" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0328_ECSO_00001131_STATO_0000101_ECSO_00000326" AS
+  SELECT "T01c5_uid" AS "T01c5_uid",  
+    "T01a1_uid" AS "uid Bicarbonate"
+  FROM "ONTORELA"."T0328";
+
+COMMENT ON VIEW "ONTORELA_en"."T0328_ECSO_00001131_STATO_0000101_ECSO_00000326" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0329_ECSO_00001179_measuresEntity_CHEBI_25555" AS
+  SELECT "T01cb_uid" AS "uid Nitrogen Biomass Density",  
+    "T0156_uid" AS "uid nitrogen atom"
+  FROM "ONTORELA"."T0329";
+
+COMMENT ON VIEW "ONTORELA_en"."T0329_ECSO_00001179_measuresEntity_CHEBI_25555" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T032a_ECSO_00001167_measuresCharacteristic_PATO_0001309" AS
+  SELECT "T01cc_uid" AS "uid temporal_MeasurementType",  
+    "T0144_uid" AS "uid duration"
+  FROM "ONTORELA"."T032a";
+
+COMMENT ON VIEW "ONTORELA_en"."T032a_ECSO_00001167_measuresCharacteristic_PATO_0001309" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T032b_ECSO_00001167_measuresUsingStandard_UO_0000003" AS
+  SELECT "T01cc_uid" AS "uid temporal_MeasurementType",  
+    "T0223_uid" AS "uid UO_0000003"
+  FROM "ONTORELA"."T032b";
+
+COMMENT ON VIEW "ONTORELA_en"."T032b_ECSO_00001167_measuresUsingStandard_UO_0000003" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T032c_ECSO_00001143_measuresEntity_CHEBI_27594" AS
+  SELECT "T01cf_uid" AS "uid Carbon Biomass",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T032c";
+
+COMMENT ON VIEW "ONTORELA_en"."T032c_ECSO_00001143_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T032d_ECSO_00003196_measuresEntity_ECSO_00003195" AS
+  SELECT "T01d0_uid" AS "T01d0_uid",  
+    "T01c3_uid" AS "uid Calcium Carbonate"
+  FROM "ONTORELA"."T032d";
+
+COMMENT ON VIEW "ONTORELA_en"."T032d_ECSO_00003196_measuresEntity_ECSO_00003195" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T032e_ECSO_00003196_measuresCharacteristic_ECSO_00001120" AS
+  SELECT "T01d0_uid" AS "T01d0_uid",  
+    "T0090_uid" AS "uid Concentration"
+  FROM "ONTORELA"."T032e";
+
+COMMENT ON VIEW "ONTORELA_en"."T032e_ECSO_00003196_measuresCharacteristic_ECSO_00001120" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T032f_ONTORELA_C024eX_BFO_0000050_ENVO_00010504" AS
+  SELECT "T01d4_uid" AS "T01d4_uid",  
+    "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T032f";
+
+COMMENT ON VIEW "ONTORELA_en"."T032f_ONTORELA_C024eX_BFO_0000050_ENVO_00010504" IS 'Leaf Area Index intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T0330_ECSO_00000078_ENVO_2100001_ENVO_01000324" AS
+  SELECT "T01d6_uid" AS "T01d6_uid",  
+    "T0067_uid" AS "uid ENVO_01000324"
+  FROM "ONTORELA"."T0330";
+
+COMMENT ON VIEW "ONTORELA_en"."T0330_ECSO_00000078_ENVO_2100001_ENVO_01000324" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0331_ECSO_00000054_ENVO_2100001_ENVO_01000635" AS
+  SELECT "T01d8_uid" AS "uid Surface Runoff MOV",  
+    "T0225_uid" AS "uid land"
+  FROM "ONTORELA"."T0331";
+
+COMMENT ON VIEW "ONTORELA_en"."T0331_ECSO_00000054_ENVO_2100001_ENVO_01000635" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0332_ECSO_00000066_ENVO_2100001_ECSO_00000574" AS
+  SELECT "T01d9_uid" AS "T01d9_uid",  
+    "T00fe_uid" AS "uid soil layer"
+  FROM "ONTORELA"."T0332";
+
+COMMENT ON VIEW "ONTORELA_en"."T0332_ECSO_00000066_ENVO_2100001_ECSO_00000574" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0333_carbon_cycling_RO_0002473_CHEBI_27594" AS
+  SELECT "T01da_uid" AS "uid carbon cycling",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T0333";
+
+COMMENT ON VIEW "ONTORELA_en"."T0333_carbon_cycling_RO_0002473_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0334_ECSO_00001142_measuresEntity_CHEBI_36928" AS
+  SELECT "T01dc_uid" AS "T01dc_uid",  
+    "T0197_uid" AS "uid carbon-13"
+  FROM "ONTORELA"."T0334";
+
+COMMENT ON VIEW "ONTORELA_en"."T0334_ECSO_00001142_measuresEntity_CHEBI_36928" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0335_ECSO_00001130_STATO_0000101_ECSO_00000329" AS
+  SELECT "T01dd_uid" AS "T01dd_uid",  
+    "T0193_uid" AS "uid Organic Carbon"
+  FROM "ONTORELA"."T0335";
+
+COMMENT ON VIEW "ONTORELA_en"."T0335_ECSO_00001130_STATO_0000101_ECSO_00000329" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0336_ECSO_00001130_STATO_0000259_ENVO_00002006" AS
+  SELECT "T01dd_uid" AS "T01dd_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T0336";
+
+COMMENT ON VIEW "ONTORELA_en"."T0336_ECSO_00001130_STATO_0000259_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0337_ECSO_00001130_measuresEntity_ECSO_00000329" AS
+  SELECT "T01dd_uid" AS "T01dd_uid",  
+    "T0193_uid" AS "uid Organic Carbon"
+  FROM "ONTORELA"."T0337";
+
+COMMENT ON VIEW "ONTORELA_en"."T0337_ECSO_00001130_measuresEntity_ECSO_00000329" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0338_ECSO_00001178_measuresEntity_ENVO_00001998" AS
+  SELECT "T01e2_uid" AS "uid Soil Wet Weight",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T0338";
+
+COMMENT ON VIEW "ONTORELA_en"."T0338_ECSO_00001178_measuresEntity_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0339_ECSO_00001178_RO_0000086_PATO_0001823" AS
+  SELECT "T01e2_uid" AS "uid Soil Wet Weight",  
+    "T0178_uid" AS "uid wet"
+  FROM "ONTORELA"."T0339";
+
+COMMENT ON VIEW "ONTORELA_en"."T0339_ECSO_00001178_RO_0000086_PATO_0001823" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T033a_ECSO_00001166_measuresEntity_ENVO_01000155" AS
+  SELECT "T01e4_uid" AS "T01e4_uid",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T033a";
+
+COMMENT ON VIEW "ONTORELA_en"."T033a_ECSO_00001166_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T033b_ECSO_00000075_ENVO_2100001_ENVO_01000323" AS
+  SELECT "T01e8_uid" AS "uid Sensible Heat MOV",  
+    "T00c4_uid" AS "uid ENVO_01000323"
+  FROM "ONTORELA"."T033b";
+
+COMMENT ON VIEW "ONTORELA_en"."T033b_ECSO_00000075_ENVO_2100001_ENVO_01000323" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T033c_ECSO_00000051_ENVO_2100001_ENVO_01000324" AS
+  SELECT "T01e9_uid" AS "uid Surface Pressure MOV",  
+    "T0067_uid" AS "uid ENVO_01000324"
+  FROM "ONTORELA"."T033c";
+
+COMMENT ON VIEW "ONTORELA_en"."T033c_ECSO_00000051_ENVO_2100001_ENVO_01000324" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T033d_ECSO_00001153_RO_0000086_PATO_0001824" AS
+  SELECT "T01eb_uid" AS "uid Dry Weight Biomass",  
+    "T00cc_uid" AS "uid PATO_0001824"
+  FROM "ONTORELA"."T033d";
+
+COMMENT ON VIEW "ONTORELA_en"."T033d_ECSO_00001153_RO_0000086_PATO_0001824" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T033e_ECSO_00001153_measuresEntity_ENVO_01000155" AS
+  SELECT "T01eb_uid" AS "uid Dry Weight Biomass",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T033e";
+
+COMMENT ON VIEW "ONTORELA_en"."T033e_ECSO_00001153_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T033f_ONTORELA_C0256X_BFO_0000050_ENVO_00002011" AS
+  SELECT "T01ef_uid" AS "T01ef_uid",  
+    "T0244_uid" AS "uid ENVO_00002011"
+  FROM "ONTORELA"."T033f";
+
+COMMENT ON VIEW "ONTORELA_en"."T033f_ONTORELA_C0256X_BFO_0000050_ENVO_00002011" IS 'Freshwater Bicarbonate Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T0340_ONTORELA_C0261X-el0_BFO_0000050_ENVO_00010483" AS
+  SELECT "T01f0_uid" AS "T01f0_uid",  
+    "T001f_uid" AS "uid environmental material"
+  FROM "ONTORELA"."T0340";
+
+COMMENT ON VIEW "ONTORELA_en"."T0340_ONTORELA_C0261X-el0_BFO_0000050_ENVO_00010483" IS 'Carbon to Nitrogen Ratio unionOf Organism | environmental material element  null null';
+
+CREATE VIEW "ONTORELA_en"."T0341_ECSO_00001177_measuresEntity_ECSO_00000312" AS
+  SELECT "T01f3_uid" AS "uid Non-Plant Material Length",  
+    "T00a1_uid" AS "uid Organism"
+  FROM "ONTORELA"."T0341";
+
+COMMENT ON VIEW "ONTORELA_en"."T0341_ECSO_00001177_measuresEntity_ECSO_00000312" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0342_ECSO_00001165_STATO_0000101_ENVO_00002006" AS
+  SELECT "T01f4_uid" AS "T01f4_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T0342";
+
+COMMENT ON VIEW "ONTORELA_en"."T0342_ECSO_00001165_STATO_0000101_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0343_ECSO_00001165_STATO_0000259_ENVO_00001998" AS
+  SELECT "T01f4_uid" AS "T01f4_uid",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T0343";
+
+COMMENT ON VIEW "ONTORELA_en"."T0343_ECSO_00001165_STATO_0000259_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0344_ECSO_00001165_measuresEntity_ONTORELA_C0254X" AS
+  SELECT "T01f4_uid" AS "T01f4_uid",  
+    "T01a3_uid" AS "T01a3_uid"
+  FROM "ONTORELA"."T0344";
+
+COMMENT ON VIEW "ONTORELA_en"."T0344_ECSO_00001165_measuresEntity_ONTORELA_C0254X" IS 'null null Soil Porewater Salinity Concentration intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0345_ECSO_00000052_ENVO_2100001_ECSO_00000574" AS
+  SELECT "T01f8_uid" AS "T01f8_uid",  
+    "T00fe_uid" AS "uid soil layer"
+  FROM "ONTORELA"."T0345";
+
+COMMENT ON VIEW "ONTORELA_en"."T0345_ECSO_00000052_ENVO_2100001_ECSO_00000574" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0346_ECSO_00000064_RO_0000056_ENVO_02500007" AS
+  SELECT "T01f9_uid" AS "T01f9_uid",  
+    "T0249_uid" AS "T0249_uid"
+  FROM "ONTORELA"."T0346";
+
+COMMENT ON VIEW "ONTORELA_en"."T0346_ECSO_00000064_RO_0000056_ENVO_02500007" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0347_ECSO_00000076_RO_0000056_carbon_cycling" AS
+  SELECT "T01fb_uid" AS "uid Net Ecosystem Exchange MOV",  
+    "T01da_uid" AS "uid carbon cycling"
+  FROM "ONTORELA"."T0347";
+
+COMMENT ON VIEW "ONTORELA_en"."T0347_ECSO_00000076_RO_0000056_carbon_cycling" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0348_ECSO_00001152_measuresEntity_ENVO_00010504" AS
+  SELECT "T01ff_uid" AS "uid Sampling Site Area",  
+    "T00e5_uid" AS "uid ENVO_00010504"
+  FROM "ONTORELA"."T0348";
+
+COMMENT ON VIEW "ONTORELA_en"."T0348_ECSO_00001152_measuresEntity_ENVO_00010504" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0349_ONTORELA_C023eX_BFO_0000050_ENVO_00001998" AS
+  SELECT "T0208_uid" AS "T0208_uid",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T0349";
+
+COMMENT ON VIEW "ONTORELA_en"."T0349_ONTORELA_C023eX_BFO_0000050_ENVO_00001998" IS 'Belowground Biomass intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T034a_ECSO_00000061_ENVO_2100001_ONTORELA_C025cX" AS
+  SELECT "T0209_uid" AS "T0209_uid",  
+    "T01c4_uid" AS "T01c4_uid"
+  FROM "ONTORELA"."T034a";
+
+COMMENT ON VIEW "ONTORELA_en"."T034a_ECSO_00000061_ENVO_2100001_ONTORELA_C025cX" IS 'null null Autotrophic Respiration MOV unionOf ';
+
+CREATE VIEW "ONTORELA_en"."T034b_ECSO_00000073_RO_0002473_ENVO_00002040" AS
+  SELECT "T020a_uid" AS "T020a_uid",  
+    "T0079_uid" AS "uid ENVO_00002040"
+  FROM "ONTORELA"."T034b";
+
+COMMENT ON VIEW "ONTORELA_en"."T034b_ECSO_00000073_RO_0002473_ENVO_00002040" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T034c_ECSO_00001175_measuresEntity_ENVO_00002006" AS
+  SELECT "T0212_uid" AS "uid Water Height",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T034c";
+
+COMMENT ON VIEW "ONTORELA_en"."T034c_ECSO_00001175_measuresEntity_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T034d_ECSO_00001151_RO_0000086_PATO_0001824" AS
+  SELECT "T0216_uid" AS "T0216_uid",  
+    "T00cc_uid" AS "uid PATO_0001824"
+  FROM "ONTORELA"."T034d";
+
+COMMENT ON VIEW "ONTORELA_en"."T034d_ECSO_00001151_RO_0000086_PATO_0001824" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T034e_ECSO_00001151_measuresEntity_ENVO_01000155" AS
+  SELECT "T0216_uid" AS "T0216_uid",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T034e";
+
+COMMENT ON VIEW "ONTORELA_en"."T034e_ECSO_00001151_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T034f_ONTORELA_C0234X_BFO_0000050_ENVO_00001998" AS
+  SELECT "T0217_uid" AS "T0217_uid",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T034f";
+
+COMMENT ON VIEW "ONTORELA_en"."T034f_ONTORELA_C0234X_BFO_0000050_ENVO_00001998" IS 'Soil Moisture Percentage intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T0350_ECSO_00001187_measuresEntity_ENVO_00002149" AS
+  SELECT "T0219_uid" AS "uid Seawater Pressure",  
+    "T0200_uid" AS "uid ENVO_00002149"
+  FROM "ONTORELA"."T0350";
+
+COMMENT ON VIEW "ONTORELA_en"."T0350_ECSO_00001187_measuresEntity_ENVO_00002149" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0351_ECSO_00003031_measuresEntity_ENVO_00001998" AS
+  SELECT "T021a_uid" AS "uid soil organic_content",  
+    "T00c9_uid" AS "uid ENVO_00001998"
+  FROM "ONTORELA"."T0351";
+
+COMMENT ON VIEW "ONTORELA_en"."T0351_ECSO_00003031_measuresEntity_ENVO_00001998" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0352_ECSO_00003031_measuresCharacteristic_ECSO_00003030" AS
+  SELECT "T021a_uid" AS "uid soil organic_content",  
+    "T020d_uid" AS "uid organic_content"
+  FROM "ONTORELA"."T0352";
+
+COMMENT ON VIEW "ONTORELA_en"."T0352_ECSO_00003031_measuresCharacteristic_ECSO_00003030" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0353_ECSO_00000074_ENVO_2100001_ENVO_01000324" AS
+  SELECT "T021d_uid" AS "uid Subsurface_Runoff_MOV",  
+    "T0067_uid" AS "uid ENVO_01000324"
+  FROM "ONTORELA"."T0353";
+
+COMMENT ON VIEW "ONTORELA_en"."T0353_ECSO_00000074_ENVO_2100001_ENVO_01000324" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0354_ECSO_00000050_ENVO_2100001_ECSO_00000503" AS
+  SELECT "T021f_uid" AS "uid Leaf_Area_Index_MOV",  
+    "T0149_uid" AS "T0149_uid"
+  FROM "ONTORELA"."T0354";
+
+COMMENT ON VIEW "ONTORELA_en"."T0354_ECSO_00000050_ENVO_2100001_ECSO_00000503" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0355_ECSO_00000062_RO_0000056_ENVO_01000830" AS
+  SELECT "T0220_uid" AS "uid Rainfall_Rate_MOV",  
+    "T0210_uid" AS "uid water-based rainfall"
+  FROM "ONTORELA"."T0355";
+
+COMMENT ON VIEW "ONTORELA_en"."T0355_ECSO_00000062_RO_0000056_ENVO_01000830" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0356_ECSO_00001186_measuresEntity_ENVO_00002005" AS
+  SELECT "T0227_uid" AS "uid Air Pressure",  
+    "T01db_uid" AS "uid ENVO_00002005"
+  FROM "ONTORELA"."T0356";
+
+COMMENT ON VIEW "ONTORELA_en"."T0356_ECSO_00001186_measuresEntity_ENVO_00002005" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0357_ECSO_00001174_ENVO_2100001_ocean_surface" AS
+  SELECT "T0229_uid" AS "uid Sea Level Height",  
+    "T01ce_uid" AS "uid ocean surface"
+  FROM "ONTORELA"."T0357";
+
+COMMENT ON VIEW "ONTORELA_en"."T0357_ECSO_00001174_ENVO_2100001_ocean_surface" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0358_ECSO_00001162_measuresEntity_ENVO_00002006" AS
+  SELECT "T022b_uid" AS "uid Precipitation Rate",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T0358";
+
+COMMENT ON VIEW "ONTORELA_en"."T0358_ECSO_00001162_measuresEntity_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0359_ECSO_00001150_measuresEntity_ECSO_00000312" AS
+  SELECT "T022d_uid" AS "uid Non-Plant Material Biomass",  
+    "T00a1_uid" AS "uid Organism"
+  FROM "ONTORELA"."T0359";
+
+COMMENT ON VIEW "ONTORELA_en"."T0359_ECSO_00001150_measuresEntity_ECSO_00000312" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T035a_ECSO_00000095_ENVO_2100001_ENVO_01000635" AS
+  SELECT "T0231_uid" AS "uid LIDAR Method",  
+    "T0225_uid" AS "uid land"
+  FROM "ONTORELA"."T035a";
+
+COMMENT ON VIEW "ONTORELA_en"."T035a_ECSO_00000095_ENVO_2100001_ENVO_01000635" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T035b_ECSO_00000516_measuresEntity_ECSO_00000563" AS
+  SELECT "T0237_uid" AS "T0237_uid",  
+    "T00f2_uid" AS "uid chloroplyll-a"
+  FROM "ONTORELA"."T035b";
+
+COMMENT ON VIEW "ONTORELA_en"."T035b_ECSO_00000516_measuresEntity_ECSO_00000563" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T035c_ECSO_00001197_measuresEntity_ONTORELA_C023cX" AS
+  SELECT "T0238_uid" AS "uid Plant Cover Percentage",  
+    "T01c0_uid" AS "T01c0_uid"
+  FROM "ONTORELA"."T035c";
+
+COMMENT ON VIEW "ONTORELA_en"."T035c_ECSO_00001197_measuresEntity_ONTORELA_C023cX" IS 'null null Plant Cover Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T035d_ECSO_00000528_ENVO_2100001_ENVO_01000324" AS
+  SELECT "T0239_uid" AS "T0239_uid",  
+    "T0067_uid" AS "uid ENVO_01000324"
+  FROM "ONTORELA"."T035d";
+
+COMMENT ON VIEW "ONTORELA_en"."T035d_ECSO_00000528_ENVO_2100001_ENVO_01000324" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T035e_ONTORELA_C0258X_BFO_0000050_ENVO_00002006" AS
+  SELECT "T023a_uid" AS "T023a_uid",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T035e";
+
+COMMENT ON VIEW "ONTORELA_en"."T035e_ONTORELA_C0258X_BFO_0000050_ENVO_00002006" IS 'Dissolved Organic Carbon Concentration intersectionOf  null null';
+
+CREATE VIEW "ONTORELA_en"."T035f_ECSO_00001161_measuresEntity_ENVO_00002006" AS
+  SELECT "T023d_uid" AS "uid Potential Temperature",  
+    "T01df_uid" AS "uid ENVO_00002006"
+  FROM "ONTORELA"."T035f";
+
+COMMENT ON VIEW "ONTORELA_en"."T035f_ECSO_00001161_measuresEntity_ENVO_00002006" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0360_ECSO_00000072_ENVO_2100001_ENVO_01000324" AS
+  SELECT "T0242_uid" AS "T0242_uid",  
+    "T0067_uid" AS "uid ENVO_01000324"
+  FROM "ONTORELA"."T0360";
+
+COMMENT ON VIEW "ONTORELA_en"."T0360_ECSO_00000072_ENVO_2100001_ENVO_01000324" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0361_ECSO_00001171_measuresEntity_ENVO_00003075" AS
+  SELECT "T0248_uid" AS "T0248_uid",  
+    "T00d5_uid" AS "uid ENVO_00003075"
+  FROM "ONTORELA"."T0361";
+
+COMMENT ON VIEW "ONTORELA_en"."T0361_ECSO_00001171_measuresEntity_ENVO_00003075" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0362_ECSO_00000517_measuresEntity_ONTORELA_C0234X" AS
+  SELECT "T024b_uid" AS "uid Soil Moisture Percentage",  
+    "T0217_uid" AS "T0217_uid"
+  FROM "ONTORELA"."T0362";
+
+COMMENT ON VIEW "ONTORELA_en"."T0362_ECSO_00000517_measuresEntity_ONTORELA_C0234X" IS 'null null Soil Moisture Percentage intersectionOf ';
+
+CREATE VIEW "ONTORELA_en"."T0363_ECSO_00000517_measuresUsingProtocol_ECSO_00001112" AS
+  SELECT "T024b_uid" AS "uid Soil Moisture Percentage",  
+    "T0042_uid" AS "T0042_uid"
+  FROM "ONTORELA"."T0363";
+
+COMMENT ON VIEW "ONTORELA_en"."T0363_ECSO_00000517_measuresUsingProtocol_ECSO_00001112" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0364_ECSO_00001196_measuresEntity_CHEBI_27594" AS
+  SELECT "T024d_uid" AS "T024d_uid",  
+    "T0073_uid" AS "uid carbon atom"
+  FROM "ONTORELA"."T0364";
+
+COMMENT ON VIEW "ONTORELA_en"."T0364_ECSO_00001196_measuresEntity_CHEBI_27594" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0365_ECSO_00001184_measuresEntity_ENVO_01000155" AS
+  SELECT "T024f_uid" AS "uid Dry Mass Density",  
+    "T0175_uid" AS "uid ENVO_01000155"
+  FROM "ONTORELA"."T0365";
+
+COMMENT ON VIEW "ONTORELA_en"."T0365_ECSO_00001184_measuresEntity_ENVO_01000155" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0366_ECSO_00001172_measuresEntity_ENVO_01000628" AS
+  SELECT "T0250_uid" AS "uid Litter Biomass Density",  
+    "T01bf_uid" AS "uid plant litter"
+  FROM "ONTORELA"."T0366";
+
+COMMENT ON VIEW "ONTORELA_en"."T0366_ECSO_00001172_measuresEntity_ENVO_01000628" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T0367_ECSO_00000071_RO_0000056_ENVO_01000786" AS
+  SELECT "T0253_uid" AS "uid Fire_Emissions_MOV",  
+    "T008d_uid" AS "uid fire"
+  FROM "ONTORELA"."T0367";
+
+COMMENT ON VIEW "ONTORELA_en"."T0367_ECSO_00000071_RO_0000056_ENVO_01000786" IS 'null null null';
+

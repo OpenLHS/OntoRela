@@ -1,0 +1,34 @@
+owlFilePath: /Depots/Kagou/Logitheques/OntoRelA/jeux/demo/Pizza/pizza.owl
+
+annotations:
+  labels:
+    - "http://www.w3.org/2000/01/rdf-schema#label"
+  definitions:
+    - "http://purl.org/dc/elements/1.1/description"
+
+classes:
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#Margherita"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#Napoletana"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#PoloAdAstra"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#PrinceCarlo"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#QuattroFormaggi"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#Rosa"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#Siciliana"
+  # Toppings
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#TomatoTopping"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmezanTopping"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#RosemaryTopping"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#GarlicTopping"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#AnchoviesTopping"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#OliveTopping"
+  # Spiciness
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#Hot"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#Medium"
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#Mild"
+
+objectProperties:
+  - "http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"

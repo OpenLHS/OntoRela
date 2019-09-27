@@ -1,0 +1,33 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+
+--------------------------------------- 
+Origin OWL Ontology
+--------------------------------------- 
+f://Mondial
+Nb. classes          : 52
+Nb. data properties  : 28
+Nb. object properties: 59
+Nb. isa axioms       : 32
+Nb. data axioms      : 26
+Nb. class axioms     : 66
+
+--------------------------------------- 
+Reduced Ontology (axiom complexity reduction)
+--------------------------------------- 
+f://Mondial
+Nb. classes          : 52
+Nb. data properties  : 28
+Nb. object properties: 59
+Nb. isa axioms       : 32
+Nb. data axioms      : 26
+Nb. class axioms     : 56
+Nb. reduced class axioms: 0
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 131 KB

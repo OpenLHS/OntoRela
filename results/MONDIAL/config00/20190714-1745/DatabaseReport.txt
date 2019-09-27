@@ -1,0 +1,345 @@
+
+======================================================= 
+Database Report
+======================================================= 
+Mondial
+Schemas: 1
+  Schema [id=MONDIAL, schemaType=BASE]
+
+--------------------------------------- 
+MONDIAL
+--------------------------------------- 
+All Tables: 134
+Join Tables: 56
+Types: 7
+Foreign keys: 192
+Constraints: 82
+
+Tables:
+  T0000::Thing
+  T0001::YearlyMeasurement
+  T0002::PoliticalThing
+  T0003::LargeArea
+  T0004::PoliticalOrGeographicalThing
+  T0005::GeographicalThing
+  T0006::Estuary
+  T0007::Water
+  T0008::TimeSeriesElement
+  T0009::PopulationCount
+  T000a::Language
+  T000b::SmallArea
+  T000c::AdministrativeSubdivision
+  T000d::AnthropoGeographicalThing
+  T000e::Country
+  T000f::Organization
+  T0010::GeographicalNonPoliticalThing
+  T0011::NonGeographicalPoliticalThing
+  T0012::Line
+  T0013::Encompassed
+  T0014::Continent
+  T0015::Area
+  T0016::BelievedBy
+  T0017::Location
+  T0018::EthnicProportion
+  T0019::MondialThing
+  T001a::City
+  T001b::Island
+  T001c::Desert
+  T001d::SpokenBy
+  T001e::Sea
+  T001f::Membership
+  T0020::River
+  T0021::AdministrativeArea
+  T0022::Volcano
+  T0023::Source
+  T0024::Measurement
+  T0025::Province
+  T0026::Mountains
+  T0027::Islands
+  T0028::Border
+  T0029::Religion
+  T002a::Lake
+  T002b::Place
+  T002c::ReifiedThing
+  T002d::Nothing
+  T002e::EthnicGroup
+  T002f::Geometrical
+  T0030::Mountain
+  T0031::EncompassedArea
+  T0032::PoliticalBody
+  T0033::AnthropoGeographicalRelationship
+  T0034::Organization_abbrev
+  T0035::Country_carCode
+  T0036::Location_elevation
+  T0037::Organization_established
+  T0038::Country_gdpAgri
+  T0039::Country_gdpInd
+  T003a::Country_gdpServ
+  T003b::Country_gdpTotal
+  T003c::Country_government
+  T003d::Country_independenceDate
+  T003e::Country_infantMortality
+  T003f::Country_inflation
+  T0040::Volcano_lastEruption
+  T0041::Location_latitude
+  T0042::Line_length
+  T0043::City_localname
+  T0044::Country_localname
+  T0045::Province_localname
+  T0046::Location_longitude
+  T0047::PopulationCount_population
+  T0048::Country_populationGrowth
+  T0049::Country_unemployment
+  T004a::Measurement_value
+  T004b::YearlyMeasurement_year
+  T004c::City_area
+  T004d::YearlyMeasurement_year
+  T004e::LargeArea_borders_LargeArea
+  T004f::GeographicalThing_locatedIn_Area
+  T0050::Estuary_hasEstuary-_Thing
+  T0051::Water_flowsInto_Thing
+  T0052::AdministrativeSubdivision_belongsTo_Country
+  T0053::Country_believeInReligion_Religion
+  T0054::Country_belongToEthnicGroup_EthnicGroup
+  T0055::Country_dependentOf_Country
+  T0056::Country_ethnicInfo_EthnicProportion
+  T0057::Country_hadPopulation_PopulationCount
+  T0058::Country_hasProvince_Province
+  T0059::Country_isMember_Organization
+  T005a::Country_languageInfo_SpokenBy
+  T005b::Country_neighbor_Country
+  T005c::Country_religionInfo_BelievedBy
+  T005d::Country_speakLanguage_Language
+  T005e::Country_wasDependentOf_PoliticalBody
+  T005f::Organization_hasHeadq_City
+  T0060::Encompassed_encompassedArea_EncompassedArea
+  T0061::Encompassed_encompassedBy_Continent
+  T0062::BelievedBy_onReligion_Religion
+  T0063::EthnicProportion_onEthnicGroup_EthnicGroup
+  T0064::City_hadPopulation_PopulationCount
+  T0065::City_locatedAt_Water
+  T0066::City_locatedOnIsland_Island
+  T0067::City_locatedIn_Country
+  T0068::City_locatedIn_Province
+  T0069::City_cityIn_Country
+  T006a::City_cityIn_Province
+  T006b::City_isCapitalOf_Country
+  T006c::Island_belongsToIslands_Islands
+  T006d::Island_locatedInWater_Water
+  T006e::SpokenBy_onLanguage_Language
+  T006f::Sea_mergesWith_Sea
+  T0070::Membership_inOrganization_Organization
+  T0071::Membership_ofMember_Country
+  T0072::River_flowsInto_Water
+  T0073::River_flowsThrough_Lake
+  T0074::River_hasEstuary_Estuary
+  T0075::River_hasSource_Source
+  T0076::River_locatedOnIsland_Island
+  T0077::River_hasEstuary_Thing
+  T0078::River_hasSource_Thing
+  T0079::AdministrativeArea_capital_City
+  T007a::AdministrativeArea_hasCity_City
+  T007b::Source_inMountains_Mountains
+  T007c::Source_hasSource-_Thing
+  T007d::Measurement_ofObject_MondialThing
+  T007e::Province_hadPopulation_PopulationCount
+  T007f::Border_isBorderOf_Country
+  T0080::Border_isBorderOf_Thing
+  T0081::Lake_flowsInto_Water
+  T0082::Lake_locatedOnIsland_Island
+  T0083::Mountain_inMountains_Mountains
+  T0084::Mountain_locatedOnIsland_Island
+  T0085::EncompassedArea_encompassed_Continent
+Foreign keys: 
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0002, origin=T0002::PoliticalThing, destination=T0000::Thing, linkedAtt={T0002_uid::PoliticalThing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0004, origin=T0004::PoliticalOrGeographicalThing, destination=T0000::Thing, linkedAtt={T0004_uid::PoliticalOrGeographicalThing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0005, origin=T0005::GeographicalThing, destination=T0000::Thing, linkedAtt={T0005_uid::GeographicalThing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0007, origin=T0007::Water, destination=T0000::Thing, linkedAtt={T0007_uid::Water_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0008, origin=T0008::TimeSeriesElement, destination=T0000::Thing, linkedAtt={T0008_uid::TimeSeriesElement_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000b, origin=T000b::SmallArea, destination=T0000::Thing, linkedAtt={T000b_uid::SmallArea_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000c, origin=T000c::AdministrativeSubdivision, destination=T0000::Thing, linkedAtt={T000c_uid::AdministrativeSubdivision_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000d, origin=T000d::AnthropoGeographicalThing, destination=T0000::Thing, linkedAtt={T000d_uid::AnthropoGeographicalThing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000f, origin=T000f::Organization, destination=T0000::Thing, linkedAtt={T000f_uid::Organization_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0010, origin=T0010::GeographicalNonPoliticalThing, destination=T0000::Thing, linkedAtt={T0010_uid::GeographicalNonPoliticalThing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0011, origin=T0011::NonGeographicalPoliticalThing, destination=T0000::Thing, linkedAtt={T0011_uid::NonGeographicalPoliticalThing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0012, origin=T0012::Line, destination=T0000::Thing, linkedAtt={T0012_uid::Line_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0015, origin=T0015::Area, destination=T0000::Thing, linkedAtt={T0015_uid::Area_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0017, origin=T0017::Location, destination=T0000::Thing, linkedAtt={T0017_uid::Location_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0019, origin=T0019::MondialThing, destination=T0000::Thing, linkedAtt={T0019_uid::MondialThing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0021, origin=T0021::AdministrativeArea, destination=T0000::Thing, linkedAtt={T0021_uid::AdministrativeArea_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002b, origin=T002b::Place, destination=T0000::Thing, linkedAtt={T002b_uid::Place_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002c, origin=T002c::ReifiedThing, destination=T0000::Thing, linkedAtt={T002c_uid::ReifiedThing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002d, origin=T002d::Nothing, destination=T0000::Thing, linkedAtt={T002d_uid::Nothing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002f, origin=T002f::Geometrical, destination=T0000::Thing, linkedAtt={T002f_uid::Geometrical_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0031, origin=T0031::EncompassedArea, destination=T0000::Thing, linkedAtt={T0031_uid::EncompassedArea_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0033, origin=T0033::AnthropoGeographicalRelationship, destination=T0000::Thing, linkedAtt={T0033_uid::AnthropoGeographicalRelationship_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0009, origin=T0009::PopulationCount, destination=T0001::YearlyMeasurement, linkedAtt={T0009_uid::PopulationCount_uid uid_domain=T0001_uid::YearlyMeasurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0018, origin=T0018::EthnicProportion, destination=T0033::AnthropoGeographicalRelationship, linkedAtt={T0018_uid::EthnicProportion_uid uid_domain=T0033_uid::AnthropoGeographicalRelationship_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0029, origin=T0029::Religion, destination=T000d::AnthropoGeographicalThing, linkedAtt={T0029_uid::Religion_uid uid_domain=T000d_uid::AnthropoGeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001c, origin=T001c::Desert, destination=T000b::SmallArea, linkedAtt={T001c_uid::Desert_uid uid_domain=T000b_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001e, origin=T001e::Sea, destination=T0003::LargeArea, linkedAtt={T001e_uid::Sea_uid uid_domain=T0003_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0023, origin=T0023::Source, destination=T002b::Place, linkedAtt={T0023_uid::Source_uid uid_domain=T002b_uid::Place_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0001, origin=T0001::YearlyMeasurement, destination=T0024::Measurement, linkedAtt={T0001_uid::YearlyMeasurement_uid uid_domain=T0024_uid::Measurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0030, origin=T0030::Mountain, destination=T002b::Place, linkedAtt={T0030_uid::Mountain_uid uid_domain=T002b_uid::Place_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001a, origin=T001a::City, destination=T0005::GeographicalThing, linkedAtt={T001a_uid::City_uid uid_domain=T0005_uid::GeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0022, origin=T0022::Volcano, destination=T0030::Mountain, linkedAtt={T0022_uid::Volcano_uid uid_domain=T0030_uid::Mountain_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0028, origin=T0028::Border, destination=T0012::Line, linkedAtt={T0028_uid::Border_uid uid_domain=T0012_uid::Line_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0027, origin=T0027::Islands, destination=T000b::SmallArea, linkedAtt={T0027_uid::Islands_uid uid_domain=T000b_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0016, origin=T0016::BelievedBy, destination=T0033::AnthropoGeographicalRelationship, linkedAtt={T0016_uid::BelievedBy_uid uid_domain=T0033_uid::AnthropoGeographicalRelationship_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001b, origin=T001b::Island, destination=T000b::SmallArea, linkedAtt={T001b_uid::Island_uid uid_domain=T000b_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0014, origin=T0014::Continent, destination=T0003::LargeArea, linkedAtt={T0014_uid::Continent_uid uid_domain=T0003_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0026, origin=T0026::Mountains, destination=T000b::SmallArea, linkedAtt={T0026_uid::Mountains_uid uid_domain=T000b_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002e, origin=T002e::EthnicGroup, destination=T000d::AnthropoGeographicalThing, linkedAtt={T002e_uid::EthnicGroup_uid uid_domain=T000d_uid::AnthropoGeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0020, origin=T0020::River, destination=T0012::Line, linkedAtt={T0020_uid::River_uid uid_domain=T0012_uid::Line_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001f, origin=T001f::Membership, destination=T002c::ReifiedThing, linkedAtt={T001f_uid::Membership_uid uid_domain=T002c_uid::ReifiedThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002a, origin=T002a::Lake, destination=T000b::SmallArea, linkedAtt={T002a_uid::Lake_uid uid_domain=T000b_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000e, origin=T000e::Country, destination=T0003::LargeArea, linkedAtt={T000e_uid::Country_uid uid_domain=T0003_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0003, origin=T0003::LargeArea, destination=T0015::Area, linkedAtt={T0003_uid::LargeArea_uid uid_domain=T0015_uid::Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0025, origin=T0025::Province, destination=T0003::LargeArea, linkedAtt={T0025_uid::Province_uid uid_domain=T0003_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T001a, origin=T001a::City, destination=T000b::SmallArea, linkedAtt={T001a_uid::City_uid uid_domain=T000b_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T0001, origin=T0001::YearlyMeasurement, destination=T0008::TimeSeriesElement, linkedAtt={T0001_uid::YearlyMeasurement_uid uid_domain=T0008_uid::TimeSeriesElement_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0006, origin=T0006::Estuary, destination=T002b::Place, linkedAtt={T0006_uid::Estuary_uid uid_domain=T002b_uid::Place_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0024, origin=T0024::Measurement, destination=T0008::TimeSeriesElement, linkedAtt={T0024_uid::Measurement_uid uid_domain=T0008_uid::TimeSeriesElement_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000a, origin=T000a::Language, destination=T000d::AnthropoGeographicalThing, linkedAtt={T000a_uid::Language_uid uid_domain=T000d_uid::AnthropoGeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T001a, origin=T001a::City, destination=T000c::AdministrativeSubdivision, linkedAtt={T001a_uid::City_uid uid_domain=T000c_uid::AdministrativeSubdivision_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0032, origin=T0032::PoliticalBody, destination=T0002::PoliticalThing, linkedAtt={T0032_uid::PoliticalBody_uid uid_domain=T0002_uid::PoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0013, origin=T0013::Encompassed, destination=T002c::ReifiedThing, linkedAtt={T0013_uid::Encompassed_uid uid_domain=T002c_uid::ReifiedThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001d, origin=T001d::SpokenBy, destination=T0033::AnthropoGeographicalRelationship, linkedAtt={T001d_uid::SpokenBy_uid uid_domain=T0033_uid::AnthropoGeographicalRelationship_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0034, origin=T0034::Organization_abbrev, destination=T000f::Organization, linkedAtt={T000f_uid::Organization_uid uid_domain=T000f_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0035, origin=T0035::Country_carCode, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0036, origin=T0036::Location_elevation, destination=T0017::Location, linkedAtt={T0017_uid::Location_uid uid_domain=T0017_uid::Location_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0037, origin=T0037::Organization_established, destination=T000f::Organization, linkedAtt={T000f_uid::Organization_uid uid_domain=T000f_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0038, origin=T0038::Country_gdpAgri, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0039, origin=T0039::Country_gdpInd, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T003a, origin=T003a::Country_gdpServ, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T003b, origin=T003b::Country_gdpTotal, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T003c, origin=T003c::Country_government, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T003d, origin=T003d::Country_independenceDate, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T003e, origin=T003e::Country_infantMortality, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T003f, origin=T003f::Country_inflation, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0040, origin=T0040::Volcano_lastEruption, destination=T0022::Volcano, linkedAtt={T0022_uid::Volcano_uid uid_domain=T0022_uid::Volcano_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0041, origin=T0041::Location_latitude, destination=T0017::Location, linkedAtt={T0017_uid::Location_uid uid_domain=T0017_uid::Location_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0042, origin=T0042::Line_length, destination=T0012::Line, linkedAtt={T0012_uid::Line_uid uid_domain=T0012_uid::Line_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0043, origin=T0043::City_localname, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0044, origin=T0044::Country_localname, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0045, origin=T0045::Province_localname, destination=T0025::Province, linkedAtt={T0025_uid::Province_uid uid_domain=T0025_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0046, origin=T0046::Location_longitude, destination=T0017::Location, linkedAtt={T0017_uid::Location_uid uid_domain=T0017_uid::Location_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0047, origin=T0047::PopulationCount_population, destination=T0009::PopulationCount, linkedAtt={T0009_uid::PopulationCount_uid uid_domain=T0009_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0048, origin=T0048::Country_populationGrowth, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0049, origin=T0049::Country_unemployment, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T004a, origin=T004a::Measurement_value, destination=T0024::Measurement, linkedAtt={T0024_uid::Measurement_uid uid_domain=T0024_uid::Measurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T004b, origin=T004b::YearlyMeasurement_year, destination=T0001::YearlyMeasurement, linkedAtt={T0001_uid::YearlyMeasurement_uid uid_domain=T0001_uid::YearlyMeasurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T004c, origin=T004c::City_area, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T004d, origin=T004d::YearlyMeasurement_year, destination=T0001::YearlyMeasurement, linkedAtt={T0001_uid::YearlyMeasurement_uid uid_domain=T0001_uid::YearlyMeasurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T004e, origin=T004e::LargeArea_borders_LargeArea, destination=T0003::LargeArea, linkedAtt={T0003_uid_domain::LargeArea_uid_domain uid_domain=T0003_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T004e, origin=T004e::LargeArea_borders_LargeArea, destination=T0003::LargeArea, linkedAtt={T0003_uid_range::LargeArea_uid_range uid_domain=T0003_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T004f, origin=T004f::GeographicalThing_locatedIn_Area, destination=T0005::GeographicalThing, linkedAtt={T0005_uid::GeographicalThing_uid uid_domain=T0005_uid::GeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T004f, origin=T004f::GeographicalThing_locatedIn_Area, destination=T0015::Area, linkedAtt={T0015_uid::Area_uid uid_domain=T0015_uid::Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0050, origin=T0050::Estuary_hasEstuary-_Thing, destination=T0006::Estuary, linkedAtt={T0006_uid::Estuary_uid uid_domain=T0006_uid::Estuary_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0050, origin=T0050::Estuary_hasEstuary-_Thing, destination=T0000::Thing, linkedAtt={T0000_uid::Thing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0051, origin=T0051::Water_flowsInto_Thing, destination=T0007::Water, linkedAtt={T0007_uid::Water_uid uid_domain=T0007_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0051, origin=T0051::Water_flowsInto_Thing, destination=T0000::Thing, linkedAtt={T0000_uid::Thing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0052, origin=T0052::AdministrativeSubdivision_belongsTo_Country, destination=T000c::AdministrativeSubdivision, linkedAtt={T000c_uid::AdministrativeSubdivision_uid uid_domain=T000c_uid::AdministrativeSubdivision_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0052, origin=T0052::AdministrativeSubdivision_belongsTo_Country, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0053, origin=T0053::Country_believeInReligion_Religion, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0053, origin=T0053::Country_believeInReligion_Religion, destination=T0029::Religion, linkedAtt={T0029_uid::Religion_uid uid_domain=T0029_uid::Religion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0054, origin=T0054::Country_belongToEthnicGroup_EthnicGroup, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0054, origin=T0054::Country_belongToEthnicGroup_EthnicGroup, destination=T002e::EthnicGroup, linkedAtt={T002e_uid::EthnicGroup_uid uid_domain=T002e_uid::EthnicGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0055, origin=T0055::Country_dependentOf_Country, destination=T000e::Country, linkedAtt={T000e_uid_domain::Country_uid_domain uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0055, origin=T0055::Country_dependentOf_Country, destination=T000e::Country, linkedAtt={T000e_uid_range::Country_uid_range uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0056, origin=T0056::Country_ethnicInfo_EthnicProportion, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0056, origin=T0056::Country_ethnicInfo_EthnicProportion, destination=T0018::EthnicProportion, linkedAtt={T0018_uid::EthnicProportion_uid uid_domain=T0018_uid::EthnicProportion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0057, origin=T0057::Country_hadPopulation_PopulationCount, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0057, origin=T0057::Country_hadPopulation_PopulationCount, destination=T0009::PopulationCount, linkedAtt={T0009_uid::PopulationCount_uid uid_domain=T0009_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0058, origin=T0058::Country_hasProvince_Province, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0058, origin=T0058::Country_hasProvince_Province, destination=T0025::Province, linkedAtt={T0025_uid::Province_uid uid_domain=T0025_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0059, origin=T0059::Country_isMember_Organization, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0059, origin=T0059::Country_isMember_Organization, destination=T000f::Organization, linkedAtt={T000f_uid::Organization_uid uid_domain=T000f_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005a, origin=T005a::Country_languageInfo_SpokenBy, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005a, origin=T005a::Country_languageInfo_SpokenBy, destination=T001d::SpokenBy, linkedAtt={T001d_uid::SpokenBy_uid uid_domain=T001d_uid::SpokenBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005b, origin=T005b::Country_neighbor_Country, destination=T000e::Country, linkedAtt={T000e_uid_domain::Country_uid_domain uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005b, origin=T005b::Country_neighbor_Country, destination=T000e::Country, linkedAtt={T000e_uid_range::Country_uid_range uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005c, origin=T005c::Country_religionInfo_BelievedBy, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005c, origin=T005c::Country_religionInfo_BelievedBy, destination=T0016::BelievedBy, linkedAtt={T0016_uid::BelievedBy_uid uid_domain=T0016_uid::BelievedBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005d, origin=T005d::Country_speakLanguage_Language, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005d, origin=T005d::Country_speakLanguage_Language, destination=T000a::Language, linkedAtt={T000a_uid::Language_uid uid_domain=T000a_uid::Language_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005e, origin=T005e::Country_wasDependentOf_PoliticalBody, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005e, origin=T005e::Country_wasDependentOf_PoliticalBody, destination=T0032::PoliticalBody, linkedAtt={T0032_uid::PoliticalBody_uid uid_domain=T0032_uid::PoliticalBody_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005f, origin=T005f::Organization_hasHeadq_City, destination=T000f::Organization, linkedAtt={T000f_uid::Organization_uid uid_domain=T000f_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005f, origin=T005f::Organization_hasHeadq_City, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0060, origin=T0060::Encompassed_encompassedArea_EncompassedArea, destination=T0013::Encompassed, linkedAtt={T0013_uid::Encompassed_uid uid_domain=T0013_uid::Encompassed_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0060, origin=T0060::Encompassed_encompassedArea_EncompassedArea, destination=T0031::EncompassedArea, linkedAtt={T0031_uid::EncompassedArea_uid uid_domain=T0031_uid::EncompassedArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0061, origin=T0061::Encompassed_encompassedBy_Continent, destination=T0013::Encompassed, linkedAtt={T0013_uid::Encompassed_uid uid_domain=T0013_uid::Encompassed_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0061, origin=T0061::Encompassed_encompassedBy_Continent, destination=T0014::Continent, linkedAtt={T0014_uid::Continent_uid uid_domain=T0014_uid::Continent_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0062, origin=T0062::BelievedBy_onReligion_Religion, destination=T0016::BelievedBy, linkedAtt={T0016_uid::BelievedBy_uid uid_domain=T0016_uid::BelievedBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0062, origin=T0062::BelievedBy_onReligion_Religion, destination=T0029::Religion, linkedAtt={T0029_uid::Religion_uid uid_domain=T0029_uid::Religion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0063, origin=T0063::EthnicProportion_onEthnicGroup_EthnicGroup, destination=T0018::EthnicProportion, linkedAtt={T0018_uid::EthnicProportion_uid uid_domain=T0018_uid::EthnicProportion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0063, origin=T0063::EthnicProportion_onEthnicGroup_EthnicGroup, destination=T002e::EthnicGroup, linkedAtt={T002e_uid::EthnicGroup_uid uid_domain=T002e_uid::EthnicGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0064, origin=T0064::City_hadPopulation_PopulationCount, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0064, origin=T0064::City_hadPopulation_PopulationCount, destination=T0009::PopulationCount, linkedAtt={T0009_uid::PopulationCount_uid uid_domain=T0009_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0065, origin=T0065::City_locatedAt_Water, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0065, origin=T0065::City_locatedAt_Water, destination=T0007::Water, linkedAtt={T0007_uid::Water_uid uid_domain=T0007_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0066, origin=T0066::City_locatedOnIsland_Island, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0066, origin=T0066::City_locatedOnIsland_Island, destination=T001b::Island, linkedAtt={T001b_uid::Island_uid uid_domain=T001b_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0067, origin=T0067::City_locatedIn_Country, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0067, origin=T0067::City_locatedIn_Country, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0068, origin=T0068::City_locatedIn_Province, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0068, origin=T0068::City_locatedIn_Province, destination=T0025::Province, linkedAtt={T0025_uid::Province_uid uid_domain=T0025_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0069, origin=T0069::City_cityIn_Country, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0069, origin=T0069::City_cityIn_Country, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006a, origin=T006a::City_cityIn_Province, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006a, origin=T006a::City_cityIn_Province, destination=T0025::Province, linkedAtt={T0025_uid::Province_uid uid_domain=T0025_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006b, origin=T006b::City_isCapitalOf_Country, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006b, origin=T006b::City_isCapitalOf_Country, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006c, origin=T006c::Island_belongsToIslands_Islands, destination=T001b::Island, linkedAtt={T001b_uid::Island_uid uid_domain=T001b_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006c, origin=T006c::Island_belongsToIslands_Islands, destination=T0027::Islands, linkedAtt={T0027_uid::Islands_uid uid_domain=T0027_uid::Islands_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006d, origin=T006d::Island_locatedInWater_Water, destination=T001b::Island, linkedAtt={T001b_uid::Island_uid uid_domain=T001b_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006d, origin=T006d::Island_locatedInWater_Water, destination=T0007::Water, linkedAtt={T0007_uid::Water_uid uid_domain=T0007_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006e, origin=T006e::SpokenBy_onLanguage_Language, destination=T001d::SpokenBy, linkedAtt={T001d_uid::SpokenBy_uid uid_domain=T001d_uid::SpokenBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006e, origin=T006e::SpokenBy_onLanguage_Language, destination=T000a::Language, linkedAtt={T000a_uid::Language_uid uid_domain=T000a_uid::Language_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T006f, origin=T006f::Sea_mergesWith_Sea, destination=T001e::Sea, linkedAtt={T001e_uid_domain::Sea_uid_domain uid_domain=T001e_uid::Sea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T006f, origin=T006f::Sea_mergesWith_Sea, destination=T001e::Sea, linkedAtt={T001e_uid_range::Sea_uid_range uid_domain=T001e_uid::Sea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0070, origin=T0070::Membership_inOrganization_Organization, destination=T001f::Membership, linkedAtt={T001f_uid::Membership_uid uid_domain=T001f_uid::Membership_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0070, origin=T0070::Membership_inOrganization_Organization, destination=T000f::Organization, linkedAtt={T000f_uid::Organization_uid uid_domain=T000f_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0071, origin=T0071::Membership_ofMember_Country, destination=T001f::Membership, linkedAtt={T001f_uid::Membership_uid uid_domain=T001f_uid::Membership_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0071, origin=T0071::Membership_ofMember_Country, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0072, origin=T0072::River_flowsInto_Water, destination=T0020::River, linkedAtt={T0020_uid::River_uid uid_domain=T0020_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0072, origin=T0072::River_flowsInto_Water, destination=T0007::Water, linkedAtt={T0007_uid::Water_uid uid_domain=T0007_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0073, origin=T0073::River_flowsThrough_Lake, destination=T0020::River, linkedAtt={T0020_uid::River_uid uid_domain=T0020_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0073, origin=T0073::River_flowsThrough_Lake, destination=T002a::Lake, linkedAtt={T002a_uid::Lake_uid uid_domain=T002a_uid::Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0074, origin=T0074::River_hasEstuary_Estuary, destination=T0020::River, linkedAtt={T0020_uid::River_uid uid_domain=T0020_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0074, origin=T0074::River_hasEstuary_Estuary, destination=T0006::Estuary, linkedAtt={T0006_uid::Estuary_uid uid_domain=T0006_uid::Estuary_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0075, origin=T0075::River_hasSource_Source, destination=T0020::River, linkedAtt={T0020_uid::River_uid uid_domain=T0020_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0075, origin=T0075::River_hasSource_Source, destination=T0023::Source, linkedAtt={T0023_uid::Source_uid uid_domain=T0023_uid::Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0076, origin=T0076::River_locatedOnIsland_Island, destination=T0020::River, linkedAtt={T0020_uid::River_uid uid_domain=T0020_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0076, origin=T0076::River_locatedOnIsland_Island, destination=T001b::Island, linkedAtt={T001b_uid::Island_uid uid_domain=T001b_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0077, origin=T0077::River_hasEstuary_Thing, destination=T0020::River, linkedAtt={T0020_uid::River_uid uid_domain=T0020_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0077, origin=T0077::River_hasEstuary_Thing, destination=T0000::Thing, linkedAtt={T0000_uid::Thing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0078, origin=T0078::River_hasSource_Thing, destination=T0020::River, linkedAtt={T0020_uid::River_uid uid_domain=T0020_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0078, origin=T0078::River_hasSource_Thing, destination=T0000::Thing, linkedAtt={T0000_uid::Thing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0079, origin=T0079::AdministrativeArea_capital_City, destination=T0021::AdministrativeArea, linkedAtt={T0021_uid::AdministrativeArea_uid uid_domain=T0021_uid::AdministrativeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0079, origin=T0079::AdministrativeArea_capital_City, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007a, origin=T007a::AdministrativeArea_hasCity_City, destination=T0021::AdministrativeArea, linkedAtt={T0021_uid::AdministrativeArea_uid uid_domain=T0021_uid::AdministrativeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007a, origin=T007a::AdministrativeArea_hasCity_City, destination=T001a::City, linkedAtt={T001a_uid::City_uid uid_domain=T001a_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007b, origin=T007b::Source_inMountains_Mountains, destination=T0023::Source, linkedAtt={T0023_uid::Source_uid uid_domain=T0023_uid::Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007b, origin=T007b::Source_inMountains_Mountains, destination=T0026::Mountains, linkedAtt={T0026_uid::Mountains_uid uid_domain=T0026_uid::Mountains_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007c, origin=T007c::Source_hasSource-_Thing, destination=T0023::Source, linkedAtt={T0023_uid::Source_uid uid_domain=T0023_uid::Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007c, origin=T007c::Source_hasSource-_Thing, destination=T0000::Thing, linkedAtt={T0000_uid::Thing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007d, origin=T007d::Measurement_ofObject_MondialThing, destination=T0024::Measurement, linkedAtt={T0024_uid::Measurement_uid uid_domain=T0024_uid::Measurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007d, origin=T007d::Measurement_ofObject_MondialThing, destination=T0019::MondialThing, linkedAtt={T0019_uid::MondialThing_uid uid_domain=T0019_uid::MondialThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007e, origin=T007e::Province_hadPopulation_PopulationCount, destination=T0025::Province, linkedAtt={T0025_uid::Province_uid uid_domain=T0025_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007e, origin=T007e::Province_hadPopulation_PopulationCount, destination=T0009::PopulationCount, linkedAtt={T0009_uid::PopulationCount_uid uid_domain=T0009_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T007f, origin=T007f::Border_isBorderOf_Country, destination=T0028::Border, linkedAtt={T0028_uid::Border_uid uid_domain=T0028_uid::Border_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T007f, origin=T007f::Border_isBorderOf_Country, destination=T000e::Country, linkedAtt={T000e_uid::Country_uid uid_domain=T000e_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0080, origin=T0080::Border_isBorderOf_Thing, destination=T0028::Border, linkedAtt={T0028_uid::Border_uid uid_domain=T0028_uid::Border_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0080, origin=T0080::Border_isBorderOf_Thing, destination=T0000::Thing, linkedAtt={T0000_uid::Thing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0081, origin=T0081::Lake_flowsInto_Water, destination=T002a::Lake, linkedAtt={T002a_uid::Lake_uid uid_domain=T002a_uid::Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0081, origin=T0081::Lake_flowsInto_Water, destination=T0007::Water, linkedAtt={T0007_uid::Water_uid uid_domain=T0007_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0082, origin=T0082::Lake_locatedOnIsland_Island, destination=T002a::Lake, linkedAtt={T002a_uid::Lake_uid uid_domain=T002a_uid::Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0082, origin=T0082::Lake_locatedOnIsland_Island, destination=T001b::Island, linkedAtt={T001b_uid::Island_uid uid_domain=T001b_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0083, origin=T0083::Mountain_inMountains_Mountains, destination=T0030::Mountain, linkedAtt={T0030_uid::Mountain_uid uid_domain=T0030_uid::Mountain_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0083, origin=T0083::Mountain_inMountains_Mountains, destination=T0026::Mountains, linkedAtt={T0026_uid::Mountains_uid uid_domain=T0026_uid::Mountains_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0084, origin=T0084::Mountain_locatedOnIsland_Island, destination=T0030::Mountain, linkedAtt={T0030_uid::Mountain_uid uid_domain=T0030_uid::Mountain_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0084, origin=T0084::Mountain_locatedOnIsland_Island, destination=T001b::Island, linkedAtt={T001b_uid::Island_uid uid_domain=T001b_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0085, origin=T0085::EncompassedArea_encompassed_Continent, destination=T0031::EncompassedArea, linkedAtt={T0031_uid::EncompassedArea_uid uid_domain=T0031_uid::EncompassedArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0085, origin=T0085::EncompassedArea_encompassed_Continent, destination=T0014::Continent, linkedAtt={T0014_uid::Continent_uid uid_domain=T0014_uid::Continent_uid uid_domain}]

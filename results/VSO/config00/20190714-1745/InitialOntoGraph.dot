@@ -1,0 +1,248 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "BusOrCoach" [ label="\"BusOrCoach\"@
+Bus or coach (gr:ProductOrService)" shape="ellipse" ];
+  "FeatureValue" [ label="\"FeatureValue\"@
+Feature value (the class of predefined values)" shape="ellipse" ];
+  "Motorcycle" [ label="\"Motorcycle\"@
+Motorcycle (gr:ProductOrService)" shape="ellipse" ];
+  "Automobile" [ label="\"Automobile\"@
+Automobile (gr:ProductOrService)" shape="ellipse" ];
+  "Truck" [ label="\"Truck\"@
+Truck (gr:ProductOrService)" shape="ellipse" ];
+  "EmissionStandardValue" [ label="\"EmissionStandardValue\"@
+Emission standard value (the class of predefined values)" shape="ellipse" ];
+  "DriveWheelConfigurationValue" [ label="\"DriveWheelConfigurationValue\"@
+Drive wheel configuration value (the class of predefined values)" shape="ellipse" ];
+  "Kayak" [ label="\"Kayak\"@
+Kayak (gr:ProductOrService)" shape="ellipse" ];
+  "Watercraft" [ label="\"Watercraft\"@
+Watercraft (gr:ProductOrService)" shape="ellipse" ];
+  "Vehicle" [ label="\"Vehicle\"@
+Vehicle (gr:ProductOrService)" shape="ellipse" ];
+  "EngineTypeValue" [ label="\"EngineTypeValue\"@
+Engine type value (the class of predefined values)" shape="ellipse" ];
+  "QuantitativeValueFloat" [ label="\"QuantitativeValueFloat\"@
+QuantitativeValueFloat" shape="ellipse" ];
+  "QuantitativeValue" [ label="\"QuantitativeValue\"@
+QuantitativeValue" shape="ellipse" ];
+  "FuelQuantity" [ label="\"FuelQuantity\"@
+FuelQuantity" shape="ellipse" ];
+  "QuantitativeValueInteger" [ label="\"QuantitativeValueInteger\"@
+QuantitativeValueInteger" shape="ellipse" ];
+  "Rickshaw" [ label="\"Rickshaw\"@
+Rickshaw (gr:ProductOrService)" shape="ellipse" ];
+  "Canoe" [ label="\"Canoe\"@
+Canoe (gr:ProductOrService)" shape="ellipse" ];
+  "MotorizedRoadVehicle" [ label="\"MotorizedRoadVehicle\"@
+Motorized road vehicle (gr:ProductOrService)" shape="ellipse" ];
+  "Boat" [ label="\"Boat\"@
+Boat (gr:ProductOrService)" shape="ellipse" ];
+  "Van" [ label="\"Van\"@
+Van (gr:ProductOrService)" shape="ellipse" ];
+  "BodyStyleValue" [ label="\"BodyStyleValue\"@
+Body style value (the class of predefined values)" shape="ellipse" ];
+  "Quadracycle" [ label="\"Quadracycle\"@
+Quadracycle (gr:ProductOrService) " shape="ellipse" ];
+  "MotorizedBicycle" [ label="\"MotorizedBicycle\"@
+Motorized bicycle (gr:ProductOrService)" shape="ellipse" ];
+  "QualitativeValue" [ label="\"QualitativeValue\"@
+QualitativeValue" shape="ellipse" ];
+  "FuelTypeValue" [ label="\"FuelTypeValue\"@
+Fuel type value (the class of predefined values)" shape="ellipse" ];
+  "Ship" [ label="\"Ship\"@
+Ship (gr:ProductOrService)" shape="ellipse" ];
+  "Bicycle" [ label="\"Bicycle\"@
+Bicycle (gr:ProductOrService)" shape="ellipse" ];
+  "SailingBoat" [ label="\"SailingBoat\"@
+Sailing boat (gr:ProductOrService)" shape="ellipse" ];
+  "TransmissionTypeValue" [ label="\"TransmissionTypeValue\"@
+Transmission type value (the class of predefined values)" shape="ellipse" ];
+  "ProductOrService" [ label="\"ProductOrService\"@
+ProductOrService" shape="ellipse" ];
+  "MotorBoat" [ label="\"MotorBoat\"@
+Motor boat (gr:ProductOrService)" shape="ellipse" ];
+  "SpeedInterval" [ label="\"SpeedInterval\"@
+SpeedInterval" shape="ellipse" ];
+  "SteeringPositionValue" [ label="\"SteeringPositionValue\"@
+Steering position value (the class of predefined values)" shape="ellipse" ];
+  "string" [ label="\"string\"@
+string" shape="box" ];
+  "Literal" [ label="\"Literal\"@
+Literal" shape="box" ];
+  "date" [ label="\"date\"@
+date" shape="box" ];
+  "boolean" [ label="\"boolean\"@
+boolean" shape="box" ];
+  "Motorcycle" -> "MotorizedRoadVehicle" [ label="\"isa\"" ];
+  "Quadracycle" -> "Vehicle" [ label="\"isa\"" ];
+  "Boat" -> "Watercraft" [ label="\"isa\"" ];
+  "BusOrCoach" -> "MotorizedRoadVehicle" [ label="\"isa\"" ];
+  "Automobile" -> "MotorizedRoadVehicle" [ label="\"isa\"" ];
+  "MotorizedBicycle" -> "MotorizedRoadVehicle" [ label="\"isa\"" ];
+  "Vehicle" -> "ProductOrService" [ label="\"isa\"" ];
+  "Ship" -> "Watercraft" [ label="\"isa\"" ];
+  "Rickshaw" -> "Vehicle" [ label="\"isa\"" ];
+  "Bicycle" -> "Vehicle" [ label="\"isa\"" ];
+  "Van" -> "MotorizedRoadVehicle" [ label="\"isa\"" ];
+  "EngineTypeValue" -> "QualitativeValue" [ label="\"isa\"" ];
+  "Watercraft" -> "Vehicle" [ label="\"isa\"" ];
+  "FuelQuantity" -> "QuantitativeValueFloat" [ label="\"isa\"" ];
+  "EmissionStandardValue" -> "QualitativeValue" [ label="\"isa\"" ];
+  "FuelTypeValue" -> "QualitativeValue" [ label="\"isa\"" ];
+  "SteeringPositionValue" -> "QualitativeValue" [ label="\"isa\"" ];
+  "DriveWheelConfigurationValue" -> "QualitativeValue" [ label="\"isa\"" ];
+  "MotorizedRoadVehicle" -> "Vehicle" [ label="\"isa\"" ];
+  "Truck" -> "MotorizedRoadVehicle" [ label="\"isa\"" ];
+  "SailingBoat" -> "Boat" [ label="\"isa\"" ];
+  "Canoe" -> "Boat" [ label="\"isa\"" ];
+  "MotorBoat" -> "Boat" [ label="\"isa\"" ];
+  "Kayak" -> "Watercraft" [ label="\"isa\"" ];
+  "BodyStyleValue" -> "QualitativeValue" [ label="\"isa\"" ];
+  "SpeedInterval" -> "QuantitativeValueFloat" [ label="\"isa\"" ];
+  "TransmissionTypeValue" -> "QualitativeValue" [ label="\"isa\"" ];
+  "FeatureValue" -> "QualitativeValue" [ label="\"isa\"" ];
+  "Boat" -> "QuantitativeValueFloat" [ label="[1..*]
+\"acceleration@acceleration (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"acceleration@acceleration (0..*)\"" ];
+  "Ship" -> "QuantitativeValueFloat" [ label="[1..*]
+\"acceleration@acceleration (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueInteger" [ label="[1..*]
+\"axles@axles (0..1)\"" ];
+  "ProductOrService" -> "BodyStyleValue" [ label="[1..*]
+\"bodyStyle@bodyStyle (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"cargoVolume@cargoVolume (0..1)\"" ];
+  "Watercraft" -> "QuantitativeValueFloat" [ label="[1..*]
+\"cargoVolume@cargoVolume (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueInteger" [ label="[1..*]
+\"doors@doors (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "DriveWheelConfigurationValue" [ label="[1..*]
+\"driveWheelConfiguration@driveWheelConfiguration (0..1)\"" ];
+  "Boat" -> "QuantitativeValueFloat" [ label="[1..*]
+\"engineDisplacement@engineDisplacement (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"engineDisplacement@engineDisplacement (0..*)\"" ];
+  "Ship" -> "QuantitativeValueFloat" [ label="[1..*]
+\"engineDisplacement@engineDisplacement (0..*)\"" ];
+  "Boat" -> "QuantitativeValueFloat" [ label="[1..*]
+\"enginePower@enginePower (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"enginePower@enginePower (0..*)\"" ];
+  "Ship" -> "QuantitativeValueFloat" [ label="[1..*]
+\"enginePower@enginePower (0..*)\"" ];
+  "Boat" -> "EngineTypeValue" [ label="[1..*]
+\"engineType@engineType (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "EngineTypeValue" [ label="[1..*]
+\"engineType@engineType (0..*)\"" ];
+  "Ship" -> "EngineTypeValue" [ label="[1..*]
+\"engineType@engineType (0..*)\"" ];
+  "ProductOrService" -> "FeatureValue" [ label="[1..*]
+\"feature@feature (0..*)\"" ];
+  "Boat" -> "QuantitativeValueFloat" [ label="[1..*]
+\"fuelConsumption@fuelConsumption (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"fuelConsumption@fuelConsumption (0..*)\"" ];
+  "Ship" -> "QuantitativeValueFloat" [ label="[1..*]
+\"fuelConsumption@fuelConsumption (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"fuelEconomy@fuelEconomy (0..*)\"" ];
+  "Boat" -> "QuantitativeValueFloat" [ label="[1..*]
+\"fuelTankVolume@fuelTankVolume (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"fuelTankVolume@fuelTankVolume (0..1)\"" ];
+  "Ship" -> "QuantitativeValueFloat" [ label="[1..*]
+\"fuelTankVolume@fuelTankVolume (0..1)\"" ];
+  "ProductOrService" -> "FuelTypeValue" [ label="[1..*]
+\"fuelType@fuelType (0..*)\"" ];
+  "Bicycle" -> "QuantitativeValueInteger" [ label="[1..*]
+\"gearsTotal@gearsTotal (0..1)\"" ];
+  "Boat" -> "QuantitativeValueInteger" [ label="[1..*]
+\"gearsTotal@gearsTotal (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueInteger" [ label="[1..*]
+\"gearsTotal@gearsTotal (0..1)\"" ];
+  "Quadracycle" -> "QuantitativeValueInteger" [ label="[1..*]
+\"gearsTotal@gearsTotal (0..1)\"" ];
+  "Ship" -> "QuantitativeValueInteger" [ label="[1..*]
+\"gearsTotal@gearsTotal (0..1)\"" ];
+  "ProductOrService" -> "QuantitativeValueFloat" [ label="[1..*]
+\"height@height (0..1)\"" ];
+  "ProductOrService" -> "QuantitativeValueFloat" [ label="[1..*]
+\"length@length (0..1)\"" ];
+  "ProductOrService" -> "EmissionStandardValue" [ label="[1..*]
+\"meetsEmissionStandard@meetsEmissionStandard (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"mileageFromOdometer@mileageFromOdometer (0..1)\"" ];
+  "ProductOrService" -> "QuantitativeValueFloat" [ label="[1..*]
+\"payload@payload (0..1)\"" ];
+  "ProductOrService" -> "QuantitativeValueInteger" [ label="[1..*]
+\"previousOwners@previousOwners (0..1)\"" ];
+  "QuantitativeValueFloat" -> "QuantitativeValue" [ label="[1..*]
+\"referenceDistance@referenceDistance (0..1)\"" ];
+  "QuantitativeValueFloat" -> "FuelQuantity" [ label="[1..*]
+\"referenceFuelQuantity@referenceFuelQuantity (0..1)\"" ];
+  "QuantitativeValueFloat" -> "SpeedInterval" [ label="[1..*]
+\"referenceSpeeds@referenceSpeeds (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"roofLoad@roofLoad (0..1)\"" ];
+  "ProductOrService" -> "QuantitativeValueInteger" [ label="[1..*]
+\"seatingCapacity@seatingCapacity (0..1)\"" ];
+  "ProductOrService" -> "QuantitativeValueFloat" [ label="[1..*]
+\"speed@speed (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "SteeringPositionValue" [ label="[1..*]
+\"steeringPosition@steeringPosition (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"tongueWeight@tongueWeight (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"trailerWeight@trailerWeight (0..1)\"" ];
+  "Bicycle" -> "TransmissionTypeValue" [ label="[1..*]
+\"transmission@transmission (0..*)\"" ];
+  "Boat" -> "TransmissionTypeValue" [ label="[1..*]
+\"transmission@transmission (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "TransmissionTypeValue" [ label="[1..*]
+\"transmission@transmission (0..*)\"" ];
+  "Quadracycle" -> "TransmissionTypeValue" [ label="[1..*]
+\"transmission@transmission (0..*)\"" ];
+  "Ship" -> "TransmissionTypeValue" [ label="[1..*]
+\"transmission@transmission (0..*)\"" ];
+  "ProductOrService" -> "QuantitativeValueFloat" [ label="[1..*]
+\"weight@weight (0..1)\"" ];
+  "ProductOrService" -> "QuantitativeValueFloat" [ label="[1..*]
+\"weightTotal@weightTotal (0..1)\"" ];
+  "Bicycle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"wheelbase@wheelbase (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"wheelbase@wheelbase (0..1)\"" ];
+  "Quadracycle" -> "QuantitativeValueFloat" [ label="[1..*]
+\"wheelbase@wheelbase (0..1)\"" ];
+  "ProductOrService" -> "QuantitativeValueFloat" [ label="[1..*]
+\"width@width (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "string" [ label="[1..*]
+\"ACRISSCode@ACRISSCode (0..1)\"" ];
+  "MotorizedRoadVehicle" -> "string" [ label="[1..*]
+\"VIN@VIN [Vehicle Identification Number] (0..1)\"" ];
+  "ProductOrService" -> "Literal" [ label="[1..*]
+\"color@color (0..*)\"" ];
+  "ProductOrService" -> "Literal" [ label="[1..*]
+\"condition@condition (0..*)\"" ];
+  "ProductOrService" -> "Literal" [ label="[1..*]
+\"damages@damages (0..*)\"" ];
+  "Bicycle" -> "Literal" [ label="[1..*]
+\"engineName@engineName (0..*)\"" ];
+  "Boat" -> "Literal" [ label="[1..*]
+\"engineName@engineName (0..*)\"" ];
+  "MotorizedRoadVehicle" -> "Literal" [ label="[1..*]
+\"engineName@engineName (0..*)\"" ];
+  "Ship" -> "Literal" [ label="[1..*]
+\"engineName@engineName (0..*)\"" ];
+  "ProductOrService" -> "date" [ label="[1..*]
+\"firstRegistration@firstRegistration (0..1)\"" ];
+  "ProductOrService" -> "date" [ label="[1..*]
+\"modelDate@modelDate (0..1)\"" ];
+  "ProductOrService" -> "date" [ label="[1..*]
+\"productionDate@productionDate (0..1)\"" ];
+  "ProductOrService" -> "boolean" [ label="[1..*]
+\"rentalUsage@rentalUsage (0..1)\"" ];
+}

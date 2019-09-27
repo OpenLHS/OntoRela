@@ -1,0 +1,286 @@
+
+======================================================= 
+Database Report
+======================================================= 
+ns
+Schemas: 1
+  Schema [id=ONTORELA, schemaType=BASE]
+
+--------------------------------------- 
+ONTORELA
+--------------------------------------- 
+All Tables: 105
+Join Tables: 58
+Types: 2
+Foreign keys: 162
+Constraints: 71
+
+Tables:
+  T0000::Thing
+  T0001::FuelQuantity
+  T0002::Boat
+  T0003::SailingBoat
+  T0004::Canoe
+  T0005::Truck
+  T0006::QuantitativeValue
+  T0007::SpeedInterval
+  T0008::EngineTypeValue
+  T0009::Automobile
+  T000a::BusOrCoach
+  T000b::Motorcycle
+  T000c::BodyStyleValue
+  T000d::Van
+  T000e::DriveWheelConfigurationValue
+  T000f::Rickshaw
+  T0010::Bicycle
+  T0011::Kayak
+  T0012::MotorBoat
+  T0013::FeatureValue
+  T0014::MotorizedRoadVehicle
+  T0015::Ship
+  T0016::ProductOrService
+  T0017::QuantitativeValueInteger
+  T0018::TransmissionTypeValue
+  T0019::EmissionStandardValue
+  T001a::Watercraft
+  T001b::SteeringPositionValue
+  T001c::Vehicle
+  T001d::QuantitativeValueFloat
+  T001e::FuelTypeValue
+  T001f::Quadracycle
+  T0020::MotorizedBicycle
+  T0021::QualitativeValue
+  T0022::MotorizedRoadVehicle_ACRISSCode
+  T0023::MotorizedRoadVehicle_VIN
+  T0024::ProductOrService_color
+  T0025::ProductOrService_condition
+  T0026::ProductOrService_damages
+  T0027::Bicycle_engineName
+  T0028::Boat_engineName
+  T0029::MotorizedRoadVehicle_engineName
+  T002a::Ship_engineName
+  T002b::ProductOrService_firstRegistration
+  T002c::ProductOrService_modelDate
+  T002d::ProductOrService_productionDate
+  T002e::ProductOrService_rentalUsage
+  T002f::Boat_acceleration_QuantitativeValueFloat
+  T0030::Boat_engineDisplacement_QuantitativeValueFloat
+  T0031::Boat_enginePower_QuantitativeValueFloat
+  T0032::Boat_engineType_EngineTypeValue
+  T0033::Boat_fuelConsumption_QuantitativeValueFloat
+  T0034::Boat_fuelTankVolume_QuantitativeValueFloat
+  T0035::Boat_gearsTotal_QuantitativeValueInteger
+  T0036::Boat_transmission_TransmissionTypeValue
+  T0037::Bicycle_gearsTotal_QuantitativeValueInteger
+  T0038::Bicycle_transmission_TransmissionTypeValue
+  T0039::Bicycle_wheelbase_QuantitativeValueFloat
+  T003a::MotorizedRoadVehicle_acceleration_QuantitativeValueFloat
+  T003b::MotorizedRoadVehicle_axles_QuantitativeValueInteger
+  T003c::MotorizedRoadVehicle_cargoVolume_QuantitativeValueFloat
+  T003d::MotorizedRoadVehicle_doors_QuantitativeValueInteger
+  T003e::MotorizedRoadVehicle_driveWheelConfiguration_DriveWheelConfigurationValue
+  T003f::MotorizedRoadVehicle_engineDisplacement_QuantitativeValueFloat
+  T0040::MotorizedRoadVehicle_enginePower_QuantitativeValueFloat
+  T0041::MotorizedRoadVehicle_engineType_EngineTypeValue
+  T0042::MotorizedRoadVehicle_fuelConsumption_QuantitativeValueFloat
+  T0043::MotorizedRoadVehicle_fuelEconomy_QuantitativeValueFloat
+  T0044::MotorizedRoadVehicle_fuelTankVolume_QuantitativeValueFloat
+  T0045::MotorizedRoadVehicle_gearsTotal_QuantitativeValueInteger
+  T0046::MotorizedRoadVehicle_mileageFromOdometer_QuantitativeValueFloat
+  T0047::MotorizedRoadVehicle_roofLoad_QuantitativeValueFloat
+  T0048::MotorizedRoadVehicle_steeringPosition_SteeringPositionValue
+  T0049::MotorizedRoadVehicle_tongueWeight_QuantitativeValueFloat
+  T004a::MotorizedRoadVehicle_trailerWeight_QuantitativeValueFloat
+  T004b::MotorizedRoadVehicle_transmission_TransmissionTypeValue
+  T004c::MotorizedRoadVehicle_wheelbase_QuantitativeValueFloat
+  T004d::Ship_acceleration_QuantitativeValueFloat
+  T004e::Ship_engineDisplacement_QuantitativeValueFloat
+  T004f::Ship_enginePower_QuantitativeValueFloat
+  T0050::Ship_engineType_EngineTypeValue
+  T0051::Ship_fuelConsumption_QuantitativeValueFloat
+  T0052::Ship_fuelTankVolume_QuantitativeValueFloat
+  T0053::Ship_gearsTotal_QuantitativeValueInteger
+  T0054::Ship_transmission_TransmissionTypeValue
+  T0055::ProductOrService_bodyStyle_BodyStyleValue
+  T0056::ProductOrService_feature_FeatureValue
+  T0057::ProductOrService_fuelType_FuelTypeValue
+  T0058::ProductOrService_height_QuantitativeValueFloat
+  T0059::ProductOrService_length_QuantitativeValueFloat
+  T005a::ProductOrService_meetsEmissionStandard_EmissionStandardValue
+  T005b::ProductOrService_payload_QuantitativeValueFloat
+  T005c::ProductOrService_previousOwners_QuantitativeValueInteger
+  T005d::ProductOrService_seatingCapacity_QuantitativeValueInteger
+  T005e::ProductOrService_speed_QuantitativeValueFloat
+  T005f::ProductOrService_weight_QuantitativeValueFloat
+  T0060::ProductOrService_weightTotal_QuantitativeValueFloat
+  T0061::ProductOrService_width_QuantitativeValueFloat
+  T0062::Watercraft_cargoVolume_QuantitativeValueFloat
+  T0063::QuantitativeValueFloat_referenceDistance_QuantitativeValue
+  T0064::QuantitativeValueFloat_referenceFuelQuantity_FuelQuantity
+  T0065::QuantitativeValueFloat_referenceSpeeds_SpeedInterval
+  T0066::Quadracycle_gearsTotal_QuantitativeValueInteger
+  T0067::Quadracycle_transmission_TransmissionTypeValue
+  T0068::Quadracycle_wheelbase_QuantitativeValueFloat
+Foreign keys: 
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0006, origin=T0006::QuantitativeValue, destination=T0000::Thing, linkedAtt={T0006_uid::QuantitativeValue_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0016, origin=T0016::ProductOrService, destination=T0000::Thing, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0017, origin=T0017::QuantitativeValueInteger, destination=T0000::Thing, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001d, origin=T001d::QuantitativeValueFloat, destination=T0000::Thing, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0021, origin=T0021::QualitativeValue, destination=T0000::Thing, linkedAtt={T0021_uid::QualitativeValue_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000b, origin=T000b::Motorcycle, destination=T0014::MotorizedRoadVehicle, linkedAtt={T000b_uid::Motorcycle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001f, origin=T001f::Quadracycle, destination=T001c::Vehicle, linkedAtt={T001f_uid::Quadracycle_uid uid_domain=T001c_uid::Vehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0002, origin=T0002::Boat, destination=T001a::Watercraft, linkedAtt={T0002_uid::Boat_uid uid_domain=T001a_uid::Watercraft_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000a, origin=T000a::BusOrCoach, destination=T0014::MotorizedRoadVehicle, linkedAtt={T000a_uid::BusOrCoach_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0009, origin=T0009::Automobile, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0009_uid::Automobile_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0020, origin=T0020::MotorizedBicycle, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0020_uid::MotorizedBicycle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001c, origin=T001c::Vehicle, destination=T0016::ProductOrService, linkedAtt={T001c_uid::Vehicle_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0015, origin=T0015::Ship, destination=T001a::Watercraft, linkedAtt={T0015_uid::Ship_uid uid_domain=T001a_uid::Watercraft_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000f, origin=T000f::Rickshaw, destination=T001c::Vehicle, linkedAtt={T000f_uid::Rickshaw_uid uid_domain=T001c_uid::Vehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0010, origin=T0010::Bicycle, destination=T001c::Vehicle, linkedAtt={T0010_uid::Bicycle_uid uid_domain=T001c_uid::Vehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000d, origin=T000d::Van, destination=T0014::MotorizedRoadVehicle, linkedAtt={T000d_uid::Van_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0008, origin=T0008::EngineTypeValue, destination=T0021::QualitativeValue, linkedAtt={T0008_uid::EngineTypeValue_uid uid_domain=T0021_uid::QualitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001a, origin=T001a::Watercraft, destination=T001c::Vehicle, linkedAtt={T001a_uid::Watercraft_uid uid_domain=T001c_uid::Vehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0001, origin=T0001::FuelQuantity, destination=T001d::QuantitativeValueFloat, linkedAtt={T0001_uid::FuelQuantity_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0019, origin=T0019::EmissionStandardValue, destination=T0021::QualitativeValue, linkedAtt={T0019_uid::EmissionStandardValue_uid uid_domain=T0021_uid::QualitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001e, origin=T001e::FuelTypeValue, destination=T0021::QualitativeValue, linkedAtt={T001e_uid::FuelTypeValue_uid uid_domain=T0021_uid::QualitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001b, origin=T001b::SteeringPositionValue, destination=T0021::QualitativeValue, linkedAtt={T001b_uid::SteeringPositionValue_uid uid_domain=T0021_uid::QualitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000e, origin=T000e::DriveWheelConfigurationValue, destination=T0021::QualitativeValue, linkedAtt={T000e_uid::DriveWheelConfigurationValue_uid uid_domain=T0021_uid::QualitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0014, origin=T0014::MotorizedRoadVehicle, destination=T001c::Vehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T001c_uid::Vehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0005, origin=T0005::Truck, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0005_uid::Truck_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0003, origin=T0003::SailingBoat, destination=T0002::Boat, linkedAtt={T0003_uid::SailingBoat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0004, origin=T0004::Canoe, destination=T0002::Boat, linkedAtt={T0004_uid::Canoe_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0012, origin=T0012::MotorBoat, destination=T0002::Boat, linkedAtt={T0012_uid::MotorBoat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0011, origin=T0011::Kayak, destination=T001a::Watercraft, linkedAtt={T0011_uid::Kayak_uid uid_domain=T001a_uid::Watercraft_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000c, origin=T000c::BodyStyleValue, destination=T0021::QualitativeValue, linkedAtt={T000c_uid::BodyStyleValue_uid uid_domain=T0021_uid::QualitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0007, origin=T0007::SpeedInterval, destination=T001d::QuantitativeValueFloat, linkedAtt={T0007_uid::SpeedInterval_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0018, origin=T0018::TransmissionTypeValue, destination=T0021::QualitativeValue, linkedAtt={T0018_uid::TransmissionTypeValue_uid uid_domain=T0021_uid::QualitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0013, origin=T0013::FeatureValue, destination=T0021::QualitativeValue, linkedAtt={T0013_uid::FeatureValue_uid uid_domain=T0021_uid::QualitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0022, origin=T0022::MotorizedRoadVehicle_ACRISSCode, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0023, origin=T0023::MotorizedRoadVehicle_VIN, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0024, origin=T0024::ProductOrService_color, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0025, origin=T0025::ProductOrService_condition, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0026, origin=T0026::ProductOrService_damages, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0027, origin=T0027::Bicycle_engineName, destination=T0010::Bicycle, linkedAtt={T0010_uid::Bicycle_uid uid_domain=T0010_uid::Bicycle_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0028, origin=T0028::Boat_engineName, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0029, origin=T0029::MotorizedRoadVehicle_engineName, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T002a, origin=T002a::Ship_engineName, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T002b, origin=T002b::ProductOrService_firstRegistration, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T002c, origin=T002c::ProductOrService_modelDate, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T002d, origin=T002d::ProductOrService_productionDate, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T002e, origin=T002e::ProductOrService_rentalUsage, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T002f, origin=T002f::Boat_acceleration_QuantitativeValueFloat, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T002f, origin=T002f::Boat_acceleration_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0030, origin=T0030::Boat_engineDisplacement_QuantitativeValueFloat, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0030, origin=T0030::Boat_engineDisplacement_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0031, origin=T0031::Boat_enginePower_QuantitativeValueFloat, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0031, origin=T0031::Boat_enginePower_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0032, origin=T0032::Boat_engineType_EngineTypeValue, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0032, origin=T0032::Boat_engineType_EngineTypeValue, destination=T0008::EngineTypeValue, linkedAtt={T0008_uid::EngineTypeValue_uid uid_domain=T0008_uid::EngineTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0033, origin=T0033::Boat_fuelConsumption_QuantitativeValueFloat, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0033, origin=T0033::Boat_fuelConsumption_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0034, origin=T0034::Boat_fuelTankVolume_QuantitativeValueFloat, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0034, origin=T0034::Boat_fuelTankVolume_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0035, origin=T0035::Boat_gearsTotal_QuantitativeValueInteger, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0035, origin=T0035::Boat_gearsTotal_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0036, origin=T0036::Boat_transmission_TransmissionTypeValue, destination=T0002::Boat, linkedAtt={T0002_uid::Boat_uid uid_domain=T0002_uid::Boat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0036, origin=T0036::Boat_transmission_TransmissionTypeValue, destination=T0018::TransmissionTypeValue, linkedAtt={T0018_uid::TransmissionTypeValue_uid uid_domain=T0018_uid::TransmissionTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0037, origin=T0037::Bicycle_gearsTotal_QuantitativeValueInteger, destination=T0010::Bicycle, linkedAtt={T0010_uid::Bicycle_uid uid_domain=T0010_uid::Bicycle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0037, origin=T0037::Bicycle_gearsTotal_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0038, origin=T0038::Bicycle_transmission_TransmissionTypeValue, destination=T0010::Bicycle, linkedAtt={T0010_uid::Bicycle_uid uid_domain=T0010_uid::Bicycle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0038, origin=T0038::Bicycle_transmission_TransmissionTypeValue, destination=T0018::TransmissionTypeValue, linkedAtt={T0018_uid::TransmissionTypeValue_uid uid_domain=T0018_uid::TransmissionTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0039, origin=T0039::Bicycle_wheelbase_QuantitativeValueFloat, destination=T0010::Bicycle, linkedAtt={T0010_uid::Bicycle_uid uid_domain=T0010_uid::Bicycle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0039, origin=T0039::Bicycle_wheelbase_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003a, origin=T003a::MotorizedRoadVehicle_acceleration_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003a, origin=T003a::MotorizedRoadVehicle_acceleration_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003b, origin=T003b::MotorizedRoadVehicle_axles_QuantitativeValueInteger, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003b, origin=T003b::MotorizedRoadVehicle_axles_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003c, origin=T003c::MotorizedRoadVehicle_cargoVolume_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003c, origin=T003c::MotorizedRoadVehicle_cargoVolume_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003d, origin=T003d::MotorizedRoadVehicle_doors_QuantitativeValueInteger, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003d, origin=T003d::MotorizedRoadVehicle_doors_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003e, origin=T003e::MotorizedRoadVehicle_driveWheelConfiguration_DriveWheelConfigurationValue, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003e, origin=T003e::MotorizedRoadVehicle_driveWheelConfiguration_DriveWheelConfigurationValue, destination=T000e::DriveWheelConfigurationValue, linkedAtt={T000e_uid::DriveWheelConfigurationValue_uid uid_domain=T000e_uid::DriveWheelConfigurationValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T003f, origin=T003f::MotorizedRoadVehicle_engineDisplacement_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T003f, origin=T003f::MotorizedRoadVehicle_engineDisplacement_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0040, origin=T0040::MotorizedRoadVehicle_enginePower_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0040, origin=T0040::MotorizedRoadVehicle_enginePower_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0041, origin=T0041::MotorizedRoadVehicle_engineType_EngineTypeValue, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0041, origin=T0041::MotorizedRoadVehicle_engineType_EngineTypeValue, destination=T0008::EngineTypeValue, linkedAtt={T0008_uid::EngineTypeValue_uid uid_domain=T0008_uid::EngineTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0042, origin=T0042::MotorizedRoadVehicle_fuelConsumption_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0042, origin=T0042::MotorizedRoadVehicle_fuelConsumption_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0043, origin=T0043::MotorizedRoadVehicle_fuelEconomy_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0043, origin=T0043::MotorizedRoadVehicle_fuelEconomy_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0044, origin=T0044::MotorizedRoadVehicle_fuelTankVolume_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0044, origin=T0044::MotorizedRoadVehicle_fuelTankVolume_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0045, origin=T0045::MotorizedRoadVehicle_gearsTotal_QuantitativeValueInteger, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0045, origin=T0045::MotorizedRoadVehicle_gearsTotal_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0046, origin=T0046::MotorizedRoadVehicle_mileageFromOdometer_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0046, origin=T0046::MotorizedRoadVehicle_mileageFromOdometer_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0047, origin=T0047::MotorizedRoadVehicle_roofLoad_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0047, origin=T0047::MotorizedRoadVehicle_roofLoad_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0048, origin=T0048::MotorizedRoadVehicle_steeringPosition_SteeringPositionValue, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0048, origin=T0048::MotorizedRoadVehicle_steeringPosition_SteeringPositionValue, destination=T001b::SteeringPositionValue, linkedAtt={T001b_uid::SteeringPositionValue_uid uid_domain=T001b_uid::SteeringPositionValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0049, origin=T0049::MotorizedRoadVehicle_tongueWeight_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0049, origin=T0049::MotorizedRoadVehicle_tongueWeight_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T004a, origin=T004a::MotorizedRoadVehicle_trailerWeight_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T004a, origin=T004a::MotorizedRoadVehicle_trailerWeight_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T004b, origin=T004b::MotorizedRoadVehicle_transmission_TransmissionTypeValue, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T004b, origin=T004b::MotorizedRoadVehicle_transmission_TransmissionTypeValue, destination=T0018::TransmissionTypeValue, linkedAtt={T0018_uid::TransmissionTypeValue_uid uid_domain=T0018_uid::TransmissionTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T004c, origin=T004c::MotorizedRoadVehicle_wheelbase_QuantitativeValueFloat, destination=T0014::MotorizedRoadVehicle, linkedAtt={T0014_uid::MotorizedRoadVehicle_uid uid_domain=T0014_uid::MotorizedRoadVehicle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T004c, origin=T004c::MotorizedRoadVehicle_wheelbase_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T004d, origin=T004d::Ship_acceleration_QuantitativeValueFloat, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T004d, origin=T004d::Ship_acceleration_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T004e, origin=T004e::Ship_engineDisplacement_QuantitativeValueFloat, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T004e, origin=T004e::Ship_engineDisplacement_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T004f, origin=T004f::Ship_enginePower_QuantitativeValueFloat, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T004f, origin=T004f::Ship_enginePower_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0050, origin=T0050::Ship_engineType_EngineTypeValue, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0050, origin=T0050::Ship_engineType_EngineTypeValue, destination=T0008::EngineTypeValue, linkedAtt={T0008_uid::EngineTypeValue_uid uid_domain=T0008_uid::EngineTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0051, origin=T0051::Ship_fuelConsumption_QuantitativeValueFloat, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0051, origin=T0051::Ship_fuelConsumption_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0052, origin=T0052::Ship_fuelTankVolume_QuantitativeValueFloat, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0052, origin=T0052::Ship_fuelTankVolume_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0053, origin=T0053::Ship_gearsTotal_QuantitativeValueInteger, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0053, origin=T0053::Ship_gearsTotal_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0054, origin=T0054::Ship_transmission_TransmissionTypeValue, destination=T0015::Ship, linkedAtt={T0015_uid::Ship_uid uid_domain=T0015_uid::Ship_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0054, origin=T0054::Ship_transmission_TransmissionTypeValue, destination=T0018::TransmissionTypeValue, linkedAtt={T0018_uid::TransmissionTypeValue_uid uid_domain=T0018_uid::TransmissionTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0055, origin=T0055::ProductOrService_bodyStyle_BodyStyleValue, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0055, origin=T0055::ProductOrService_bodyStyle_BodyStyleValue, destination=T000c::BodyStyleValue, linkedAtt={T000c_uid::BodyStyleValue_uid uid_domain=T000c_uid::BodyStyleValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0056, origin=T0056::ProductOrService_feature_FeatureValue, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0056, origin=T0056::ProductOrService_feature_FeatureValue, destination=T0013::FeatureValue, linkedAtt={T0013_uid::FeatureValue_uid uid_domain=T0013_uid::FeatureValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0057, origin=T0057::ProductOrService_fuelType_FuelTypeValue, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0057, origin=T0057::ProductOrService_fuelType_FuelTypeValue, destination=T001e::FuelTypeValue, linkedAtt={T001e_uid::FuelTypeValue_uid uid_domain=T001e_uid::FuelTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0058, origin=T0058::ProductOrService_height_QuantitativeValueFloat, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0058, origin=T0058::ProductOrService_height_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0059, origin=T0059::ProductOrService_length_QuantitativeValueFloat, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0059, origin=T0059::ProductOrService_length_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005a, origin=T005a::ProductOrService_meetsEmissionStandard_EmissionStandardValue, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005a, origin=T005a::ProductOrService_meetsEmissionStandard_EmissionStandardValue, destination=T0019::EmissionStandardValue, linkedAtt={T0019_uid::EmissionStandardValue_uid uid_domain=T0019_uid::EmissionStandardValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005b, origin=T005b::ProductOrService_payload_QuantitativeValueFloat, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005b, origin=T005b::ProductOrService_payload_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005c, origin=T005c::ProductOrService_previousOwners_QuantitativeValueInteger, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005c, origin=T005c::ProductOrService_previousOwners_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005d, origin=T005d::ProductOrService_seatingCapacity_QuantitativeValueInteger, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005d, origin=T005d::ProductOrService_seatingCapacity_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005e, origin=T005e::ProductOrService_speed_QuantitativeValueFloat, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005e, origin=T005e::ProductOrService_speed_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T005f, origin=T005f::ProductOrService_weight_QuantitativeValueFloat, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T005f, origin=T005f::ProductOrService_weight_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0060, origin=T0060::ProductOrService_weightTotal_QuantitativeValueFloat, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0060, origin=T0060::ProductOrService_weightTotal_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0061, origin=T0061::ProductOrService_width_QuantitativeValueFloat, destination=T0016::ProductOrService, linkedAtt={T0016_uid::ProductOrService_uid uid_domain=T0016_uid::ProductOrService_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0061, origin=T0061::ProductOrService_width_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0062, origin=T0062::Watercraft_cargoVolume_QuantitativeValueFloat, destination=T001a::Watercraft, linkedAtt={T001a_uid::Watercraft_uid uid_domain=T001a_uid::Watercraft_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0062, origin=T0062::Watercraft_cargoVolume_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0063, origin=T0063::QuantitativeValueFloat_referenceDistance_QuantitativeValue, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0063, origin=T0063::QuantitativeValueFloat_referenceDistance_QuantitativeValue, destination=T0006::QuantitativeValue, linkedAtt={T0006_uid::QuantitativeValue_uid uid_domain=T0006_uid::QuantitativeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0064, origin=T0064::QuantitativeValueFloat_referenceFuelQuantity_FuelQuantity, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0064, origin=T0064::QuantitativeValueFloat_referenceFuelQuantity_FuelQuantity, destination=T0001::FuelQuantity, linkedAtt={T0001_uid::FuelQuantity_uid uid_domain=T0001_uid::FuelQuantity_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0065, origin=T0065::QuantitativeValueFloat_referenceSpeeds_SpeedInterval, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0065, origin=T0065::QuantitativeValueFloat_referenceSpeeds_SpeedInterval, destination=T0007::SpeedInterval, linkedAtt={T0007_uid::SpeedInterval_uid uid_domain=T0007_uid::SpeedInterval_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0066, origin=T0066::Quadracycle_gearsTotal_QuantitativeValueInteger, destination=T001f::Quadracycle, linkedAtt={T001f_uid::Quadracycle_uid uid_domain=T001f_uid::Quadracycle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0066, origin=T0066::Quadracycle_gearsTotal_QuantitativeValueInteger, destination=T0017::QuantitativeValueInteger, linkedAtt={T0017_uid::QuantitativeValueInteger_uid uid_domain=T0017_uid::QuantitativeValueInteger_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0067, origin=T0067::Quadracycle_transmission_TransmissionTypeValue, destination=T001f::Quadracycle, linkedAtt={T001f_uid::Quadracycle_uid uid_domain=T001f_uid::Quadracycle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0067, origin=T0067::Quadracycle_transmission_TransmissionTypeValue, destination=T0018::TransmissionTypeValue, linkedAtt={T0018_uid::TransmissionTypeValue_uid uid_domain=T0018_uid::TransmissionTypeValue_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0068, origin=T0068::Quadracycle_wheelbase_QuantitativeValueFloat, destination=T001f::Quadracycle, linkedAtt={T001f_uid::Quadracycle_uid uid_domain=T001f_uid::Quadracycle_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0068, origin=T0068::Quadracycle_wheelbase_QuantitativeValueFloat, destination=T001d::QuantitativeValueFloat, linkedAtt={T001d_uid::QuantitativeValueFloat_uid uid_domain=T001d_uid::QuantitativeValueFloat_uid uid_domain}]

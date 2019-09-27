@@ -1,0 +1,2252 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "ENVO_00002011" [ label="\"ENVO_00002011\"@
+ENVO_00002011" shape="ellipse" ];
+  "ENVO_00002010" [ label="\"ENVO_00002010\"@
+ENVO_00002010" shape="ellipse" ];
+  "ECSO_00001169" [ label="\"ECSO_00001169\"@
+Non-Plant Material Count Aerial Density" shape="ellipse" ];
+  "ECSO_00000077" [ label="\"ECSO_00000077\"@
+Shortwave_Albedo_MOV" shape="ellipse" ];
+  "ECSO_00001166" [ label="\"ECSO_00001166\"@
+Volume Fraction Biomass Concentration" shape="ellipse" ];
+  "ECSO_00000076" [ label="\"ECSO_00000076\"@
+Net Ecosystem Exchange MOV" shape="ellipse" ];
+  "ECSO_00001165" [ label="\"ECSO_00001165\"@
+Soil Porewater Salinity Concentration" shape="ellipse" ];
+  "ECSO_00000079" [ label="\"ECSO_00000079\"@
+Total_Evaporation_MOV" shape="ellipse" ];
+  "ECSO_00001168" [ label="\"ECSO_00001168\"@
+Areal Density Measurement Type" shape="ellipse" ];
+  "Protocol" [ label="\"Protocol\"@
+Protocol" shape="ellipse" ];
+  "ECSO_00000078" [ label="\"ECSO_00000078\"@
+Surface Incident Shortwave Radiation MOV" shape="ellipse" ];
+  "ECSO_00001167" [ label="\"ECSO_00001167\"@
+temporal_MeasurementType" shape="ellipse" ];
+  "ECSO_00000073" [ label="\"ECSO_00000073\"@
+Above_Ground_Woody_Biomass_MOV" shape="ellipse" ];
+  "ECSO_00001162" [ label="\"ECSO_00001162\"@
+Precipitation Rate" shape="ellipse" ];
+  "GramPerMeterCubed" [ label="\"GramPerMeterCubed\"@
+GramPerMeterCubed" shape="ellipse" ];
+  "ECSO_00000072" [ label="\"ECSO_00000072\"@
+Surface Incident Longwave Radiation MOV" shape="ellipse" ];
+  "ECSO_00001161" [ label="\"ECSO_00001161\"@
+Potential Temperature" shape="ellipse" ];
+  "ECSO_00000075" [ label="\"ECSO_00000075\"@
+Sensible Heat MOV" shape="ellipse" ];
+  "ECSO_00001164" [ label="\"ECSO_00001164\"@
+Water Salinity" shape="ellipse" ];
+  "ECSO_00000074" [ label="\"ECSO_00000074\"@
+Subsurface_Runoff_MOV" shape="ellipse" ];
+  "ECSO_00001163" [ label="\"ECSO_00001163\"@
+Air Moisture Percentage" shape="ellipse" ];
+  "WattPerMeterSquared" [ label="\"WattPerMeterSquared\"@
+WattPerMeterSquared" shape="ellipse" ];
+  "ECSO_00000080" [ label="\"ECSO_00000080\"@
+Latent Heat MOV" shape="ellipse" ];
+  "ECSO_00000082" [ label="\"ECSO_00000082\"@
+Field Method" shape="ellipse" ];
+  "ECSO_00001171" [ label="\"ECSO_00001171\"@
+Built Feature Count Aerial Density" shape="ellipse" ];
+  "ECSO_00001170" [ label="\"ECSO_00001170\"@
+Plant Material Count Aerial Density" shape="ellipse" ];
+  "MeterPerSecond" [ label="\"MeterPerSecond\"@
+MeterPerSecond" shape="ellipse" ];
+  "CHEBI_51143" [ label="\"CHEBI_51143\"@
+CHEBI_51143" shape="ellipse" ];
+  "ENVO_00005774" [ label="\"ENVO_00005774\"@
+ENVO_00005774" shape="ellipse" ];
+  "ENVO_00002006" [ label="\"ENVO_00002006\"@
+ENVO_00002006" shape="ellipse" ];
+  "ENVO_00002005" [ label="\"ENVO_00002005\"@
+ENVO_00002005" shape="ellipse" ];
+  "Pressure" [ label="\"Pressure\"@
+Pressure" shape="ellipse" ];
+  "ENVO_01000830" [ label="\"ENVO_01000830\"@
+water-based rainfall" shape="ellipse" ];
+  "ECSO_00001159" [ label="\"ECSO_00001159\"@
+Water pH" shape="ellipse" ];
+  "ECSO_00000069" [ label="\"ECSO_00000069\"@
+Net_Shortwave_Radiation_MOV" shape="ellipse" ];
+  "ECSO_00001158" [ label="\"ECSO_00001158\"@
+square kilometer" shape="ellipse" ];
+  "ENVO_00000063" [ label="\"ENVO_00000063\"@
+ENVO_00000063" shape="ellipse" ];
+  "ECSO_00000066" [ label="\"ECSO_00000066\"@
+Soil_Layer_Bottom_Depth_MOV" shape="ellipse" ];
+  "ECSO_00001155" [ label="\"ECSO_00001155\"@
+hectare" shape="ellipse" ];
+  "ECSO_00000065" [ label="\"ECSO_00000065\"@
+Name of Each Carbon Pool MOV" shape="ellipse" ];
+  "ECSO_00001154" [ label="\"ECSO_00001154\"@
+Ocean" shape="ellipse" ];
+  "ECSO_00000068" [ label="\"ECSO_00000068\"@
+Active_Layer_Thickness_MOV" shape="ellipse" ];
+  "ECSO_00001157" [ label="\"ECSO_00001157\"@
+Identity" shape="ellipse" ];
+  "ECSO_00000067" [ label="\"ECSO_00000067\"@
+Heterotrophic Respiration MOV" shape="ellipse" ];
+  "ECSO_00001156" [ label="\"ECSO_00001156\"@
+Leaf Area Index" shape="ellipse" ];
+  "ECSO_00000062" [ label="\"ECSO_00000062\"@
+Rainfall_Rate_MOV" shape="ellipse" ];
+  "ECSO_00001151" [ label="\"ECSO_00001151\"@
+Ash Free Dry Weight Biomass" shape="ellipse" ];
+  "ECSO_00000061" [ label="\"ECSO_00000061\"@
+Autotrophic Respiration MOV" shape="ellipse" ];
+  "ECSO_00001150" [ label="\"ECSO_00001150\"@
+Non-Plant Material Biomass" shape="ellipse" ];
+  "ArealDensity" [ label="\"ArealDensity\"@
+ArealDensity" shape="ellipse" ];
+  "ECSO_00000064" [ label="\"ECSO_00000064\"@
+Gross Primary Productivity MOV" shape="ellipse" ];
+  "ECSO_00001153" [ label="\"ECSO_00001153\"@
+Dry Weight Biomass" shape="ellipse" ];
+  "ECSO_00000063" [ label="\"ECSO_00000063\"@
+Longwave Albedo MOV" shape="ellipse" ];
+  "ECSO_00001152" [ label="\"ECSO_00001152\"@
+Sampling Site Area" shape="ellipse" ];
+  "ECSO_00000071" [ label="\"ECSO_00000071\"@
+Fire_Emissions_MOV" shape="ellipse" ];
+  "ECSO_00001160" [ label="\"ECSO_00001160\"@
+Count Density" shape="ellipse" ];
+  "ECSO_00000070" [ label="\"ECSO_00000070\"@
+Total_Snow_Depth_MOV" shape="ellipse" ];
+  "Time" [ label="\"Time\"@
+Time" shape="ellipse" ];
+  "VolumePerVolume" [ label="\"VolumePerVolume\"@
+VolumePerVolume" shape="ellipse" ];
+  "Kelvin" [ label="\"Kelvin\"@
+Kelvin" shape="ellipse" ];
+  "ECSO_00000099" [ label="\"ECSO_00000099\"@
+CLM4VIC_MstmipVersion1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00001188" [ label="\"ECSO_00001188\"@
+Sample Count" shape="ellipse" ];
+  "ECSO_00000098" [ label="\"ECSO_00000098\"@
+CLASS-CTEMNplus_Mstmip_Version1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00001187" [ label="\"ECSO_00001187\"@
+Seawater Pressure" shape="ellipse" ];
+  "carbon_cycling" [ label="\"carbon_cycling\"@
+carbon cycling" shape="ellipse" ];
+  "ECSO_00001189" [ label="\"ECSO_00001189\"@
+Entity Count" shape="ellipse" ];
+  "ECSO_00000095" [ label="\"ECSO_00000095\"@
+LIDAR Method" shape="ellipse" ];
+  "ECSO_00001184" [ label="\"ECSO_00001184\"@
+Dry Mass Density" shape="ellipse" ];
+  "ECSO_00000094" [ label="\"ECSO_00000094\"@
+Allometric Method" shape="ellipse" ];
+  "ECSO_00001183" [ label="\"ECSO_00001183\"@
+Time Step" shape="ellipse" ];
+  "MassFlux" [ label="\"MassFlux\"@
+MassFlux" shape="ellipse" ];
+  "ECSO_00000097" [ label="\"ECSO_00000097\"@
+BIOME-BGC_Mstmip_Version1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00001186" [ label="\"ECSO_00001186\"@
+Air Pressure" shape="ellipse" ];
+  "ECSO_00000096" [ label="\"ECSO_00000096\"@
+MsTMIP_Simulation" shape="ellipse" ];
+  "ECSO_00001185" [ label="\"ECSO_00001185\"@
+pressure_MeasurementType" shape="ellipse" ];
+  "ECSO_00001191" [ label="\"ECSO_00001191\"@
+Crown Cover Percentage" shape="ellipse" ];
+  "ECSO_00001190" [ label="\"ECSO_00001190\"@
+Aerial Cover Percentage" shape="ellipse" ];
+  "ECSO_00001193" [ label="\"ECSO_00001193\"@
+Name" shape="ellipse" ];
+  "ECSO_00001192" [ label="\"ECSO_00001192\"@
+Canopy Percentage" shape="ellipse" ];
+  "KilometerSquared" [ label="\"KilometerSquared\"@
+KilometerSquared" shape="ellipse" ];
+  "ENVO_00000047" [ label="\"ENVO_00000047\"@
+ENVO_00000047" shape="ellipse" ];
+  "ECSO_00001177" [ label="\"ECSO_00001177\"@
+Non-Plant Material Length" shape="ellipse" ];
+  "ECSO_00001176" [ label="\"ECSO_00001176\"@
+Wave Height" shape="ellipse" ];
+  "ECSO_00001179" [ label="\"ECSO_00001179\"@
+Nitrogen Biomass Density" shape="ellipse" ];
+  "ECSO_00001178" [ label="\"ECSO_00001178\"@
+Soil Wet Weight" shape="ellipse" ];
+  "ECSO_00001173" [ label="\"ECSO_00001173\"@
+Tide Height" shape="ellipse" ];
+  "ECSO_00000083" [ label="\"ECSO_00000083\"@
+Modeled Method" shape="ellipse" ];
+  "ECSO_00001172" [ label="\"ECSO_00001172\"@
+Litter Biomass Density" shape="ellipse" ];
+  "ECSO_00001175" [ label="\"ECSO_00001175\"@
+Water Height" shape="ellipse" ];
+  "ECSO_00001174" [ label="\"ECSO_00001174\"@
+Sea Level Height" shape="ellipse" ];
+  "IAO_0000109" [ label="\"IAO_0000109\"@
+measurement data item" shape="ellipse" ];
+  "ECSO_00000091" [ label="\"ECSO_00000091\"@
+Eddy Covariance Method" shape="ellipse" ];
+  "ECSO_00001180" [ label="\"ECSO_00001180\"@
+Carbon Biomass Density" shape="ellipse" ];
+  "ECSO_00000090" [ label="\"ECSO_00000090\"@
+Peak Biomass Harvest Method" shape="ellipse" ];
+  "ECSO_00000093" [ label="\"ECSO_00000093\"@
+Oxygen Evolution LightDark Method" shape="ellipse" ];
+  "ECSO_00001182" [ label="\"ECSO_00001182\"@
+GramPerMeterSquared" shape="ellipse" ];
+  "ECSO_00000092" [ label="\"ECSO_00000092\"@
+Carbon14 Uptake Method" shape="ellipse" ];
+  "ECSO_00001181" [ label="\"ECSO_00001181\"@
+NumberPerMeterSquared" shape="ellipse" ];
+  "UO_0000109" [ label="\"UO_0000109\"@
+pressure unit" shape="ellipse" ];
+  "Name" [ label="\"Name\"@
+Name" shape="ellipse" ];
+  "ECSO_00001129" [ label="\"ECSO_00001129\"@
+Net Carbon Respiration Rate Flux" shape="ellipse" ];
+  "Concept" [ label="\"Concept\"@
+Concept" shape="ellipse" ];
+  "ENVO_00002297" [ label="\"ENVO_00002297\"@
+environmental feature" shape="ellipse" ];
+  "ECSO_00000037" [ label="\"ECSO_00000037\"@
+Annual Net Primary Productivity Flux" shape="ellipse" ];
+  "ECSO_00001126" [ label="\"ECSO_00001126\"@
+Oceanic Carbonate Concentration" shape="ellipse" ];
+  "ECSO_00001247" [ label="\"ECSO_00001247\"@
+volumetric density unit" shape="ellipse" ];
+  "ECSO_00001125" [ label="\"ECSO_00001125\"@
+Dissolved Organic Carbon Concentration" shape="ellipse" ];
+  "ECSO_00001246" [ label="\"ECSO_00001246\"@
+Oxygen Concentration" shape="ellipse" ];
+  "ECSO_00001128" [ label="\"ECSO_00001128\"@
+Carbon Specific Net Production Rate" shape="ellipse" ];
+  "ECSO_00001249" [ label="\"ECSO_00001249\"@
+Pheophytin Concentration" shape="ellipse" ];
+  "ECSO_00001127" [ label="\"ECSO_00001127\"@
+Carbon Percentage" shape="ellipse" ];
+  "ECSO_00001248" [ label="\"ECSO_00001248\"@
+GramPerMeterCubed" shape="ellipse" ];
+  "ECSO_00000033" [ label="\"ECSO_00000033\"@
+Wood Carbon Pool" shape="ellipse" ];
+  "ECSO_00001122" [ label="\"ECSO_00001122\"@
+Freshwater Total Inorganic Carbon Concentration" shape="ellipse" ];
+  "ECSO_00001243" [ label="\"ECSO_00001243\"@
+Chlorophyll Concentration" shape="ellipse" ];
+  "ECSO_00000032" [ label="\"ECSO_00000032\"@
+Grass Carbon Pool" shape="ellipse" ];
+  "ECSO_00001121" [ label="\"ECSO_00001121\"@
+Flux" shape="ellipse" ];
+  "ECSO_00001242" [ label="\"ECSO_00001242\"@
+Mass Measurement Type" shape="ellipse" ];
+  "ECSO_00000035" [ label="\"ECSO_00000035\"@
+Dissolved Organic Carbon Pool" shape="ellipse" ];
+  "ECSO_00001245" [ label="\"ECSO_00001245\"@
+GramPerCentimeterCubed" shape="ellipse" ];
+  "ECSO_00000034" [ label="\"ECSO_00000034\"@
+Leaf Litter Carbon Pool" shape="ellipse" ];
+  "ECSO_00001123" [ label="\"ECSO_00001123\"@
+Net Assimilation Rate Flux" shape="ellipse" ];
+  "ECSO_00001244" [ label="\"ECSO_00001244\"@
+GramPerCentimeterCubed" shape="ellipse" ];
+  "ECSO_00000031" [ label="\"ECSO_00000031\"@
+Benthic Algae Carbon Pool" shape="ellipse" ];
+  "ECSO_00001120" [ label="\"ECSO_00001120\"@
+Concentration" shape="ellipse" ];
+  "ECSO_00001241" [ label="\"ECSO_00001241\"@
+Soil Dry Weight" shape="ellipse" ];
+  "UO_0000110" [ label="\"UO_0000110\"@
+pascal" shape="ellipse" ];
+  "ECSO_00000030" [ label="\"ECSO_00000030\"@
+Leaf Carbon Pool" shape="ellipse" ];
+  "ECSO_00001240" [ label="\"ECSO_00001240\"@
+Number" shape="ellipse" ];
+  "CHEBI_27594" [ label="\"CHEBI_27594\"@
+carbon atom" shape="ellipse" ];
+  "ECSO_00001118" [ label="\"ECSO_00001118\"@
+Aquatic Total Organic Carbon Concentration" shape="ellipse" ];
+  "ECSO_00001239" [ label="\"ECSO_00001239\"@
+count unit" shape="ellipse" ];
+  "ENVO_01000635" [ label="\"ENVO_01000635\"@
+land" shape="ellipse" ];
+  "ECSO_00001115" [ label="\"ECSO_00001115\"@
+Temporal Rate" shape="ellipse" ];
+  "ECSO_00001236" [ label="\"ECSO_00001236\"@
+volume_measurementType" shape="ellipse" ];
+  "ECSO_00000025" [ label="\"ECSO_00000025\"@
+Carbon Pool" shape="ellipse" ];
+  "ECSO_00001114" [ label="\"ECSO_00001114\"@
+Biomass" shape="ellipse" ];
+  "ECSO_00001235" [ label="\"ECSO_00001235\"@
+Seawater Velocity" shape="ellipse" ];
+  "ECSO_00002569" [ label="\"ECSO_00002569\"@
+carbon" shape="ellipse" ];
+  "ENVO_00002042" [ label="\"ENVO_00002042\"@
+ENVO_00002042" shape="ellipse" ];
+  "ECSO_00000028" [ label="\"ECSO_00000028\"@
+Plankton Carbon Pool" shape="ellipse" ];
+  "ECSO_00001117" [ label="\"ECSO_00001117\"@
+area_MeasurementType" shape="ellipse" ];
+  "ECSO_00001238" [ label="\"ECSO_00001238\"@
+Physical Feature Width" shape="ellipse" ];
+  "ENVO_00002041" [ label="\"ENVO_00002041\"@
+ENVO_00002041" shape="ellipse" ];
+  "ECSO_00000027" [ label="\"ECSO_00000027\"@
+Soil Carbon Pool" shape="ellipse" ];
+  "ECSO_00001116" [ label="\"ECSO_00001116\"@
+Ammonium Concentration" shape="ellipse" ];
+  "ECSO_00001237" [ label="\"ECSO_00001237\"@
+Precipitation Volume" shape="ellipse" ];
+  "ENVO_00002040" [ label="\"ENVO_00002040\"@
+ENVO_00002040" shape="ellipse" ];
+  "ECSO_00001111" [ label="\"ECSO_00001111\"@
+Belowground Biomass" shape="ellipse" ];
+  "ECSO_00001232" [ label="\"ECSO_00001232\"@
+Specifc Gross Production Flux" shape="ellipse" ];
+  "ECSO_00000021" [ label="\"ECSO_00000021\"@
+Net Primary Production Carbon Flux" shape="ellipse" ];
+  "ECSO_00001110" [ label="\"ECSO_00001110\"@
+Soil Bulk Density" shape="ellipse" ];
+  "ECSO_00001231" [ label="\"ECSO_00001231\"@
+Lake Temperature" shape="ellipse" ];
+  "ECSO_00001113" [ label="\"ECSO_00001113\"@
+High Temperature Combustion" shape="ellipse" ];
+  "ECSO_00001234" [ label="\"ECSO_00001234\"@
+Water Velocity" shape="ellipse" ];
+  "ECSO_00001112" [ label="\"ECSO_00001112\"@
+Volumetric Water Content Method" shape="ellipse" ];
+  "ECSO_00001233" [ label="\"ECSO_00001233\"@
+Wind Speed" shape="ellipse" ];
+  "UO_0000002" [ label="\"UO_0000002\"@
+UO_0000002" shape="ellipse" ];
+  "UO_0000003" [ label="\"UO_0000003\"@
+UO_0000003" shape="ellipse" ];
+  "ECSO_00000020" [ label="\"ECSO_00000020\"@
+Gross Primary Production Carbon Flux" shape="ellipse" ];
+  "ECSO_00001230" [ label="\"ECSO_00001230\"@
+Soil Temperature" shape="ellipse" ];
+  "UO_0000000" [ label="\"UO_0000000\"@
+Unit" shape="ellipse" ];
+  "UO_0000001" [ label="\"UO_0000001\"@
+linear unit" shape="ellipse" ];
+  "UO_0000005" [ label="\"UO_0000005\"@
+temperature unit" shape="ellipse" ];
+  "UO_0000008" [ label="\"UO_0000008\"@
+UO_0000008" shape="ellipse" ];
+  "ArealMassDensity" [ label="\"ArealMassDensity\"@
+ArealMassDensity" shape="ellipse" ];
+  "ocean_surface" [ label="\"ocean_surface\"@
+ocean surface" shape="ellipse" ];
+  "Unit" [ label="\"Unit\"@
+Unit" shape="ellipse" ];
+  "PAR" [ label="\"PAR\"@
+PAR" shape="ellipse" ];
+  "ENVO_00002033" [ label="\"ENVO_00002033\"@
+ENVO_00002033" shape="ellipse" ];
+  "ECSO_00000059" [ label="\"ECSO_00000059\"@
+Snow Water Equivalent MOV" shape="ellipse" ];
+  "ECSO_00001148" [ label="\"ECSO_00001148\"@
+Plant Material Biomass" shape="ellipse" ];
+  "ECSO_00000058" [ label="\"ECSO_00000058\"@
+Soil_Layer_Node_Depth_MOV" shape="ellipse" ];
+  "ECSO_00001147" [ label="\"ECSO_00001147\"@
+Plant Material Biomass Density" shape="ellipse" ];
+  "ENVO_00002030" [ label="\"ENVO_00002030\"@
+ENVO_00002030" shape="ellipse" ];
+  "ECSO_00001149" [ label="\"ECSO_00001149\"@
+Non-Plant Material Biomass Density" shape="ellipse" ];
+  "CHEBI_38101" [ label="\"CHEBI_38101\"@
+CHEBI_38101" shape="ellipse" ];
+  "ECSO_00000055" [ label="\"ECSO_00000055\"@
+Soil_Layer_Top_Depth_MOV" shape="ellipse" ];
+  "ECSO_00001144" [ label="\"ECSO_00001144\"@
+Total Soil Nitrogen Concentration" shape="ellipse" ];
+  "ECSO_00000054" [ label="\"ECSO_00000054\"@
+Surface Runoff MOV" shape="ellipse" ];
+  "ECSO_00001143" [ label="\"ECSO_00001143\"@
+Carbon Biomass" shape="ellipse" ];
+  "ECSO_00000057" [ label="\"ECSO_00000057\"@
+Size of Each Carbon Pool MOV" shape="ellipse" ];
+  "ECSO_00001146" [ label="\"ECSO_00001146\"@
+Freshwater" shape="ellipse" ];
+  "Centimeter" [ label="\"Centimeter\"@
+Centimeter" shape="ellipse" ];
+  "ECSO_00000056" [ label="\"ECSO_00000056\"@
+Near Surface Module of the Wind MOV" shape="ellipse" ];
+  "ECSO_00001145" [ label="\"ECSO_00001145\"@
+Nitrogen Percentage" shape="ellipse" ];
+  "ECSO_00000051" [ label="\"ECSO_00000051\"@
+Surface Pressure MOV" shape="ellipse" ];
+  "ECSO_00001140" [ label="\"ECSO_00001140\"@
+Transpiration Height" shape="ellipse" ];
+  "ECSO_00000050" [ label="\"ECSO_00000050\"@
+Leaf_Area_Index_MOV" shape="ellipse" ];
+  "ECSO_00000053" [ label="\"ECSO_00000053\"@
+Average_Layer_Soil_Temperature_MOV" shape="ellipse" ];
+  "ECSO_00001142" [ label="\"ECSO_00001142\"@
+Carbon Stable Isotope Ratio" shape="ellipse" ];
+  "ENVO_01000628" [ label="\"ENVO_01000628\"@
+plant litter" shape="ellipse" ];
+  "ECSO_00000052" [ label="\"ECSO_00000052\"@
+Average Layer Soil Moisture MOV" shape="ellipse" ];
+  "ECSO_00001141" [ label="\"ECSO_00001141\"@
+Count Measurement Type" shape="ellipse" ];
+  "UO_0000012" [ label="\"UO_0000012\"@
+kelvin" shape="ellipse" ];
+  "MassDensity" [ label="\"MassDensity\"@
+MassDensity" shape="ellipse" ];
+  "ECSO_00000060" [ label="\"ECSO_00000060\"@
+Total Soil Carbon MOV" shape="ellipse" ];
+  "UO_0000015" [ label="\"UO_0000015\"@
+centimeter" shape="ellipse" ];
+  "UO_0000016" [ label="\"UO_0000016\"@
+millimeter" shape="ellipse" ];
+  "Length" [ label="\"Length\"@
+Length" shape="ellipse" ];
+  "IAO_0000030" [ label="\"IAO_0000030\"@
+information content entity" shape="ellipse" ];
+  "ENVO_00002149" [ label="\"ENVO_00002149\"@
+ENVO_00002149" shape="ellipse" ];
+  "LiterPerSecond" [ label="\"LiterPerSecond\"@
+LiterPerSecond" shape="ellipse" ];
+  "ECSO_00000048" [ label="\"ECSO_00000048\"@
+Absorbed_Fraction_Incoming_PAR_MOV" shape="ellipse" ];
+  "ECSO_00001137" [ label="\"ECSO_00001137\"@
+Net Primary Production Biomass Flux" shape="ellipse" ];
+  "ECSO_00000047" [ label="\"ECSO_00000047\"@
+Total_Respiration_MOV" shape="ellipse" ];
+  "ECSO_00001136" [ label="\"ECSO_00001136\"@
+Growth Rate" shape="ellipse" ];
+  "ECSO_00001257" [ label="\"ECSO_00001257\"@
+Specific Respiration Flux" shape="ellipse" ];
+  "ECSO_00001139" [ label="\"ECSO_00001139\"@
+Wet Weight Biomass" shape="ellipse" ];
+  "ECSO_00000049" [ label="\"ECSO_00000049\"@
+Near Surface Air Temperature MOV" shape="ellipse" ];
+  "ECSO_00001138" [ label="\"ECSO_00001138\"@
+Carbon to Nitrogen Ratio" shape="ellipse" ];
+  "ECSO_00000044" [ label="\"ECSO_00000044\"@
+Net Longwave Radiation MOV" shape="ellipse" ];
+  "ECSO_00001133" [ label="\"ECSO_00001133\"@
+Vegetation Carbon Change Percentage" shape="ellipse" ];
+  "ECSO_00001254" [ label="\"ECSO_00001254\"@
+Width" shape="ellipse" ];
+  "ECSO_00000043" [ label="\"ECSO_00000043\"@
+Total Living Biomass MOV" shape="ellipse" ];
+  "ECSO_00001132" [ label="\"ECSO_00001132\"@
+Oceanic Carbon Dioxide Concentration" shape="ellipse" ];
+  "ECSO_00001253" [ label="\"ECSO_00001253\"@
+Length" shape="ellipse" ];
+  "ECSO_00000046" [ label="\"ECSO_00000046\"@
+Near_Surface_CO2_Concentration_MOV" shape="ellipse" ];
+  "ECSO_00001135" [ label="\"ECSO_00001135\"@
+Aboveground Biomass" shape="ellipse" ];
+  "ECSO_00001256" [ label="\"ECSO_00001256\"@
+Specific Flux" shape="ellipse" ];
+  "ECSO_00000045" [ label="\"ECSO_00000045\"@
+Total_Soil_Wetness_MOV" shape="ellipse" ];
+  "ECSO_00001134" [ label="\"ECSO_00001134\"@
+Soil Carbon Change Percentage" shape="ellipse" ];
+  "ECSO_00001255" [ label="\"ECSO_00001255\"@
+Circumference" shape="ellipse" ];
+  "ECSO_00001250" [ label="\"ECSO_00001250\"@
+Depth" shape="ellipse" ];
+  "ECSO_00001131" [ label="\"ECSO_00001131\"@
+Oceanic Bicarbonate Concentration" shape="ellipse" ];
+  "ECSO_00001252" [ label="\"ECSO_00001252\"@
+Height" shape="ellipse" ];
+  "ECSO_00001130" [ label="\"ECSO_00001130\"@
+Organic Carbon Concentration in Water" shape="ellipse" ];
+  "ECSO_00001251" [ label="\"ECSO_00001251\"@
+Diameter" shape="ellipse" ];
+  "Volume" [ label="\"Volume\"@
+Volume" shape="ellipse" ];
+  "IAO_0000027" [ label="\"IAO_0000027\"@
+data item" shape="ellipse" ];
+  "UO_0000027" [ label="\"UO_0000027\"@
+degree Celsius" shape="ellipse" ];
+  "Molality" [ label="\"Molality\"@
+Molality" shape="ellipse" ];
+  "PATO_0000128" [ label="\"PATO_0000128\"@
+weight" shape="ellipse" ];
+  "UO_0000272" [ label="\"UO_0000272\"@
+millimetres of mercury" shape="ellipse" ];
+  "PATO_0000125" [ label="\"PATO_0000125\"@
+mass" shape="ellipse" ];
+  "MeasurementType" [ label="\"MeasurementType\"@
+Measurement Type" shape="ellipse" ];
+  "ECSO_00003195" [ label="\"ECSO_00003195\"@
+Calcium Carbonate" shape="ellipse" ];
+  "ECSO_Leaf_Decomposition" [ label="\"ECSO_Leaf_Decomposition\"@
+ECSO_Leaf_Decomposition" shape="ellipse" ];
+  "MilligramPerMeterCubedPerDay" [ label="\"MilligramPerMeterCubedPerDay\"@
+MilligramPerMeterCubedPerDay" shape="ellipse" ];
+  "ENVO_00003075" [ label="\"ENVO_00003075\"@
+ENVO_00003075" shape="ellipse" ];
+  "UO_0000163" [ label="\"UO_0000163\"@
+UO_0000163" shape="ellipse" ];
+  "UO_0000164" [ label="\"UO_0000164\"@
+mass volume percentage" shape="ellipse" ];
+  "UO_0000047" [ label="\"UO_0000047\"@
+UO_0000047" shape="ellipse" ];
+  "UO_0000168" [ label="\"UO_0000168\"@
+parts per thousand" shape="ellipse" ];
+  "UO_0000165" [ label="\"UO_0000165\"@
+volume percentage" shape="ellipse" ];
+  "UO_0000166" [ label="\"UO_0000166\"@
+parts per notation unit" shape="ellipse" ];
+  "UO_0000169" [ label="\"UO_0000169\"@
+parts per million" shape="ellipse" ];
+  "Celsius" [ label="\"Celsius\"@
+Celsius" shape="ellipse" ];
+  "MeasuredCharacteristic" [ label="\"MeasuredCharacteristic\"@
+MeasuredCharacteristic" shape="ellipse" ];
+  "UO_0000054" [ label="\"UO_0000054\"@
+areal density unit" shape="ellipse" ];
+  "UO_0000051" [ label="\"UO_0000051\"@
+UO_0000051" shape="ellipse" ];
+  "UO_0000052" [ label="\"UO_0000052\"@
+mass density unit" shape="ellipse" ];
+  "PATO_0001432" [ label="\"PATO_0001432\"@
+decayed" shape="ellipse" ];
+  "PATO_0001674" [ label="\"PATO_0001674\"@
+catalytic (activity) concentration" shape="ellipse" ];
+  "PATO_0001681" [ label="\"PATO_0001681\"@
+molar mass" shape="ellipse" ];
+  "KilogramPerMeterSquaredPerDay" [ label="\"KilogramPerMeterSquaredPerDay\"@
+KilogramPerMeterSquaredPerDay" shape="ellipse" ];
+  "PATO_0001680" [ label="\"PATO_0001680\"@
+molar volume" shape="ellipse" ];
+  "VolumetricRate" [ label="\"VolumetricRate\"@
+VolumetricRate" shape="ellipse" ];
+  "Speed" [ label="\"Speed\"@
+Speed" shape="ellipse" ];
+  "ENVO_00010504" [ label="\"ENVO_00010504\"@
+ENVO_00010504" shape="ellipse" ];
+  "UO_0000182" [ label="\"UO_0000182\"@
+density unit" shape="ellipse" ];
+  "UO_0000186" [ label="\"UO_0000186\"@
+dimensionless unit" shape="ellipse" ];
+  "UO_0000183" [ label="\"UO_0000183\"@
+linear density unit" shape="ellipse" ];
+  "ECSO_00003196" [ label="\"ECSO_00003196\"@
+Calcium Carbonate Concentration" shape="ellipse" ];
+  "UO_0000187" [ label="\"UO_0000187\"@
+percent" shape="ellipse" ];
+  "PATO_0000001" [ label="\"PATO_0000001\"@
+quality" shape="ellipse" ];
+  "UO_0000190" [ label="\"UO_0000190\"@
+A dimensionless unit which denotes an amount or magnitude of one quantity relative to another." shape="ellipse" ];
+  "UO_0000191" [ label="\"UO_0000191\"@
+fraction" shape="ellipse" ];
+  "UO_0000076" [ label="\"UO_0000076\"@
+UO_0000076" shape="ellipse" ];
+  "PATO_0001018" [ label="\"PATO_0001018\"@
+PATO_0001018" shape="ellipse" ];
+  "PATO_0000169" [ label="\"PATO_0000169\"@
+viability" shape="ellipse" ];
+  "ECSO_00003030" [ label="\"ECSO_00003030\"@
+organic_content" shape="ellipse" ];
+  "MolePerKilogram" [ label="\"MolePerKilogram\"@
+MolePerKilogram" shape="ellipse" ];
+  "MicroeinsteinsPerMeterSquaredPerSecond" [ label="\"MicroeinsteinsPerMeterSquaredPerSecond\"@
+MicroeinsteinsPerMeterSquaredPerSecond" shape="ellipse" ];
+  "ECSO_00001199" [ label="\"ECSO_00001199\"@
+Volumetric Density Measurement Type" shape="ellipse" ];
+  "ECSO_00001198" [ label="\"ECSO_00001198\"@
+Mass Density Measurement Type" shape="ellipse" ];
+  "ECSO_00001195" [ label="\"ECSO_00001195\"@
+Area Percentage" shape="ellipse" ];
+  "ECSO_00001194" [ label="\"ECSO_00001194\"@
+Sampled Individuals Proportion" shape="ellipse" ];
+  "ECSO_00001197" [ label="\"ECSO_00001197\"@
+Plant Cover Percentage" shape="ellipse" ];
+  "PATO_0001025" [ label="\"PATO_0001025\"@
+PATO_0001025" shape="ellipse" ];
+  "ECSO_00001196" [ label="\"ECSO_00001196\"@
+Carbon Specific Gross Production Rate" shape="ellipse" ];
+  "MicromolePerKilogram" [ label="\"MicromolePerKilogram\"@
+MicromolePerKilogram" shape="ellipse" ];
+  "CHEBI_50860" [ label="\"CHEBI_50860\"@
+CHEBI_50860" shape="ellipse" ];
+  "UO_0000095" [ label="\"UO_0000095\"@
+UO_0000095" shape="ellipse" ];
+  "PATO_0000033" [ label="\"PATO_0000033\"@
+PATO_0000033" shape="ellipse" ];
+  "Proportion" [ label="\"Proportion\"@
+Proportion" shape="ellipse" ];
+  "PATO_0001241" [ label="\"PATO_0001241\"@
+PATO_0001241" shape="ellipse" ];
+  "CHEBI_25555" [ label="\"CHEBI_25555\"@
+nitrogen atom" shape="ellipse" ];
+  "ECSO_00003031" [ label="\"ECSO_00003031\"@
+soil organic_content" shape="ellipse" ];
+  "PATO_0000165" [ label="\"PATO_0000165\"@
+time" shape="ellipse" ];
+  "Pascal" [ label="\"Pascal\"@
+Pascal" shape="ellipse" ];
+  "ECSO_00000514" [ label="\"ECSO_00000514\"@
+flux_MeasurementType" shape="ellipse" ];
+  "ECSO_00000513" [ label="\"ECSO_00000513\"@
+Biomass Measurement Type" shape="ellipse" ];
+  "ECSO_00000516" [ label="\"ECSO_00000516\"@
+Chlorophyll-a Concentration" shape="ellipse" ];
+  "ECSO_00000515" [ label="\"ECSO_00000515\"@
+depth" shape="ellipse" ];
+  "ECSO_00000510" [ label="\"ECSO_00000510\"@
+circumference" shape="ellipse" ];
+  "ECSO_00002932" [ label="\"ECSO_00002932\"@
+carbon concentration_of" shape="ellipse" ];
+  "ECSO_00000512" [ label="\"ECSO_00000512\"@
+concentration_MeasurementType" shape="ellipse" ];
+  "ECSO_00000511" [ label="\"ECSO_00000511\"@
+height" shape="ellipse" ];
+  "ENVO_01000048" [ label="\"ENVO_01000048\"@
+ENVO_01000048" shape="ellipse" ];
+  "FahrenheitDegree" [ label="\"FahrenheitDegree\"@
+FahrenheitDegree" shape="ellipse" ];
+  "ECSO_00000518" [ label="\"ECSO_00000518\"@
+Plant Pigment Concentration" shape="ellipse" ];
+  "MassSpecificCount" [ label="\"MassSpecificCount\"@
+MassSpecificCount" shape="ellipse" ];
+  "ECSO_00000517" [ label="\"ECSO_00000517\"@
+Soil Moisture Percentage" shape="ellipse" ];
+  "ECSO_00000519" [ label="\"ECSO_00000519\"@
+Temporal Rate Measurement Type" shape="ellipse" ];
+  "NumberPerMeterSquared" [ label="\"NumberPerMeterSquared\"@
+NumberPerMeterSquared" shape="ellipse" ];
+  "ECSO_00000503" [ label="\"ECSO_00000503\"@
+plant-derived organic material" shape="ellipse" ];
+  "ECSO_00000502" [ label="\"ECSO_00000502\"@
+Litter Carbon Concentration" shape="ellipse" ];
+  "ECSO_00000505" [ label="\"ECSO_00000505\"@
+Experiment" shape="ellipse" ];
+  "ECSO_00000504" [ label="\"ECSO_00000504\"@
+phytoplankton" shape="ellipse" ];
+  "ENVO_01000155" [ label="\"ENVO_01000155\"@
+ENVO_01000155" shape="ellipse" ];
+  "ENVO_01000277" [ label="\"ENVO_01000277\"@
+ENVO_01000277" shape="ellipse" ];
+  "ECSO_00000501" [ label="\"ECSO_00000501\"@
+Tree" shape="ellipse" ];
+  "MolePerLiter" [ label="\"MolePerLiter\"@
+MolePerLiter" shape="ellipse" ];
+  "degree_Fahrenheit" [ label="\"degree_Fahrenheit\"@
+degree Fahrenheit" shape="ellipse" ];
+  "ECSO_00000507" [ label="\"ECSO_00000507\"@
+Natural experiment" shape="ellipse" ];
+  "VolumetricDensity" [ label="\"VolumetricDensity\"@
+VolumetricDensity" shape="ellipse" ];
+  "ECSO_00000506" [ label="\"ECSO_00000506\"@
+Manipulative experiment" shape="ellipse" ];
+  "CHEBI_23367" [ label="\"CHEBI_23367\"@
+CHEBI_23367" shape="ellipse" ];
+  "ECSO_00000509" [ label="\"ECSO_00000509\"@
+diameter" shape="ellipse" ];
+  "ENVO_01000281" [ label="\"ENVO_01000281\"@
+ENVO_01000281" shape="ellipse" ];
+  "ECSO_00000508" [ label="\"ECSO_00000508\"@
+Macroalgae" shape="ellipse" ];
+  "ECSO_00000536" [ label="\"ECSO_00000536\"@
+Carbon Dioxide Flux" shape="ellipse" ];
+  "ECSO_00000535" [ label="\"ECSO_00000535\"@
+Oceanic Total Inorganic Carbon Concentration" shape="ellipse" ];
+  "ECSO_00000538" [ label="\"ECSO_00000538\"@
+Bicarbonate Concentration" shape="ellipse" ];
+  "ECSO_00000537" [ label="\"ECSO_00000537\"@
+Freshwater Chlorophyll Fluorescence" shape="ellipse" ];
+  "ECSO_00000532" [ label="\"ECSO_00000532\"@
+Soil Heterotrophic Respiration Carbon Flux" shape="ellipse" ];
+  "Foot" [ label="\"Foot\"@
+foot" shape="ellipse" ];
+  "ECSO_00000531" [ label="\"ECSO_00000531\"@
+Total Soil Carbon" shape="ellipse" ];
+  "ENVO_01000266" [ label="\"ENVO_01000266\"@
+ENVO_01000266" shape="ellipse" ];
+  "ECSO_00000534" [ label="\"ECSO_00000534\"@
+Phytoplankton Primary Production Carbon Flux" shape="ellipse" ];
+  "ECSO_00000533" [ label="\"ECSO_00000533\"@
+Grassland Above Ground Net Primary Production Carbon Flux" shape="ellipse" ];
+  "ECSO_00000530" [ label="\"ECSO_00000530\"@
+CO2 Concentration" shape="ellipse" ];
+  "PATO_0001710" [ label="\"PATO_0001710\"@
+3-D extent" shape="ellipse" ];
+  "ECSO_00000539" [ label="\"ECSO_00000539\"@
+Aquatic Inorganic Carbon Concentration" shape="ellipse" ];
+  "ECSO_00000525" [ label="\"ECSO_00000525\"@
+molar concentration" shape="ellipse" ];
+  "ECSO_00000524" [ label="\"ECSO_00000524\"@
+Fluorescence_measurementType" shape="ellipse" ];
+  "ECSO_00000527" [ label="\"ECSO_00000527\"@
+ecosystem component entity" shape="ellipse" ];
+  "ECSO_00000526" [ label="\"ECSO_00000526\"@
+group" shape="ellipse" ];
+  "ECSO_00000521" [ label="\"ECSO_00000521\"@
+Alkalinity" shape="ellipse" ];
+  "ENVO_01000254" [ label="\"ENVO_01000254\"@
+environmental system" shape="ellipse" ];
+  "ECSO_00000520" [ label="\"ECSO_00000520\"@
+Organic Carbon Concentration" shape="ellipse" ];
+  "ECSO_00000523" [ label="\"ECSO_00000523\"@
+thickness" shape="ellipse" ];
+  "ECSO_00000522" [ label="\"ECSO_00000522\"@
+Freshwater Carbon Dioxide Concentration" shape="ellipse" ];
+  "Area" [ label="\"Area\"@
+Area" shape="ellipse" ];
+  "Count" [ label="\"Count\"@
+Count" shape="ellipse" ];
+  "Millimeter" [ label="\"Millimeter\"@
+Millimeter" shape="ellipse" ];
+  "CHEBI_24431" [ label="\"CHEBI_24431\"@
+CHEBI_24431" shape="ellipse" ];
+  "ENVO_01000020" [ label="\"ENVO_01000020\"@
+ENVO_01000020" shape="ellipse" ];
+  "ECSO_00000529" [ label="\"ECSO_00000529\"@
+mass concentration" shape="ellipse" ];
+  "ECSO_00000528" [ label="\"ECSO_00000528\"@
+Near Surface Specific Humidity MOV" shape="ellipse" ];
+  "TagNumber" [ label="\"TagNumber\"@
+TagNumber" shape="ellipse" ];
+  "MilligramPerMeterSquaredPerDay" [ label="\"MilligramPerMeterSquaredPerDay\"@
+MilligramPerMeterSquaredPerDay" shape="ellipse" ];
+  "ENVO_00001999" [ label="\"ENVO_00001999\"@
+ENVO_00001999" shape="ellipse" ];
+  "ENVO_00001998" [ label="\"ENVO_00001998\"@
+ENVO_00001998" shape="ellipse" ];
+  "PATO_00002035" [ label="\"PATO_00002035\"@
+PATO_00002035" shape="ellipse" ];
+  "PATO_0001309" [ label="\"PATO_0001309\"@
+duration" shape="ellipse" ];
+  "PATO_0001422" [ label="\"PATO_0001422\"@
+dead" shape="ellipse" ];
+  "oxygen_atom" [ label="\"oxygen_atom\"@
+oxygen atom" shape="ellipse" ];
+  "Irradiance" [ label="\"Irradiance\"@
+Irradiance" shape="ellipse" ];
+  "STATO_0000184" [ label="\"STATO_0000184\"@
+ratio" shape="ellipse" ];
+  "Characteristic" [ label="\"Characteristic\"@
+Characteristic" shape="ellipse" ];
+  "CentimeterPerSecond" [ label="\"CentimeterPerSecond\"@
+CentimeterPerSecond" shape="ellipse" ];
+  "PATO_0001995" [ label="\"PATO_0001995\"@
+PATO_0001995" shape="ellipse" ];
+  "ENVO_01000406" [ label="\"ENVO_01000406\"@
+snow" shape="ellipse" ];
+  "ENVO_01000177" [ label="\"ENVO_01000177\"@
+ENVO_01000177" shape="ellipse" ];
+  "CHEBI_33582" [ label="\"CHEBI_33582\"@
+CHEBI_33582" shape="ellipse" ];
+  "Entity" [ label="\"Entity\"@
+Entity" shape="ellipse" ];
+  "ECSO_00001207" [ label="\"ECSO_00001207\"@
+Soil Depth" shape="ellipse" ];
+  "CHEBI_24835" [ label="\"CHEBI_24835\"@
+CHEBI_24835" shape="ellipse" ];
+  "ENVO_01000203" [ label="\"ENVO_01000203\"@
+Environmental Condition" shape="ellipse" ];
+  "ENVO_01000324" [ label="\"ENVO_01000324\"@
+ENVO_01000324" shape="ellipse" ];
+  "Number" [ label="\"Number\"@
+Number" shape="ellipse" ];
+  "ECSO_00001206" [ label="\"ECSO_00001206\"@
+Lake Depth" shape="ellipse" ];
+  "ENVO_00000111" [ label="\"ENVO_00000111\"@
+ENVO_00000111" shape="ellipse" ];
+  "ECSO_00001209" [ label="\"ECSO_00001209\"@
+Litter Depth" shape="ellipse" ];
+  "ENVO_00005802" [ label="\"ENVO_00005802\"@
+ENVO_00005802" shape="ellipse" ];
+  "ECSO_00001208" [ label="\"ECSO_00001208\"@
+Secchi Depth Method" shape="ellipse" ];
+  "ENVO_00005801" [ label="\"ENVO_00005801\"@
+ENVO_00005801" shape="ellipse" ];
+  "ECSO_00001203" [ label="\"ECSO_00001203\"@
+Water Depth" shape="ellipse" ];
+  "ECSO_00002777" [ label="\"ECSO_00002777\"@
+periphyton MassSpecificProductionRate" shape="ellipse" ];
+  "ECSO_00001202" [ label="\"ECSO_00001202\"@
+Biomass Concentration" shape="ellipse" ];
+  "ENVO_01000321" [ label="\"ENVO_01000321\"@
+ENVO_01000321" shape="ellipse" ];
+  "ECSO_00001205" [ label="\"ECSO_00001205\"@
+Snow Depth" shape="ellipse" ];
+  "ECSO_00002775" [ label="\"ECSO_00002775\"@
+MassSpecificProductionRate" shape="ellipse" ];
+  "ECSO_00001204" [ label="\"ECSO_00001204\"@
+Seawater Depth" shape="ellipse" ];
+  "ECSO_00002776" [ label="\"ECSO_00002776\"@
+periphyton" shape="ellipse" ];
+  "ENVO_01000323" [ label="\"ENVO_01000323\"@
+ENVO_01000323" shape="ellipse" ];
+  "ECSO_00000110" [ label="\"ECSO_00000110\"@
+VEGAS2.1_MstmipVersion1_Modeled_Method" shape="ellipse" ];
+  "BFO_0000005" [ label="\"BFO_0000005\"@
+dependent continuant" shape="ellipse" ];
+  "AmountOfSubstanceConcentration" [ label="\"AmountOfSubstanceConcentration\"@
+AmountOfSubstanceConcentration" shape="ellipse" ];
+  "ECSO_00001201" [ label="\"ECSO_00001201\"@
+Number Volumetric Density" shape="ellipse" ];
+  "BFO_0000003" [ label="\"BFO_0000003\"@
+Occurrent" shape="ellipse" ];
+  "ECSO_00000111" [ label="\"ECSO_00000111\"@
+VISIT_MstmipVersion1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00001200" [ label="\"ECSO_00001200\"@
+Biomass Volumetric Density" shape="ellipse" ];
+  "ENVO_00000105" [ label="\"ENVO_00000105\"@
+ENVO_00000105" shape="ellipse" ];
+  "MassPerMass" [ label="\"MassPerMass\"@
+MassPerMass" shape="ellipse" ];
+  "ECSO_00000107" [ label="\"ECSO_00000107\"@
+SIBCASA_MstmipVersion1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000106" [ label="\"ECSO_00000106\"@
+SIB3-JPL_MstmipVersion1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000109" [ label="\"ECSO_00000109\"@
+TRIPLEX-GHG_MstmipVersion1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000108" [ label="\"ECSO_00000108\"@
+TEM6_MstmipVersion1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000103" [ label="\"ECSO_00000103\"@
+ISAM_Mstmip_Version1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000102" [ label="\"ECSO_00000102\"@
+GTEC_Mstmip_Version1_Modeled_Method" shape="ellipse" ];
+  "ENVO_01000793" [ label="\"ENVO_01000793\"@
+atmospheric wind" shape="ellipse" ];
+  "ECSO_00000105" [ label="\"ECSO_00000105\"@
+ORCHIDEE-LSCE_MstmipVersion1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000104" [ label="\"ECSO_00000104\"@
+LPJ-wsl_Mstmip_Version1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000341" [ label="\"ECSO_00000341\"@
+Inorganic Carbon Pool" shape="ellipse" ];
+  "ECSO_00000582" [ label="\"ECSO_00000582\"@
+Methane Flux" shape="ellipse" ];
+  "ECSO_00000101" [ label="\"ECSO_00000101\"@
+DLEM_Mstmip_Version1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000343" [ label="\"ECSO_00000343\"@
+Total Living Biomass Carbon Pool" shape="ellipse" ];
+  "ECSO_00000100" [ label="\"ECSO_00000100\"@
+CLM_Mstmip_Version1_Modeled_Method" shape="ellipse" ];
+  "ECSO_00000580" [ label="\"ECSO_00000580\"@
+CO2 Concentration in air" shape="ellipse" ];
+  "ultraviolet" [ label="\"ultraviolet\"@
+ultraviolet" shape="ellipse" ];
+  "infrared" [ label="\"infrared\"@
+infrared" shape="ellipse" ];
+  "CHEBI_33560" [ label="\"CHEBI_33560\"@
+CHEBI_33560" shape="ellipse" ];
+  "ECSO_00001108" [ label="\"ECSO_00001108\"@
+Ash Weight Biomass" shape="ellipse" ];
+  "ECSO_00001229" [ label="\"ECSO_00001229\"@
+Ground Temperature" shape="ellipse" ];
+  "ECSO_00000018" [ label="\"ECSO_00000018\"@
+Heterotrophic Respiration Carbon Flux" shape="ellipse" ];
+  "ECSO_00001107" [ label="\"ECSO_00001107\"@
+Momentum Flux" shape="ellipse" ];
+  "ECSO_00001228" [ label="\"ECSO_00001228\"@
+Peat Temperature" shape="ellipse" ];
+  "ENVO_01000786" [ label="\"ENVO_01000786\"@
+fire" shape="ellipse" ];
+  "ECSO_00001109" [ label="\"ECSO_00001109\"@
+Nitrogen Fixation Rate" shape="ellipse" ];
+  "ECSO_00000015" [ label="\"ECSO_00000015\"@
+Primary Production Carbon Flux" shape="ellipse" ];
+  "ECSO_00001104" [ label="\"ECSO_00001104\"@
+Temperature Measurement Type" shape="ellipse" ];
+  "ECSO_00001225" [ label="\"ECSO_00001225\"@
+Air Temperature" shape="ellipse" ];
+  "ECSO_00000014" [ label="\"ECSO_00000014\"@
+Net Ecosystem Exchange Carbon Flux" shape="ellipse" ];
+  "ECSO_00001103" [ label="\"ECSO_00001103\"@
+solar radiation" shape="ellipse" ];
+  "ECSO_00001224" [ label="\"ECSO_00001224\"@
+Carbon Dioxide Pressure" shape="ellipse" ];
+  "ECSO_00000017" [ label="\"ECSO_00000017\"@
+Autotrophic Respiration Carbon Flux" shape="ellipse" ];
+  "ECSO_00001106" [ label="\"ECSO_00001106\"@
+Radiative Flux" shape="ellipse" ];
+  "ECSO_00001227" [ label="\"ECSO_00001227\"@
+Water Temperature" shape="ellipse" ];
+  "ECSO_00000016" [ label="\"ECSO_00000016\"@
+Respiration Carbon Flux" shape="ellipse" ];
+  "ECSO_00001105" [ label="\"ECSO_00001105\"@
+Carbon Flux" shape="ellipse" ];
+  "ECSO_00001226" [ label="\"ECSO_00001226\"@
+Seawater Temperature" shape="ellipse" ];
+  "ECSO_00001100" [ label="\"ECSO_00001100\"@
+electromagnetic radiation" shape="ellipse" ];
+  "ECSO_00001221" [ label="\"ECSO_00001221\"@
+Crown Height" shape="ellipse" ];
+  "ECSO_00000010" [ label="\"ECSO_00000010\"@
+Carbon Cycle Component" shape="ellipse" ];
+  "ECSO_00001220" [ label="\"ECSO_00001220\"@
+Tree Canopy Height" shape="ellipse" ];
+  "ECSO_00000013" [ label="\"ECSO_00000013\"@
+Fire Carbon Flux" shape="ellipse" ];
+  "ECSO_00001102" [ label="\"ECSO_00001102\"@
+Proportion Measurement Type" shape="ellipse" ];
+  "ECSO_00001223" [ label="\"ECSO_00001223\"@
+Precipitation Height" shape="ellipse" ];
+  "ECSO_00000012" [ label="\"ECSO_00000012\"@
+Dissolved Organic Carbon Flux" shape="ellipse" ];
+  "ECSO_00001101" [ label="\"ECSO_00001101\"@
+00 Unclassified Measurement Type" shape="ellipse" ];
+  "ECSO_00001222" [ label="\"ECSO_00001222\"@
+Plant Material Height" shape="ellipse" ];
+  "ENVO_01000307" [ label="\"ENVO_01000307\"@
+ENVO_01000307" shape="ellipse" ];
+  "ENVO_02500034" [ label="\"ENVO_02500034\"@
+evaporation" shape="ellipse" ];
+  "BFO_0000031" [ label="\"BFO_0000031\"@
+generically dependent continuant" shape="ellipse" ];
+  "ECSO_00001218" [ label="\"ECSO_00001218\"@
+Occurrence" shape="ellipse" ];
+  "ECSO_00001217" [ label="\"ECSO_00001217\"@
+Tag Number" shape="ellipse" ];
+  "ECSO_00001219" [ label="\"ECSO_00001219\"@
+Latent Heat Flux" shape="ellipse" ];
+  "ECSO_00001214" [ label="\"ECSO_00001214\"@
+Tree Crown Diameter" shape="ellipse" ];
+  "ECSO_00001213" [ label="\"ECSO_00001213\"@
+Groundwater Depth" shape="ellipse" ];
+  "ECSO_00001216" [ label="\"ECSO_00001216\"@
+Ground Heat Flux" shape="ellipse" ];
+  "ECSO_00001215" [ label="\"ECSO_00001215\"@
+Tree Canopy Diameter" shape="ellipse" ];
+  "ECSO_00001210" [ label="\"ECSO_00001210\"@
+Soil Active Layer Depth" shape="ellipse" ];
+  "ECSO_00001212" [ label="\"ECSO_00001212\"@
+Stream Depth" shape="ellipse" ];
+  "ECSO_00001211" [ label="\"ECSO_00001211\"@
+Specifc Net Production Flux" shape="ellipse" ];
+  "CHEBI_36931" [ label="\"CHEBI_36931\"@
+carbon-12" shape="ellipse" ];
+  "CHEBI_33303" [ label="\"CHEBI_33303\"@
+chalcogen" shape="ellipse" ];
+  "BFO_0000020" [ label="\"BFO_0000020\"@
+specifically dependent continuant" shape="ellipse" ];
+  "CHEBI_33300" [ label="\"CHEBI_33300\"@
+CHEBI_33300" shape="ellipse" ];
+  "CHEBI_36927" [ label="\"CHEBI_36927\"@
+carbon-14" shape="ellipse" ];
+  "CHEBI_36928" [ label="\"CHEBI_36928\"@
+carbon-13" shape="ellipse" ];
+  "ECSO_00000316" [ label="\"ECSO_00000316\"@
+Liquid" shape="ellipse" ];
+  "ECSO_00000558" [ label="\"ECSO_00000558\"@
+Fluorescence" shape="ellipse" ];
+  "ECSO_00000315" [ label="\"ECSO_00000315\"@
+Gas" shape="ellipse" ];
+  "ECSO_00000557" [ label="\"ECSO_00000557\"@
+ash_weight" shape="ellipse" ];
+  "ECSO_00000317" [ label="\"ECSO_00000317\"@
+Solid" shape="ellipse" ];
+  "ECSO_00000559" [ label="\"ECSO_00000559\"@
+rate unit" shape="ellipse" ];
+  "ECSO_00000312" [ label="\"ECSO_00000312\"@
+Organism" shape="ellipse" ];
+  "ECSO_00000554" [ label="\"ECSO_00000554\"@
+radius" shape="ellipse" ];
+  "ECSO_00000311" [ label="\"ECSO_00000311\"@
+Population" shape="ellipse" ];
+  "ECSO_00000553" [ label="\"ECSO_00000553\"@
+Linear Measurement Type" shape="ellipse" ];
+  "ECSO_00000314" [ label="\"ECSO_00000314\"@
+Physical State" shape="ellipse" ];
+  "ECSO_00000556" [ label="\"ECSO_00000556\"@
+dry_weight" shape="ellipse" ];
+  "ECSO_00000313" [ label="\"ECSO_00000313\"@
+Species" shape="ellipse" ];
+  "ECSO_00000555" [ label="\"ECSO_00000555\"@
+Biomass Method" shape="ellipse" ];
+  "ECSO_00000550" [ label="\"ECSO_00000550\"@
+ash_free_dry_weight" shape="ellipse" ];
+  "ECSO_00000310" [ label="\"ECSO_00000310\"@
+Community" shape="ellipse" ];
+  "ECSO_00000552" [ label="\"ECSO_00000552\"@
+biomass_density_MeasurementType" shape="ellipse" ];
+  "ECSO_00000551" [ label="\"ECSO_00000551\"@
+biomass_density" shape="ellipse" ];
+  "ENVO_02500008" [ label="\"ENVO_02500008\"@
+ecosystem-wide respiration" shape="ellipse" ];
+  "ENVO_02500007" [ label="\"ENVO_02500007\"@
+ecosystem-wide photosynthesis" shape="ellipse" ];
+  "ENVO_00010483" [ label="\"ENVO_00010483\"@
+environmental material" shape="ellipse" ];
+  "ECSO_00000305" [ label="\"ECSO_00000305\"@
+Single-Celled Organism" shape="ellipse" ];
+  "ECSO_00000547" [ label="\"ECSO_00000547\"@
+Tree growth" shape="ellipse" ];
+  "ECSO_00000546" [ label="\"ECSO_00000546\"@
+Process" shape="ellipse" ];
+  "ENVO_00000023" [ label="\"ENVO_00000023\"@
+ENVO_00000023" shape="ellipse" ];
+  "ECSO_00000307" [ label="\"ECSO_00000307\"@
+Microbe" shape="ellipse" ];
+  "ECSO_00000549" [ label="\"ECSO_00000549\"@
+Tree Diameter at Breast Height" shape="ellipse" ];
+  "ECSO_00000306" [ label="\"ECSO_00000306\"@
+Multi-Celled Organism" shape="ellipse" ];
+  "ECSO_00000548" [ label="\"ECSO_00000548\"@
+wet_weight" shape="ellipse" ];
+  "PATO_0001709" [ label="\"PATO_0001709\"@
+2-D extent" shape="ellipse" ];
+  "ECSO_00000301" [ label="\"ECSO_00000301\"@
+Aboveground Net Primary Production Carbon Flux" shape="ellipse" ];
+  "ECSO_00000543" [ label="\"ECSO_00000543\"@
+Oceanic Carbon Dioxide Flux" shape="ellipse" ];
+  "ECSO_00000300" [ label="\"ECSO_00000300\"@
+CO2 Enrichment Method" shape="ellipse" ];
+  "ECSO_00000542" [ label="\"ECSO_00000542\"@
+Marine Macroalgae Net Primary Production Carbon Flux" shape="ellipse" ];
+  "ECSO_00000545" [ label="\"ECSO_00000545\"@
+Tree Circumference" shape="ellipse" ];
+  "ECSO_00000544" [ label="\"ECSO_00000544\"@
+Tree Diameter" shape="ellipse" ];
+  "PATO_0001823" [ label="\"PATO_0001823\"@
+wet" shape="ellipse" ];
+  "PATO_0001824" [ label="\"PATO_0001824\"@
+PATO_0001824" shape="ellipse" ];
+  "ECSO_00000541" [ label="\"ECSO_00000541\"@
+Tree Height" shape="ellipse" ];
+  "ECSO_00000540" [ label="\"ECSO_00000540\"@
+Growth" shape="ellipse" ];
+  "PATO_0001822" [ label="\"PATO_0001822\"@
+PATO_0001822" shape="ellipse" ];
+  "Meter" [ label="\"Meter\"@
+Meter" shape="ellipse" ];
+  "Identifier" [ label="\"Identifier\"@
+Identifier" shape="ellipse" ];
+  "PartPerThousand" [ label="\"PartPerThousand\"@
+PartPerThousand" shape="ellipse" ];
+  "ECSO_00000309" [ label="\"ECSO_00000309\"@
+Ecosystem" shape="ellipse" ];
+  "ENVO_00000015" [ label="\"ENVO_00000015\"@
+ENVO_00000015" shape="ellipse" ];
+  "ECSO_00000308" [ label="\"ECSO_00000308\"@
+Functional Level" shape="ellipse" ];
+  "ENVO_00000134" [ label="\"ENVO_00000134\"@
+ENVO_00000134" shape="ellipse" ];
+  "ECSO_00000337" [ label="\"ECSO_00000337\"@
+Inorganic Carbon" shape="ellipse" ];
+  "ECSO_00000579" [ label="\"ECSO_00000579\"@
+Soil organic matter proportion" shape="ellipse" ];
+  "ENVO_01000349" [ label="\"ENVO_01000349\"@
+root matter" shape="ellipse" ];
+  "ECSO_00000576" [ label="\"ECSO_00000576\"@
+Soil Carbon Concentration" shape="ellipse" ];
+  "ECSO_00000575" [ label="\"ECSO_00000575\"@
+soil active layer" shape="ellipse" ];
+  "ECSO_00000336" [ label="\"ECSO_00000336\"@
+Particulate Organic Carbon Pool" shape="ellipse" ];
+  "ECSO_00000578" [ label="\"ECSO_00000578\"@
+Aquatic Particulate Organic Carbon" shape="ellipse" ];
+  "ECSO_00000335" [ label="\"ECSO_00000335\"@
+Aboveground Woody Biomass Carbon Pool" shape="ellipse" ];
+  "ECSO_00000577" [ label="\"ECSO_00000577\"@
+Aquatic Dissolved Organic Carbon" shape="ellipse" ];
+  "ECSO_00000572" [ label="\"ECSO_00000572\"@
+particulate organic carbon" shape="ellipse" ];
+  "ECSO_Leaves" [ label="\"ECSO_Leaves\"@
+ECSO_Leaves" shape="ellipse" ];
+  "ECSO_00000571" [ label="\"ECSO_00000571\"@
+dissolved organic carbon" shape="ellipse" ];
+  "ECSO_00000574" [ label="\"ECSO_00000574\"@
+soil layer" shape="ellipse" ];
+  "ECSO_00000331" [ label="\"ECSO_00000331\"@
+Organic Carbon Pool" shape="ellipse" ];
+  "ECSO_00000573" [ label="\"ECSO_00000573\"@
+plant" shape="ellipse" ];
+  "Leaf_Area_Index" [ label="\"Leaf_Area_Index\"@
+Leaf Area Index" shape="ellipse" ];
+  "ECSO_00000570" [ label="\"ECSO_00000570\"@
+Algae" shape="ellipse" ];
+  "KilogramPerMeterSquaredPerSecond" [ label="\"KilogramPerMeterSquaredPerSecond\"@
+KilogramPerMeterSquaredPerSecond" shape="ellipse" ];
+  "Hectare" [ label="\"Hectare\"@
+Hectare" shape="ellipse" ];
+  "Mass" [ label="\"Mass\"@
+Mass" shape="ellipse" ];
+  "ECSO_00000206" [ label="\"ECSO_00000206\"@
+Fixed Carbon Pool" shape="ellipse" ];
+  "ECSO_00000327" [ label="\"ECSO_00000327\"@
+Carbohydrate" shape="ellipse" ];
+  "ECSO_00000569" [ label="\"ECSO_00000569\"@
+Bacteria" shape="ellipse" ];
+  "ECSO_00000205" [ label="\"ECSO_00000205\"@
+Methane Pool" shape="ellipse" ];
+  "ECSO_00000326" [ label="\"ECSO_00000326\"@
+Bicarbonate" shape="ellipse" ];
+  "ECSO_00000568" [ label="\"ECSO_00000568\"@
+'Seawater Chlorophyll Fluorescence'" shape="ellipse" ];
+  "ECSO_00000208" [ label="\"ECSO_00000208\"@
+Dissolved Carbon Dioxide Pool" shape="ellipse" ];
+  "ECSO_00000329" [ label="\"ECSO_00000329\"@
+Organic Carbon" shape="ellipse" ];
+  "ECSO_00000207" [ label="\"ECSO_00000207\"@
+Atmospheric Carbon Dioxide Pool" shape="ellipse" ];
+  "ECSO_00000328" [ label="\"ECSO_00000328\"@
+Carbon Monoxide" shape="ellipse" ];
+  "ENVO_01001305" [ label="\"ENVO_01001305\"@
+ENVO_01001305" shape="ellipse" ];
+  "ECSO_00000202" [ label="\"ECSO_00000202\"@
+Bicarbonate Pool" shape="ellipse" ];
+  "ECSO_00000323" [ label="\"ECSO_00000323\"@
+Carbon Dioxide" shape="ellipse" ];
+  "ECSO_00000565" [ label="\"ECSO_00000565\"@
+Carbonate Concentration" shape="ellipse" ];
+  "ECSO_00000201" [ label="\"ECSO_00000201\"@
+Carbon Dioxide Diffusion Flux" shape="ellipse" ];
+  "ECSO_00000564" [ label="\"ECSO_00000564\"@
+pheophytin" shape="ellipse" ];
+  "ECSO_00000204" [ label="\"ECSO_00000204\"@
+Carbonate Pool" shape="ellipse" ];
+  "ECSO_00000325" [ label="\"ECSO_00000325\"@
+Carbonate" shape="ellipse" ];
+  "ECSO_00000567" [ label="\"ECSO_00000567\"@
+Freshwater Bicarbonate Concentration" shape="ellipse" ];
+  "ECSO_00000203" [ label="\"ECSO_00000203\"@
+Carbon Dioxide Pool" shape="ellipse" ];
+  "ECSO_00000324" [ label="\"ECSO_00000324\"@
+Methane" shape="ellipse" ];
+  "ECSO_00000566" [ label="\"ECSO_00000566\"@
+Freshwater Carbonate Concentration" shape="ellipse" ];
+  "ECSO_00000561" [ label="\"ECSO_00000561\"@
+temporal rate unit" shape="ellipse" ];
+  "ENVO_02500000" [ label="\"ENVO_02500000\"@
+Environmental System Process" shape="ellipse" ];
+  "ECSO_00000560" [ label="\"ECSO_00000560\"@
+flux unit" shape="ellipse" ];
+  "ECSO_00000321" [ label="\"ECSO_00000321\"@
+Dissolved" shape="ellipse" ];
+  "ECSO_00000563" [ label="\"ECSO_00000563\"@
+chloroplyll-a" shape="ellipse" ];
+  "ECSO_00000320" [ label="\"ECSO_00000320\"@
+Dissolution Carbon Flux" shape="ellipse" ];
+  "ECSO_00000562" [ label="\"ECSO_00000562\"@
+chlorophyll" shape="ellipse" ];
+  "KilogramPerMeterSquared" [ label="\"KilogramPerMeterSquared\"@
+KilogramPerMeterSquared" shape="ellipse" ];
+  "ONTORELA_C0231X" [ label="\"ONTORELA_C0231X\"@
+Height unionOf Organism | environmental feature" shape="ellipse" ];
+  "ONTORELA_C0231X-el0" [ label="\"ONTORELA_C0231X-el0\"@
+Height unionOf Organism | environmental feature element environmental feature" shape="ellipse" ];
+  "ONTORELA_C0234X" [ label="\"ONTORELA_C0234X\"@
+Soil Moisture Percentage intersectionOf ENVO_00002006" shape="ellipse" ];
+  "ONTORELA_C0236X" [ label="\"ONTORELA_C0236X\"@
+snow unionOf ENVO_00002006" shape="ellipse" ];
+  "ONTORELA_C0238X" [ label="\"ONTORELA_C0238X\"@
+Total Soil Nitrogen Concentration intersectionOf nitrogen atom" shape="ellipse" ];
+  "ONTORELA_C023aX" [ label="\"ONTORELA_C023aX\"@
+Total Soil Carbon intersectionOf Organic Carbon" shape="ellipse" ];
+  "ONTORELA_C023cX" [ label="\"ONTORELA_C023cX\"@
+Plant Cover Percentage intersectionOf plant | ENVO_00010504" shape="ellipse" ];
+  "ONTORELA_C023eX" [ label="\"ONTORELA_C023eX\"@
+Belowground Biomass intersectionOf " shape="ellipse" ];
+  "ONTORELA_C0240X" [ label="\"ONTORELA_C0240X\"@
+Aerial Cover Percentage intersectionOf Entity | ENVO_00010504" shape="ellipse" ];
+  "ONTORELA_C0242X" [ label="\"ONTORELA_C0242X\"@
+Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006" shape="ellipse" ];
+  "ONTORELA_C0244X" [ label="\"ONTORELA_C0244X\"@
+ENVO_00010504 unionOf ocean surface | ENVO_01000324" shape="ellipse" ];
+  "ONTORELA_C0246X" [ label="\"ONTORELA_C0246X\"@
+CO2 Concentration unionOf ENVO_00002005 | ENVO_00002006" shape="ellipse" ];
+  "ONTORELA_C0248X" [ label="\"ONTORELA_C0248X\"@
+Fire Carbon Flux unionOf Eddy Covariance Method | Biomass Method" shape="ellipse" ];
+  "ONTORELA_C024aX" [ label="\"ONTORELA_C024aX\"@
+Gross Primary Production Carbon Flux unionOf ENVO_00000063 | land" shape="ellipse" ];
+  "ONTORELA_C024cX" [ label="\"ONTORELA_C024cX\"@
+Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010" shape="ellipse" ];
+  "ONTORELA_C024eX" [ label="\"ONTORELA_C024eX\"@
+Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504" shape="ellipse" ];
+  "ONTORELA_C0250X" [ label="\"ONTORELA_C0250X\"@
+Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011" shape="ellipse" ];
+  "ONTORELA_C0252X" [ label="\"ONTORELA_C0252X\"@
+Soil Carbon Change Percentage intersectionOf carbon atom" shape="ellipse" ];
+  "ONTORELA_C0254X" [ label="\"ONTORELA_C0254X\"@
+Soil Porewater Salinity Concentration intersectionOf ENVO_00002006" shape="ellipse" ];
+  "ONTORELA_C0256X" [ label="\"ONTORELA_C0256X\"@
+Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011" shape="ellipse" ];
+  "ONTORELA_C0258X" [ label="\"ONTORELA_C0258X\"@
+Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006" shape="ellipse" ];
+  "ONTORELA_C025aX" [ label="\"ONTORELA_C025aX\"@
+Oxygen Concentration intersectionOf oxygen atom | environmental material" shape="ellipse" ];
+  "ONTORELA_C025cX" [ label="\"ONTORELA_C025cX\"@
+Autotrophic Respiration MOV unionOf phytoplankton | Phytoplankton | plant" shape="ellipse" ];
+  "ONTORELA_C025eX" [ label="\"ONTORELA_C025eX\"@
+Width unionOf Organism | environmental feature" shape="ellipse" ];
+  "ONTORELA_C025eX-el0" [ label="\"ONTORELA_C025eX-el0\"@
+Width unionOf Organism | environmental feature element environmental feature" shape="ellipse" ];
+  "ONTORELA_C0261X" [ label="\"ONTORELA_C0261X\"@
+Carbon to Nitrogen Ratio unionOf Organism | environmental material" shape="ellipse" ];
+  "ONTORELA_C0261X-el0" [ label="\"ONTORELA_C0261X-el0\"@
+Carbon to Nitrogen Ratio unionOf Organism | environmental material element environmental material" shape="ellipse" ];
+  "ONTORELA_C0264X" [ label="\"ONTORELA_C0264X\"@
+Carbonate Concentration intersectionOf Carbonate | ENVO_00002006" shape="ellipse" ];
+  "ONTORELA_C0266X" [ label="\"ONTORELA_C0266X\"@
+Total Living Biomass MOV unionOf plant-derived organic material | Plant Material | ENVO_00002040 | root matter" shape="ellipse" ];
+  "ONTORELA_C0268X" [ label="\"ONTORELA_C0268X\"@
+Marine Macroalgae Net Primary Production Carbon Flux unionOf ENVO_01000020 | ENVO_01000048" shape="ellipse" ];
+  "ONTORELA_C026aX" [ label="\"ONTORELA_C026aX\"@
+Vegetation Carbon Change Percentage intersectionOf carbon atom" shape="ellipse" ];
+  "ONTORELA_C026cX" [ label="\"ONTORELA_C026cX\"@
+Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504" shape="ellipse" ];
+  "ONTORELA_C026eX" [ label="\"ONTORELA_C026eX\"@
+Length unionOf Organism | environmental feature" shape="ellipse" ];
+  "ONTORELA_C026eX-el0" [ label="\"ONTORELA_C026eX-el0\"@
+Length unionOf Organism | environmental feature element environmental feature" shape="ellipse" ];
+  "ECSO_00001148" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00000551" -> "MeasuredCharacteristic" [ label="\"isa\"" ];
+  "ECSO_00000307" -> "ECSO_00000305" [ label="\"isa\"" ];
+  "ECSO_00000054" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00000516" -> "ECSO_00001243" [ label="\"isa\"" ];
+  "ECSO_00000521" -> "MeasuredCharacteristic" [ label="\"isa\"" ];
+  "ECSO_00001137" -> "ECSO_00000514" [ label="\"isa\"" ];
+  "ECSO_00000205" -> "ECSO_00000341" [ label="\"isa\"" ];
+  "ECSO_00000555" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "ECSO_00001180" -> "ECSO_00000552" [ label="\"isa\"" ];
+  "PATO_0000001" -> "BFO_0000020" [ label="\"isa\"" ];
+  "ECSO_00000582" -> "ECSO_00000514" [ label="\"isa\"" ];
+  "Irradiance" -> "Proportion" [ label="\"isa\"" ];
+  "ECSO_00000072" -> "ECSO_00001106" [ label="\"isa\"" ];
+  "ECSO_00000558" -> "MeasuredCharacteristic" [ label="\"isa\"" ];
+  "UO_0000183" -> "UO_0000182" [ label="\"isa\"" ];
+  "ECSO_00000579" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000337" -> "CHEBI_23367" [ label="\"isa\"" ];
+  "ECSO_00001247" -> "UO_0000182" [ label="\"isa\"" ];
+  "ECSO_00000100" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00000073" -> "ECSO_00001147" [ label="\"isa\"" ];
+  "KilogramPerMeterSquaredPerDay" -> "ECSO_00000560" [ label="\"isa\"" ];
+  "ENVO_01000628" -> "ENVO_01000155" [ label="\"isa\"" ];
+  "ECSO_00000067" -> "ECSO_00000018" [ label="\"isa\"" ];
+  "ECSO_00000043" -> "ECSO_00001147" [ label="\"isa\"" ];
+  "ECSO_00000530" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00000537" -> "ECSO_00000524" [ label="\"isa\"" ];
+  "MassSpecificCount" -> "ECSO_00001120" [ label="\"isa\"" ];
+  "ECSO_00001204" -> "ECSO_00001203" [ label="\"isa\"" ];
+  "IAO_0000030" -> "BFO_0000031" [ label="\"isa\"" ];
+  "ECSO_00000107" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00001154" -> "ECSO_00001208" [ label="\"isa\"" ];
+  "CHEBI_24835" -> "CHEBI_23367" [ label="\"isa\"" ];
+  "ECSO_00001134" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00001190" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000074" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00001179" -> "ECSO_00000552" [ label="\"isa\"" ];
+  "ECSO_00001138" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "UO_0000027" -> "UO_0000005" [ label="\"isa\"" ];
+  "ECSO_00000047" -> "ECSO_00000016" [ label="\"isa\"" ];
+  "ECSO_00000012" -> "ECSO_00001105" [ label="\"isa\"" ];
+  "UO_0000163" -> "UO_0000187" [ label="\"isa\"" ];
+  "ECSO_00000313" -> "ECSO_00000526" [ label="\"isa\"" ];
+  "ECSO_00001237" -> "ECSO_00001236" [ label="\"isa\"" ];
+  "ECSO_00000506" -> "ECSO_00000505" [ label="\"isa\"" ];
+  "ECSO_00001197" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000033" -> "ECSO_00000343" [ label="\"isa\"" ];
+  "infrared" -> "ECSO_00001103" [ label="\"isa\"" ];
+  "STATO_0000184" -> "IAO_0000027" [ label="\"isa\"" ];
+  "VolumePerVolume" -> "Proportion" [ label="\"isa\"" ];
+  "ECSO_00001113" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "KilogramPerMeterSquaredPerSecond" -> "ECSO_00000561" [ label="\"isa\"" ];
+  "ECSO_00000093" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "ECSO_00003196" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00000050" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "UO_0000012" -> "UO_0000005" [ label="\"isa\"" ];
+  "ECSO_00000501" -> "ECSO_00000306" [ label="\"isa\"" ];
+  "ECSO_00000572" -> "ENVO_01000155" [ label="\"isa\"" ];
+  "UO_0000005" -> "UO_0000000" [ label="\"isa\"" ];
+  "ECSO_00002777" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00001176" -> "ECSO_00001175" [ label="\"isa\"" ];
+  "ECSO_00000049" -> "ECSO_00001104" [ label="\"isa\"" ];
+  "ECSO_00001253" -> "ECSO_00000553" [ label="\"isa\"" ];
+  "ECSO_00001126" -> "ECSO_00000565" [ label="\"isa\"" ];
+  "ECSO_00000546" -> "BFO_0000003" [ label="\"isa\"" ];
+  "ECSO_00001243" -> "ECSO_00000518" [ label="\"isa\"" ];
+  "ECSO_00000545" -> "ECSO_00001255" [ label="\"isa\"" ];
+  "ECSO_00001125" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "PATO_0001309" -> "PATO_0000001" [ label="\"isa\"" ];
+  "ECSO_00000056" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00000505" -> "Protocol" [ label="\"isa\"" ];
+  "ECSO_00002569" -> "CHEBI_23367" [ label="\"isa\"" ];
+  "ECSO_00001169" -> "ECSO_00001160" [ label="\"isa\"" ];
+  "LiterPerSecond" -> "ECSO_00000561" [ label="\"isa\"" ];
+  "ECSO_00000536" -> "ECSO_00000514" [ label="\"isa\"" ];
+  "ENVO_02500034" -> "ENVO_02500000" [ label="\"isa\"" ];
+  "MilligramPerMeterSquaredPerDay" -> "ECSO_00000560" [ label="\"isa\"" ];
+  "ECSO_00000030" -> "ECSO_00000343" [ label="\"isa\"" ];
+  "ECSO_00001160" -> "ECSO_00001168" [ label="\"isa\"" ];
+  "ECSO_00003030" -> "MeasuredCharacteristic" [ label="\"isa\"" ];
+  "ECSO_00000204" -> "ECSO_00000341" [ label="\"isa\"" ];
+  "UO_0000166" -> "UO_0000186" [ label="\"isa\"" ];
+  "MeterPerSecond" -> "ECSO_00000561" [ label="\"isa\"" ];
+  "Molality" -> "ECSO_00001120" [ label="\"isa\"" ];
+  "ECSO_00000316" -> "ECSO_00000314" [ label="\"isa\"" ];
+  "ECSO_00001245" -> "UO_0000052" [ label="\"isa\"" ];
+  "ECSO_00000066" -> "ECSO_00001207" [ label="\"isa\"" ];
+  "Leaf_Area_Index" -> "UO_0000190" [ label="\"isa\"" ];
+  "ECSO_00001146" -> "ECSO_00001208" [ label="\"isa\"" ];
+  "ECSO_00001166" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00001152" -> "ECSO_00001117" [ label="\"isa\"" ];
+  "ECSO_00000099" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00001206" -> "ECSO_00001203" [ label="\"isa\"" ];
+  "ECSO_00000060" -> "ECSO_00001180" [ label="\"isa\"" ];
+  "ECSO_00001178" -> "ECSO_00001242" [ label="\"isa\"" ];
+  "oxygen_atom" -> "CHEBI_33303" [ label="\"isa\"" ];
+  "ECSO_00000524" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000106" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00000071" -> "ECSO_00001105" [ label="\"isa\"" ];
+  "ECSO_00001139" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00000565" -> "ECSO_00000539" [ label="\"isa\"" ];
+  "ECSO_00000502" -> "ECSO_00000520" [ label="\"isa\"" ];
+  "ECSO_00003031" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "CHEBI_36928" -> "CHEBI_27594" [ label="\"isa\"" ];
+  "ECSO_00000507" -> "ECSO_00000505" [ label="\"isa\"" ];
+  "ECSO_00000535" -> "ECSO_00000539" [ label="\"isa\"" ];
+  "ECSO_00000032" -> "ECSO_00000343" [ label="\"isa\"" ];
+  "ECSO_00001151" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00001225" -> "ECSO_00001104" [ label="\"isa\"" ];
+  "UO_0000110" -> "UO_0000109" [ label="\"isa\"" ];
+  "ECSO_00000051" -> "ECSO_00001185" [ label="\"isa\"" ];
+  "ECSO_00001161" -> "ECSO_00001104" [ label="\"isa\"" ];
+  "ECSO_00000508" -> "ECSO_00000570" [ label="\"isa\"" ];
+  "ECSO_00001194" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000092" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "UO_0000016" -> "UO_0000001" [ label="\"isa\"" ];
+  "ECSO_00001218" -> "ECSO_00001101" [ label="\"isa\"" ];
+  "ECSO_00001115" -> "MeasuredCharacteristic" [ label="\"isa\"" ];
+  "ENVO_01000786" -> "ENVO_02500000" [ label="\"isa\"" ];
+  "UO_0000165" -> "UO_0000187" [ label="\"isa\"" ];
+  "UO_0000168" -> "UO_0000166" [ label="\"isa\"" ];
+  "ECSO_00000515" -> "Length" [ label="\"isa\"" ];
+  "ECSO_00000321" -> "ECSO_00000314" [ label="\"isa\"" ];
+  "ECSO_00000571" -> "ENVO_01000155" [ label="\"isa\"" ];
+  "MolePerKilogram" -> "UO_0000051" [ label="\"isa\"" ];
+  "PATO_0001674" -> "PATO_0000033" [ label="\"isa\"" ];
+  "ECSO_00000522" -> "ECSO_00000530" [ label="\"isa\"" ];
+  "ECSO_00000090" -> "ECSO_00000555" [ label="\"isa\"" ];
+  "ECSO_00001131" -> "ECSO_00000538" [ label="\"isa\"" ];
+  "ECSO_00000543" -> "ECSO_00000536" [ label="\"isa\"" ];
+  "ECSO_00001252" -> "ECSO_00000553" [ label="\"isa\"" ];
+  "KilogramPerMeterSquaredPerSecond" -> "ECSO_00000560" [ label="\"isa\"" ];
+  "ECSO_00001145" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00001215" -> "ECSO_00001251" [ label="\"isa\"" ];
+  "ECSO_00000034" -> "ECSO_00000206" [ label="\"isa\"" ];
+  "ECSO_00000518" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00001249" -> "ECSO_00000518" [ label="\"isa\"" ];
+  "ECSO_00000306" -> "ECSO_00000312" [ label="\"isa\"" ];
+  "ECSO_00001234" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00001192" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "degree_Fahrenheit" -> "UO_0000005" [ label="\"isa\"" ];
+  "ECSO_00000027" -> "ECSO_00000341" [ label="\"isa\"" ];
+  "ECSO_00001170" -> "ECSO_00001160" [ label="\"isa\"" ];
+  "ECSO_00000203" -> "ECSO_00000341" [ label="\"isa\"" ];
+  "ECSO_00001208" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "ECSO_00000327" -> "ECSO_00000329" [ label="\"isa\"" ];
+  "UO_0000015" -> "UO_0000001" [ label="\"isa\"" ];
+  "ECSO_00001104" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000037" -> "ECSO_00000021" [ label="\"isa\"" ];
+  "ECSO_00000098" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00000312" -> "Entity" [ label="\"isa\"" ];
+  "ECSO_00000048" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000021" -> "ECSO_00000015" [ label="\"isa\"" ];
+  "ENVO_01000793" -> "ENVO_02500000" [ label="\"isa\"" ];
+  "ECSO_00001116" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00000553" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000503" -> "ENVO_01000155" [ label="\"isa\"" ];
+  "ECSO_00001222" -> "ECSO_00001252" [ label="\"isa\"" ];
+  "ECSO_00000517" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000566" -> "ECSO_00000565" [ label="\"isa\"" ];
+  "AmountOfSubstanceConcentration" -> "ECSO_00001121" [ label="\"isa\"" ];
+  "ECSO_00001177" -> "ECSO_00001253" [ label="\"isa\"" ];
+  "MassPerMass" -> "Proportion" [ label="\"isa\"" ];
+  "ECSO_00000063" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "Speed" -> "ECSO_00001115" [ label="\"isa\"" ];
+  "ECSO_00001189" -> "ECSO_00001141" [ label="\"isa\"" ];
+  "ECSO_00001108" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00000569" -> "ECSO_00000305" [ label="\"isa\"" ];
+  "ECSO_00001147" -> "ECSO_00000552" [ label="\"isa\"" ];
+  "CHEBI_36927" -> "CHEBI_27594" [ label="\"isa\"" ];
+  "ECSO_00001255" -> "ECSO_00000553" [ label="\"isa\"" ];
+  "ECSO_00000076" -> "ECSO_00000014" [ label="\"isa\"" ];
+  "ECSO_00001216" -> "ECSO_00001106" [ label="\"isa\"" ];
+  "ECSO_00000031" -> "ECSO_00000343" [ label="\"isa\"" ];
+  "ECSO_00001213" -> "ECSO_00001203" [ label="\"isa\"" ];
+  "ECSO_00000079" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00000525" -> "PATO_0000033" [ label="\"isa\"" ];
+  "ECSO_00001153" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00000082" -> "Protocol" [ label="\"isa\"" ];
+  "ECSO_00001112" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "AmountOfSubstanceConcentration" -> "ECSO_00001120" [ label="\"isa\"" ];
+  "ECSO_00000045" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000091" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "ECSO_00001162" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00002932" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00000520" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00002775" -> "MeasuredCharacteristic" [ label="\"isa\"" ];
+  "UO_0000054" -> "UO_0000182" [ label="\"isa\"" ];
+  "ECSO_00001141" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000046" -> "ECSO_00000580" [ label="\"isa\"" ];
+  "ECSO_00000544" -> "ECSO_00001251" [ label="\"isa\"" ];
+  "CHEBI_24431" -> "ECSO_00000527" [ label="\"isa\"" ];
+  "ENVO_00010483" -> "Entity" [ label="\"isa\"" ];
+  "ECSO_00000336" -> "ECSO_00000331" [ label="\"isa\"" ];
+  "ECSO_00001174" -> "ECSO_00001175" [ label="\"isa\"" ];
+  "ECSO_00001251" -> "ECSO_00000553" [ label="\"isa\"" ];
+  "ECSO_00000539" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00000538" -> "ECSO_00000539" [ label="\"isa\"" ];
+  "ultraviolet" -> "ECSO_00001103" [ label="\"isa\"" ];
+  "WattPerMeterSquared" -> "ECSO_00000560" [ label="\"isa\"" ];
+  "UO_0000164" -> "UO_0000187" [ label="\"isa\"" ];
+  "ECSO_00000341" -> "ECSO_00000025" [ label="\"isa\"" ];
+  "ECSO_00001193" -> "ECSO_00001101" [ label="\"isa\"" ];
+  "ECSO_00001214" -> "ECSO_00001251" [ label="\"isa\"" ];
+  "ECSO_00001195" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00001217" -> "ECSO_00001157" [ label="\"isa\"" ];
+  "ECSO_00001196" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00001235" -> "ECSO_00001234" [ label="\"isa\"" ];
+  "ECSO_00001122" -> "ECSO_00000539" [ label="\"isa\"" ];
+  "ECSO_00000083" -> "Protocol" [ label="\"isa\"" ];
+  "ECSO_00000534" -> "ECSO_00000015" [ label="\"isa\"" ];
+  "ECSO_00000044" -> "ECSO_00001106" [ label="\"isa\"" ];
+  "ECSO_00000527" -> "Entity" [ label="\"isa\"" ];
+  "ECSO_00001233" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00000550" -> "ECSO_00000556" [ label="\"isa\"" ];
+  "ECSO_00003195" -> "CHEBI_24835" [ label="\"isa\"" ];
+  "ECSO_00001140" -> "ECSO_00001175" [ label="\"isa\"" ];
+  "ECSO_00001136" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00001127" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000202" -> "ECSO_00000341" [ label="\"isa\"" ];
+  "ECSO_00000511" -> "Length" [ label="\"isa\"" ];
+  "ECSO_00000065" -> "ECSO_00001193" [ label="\"isa\"" ];
+  "ECSO_00001202" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "AmountOfSubstanceConcentration" -> "Proportion" [ label="\"isa\"" ];
+  "ECSO_00000061" -> "ECSO_00000017" [ label="\"isa\"" ];
+  "UO_0000076" -> "UO_0000191" [ label="\"isa\"" ];
+  "ECSO_00000077" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000557" -> "ECSO_00000556" [ label="\"isa\"" ];
+  "ECSO_00000097" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "PAR" -> "ECSO_00001103" [ label="\"isa\"" ];
+  "ECSO_00001157" -> "ECSO_00001101" [ label="\"isa\"" ];
+  "ECSO_00001107" -> "ECSO_00000514" [ label="\"isa\"" ];
+  "ECSO_00001121" -> "MeasuredCharacteristic" [ label="\"isa\"" ];
+  "ECSO_00000020" -> "ECSO_00000015" [ label="\"isa\"" ];
+  "ECSO_00001142" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000305" -> "ECSO_00000312" [ label="\"isa\"" ];
+  "CHEBI_25555" -> "CHEBI_33300" [ label="\"isa\"" ];
+  "Foot" -> "UO_0000001" [ label="\"isa\"" ];
+  "ECSO_00000104" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00001129" -> "ECSO_00000016" [ label="\"isa\"" ];
+  "UO_0000182" -> "UO_0000000" [ label="\"isa\"" ];
+  "ECSO_00001226" -> "ECSO_00001227" [ label="\"isa\"" ];
+  "ECSO_00001172" -> "ECSO_00001147" [ label="\"isa\"" ];
+  "ECSO_00001185" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000574" -> "ENVO_01000281" [ label="\"isa\"" ];
+  "ECSO_00001188" -> "ECSO_00001141" [ label="\"isa\"" ];
+  "ECSO_00001128" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00001257" -> "ECSO_00001256" [ label="\"isa\"" ];
+  "ECSO_00000335" -> "ECSO_00000033" [ label="\"isa\"" ];
+  "UO_0000272" -> "UO_0000109" [ label="\"isa\"" ];
+  "PATO_0001710" -> "PATO_0001241" [ label="\"isa\"" ];
+  "ECSO_Leaf_Decomposition" -> "Concept" [ label="\"isa\"" ];
+  "ENVO_01000349" -> "ENVO_01000155" [ label="\"isa\"" ];
+  "ECSO_00000016" -> "ECSO_00001105" [ label="\"isa\"" ];
+  "ECSO_00000570" -> "ECSO_00000306" [ label="\"isa\"" ];
+  "ECSO_00000559" -> "UO_0000000" [ label="\"isa\"" ];
+  "ECSO_00000315" -> "ECSO_00000314" [ label="\"isa\"" ];
+  "ECSO_00000549" -> "ECSO_00000544" [ label="\"isa\"" ];
+  "ECSO_00000573" -> "ECSO_00000306" [ label="\"isa\"" ];
+  "ECSO_00000514" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000013" -> "ECSO_00001105" [ label="\"isa\"" ];
+  "ECSO_00001238" -> "ECSO_00001254" [ label="\"isa\"" ];
+  "ECSO_00001173" -> "ECSO_00001175" [ label="\"isa\"" ];
+  "ECSO_00001250" -> "ECSO_00000553" [ label="\"isa\"" ];
+  "ECSO_00000057" -> "ECSO_00001180" [ label="\"isa\"" ];
+  "ECSO_00000326" -> "ECSO_00000337" [ label="\"isa\"" ];
+  "ECSO_00000300" -> "ECSO_00000506" [ label="\"isa\"" ];
+  "ENVO_01000830" -> "ENVO_02500000" [ label="\"isa\"" ];
+  "ECSO_00000064" -> "ECSO_00000015" [ label="\"isa\"" ];
+  "ECSO_00000111" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00001159" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00001109" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "ECSO_00000560" -> "UO_0000000" [ label="\"isa\"" ];
+  "ECSO_00001210" -> "ECSO_00001207" [ label="\"isa\"" ];
+  "PATO_0001823" -> "PATO_0001822" [ label="\"isa\"" ];
+  "ECSO_00000526" -> "Entity" [ label="\"isa\"" ];
+  "ECSO_00001156" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000561" -> "ECSO_00000559" [ label="\"isa\"" ];
+  "ECSO_00000309" -> "ECSO_00000526" [ label="\"isa\"" ];
+  "UO_0000187" -> "UO_0000190" [ label="\"isa\"" ];
+  "ECSO_00001101" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000052" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "PATO_0001680" -> "PATO_0001241" [ label="\"isa\"" ];
+  "ECSO_00000324" -> "ECSO_00000329" [ label="\"isa\"" ];
+  "PATO_0001709" -> "PATO_0001241" [ label="\"isa\"" ];
+  "ECSO_00001199" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000080" -> "ECSO_00001106" [ label="\"isa\"" ];
+  "ECSO_00001230" -> "ECSO_00001104" [ label="\"isa\"" ];
+  "ECSO_00000328" -> "ECSO_00000337" [ label="\"isa\"" ];
+  "ECSO_00001102" -> "MeasurementType" [ label="\"isa\"" ];
+  "VolumetricRate" -> "ECSO_00001115" [ label="\"isa\"" ];
+  "ECSO_00001144" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00001130" -> "ECSO_00000520" [ label="\"isa\"" ];
+  "ENVO_02500008" -> "ENVO_02500000" [ label="\"isa\"" ];
+  "ECSO_00001106" -> "ECSO_00000514" [ label="\"isa\"" ];
+  "ECSO_00001120" -> "MeasuredCharacteristic" [ label="\"isa\"" ];
+  "ECSO_00001100" -> "ENVO_00010483" [ label="\"isa\"" ];
+  "UO_0000052" -> "UO_0000182" [ label="\"isa\"" ];
+  "ECSO_00000075" -> "ECSO_00001106" [ label="\"isa\"" ];
+  "ECSO_00000532" -> "ECSO_00000018" [ label="\"isa\"" ];
+  "ECSO_00000310" -> "ECSO_00000526" [ label="\"isa\"" ];
+  "ECSO_00000103" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00001248" -> "ECSO_00001247" [ label="\"isa\"" ];
+  "ECSO_00000053" -> "ECSO_00001104" [ label="\"isa\"" ];
+  "ECSO_00001244" -> "UO_0000052" [ label="\"isa\"" ];
+  "ECSO_00001184" -> "ECSO_00000552" [ label="\"isa\"" ];
+  "ECSO_00001240" -> "ECSO_00001239" [ label="\"isa\"" ];
+  "ECSO_00001183" -> "ECSO_00001167" [ label="\"isa\"" ];
+  "BFO_0000031" -> "BFO_0000005" [ label="\"isa\"" ];
+  "CHEBI_27594" -> "CHEBI_33560" [ label="\"isa\"" ];
+  "ENVO_01000254" -> "Entity" [ label="\"isa\"" ];
+  "ENVO_01000635" -> "ENVO_01000324" [ label="\"isa\"" ];
+  "ECSO_00000575" -> "ECSO_00000574" [ label="\"isa\"" ];
+  "ECSO_00000206" -> "ECSO_00000331" [ label="\"isa\"" ];
+  "ECSO_00001205" -> "ECSO_00001250" [ label="\"isa\"" ];
+  "ECSO_00000096" -> "ECSO_00000083" [ label="\"isa\"" ];
+  "ECSO_00000531" -> "ECSO_00001143" [ label="\"isa\"" ];
+  "ECSO_00000018" -> "ECSO_00000016" [ label="\"isa\"" ];
+  "UO_0000169" -> "UO_0000166" [ label="\"isa\"" ];
+  "ECSO_00001163" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00001175" -> "ECSO_00001252" [ label="\"isa\"" ];
+  "ECSO_00000015" -> "ECSO_00001105" [ label="\"isa\"" ];
+  "ECSO_00001133" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "IAO_0000109" -> "IAO_0000027" [ label="\"isa\"" ];
+  "ECSO_00001123" -> "ECSO_00000514" [ label="\"isa\"" ];
+  "ECSO_00001181" -> "UO_0000054" [ label="\"isa\"" ];
+  "ECSO_00000513" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00001171" -> "ECSO_00001160" [ label="\"isa\"" ];
+  "ENVO_02500000" -> "ECSO_00000546" [ label="\"isa\"" ];
+  "ECSO_00000105" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00001127" -> "ECSO_00000520" [ label="\"isa\"" ];
+  "ECSO_00001256" -> "ECSO_00000514" [ label="\"isa\"" ];
+  "ocean_surface" -> "ENVO_00010504" [ label="\"isa\"" ];
+  "ECSO_00001254" -> "ECSO_00000553" [ label="\"isa\"" ];
+  "ECSO_00000109" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00000062" -> "ECSO_00000519" [ label="\"isa\"" ];
+  "MicromolePerKilogram" -> "UO_0000051" [ label="\"isa\"" ];
+  "ECSO_00001187" -> "ECSO_00001185" [ label="\"isa\"" ];
+  "ECSO_00001229" -> "ECSO_00001104" [ label="\"isa\"" ];
+  "ECSO_00000325" -> "ECSO_00000337" [ label="\"isa\"" ];
+  "ECSO_00000068" -> "ECSO_00001207" [ label="\"isa\"" ];
+  "ECSO_00000509" -> "Length" [ label="\"isa\"" ];
+  "ECSO_00000564" -> "CHEBI_38101" [ label="\"isa\"" ];
+  "ECSO_00001236" -> "MeasurementType" [ label="\"isa\"" ];
+  "KilogramPerMeterSquared" -> "UO_0000052" [ label="\"isa\"" ];
+  "ECSO_Leaves" -> "Concept" [ label="\"isa\"" ];
+  "ECSO_00000110" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00001239" -> "UO_0000000" [ label="\"isa\"" ];
+  "ECSO_00001143" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00000554" -> "Length" [ label="\"isa\"" ];
+  "ECSO_00000331" -> "ECSO_00000025" [ label="\"isa\"" ];
+  "MassFlux" -> "ECSO_00001121" [ label="\"isa\"" ];
+  "ECSO_00001201" -> "ECSO_00001199" [ label="\"isa\"" ];
+  "ECSO_00000059" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00000028" -> "ECSO_00000343" [ label="\"isa\"" ];
+  "ECSO_00000540" -> "ECSO_00000546" [ label="\"isa\"" ];
+  "ECSO_00001198" -> "MeasurementType" [ label="\"isa\"" ];
+  "UO_0000008" -> "UO_0000001" [ label="\"isa\"" ];
+  "ECSO_00001132" -> "ECSO_00000530" [ label="\"isa\"" ];
+  "ECSO_00001135" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00000201" -> "ECSO_00000536" [ label="\"isa\"" ];
+  "ECSO_00001168" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000320" -> "ECSO_00001105" [ label="\"isa\"" ];
+  "PATO_0001422" -> "PATO_0000169" [ label="\"isa\"" ];
+  "ENVO_02500007" -> "ENVO_02500000" [ label="\"isa\"" ];
+  "ECSO_00001105" -> "ECSO_00000514" [ label="\"isa\"" ];
+  "ENVO_00002297" -> "Entity" [ label="\"isa\"" ];
+  "ECSO_00002776" -> "ECSO_00000310" [ label="\"isa\"" ];
+  "ECSO_00000317" -> "ECSO_00000314" [ label="\"isa\"" ];
+  "PATO_0000128" -> "PATO_0001018" [ label="\"isa\"" ];
+  "ECSO_00001241" -> "ECSO_00001242" [ label="\"isa\"" ];
+  "ECSO_00001117" -> "MeasurementType" [ label="\"isa\"" ];
+  "UO_0000191" -> "UO_0000190" [ label="\"isa\"" ];
+  "ECSO_00000102" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00000055" -> "ECSO_00001207" [ label="\"isa\"" ];
+  "ECSO_00000058" -> "ECSO_00001207" [ label="\"isa\"" ];
+  "ECSO_00001203" -> "ECSO_00001250" [ label="\"isa\"" ];
+  "ENVO_01000406" -> "ENVO_00010483" [ label="\"isa\"" ];
+  "ECSO_00000504" -> "ECSO_00000310" [ label="\"isa\"" ];
+  "ECSO_00001207" -> "ECSO_00001250" [ label="\"isa\"" ];
+  "ECSO_00000069" -> "ECSO_00001106" [ label="\"isa\"" ];
+  "ECSO_00001209" -> "ECSO_00001250" [ label="\"isa\"" ];
+  "ECSO_00000541" -> "ECSO_00001252" [ label="\"isa\"" ];
+  "ECSO_00001165" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00000578" -> "ECSO_00001130" [ label="\"isa\"" ];
+  "PATO_0000169" -> "PATO_0001995" [ label="\"isa\"" ];
+  "ENVO_01000203" -> "PATO_0000001" [ label="\"isa\"" ];
+  "PATO_0001432" -> "PATO_0000169" [ label="\"isa\"" ];
+  "ECSO_00000343" -> "ECSO_00000206" [ label="\"isa\"" ];
+  "ECSO_00000512" -> "MeasurementType" [ label="\"isa\"" ];
+  "MolePerLiter" -> "UO_0000051" [ label="\"isa\"" ];
+  "ECSO_00001212" -> "ECSO_00001203" [ label="\"isa\"" ];
+  "ECSO_00000014" -> "ECSO_00001105" [ label="\"isa\"" ];
+  "ECSO_00001242" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000035" -> "ECSO_00000331" [ label="\"isa\"" ];
+  "ECSO_00001211" -> "ECSO_00001256" [ label="\"isa\"" ];
+  "CentimeterPerSecond" -> "ECSO_00000561" [ label="\"isa\"" ];
+  "PATO_0000165" -> "PATO_0001018" [ label="\"isa\"" ];
+  "ECSO_00000533" -> "ECSO_00000301" [ label="\"isa\"" ];
+  "ECSO_00001186" -> "ECSO_00001185" [ label="\"isa\"" ];
+  "ECSO_00000078" -> "ECSO_00001106" [ label="\"isa\"" ];
+  "ECSO_00000519" -> "MeasurementType" [ label="\"isa\"" ];
+  "UO_0000109" -> "UO_0000000" [ label="\"isa\"" ];
+  "ECSO_00001228" -> "ECSO_00001104" [ label="\"isa\"" ];
+  "ECSO_00001223" -> "ECSO_00001175" [ label="\"isa\"" ];
+  "ECSO_00001224" -> "ECSO_00001185" [ label="\"isa\"" ];
+  "ECSO_00000563" -> "ECSO_00000562" [ label="\"isa\"" ];
+  "ECSO_00000556" -> "Mass" [ label="\"isa\"" ];
+  "ECSO_00000025" -> "Entity" [ label="\"isa\"" ];
+  "ECSO_00000552" -> "ECSO_00001168" [ label="\"isa\"" ];
+  "ECSO_00000580" -> "ECSO_00000530" [ label="\"isa\"" ];
+  "ECSO_00001200" -> "ECSO_00001199" [ label="\"isa\"" ];
+  "PATO_0001681" -> "PATO_0000125" [ label="\"isa\"" ];
+  "ECSO_00000528" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00001155" -> "UO_0000047" [ label="\"isa\"" ];
+  "ECSO_00000562" -> "CHEBI_38101" [ label="\"isa\"" ];
+  "MicroeinsteinsPerMeterSquaredPerSecond" -> "ECSO_00000560" [ label="\"isa\"" ];
+  "ECSO_00000523" -> "Length" [ label="\"isa\"" ];
+  "CHEBI_36931" -> "CHEBI_27594" [ label="\"isa\"" ];
+  "ECSO_00001158" -> "UO_0000047" [ label="\"isa\"" ];
+  "ECSO_00000542" -> "ECSO_00000021" [ label="\"isa\"" ];
+  "IAO_0000027" -> "IAO_0000030" [ label="\"isa\"" ];
+  "ECSO_00001232" -> "ECSO_00001256" [ label="\"isa\"" ];
+  "ECSO_00000329" -> "CHEBI_50860" [ label="\"isa\"" ];
+  "ECSO_00001167" -> "MeasurementType" [ label="\"isa\"" ];
+  "ECSO_00000311" -> "ECSO_00000526" [ label="\"isa\"" ];
+  "ECSO_00000027" -> "ECSO_00000331" [ label="\"isa\"" ];
+  "ECSO_00001220" -> "ECSO_00001252" [ label="\"isa\"" ];
+  "ECSO_00000301" -> "ECSO_00000021" [ label="\"isa\"" ];
+  "ECSO_00001221" -> "ECSO_00001252" [ label="\"isa\"" ];
+  "ECSO_00000308" -> "ECSO_00000010" [ label="\"isa\"" ];
+  "ECSO_00001246" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ECSO_00001150" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00000094" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "ECSO_00000101" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "ECSO_00000017" -> "ECSO_00000016" [ label="\"isa\"" ];
+  "ECSO_00000568" -> "ECSO_00000524" [ label="\"isa\"" ];
+  "ECSO_00001182" -> "UO_0000052" [ label="\"isa\"" ];
+  "ECSO_00001114" -> "Mass" [ label="\"isa\"" ];
+  "ECSO_00000108" -> "ECSO_00000096" [ label="\"isa\"" ];
+  "UO_0000186" -> "UO_0000000" [ label="\"isa\"" ];
+  "ECSO_00001191" -> "ECSO_00001102" [ label="\"isa\"" ];
+  "ECSO_00001164" -> "ECSO_00000512" [ label="\"isa\"" ];
+  "ArealMassDensity" -> "ECSO_00000551" [ label="\"isa\"" ];
+  "ECSO_00001103" -> "ECSO_00001100" [ label="\"isa\"" ];
+  "ECSO_00000548" -> "Mass" [ label="\"isa\"" ];
+  "PATO_0000125" -> "PATO_0001018" [ label="\"isa\"" ];
+  "ECSO_00001231" -> "ECSO_00001227" [ label="\"isa\"" ];
+  "ECSO_00000095" -> "ECSO_00000082" [ label="\"isa\"" ];
+  "ECSO_00001219" -> "ECSO_00001106" [ label="\"isa\"" ];
+  "CHEBI_33303" -> "CHEBI_33560" [ label="\"isa\"" ];
+  "ECSO_00001118" -> "ECSO_00001130" [ label="\"isa\"" ];
+  "ECSO_00001227" -> "ECSO_00001104" [ label="\"isa\"" ];
+  "Irradiance" -> "ECSO_00001121" [ label="\"isa\"" ];
+  "ECSO_00000567" -> "ECSO_00000538" [ label="\"isa\"" ];
+  "ECSO_00000323" -> "ECSO_00000337" [ label="\"isa\"" ];
+  "ECSO_00000576" -> "ECSO_00000520" [ label="\"isa\"" ];
+  "ECSO_00000577" -> "ECSO_00001130" [ label="\"isa\"" ];
+  "ECSO_00001110" -> "ECSO_00001198" [ label="\"isa\"" ];
+  "ECSO_00000529" -> "PATO_0000033" [ label="\"isa\"" ];
+  "carbon_cycling" -> "ENVO_02500000" [ label="\"isa\"" ];
+  "MilligramPerMeterCubedPerDay" -> "ECSO_00000561" [ label="\"isa\"" ];
+  "ECSO_00001149" -> "ECSO_00000552" [ label="\"isa\"" ];
+  "UO_0000190" -> "UO_0000186" [ label="\"isa\"" ];
+  "UO_0000001" -> "UO_0000000" [ label="\"isa\"" ];
+  "ECSO_00001111" -> "ECSO_00000513" [ label="\"isa\"" ];
+  "ECSO_00000547" -> "ECSO_00000540" [ label="\"isa\"" ];
+  "ECSO_00000546" -> "Entity" [ label="\"isa\"" ];
+  "ECSO_00000510" -> "Length" [ label="\"isa\"" ];
+  "ECSO_00000070" -> "ECSO_00001205" [ label="\"isa\"" ];
+  "ECSO_00001252" -> "ONTORELA_C0231X" [ label="\"isa\"" ];
+  "ECSO_00000312" -> "ONTORELA_C0231X" [ label="\"isa\"" ];
+  "ONTORELA_C0231X-el0" -> "ONTORELA_C0231X" [ label="\"isa\"" ];
+  "ONTORELA_C0234X" -> "ENVO_00002006" [ label="\"isa\"" ];
+  "ECSO_00000301" -> "ECSO_00000021" [ label="\"isa\"" ];
+  "ENVO_00002006" -> "ONTORELA_C0236X" [ label="\"isa\"" ];
+  "ENVO_01000277" -> "ONTORELA_C0236X" [ label="\"isa\"" ];
+  "ONTORELA_C0238X" -> "CHEBI_25555" [ label="\"isa\"" ];
+  "ONTORELA_C023aX" -> "ECSO_00000329" [ label="\"isa\"" ];
+  "ONTORELA_C023cX" -> "ECSO_00000573" [ label="\"isa\"" ];
+  "ONTORELA_C023eX" -> "ENVO_01000155" [ label="\"isa\"" ];
+  "ONTORELA_C0240X" -> "Entity" [ label="\"isa\"" ];
+  "ONTORELA_C0242X" -> "ECSO_00000326" [ label="\"isa\"" ];
+  "ocean_surface" -> "ONTORELA_C0244X" [ label="\"isa\"" ];
+  "ENVO_01000324" -> "ONTORELA_C0244X" [ label="\"isa\"" ];
+  "ENVO_00002005" -> "ONTORELA_C0246X" [ label="\"isa\"" ];
+  "ENVO_00002006" -> "ONTORELA_C0246X" [ label="\"isa\"" ];
+  "ECSO_00000091" -> "ONTORELA_C0248X" [ label="\"isa\"" ];
+  "ECSO_00000555" -> "ONTORELA_C0248X" [ label="\"isa\"" ];
+  "ENVO_00000063" -> "ONTORELA_C024aX" [ label="\"isa\"" ];
+  "ENVO_01000635" -> "ONTORELA_C024aX" [ label="\"isa\"" ];
+  "ONTORELA_C024cX" -> "ECSO_00000337" [ label="\"isa\"" ];
+  "ONTORELA_C024eX" -> "ECSO_00000503" [ label="\"isa\"" ];
+  "ONTORELA_C0250X" -> "ECSO_00000337" [ label="\"isa\"" ];
+  "ONTORELA_C0252X" -> "CHEBI_27594" [ label="\"isa\"" ];
+  "ONTORELA_C0254X" -> "ENVO_00002006" [ label="\"isa\"" ];
+  "ONTORELA_C0256X" -> "ECSO_00000326" [ label="\"isa\"" ];
+  "ONTORELA_C0258X" -> "ECSO_00000329" [ label="\"isa\"" ];
+  "ONTORELA_C025aX" -> "oxygen_atom" [ label="\"isa\"" ];
+  "ECSO_00000504" -> "ONTORELA_C025cX" [ label="\"isa\"" ];
+  "ECSO_00000573" -> "ONTORELA_C025cX" [ label="\"isa\"" ];
+  "ECSO_00001254" -> "ONTORELA_C025eX" [ label="\"isa\"" ];
+  "ECSO_00000312" -> "ONTORELA_C025eX" [ label="\"isa\"" ];
+  "ONTORELA_C025eX-el0" -> "ONTORELA_C025eX" [ label="\"isa\"" ];
+  "ECSO_00001138" -> "ONTORELA_C0261X" [ label="\"isa\"" ];
+  "ECSO_00000312" -> "ONTORELA_C0261X" [ label="\"isa\"" ];
+  "ONTORELA_C0261X-el0" -> "ONTORELA_C0261X" [ label="\"isa\"" ];
+  "ONTORELA_C0264X" -> "ECSO_00000325" [ label="\"isa\"" ];
+  "ECSO_00000503" -> "ONTORELA_C0266X" [ label="\"isa\"" ];
+  "ENVO_00002040" -> "ONTORELA_C0266X" [ label="\"isa\"" ];
+  "ENVO_01000349" -> "ONTORELA_C0266X" [ label="\"isa\"" ];
+  "ENVO_01000020" -> "ONTORELA_C0268X" [ label="\"isa\"" ];
+  "ENVO_01000048" -> "ONTORELA_C0268X" [ label="\"isa\"" ];
+  "ONTORELA_C026aX" -> "CHEBI_27594" [ label="\"isa\"" ];
+  "ONTORELA_C026cX" -> "ECSO_00000503" [ label="\"isa\"" ];
+  "ECSO_00001253" -> "ONTORELA_C026eX" [ label="\"isa\"" ];
+  "ECSO_00000312" -> "ONTORELA_C026eX" [ label="\"isa\"" ];
+  "ONTORELA_C026eX-el0" -> "ONTORELA_C026eX" [ label="\"isa\"" ];
+  "Entity" -> "ECSO_00000314" [ label="[1..*]
+\"ECSO_00000318@has state\"" ];
+  "MeasurementType" -> "ECSO_00000546" [ label="[1..*]
+\"RO_0000056@participates in\"" ];
+  "ECSO_00000512" -> "Entity" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000512" -> "Entity" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000577" -> "ENVO_00002006" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000580" -> "ECSO_00000323" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000580" -> "ENVO_00002005" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000522" -> "ECSO_00000323" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000522" -> "ENVO_00002011" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ENVO_00005801" -> "ENVO_01000349" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00000300" -> "ECSO_00000323" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001171" -> "ENVO_00003075" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000013" -> "ENVO_01001305" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001166" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000541" -> "ECSO_00000094" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00001150" -> "ECSO_00000312" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001153" -> "PATO_0001824" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ECSO_00001109" -> "CHEBI_25555" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001177" -> "ECSO_00000312" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001131" -> "ECSO_00000326" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001131" -> "ENVO_00002010" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001196" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001152" -> "ENVO_00010504" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001256" -> "ECSO_00000560" [ label="[1..*]
+\"measuresUsingStandard@measuresUsingStandard\"" ];
+  "ECSO_00003196" -> "ECSO_00003195" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000535" -> "ECSO_00000337" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000535" -> "ENVO_00002010" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000076" -> "carbon_cycling" [ label="[1..*]
+\"RO_0000056@participates in\"" ];
+  "ECSO_00000055" -> "ECSO_00000574" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000531" -> "ECSO_00000555" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00001128" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000574" -> "ENVO_00001998" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001178" -> "ENVO_00001998" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000053" -> "ECSO_00000574" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000517" -> "ONTORELA_C0234X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0234X" -> "ENVO_00001998" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000556" -> "PATO_0001824" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ECSO_00000067" -> "ECSO_00000569" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001110" -> "ENVO_00005802" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001126" -> "ECSO_00000325" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001126" -> "ENVO_00002010" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001230" -> "ENVO_00001998" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001122" -> "ECSO_00000337" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001122" -> "ENVO_00002011" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000533" -> "ECSO_00000090" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00000522" -> "ECSO_00000323" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000522" -> "ENVO_00002011" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ENVO_00000111" -> "ECSO_00000501" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001207" -> "ENVO_00001998" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001243" -> "ECSO_00000562" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00003196" -> "ECSO_00001120" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ECSO_00000501" -> "ENVO_00002040" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001241" -> "PATO_0001824" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ECSO_00000539" -> "ECSO_00000337" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000539" -> "ENVO_00002006" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000533" -> "ECSO_00000503" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001180" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000566" -> "ECSO_00000325" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000566" -> "ENVO_00002011" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001161" -> "ENVO_00002006" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001114" -> "ENVO_01000155" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001213" -> "ENVO_00002041" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000548" -> "PATO_0001823" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ENVO_01000406" -> "ONTORELA_C0236X" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00000567" -> "ECSO_00000326" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000567" -> "ENVO_00002011" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000580" -> "ECSO_00000323" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000580" -> "ENVO_00002005" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000046" -> "ENVO_00010504" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001127" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000091" -> "ENVO_01000323" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001110" -> "ENVO_00001998" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000050" -> "ECSO_00000503" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000056" -> "ENVO_01000793" [ label="[1..*]
+\"RO_0000056@participates in\"" ];
+  "ECSO_00000052" -> "ECSO_00000574" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001200" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000565" -> "ECSO_00000325" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000565" -> "ENVO_00002006" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001195" -> "ENVO_00010504" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000502" -> "CHEBI_27594" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000502" -> "ENVO_01000155" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001249" -> "ECSO_00000564" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001151" -> "PATO_0001824" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ECSO_00001125" -> "ECSO_00000329" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001125" -> "ENVO_00002006" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001132" -> "ECSO_00000323" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001132" -> "ENVO_00002010" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001144" -> "ONTORELA_C0238X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0238X" -> "ENVO_00001998" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001203" -> "ENVO_00002006" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000531" -> "ONTORELA_C023aX" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001165" -> "ENVO_00002006" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001165" -> "ENVO_00001998" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000047" -> "ENVO_02500008" [ label="[1..*]
+\"RO_0000056@participates in\"" ];
+  "ECSO_00003031" -> "ENVO_00001998" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001192" -> "ENVO_00000047" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00002777" -> "ECSO_00002776" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000054" -> "ENVO_01000635" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001132" -> "ECSO_00000323" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001132" -> "ENVO_00002010" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001130" -> "ECSO_00000329" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001130" -> "ENVO_00002006" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001197" -> "ONTORELA_C023cX" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C023cX" -> "ENVO_00010504" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000075" -> "ENVO_01000323" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000553" -> "ECSO_00000094" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00001111" -> "ONTORELA_C023eX" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C023eX" -> "ENVO_00001998" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001172" -> "ENVO_01000628" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000025" -> "ECSO_00000329" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001187" -> "ENVO_00002149" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00003031" -> "ECSO_00003030" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ECSO_00001169" -> "ECSO_00000312" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001186" -> "ENVO_00002005" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000534" -> "ECSO_00000504" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000534" -> "ENVO_00002030" [ label="[1..*]
+\"RO_0001025@RO_0001025\"" ];
+  "ECSO_00000058" -> "ECSO_00000574" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00002777" -> "ECSO_00002775" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ECSO_00001190" -> "ONTORELA_C0240X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0240X" -> "ENVO_00010504" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001149" -> "ECSO_00000312" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000545" -> "ECSO_00000094" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00000095" -> "ENVO_01000635" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001129" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000538" -> "ONTORELA_C0242X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0242X" -> "ENVO_00002006" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001228" -> "ENVO_00005774" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000528" -> "ENVO_01000324" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001116" -> "CHEBI_51143" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001116" -> "ENVO_00002006" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ENVO_00010504" -> "ONTORELA_C0244X" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000576" -> "CHEBI_27594" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000576" -> "ENVO_00001998" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000074" -> "ENVO_01000324" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000555" -> "ENVO_01001305" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001143" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ENVO_01001305" -> "ECSO_00000573" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001237" -> "ENVO_00002006" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001235" -> "ENVO_00001999" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001193" -> "Name" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ENVO_00002033" -> "PATO_0001422" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ECSO_00000579" -> "ENVO_00001998" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000530" -> "ECSO_00000323" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000530" -> "ONTORELA_C0246X" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000051" -> "ENVO_01000324" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000015" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001210" -> "ECSO_00000575" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000544" -> "ECSO_00000094" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00001139" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001216" -> "ENVO_01000635" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001191" -> "ECSO_00000503" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000013" -> "ONTORELA_C0248X" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00000020" -> "ONTORELA_C024aX" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000551" -> "ECSO_00001114" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00000071" -> "ENVO_01000786" [ label="[1..*]
+\"RO_0000056@participates in\"" ];
+  "ECSO_00000579" -> "ECSO_00003030" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ECSO_00002932" -> "ECSO_00002569" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001116" -> "CHEBI_51143" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001116" -> "ENVO_00002006" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001167" -> "PATO_0001309" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ECSO_00002932" -> "ECSO_00001120" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ECSO_00001148" -> "ECSO_00000503" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001162" -> "ENVO_00002006" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000094" -> "ECSO_00000540" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001136" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000079" -> "ENVO_02500034" [ label="[1..*]
+\"RO_0000056@participates in\"" ];
+  "ECSO_00001229" -> "ENVO_01000635" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001139" -> "PATO_0001823" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ECSO_00001179" -> "CHEBI_25555" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001178" -> "PATO_0001823" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ECSO_00001212" -> "ENVO_00000023" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001241" -> "ENVO_00001998" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001202" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001202" -> "ENVO_01000155" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000093" -> "oxygen_atom" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001142" -> "CHEBI_36928" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000535" -> "ONTORELA_C024cX" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C024cX" -> "ENVO_00002010" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000080" -> "ENVO_01000323" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ENVO_01000628" -> "PATO_0001422" [ label="[1..*]
+\"RO_0000086@RO_0000086\"" ];
+  "ENVO_01000628" -> "ECSO_00000503" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001156" -> "ONTORELA_C024eX" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C024eX" -> "ENVO_00010504" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "carbon_cycling" -> "CHEBI_27594" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00000073" -> "ENVO_00002040" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001222" -> "ECSO_00000503" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000062" -> "ENVO_01000830" [ label="[1..*]
+\"RO_0000056@participates in\"" ];
+  "ECSO_00001174" -> "ocean_surface" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000014" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001122" -> "ONTORELA_C0250X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0250X" -> "ENVO_00002011" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000201" -> "ECSO_00000091" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00001144" -> "CHEBI_25555" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001144" -> "ENVO_00001998" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001134" -> "ONTORELA_C0252X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0252X" -> "ENVO_00001998" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001170" -> "ECSO_00000503" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000566" -> "ECSO_00000325" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000566" -> "ENVO_00002011" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001108" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000516" -> "ECSO_00000563" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001151" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001153" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000517" -> "ECSO_00001112" [ label="[1..*]
+\"measuresUsingProtocol@measuresUsingProtocol\"" ];
+  "ECSO_00001145" -> "CHEBI_25555" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001205" -> "ENVO_01000406" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001220" -> "ENVO_00000047" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001165" -> "ONTORELA_C0254X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0254X" -> "ENVO_00001998" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000072" -> "ENVO_01000324" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000543" -> "ocean_surface" [ label="[1..*]
+\"RO_0001025@RO_0001025\"" ];
+  "ECSO_00000567" -> "ONTORELA_C0256X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0256X" -> "ENVO_00002011" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001219" -> "ECSO_00001100" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001125" -> "ONTORELA_C0258X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0258X" -> "ENVO_00002006" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000049" -> "ENVO_01000324" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001157" -> "Identifier" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ECSO_00001246" -> "ONTORELA_C025aX" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C025aX" -> "ENVO_00010483" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000061" -> "ONTORELA_C025cX" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ONTORELA_C0261X-el0" -> "ENVO_00010483" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001138" -> "CHEBI_25555" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001138" -> "CHEBI_27594" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000068" -> "ENVO_00000134" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000565" -> "ONTORELA_C0264X" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C0264X" -> "ENVO_00002006" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001225" -> "ENVO_00002005" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000043" -> "ONTORELA_C0266X" [ label="[1..*]
+\"RO_0002473@composed primarily of\"" ];
+  "ECSO_00001234" -> "ENVO_00002006" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000580" -> "ENVO_00010504" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001227" -> "ENVO_00002006" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000542" -> "ECSO_00000508" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000542" -> "ONTORELA_C0268X" [ label="[1..*]
+\"RO_0001025@RO_0001025\"" ];
+  "ECSO_00001221" -> "ECSO_00000503" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001217" -> "TagNumber" [ label="[1..*]
+\"measuresCharacteristic@measuresCharacteristic\"" ];
+  "ECSO_00001147" -> "ECSO_00000503" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000064" -> "ENVO_02500007" [ label="[1..*]
+\"RO_0000056@participates in\"" ];
+  "ECSO_00001137" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001175" -> "ENVO_00002006" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001224" -> "ECSO_00000323" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001233" -> "ENVO_00002005" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001206" -> "ENVO_00000105" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001130" -> "ECSO_00000329" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00001130" -> "ENVO_00002006" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001202" -> "CHEBI_27594" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00001202" -> "ENVO_01000155" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00001204" -> "ocean_surface" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001133" -> "ONTORELA_C026aX" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C026aX" -> "ENVO_01001305" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000092" -> "CHEBI_36927" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001209" -> "ENVO_01000628" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ENVO_00002042" -> "ENVO_00010504" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001167" -> "UO_0000003" [ label="[1..*]
+\"measuresUsingStandard@measuresUsingStandard\"" ];
+  "ECSO_00000538" -> "ECSO_00000326" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000538" -> "ENVO_00002006" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+  "ECSO_00000046" -> "ECSO_00000323" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000046" -> "ENVO_00002005" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001238" -> "ENVO_00003075" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000078" -> "ENVO_01000324" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001184" -> "ENVO_01000155" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ECSO_00000066" -> "ECSO_00000574" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00001226" -> "ENVO_00001999" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00001135" -> "ONTORELA_C026cX" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ONTORELA_C026cX" -> "ENVO_00010504" [ label="[1..*]
+\"BFO_0000050@BFO_0000050\"" ];
+  "ECSO_00000056" -> "ENVO_01000324" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000582" -> "ECSO_00000324" [ label="[1..*]
+\"measuresEntity@measuresEntity\"" ];
+  "ENVO_01000155" -> "CHEBI_27594" [ label="[1..*]
+\"ENVO_2100001@determined by\"" ];
+  "ECSO_00000046" -> "ECSO_00000323" [ label="[1..*]
+\"STATO_0000101@has numerator\"" ];
+  "ECSO_00000046" -> "ENVO_00002005" [ label="[1..*]
+\"STATO_0000259@has denominator\"" ];
+}

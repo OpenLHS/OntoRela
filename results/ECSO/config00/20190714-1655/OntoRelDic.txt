@@ -1,0 +1,888 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.dataone.org/odo/ECSO_00000110 -> T0001::ECSO_00000110::VEGAS2.1_MstmipVersion1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00000013 -> T0002::ECSO_00000013::Fire Carbon Flux
+http://purl.dataone.org/odo/ECSO_00000049 -> T0003::ECSO_00000049::Near Surface Air Temperature MOV
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Millimeter -> T0004::Millimeter::Millimeter
+http://purl.dataone.org/odo/ECSO_00000025 -> T0005::ECSO_00000025::Carbon Pool
+http://purl.obolibrary.org/obo/ENVO_00002010 -> T0006::ENVO_00002010::ENVO_00002010
+http://purl.dataone.org/odo/ECSO_00000037 -> T0007::ECSO_00000037::Annual Net Primary Productivity Flux
+http://purl.obolibrary.org/obo/CHEBI_24835 -> T0008::CHEBI_24835::CHEBI_24835
+http://purl.obolibrary.org/obo/ENVO_02500008 -> T0009::ENVO_02500008::ecosystem-wide respiration
+http://purl.dataone.org/odo/ECSO_00001212 -> T000a::ECSO_00001212::Stream Depth
+http://purl.dataone.org/odo/ECSO_00001200 -> T000b::ECSO_00001200::Biomass Volumetric Density
+http://purl.dataone.org/odo/ECSO_#KilogramPerMeterSquaredPerSecond -> T000c::KilogramPerMeterSquaredPerSecond::KilogramPerMeterSquaredPerSecond
+http://purl.dataone.org/odo/ECSO_00001139 -> T000d::ECSO_00001139::Wet Weight Biomass
+http://purl.obolibrary.org/obo/PATO_0001680 -> T000e::PATO_0001680::molar volume
+http://purl.dataone.org/odo/ECSO_00001127 -> T000f::ECSO_00001127::Carbon Percentage
+http://purl.dataone.org/odo/ECSO_00001248 -> T0010::ECSO_00001248::GramPerMeterCubed
+http://purl.dataone.org/odo/ECSO_00001115 -> T0011::ECSO_00001115::Temporal Rate
+http://purl.dataone.org/odo/ECSO_00001236 -> T0012::ECSO_00001236::volume_measurementType
+http://purl.dataone.org/odo/ECSO_00001103 -> T0013::ECSO_00001103::solar radiation
+http://purl.dataone.org/odo/ECSO_00001224 -> T0014::ECSO_00001224::Carbon Dioxide Pressure
+http://purl.dataone.org/odo/ECSO_00000571 -> T0015::ECSO_00000571::dissolved organic carbon
+http://purl.obolibrary.org/obo/ENVO_00005774 -> T0016::ENVO_00005774::ENVO_00005774
+http://purl.obolibrary.org/obo/BFO_0000020 -> T0017::BFO_0000020::specifically dependent continuant
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Pressure -> T0018::Pressure::Pressure
+http://purl.dataone.org/odo/ECSO_#http://purl.obolibrary.org/obo/ENVO_01000406 -> T0019::ENVO_01000406::snow
+http://purl.dataone.org/odo/ECSO_00000341 -> T001a::ECSO_00000341::Inorganic Carbon Pool
+http://purl.dataone.org/odo/ECSO_00000111 -> T001b::ECSO_00000111::VISIT_MstmipVersion1_Modeled_Method
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#KilometerSquared -> T001c::KilometerSquared::KilometerSquared
+http://purl.obolibrary.org/obo/ENVO_00002033 -> T001d::ENVO_00002033::ENVO_00002033
+http://purl.dataone.org/odo/ECSO_00000014 -> T001e::ECSO_00000014::Net Ecosystem Exchange Carbon Flux
+http://purl.obolibrary.org/obo/ENVO_00010483 -> T001f::ENVO_00010483::environmental material
+http://purl.obolibrary.org/obo/PATO_0000033 -> T0020::PATO_0000033::PATO_0000033
+http://purl.dataone.org/odo/ECSO_00001102 -> T0021::ECSO_00001102::Proportion Measurement Type
+http://purl.dataone.org/odo/ECSO_00001223 -> T0022::ECSO_00001223::Precipitation Height
+http://purl.dataone.org/odo/ECSO_00001211 -> T0023::ECSO_00001211::Specifc Net Production Flux
+http://purl.dataone.org/odo/ECSO_00001138 -> T0024::ECSO_00001138::Carbon to Nitrogen Ratio
+http://purl.dataone.org/odo/ECSO_00001126 -> T0025::ECSO_00001126::Oceanic Carbonate Concentration
+http://purl.dataone.org/odo/ECSO_00001247 -> T0026::ECSO_00001247::volumetric density unit
+http://purl.obolibrary.org/obo/PATO_0001025 -> T0027::PATO_0001025::PATO_0001025
+http://purl.dataone.org/odo/ECSO_00001114 -> T0028::ECSO_00001114::Biomass
+http://purl.dataone.org/odo/ECSO_00001235 -> T0029::ECSO_00001235::Seawater Velocity
+http://purl.dataone.org/odo/ECSO_00000582 -> T002a::ECSO_00000582::Methane Flux
+http://purl.dataone.org/odo/ECSO_00000570 -> T002b::ECSO_00000570::Algae
+http://purl.obolibrary.org/obo/IAO_0000109 -> T002c::IAO_0000109::measurement data item
+http://purl.dataone.org/odo/ECSO_00000035 -> T002d::ECSO_00000035::Dissolved Organic Carbon Pool
+http://purl.dataone.org/odo/ECSO_00000047 -> T002e::ECSO_00000047::Total_Respiration_MOV
+http://purl.dataone.org/odo/ECSO_00000059 -> T002f::ECSO_00000059::Snow Water Equivalent MOV
+http://purl.obolibrary.org/obo/ENVO_01000307 -> T0030::ENVO_01000307::ENVO_01000307
+http://purl.obolibrary.org/obo/PATO_0000165 -> T0031::PATO_0000165::time
+http://purl.dataone.org/odo/ECSO_00001113 -> T0032::ECSO_00001113::High Temperature Combustion
+http://purl.dataone.org/odo/ECSO_00001234 -> T0033::ECSO_00001234::Water Velocity
+http://purl.dataone.org/odo/ECSO_00001101 -> T0034::ECSO_00001101::00 Unclassified Measurement Type
+http://purl.dataone.org/odo/ECSO_00001222 -> T0035::ECSO_00001222::Plant Material Height
+http://purl.dataone.org/odo/ECSO_00001210 -> T0036::ECSO_00001210::Soil Active Layer Depth
+http://purl.dataone.org/odo/ECSO_00001149 -> T0037::ECSO_00001149::Non-Plant Material Biomass Density
+http://purl.dataone.org/odo/ECSO_00001137 -> T0038::ECSO_00001137::Net Primary Production Biomass Flux
+http://purl.dataone.org/odo/ECSO_00001125 -> T0039::ECSO_00001125::Dissolved Organic Carbon Concentration
+http://purl.dataone.org/odo/ECSO_00001246 -> T003a::ECSO_00001246::Oxygen Concentration
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Protocol -> T003b::Protocol::Protocol
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Volume -> T003c::Volume::Volume
+http://purl.dataone.org/odo/ECSO_00000012 -> T003d::ECSO_00000012::Dissolved Organic Carbon Flux
+http://purl.obolibrary.org/obo/ENVO_00002297 -> T003e::ENVO_00002297::environmental feature
+http://purl.dataone.org/odo/ECSO_00000048 -> T003f::ECSO_00000048::Absorbed_Fraction_Incoming_PAR_MOV
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#MassDensity -> T0040::MassDensity::MassDensity
+http://purl.dataone.org/odo/ECSO_00001245 -> T0041::ECSO_00001245::GramPerCentimeterCubed
+http://purl.dataone.org/odo/ECSO_00001112 -> T0042::ECSO_00001112::Volumetric Water Content Method
+http://purl.dataone.org/odo/ECSO_00001233 -> T0043::ECSO_00001233::Wind Speed
+http://purl.dataone.org/odo/ECSO_00001100 -> T0044::ECSO_00001100::electromagnetic radiation
+http://purl.dataone.org/odo/ECSO_00001221 -> T0045::ECSO_00001221::Crown Height
+http://purl.obolibrary.org/obo/PATO_0001241 -> T0046::PATO_0001241::PATO_0001241
+http://purl.dataone.org/odo/ECSO_00001148 -> T0047::ECSO_00001148::Plant Material Biomass
+http://purl.dataone.org/odo/ECSO_00001136 -> T0048::ECSO_00001136::Growth Rate
+http://purl.dataone.org/odo/ECSO_00001257 -> T0049::ECSO_00001257::Specific Respiration Flux
+http://purl.dataone.org/odo/ECSO_00000580 -> T004a::ECSO_00000580::CO2 Concentration in air
+http://purl.dataone.org/odo/ECSO_00000045 -> T004b::ECSO_00000045::Total_Soil_Wetness_MOV
+http://purl.obolibrary.org/obo/ENVO_00002030 -> T004c::ENVO_00002030::ENVO_00002030
+http://purl.dataone.org/odo/ECSO_00000057 -> T004d::ECSO_00000057::Size of Each Carbon Pool MOV
+http://purl.dataone.org/odo/ECSO_00000021 -> T004e::ECSO_00000021::Net Primary Production Carbon Flux
+http://purl.dataone.org/odo/ECSO_00000033 -> T004f::ECSO_00000033::Wood Carbon Pool
+http://purl.dataone.org/odo/ECSO_00000069 -> T0050::ECSO_00000069::Net_Shortwave_Radiation_MOV
+http://purl.obolibrary.org/obo/ENVO_00002042 -> T0051::ENVO_00002042::ENVO_00002042
+http://purl.obolibrary.org/obo/ENVO_01000349 -> T0052::ENVO_01000349::root matter
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Length -> T0053::Length::Length
+http://purl.obolibrary.org/obo/UO_0000109 -> T0054::UO_0000109::pressure unit
+http://purl.dataone.org/odo/ECSO_00001135 -> T0055::ECSO_00001135::Aboveground Biomass
+http://purl.dataone.org/odo/ECSO_00001256 -> T0056::ECSO_00001256::Specific Flux
+http://purl.dataone.org/odo/ECSO_00001123 -> T0057::ECSO_00001123::Net Assimilation Rate Flux
+http://purl.dataone.org/odo/ECSO_00001244 -> T0058::ECSO_00001244::GramPerCentimeterCubed
+http://purl.dataone.org/odo/ECSO_00001111 -> T0059::ECSO_00001111::Belowground Biomass
+http://purl.dataone.org/odo/ECSO_00001232 -> T005a::ECSO_00001232::Specifc Gross Production Flux
+http://purl.dataone.org/odo/ECSO_00001220 -> T005b::ECSO_00001220::Tree Canopy Height
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0238X -> T005c::ONTORELA_C0238X::Total Soil Nitrogen Concentration intersectionOf nitrogen atom
+http://purl.dataone.org/odo/ECSO_00001159 -> T005d::ECSO_00001159::Water pH
+http://purl.dataone.org/odo/ECSO_00001147 -> T005e::ECSO_00001147::Plant Material Biomass Density
+http://purl.dataone.org/odo/ECSO_#oxygen_atom -> T005f::oxygen_atom::oxygen atom
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Foot -> T0060::Foot::foot
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#MicromolePerKilogram -> T0061::MicromolePerKilogram::MicromolePerKilogram
+http://purl.dataone.org/odo/ECSO_00000034 -> T0062::ECSO_00000034::Leaf Litter Carbon Pool
+http://purl.obolibrary.org/obo/ENVO_00002041 -> T0063::ENVO_00002041::ENVO_00002041
+http://purl.dataone.org/odo/ECSO_00000046 -> T0064::ECSO_00000046::Near_Surface_CO2_Concentration_MOV
+http://purl.obolibrary.org/obo/PATO_0001018 -> T0065::PATO_0001018::PATO_0001018
+http://purl.dataone.org/odo/ECSO_00000010 -> T0066::ECSO_00000010::Carbon Cycle Component
+http://purl.obolibrary.org/obo/ENVO_01000324 -> T0067::ENVO_01000324::ENVO_01000324
+http://purl.dataone.org/odo/ECSO_00000058 -> T0068::ECSO_00000058::Soil_Layer_Node_Depth_MOV
+http://purl.obolibrary.org/obo/ENVO_01000203 -> T0069::ENVO_01000203::Environmental Condition
+http://purl.obolibrary.org/obo/PATO_0000001 -> T006a::PATO_0000001::quality
+http://purl.dataone.org/odo/ECSO_00001146 -> T006b::ECSO_00001146::Freshwater
+http://purl.dataone.org/odo/ECSO_00001134 -> T006c::ECSO_00001134::Soil Carbon Change Percentage
+http://purl.dataone.org/odo/ECSO_00001255 -> T006d::ECSO_00001255::Circumference
+http://purl.dataone.org/odo/ECSO_00001122 -> T006e::ECSO_00001122::Freshwater Total Inorganic Carbon Concentration
+http://purl.dataone.org/odo/ECSO_00001243 -> T006f::ECSO_00001243::Chlorophyll Concentration
+http://purl.dataone.org/odo/ECSO_00001110 -> T0070::ECSO_00001110::Soil Bulk Density
+http://purl.dataone.org/odo/ECSO_00001231 -> T0071::ECSO_00001231::Lake Temperature
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0261X -> T0072::ONTORELA_C0261X::Carbon to Nitrogen Ratio unionOf Organism | environmental material
+http://purl.obolibrary.org/obo/CHEBI_27594 -> T0073::CHEBI_27594::carbon atom
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#MeterPerSecond -> T0074::MeterPerSecond::MeterPerSecond
+http://purl.dataone.org/odo/ECSO_00001158 -> T0075::ECSO_00001158::square kilometer
+http://purl.dataone.org/odo/ECSO_00000031 -> T0076::ECSO_00000031::Benthic Algae Carbon Pool
+http://purl.obolibrary.org/obo/BFO_0000031 -> T0077::BFO_0000031::generically dependent continuant
+http://purl.dataone.org/odo/ECSO_00000067 -> T0078::ECSO_00000067::Heterotrophic Respiration MOV
+http://purl.obolibrary.org/obo/ENVO_00002040 -> T0079::ENVO_00002040::ENVO_00002040
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#KilogramPerMeterSquaredPerDay -> T007a::KilogramPerMeterSquaredPerDay::KilogramPerMeterSquaredPerDay
+http://purl.dataone.org/odo/ECSO_00000079 -> T007b::ECSO_00000079::Total_Evaporation_MOV
+http://purl.dataone.org/odo/ECSO_00000043 -> T007c::ECSO_00000043::Total Living Biomass MOV
+http://purl.dataone.org/odo/ECSO_00000055 -> T007d::ECSO_00000055::Soil_Layer_Top_Depth_MOV
+http://purl.dataone.org/odo/ECSO_00001230 -> T007e::ECSO_00001230::Soil Temperature
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity -> T007f::Entity::Entity
+http://purl.dataone.org/odo/ECSO_00001157 -> T0080::ECSO_00001157::Identity
+http://purl.dataone.org/odo/ECSO_00001145 -> T0081::ECSO_00001145::Nitrogen Percentage
+http://purl.dataone.org/odo/ECSO_00001133 -> T0082::ECSO_00001133::Vegetation Carbon Change Percentage
+http://purl.dataone.org/odo/ECSO_00001254 -> T0083::ECSO_00001254::Width
+http://purl.dataone.org/odo/ECSO_00001121 -> T0084::ECSO_00001121::Flux
+http://purl.dataone.org/odo/ECSO_00001242 -> T0085::ECSO_00001242::Mass Measurement Type
+http://purl.obolibrary.org/obo/CHEBI_33582 -> T0086::CHEBI_33582::CHEBI_33582
+http://purl.dataone.org/odo/ECSO_00001169 -> T0087::ECSO_00001169::Non-Plant Material Count Aerial Density
+http://purl.dataone.org/odo/ECSO_00000020 -> T0088::ECSO_00000020::Gross Primary Production Carbon Flux
+http://purl.dataone.org/odo/ECSO_00000056 -> T0089::ECSO_00000056::Near Surface Module of the Wind MOV
+http://purl.dataone.org/odo/ECSO_00000068 -> T008a::ECSO_00000068::Active_Layer_Thickness_MOV
+http://purl.dataone.org/odo/ECSO_00000032 -> T008b::ECSO_00000032::Grass Carbon Pool
+http://purl.dataone.org/odo/ECSO_00000044 -> T008c::ECSO_00000044::Net Longwave Radiation MOV
+http://purl.obolibrary.org/obo/ENVO_01000786 -> T008d::ENVO_01000786::fire
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#MassPerMass -> T008e::MassPerMass::MassPerMass
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Kelvin -> T008f::Kelvin::Kelvin
+http://purl.dataone.org/odo/ECSO_00001120 -> T0090::ECSO_00001120::Concentration
+http://purl.dataone.org/odo/ECSO_00001241 -> T0091::ECSO_00001241::Soil Dry Weight
+http://purl.obolibrary.org/obo/PATO_0000169 -> T0092::PATO_0000169::viability
+http://purl.dataone.org/odo/ECSO_00001168 -> T0093::ECSO_00001168::Areal Density Measurement Type
+http://purl.dataone.org/odo/ECSO_00001156 -> T0094::ECSO_00001156::Leaf Area Index
+http://purl.dataone.org/odo/ECSO_00001144 -> T0095::ECSO_00001144::Total Soil Nitrogen Concentration
+http://purl.dataone.org/odo/ECSO_00001132 -> T0096::ECSO_00001132::Oceanic Carbon Dioxide Concentration
+http://purl.dataone.org/odo/ECSO_00001253 -> T0097::ECSO_00001253::Length
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasurementType -> T0098::MeasurementType::Measurement Type
+http://purl.obolibrary.org/obo/ENVO_01001305 -> T0099::ENVO_01001305::ENVO_01001305
+http://purl.obolibrary.org/obo/PATO_0001681 -> T009a::PATO_0001681::molar mass
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Characteristic -> T009b::Characteristic::Characteristic
+http://purl.obolibrary.org/obo/UO_0000052 -> T009c::UO_0000052::mass density unit
+http://purl.dataone.org/odo/ECSO_#degree_Fahrenheit -> T009d::degree_Fahrenheit::degree Fahrenheit
+http://purl.dataone.org/odo/ECSO_00000530 -> T009e::ECSO_00000530::CO2 Concentration
+http://purl.obolibrary.org/obo/UO_0000076 -> T009f::UO_0000076::UO_0000076
+http://purl.dataone.org/odo/ECSO_00000542 -> T00a0::ECSO_00000542::Marine Macroalgae Net Primary Production Carbon Flux
+http://purl.dataone.org/odo/ECSO_00000312 -> T00a1::ECSO_00000312::Organism
+http://purl.dataone.org/odo/ECSO_00000554 -> T00a2::ECSO_00000554::radius
+http://purl.dataone.org/odo/ECSO_00000300 -> T00a3::ECSO_00000300::CO2 Enrichment Method
+http://purl.dataone.org/odo/ECSO_00000324 -> T00a4::ECSO_00000324::Methane
+http://purl.dataone.org/odo/ECSO_00000566 -> T00a5::ECSO_00000566::Freshwater Carbonate Concentration
+http://purl.dataone.org/odo/ECSO_00000336 -> T00a6::ECSO_00000336::Particulate Organic Carbon Pool
+http://purl.dataone.org/odo/ECSO_00000203 -> T00a7::ECSO_00000203::Carbon Dioxide Pool
+http://purl.dataone.org/odo/ECSO_00000106 -> T00a8::ECSO_00000106::SIB3-JPL_MstmipVersion1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00000579 -> T00a9::ECSO_00000579::Soil organic matter proportion
+http://purl.obolibrary.org/obo/CHEBI_33560 -> T00aa::CHEBI_33560::CHEBI_33560
+http://purl.dataone.org/odo/ECSO_00001208 -> T00ab::ECSO_00001208::Secchi Depth Method
+http://purl.obolibrary.org/obo/UO_0000051 -> T00ac::UO_0000051::UO_0000051
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#GramPerMeterCubed -> T00ad::GramPerMeterCubed::GramPerMeterCubed
+http://purl.dataone.org/odo/ECSO_00000531 -> T00ae::ECSO_00000531::Total Soil Carbon
+http://purl.dataone.org/odo/ECSO_00000301 -> T00af::ECSO_00000301::Aboveground Net Primary Production Carbon Flux
+http://purl.dataone.org/odo/ECSO_00000543 -> T00b0::ECSO_00000543::Oceanic Carbon Dioxide Flux
+http://purl.dataone.org/odo/ECSO_00000313 -> T00b1::ECSO_00000313::Species
+http://purl.dataone.org/odo/ECSO_00000555 -> T00b2::ECSO_00000555::Biomass Method
+http://purl.dataone.org/odo/ECSO_00000204 -> T00b3::ECSO_00000204::Carbonate Pool
+http://purl.dataone.org/odo/ECSO_00000325 -> T00b4::ECSO_00000325::Carbonate
+http://purl.dataone.org/odo/ECSO_00000567 -> T00b5::ECSO_00000567::Freshwater Bicarbonate Concentration
+http://purl.dataone.org/odo/ECSO_00000107 -> T00b6::ECSO_00000107::SIBCASA_MstmipVersion1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00000337 -> T00b7::ECSO_00000337::Inorganic Carbon
+http://purl.dataone.org/odo/ECSO_00000578 -> T00b8::ECSO_00000578::Aquatic Particulate Organic Carbon
+http://purl.obolibrary.org/obo/ENVO_00001999 -> T00b9::ENVO_00001999::ENVO_00001999
+http://purl.obolibrary.org/obo/BFO_0000005 -> T00ba::BFO_0000005::dependent continuant
+http://purl.dataone.org/odo/ECSO_00001219 -> T00bb::ECSO_00001219::Latent Heat Flux
+http://purl.dataone.org/odo/ECSO_00001207 -> T00bc::ECSO_00001207::Soil Depth
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0248X -> T00bd::ONTORELA_C0248X::Fire Carbon Flux unionOf Eddy Covariance Method | Biomass Method
+http://purl.obolibrary.org/obo/UO_0000183 -> T00be::UO_0000183::linear density unit
+http://purl.dataone.org/odo/ECSO_00000540 -> T00bf::ECSO_00000540::Growth
+http://purl.dataone.org/odo/ECSO_00000310 -> T00c0::ECSO_00000310::Community
+http://purl.dataone.org/odo/ECSO_00000552 -> T00c1::ECSO_00000552::biomass_density_MeasurementType
+http://purl.dataone.org/odo/ECSO_00000564 -> T00c2::ECSO_00000564::pheophytin
+http://purl.dataone.org/odo/ECSO_00000201 -> T00c3::ECSO_00000201::Carbon Dioxide Diffusion Flux
+http://purl.obolibrary.org/obo/ENVO_01000323 -> T00c4::ENVO_01000323::ENVO_01000323
+http://purl.dataone.org/odo/ECSO_00000104 -> T00c5::ECSO_00000104::LPJ-wsl_Mstmip_Version1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00000577 -> T00c6::ECSO_00000577::Aquatic Dissolved Organic Carbon
+http://purl.dataone.org/odo/ECSO_00001109 -> T00c7::ECSO_00001109::Nitrogen Fixation Rate
+http://purl.dataone.org/odo/ECSO_00001218 -> T00c8::ECSO_00001218::Occurrence
+http://purl.obolibrary.org/obo/ENVO_00001998 -> T00c9::ENVO_00001998::ENVO_00001998
+http://purl.dataone.org/odo/ECSO_00001206 -> T00ca::ECSO_00001206::Lake Depth
+http://purl.obolibrary.org/obo/UO_0000182 -> T00cb::UO_0000182::density unit
+http://purl.obolibrary.org/obo/PATO_0001824 -> T00cc::PATO_0001824::PATO_0001824
+http://purl.dataone.org/odo/ECSO_00000541 -> T00cd::ECSO_00000541::Tree Height
+http://purl.dataone.org/odo/ECSO_00000311 -> T00ce::ECSO_00000311::Population
+http://purl.dataone.org/odo/ECSO_00000553 -> T00cf::ECSO_00000553::Linear Measurement Type
+http://purl.dataone.org/odo/ECSO_00000202 -> T00d0::ECSO_00000202::Bicarbonate Pool
+http://purl.dataone.org/odo/ECSO_00000323 -> T00d1::ECSO_00000323::Carbon Dioxide
+http://purl.dataone.org/odo/ECSO_00000565 -> T00d2::ECSO_00000565::Carbonate Concentration
+http://purl.dataone.org/odo/ECSO_00000105 -> T00d3::ECSO_00000105::ORCHIDEE-LSCE_MstmipVersion1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00000335 -> T00d4::ECSO_00000335::Aboveground Woody Biomass Carbon Pool
+http://purl.obolibrary.org/obo/ENVO_00003075 -> T00d5::ENVO_00003075::ENVO_00003075
+http://purl.obolibrary.org/obo/ENVO_01000321 -> T00d6::ENVO_01000321::ENVO_01000321
+http://purl.dataone.org/odo/ECSO_00000576 -> T00d7::ECSO_00000576::Soil Carbon Concentration
+http://purl.obolibrary.org/obo/ENVO_01000793 -> T00d8::ENVO_01000793::atmospheric wind
+http://purl.dataone.org/odo/ECSO_00001205 -> T00d9::ECSO_00001205::Snow Depth
+http://purl.dataone.org/odo/ECSO_00001108 -> T00da::ECSO_00001108::Ash Weight Biomass
+http://purl.dataone.org/odo/ECSO_00001229 -> T00db::ECSO_00001229::Ground Temperature
+http://purl.dataone.org/odo/ECSO_00001217 -> T00dc::ECSO_00001217::Tag Number
+http://purl.dataone.org/odo/ECSO_00000550 -> T00dd::ECSO_00000550::ash_free_dry_weight
+http://purl.dataone.org/odo/ECSO_00000320 -> T00de::ECSO_00000320::Dissolution Carbon Flux
+http://purl.dataone.org/odo/ECSO_00000562 -> T00df::ECSO_00000562::chlorophyll
+http://purl.dataone.org/odo/ECSO_00002777 -> T00e0::ECSO_00002777::periphyton MassSpecificProductionRate
+http://purl.dataone.org/odo/ECSO_00000102 -> T00e1::ECSO_00000102::GTEC_Mstmip_Version1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00000017 -> T00e2::ECSO_00000017::Autotrophic Respiration Carbon Flux
+http://purl.dataone.org/odo/ECSO_Leaves -> T00e3::ECSO_Leaves::ECSO_Leaves
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Proportion -> T00e4::Proportion::Proportion
+http://purl.obolibrary.org/obo/ENVO_00010504 -> T00e5::ENVO_00010504::ENVO_00010504
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Unit -> T00e6::Unit::Unit
+http://purl.dataone.org/odo/ECSO_00000575 -> T00e7::ECSO_00000575::soil active layer
+http://purl.dataone.org/odo/ECSO_00001216 -> T00e8::ECSO_00001216::Ground Heat Flux
+http://purl.dataone.org/odo/ECSO_00001204 -> T00e9::ECSO_00001204::Seawater Depth
+http://purl.dataone.org/odo/ECSO_00001107 -> T00ea::ECSO_00001107::Momentum Flux
+http://purl.dataone.org/odo/ECSO_00001228 -> T00eb::ECSO_00001228::Peat Temperature
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C026aX -> T00ec::ONTORELA_C026aX::Vegetation Carbon Change Percentage intersectionOf carbon atom
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Speed -> T00ed::Speed::Speed
+http://purl.obolibrary.org/obo/ENVO_00005801 -> T00ee::ENVO_00005801::ENVO_00005801
+http://purl.dataone.org/odo/ECSO_00000551 -> T00ef::ECSO_00000551::biomass_density
+http://purl.obolibrary.org/obo/UO_0000095 -> T00f0::UO_0000095::UO_0000095
+http://purl.dataone.org/odo/ECSO_00000321 -> T00f1::ECSO_00000321::Dissolved
+http://purl.dataone.org/odo/ECSO_00000563 -> T00f2::ECSO_00000563::chloroplyll-a
+http://purl.dataone.org/odo/ECSO_00000103 -> T00f3::ECSO_00000103::ISAM_Mstmip_Version1_Modeled_Method
+http://purl.obolibrary.org/obo/PATO_0001709 -> T00f4::PATO_0001709::2-D extent
+http://purl.dataone.org/odo/ECSO_00002776 -> T00f5::ECSO_00002776::periphyton
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Molality -> T00f6::Molality::Molality
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#FahrenheitDegree -> T00f7::FahrenheitDegree::FahrenheitDegree
+http://purl.dataone.org/odo/ECSO_00000018 -> T00f8::ECSO_00000018::Heterotrophic Respiration Carbon Flux
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredCharacteristic -> T00f9::MeasuredCharacteristic::MeasuredCharacteristic
+http://purl.obolibrary.org/obo/ENVO_01000254 -> T00fa::ENVO_01000254::environmental system
+http://purl.obolibrary.org/obo/ENVO_01000266 -> T00fb::ENVO_01000266::ENVO_01000266
+http://purl.dataone.org/odo/ECSO_00001106 -> T00fc::ECSO_00001106::Radiative Flux
+http://purl.dataone.org/odo/ECSO_00001227 -> T00fd::ECSO_00001227::Water Temperature
+http://purl.dataone.org/odo/ECSO_00000574 -> T00fe::ECSO_00000574::soil layer
+http://purl.dataone.org/odo/ECSO_00001215 -> T00ff::ECSO_00001215::Tree Canopy Diameter
+http://purl.dataone.org/odo/ECSO_00001203 -> T0100::ECSO_00001203::Water Depth
+http://purl.dataone.org/odo/ECSO_00001118 -> T0101::ECSO_00001118::Aquatic Total Organic Carbon Concentration
+http://purl.dataone.org/odo/ECSO_00001239 -> T0102::ECSO_00001239::count unit
+http://purl.obolibrary.org/obo/UO_0000191 -> T0103::UO_0000191::fraction
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Hectare -> T0104::Hectare::Hectare
+http://purl.dataone.org/odo/ECSO_00000560 -> T0105::ECSO_00000560::flux unit
+http://purl.obolibrary.org/obo/ENVO_00005802 -> T0106::ENVO_00005802::ENVO_00005802
+http://purl.obolibrary.org/obo/BFO_0000003 -> T0107::BFO_0000003::Occurrent
+http://purl.dataone.org/odo/ECSO_00000100 -> T0108::ECSO_00000100::CLM_Mstmip_Version1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00002569 -> T0109::ECSO_00002569::carbon
+http://purl.dataone.org/odo/ECSO_00000027 -> T010a::ECSO_00000027::Soil Carbon Pool
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0250X -> T010b::ONTORELA_C0250X::Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011
+http://purl.dataone.org/odo/ECSO_00002775 -> T010c::ECSO_00002775::MassSpecificProductionRate
+http://purl.obolibrary.org/obo/CHEBI_33300 -> T010d::CHEBI_33300::CHEBI_33300
+http://purl.dataone.org/odo/ECSO_00000015 -> T010e::ECSO_00000015::Primary Production Carbon Flux
+http://purl.obolibrary.org/obo/ENVO_00000105 -> T010f::ENVO_00000105::ENVO_00000105
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#MicroeinsteinsPerMeterSquaredPerSecond -> T0110::MicroeinsteinsPerMeterSquaredPerSecond::MicroeinsteinsPerMeterSquaredPerSecond
+http://purl.dataone.org/odo/ECSO_00001117 -> T0111::ECSO_00001117::area_MeasurementType
+http://purl.dataone.org/odo/ECSO_00001238 -> T0112::ECSO_00001238::Physical Feature Width
+http://purl.obolibrary.org/obo/CHEBI_36931 -> T0113::CHEBI_36931::carbon-12
+http://purl.dataone.org/odo/ECSO_00001105 -> T0114::ECSO_00001105::Carbon Flux
+http://purl.dataone.org/odo/ECSO_00001226 -> T0115::ECSO_00001226::Seawater Temperature
+http://purl.dataone.org/odo/ECSO_00000573 -> T0116::ECSO_00000573::plant
+http://purl.dataone.org/odo/ECSO_00001214 -> T0117::ECSO_00001214::Tree Crown Diameter
+http://purl.dataone.org/odo/ECSO_00001202 -> T0118::ECSO_00001202::Biomass Concentration
+http://purl.dataone.org/odo/ECSO_00001129 -> T0119::ECSO_00001129::Net Carbon Respiration Rate Flux
+http://purl.obolibrary.org/obo/UO_0000190 -> T011a::UO_0000190::A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Area -> T011b::Area::Area
+http://purl.dataone.org/odo/ECSO_00000561 -> T011c::ECSO_00000561::temporal rate unit
+http://purl.dataone.org/odo/ECSO_00000101 -> T011d::ECSO_00000101::DLEM_Mstmip_Version1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00000331 -> T011e::ECSO_00000331::Organic Carbon Pool
+http://purl.dataone.org/odo/ECSO_00000343 -> T011f::ECSO_00000343::Total Living Biomass Carbon Pool
+http://purl.dataone.org/odo/ECSO_00000016 -> T0120::ECSO_00000016::Respiration Carbon Flux
+http://purl.dataone.org/odo/ECSO_00000028 -> T0121::ECSO_00000028::Plankton Carbon Pool
+http://purl.dataone.org/odo/ECSO_00001201 -> T0122::ECSO_00001201::Number Volumetric Density
+http://purl.obolibrary.org/obo/CHEBI_51143 -> T0123::CHEBI_51143::CHEBI_51143
+http://purl.dataone.org/odo/ECSO_00001128 -> T0124::ECSO_00001128::Carbon Specific Net Production Rate
+http://purl.dataone.org/odo/ECSO_00001249 -> T0125::ECSO_00001249::Pheophytin Concentration
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C025aX -> T0126::ONTORELA_C025aX::Oxygen Concentration intersectionOf oxygen atom | environmental material
+http://purl.dataone.org/odo/ECSO_00001116 -> T0127::ECSO_00001116::Ammonium Concentration
+http://purl.dataone.org/odo/ECSO_00001237 -> T0128::ECSO_00001237::Precipitation Volume
+http://purl.dataone.org/odo/ECSO_00001104 -> T0129::ECSO_00001104::Temperature Measurement Type
+http://purl.dataone.org/odo/ECSO_00001225 -> T012a::ECSO_00001225::Air Temperature
+http://purl.dataone.org/odo/ECSO_00000572 -> T012b::ECSO_00000572::particulate organic carbon
+http://purl.dataone.org/odo/ECSO_00001213 -> T012c::ECSO_00001213::Groundwater Depth
+http://purl.obolibrary.org/obo/PATO_0001710 -> T012d::PATO_0001710::3-D extent
+http://purl.obolibrary.org/obo/CHEBI_24431 -> T012e::CHEBI_24431::CHEBI_24431
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#VolumePerVolume -> T012f::VolumePerVolume::VolumePerVolume
+http://purl.obolibrary.org/obo/UO_0000012 -> T0130::UO_0000012::kelvin
+http://purl.obolibrary.org/obo/UO_0000000 -> T0131::UO_0000000::Unit
+http://purl.dataone.org/odo/ECSO_00001182 -> T0132::ECSO_00001182::GramPerMeterSquared
+http://purl.dataone.org/odo/ECSO_00000502 -> T0133::ECSO_00000502::Litter Carbon Concentration
+http://purl.dataone.org/odo/ECSO_00001170 -> T0134::ECSO_00001170::Plant Material Count Aerial Density
+http://purl.dataone.org/odo/ECSO_00000514 -> T0135::ECSO_00000514::flux_MeasurementType
+http://purl.obolibrary.org/obo/UO_0000169 -> T0136::UO_0000169::parts per million
+http://purl.dataone.org/odo/ECSO_00000526 -> T0137::ECSO_00000526::group
+http://purl.dataone.org/odo/ECSO_00000538 -> T0138::ECSO_00000538::Bicarbonate Concentration
+http://purl.obolibrary.org/obo/IAO_0000030 -> T0139::IAO_0000030::information content entity
+http://purl.dataone.org/odo/ECSO_00000308 -> T013a::ECSO_00000308::Functional Level
+http://purl.dataone.org/odo/ECSO_00001195 -> T013b::ECSO_00001195::Area Percentage
+http://purl.dataone.org/odo/ECSO_00001183 -> T013c::ECSO_00001183::Time Step
+http://purl.obolibrary.org/obo/STATO_0000184 -> T013d::STATO_0000184::ratio
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C026cX -> T013e::ONTORELA_C026cX::Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+http://purl.dataone.org/odo/ECSO_Leaf_Decomposition -> T013f::ECSO_Leaf_Decomposition::ECSO_Leaf_Decomposition
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#VolumetricDensity -> T0140::VolumetricDensity::VolumetricDensity
+http://purl.dataone.org/odo/ECSO_00000092 -> T0141::ECSO_00000092::Carbon14 Uptake Method
+http://purl.dataone.org/odo/ECSO_00000080 -> T0142::ECSO_00000080::Latent Heat MOV
+http://purl.dataone.org/odo/ECSO_00000094 -> T0143::ECSO_00000094::Allometric Method
+http://purl.obolibrary.org/obo/PATO_0001309 -> T0144::PATO_0001309::duration
+http://purl.dataone.org/odo/ECSO_00001193 -> T0145::ECSO_00001193::Name
+http://purl.obolibrary.org/obo/UO_0000047 -> T0146::UO_0000047::UO_0000047
+http://purl.dataone.org/odo/ECSO_00001181 -> T0147::ECSO_00001181::NumberPerMeterSquared
+http://purl.obolibrary.org/obo/UO_0000168 -> T0148::UO_0000168::parts per thousand
+http://purl.dataone.org/odo/ECSO_00000503 -> T0149::ECSO_00000503::plant-derived organic material
+http://purl.obolibrary.org/obo/CHEBI_33303 -> T014a::CHEBI_33303::chalcogen
+http://purl.dataone.org/odo/ECSO_00000515 -> T014b::ECSO_00000515::depth
+http://purl.dataone.org/odo/ECSO_00000527 -> T014c::ECSO_00000527::ecosystem component entity
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0240X -> T014d::ONTORELA_C0240X::Aerial Cover Percentage intersectionOf Entity | ENVO_00010504
+http://purl.dataone.org/odo/ECSO_00000539 -> T014e::ECSO_00000539::Aquatic Inorganic Carbon Concentration
+http://purl.dataone.org/odo/ECSO_00000309 -> T014f::ECSO_00000309::Ecosystem
+http://purl.obolibrary.org/obo/ENVO_01000177 -> T0150::ENVO_01000177::ENVO_01000177
+http://purl.dataone.org/odo/ECSO_00001194 -> T0151::ECSO_00001194::Sampled Individuals Proportion
+http://purl.obolibrary.org/obo/ENVO_01000020 -> T0152::ENVO_01000020::ENVO_01000020
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#KilogramPerMeterSquared -> T0153::KilogramPerMeterSquared::KilogramPerMeterSquared
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0244X -> T0154::ONTORELA_C0244X::ENVO_00010504 unionOf ocean surface | ENVO_01000324
+http://purl.dataone.org/odo/ECSO_00000093 -> T0155::ECSO_00000093::Oxygen Evolution LightDark Method
+http://purl.obolibrary.org/obo/CHEBI_25555 -> T0156::CHEBI_25555::nitrogen atom
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#MassSpecificCount -> T0157::MassSpecificCount::MassSpecificCount
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Name -> T0158::Name::Name
+http://purl.dataone.org/odo/ECSO_00000512 -> T0159::ECSO_00000512::concentration_MeasurementType
+http://purl.obolibrary.org/obo/ENVO_01000048 -> T015a::ENVO_01000048::ENVO_01000048
+http://purl.dataone.org/odo/ECSO_00000524 -> T015b::ECSO_00000524::Fluorescence_measurementType
+http://purl.dataone.org/odo/ECSO_00001192 -> T015c::ECSO_00001192::Canopy Percentage
+http://purl.dataone.org/odo/ECSO_00000536 -> T015d::ECSO_00000536::Carbon Dioxide Flux
+http://purl.dataone.org/odo/ECSO_00001180 -> T015e::ECSO_00001180::Carbon Biomass Density
+http://purl.dataone.org/odo/ECSO_00000548 -> T015f::ECSO_00000548::wet_weight
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0252X -> T0160::ONTORELA_C0252X::Soil Carbon Change Percentage intersectionOf carbon atom
+http://purl.dataone.org/odo/ECSO_00000306 -> T0161::ECSO_00000306::Multi-Celled Organism
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#MilligramPerMeterCubedPerDay -> T0162::MilligramPerMeterCubedPerDay::MilligramPerMeterCubedPerDay
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Irradiance -> T0163::Irradiance::Irradiance
+http://purl.obolibrary.org/obo/ENVO_01000277 -> T0164::ENVO_01000277::ENVO_01000277
+http://purl.dataone.org/odo/ECSO_#PAR -> T0165::PAR::PAR
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C025eX-el0 -> T0166::ONTORELA_C025eX-el0::Width unionOf Organism | environmental feature element environmental feature
+http://purl.dataone.org/odo/ECSO_00000090 -> T0167::ECSO_00000090::Peak Biomass Harvest Method
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Identifier -> T0168::Identifier::Identifier
+http://purl.dataone.org/odo/ECSO_00002932 -> T0169::ECSO_00002932::carbon concentration_of
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0264X -> T016a::ONTORELA_C0264X::Carbonate Concentration intersectionOf Carbonate | ENVO_00002006
+http://purl.obolibrary.org/obo/UO_0000166 -> T016b::UO_0000166::parts per notation unit
+http://purl.dataone.org/odo/ECSO_00000501 -> T016c::ECSO_00000501::Tree
+http://purl.dataone.org/odo/ECSO_00000513 -> T016d::ECSO_00000513::Biomass Measurement Type
+http://purl.dataone.org/odo/ECSO_00000525 -> T016e::ECSO_00000525::molar concentration
+http://purl.dataone.org/odo/ECSO_00001191 -> T016f::ECSO_00001191::Crown Cover Percentage
+http://purl.dataone.org/odo/ECSO_00000537 -> T0170::ECSO_00000537::Freshwater Chlorophyll Fluorescence
+http://purl.dataone.org/odo/ECSO_00000307 -> T0171::ECSO_00000307::Microbe
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#PartPerThousand -> T0172::PartPerThousand::PartPerThousand
+http://purl.dataone.org/odo/ECSO_00000549 -> T0173::ECSO_00000549::Tree Diameter at Breast Height
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#ArealMassDensity -> T0174::ArealMassDensity::ArealMassDensity
+http://purl.obolibrary.org/obo/ENVO_01000155 -> T0175::ENVO_01000155::ENVO_01000155
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0268X -> T0176::ONTORELA_C0268X::Marine Macroalgae Net Primary Production Carbon Flux unionOf ENVO_01000020 | ENVO_01000048
+http://purl.dataone.org/odo/ECSO_00000091 -> T0177::ECSO_00000091::Eddy Covariance Method
+http://purl.obolibrary.org/obo/PATO_0001823 -> T0178::PATO_0001823::wet
+http://purl.dataone.org/odo/ECSO_#Leaf_Area_Index -> T0179::Leaf_Area_Index::Leaf Area Index
+http://purl.dataone.org/odo/ECSO_00000510 -> T017a::ECSO_00000510::circumference
+http://purl.obolibrary.org/obo/UO_0000165 -> T017b::UO_0000165::volume percentage
+http://purl.dataone.org/odo/ECSO_00000522 -> T017c::ECSO_00000522::Freshwater Carbon Dioxide Concentration
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Mass -> T017d::Mass::Mass
+http://purl.dataone.org/odo/ECSO_00000534 -> T017e::ECSO_00000534::Phytoplankton Primary Production Carbon Flux
+http://purl.dataone.org/odo/ECSO_00000546 -> T017f::ECSO_00000546::Process
+http://purl.dataone.org/odo/ECSO_00000316 -> T0180::ECSO_00000316::Liquid
+http://purl.dataone.org/odo/ECSO_00000558 -> T0181::ECSO_00000558::Fluorescence
+http://purl.dataone.org/odo/ECSO_00000328 -> T0182::ECSO_00000328::Carbon Monoxide
+http://purl.dataone.org/odo/ECSO_00001190 -> T0183::ECSO_00001190::Aerial Cover Percentage
+http://purl.dataone.org/odo/ECSO_00000207 -> T0184::ECSO_00000207::Atmospheric Carbon Dioxide Pool
+http://purl.obolibrary.org/obo/ENVO_00000134 -> T0185::ENVO_00000134::ENVO_00000134
+http://purl.obolibrary.org/obo/PATO_0001822 -> T0186::PATO_0001822::PATO_0001822
+http://purl.obolibrary.org/obo/UO_0000164 -> T0187::UO_0000164::mass volume percentage
+http://purl.dataone.org/odo/ECSO_00000511 -> T0188::ECSO_00000511::height
+http://purl.dataone.org/odo/ECSO_00000523 -> T0189::ECSO_00000523::thickness
+http://purl.dataone.org/odo/ECSO_00000535 -> T018a::ECSO_00000535::Oceanic Total Inorganic Carbon Concentration
+http://purl.dataone.org/odo/ECSO_00000305 -> T018b::ECSO_00000305::Single-Celled Organism
+http://purl.dataone.org/odo/ECSO_00000547 -> T018c::ECSO_00000547::Tree growth
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0242X -> T018d::ONTORELA_C0242X::Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006
+http://purl.dataone.org/odo/ECSO_00000317 -> T018e::ECSO_00000317::Solid
+http://purl.dataone.org/odo/ECSO_00000559 -> T018f::ECSO_00000559::rate unit
+http://purl.obolibrary.org/obo/ENVO_00000015 -> T0190::ENVO_00000015::ENVO_00000015
+http://purl.dataone.org/odo/ECSO_00000208 -> T0191::ECSO_00000208::Dissolved Carbon Dioxide Pool
+http://purl.dataone.org/odo/ECSO_#infrared -> T0192::infrared::infrared
+http://purl.dataone.org/odo/ECSO_00000329 -> T0193::ECSO_00000329::Organic Carbon
+http://purl.obolibrary.org/obo/ENVO_00000111 -> T0194::ENVO_00000111::ENVO_00000111
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C023aX -> T0195::ONTORELA_C023aX::Total Soil Carbon intersectionOf Organic Carbon
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0246X -> T0196::ONTORELA_C0246X::CO2 Concentration unionOf ENVO_00002005 | ENVO_00002006
+http://purl.obolibrary.org/obo/CHEBI_36928 -> T0197::CHEBI_36928::carbon-13
+http://purl.obolibrary.org/obo/UO_0000272 -> T0198::UO_0000272::millimetres of mercury
+http://purl.obolibrary.org/obo/UO_0000163 -> T0199::UO_0000163::UO_0000163
+http://purl.obolibrary.org/obo/UO_0000054 -> T019a::UO_0000054::areal density unit
+http://purl.dataone.org/odo/ECSO_00000520 -> T019b::ECSO_00000520::Organic Carbon Concentration
+http://purl.dataone.org/odo/ECSO_00000532 -> T019c::ECSO_00000532::Soil Heterotrophic Respiration Carbon Flux
+http://purl.obolibrary.org/obo/UO_0000187 -> T019d::UO_0000187::percent
+http://purl.dataone.org/odo/ECSO_00000544 -> T019e::ECSO_00000544::Tree Diameter
+http://purl.dataone.org/odo/ECSO_00000314 -> T019f::ECSO_00000314::Physical State
+http://purl.dataone.org/odo/ECSO_00000556 -> T01a0::ECSO_00000556::dry_weight
+http://purl.dataone.org/odo/ECSO_00000326 -> T01a1::ECSO_00000326::Bicarbonate
+http://purl.dataone.org/odo/ECSO_00000568 -> T01a2::ECSO_00000568::'Seawater Chlorophyll Fluorescence'
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0254X -> T01a3::ONTORELA_C0254X::Soil Porewater Salinity Concentration intersectionOf ENVO_00002006
+http://purl.dataone.org/odo/ECSO_00000205 -> T01a4::ECSO_00000205::Methane Pool
+http://purl.dataone.org/odo/ECSO_00000108 -> T01a5::ECSO_00000108::TEM6_MstmipVersion1_Modeled_Method
+http://purl.obolibrary.org/obo/ENVO_00000047 -> T01a6::ENVO_00000047::ENVO_00000047
+http://purl.obolibrary.org/obo/ENVO_00000023 -> T01a7::ENVO_00000023::ENVO_00000023
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0231X-el0 -> T01a8::ONTORELA_C0231X-el0::Height unionOf Organism | environmental feature element environmental feature
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0236X -> T01a9::ONTORELA_C0236X::snow unionOf ENVO_00002006
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C024cX -> T01aa::ONTORELA_C024cX::Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Time -> T01ab::Time::Time
+http://purl.obolibrary.org/obo/CHEBI_23367 -> T01ac::CHEBI_23367::CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_36927 -> T01ad::CHEBI_36927::carbon-14
+http://purl.obolibrary.org/obo/PATO_00002035 -> T01ae::PATO_00002035::PATO_00002035
+http://purl.obolibrary.org/obo/UO_0000186 -> T01af::UO_0000186::dimensionless unit
+http://purl.dataone.org/odo/ECSO_00000521 -> T01b0::ECSO_00000521::Alkalinity
+http://purl.dataone.org/odo/ECSO_00000533 -> T01b1::ECSO_00000533::Grassland Above Ground Net Primary Production Carbon Flux
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#LiterPerSecond -> T01b2::LiterPerSecond::LiterPerSecond
+http://purl.dataone.org/odo/ECSO_00000545 -> T01b3::ECSO_00000545::Tree Circumference
+http://purl.dataone.org/odo/ECSO_00000315 -> T01b4::ECSO_00000315::Gas
+http://purl.dataone.org/odo/ECSO_00000557 -> T01b5::ECSO_00000557::ash_weight
+http://purl.dataone.org/odo/ECSO_00000206 -> T01b6::ECSO_00000206::Fixed Carbon Pool
+http://purl.dataone.org/odo/ECSO_00000327 -> T01b7::ECSO_00000327::Carbohydrate
+http://purl.dataone.org/odo/ECSO_00000569 -> T01b8::ECSO_00000569::Bacteria
+http://purl.dataone.org/odo/ECSO_00000109 -> T01b9::ECSO_00000109::TRIPLEX-GHG_MstmipVersion1_Modeled_Method
+http://purl.obolibrary.org/obo/ENVO_02500034 -> T01ba::ENVO_02500034::evaporation
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#NumberPerMeterSquared -> T01bb::NumberPerMeterSquared::NumberPerMeterSquared
+http://purl.dataone.org/odo/ECSO_00001209 -> T01bc::ECSO_00001209::Litter Depth
+http://purl.obolibrary.org/obo/CHEBI_38101 -> T01bd::CHEBI_38101::CHEBI_38101
+http://purl.dataone.org/odo/ECSO_00000053 -> T01be::ECSO_00000053::Average_Layer_Soil_Temperature_MOV
+http://purl.obolibrary.org/obo/ENVO_01000628 -> T01bf::ENVO_01000628::plant litter
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C023cX -> T01c0::ONTORELA_C023cX::Plant Cover Percentage intersectionOf plant | ENVO_00010504
+http://purl.dataone.org/odo/ECSO_00000065 -> T01c1::ECSO_00000065::Name of Each Carbon Pool MOV
+http://purl.dataone.org/odo/ECSO_00000077 -> T01c2::ECSO_00000077::Shortwave_Albedo_MOV
+http://purl.dataone.org/odo/ECSO_00003195 -> T01c3::ECSO_00003195::Calcium Carbonate
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C025cX -> T01c4::ONTORELA_C025cX::Autotrophic Respiration MOV unionOf phytoplankton | Phytoplankton | plant
+http://purl.dataone.org/odo/ECSO_00001131 -> T01c5::ECSO_00001131::Oceanic Bicarbonate Concentration
+http://purl.dataone.org/odo/ECSO_00001252 -> T01c6::ECSO_00001252::Height
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#AmountOfSubstanceConcentration -> T01c7::AmountOfSubstanceConcentration::AmountOfSubstanceConcentration
+http://purl.dataone.org/odo/ECSO_00001240 -> T01c8::ECSO_00001240::Number
+http://purl.obolibrary.org/obo/PATO_0000128 -> T01c9::PATO_0000128::weight
+http://purl.obolibrary.org/obo/UO_0000008 -> T01ca::UO_0000008::UO_0000008
+http://purl.dataone.org/odo/ECSO_00001179 -> T01cb::ECSO_00001179::Nitrogen Biomass Density
+http://purl.dataone.org/odo/ECSO_00001167 -> T01cc::ECSO_00001167::temporal_MeasurementType
+http://purl.dataone.org/odo/ECSO_00001155 -> T01cd::ECSO_00001155::hectare
+http://purl.dataone.org/odo/ECSO_#ocean_surface -> T01ce::ocean_surface::ocean surface
+http://purl.dataone.org/odo/ECSO_00001143 -> T01cf::ECSO_00001143::Carbon Biomass
+http://purl.dataone.org/odo/ECSO_00003196 -> T01d0::ECSO_00003196::Calcium Carbonate Concentration
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Count -> T01d1::Count::Count
+http://purl.obolibrary.org/obo/PATO_0001422 -> T01d2::PATO_0001422::dead
+http://purl.dataone.org/odo/ECSO_00000030 -> T01d3::ECSO_00000030::Leaf Carbon Pool
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C024eX -> T01d4::ONTORELA_C024eX::Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C026eX-el0 -> T01d5::ONTORELA_C026eX-el0::Length unionOf Organism | environmental feature element environmental feature
+http://purl.dataone.org/odo/ECSO_00000078 -> T01d6::ECSO_00000078::Surface Incident Shortwave Radiation MOV
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C024aX -> T01d7::ONTORELA_C024aX::Gross Primary Production Carbon Flux unionOf ENVO_00000063 | land
+http://purl.dataone.org/odo/ECSO_00000054 -> T01d8::ECSO_00000054::Surface Runoff MOV
+http://purl.dataone.org/odo/ECSO_00000066 -> T01d9::ECSO_00000066::Soil_Layer_Bottom_Depth_MOV
+http://purl.obolibrary.org/obo/RO_0000056#carbon_cycling -> T01da::carbon_cycling::carbon cycling
+http://purl.obolibrary.org/obo/ENVO_00002005 -> T01db::ENVO_00002005::ENVO_00002005
+http://purl.dataone.org/odo/ECSO_00001142 -> T01dc::ECSO_00001142::Carbon Stable Isotope Ratio
+http://purl.dataone.org/odo/ECSO_00001130 -> T01dd::ECSO_00001130::Organic Carbon Concentration in Water
+http://purl.dataone.org/odo/ECSO_00001251 -> T01de::ECSO_00001251::Diameter
+http://purl.obolibrary.org/obo/ENVO_00002006 -> T01df::ENVO_00002006::ENVO_00002006
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#MassFlux -> T01e0::MassFlux::MassFlux
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Number -> T01e1::Number::Number
+http://purl.dataone.org/odo/ECSO_00001178 -> T01e2::ECSO_00001178::Soil Wet Weight
+http://purl.obolibrary.org/obo/ENVO_02500000 -> T01e3::ENVO_02500000::Environmental System Process
+http://purl.dataone.org/odo/ECSO_00001166 -> T01e4::ECSO_00001166::Volume Fraction Biomass Concentration
+http://purl.dataone.org/odo/ECSO_00001154 -> T01e5::ECSO_00001154::Ocean
+http://purl.obolibrary.org/obo/IAO_0000027 -> T01e6::IAO_0000027::data item
+http://purl.dataone.org/odo/ECSO_00000063 -> T01e7::ECSO_00000063::Longwave Albedo MOV
+http://purl.dataone.org/odo/ECSO_00000075 -> T01e8::ECSO_00000075::Sensible Heat MOV
+http://purl.dataone.org/odo/ECSO_00000051 -> T01e9::ECSO_00000051::Surface Pressure MOV
+http://purl.dataone.org/odo/ECSO_00000099 -> T01ea::ECSO_00000099::CLM4VIC_MstmipVersion1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_00001153 -> T01eb::ECSO_00001153::Dry Weight Biomass
+http://purl.dataone.org/odo/ECSO_00001141 -> T01ec::ECSO_00001141::Count Measurement Type
+http://purl.dataone.org/odo/ECSO_00001250 -> T01ed::ECSO_00001250::Depth
+http://purl.dataone.org/odo/ECSO_00000508 -> T01ee::ECSO_00000508::Macroalgae
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0256X -> T01ef::ONTORELA_C0256X::Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0261X-el0 -> T01f0::ONTORELA_C0261X-el0::Carbon to Nitrogen Ratio unionOf Organism | environmental material element environmental material
+http://purl.obolibrary.org/obo/ENVO_01000281 -> T01f1::ENVO_01000281::ENVO_01000281
+http://purl.dataone.org/odo/ECSO_00001189 -> T01f2::ECSO_00001189::Entity Count
+http://purl.dataone.org/odo/ECSO_00001177 -> T01f3::ECSO_00001177::Non-Plant Material Length
+http://purl.dataone.org/odo/ECSO_00001165 -> T01f4::ECSO_00001165::Soil Porewater Salinity Concentration
+http://purl.dataone.org/odo/ECSO_#ultraviolet -> T01f5::ultraviolet::ultraviolet
+http://purl.obolibrary.org/obo/PATO_0001432 -> T01f6::PATO_0001432::decayed
+http://purl.obolibrary.org/obo/PATO_0001674 -> T01f7::PATO_0001674::catalytic (activity) concentration
+http://purl.dataone.org/odo/ECSO_00000052 -> T01f8::ECSO_00000052::Average Layer Soil Moisture MOV
+http://purl.dataone.org/odo/ECSO_00000064 -> T01f9::ECSO_00000064::Gross Primary Productivity MOV
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#CentimeterPerSecond -> T01fa::CentimeterPerSecond::CentimeterPerSecond
+http://purl.dataone.org/odo/ECSO_00000076 -> T01fb::ECSO_00000076::Net Ecosystem Exchange MOV
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C026eX -> T01fc::ONTORELA_C026eX::Length unionOf Organism | environmental feature
+http://purl.obolibrary.org/obo/UO_0000005 -> T01fd::UO_0000005::temperature unit
+http://purl.dataone.org/odo/ECSO_00001164 -> T01fe::ECSO_00001164::Water Salinity
+http://purl.dataone.org/odo/ECSO_00001152 -> T01ff::ECSO_00001152::Sampling Site Area
+http://purl.obolibrary.org/obo/ENVO_00002149 -> T0200::ENVO_00002149::ENVO_00002149
+http://purl.obolibrary.org/obo/PATO_0000125 -> T0201::PATO_0000125::mass
+http://purl.dataone.org/odo/ECSO_00001140 -> T0202::ECSO_00001140::Transpiration Height
+http://purl.dataone.org/odo/ECSO_00000509 -> T0203::ECSO_00000509::diameter
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Meter -> T0204::Meter::Meter
+http://purl.dataone.org/odo/ECSO_00001188 -> T0205::ECSO_00001188::Sample Count
+http://purl.dataone.org/odo/ECSO_00001176 -> T0206::ECSO_00001176::Wave Height
+http://purl.dataone.org/odo/ECSO_00000097 -> T0207::ECSO_00000097::BIOME-BGC_Mstmip_Version1_Modeled_Method
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C023eX -> T0208::ONTORELA_C023eX::Belowground Biomass intersectionOf 
+http://purl.dataone.org/odo/ECSO_00000061 -> T0209::ECSO_00000061::Autotrophic Respiration MOV
+http://purl.dataone.org/odo/ECSO_00000073 -> T020a::ECSO_00000073::Above_Ground_Woody_Biomass_MOV
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter -> T020b::Centimeter::Centimeter
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Celsius -> T020c::Celsius::Celsius
+http://purl.dataone.org/odo/ECSO_00003030 -> T020d::ECSO_00003030::organic_content
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Pascal -> T020e::Pascal::Pascal
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C025eX -> T020f::ONTORELA_C025eX::Width unionOf Organism | environmental feature
+http://purl.obolibrary.org/obo/ENVO_01000830 -> T0210::ENVO_01000830::water-based rainfall
+http://purl.obolibrary.org/obo/UO_0000016 -> T0211::UO_0000016::millimeter
+http://purl.dataone.org/odo/ECSO_00001175 -> T0212::ECSO_00001175::Water Height
+http://purl.dataone.org/odo/ECSO_00000506 -> T0213::ECSO_00000506::Manipulative experiment
+http://purl.dataone.org/odo/ECSO_00001163 -> T0214::ECSO_00001163::Air Moisture Percentage
+http://purl.dataone.org/odo/ECSO_00000518 -> T0215::ECSO_00000518::Plant Pigment Concentration
+http://purl.dataone.org/odo/ECSO_00001151 -> T0216::ECSO_00001151::Ash Free Dry Weight Biomass
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0234X -> T0217::ONTORELA_C0234X::Soil Moisture Percentage intersectionOf ENVO_00002006
+http://purl.dataone.org/odo/ECSO_00001199 -> T0218::ECSO_00001199::Volumetric Density Measurement Type
+http://purl.dataone.org/odo/ECSO_00001187 -> T0219::ECSO_00001187::Seawater Pressure
+http://purl.dataone.org/odo/ECSO_00003031 -> T021a::ECSO_00003031::soil organic_content
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0231X -> T021b::ONTORELA_C0231X::Height unionOf Organism | environmental feature
+http://purl.dataone.org/odo/ECSO_00000060 -> T021c::ECSO_00000060::Total Soil Carbon MOV
+http://purl.dataone.org/odo/ECSO_00000074 -> T021d::ECSO_00000074::Subsurface_Runoff_MOV
+http://purl.obolibrary.org/obo/PATO_0001995 -> T021e::PATO_0001995::PATO_0001995
+http://purl.dataone.org/odo/ECSO_00000050 -> T021f::ECSO_00000050::Leaf_Area_Index_MOV
+http://purl.dataone.org/odo/ECSO_00000062 -> T0220::ECSO_00000062::Rainfall_Rate_MOV
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#ArealDensity -> T0221::ArealDensity::ArealDensity
+http://purl.dataone.org/odo/ECSO_00000098 -> T0222::ECSO_00000098::CLASS-CTEMNplus_Mstmip_Version1_Modeled_Method
+http://purl.obolibrary.org/obo/UO_0000003 -> T0223::UO_0000003::UO_0000003
+http://purl.obolibrary.org/obo/UO_0000027 -> T0224::UO_0000027::degree Celsius
+http://purl.obolibrary.org/obo/ENVO_01000635 -> T0225::ENVO_01000635::land
+http://purl.obolibrary.org/obo/UO_0000015 -> T0226::UO_0000015::centimeter
+http://purl.dataone.org/odo/ECSO_00001186 -> T0227::ECSO_00001186::Air Pressure
+http://purl.obolibrary.org/obo/CHEBI_50860 -> T0228::CHEBI_50860::CHEBI_50860
+http://purl.dataone.org/odo/ECSO_00001174 -> T0229::ECSO_00001174::Sea Level Height
+http://purl.dataone.org/odo/ECSO_00000507 -> T022a::ECSO_00000507::Natural experiment
+http://purl.dataone.org/odo/ECSO_00001162 -> T022b::ECSO_00001162::Precipitation Rate
+http://purl.dataone.org/odo/ECSO_00000519 -> T022c::ECSO_00000519::Temporal Rate Measurement Type
+http://purl.dataone.org/odo/ECSO_00001150 -> T022d::ECSO_00001150::Non-Plant Material Biomass
+http://purl.dataone.org/odo/ECSO_00001198 -> T022e::ECSO_00001198::Mass Density Measurement Type
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#VolumetricRate -> T022f::VolumetricRate::VolumetricRate
+http://purl.dataone.org/odo/ECSO_00000083 -> T0230::ECSO_00000083::Modeled Method
+http://purl.dataone.org/odo/ECSO_00000095 -> T0231::ECSO_00000095::LIDAR Method
+http://purl.dataone.org/odo/ECSO_#MolePerKilogram -> T0232::MolePerKilogram::MolePerKilogram
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#MolePerLiter -> T0233::MolePerLiter::MolePerLiter
+http://purl.dataone.org/odo/ECSO_00001160 -> T0234::ECSO_00001160::Count Density
+http://purl.obolibrary.org/obo/UO_0000002 -> T0235::UO_0000002::UO_0000002
+http://purl.dataone.org/odo/ECSO_00000504 -> T0236::ECSO_00000504::phytoplankton
+http://purl.dataone.org/odo/ECSO_00000516 -> T0237::ECSO_00000516::Chlorophyll-a Concentration
+http://purl.dataone.org/odo/ECSO_00001197 -> T0238::ECSO_00001197::Plant Cover Percentage
+http://purl.dataone.org/odo/ECSO_00000528 -> T0239::ECSO_00000528::Near Surface Specific Humidity MOV
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0258X -> T023a::ONTORELA_C0258X::Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006
+http://purl.dataone.org/odo/ECSO_00001185 -> T023b::ECSO_00001185::pressure_MeasurementType
+http://purl.dataone.org/odo/ECSO_00001173 -> T023c::ECSO_00001173::Tide Height
+http://purl.dataone.org/odo/ECSO_00001161 -> T023d::ECSO_00001161::Potential Temperature
+http://purl.obolibrary.org/obo/ENVO_00000063 -> T023e::ENVO_00000063::ENVO_00000063
+http://purl.dataone.org/odo/ECSO_00000070 -> T023f::ECSO_00000070::Total_Snow_Depth_MOV
+http://purl.dataone.org/odo/ECSO_00000082 -> T0240::ECSO_00000082::Field Method
+http://purl.dataone.org/odo/ECSO_00000096 -> T0241::ECSO_00000096::MsTMIP_Simulation
+http://purl.dataone.org/odo/ECSO_00000072 -> T0242::ECSO_00000072::Surface Incident Longwave Radiation MOV
+http://www.w3.org/TR/skos-reference/skos-owl1-dl#Concept -> T0243::Concept::Concept
+http://purl.obolibrary.org/obo/ENVO_00002011 -> T0244::ENVO_00002011::ENVO_00002011
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#MilligramPerMeterSquaredPerDay -> T0245::MilligramPerMeterSquaredPerDay::MilligramPerMeterSquaredPerDay
+http://purl.obolibrary.org/obo/UO_0000110 -> T0246::UO_0000110::pascal
+http://purl.obolibrary.org/obo/UO_0000001 -> T0247::UO_0000001::linear unit
+http://purl.dataone.org/odo/ECSO_00001171 -> T0248::ECSO_00001171::Built Feature Count Aerial Density
+http://purl.obolibrary.org/obo/ENVO_02500007 -> T0249::ENVO_02500007::ecosystem-wide photosynthesis
+http://purl.dataone.org/odo/ECSO_00000505 -> T024a::ECSO_00000505::Experiment
+http://purl.dataone.org/odo/ECSO_00000517 -> T024b::ECSO_00000517::Soil Moisture Percentage
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#WattPerMeterSquared -> T024c::WattPerMeterSquared::WattPerMeterSquared
+http://purl.dataone.org/odo/ECSO_00001196 -> T024d::ECSO_00001196::Carbon Specific Gross Production Rate
+http://purl.dataone.org/odo/ECSO_00000529 -> T024e::ECSO_00000529::mass concentration
+http://purl.dataone.org/odo/ECSO_00001184 -> T024f::ECSO_00001184::Dry Mass Density
+http://purl.dataone.org/odo/ECSO_00001172 -> T0250::ECSO_00001172::Litter Biomass Density
+http://purl.dataone.org/odo/ECSO_/ONTORELA_C0266X -> T0251::ONTORELA_C0266X::Total Living Biomass MOV unionOf plant-derived organic material | Plant Material | ENVO_00002040 | root matter
+http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#TagNumber -> T0252::TagNumber::TagNumber
+http://purl.dataone.org/odo/ECSO_00000071 -> T0253::ECSO_00000071::Fire_Emissions_MOV
+
+--------------------------------------- 
+Type-Table Catalog
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+ECSO_00000013 [1..*] BFO_0000050 ENVO_01001305 -> T0254::Fire Carbon Flux BFO_0000050 ENVO_01001305
+ECSO_00000013 [1..*] measuresUsingProtocol ONTORELA_C0248X -> T0255::Fire Carbon Flux measuresUsingProtocol Fire Carbon Flux unionOf Eddy Covariance Method | Biomass Method
+ECSO_00000049 [1..*] ENVO_2100001 ENVO_01000324 -> T0256::Near Surface Air Temperature MOV determined by ENVO_01000324
+ECSO_00000025 [1..*] RO_0002473 ECSO_00000329 -> T0257::Carbon Pool composed primarily of Organic Carbon
+ECSO_00001212 [1..*] ENVO_2100001 ENVO_00000023 -> T0258::Stream Depth determined by ENVO_00000023
+ECSO_00001200 [1..*] measuresEntity ENVO_01000155 -> T0259::Biomass Volumetric Density measuresEntity ENVO_01000155
+ECSO_00001139 [1..*] measuresEntity ENVO_01000155 -> T025a::Wet Weight Biomass measuresEntity ENVO_01000155
+ECSO_00001139 [1..*] RO_0000086 PATO_0001823 -> T025b::Wet Weight Biomass RO_0000086 wet
+ECSO_00001127 [1..*] measuresEntity CHEBI_27594 -> T025c::Carbon Percentage measuresEntity carbon atom
+ECSO_00001224 [1..*] measuresEntity ECSO_00000323 -> T025d::Carbon Dioxide Pressure measuresEntity Carbon Dioxide
+ENVO_01000406 [1..*] RO_0002473 ONTORELA_C0236X -> T025e::snow composed primarily of snow unionOf ENVO_00002006
+ENVO_00002033 [1..*] RO_0000086 PATO_0001422 -> T025f::ENVO_00002033 RO_0000086 dead
+ECSO_00000014 [1..*] measuresEntity CHEBI_27594 -> T0260::Net Ecosystem Exchange Carbon Flux measuresEntity carbon atom
+ECSO_00001138 [1..*] measuresEntity CHEBI_25555 -> T0261::Carbon to Nitrogen Ratio measuresEntity nitrogen atom
+ECSO_00001138 [1..*] measuresEntity CHEBI_27594 -> T0262::Carbon to Nitrogen Ratio measuresEntity carbon atom
+ECSO_00001126 [1..*] STATO_0000259 ENVO_00002010 -> T0263::Oceanic Carbonate Concentration has denominator ENVO_00002010
+ECSO_00001126 [1..*] STATO_0000101 ECSO_00000325 -> T0264::Oceanic Carbonate Concentration has numerator Carbonate
+ECSO_00001126 [1..*] STATO_0000101 ECSO_00000325 -> T0265::Oceanic Carbonate Concentration has numerator Carbonate
+ECSO_00001114 [1..*] RO_0002473 ENVO_01000155 -> T0266::Biomass composed primarily of ENVO_01000155
+ECSO_00001235 [1..*] BFO_0000050 ENVO_00001999 -> T0267::Seawater Velocity BFO_0000050 ENVO_00001999
+ECSO_00000582 [1..*] measuresEntity ECSO_00000324 -> T0268::Methane Flux measuresEntity Methane
+ECSO_00000047 [1..*] RO_0000056 ENVO_02500008 -> T0269::Total_Respiration_MOV participates in ecosystem-wide respiration
+ECSO_00001234 [1..*] measuresEntity ENVO_00002006 -> T026a::Water Velocity measuresEntity ENVO_00002006
+ECSO_00001222 [1..*] measuresEntity ECSO_00000503 -> T026b::Plant Material Height measuresEntity plant-derived organic material
+ECSO_00001210 [1..*] measuresEntity ECSO_00000575 -> T026c::Soil Active Layer Depth measuresEntity soil active layer
+ECSO_00001149 [1..*] measuresEntity ECSO_00000312 -> T026d::Non-Plant Material Biomass Density measuresEntity Organism
+ECSO_00001137 [1..*] measuresEntity ENVO_01000155 -> T026e::Net Primary Production Biomass Flux measuresEntity ENVO_01000155
+ECSO_00001125 [1..*] STATO_0000101 ECSO_00000329 -> T026f::Dissolved Organic Carbon Concentration has numerator Organic Carbon
+ECSO_00001125 [1..*] STATO_0000259 ENVO_00002006 -> T0270::Dissolved Organic Carbon Concentration has denominator ENVO_00002006
+ECSO_00001125 [1..*] measuresEntity ONTORELA_C0258X -> T0271::Dissolved Organic Carbon Concentration measuresEntity Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006
+ECSO_00001246 [1..*] measuresEntity ONTORELA_C025aX -> T0272::Oxygen Concentration measuresEntity Oxygen Concentration intersectionOf oxygen atom | environmental material
+ECSO_00001233 [1..*] measuresEntity ENVO_00002005 -> T0273::Wind Speed measuresEntity ENVO_00002005
+ECSO_00001221 [1..*] measuresEntity ECSO_00000503 -> T0274::Crown Height measuresEntity plant-derived organic material
+ECSO_00001148 [1..*] measuresEntity ECSO_00000503 -> T0275::Plant Material Biomass measuresEntity plant-derived organic material
+ECSO_00001136 [1..*] measuresEntity ENVO_01000155 -> T0276::Growth Rate measuresEntity ENVO_01000155
+ECSO_00000580 [1..*] measuresEntity ECSO_00000323 -> T0277::CO2 Concentration in air measuresEntity Carbon Dioxide
+ENVO_00002042 [1..*] BFO_0000050 ENVO_00010504 -> T0278::ENVO_00002042 BFO_0000050 ENVO_00010504
+ECSO_00001135 [1..*] measuresEntity ONTORELA_C026cX -> T0279::Aboveground Biomass measuresEntity Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+ECSO_00001256 [1..*] measuresUsingStandard ECSO_00000560 -> T027a::Specific Flux measuresUsingStandard flux unit
+ECSO_00001111 [1..*] measuresEntity ONTORELA_C023eX -> T027b::Belowground Biomass measuresEntity Belowground Biomass intersectionOf 
+ECSO_00001220 [1..*] measuresEntity ENVO_00000047 -> T027c::Tree Canopy Height measuresEntity ENVO_00000047
+ONTORELA_C0238X [1..*] BFO_0000050 ENVO_00001998 -> T027d::Total Soil Nitrogen Concentration intersectionOf nitrogen atom BFO_0000050 ENVO_00001998
+ECSO_00001147 [1..*] measuresEntity ECSO_00000503 -> T027e::Plant Material Biomass Density measuresEntity plant-derived organic material
+ECSO_00000046 [1..*] ENVO_2100001 ENVO_00010504 -> T027f::Near_Surface_CO2_Concentration_MOV determined by ENVO_00010504
+ECSO_00000046 [1..*] measuresEntity ECSO_00000323 -> T0280::Near_Surface_CO2_Concentration_MOV measuresEntity Carbon Dioxide
+ECSO_00000046 [1..*] BFO_0000050 ENVO_00002005 -> T0281::Near_Surface_CO2_Concentration_MOV BFO_0000050 ENVO_00002005
+ECSO_00000046 [1..*] STATO_0000101 ECSO_00000323 -> T0282::Near_Surface_CO2_Concentration_MOV has numerator Carbon Dioxide
+ECSO_00000046 [1..*] STATO_0000259 ENVO_00002005 -> T0283::Near_Surface_CO2_Concentration_MOV has denominator ENVO_00002005
+ECSO_00000058 [1..*] ENVO_2100001 ECSO_00000574 -> T0284::Soil_Layer_Node_Depth_MOV determined by soil layer
+ECSO_00001134 [1..*] measuresEntity ONTORELA_C0252X -> T0285::Soil Carbon Change Percentage measuresEntity Soil Carbon Change Percentage intersectionOf carbon atom
+ECSO_00001122 [1..*] STATO_0000259 ENVO_00002011 -> T0286::Freshwater Total Inorganic Carbon Concentration has denominator ENVO_00002011
+ECSO_00001122 [1..*] measuresEntity ONTORELA_C0250X -> T0287::Freshwater Total Inorganic Carbon Concentration measuresEntity Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011
+ECSO_00001122 [1..*] STATO_0000101 ECSO_00000337 -> T0288::Freshwater Total Inorganic Carbon Concentration has numerator Inorganic Carbon
+ECSO_00001122 [1..*] STATO_0000259 ENVO_00002006 -> T0289::Freshwater Total Inorganic Carbon Concentration has denominator ENVO_00002006
+ECSO_00001122 [1..*] STATO_0000101 ECSO_00000337 -> T028a::Freshwater Total Inorganic Carbon Concentration has numerator Inorganic Carbon
+ECSO_00001243 [1..*] measuresEntity ECSO_00000562 -> T028b::Chlorophyll Concentration measuresEntity chlorophyll
+ECSO_00001110 [1..*] RO_0002473 ENVO_00005802 -> T028c::Soil Bulk Density composed primarily of ENVO_00005802
+ECSO_00001110 [1..*] measuresEntity ENVO_00001998 -> T028d::Soil Bulk Density measuresEntity ENVO_00001998
+ECSO_00000067 [1..*] ENVO_2100001 ECSO_00000569 -> T028e::Heterotrophic Respiration MOV determined by Bacteria
+ECSO_00000079 [1..*] RO_0000056 ENVO_02500034 -> T028f::Total_Evaporation_MOV participates in evaporation
+ECSO_00000043 [1..*] RO_0002473 ONTORELA_C0266X -> T0290::Total Living Biomass MOV composed primarily of Total Living Biomass MOV unionOf plant-derived organic material | Plant Material | ENVO_00002040 | root matter
+ECSO_00000055 [1..*] ENVO_2100001 ECSO_00000574 -> T0291::Soil_Layer_Top_Depth_MOV determined by soil layer
+ECSO_00001230 [1..*] measuresEntity ENVO_00001998 -> T0292::Soil Temperature measuresEntity ENVO_00001998
+Entity [1..*] ECSO_00000318 ECSO_00000314 -> T0293::Entity has state Physical State
+ECSO_00001157 [1..*] measuresCharacteristic Identifier -> T0294::Identity measuresCharacteristic Identifier
+ECSO_00001145 [1..*] measuresEntity CHEBI_25555 -> T0295::Nitrogen Percentage measuresEntity nitrogen atom
+ECSO_00001133 [1..*] measuresEntity ONTORELA_C026aX -> T0296::Vegetation Carbon Change Percentage measuresEntity Vegetation Carbon Change Percentage intersectionOf carbon atom
+ECSO_00001169 [1..*] measuresEntity ECSO_00000312 -> T0297::Non-Plant Material Count Aerial Density measuresEntity Organism
+ECSO_00000020 [1..*] ENVO_2100001 ONTORELA_C024aX -> T0298::Gross Primary Production Carbon Flux determined by Gross Primary Production Carbon Flux unionOf ENVO_00000063 | land
+ECSO_00000056 [1..*] RO_0000056 ENVO_01000793 -> T0299::Near Surface Module of the Wind MOV participates in atmospheric wind
+ECSO_00000056 [1..*] ENVO_2100001 ENVO_01000324 -> T029a::Near Surface Module of the Wind MOV determined by ENVO_01000324
+ECSO_00000068 [1..*] ENVO_2100001 ENVO_00000134 -> T029b::Active_Layer_Thickness_MOV determined by ENVO_00000134
+ECSO_00001241 [1..*] RO_0000086 PATO_0001824 -> T029c::Soil Dry Weight RO_0000086 PATO_0001824
+ECSO_00001241 [1..*] measuresEntity ENVO_00001998 -> T029d::Soil Dry Weight measuresEntity ENVO_00001998
+ECSO_00001156 [1..*] measuresEntity ONTORELA_C024eX -> T029e::Leaf Area Index measuresEntity Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+ECSO_00001144 [1..*] measuresEntity ONTORELA_C0238X -> T029f::Total Soil Nitrogen Concentration measuresEntity Total Soil Nitrogen Concentration intersectionOf nitrogen atom
+ECSO_00001144 [1..*] STATO_0000101 CHEBI_25555 -> T02a0::Total Soil Nitrogen Concentration has numerator nitrogen atom
+ECSO_00001144 [1..*] STATO_0000259 ENVO_00001998 -> T02a1::Total Soil Nitrogen Concentration has denominator ENVO_00001998
+ECSO_00001132 [1..*] BFO_0000050 ENVO_00002010 -> T02a2::Oceanic Carbon Dioxide Concentration BFO_0000050 ENVO_00002010
+ECSO_00001132 [1..*] STATO_0000101 ECSO_00000323 -> T02a3::Oceanic Carbon Dioxide Concentration has numerator Carbon Dioxide
+ECSO_00001132 [1..*] STATO_0000259 ENVO_00002010 -> T02a4::Oceanic Carbon Dioxide Concentration has denominator ENVO_00002010
+ECSO_00001132 [1..*] measuresEntity ECSO_00000323 -> T02a5::Oceanic Carbon Dioxide Concentration measuresEntity Carbon Dioxide
+ECSO_00001132 [1..*] measuresEntity ECSO_00000323 -> T02a6::Oceanic Carbon Dioxide Concentration measuresEntity Carbon Dioxide
+MeasurementType [1..*] RO_0000056 ECSO_00000546 -> T02a7::Measurement Type participates in Process
+ENVO_01001305 [1..*] RO_0002473 ECSO_00000573 -> T02a8::ENVO_01001305 composed primarily of plant
+ECSO_00000530 [1..*] BFO_0000050 ONTORELA_C0246X -> T02a9::CO2 Concentration BFO_0000050 CO2 Concentration unionOf ENVO_00002005 | ENVO_00002006
+ECSO_00000542 [1..*] ENVO_2100001 ECSO_00000508 -> T02aa::Marine Macroalgae Net Primary Production Carbon Flux determined by Macroalgae
+ECSO_00000542 [1..*] RO_0001025 ONTORELA_C0268X -> T02ab::Marine Macroalgae Net Primary Production Carbon Flux RO_0001025 Marine Macroalgae Net Primary Production Carbon Flux unionOf ENVO_01000020 | ENVO_01000048
+ECSO_00000300 [1..*] ENVO_2100001 ECSO_00000323 -> T02ac::CO2 Enrichment Method determined by Carbon Dioxide
+ECSO_00000566 [1..*] STATO_0000259 ENVO_00002011 -> T02ad::Freshwater Carbonate Concentration has denominator ENVO_00002011
+ECSO_00000566 [1..*] measuresEntity ECSO_00000325 -> T02ae::Freshwater Carbonate Concentration measuresEntity Carbonate
+ECSO_00000566 [1..*] BFO_0000050 ENVO_00002011 -> T02af::Freshwater Carbonate Concentration BFO_0000050 ENVO_00002011
+ECSO_00000566 [1..*] STATO_0000101 ECSO_00000325 -> T02b0::Freshwater Carbonate Concentration has numerator Carbonate
+ECSO_00000566 [1..*] STATO_0000101 ECSO_00000325 -> T02b1::Freshwater Carbonate Concentration has numerator Carbonate
+ECSO_00000579 [1..*] measuresEntity ENVO_00001998 -> T02b2::Soil organic matter proportion measuresEntity ENVO_00001998
+ECSO_00000579 [1..*] measuresCharacteristic ECSO_00003030 -> T02b3::Soil organic matter proportion measuresCharacteristic organic_content
+ECSO_00000531 [1..*] measuresUsingProtocol ECSO_00000555 -> T02b4::Total Soil Carbon measuresUsingProtocol Biomass Method
+ECSO_00000531 [1..*] measuresEntity ONTORELA_C023aX -> T02b5::Total Soil Carbon measuresEntity Total Soil Carbon intersectionOf Organic Carbon
+ECSO_00000543 [1..*] RO_0001025 ocean_surface -> T02b6::Oceanic Carbon Dioxide Flux RO_0001025 ocean surface
+ECSO_00000555 [1..*] ENVO_2100001 ENVO_01001305 -> T02b7::Biomass Method determined by ENVO_01001305
+ECSO_00000567 [1..*] STATO_0000259 ENVO_00002011 -> T02b8::Freshwater Bicarbonate Concentration has denominator ENVO_00002011
+ECSO_00000567 [1..*] measuresEntity ONTORELA_C0256X -> T02b9::Freshwater Bicarbonate Concentration measuresEntity Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011
+ECSO_00000567 [1..*] STATO_0000101 ECSO_00000326 -> T02ba::Freshwater Bicarbonate Concentration has numerator Bicarbonate
+ECSO_00000567 [1..*] STATO_0000101 ECSO_00000326 -> T02bb::Freshwater Bicarbonate Concentration has numerator Bicarbonate
+ECSO_00000578 [1..*] BFO_0000050 ENVO_00002006 -> T02bc::Aquatic Particulate Organic Carbon BFO_0000050 ENVO_00002006
+ECSO_00001219 [1..*] measuresEntity ECSO_00001100 -> T02bd::Latent Heat Flux measuresEntity electromagnetic radiation
+ECSO_00001207 [1..*] measuresEntity ENVO_00001998 -> T02be::Soil Depth measuresEntity ENVO_00001998
+ECSO_00000201 [1..*] measuresUsingProtocol ECSO_00000091 -> T02bf::Carbon Dioxide Diffusion Flux measuresUsingProtocol Eddy Covariance Method
+ECSO_00000577 [1..*] BFO_0000050 ENVO_00002006 -> T02c0::Aquatic Dissolved Organic Carbon BFO_0000050 ENVO_00002006
+ECSO_00001109 [1..*] measuresEntity CHEBI_25555 -> T02c1::Nitrogen Fixation Rate measuresEntity nitrogen atom
+ECSO_00001206 [1..*] ENVO_2100001 ENVO_00000105 -> T02c2::Lake Depth determined by ENVO_00000105
+ECSO_00000541 [1..*] measuresUsingProtocol ECSO_00000094 -> T02c3::Tree Height measuresUsingProtocol Allometric Method
+ECSO_00000553 [1..*] measuresUsingProtocol ECSO_00000094 -> T02c4::Linear Measurement Type measuresUsingProtocol Allometric Method
+ECSO_00000565 [1..*] measuresEntity ONTORELA_C0264X -> T02c5::Carbonate Concentration measuresEntity Carbonate Concentration intersectionOf Carbonate | ENVO_00002006
+ECSO_00000565 [1..*] STATO_0000259 ENVO_00002006 -> T02c6::Carbonate Concentration has denominator ENVO_00002006
+ECSO_00000565 [1..*] STATO_0000101 ECSO_00000337 -> T02c7::Carbonate Concentration has numerator Inorganic Carbon
+ECSO_00000565 [1..*] STATO_0000259 ENVO_00002006 -> T02c8::Carbonate Concentration has denominator ENVO_00002006
+ECSO_00000576 [1..*] STATO_0000101 CHEBI_27594 -> T02c9::Soil Carbon Concentration has numerator carbon atom
+ECSO_00000576 [1..*] STATO_0000259 ENVO_00001998 -> T02ca::Soil Carbon Concentration has denominator ENVO_00001998
+ECSO_00001205 [1..*] measuresEntity ENVO_01000406 -> T02cb::Snow Depth measuresEntity snow
+ECSO_00001108 [1..*] measuresEntity ENVO_01000155 -> T02cc::Ash Weight Biomass measuresEntity ENVO_01000155
+ECSO_00001229 [1..*] measuresEntity ENVO_01000635 -> T02cd::Ground Temperature measuresEntity land
+ECSO_00001217 [1..*] measuresCharacteristic TagNumber -> T02ce::Tag Number measuresCharacteristic TagNumber
+ECSO_00002777 [1..*] measuresEntity ECSO_00002776 -> T02cf::periphyton MassSpecificProductionRate measuresEntity periphyton
+ECSO_00002777 [1..*] measuresCharacteristic ECSO_00002775 -> T02d0::periphyton MassSpecificProductionRate measuresCharacteristic MassSpecificProductionRate
+ENVO_00010504 [1..*] BFO_0000050 ONTORELA_C0244X -> T02d1::ENVO_00010504 BFO_0000050 ENVO_00010504 unionOf ocean surface | ENVO_01000324
+ECSO_00001216 [1..*] measuresEntity ENVO_01000635 -> T02d2::Ground Heat Flux measuresEntity land
+ECSO_00001204 [1..*] ENVO_2100001 ocean_surface -> T02d3::Seawater Depth determined by ocean surface
+ECSO_00001228 [1..*] measuresEntity ENVO_00005774 -> T02d4::Peat Temperature measuresEntity ENVO_00005774
+ONTORELA_C026aX [1..*] BFO_0000050 ENVO_01001305 -> T02d5::Vegetation Carbon Change Percentage intersectionOf carbon atom BFO_0000050 ENVO_01001305
+ENVO_00005801 [1..*] RO_0002473 ENVO_01000349 -> T02d6::ENVO_00005801 composed primarily of root matter
+ECSO_00000551 [1..*] RO_0002473 ECSO_00001114 -> T02d7::biomass_density composed primarily of Biomass
+ECSO_00001227 [1..*] measuresEntity ENVO_00002006 -> T02d8::Water Temperature measuresEntity ENVO_00002006
+ECSO_00000574 [1..*] RO_0002473 ENVO_00001998 -> T02d9::soil layer composed primarily of ENVO_00001998
+ECSO_00001203 [1..*] measuresEntity ENVO_00002006 -> T02da::Water Depth measuresEntity ENVO_00002006
+ECSO_00001118 [1..*] BFO_0000050 ENVO_00002006 -> T02db::Aquatic Total Organic Carbon Concentration BFO_0000050 ENVO_00002006
+ONTORELA_C0250X [1..*] BFO_0000050 ENVO_00002011 -> T02dc::Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011 BFO_0000050 ENVO_00002011
+ECSO_00000015 [1..*] measuresEntity CHEBI_27594 -> T02dd::Primary Production Carbon Flux measuresEntity carbon atom
+ECSO_00001238 [1..*] measuresEntity ENVO_00003075 -> T02de::Physical Feature Width measuresEntity ENVO_00003075
+ECSO_00001226 [1..*] BFO_0000050 ENVO_00001999 -> T02df::Seawater Temperature BFO_0000050 ENVO_00001999
+ECSO_00001202 [1..*] measuresEntity CHEBI_27594 -> T02e0::Biomass Concentration measuresEntity carbon atom
+ECSO_00001202 [1..*] BFO_0000050 ENVO_01000155 -> T02e1::Biomass Concentration BFO_0000050 ENVO_01000155
+ECSO_00001202 [1..*] STATO_0000101 CHEBI_27594 -> T02e2::Biomass Concentration has numerator carbon atom
+ECSO_00001202 [1..*] STATO_0000259 ENVO_01000155 -> T02e3::Biomass Concentration has denominator ENVO_01000155
+ECSO_00001129 [1..*] measuresEntity CHEBI_27594 -> T02e4::Net Carbon Respiration Rate Flux measuresEntity carbon atom
+ECSO_00001128 [1..*] measuresEntity CHEBI_27594 -> T02e5::Carbon Specific Net Production Rate measuresEntity carbon atom
+ECSO_00001249 [1..*] measuresEntity ECSO_00000564 -> T02e6::Pheophytin Concentration measuresEntity pheophytin
+ONTORELA_C025aX [1..*] BFO_0000050 ENVO_00010483 -> T02e7::Oxygen Concentration intersectionOf oxygen atom | environmental material BFO_0000050 environmental material
+ECSO_00001116 [1..*] STATO_0000101 CHEBI_51143 -> T02e8::Ammonium Concentration has numerator CHEBI_51143
+ECSO_00001116 [1..*] STATO_0000259 ENVO_00002006 -> T02e9::Ammonium Concentration has denominator ENVO_00002006
+ECSO_00001116 [1..*] measuresEntity CHEBI_51143 -> T02ea::Ammonium Concentration measuresEntity CHEBI_51143
+ECSO_00001116 [1..*] BFO_0000050 ENVO_00002006 -> T02eb::Ammonium Concentration BFO_0000050 ENVO_00002006
+ECSO_00001237 [1..*] measuresEntity ENVO_00002006 -> T02ec::Precipitation Volume measuresEntity ENVO_00002006
+ECSO_00001225 [1..*] measuresEntity ENVO_00002005 -> T02ed::Air Temperature measuresEntity ENVO_00002005
+ECSO_00001213 [1..*] ENVO_2100001 ENVO_00002041 -> T02ee::Groundwater Depth determined by ENVO_00002041
+ECSO_00000502 [1..*] STATO_0000101 CHEBI_27594 -> T02ef::Litter Carbon Concentration has numerator carbon atom
+ECSO_00000502 [1..*] STATO_0000259 ENVO_01000155 -> T02f0::Litter Carbon Concentration has denominator ENVO_01000155
+ECSO_00001170 [1..*] measuresEntity ECSO_00000503 -> T02f1::Plant Material Count Aerial Density measuresEntity plant-derived organic material
+ECSO_00000538 [1..*] measuresEntity ONTORELA_C0242X -> T02f2::Bicarbonate Concentration measuresEntity Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006
+ECSO_00000538 [1..*] STATO_0000259 ENVO_00002006 -> T02f3::Bicarbonate Concentration has denominator ENVO_00002006
+ECSO_00000538 [1..*] STATO_0000259 ENVO_00002006 -> T02f4::Bicarbonate Concentration has denominator ENVO_00002006
+ECSO_00000538 [1..*] STATO_0000101 ECSO_00000337 -> T02f5::Bicarbonate Concentration has numerator Inorganic Carbon
+ECSO_00001195 [1..*] measuresEntity ENVO_00010504 -> T02f6::Area Percentage measuresEntity ENVO_00010504
+ONTORELA_C026cX [1..*] BFO_0000050 ENVO_00010504 -> T02f7::Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504 BFO_0000050 ENVO_00010504
+ECSO_00000092 [1..*] ENVO_2100001 CHEBI_36927 -> T02f8::Carbon14 Uptake Method determined by carbon-14
+ECSO_00000080 [1..*] ENVO_2100001 ENVO_01000323 -> T02f9::Latent Heat MOV determined by ENVO_01000323
+ECSO_00000094 [1..*] ENVO_2100001 ECSO_00000540 -> T02fa::Allometric Method determined by Growth
+ECSO_00001193 [1..*] measuresCharacteristic Name -> T02fb::Name measuresCharacteristic Name
+ONTORELA_C0240X [1..*] BFO_0000050 ENVO_00010504 -> T02fc::Aerial Cover Percentage intersectionOf Entity | ENVO_00010504 BFO_0000050 ENVO_00010504
+ECSO_00000093 [1..*] ENVO_2100001 oxygen_atom -> T02fd::Oxygen Evolution LightDark Method determined by oxygen atom
+ECSO_00000512 [1..*] STATO_0000101 Entity -> T02fe::concentration_MeasurementType has numerator Entity
+ECSO_00000512 [1..*] STATO_0000259 Entity -> T02ff::concentration_MeasurementType has denominator Entity
+ECSO_00001192 [1..*] measuresEntity ENVO_00000047 -> T0300::Canopy Percentage measuresEntity ENVO_00000047
+ECSO_00001180 [1..*] measuresEntity CHEBI_27594 -> T0301::Carbon Biomass Density measuresEntity carbon atom
+ECSO_00000548 [1..*] RO_0000086 PATO_0001823 -> T0302::wet_weight RO_0000086 wet
+ONTORELA_C0252X [1..*] BFO_0000050 ENVO_00001998 -> T0303::Soil Carbon Change Percentage intersectionOf carbon atom BFO_0000050 ENVO_00001998
+ECSO_00002932 [1..*] measuresEntity ECSO_00002569 -> T0304::carbon concentration_of measuresEntity carbon
+ECSO_00002932 [1..*] measuresCharacteristic ECSO_00001120 -> T0305::carbon concentration_of measuresCharacteristic Concentration
+ONTORELA_C0264X [1..*] BFO_0000050 ENVO_00002006 -> T0306::Carbonate Concentration intersectionOf Carbonate | ENVO_00002006 BFO_0000050 ENVO_00002006
+ECSO_00000501 [1..*] RO_0002473 ENVO_00002040 -> T0307::Tree composed primarily of ENVO_00002040
+ECSO_00001191 [1..*] measuresEntity ECSO_00000503 -> T0308::Crown Cover Percentage measuresEntity plant-derived organic material
+ENVO_01000155 [1..*] ENVO_2100001 CHEBI_27594 -> T0309::ENVO_01000155 determined by carbon atom
+ECSO_00000091 [1..*] ENVO_2100001 ENVO_01000323 -> T030a::Eddy Covariance Method determined by ENVO_01000323
+ECSO_00000522 [1..*] STATO_0000101 ECSO_00000323 -> T030b::Freshwater Carbon Dioxide Concentration has numerator Carbon Dioxide
+ECSO_00000522 [1..*] STATO_0000259 ENVO_00002011 -> T030c::Freshwater Carbon Dioxide Concentration has denominator ENVO_00002011
+ECSO_00000522 [1..*] BFO_0000050 ENVO_00002011 -> T030d::Freshwater Carbon Dioxide Concentration BFO_0000050 ENVO_00002011
+ECSO_00000522 [1..*] measuresEntity ECSO_00000323 -> T030e::Freshwater Carbon Dioxide Concentration measuresEntity Carbon Dioxide
+ECSO_00000522 [1..*] measuresEntity ECSO_00000323 -> T030f::Freshwater Carbon Dioxide Concentration measuresEntity Carbon Dioxide
+ECSO_00000534 [1..*] ENVO_2100001 ECSO_00000504 -> T0310::Phytoplankton Primary Production Carbon Flux determined by phytoplankton
+ECSO_00000534 [1..*] RO_0001025 ENVO_00002030 -> T0311::Phytoplankton Primary Production Carbon Flux RO_0001025 ENVO_00002030
+ECSO_00001190 [1..*] measuresEntity ONTORELA_C0240X -> T0312::Aerial Cover Percentage measuresEntity Aerial Cover Percentage intersectionOf Entity | ENVO_00010504
+ECSO_00000535 [1..*] STATO_0000259 ENVO_00002010 -> T0313::Oceanic Total Inorganic Carbon Concentration has denominator ENVO_00002010
+ECSO_00000535 [1..*] measuresEntity ONTORELA_C024cX -> T0314::Oceanic Total Inorganic Carbon Concentration measuresEntity Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010
+ECSO_00000535 [1..*] STATO_0000101 ECSO_00000337 -> T0315::Oceanic Total Inorganic Carbon Concentration has numerator Inorganic Carbon
+ECSO_00000535 [1..*] STATO_0000259 ENVO_00002006 -> T0316::Oceanic Total Inorganic Carbon Concentration has denominator ENVO_00002006
+ECSO_00000535 [1..*] STATO_0000101 ECSO_00000337 -> T0317::Oceanic Total Inorganic Carbon Concentration has numerator Inorganic Carbon
+ONTORELA_C0242X [1..*] BFO_0000050 ENVO_00002006 -> T0318::Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006 BFO_0000050 ENVO_00002006
+ENVO_00000111 [1..*] RO_0002473 ECSO_00000501 -> T0319::ENVO_00000111 composed primarily of Tree
+ECSO_00000544 [1..*] measuresUsingProtocol ECSO_00000094 -> T031a::Tree Diameter measuresUsingProtocol Allometric Method
+ECSO_00000556 [1..*] RO_0000086 PATO_0001824 -> T031b::dry_weight RO_0000086 PATO_0001824
+ONTORELA_C0254X [1..*] BFO_0000050 ENVO_00001998 -> T031c::Soil Porewater Salinity Concentration intersectionOf ENVO_00002006 BFO_0000050 ENVO_00001998
+ONTORELA_C024cX [1..*] BFO_0000050 ENVO_00002010 -> T031d::Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010 BFO_0000050 ENVO_00002010
+ECSO_00000533 [1..*] measuresUsingProtocol ECSO_00000090 -> T031e::Grassland Above Ground Net Primary Production Carbon Flux measuresUsingProtocol Peak Biomass Harvest Method
+ECSO_00000533 [1..*] BFO_0000050 ECSO_00000503 -> T031f::Grassland Above Ground Net Primary Production Carbon Flux BFO_0000050 plant-derived organic material
+ECSO_00000545 [1..*] measuresUsingProtocol ECSO_00000094 -> T0320::Tree Circumference measuresUsingProtocol Allometric Method
+ECSO_00001209 [1..*] measuresEntity ENVO_01000628 -> T0321::Litter Depth measuresEntity plant litter
+ECSO_00000053 [1..*] ENVO_2100001 ECSO_00000574 -> T0322::Average_Layer_Soil_Temperature_MOV determined by soil layer
+ENVO_01000628 [1..*] RO_0000086 PATO_0001422 -> T0323::plant litter RO_0000086 dead
+ENVO_01000628 [1..*] RO_0002473 ECSO_00000503 -> T0324::plant litter composed primarily of plant-derived organic material
+ONTORELA_C023cX [1..*] BFO_0000050 ENVO_00010504 -> T0325::Plant Cover Percentage intersectionOf plant | ENVO_00010504 BFO_0000050 ENVO_00010504
+ECSO_00001131 [1..*] STATO_0000259 ENVO_00002010 -> T0326::Oceanic Bicarbonate Concentration has denominator ENVO_00002010
+ECSO_00001131 [1..*] STATO_0000101 ECSO_00000326 -> T0327::Oceanic Bicarbonate Concentration has numerator Bicarbonate
+ECSO_00001131 [1..*] STATO_0000101 ECSO_00000326 -> T0328::Oceanic Bicarbonate Concentration has numerator Bicarbonate
+ECSO_00001179 [1..*] measuresEntity CHEBI_25555 -> T0329::Nitrogen Biomass Density measuresEntity nitrogen atom
+ECSO_00001167 [1..*] measuresCharacteristic PATO_0001309 -> T032a::temporal_MeasurementType measuresCharacteristic duration
+ECSO_00001167 [1..*] measuresUsingStandard UO_0000003 -> T032b::temporal_MeasurementType measuresUsingStandard UO_0000003
+ECSO_00001143 [1..*] measuresEntity CHEBI_27594 -> T032c::Carbon Biomass measuresEntity carbon atom
+ECSO_00003196 [1..*] measuresEntity ECSO_00003195 -> T032d::Calcium Carbonate Concentration measuresEntity Calcium Carbonate
+ECSO_00003196 [1..*] measuresCharacteristic ECSO_00001120 -> T032e::Calcium Carbonate Concentration measuresCharacteristic Concentration
+ONTORELA_C024eX [1..*] BFO_0000050 ENVO_00010504 -> T032f::Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504 BFO_0000050 ENVO_00010504
+ECSO_00000078 [1..*] ENVO_2100001 ENVO_01000324 -> T0330::Surface Incident Shortwave Radiation MOV determined by ENVO_01000324
+ECSO_00000054 [1..*] ENVO_2100001 ENVO_01000635 -> T0331::Surface Runoff MOV determined by land
+ECSO_00000066 [1..*] ENVO_2100001 ECSO_00000574 -> T0332::Soil_Layer_Bottom_Depth_MOV determined by soil layer
+carbon_cycling [1..*] RO_0002473 CHEBI_27594 -> T0333::carbon cycling composed primarily of carbon atom
+ECSO_00001142 [1..*] measuresEntity CHEBI_36928 -> T0334::Carbon Stable Isotope Ratio measuresEntity carbon-13
+ECSO_00001130 [1..*] STATO_0000101 ECSO_00000329 -> T0335::Organic Carbon Concentration in Water has numerator Organic Carbon
+ECSO_00001130 [1..*] STATO_0000259 ENVO_00002006 -> T0336::Organic Carbon Concentration in Water has denominator ENVO_00002006
+ECSO_00001130 [1..*] measuresEntity ECSO_00000329 -> T0337::Organic Carbon Concentration in Water measuresEntity Organic Carbon
+ECSO_00001178 [1..*] measuresEntity ENVO_00001998 -> T0338::Soil Wet Weight measuresEntity ENVO_00001998
+ECSO_00001178 [1..*] RO_0000086 PATO_0001823 -> T0339::Soil Wet Weight RO_0000086 wet
+ECSO_00001166 [1..*] measuresEntity ENVO_01000155 -> T033a::Volume Fraction Biomass Concentration measuresEntity ENVO_01000155
+ECSO_00000075 [1..*] ENVO_2100001 ENVO_01000323 -> T033b::Sensible Heat MOV determined by ENVO_01000323
+ECSO_00000051 [1..*] ENVO_2100001 ENVO_01000324 -> T033c::Surface Pressure MOV determined by ENVO_01000324
+ECSO_00001153 [1..*] RO_0000086 PATO_0001824 -> T033d::Dry Weight Biomass RO_0000086 PATO_0001824
+ECSO_00001153 [1..*] measuresEntity ENVO_01000155 -> T033e::Dry Weight Biomass measuresEntity ENVO_01000155
+ONTORELA_C0256X [1..*] BFO_0000050 ENVO_00002011 -> T033f::Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011 BFO_0000050 ENVO_00002011
+ONTORELA_C0261X-el0 [1..*] BFO_0000050 ENVO_00010483 -> T0340::Carbon to Nitrogen Ratio unionOf Organism | environmental material element environmental material BFO_0000050 environmental material
+ECSO_00001177 [1..*] measuresEntity ECSO_00000312 -> T0341::Non-Plant Material Length measuresEntity Organism
+ECSO_00001165 [1..*] STATO_0000101 ENVO_00002006 -> T0342::Soil Porewater Salinity Concentration has numerator ENVO_00002006
+ECSO_00001165 [1..*] STATO_0000259 ENVO_00001998 -> T0343::Soil Porewater Salinity Concentration has denominator ENVO_00001998
+ECSO_00001165 [1..*] measuresEntity ONTORELA_C0254X -> T0344::Soil Porewater Salinity Concentration measuresEntity Soil Porewater Salinity Concentration intersectionOf ENVO_00002006
+ECSO_00000052 [1..*] ENVO_2100001 ECSO_00000574 -> T0345::Average Layer Soil Moisture MOV determined by soil layer
+ECSO_00000064 [1..*] RO_0000056 ENVO_02500007 -> T0346::Gross Primary Productivity MOV participates in ecosystem-wide photosynthesis
+ECSO_00000076 [1..*] RO_0000056 carbon_cycling -> T0347::Net Ecosystem Exchange MOV participates in carbon cycling
+ECSO_00001152 [1..*] measuresEntity ENVO_00010504 -> T0348::Sampling Site Area measuresEntity ENVO_00010504
+ONTORELA_C023eX [1..*] BFO_0000050 ENVO_00001998 -> T0349::Belowground Biomass intersectionOf  BFO_0000050 ENVO_00001998
+ECSO_00000061 [1..*] ENVO_2100001 ONTORELA_C025cX -> T034a::Autotrophic Respiration MOV determined by Autotrophic Respiration MOV unionOf phytoplankton | Phytoplankton | plant
+ECSO_00000073 [1..*] RO_0002473 ENVO_00002040 -> T034b::Above_Ground_Woody_Biomass_MOV composed primarily of ENVO_00002040
+ECSO_00001175 [1..*] measuresEntity ENVO_00002006 -> T034c::Water Height measuresEntity ENVO_00002006
+ECSO_00001151 [1..*] RO_0000086 PATO_0001824 -> T034d::Ash Free Dry Weight Biomass RO_0000086 PATO_0001824
+ECSO_00001151 [1..*] measuresEntity ENVO_01000155 -> T034e::Ash Free Dry Weight Biomass measuresEntity ENVO_01000155
+ONTORELA_C0234X [1..*] BFO_0000050 ENVO_00001998 -> T034f::Soil Moisture Percentage intersectionOf ENVO_00002006 BFO_0000050 ENVO_00001998
+ECSO_00001187 [1..*] measuresEntity ENVO_00002149 -> T0350::Seawater Pressure measuresEntity ENVO_00002149
+ECSO_00003031 [1..*] measuresEntity ENVO_00001998 -> T0351::soil organic_content measuresEntity ENVO_00001998
+ECSO_00003031 [1..*] measuresCharacteristic ECSO_00003030 -> T0352::soil organic_content measuresCharacteristic organic_content
+ECSO_00000074 [1..*] ENVO_2100001 ENVO_01000324 -> T0353::Subsurface_Runoff_MOV determined by ENVO_01000324
+ECSO_00000050 [1..*] ENVO_2100001 ECSO_00000503 -> T0354::Leaf_Area_Index_MOV determined by plant-derived organic material
+ECSO_00000062 [1..*] RO_0000056 ENVO_01000830 -> T0355::Rainfall_Rate_MOV participates in water-based rainfall
+ECSO_00001186 [1..*] measuresEntity ENVO_00002005 -> T0356::Air Pressure measuresEntity ENVO_00002005
+ECSO_00001174 [1..*] ENVO_2100001 ocean_surface -> T0357::Sea Level Height determined by ocean surface
+ECSO_00001162 [1..*] measuresEntity ENVO_00002006 -> T0358::Precipitation Rate measuresEntity ENVO_00002006
+ECSO_00001150 [1..*] measuresEntity ECSO_00000312 -> T0359::Non-Plant Material Biomass measuresEntity Organism
+ECSO_00000095 [1..*] ENVO_2100001 ENVO_01000635 -> T035a::LIDAR Method determined by land
+ECSO_00000516 [1..*] measuresEntity ECSO_00000563 -> T035b::Chlorophyll-a Concentration measuresEntity chloroplyll-a
+ECSO_00001197 [1..*] measuresEntity ONTORELA_C023cX -> T035c::Plant Cover Percentage measuresEntity Plant Cover Percentage intersectionOf plant | ENVO_00010504
+ECSO_00000528 [1..*] ENVO_2100001 ENVO_01000324 -> T035d::Near Surface Specific Humidity MOV determined by ENVO_01000324
+ONTORELA_C0258X [1..*] BFO_0000050 ENVO_00002006 -> T035e::Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006 BFO_0000050 ENVO_00002006
+ECSO_00001161 [1..*] measuresEntity ENVO_00002006 -> T035f::Potential Temperature measuresEntity ENVO_00002006
+ECSO_00000072 [1..*] ENVO_2100001 ENVO_01000324 -> T0360::Surface Incident Longwave Radiation MOV determined by ENVO_01000324
+ECSO_00001171 [1..*] measuresEntity ENVO_00003075 -> T0361::Built Feature Count Aerial Density measuresEntity ENVO_00003075
+ECSO_00000517 [1..*] measuresEntity ONTORELA_C0234X -> T0362::Soil Moisture Percentage measuresEntity Soil Moisture Percentage intersectionOf ENVO_00002006
+ECSO_00000517 [1..*] measuresUsingProtocol ECSO_00001112 -> T0363::Soil Moisture Percentage measuresUsingProtocol Volumetric Water Content Method
+ECSO_00001196 [1..*] measuresEntity CHEBI_27594 -> T0364::Carbon Specific Gross Production Rate measuresEntity carbon atom
+ECSO_00001184 [1..*] measuresEntity ENVO_01000155 -> T0365::Dry Mass Density measuresEntity ENVO_01000155
+ECSO_00001172 [1..*] measuresEntity ENVO_01000628 -> T0366::Litter Biomass Density measuresEntity plant litter
+ECSO_00000071 [1..*] RO_0000056 ENVO_01000786 -> T0367::Fire_Emissions_MOV participates in fire

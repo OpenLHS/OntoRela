@@ -1,0 +1,30 @@
+
+======================================================= 
+OntoRelA summary
+======================================================= 
+
+--------------------------------------- 
+Reduced Ontology (axiom redundancy reduction)
+--------------------------------------- 
+http://purl.org/vso/ns
+Nb. classes          : 34
+Nb. data properties  : 16
+Nb. object properties: 38
+Nb. isa axioms       : 28
+Nb. data axioms      : 13
+Nb. class axioms     : 58
+Nb. reduced axioms : 1
+
+--------------------------------------- 
+OntoRel database
+--------------------------------------- 
+Nb. all tables          : 105
+Nb. association tables  : 58
+Nb. fks                 : 162
+Nb. constraint functions: 71
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 3 sec
+Output total size: 568 KB

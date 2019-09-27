@@ -1,0 +1,450 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+Table T0000
+
+Table T0001
+    View attribute @en: uid Kayak (gr:ProductOrService)
+
+Table T0002
+  View name @en: Steering position value (the class of predefined values)
+    View attribute @en: uid Steering position value (the class of predefined values)
+
+Table T0003
+  View name @en: Bus or coach (gr:ProductOrService)
+    View attribute @en: uid Bus or coach (gr:ProductOrService)
+
+Table T0004
+
+Table T0005
+  View name @en: Engine type value (the class of predefined values)
+    View attribute @en: uid Engine type value (the class of predefined values)
+
+Table T0006
+  View name @en: Transmission type value (the class of predefined values)
+    View attribute @en: uid Transmission type value (the class of predefined values)
+
+Table T0007
+
+Table T0008
+    View attribute @en: uid Canoe (gr:ProductOrService)
+
+Table T0009
+  View name @en: Motorized road vehicle (gr:ProductOrService)
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T000a
+
+Table T000b
+  View name @en: Fuel type value (the class of predefined values)
+    View attribute @en: uid Fuel type value (the class of predefined values)
+
+Table T000c
+  View name @en: Watercraft (gr:ProductOrService)
+    View attribute @en: uid Watercraft (gr:ProductOrService)
+
+Table T000d
+  View name @en: Quadracycle (gr:ProductOrService) 
+    View attribute @en: uid Quadracycle (gr:ProductOrService) 
+
+Table T000e
+  View name @en: Motorized bicycle (gr:ProductOrService)
+    View attribute @en: uid Motorized bicycle (gr:ProductOrService)
+
+Table T000f
+
+Table T0010
+  View name @en: Emission standard value (the class of predefined values)
+    View attribute @en: uid Emission standard value (the class of predefined values)
+
+Table T0011
+    View attribute @en: uid Vehicle (gr:ProductOrService)
+
+Table T0012
+    View attribute @en: uid Rickshaw (gr:ProductOrService)
+
+Table T0013
+  View name @en: Automobile (gr:ProductOrService)
+    View attribute @en: uid Automobile (gr:ProductOrService)
+
+Table T0014
+    View attribute @en: uid Truck (gr:ProductOrService)
+
+Table T0015
+  View name @en: Sailing boat (gr:ProductOrService)
+    View attribute @en: uid Sailing boat (gr:ProductOrService)
+
+Table T0016
+
+Table T0017
+  View name @en: Motor boat (gr:ProductOrService)
+    View attribute @en: uid Motor boat (gr:ProductOrService)
+
+Table T0018
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T0019
+
+Table T001a
+
+Table T001b
+  View name @en: Body style value (the class of predefined values)
+    View attribute @en: uid Body style value (the class of predefined values)
+
+Table T001c
+
+Table T001d
+  View name @en: Motorcycle (gr:ProductOrService)
+    View attribute @en: uid Motorcycle (gr:ProductOrService)
+
+Table T001e
+  View name @en: Drive wheel configuration value (the class of predefined values)
+    View attribute IRIDriveWheelConfigurationValue_uid
+    View attribute @en: uid Drive wheel configuration value (the class of predefined values)
+    View attribute @fr: uid DriveWheelConfigurationValue_fr
+
+Table T001f
+    View attribute @en: uid Bicycle (gr:ProductOrService)
+
+Table T0020
+
+Table T0021
+  View name @en: Feature value (the class of predefined values)
+    View attribute @en: uid Feature value (the class of predefined values)
+
+Table T0022
+  View name IRI MotorizedRoadVehicle_ACRISSCode
+  View name @en: Motorized road vehicle (gr:ProductOrService) ACRISSCode (0..1)
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0023
+  View name @en: Motorized road vehicle (gr:ProductOrService) VIN [Vehicle Identification Number] (0..1)
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+    View attribute @en: VIN [Vehicle Identification Number] (0..1)
+
+Table T0024
+
+Table T0025
+  View name @en: ProductOrService condition (0..*)
+
+Table T0026
+  View name @en: ProductOrService damages (0..*)
+
+Table T0027
+  View name @en: Bicycle (gr:ProductOrService) engineName (0..*)
+    View attribute @en: uid Bicycle (gr:ProductOrService)
+
+Table T0028
+  View name @en: Boat (gr:ProductOrService) engineName (0..*)
+
+Table T0029
+  View name IRI MotorizedRoadVehicle_engineName
+  View name @en: Motorized road vehicle (gr:ProductOrService) engineName (0..*)
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T002a
+  View name @en: Ship (gr:ProductOrService) engineName (0..*)
+
+Table T002b
+  View name IRI ProductOrService_firstRegistration
+  View name @en: ProductOrService firstRegistration (0..1)
+
+Table T002c
+  View name @en: ProductOrService modelDate (0..1)
+
+Table T002d
+  View name IRI ProductOrService_productionDate
+  View name @en: ProductOrService productionDate (0..1)
+
+Table T002e
+  View name @en: ProductOrService rentalUsage (0..1)
+
+Table T002f
+  View name IRI Ship_acceleration_QuantitativeValueFloat
+  View name @en: Ship (gr:ProductOrService) acceleration (0..*) QuantitativeValueFloat
+
+Table T0030
+  View name IRI Ship_engineDisplacement_QuantitativeValueFloat
+  View name @en: Ship (gr:ProductOrService) engineDisplacement (0..*) QuantitativeValueFloat
+
+Table T0031
+  View name IRI Ship_enginePower_QuantitativeValueFloat
+  View name @en: Ship (gr:ProductOrService) enginePower (0..*) QuantitativeValueFloat
+
+Table T0032
+  View name IRI Ship_engineType_EngineTypeValue
+  View name @en: Ship (gr:ProductOrService) engineType (0..*) Engine type value (the class of predefined values)
+    View attribute @en: uid Engine type value (the class of predefined values)
+
+Table T0033
+  View name IRI Ship_fuelConsumption_QuantitativeValueFloat
+  View name @en: Ship (gr:ProductOrService) fuelConsumption (0..*) QuantitativeValueFloat
+
+Table T0034
+  View name IRI Ship_fuelTankVolume_QuantitativeValueFloat
+  View name @en: Ship (gr:ProductOrService) fuelTankVolume (0..1) QuantitativeValueFloat
+
+Table T0035
+  View name IRI Ship_gearsTotal_QuantitativeValueInteger
+  View name @en: Ship (gr:ProductOrService) gearsTotal (0..1) QuantitativeValueInteger
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T0036
+  View name IRI Ship_transmission_TransmissionTypeValue
+  View name @en: Ship (gr:ProductOrService) transmission (0..*) Transmission type value (the class of predefined values)
+    View attribute @en: uid Transmission type value (the class of predefined values)
+
+Table T0037
+  View name IRI MotorizedRoadVehicle_acceleration_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) acceleration (0..*) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0038
+  View name IRI MotorizedRoadVehicle_axles_QuantitativeValueInteger
+  View name @en: Motorized road vehicle (gr:ProductOrService) axles (0..1) QuantitativeValueInteger
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T0039
+  View name IRI MotorizedRoadVehicle_cargoVolume_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) cargoVolume (0..1) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T003a
+  View name IRI MotorizedRoadVehicle_doors_QuantitativeValueInteger
+  View name @en: Motorized road vehicle (gr:ProductOrService) doors (0..1) QuantitativeValueInteger
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T003b
+  View name IRI MotorizedRoadVehicle_driveWheelConfiguration_DriveWheelConfigurationValue
+  View name @en: Motorized road vehicle (gr:ProductOrService) driveWheelConfiguration (0..1) Drive wheel configuration value (the class of predefined values)
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+    View attribute IRIDriveWheelConfigurationValue_uid
+    View attribute @en: uid Drive wheel configuration value (the class of predefined values)
+    View attribute @fr: uid DriveWheelConfigurationValue_fr
+
+Table T003c
+  View name IRI MotorizedRoadVehicle_engineDisplacement_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) engineDisplacement (0..*) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T003d
+  View name IRI MotorizedRoadVehicle_enginePower_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) enginePower (0..*) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T003e
+  View name IRI MotorizedRoadVehicle_engineType_EngineTypeValue
+  View name @en: Motorized road vehicle (gr:ProductOrService) engineType (0..*) Engine type value (the class of predefined values)
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+    View attribute @en: uid Engine type value (the class of predefined values)
+
+Table T003f
+  View name IRI MotorizedRoadVehicle_fuelConsumption_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) fuelConsumption (0..*) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0040
+  View name IRI MotorizedRoadVehicle_fuelEconomy_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) fuelEconomy (0..*) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0041
+  View name IRI MotorizedRoadVehicle_fuelTankVolume_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) fuelTankVolume (0..1) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0042
+  View name IRI MotorizedRoadVehicle_gearsTotal_QuantitativeValueInteger
+  View name @en: Motorized road vehicle (gr:ProductOrService) gearsTotal (0..1) QuantitativeValueInteger
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T0043
+  View name IRI MotorizedRoadVehicle_mileageFromOdometer_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) mileageFromOdometer (0..1) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0044
+  View name IRI MotorizedRoadVehicle_roofLoad_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) roofLoad (0..1) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0045
+  View name IRI MotorizedRoadVehicle_steeringPosition_SteeringPositionValue
+  View name @en: Motorized road vehicle (gr:ProductOrService) steeringPosition (0..1) Steering position value (the class of predefined values)
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+    View attribute @en: uid Steering position value (the class of predefined values)
+
+Table T0046
+  View name IRI MotorizedRoadVehicle_tongueWeight_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) tongueWeight (0..1) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0047
+  View name IRI MotorizedRoadVehicle_trailerWeight_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) trailerWeight (0..1) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T0048
+  View name IRI MotorizedRoadVehicle_transmission_TransmissionTypeValue
+  View name @en: Motorized road vehicle (gr:ProductOrService) transmission (0..*) Transmission type value (the class of predefined values)
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+    View attribute @en: uid Transmission type value (the class of predefined values)
+
+Table T0049
+  View name IRI MotorizedRoadVehicle_wheelbase_QuantitativeValueFloat
+  View name @en: Motorized road vehicle (gr:ProductOrService) wheelbase (0..1) QuantitativeValueFloat
+    View attribute @en: uid Motorized road vehicle (gr:ProductOrService)
+
+Table T004a
+  View name IRI QuantitativeValueFloat_referenceDistance_QuantitativeValue
+  View name @en: QuantitativeValueFloat referenceDistance (0..1) QuantitativeValue
+
+Table T004b
+  View name IRI QuantitativeValueFloat_referenceFuelQuantity_FuelQuantity
+  View name @en: QuantitativeValueFloat referenceFuelQuantity (0..1) FuelQuantity
+
+Table T004c
+  View name IRI QuantitativeValueFloat_referenceSpeeds_SpeedInterval
+  View name @en: QuantitativeValueFloat referenceSpeeds (0..1) SpeedInterval
+
+Table T004d
+  View name IRI Watercraft_cargoVolume_QuantitativeValueFloat
+  View name @en: Watercraft (gr:ProductOrService) cargoVolume (0..1) QuantitativeValueFloat
+    View attribute @en: uid Watercraft (gr:ProductOrService)
+
+Table T004e
+  View name IRI Quadracycle_gearsTotal_QuantitativeValueInteger
+  View name @en: Quadracycle (gr:ProductOrService)  gearsTotal (0..1) QuantitativeValueInteger
+    View attribute @en: uid Quadracycle (gr:ProductOrService) 
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T004f
+  View name IRI Quadracycle_transmission_TransmissionTypeValue
+  View name @en: Quadracycle (gr:ProductOrService)  transmission (0..*) Transmission type value (the class of predefined values)
+    View attribute @en: uid Quadracycle (gr:ProductOrService) 
+    View attribute @en: uid Transmission type value (the class of predefined values)
+
+Table T0050
+  View name IRI Quadracycle_wheelbase_QuantitativeValueFloat
+  View name @en: Quadracycle (gr:ProductOrService)  wheelbase (0..1) QuantitativeValueFloat
+    View attribute @en: uid Quadracycle (gr:ProductOrService) 
+
+Table T0051
+  View name IRI Boat_acceleration_QuantitativeValueFloat
+  View name @en: Boat (gr:ProductOrService) acceleration (0..*) QuantitativeValueFloat
+
+Table T0052
+  View name IRI Boat_engineDisplacement_QuantitativeValueFloat
+  View name @en: Boat (gr:ProductOrService) engineDisplacement (0..*) QuantitativeValueFloat
+
+Table T0053
+  View name IRI Boat_enginePower_QuantitativeValueFloat
+  View name @en: Boat (gr:ProductOrService) enginePower (0..*) QuantitativeValueFloat
+
+Table T0054
+  View name IRI Boat_engineType_EngineTypeValue
+  View name @en: Boat (gr:ProductOrService) engineType (0..*) Engine type value (the class of predefined values)
+    View attribute @en: uid Engine type value (the class of predefined values)
+
+Table T0055
+  View name IRI Boat_fuelConsumption_QuantitativeValueFloat
+  View name @en: Boat (gr:ProductOrService) fuelConsumption (0..*) QuantitativeValueFloat
+
+Table T0056
+  View name IRI Boat_fuelTankVolume_QuantitativeValueFloat
+  View name @en: Boat (gr:ProductOrService) fuelTankVolume (0..1) QuantitativeValueFloat
+
+Table T0057
+  View name IRI Boat_gearsTotal_QuantitativeValueInteger
+  View name @en: Boat (gr:ProductOrService) gearsTotal (0..1) QuantitativeValueInteger
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T0058
+  View name IRI Boat_transmission_TransmissionTypeValue
+  View name @en: Boat (gr:ProductOrService) transmission (0..*) Transmission type value (the class of predefined values)
+    View attribute @en: uid Transmission type value (the class of predefined values)
+
+Table T0059
+  View name IRI ProductOrService_bodyStyle_BodyStyleValue
+  View name @en: ProductOrService bodyStyle (0..1) Body style value (the class of predefined values)
+    View attribute @en: uid Body style value (the class of predefined values)
+
+Table T005a
+  View name IRI ProductOrService_feature_FeatureValue
+  View name @en: ProductOrService feature (0..*) Feature value (the class of predefined values)
+    View attribute @en: uid Feature value (the class of predefined values)
+
+Table T005b
+  View name IRI ProductOrService_fuelType_FuelTypeValue
+  View name @en: ProductOrService fuelType (0..*) Fuel type value (the class of predefined values)
+    View attribute @en: uid Fuel type value (the class of predefined values)
+
+Table T005c
+  View name IRI ProductOrService_height_QuantitativeValueFloat
+  View name @en: ProductOrService height (0..1) QuantitativeValueFloat
+
+Table T005d
+  View name IRI ProductOrService_length_QuantitativeValueFloat
+  View name @en: ProductOrService length (0..1) QuantitativeValueFloat
+
+Table T005e
+  View name IRI ProductOrService_meetsEmissionStandard_EmissionStandardValue
+  View name @en: ProductOrService meetsEmissionStandard (0..*) Emission standard value (the class of predefined values)
+    View attribute @en: uid Emission standard value (the class of predefined values)
+
+Table T005f
+  View name IRI ProductOrService_payload_QuantitativeValueFloat
+  View name @en: ProductOrService payload (0..1) QuantitativeValueFloat
+
+Table T0060
+  View name IRI ProductOrService_previousOwners_QuantitativeValueInteger
+  View name @en: ProductOrService previousOwners (0..1) QuantitativeValueInteger
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T0061
+  View name IRI ProductOrService_seatingCapacity_QuantitativeValueInteger
+  View name @en: ProductOrService seatingCapacity (0..1) QuantitativeValueInteger
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T0062
+  View name IRI ProductOrService_speed_QuantitativeValueFloat
+  View name @en: ProductOrService speed (0..*) QuantitativeValueFloat
+
+Table T0063
+  View name IRI ProductOrService_weight_QuantitativeValueFloat
+  View name @en: ProductOrService weight (0..1) QuantitativeValueFloat
+
+Table T0064
+  View name IRI ProductOrService_weightTotal_QuantitativeValueFloat
+  View name @en: ProductOrService weightTotal (0..1) QuantitativeValueFloat
+
+Table T0065
+  View name IRI ProductOrService_width_QuantitativeValueFloat
+  View name @en: ProductOrService width (0..1) QuantitativeValueFloat
+
+Table T0066
+  View name IRI Bicycle_gearsTotal_QuantitativeValueInteger
+  View name @en: Bicycle (gr:ProductOrService) gearsTotal (0..1) QuantitativeValueInteger
+    View attribute @en: uid Bicycle (gr:ProductOrService)
+    View attribute @fr: uid QuantitativeValueInteger_fr
+
+Table T0067
+  View name IRI Bicycle_transmission_TransmissionTypeValue
+  View name @en: Bicycle (gr:ProductOrService) transmission (0..*) Transmission type value (the class of predefined values)
+    View attribute @en: uid Bicycle (gr:ProductOrService)
+    View attribute @en: uid Transmission type value (the class of predefined values)
+
+Table T0068
+  View name IRI Bicycle_wheelbase_QuantitativeValueFloat
+  View name @en: Bicycle (gr:ProductOrService) wheelbase (0..1) QuantitativeValueFloat
+    View attribute @en: uid Bicycle (gr:ProductOrService)
+

@@ -1,0 +1,1143 @@
+
+======================================================= 
+Database Report
+======================================================= 
+geno.owl
+Schemas: 1
+  Schema [id=ONTORELA, schemaType=BASE]
+
+--------------------------------------- 
+ONTORELA
+--------------------------------------- 
+All Tables: 507
+Join Tables: 101
+Types: 7
+Foreign keys: 617
+Constraints: 108
+
+Tables:
+  T0000::Thing
+  T0001::GENO_0000902
+  T0002::GENO_0000914
+  T0003::GENO_0000926
+  T0004::BFO_0000040
+  T0005::IAO_0000102
+  T0006::SO_1000025
+  T0007::GENO_0000938
+  T0008::SO_1000013
+  T0009::SO_0000337
+  T000a::GENO_0000141
+  T000b::GENO_0000492
+  T000c::GENO_0000480
+  T000d::GENO_0000165
+  T000e::ZP_0000199
+  T000f::ONTORELA_C0199X
+  T0010::GENO_0000915
+  T0011::GENO_0000927
+  T0012::GENO_0000818
+  T0013::GENO_0000939
+  T0014::SO_1000036
+  T0015::SO_1000012
+  T0016::SO_1000024
+  T0017::GENO_0000481
+  T0018::GENO_0000033
+  T0019::GENO_0000057
+  T001a::GENO_0000166
+  T001b::GENO_0000142
+  T001c::GENO_0000924
+  T001d::GENO_0000815
+  T001e::GENO_0000839
+  T001f::SO_0001218
+  T0020::SO_1000015
+  T0021::GENO_0000948
+  T0022::GENO_0000936
+  T0023::GENO_0000912
+  T0024::GENO_0000054
+  T0025::GENO_0000393
+  T0026::PATO_0000383
+  T0027::SO_0000105
+  T0028::SO_1000016
+  T0029::association
+  T002a::GENO_0000030
+  T002b::GENO_0000175
+  T002c::GENO_0000042
+  T002d::GO_0003674
+  T002e::OBI_0000435
+  T002f::GENO_0000925
+  T0030::GENO_0000719
+  T0031::SO_0000771
+  T0032::SO_1000014
+  T0033::SO_0000783
+  T0034::GENO_0000949
+  T0035::SO_1000026
+  T0036::GENO_0000937
+  T0037::GENO_0000901
+  T0038::SO_0000577
+  T0039::SO_1000002
+  T003a::OBI_0600043
+  T003b::PATO_0000384
+  T003c::GENO_0000152
+  T003d::SO_0000699
+  T003e::GENO_0000394
+  T003f::GENO_0000140
+  T0040::SO_1000027
+  T0041::GENO_0000491
+  T0042::SO_1000039
+  T0043::NCBITaxon_7955
+  T0044::GENO_0000164
+  T0045::GENO_0000934
+  T0046::GENO_0000619
+  T0047::BFO_0000020
+  T0048::SO_1000021
+  T0049::NCBITaxon_10239
+  T004a::Region
+  T004b::GENO_0000910
+  T004c::GENO_0000922
+  T004d::GENO_0000946
+  T004e::GENO_0000173
+  T004f::SO_0000248
+  T0050::GENO_0000391
+  T0051::SO_0001784
+  T0052::BFO_0000031
+  T0053::SO_1000032
+  T0054::6469
+  T0055::SO_1000020
+  T0056::GENO_0000947
+  T0057::GENO_0000911
+  T0058::GENO_0000935
+  T0059::GENO_0000923
+  T005a::GENO_0000174
+  T005b::ZP_0000386
+  T005c::GENO_0000150
+  T005d::GENO_0000392
+  T005e::SO_0001785
+  T005f::StrandedPosition
+  T0060::SO_0001410
+  T0061::GENO_0000605
+  T0062::GENO_0000944
+  T0063::GENO_0000932
+  T0064::GENO_0000629
+  T0065::SO_1000011
+  T0066::BFO_0000034
+  T0067::GENO_0000920
+  T0068::SO_1000023
+  T0069::GENO_0000702
+  T006a::GENO_0000823
+  T006b::SO_1000035
+  T006c::GENO_0000714
+  T006d::SO_0000149
+  T006e::GENO_0000171
+  T006f::HP_0000118
+  T0070::SO_0001479
+  T0071::GENO_0000606
+  T0072::GENO_0000715
+  T0073::GENO_0000945
+  T0074::GENO_0000848
+  T0075::GENO_0000933
+  T0076::GENO_0000618
+  T0077::ExactPosition
+  T0078::SO_1000010
+  T0079::SO_1000022
+  T007a::SO_0000694
+  T007b::GENO_0000921
+  T007c::GENO_0000172
+  T007d::GENO_0000160
+  T007e::ONTORELA_C0189X
+  T007f::GENO_0000506
+  T0080::GENO_0000942
+  T0081::GENO_0000930
+  T0082::SO_0005836
+  T0083::ONTORELA_C018dX-el0
+  T0084::ONTORELA_C018dX
+  T0085::GENO_0000833
+  T0086::GENO_0000724
+  T0087::GENO_0000736
+  T0088::GENO_0000603
+  T0089::GENO_0000060
+  T008a::ONTORELA_C0195X
+  T008b::GENO_0000628
+  T008c::GENO_0000737
+  T008d::GENO_0000616
+  T008e::GENO_0000943
+  T008f::GENO_0000931
+  T0090::ONTORELA_C0193X
+  T0091::OBI_0000181
+  T0092::BFO_0000023
+  T0093::GENO_0000701
+  T0094::GENO_0000604
+  T0095::GENO_0000713
+  T0096::GENO_0000725
+  T0097::SO_0000830
+  T0098::ERO_0000007
+  T0099::SO_0000637
+  T009a::SO_1000009
+  T009b::GENO_0000170
+  T009c::ObsoleteClass
+  T009d::SO_0001505
+  T009e::GENO_0000528
+  T009f::GENO_0000649
+  T00a0::GENO_0000952
+  T00a1::CHEBI_23367
+  T00a2::BFO_0000002
+  T00a3::GENO_0000722
+  T00a4::GENO_0000516
+  T00a5::GENO_0000637
+  T00a6::GENO_0000879
+  T00a7::GENO_0000504
+  T00a8::GENO_0000625
+  T00a9::ZP_0005531
+  T00aa::ONTORELA_C018bX
+  T00ab::ZP_0000755
+  T00ac::GENO_0000529
+  T00ad::GENO_0000638
+  T00ae::PCO_0000000
+  T00af::GENO_0000953
+  T00b0::GENO_0000941
+  T00b1::BFO_0000001
+  T00b2::GENO_0000602
+  T00b3::GENO_0000856
+  T00b4::GENO_0000614
+  T00b5::ENVO_01000254
+  T00b6::SO_0001745
+  T00b7::GENO_0000611
+  T00b8::GENO_0000720
+  T00b9::BFO_0000004
+  T00ba::GENO_0000877
+  T00bb::GENO_0000502
+  T00bc::GENO_0000623
+  T00bd::GENO_0000659
+  T00be::GENO_0000768
+  T00bf::GENO_0000889
+  T00c0::GENO_0000647
+  T00c1::BFO_0000016
+  T00c2::SO_1000018
+  T00c3::ONTORELA_C0197X
+  T00c4::GENO_0000092
+  T00c5::CL_0000000
+  T00c6::SO_0001746
+  T00c7::ReverseStrandPosition
+  T00c8::GENO_0000721
+  T00c9::GENO_0000624
+  T00ca::BFO_0000015
+  T00cb::BFO_0000003
+  T00cc::GENO_0000527
+  T00cd::GENO_0000878
+  T00ce::GENO_0000515
+  T00cf::SO_1000005
+  T00d0::SO_1000017
+  T00d1::GENO_0000093
+  T00d2::GENO_0000512
+  T00d3::GENO_0000633
+  T00d4::GENO_0000875
+  T00d5::GENO_0000500
+  T00d6::GENO_0000621
+  T00d7::GENO_0000536
+  T00d8::GENO_0000887
+  T00d9::GENO_0000778
+  T00da::GENO_0000899
+  T00db::GENO_0000524
+  T00dc::GENO_0000645
+  T00dd::GENO_0000415
+  T00de::SO_1000008
+  T00df::SO_0001742
+  T00e0::SO_0001500
+  T00e1::SO_0001744
+  T00e2::ONTORELA_C0190X
+  T00e3::GENO_0000501
+  T00e4::GENO_0000622
+  T00e5::GENO_0000525
+  T00e6::GENO_0000646
+  T00e7::GENO_0000876
+  T00e8::GENO_0000888
+  T00e9::GENO_0000513
+  T00ea::GENO_0000779
+  T00eb::BFO_0000017
+  T00ec::IAO_0000030
+  T00ed::SO_1000019
+  T00ee::SO_0000207
+  T00ef::SO_0000667
+  T00f0::SO_0001743
+  T00f1::WBPhenotype_0000886
+  T00f2::GENO_0000091
+  T00f3::UPHENO_0001001
+  T00f4::GENO_0000861
+  T00f5::GENO_0000873
+  T00f6::GENO_0000534
+  T00f7::GENO_0000885
+  T00f8::GENO_0000897
+  T00f9::GENO_0000788
+  T00fa::GENO_0000667
+  T00fb::ForwardStrandPosition
+  T00fc::OBI_0001148
+  T00fd::GENO_0000620
+  T00fe::GENO_0000850
+  T00ff::SO_0000199
+  T0100::GENO_0000402
+  T0101::GENO_0000644
+  T0102::GENO_0000874
+  T0103::GENO_0000886
+  T0104::GENO_0000511
+  T0105::GENO_0000632
+  T0106::GENO_0000777
+  T0107::GENO_0000898
+  T0108::BFO_0000019
+  T0109::CHEBI_33696
+  T010a::OBI_0001149
+  T010b::SO_0000281
+  T010c::GENO_0000883
+  T010d::GENO_0000108
+  T010e::GENO_0000338
+  T010f::GENO_0000640
+  T0110::GENO_0000870
+  T0111::GENO_0000882
+  T0112::399483
+  T0113::GENO_0000642
+  T0114::GENO_0000872
+  T0115::GENO_0000666
+  T0116::GENO_0000533
+  T0117::GENO_0000339
+  T0118::ZP_0005692
+  T0119::SO_0000704
+  T011a::GENO_0000871
+  T011b::BothStrandsPosition
+  T011c::GENO_0000324
+  T011d::GENO_0000009
+  T011e::GENO_0000118
+  T011f::GENO_0000106
+  T0120::GENO_0000880
+  T0121::GENO_0000892
+  T0122::GENO_0000773
+  T0123::GENO_0000688
+  T0124::GENO_0000119
+  T0125::GENO_0000458
+  T0126::GENO_0000881
+  T0127::GENO_0000772
+  T0128::GENO_0000893
+  T0129::GO_0032502
+  T012a::GENO_0000346
+  T012b::GENO_0000019
+  T012c::GENO_0000685
+  T012d::UBERON_0000105
+  T012e::GENO_0000660
+  T012f::GENO_0000890
+  T0130::GENO_0000781
+  T0131::GENO_0000684
+  T0132::PCO_0000020
+  T0133::30269
+  T0134::OBI_0000086
+  T0135::GENO_0000770
+  T0136::GENO_0000891
+  T0137::GENO_0000782
+  T0138::NCBITaxon_8090
+  T0139::SO_0000110
+  T013a::SO_0000340
+  T013b::GENO_0000029
+  T013c::GENO_0000138
+  T013d::GENO_0000344
+  T013e::GENO_0000477
+  T013f::GENO_0000017
+  T0140::GENO_0000343
+  T0141::OBI_0100026
+  T0142::SO_0001477
+  T0143::SO_0001019
+  T0144::SO_1000040
+  T0145::UBERON_0001062
+  T0146::SO_1000173
+  T0147::GENO_0000575
+  T0148::SO_0000341
+  T0149::GENO_0000345
+  T014a::SO_0000159
+  T014b::GENO_0000139
+  T014c::CLO_0000031
+  T014d::GENO_0000780
+  T014e::SO_0001478
+  T014f::20423
+  T0150::GENO_0000148
+  T0151::GENO_0000136
+  T0152::ONTORELA_C0199X-el0
+  T0153::GENO_0000499
+  T0154::SO_0000289
+  T0155::GENO_0000680
+  T0156::GENO_0000002
+  T0157::PATO_0000016
+  T0158::GENO_0000111
+  T0159::GENO_0000149
+  T015a::GENO_0000137
+  T015b::GENO_0000125
+  T015c::GENO_0000476
+  T015d::GENO_0000113
+  T015e::GENO_0000112
+  T015f::GENO_0000681
+  T0160::NCBITaxon_10090
+  T0161::HsapDv_0000000
+  T0162::PATO_0001894
+  T0163::GENO_0000918
+  T0164::GENO_0000146
+  T0165::GENO_0000037
+  T0166::GENO_0000000
+  T0167::GENO_0000460
+  T0168::GENO_0000145
+  T0169::GENO_0000133
+  T016a::GENO_0000351
+  T016b::ERO_0002003
+  T016c::NCBITaxon_9606
+  T016d::Position
+  T016e::SO_0001013
+  T016f::GENO_0000907
+  T0170::GENO_0000919
+  T0171::SO_0000034
+  T0172::SO_0000143
+  T0173::GENO_0000147
+  T0174::GENO_0000498
+  T0175::GENO_0000135
+  T0176::GENO_0000014
+  T0177::ONTORELA_C0190X-el0
+  T0178::SO_0000167
+  T0179::GENO_0000134
+  T017a::GENO_0000497
+  T017b::SO_0001026
+  T017c::ERO_0002002
+  T017d::GENO_0000904
+  T017e::GENO_0000916
+  T017f::SO_0000804
+  T0180::GENO_0000928
+  T0181::GENO_0000047
+  T0182::GENO_0000010
+  T0183::GENO_0000022
+  T0184::GENO_0000482
+  T0185::OBI_0000011
+  T0186::GENO_0000143
+  T0187::GENO_0000494
+  T0188::GENO_0000131
+  T0189::SO_0001059
+  T018a::SO_0001483
+  T018b::MP_0000001
+  T018c::SO_0000165
+  T018d::GENO_0000169
+  T018e::SO_0000902
+  T018f::GENO_0000929
+  T0190::GENO_0000036
+  T0191::GENO_0000144
+  T0192::GENO_0000132
+  T0193::GENO_0000495
+  T0194::SO_0000110_GENO_0000703
+  T0195::GENO_0000702_GENO_0000896
+  T0196::GENO_0000914_GENO_0000239_SO_0001505
+  T0197::GENO_0000492_GENO_0000683_GENO_0000501
+  T0198::GENO_0000915_GENO_0000408_GENO_0000916
+  T0199::GENO_0000915_BFO_0000051_SO_0001059
+  T019a::GENO_0000481_RO_0002162_OBI_0100026
+  T019b::GENO_0000481_BFO_0000050_SO_0001026
+  T019c::GENO_0000033_GENO_0000382_SO_0001059
+  T019d::GENO_0000166_OBI_0000299_GENO_0000515
+  T019e::GENO_0000839_GENO_0000382_GENO_0000504
+  T019f::SO_0001218_BFO_0000051_GENO_0000093
+  T01a0::SO_0000105_BFO_0000050_SO_0000830
+  T01a1::GENO_0000719_IAO_0000219_ONTORELA_C0195X
+  T01a2::OBI_0600043_OBI_0000299_ONTORELA_C018bX
+  T01a3::Region_begin_Position
+  T01a4::Region_end_Position
+  T01a5::GENO_0000173_OBI_0000299_GENO_0000515
+  T01a6::GENO_0000173_OBI_0000299_GENO_0000515
+  T01a7::GENO_0000174_OBI_0000299_GENO_0000515
+  T01a8::GENO_0000174_OBI_0000299_GENO_0000515
+  T01a9::GENO_0000920_GENO_0000726_GENO_0000659
+  T01aa::GENO_0000920_BFO_0000051_GENO_0000919
+  T01ab::GENO_0000714_GENO_0000726_SO_0000110
+  T01ac::GENO_0000714_GENO_0000726_GENO_0000481
+  T01ad::GENO_0000714_RO_0002162_OBI_0100026
+  T01ae::GENO_0000714_GENO_0000580_Thing
+  T01af::GENO_0000171_OBI_0000299_GENO_0000515
+  T01b0::GENO_0000171_OBI_0000299_GENO_0000515
+  T01b1::GENO_0000715_GENO_0000726_SO_0000110
+  T01b2::GENO_0000715_GENO_0000726_GENO_0000660
+  T01b3::GENO_0000715_RO_0002162_OBI_0100026
+  T01b4::GENO_0000715_RO_0002351_GENO_0000714
+  T01b5::GENO_0000172_OBI_0000299_GENO_0000515
+  T01b6::GENO_0000172_OBI_0000299_GENO_0000515
+  T01b7::ONTORELA_C018dX-el0_BFO_0000050_GENO_0000536
+  T01b8::GENO_0000833_association_has_subject_ONTORELA_C018dX
+  T01b9::GENO_0000833_association_has_object_UPHENO_0001001
+  T01ba::GENO_0000833_GENO_0000580_ONTORELA_C0190X
+  T01bb::GENO_0000833_GENO_0000580_ENVO_01000254
+  T01bc::GENO_0000616_BFO_0000050_SO_0000341
+  T01bd::GENO_0000616_GENO_0000207_GENO_0000618
+  T01be::ONTORELA_C0193X_RO_0002091_UBERON_0000105
+  T01bf::ONTORELA_C0193X_RO_0002093_UBERON_0000105
+  T01c0::SO_0001505_RO_0000087_GENO_0000152
+  T01c1::GENO_0000528_GENO_0000382_GENO_0000506
+  T01c2::GENO_0000722_GENO_0000783_GENO_0000782
+  T01c3::GENO_0000516_GENO_0000608_GENO_0000133
+  T01c4::GENO_0000516_RO_0002162_OBI_0100026
+  T01c5::GENO_0000637_RO_0002525_SO_0000902
+  T01c6::GENO_0000504_GENO_0000447_GENO_0000533
+  T01c7::GENO_0000504_GENO_0000231_GENO_0000534
+  T01c8::ONTORELA_C018bX_GENO_0000211_GENO_0000002
+  T01c9::GENO_0000529_GENO_0000443_SO_0000704
+  T01ca::GENO_0000638_RO_0002525_SO_0000902
+  T01cb::PCO_0000000_RO_0002351_OBI_0100026
+  T01cc::GENO_0000614_BFO_0000050_SO_0000105
+  T01cd::GENO_0000611_IAO_0000219_GENO_0000010
+  T01ce::GENO_0000720_GENO_0000783_GENO_0000780
+  T01cf::GENO_0000659_RO_0002351_SO_0000110
+  T01d0::GENO_0000092_RO_0002353_GENO_0000172
+  T01d1::GENO_0000721_GENO_0000783_GENO_0000781
+  T01d2::GENO_0000527_RO_0002351_GENO_0000504
+  T01d3::GENO_0000515_GENO_0000641_SO_0000704
+  T01d4::GENO_0000515_GENO_0000382_SO_0001059
+  T01d5::GENO_0000093_BFO_0000050_SO_0001218
+  T01d6::GENO_0000536_IAO_0000219_ONTORELA_C0197X
+  T01d7::GENO_0000887_RO_0002351_NCBITaxon_8090
+  T01d8::GENO_0000899_GENO_0000385_GENO_0000611
+  T01d9::GENO_0000645_GENO_0000650_GENO_0000000
+  T01da::GENO_0000501_GENO_0000683_GENO_0000481
+  T01db::GENO_0000525_BFO_0000051_GENO_0000719
+  T01dc::GENO_0000525_BFO_0000051_GENO_0000524
+  T01dd::GENO_0000897_RO_0002162_OBI_0100026
+  T01de::GENO_0000667_BFO_0000051_GENO_0000640
+  T01df::GENO_0000667_GENO_0000207_SO_0000783
+  T01e0::GENO_0000644_IAO_0000219_SO_0001026
+  T01e1::SO_0000281_GENO_0000207_SO_0000783
+  T01e2::GENO_0000338_GENO_0000207_GENO_0000685
+  T01e3::GENO_0000642_GENO_0000207_SO_0000783
+  T01e4::GENO_0000106_GENO_0000248_ONTORELA_C0189X
+  T01e5::GENO_0000106_BFO_0000050_GENO_0000108
+  T01e6::GENO_0000106_RO_0000091_GENO_0000139
+  T01e7::GENO_0000119_RO_0002351_NCBITaxon_7955
+  T01e8::GENO_0000346_GENO_0000207_GENO_0000513
+  T01e9::GENO_0000660_RO_0002351_GENO_0000481
+  T01ea::GENO_0000891_IAO_0000219_GENO_0000890
+  T01eb::SO_0000110_GENO_0000239_GENO_0000702
+  T01ec::SO_0000110_GENO_0000903_GENO_0000815
+  T01ed::GENO_0000343_GENO_0000248_SO_0000340
+  T01ee::GENO_0000343_GENO_0000207_GENO_0000513
+  T01ef::UBERON_0001062_RO_0001000_OBI_0100026
+  T01f0::SO_0000341_BFO_0000050_GENO_0000614
+  T01f1::SO_0000341_GENO_0000207_GENO_0000618
+  T01f2::CLO_0000031_RO_0001000_OBI_0100026
+  T01f3::ONTORELA_C0199X-el0_RO_0002524_SO_0001059
+  T01f4::GENO_0000112_RO_0002162_OBI_0100026
+  T01f5::GENO_0000681_GENO_0000207_GENO_0000139
+  T01f6::GENO_0000681_GENO_0000207_GENO_0000685
+  T01f7::GENO_0000133_RO_0000052_GENO_0000516
+  T01f8::GENO_0000014_GENO_0000408_SO_0000704
+  T01f9::ONTORELA_C0190X-el0_GENO_0000580_ONTORELA_C0193X
+  T01fa::SO_0001026_RO_0002162_OBI_0100026
+Foreign keys: 
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000f, origin=T000f::ONTORELA_C0199X, destination=T0000::Thing, linkedAtt={T000f_uid::ONTORELA_C0199X_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0017, origin=T0017::GENO_0000481, destination=T0000::Thing, linkedAtt={T0017_uid::GENO_0000481_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0018, origin=T0018::GENO_0000033, destination=T0000::Thing, linkedAtt={T0018_uid::GENO_0000033_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0019, origin=T0019::GENO_0000057, destination=T0000::Thing, linkedAtt={T0019_uid::GENO_0000057_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0024, origin=T0024::GENO_0000054, destination=T0000::Thing, linkedAtt={T0024_uid::GENO_0000054_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002a, origin=T002a::GENO_0000030, destination=T0000::Thing, linkedAtt={T002a_uid::GENO_0000030_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T006a, origin=T006a::GENO_0000823, destination=T0000::Thing, linkedAtt={T006a_uid::GENO_0000823_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T007e, origin=T007e::ONTORELA_C0189X, destination=T0000::Thing, linkedAtt={T007e_uid::ONTORELA_C0189X_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0084, origin=T0084::ONTORELA_C018dX, destination=T0000::Thing, linkedAtt={T0084_uid::ONTORELA_C018dX_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T008a, origin=T008a::ONTORELA_C0195X, destination=T0000::Thing, linkedAtt={T008a_uid::ONTORELA_C0195X_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0090, origin=T0090::ONTORELA_C0193X, destination=T0000::Thing, linkedAtt={T0090_uid::ONTORELA_C0193X_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0097, origin=T0097::SO_0000830, destination=T0000::Thing, linkedAtt={T0097_uid::SO_0000830_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T009c, origin=T009c::ObsoleteClass, destination=T0000::Thing, linkedAtt={T009c_uid::ObsoleteClass_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b1, origin=T00b1::BFO_0000001, destination=T0000::Thing, linkedAtt={T00b1_uid::BFO_0000001_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b7, origin=T00b7::GENO_0000611, destination=T0000::Thing, linkedAtt={T00b7_uid::GENO_0000611_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c3, origin=T00c3::ONTORELA_C0197X, destination=T0000::Thing, linkedAtt={T00c3_uid::ONTORELA_C0197X_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ce, origin=T00ce::GENO_0000515, destination=T0000::Thing, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d2, origin=T00d2::GENO_0000512, destination=T0000::Thing, linkedAtt={T00d2_uid::GENO_0000512_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00da, origin=T00da::GENO_0000899, destination=T0000::Thing, linkedAtt={T00da_uid::GENO_0000899_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f7, origin=T00f7::GENO_0000885, destination=T0000::Thing, linkedAtt={T00f7_uid::GENO_0000885_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00fa, origin=T00fa::GENO_0000667, destination=T0000::Thing, linkedAtt={T00fa_uid::GENO_0000667_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0106, origin=T0106::GENO_0000777, destination=T0000::Thing, linkedAtt={T0106_uid::GENO_0000777_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0113, origin=T0113::GENO_0000642, destination=T0000::Thing, linkedAtt={T0113_uid::GENO_0000642_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0115, origin=T0115::GENO_0000666, destination=T0000::Thing, linkedAtt={T0115_uid::GENO_0000666_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T011d, origin=T011d::GENO_0000009, destination=T0000::Thing, linkedAtt={T011d_uid::GENO_0000009_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T013f, origin=T013f::GENO_0000017, destination=T0000::Thing, linkedAtt={T013f_uid::GENO_0000017_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0167, origin=T0167::GENO_0000460, destination=T0000::Thing, linkedAtt={T0167_uid::GENO_0000460_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0176, origin=T0176::GENO_0000014, destination=T0000::Thing, linkedAtt={T0176_uid::GENO_0000014_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0177, origin=T0177::ONTORELA_C0190X-el0, destination=T0000::Thing, linkedAtt={T0177_uid::ONTORELA_C0190X-el0_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T017f, origin=T017f::SO_0000804, destination=T0000::Thing, linkedAtt={T017f_uid::SO_0000804_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0181, origin=T0181::GENO_0000047, destination=T0000::Thing, linkedAtt={T0181_uid::GENO_0000047_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0187, origin=T0187::GENO_0000494, destination=T0000::Thing, linkedAtt={T0187_uid::GENO_0000494_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0190, origin=T0190::GENO_0000036, destination=T0000::Thing, linkedAtt={T0190_uid::GENO_0000036_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d9, origin=T00d9::GENO_0000778, destination=T009c::ObsoleteClass, linkedAtt={T00d9_uid::GENO_0000778_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b3, origin=T00b3::GENO_0000856, destination=T017f::SO_0000804, linkedAtt={T00b3_uid::GENO_0000856_uid uid_domain=T017f_uid::SO_0000804_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0128, origin=T0128::GENO_0000893, destination=T0034::GENO_0000949, linkedAtt={T0128_uid::GENO_0000893_uid uid_domain=T0034_uid::GENO_0000949_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ff, origin=T00ff::SO_0000199, destination=T0189::SO_0001059, linkedAtt={T00ff_uid::SO_0000199_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00bb, origin=T00bb::GENO_0000502, destination=T0119::SO_0000704, linkedAtt={T00bb_uid::GENO_0000502_uid uid_domain=T0119_uid::SO_0000704_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0183, origin=T0183::GENO_0000022, destination=T009c::ObsoleteClass, linkedAtt={T0183_uid::GENO_0000022_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0121, origin=T0121::GENO_0000892, destination=T0034::GENO_0000949, linkedAtt={T0121_uid::GENO_0000892_uid uid_domain=T0034_uid::GENO_0000949_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004f, origin=T004f::SO_0000248, destination=T0039::SO_1000002, linkedAtt={T004f_uid::SO_0000248_uid uid_domain=T0039_uid::SO_1000002_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0127, origin=T0127::GENO_0000772, destination=T009c::ObsoleteClass, linkedAtt={T0127_uid::GENO_0000772_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0091, origin=T0091::OBI_0000181, destination=T015d::GENO_0000113, linkedAtt={T0091_uid::OBI_0000181_uid uid_domain=T015d_uid::GENO_0000113_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0033, origin=T0033::SO_0000783, destination=T00f9::GENO_0000788, linkedAtt={T0033_uid::SO_0000783_uid uid_domain=T00f9_uid::GENO_0000788_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d0, origin=T00d0::SO_1000017, destination=T018a::SO_0001483, linkedAtt={T00d0_uid::SO_1000017_uid uid_domain=T018a_uid::SO_0001483_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0010, origin=T0010::GENO_0000915, destination=T00d2::GENO_0000512, linkedAtt={T0010_uid::GENO_0000915_uid uid_domain=T00d2_uid::GENO_0000512_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0139, origin=T0139::SO_0000110, destination=T0093::GENO_0000701, linkedAtt={T0139_uid::SO_0000110_uid uid_domain=T0093_uid::GENO_0000701_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T014a, origin=T014a::SO_0000159, destination=T0189::SO_0001059, linkedAtt={T014a_uid::SO_0000159_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b5, origin=T00b5::ENVO_01000254, destination=T0004::BFO_0000040, linkedAtt={T00b5_uid::ENVO_01000254_uid uid_domain=T0004_uid::BFO_0000040_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00fb, origin=T00fb::ForwardStrandPosition, destination=T005f::StrandedPosition, linkedAtt={T00fb_uid::ForwardStrandPosition_uid uid_domain=T005f_uid::StrandedPosition_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0036, origin=T0036::GENO_0000937, destination=T0164::GENO_0000146, linkedAtt={T0036_uid::GENO_0000937_uid uid_domain=T0164_uid::GENO_0000146_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T012d, origin=T012d::UBERON_0000105, destination=T016a::GENO_0000351, linkedAtt={T012d_uid::UBERON_0000105_uid uid_domain=T016a_uid::GENO_0000351_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001c, origin=T001c::GENO_0000924, destination=T009c::ObsoleteClass, linkedAtt={T001c_uid::GENO_0000924_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0096, origin=T0096::GENO_0000725, destination=T0086::GENO_0000724, linkedAtt={T0096_uid::GENO_0000725_uid uid_domain=T0086_uid::GENO_0000724_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003e, origin=T003e::GENO_0000394, destination=T005d::GENO_0000392, linkedAtt={T003e_uid::GENO_0000394_uid uid_domain=T005d_uid::GENO_0000392_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c9, origin=T00c9::GENO_0000624, destination=T0046::GENO_0000619, linkedAtt={T00c9_uid::GENO_0000624_uid uid_domain=T0046_uid::GENO_0000619_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002b, origin=T002b::GENO_0000175, destination=T018d::GENO_0000169, linkedAtt={T002b_uid::GENO_0000175_uid uid_domain=T018d_uid::GENO_0000169_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a7, origin=T00a7::GENO_0000504, destination=T00ac::GENO_0000529, linkedAtt={T00a7_uid::GENO_0000504_uid uid_domain=T00ac_uid::GENO_0000529_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0184, origin=T0184::GENO_0000482, destination=T0109::CHEBI_33696, linkedAtt={T0184_uid::GENO_0000482_uid uid_domain=T0109_uid::CHEBI_33696_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0056, origin=T0056::GENO_0000947, destination=T0080::GENO_0000942, linkedAtt={T0056_uid::GENO_0000947_uid uid_domain=T0080_uid::GENO_0000942_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c7, origin=T00c7::ReverseStrandPosition, destination=T005f::StrandedPosition, linkedAtt={T00c7_uid::ReverseStrandPosition_uid uid_domain=T005f_uid::StrandedPosition_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0037, origin=T0037::GENO_0000901, destination=T009c::ObsoleteClass, linkedAtt={T0037_uid::GENO_0000901_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0104, origin=T0104::GENO_0000511, destination=T0122::GENO_0000773, linkedAtt={T0104_uid::GENO_0000511_uid uid_domain=T0122_uid::GENO_0000773_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0059, origin=T0059::GENO_0000923, destination=T00ec::IAO_0000030, linkedAtt={T0059_uid::GENO_0000923_uid uid_domain=T00ec_uid::IAO_0000030_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0020, origin=T0020::SO_1000015, destination=T0032::SO_1000014, linkedAtt={T0020_uid::SO_1000015_uid uid_domain=T0032_uid::SO_1000014_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T013a, origin=T013a::SO_0000340, destination=T0017::GENO_0000481, linkedAtt={T013a_uid::SO_0000340_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0160, origin=T0160::NCBITaxon_10090, destination=T0141::OBI_0100026, linkedAtt={T0160_uid::NCBITaxon_10090_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0031, origin=T0031::SO_0000771, destination=T0017::GENO_0000481, linkedAtt={T0031_uid::SO_0000771_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T012b, origin=T012b::GENO_0000019, destination=T009c::ObsoleteClass, linkedAtt={T012b_uid::GENO_0000019_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0029, origin=T0029::association, destination=T00ec::IAO_0000030, linkedAtt={T0029_uid::association_uid uid_domain=T00ec_uid::IAO_0000030_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T016a, origin=T016a::GENO_0000351, destination=T00ca::BFO_0000015, linkedAtt={T016a_uid::GENO_0000351_uid uid_domain=T00ca_uid::BFO_0000015_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T018f, origin=T018f::GENO_0000929, destination=T000a::GENO_0000141, linkedAtt={T018f_uid::GENO_0000929_uid uid_domain=T000a_uid::GENO_0000141_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0064, origin=T0064::GENO_0000629, destination=T0027::SO_0000105, linkedAtt={T0064_uid::GENO_0000629_uid uid_domain=T0027_uid::SO_0000105_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f0, origin=T00f0::SO_0001743, destination=T0143::SO_0001019, linkedAtt={T00f0_uid::SO_0001743_uid uid_domain=T0143_uid::SO_0001019_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004e, origin=T004e::GENO_0000173, destination=T009b::GENO_0000170, linkedAtt={T004e_uid::GENO_0000173_uid uid_domain=T009b_uid::GENO_0000170_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00cf, origin=T00cf::SO_1000005, destination=T0039::SO_1000002, linkedAtt={T00cf_uid::SO_1000005_uid uid_domain=T0039_uid::SO_1000002_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0050, origin=T0050::GENO_0000391, destination=T0169::GENO_0000133, linkedAtt={T0050_uid::GENO_0000391_uid uid_domain=T0169_uid::GENO_0000133_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00de, origin=T00de::SO_1000008, destination=T018a::SO_0001483, linkedAtt={T00de_uid::SO_1000008_uid uid_domain=T018a_uid::SO_0001483_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T007b, origin=T007b::GENO_0000921, destination=T0052::BFO_0000031, linkedAtt={T007b_uid::GENO_0000921_uid uid_domain=T0052_uid::BFO_0000031_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0158, origin=T0158::GENO_0000111, destination=T0091::OBI_0000181, linkedAtt={T0158_uid::GENO_0000111_uid uid_domain=T0091_uid::OBI_0000181_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0041, origin=T0041::GENO_0000491, destination=T009c::ObsoleteClass, linkedAtt={T0041_uid::GENO_0000491_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004c, origin=T004c::GENO_0000922, destination=T007b::GENO_0000921, linkedAtt={T004c_uid::GENO_0000922_uid uid_domain=T007b_uid::GENO_0000921_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0191, origin=T0191::GENO_0000144, destination=T0173::GENO_0000147, linkedAtt={T0191_uid::GENO_0000144_uid uid_domain=T0173_uid::GENO_0000147_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T011b, origin=T011b::BothStrandsPosition, destination=T005f::StrandedPosition, linkedAtt={T011b_uid::BothStrandsPosition_uid uid_domain=T005f_uid::StrandedPosition_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0109, origin=T0109::CHEBI_33696, destination=T00a1::CHEBI_23367, linkedAtt={T0109_uid::CHEBI_33696_uid uid_domain=T00a1_uid::CHEBI_23367_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0022, origin=T0022::GENO_0000936, destination=T0058::GENO_0000935, linkedAtt={T0022_uid::GENO_0000936_uid uid_domain=T0058_uid::GENO_0000935_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0105, origin=T0105::GENO_0000632, destination=T0046::GENO_0000619, linkedAtt={T0105_uid::GENO_0000632_uid uid_domain=T0046_uid::GENO_0000619_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d7, origin=T00d7::GENO_0000536, destination=T00ec::IAO_0000030, linkedAtt={T00d7_uid::GENO_0000536_uid uid_domain=T00ec_uid::IAO_0000030_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0093, origin=T0093::GENO_0000701, destination=T0052::BFO_0000031, linkedAtt={T0093_uid::GENO_0000701_uid uid_domain=T0052_uid::BFO_0000031_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0118, origin=T0118::ZP_0005692, destination=T0147::GENO_0000575, linkedAtt={T0118_uid::ZP_0005692_uid uid_domain=T0147_uid::GENO_0000575_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0171, origin=T0171::SO_0000034, destination=T0116::GENO_0000533, linkedAtt={T0171_uid::SO_0000034_uid uid_domain=T0116_uid::GENO_0000533_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b6, origin=T00b6::SO_0001745, destination=T00e1::SO_0001744, linkedAtt={T00b6_uid::SO_0001745_uid uid_domain=T00e1_uid::SO_0001744_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0008, origin=T0008::SO_1000013, destination=T0078::SO_1000010, linkedAtt={T0008_uid::SO_1000013_uid uid_domain=T0078_uid::SO_1000010_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0155, origin=T0155::GENO_0000680, destination=T009c::ObsoleteClass, linkedAtt={T0155_uid::GENO_0000680_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T009f, origin=T009f::GENO_0000649, destination=T00b7::GENO_0000611, linkedAtt={T009f_uid::GENO_0000649_uid uid_domain=T00b7_uid::GENO_0000611_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0077, origin=T0077::ExactPosition, destination=T016d::Position, linkedAtt={T0077_uid::ExactPosition_uid uid_domain=T016d_uid::Position_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0011, origin=T0011::GENO_0000927, destination=T0003::GENO_0000926, linkedAtt={T0011_uid::GENO_0000927_uid uid_domain=T0003_uid::GENO_0000926_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004d, origin=T004d::GENO_0000946, destination=T008e::GENO_0000943, linkedAtt={T004d_uid::GENO_0000946_uid uid_domain=T008e_uid::GENO_0000943_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0100, origin=T0100::GENO_0000402, destination=T0175::GENO_0000135, linkedAtt={T0100_uid::GENO_0000402_uid uid_domain=T0175_uid::GENO_0000135_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0180, origin=T0180::GENO_0000928, destination=T0003::GENO_0000926, linkedAtt={T0180_uid::GENO_0000928_uid uid_domain=T0003_uid::GENO_0000926_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f4, origin=T00f4::GENO_0000861, destination=T018e::SO_0000902, linkedAtt={T00f4_uid::GENO_0000861_uid uid_domain=T018e_uid::SO_0000902_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ea, origin=T00ea::GENO_0000779, destination=T0069::GENO_0000702, linkedAtt={T00ea_uid::GENO_0000779_uid uid_domain=T0069_uid::GENO_0000702_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0014, origin=T0014::SO_1000036, destination=T0189::SO_0001059, linkedAtt={T0014_uid::SO_1000036_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003f, origin=T003f::GENO_0000140, destination=T013c::GENO_0000138, linkedAtt={T003f_uid::GENO_0000140_uid uid_domain=T013c_uid::GENO_0000138_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0042, origin=T0042::SO_1000039, destination=T0146::SO_1000173, linkedAtt={T0042_uid::SO_1000039_uid uid_domain=T0146_uid::SO_1000173_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0149, origin=T0149::GENO_0000345, destination=T0140::GENO_0000343, linkedAtt={T0149_uid::GENO_0000345_uid uid_domain=T0140_uid::GENO_0000343_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T009b, origin=T009b::GENO_0000170, destination=T0044::GENO_0000164, linkedAtt={T009b_uid::GENO_0000170_uid uid_domain=T0044_uid::GENO_0000164_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c6, origin=T00c6::SO_0001746, destination=T00e1::SO_0001744, linkedAtt={T00c6_uid::SO_0001746_uid uid_domain=T00e1_uid::SO_0001744_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000c, origin=T000c::GENO_0000480, destination=T0122::GENO_0000773, linkedAtt={T000c_uid::GENO_0000480_uid uid_domain=T0122_uid::GENO_0000773_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000a, origin=T000a::GENO_0000141, destination=T00c1::BFO_0000016, linkedAtt={T000a_uid::GENO_0000141_uid uid_domain=T00c1_uid::BFO_0000016_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0193, origin=T0193::GENO_0000495, destination=T00b3::GENO_0000856, linkedAtt={T0193_uid::GENO_0000495_uid uid_domain=T00b3_uid::GENO_0000856_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0133, origin=T0133::30269, destination=T0181::GENO_0000047, linkedAtt={T0133_uid::30269_uid uid_domain=T0181_uid::GENO_0000047_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0027, origin=T0027::SO_0000105, destination=T0097::SO_0000830, linkedAtt={T0027_uid::SO_0000105_uid uid_domain=T0097_uid::SO_0000830_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005b, origin=T005b::ZP_0000386, destination=T0147::GENO_0000575, linkedAtt={T005b_uid::ZP_0000386_uid uid_domain=T0147_uid::GENO_0000575_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T009e, origin=T009e::GENO_0000528, destination=T0072::GENO_0000715, linkedAtt={T009e_uid::GENO_0000528_uid uid_domain=T0072_uid::GENO_0000715_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0025, origin=T0025::GENO_0000393, destination=T005d::GENO_0000392, linkedAtt={T0025_uid::GENO_0000393_uid uid_domain=T005d_uid::GENO_0000392_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00bc, origin=T00bc::GENO_0000623, destination=T0046::GENO_0000619, linkedAtt={T00bc_uid::GENO_0000623_uid uid_domain=T0046_uid::GENO_0000619_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0040, origin=T0040::SO_1000027, destination=T0068::SO_1000023, linkedAtt={T0040_uid::SO_1000027_uid uid_domain=T0068_uid::SO_1000023_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T011a, origin=T011a::GENO_0000871, destination=T009c::ObsoleteClass, linkedAtt={T011a_uid::GENO_0000871_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0151, origin=T0151::GENO_0000136, destination=T0050::GENO_0000391, linkedAtt={T0151_uid::GENO_0000136_uid uid_domain=T0050_uid::GENO_0000391_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T006d, origin=T006d::SO_0000149, destination=T0172::SO_0000143, linkedAtt={T006d_uid::SO_0000149_uid uid_domain=T0172_uid::SO_0000143_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b9, origin=T00b9::BFO_0000004, destination=T00a2::BFO_0000002, linkedAtt={T00b9_uid::BFO_0000004_uid uid_domain=T00a2_uid::BFO_0000002_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0146, origin=T0146::SO_1000173, destination=T006b::SO_1000035, linkedAtt={T0146_uid::SO_1000173_uid uid_domain=T006b_uid::SO_1000035_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e0, origin=T00e0::SO_0001500, destination=T0017::GENO_0000481, linkedAtt={T00e0_uid::SO_0001500_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0103, origin=T0103::GENO_0000886, destination=T00f9::GENO_0000788, linkedAtt={T0103_uid::GENO_0000886_uid uid_domain=T00f9_uid::GENO_0000788_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0038, origin=T0038::SO_0000577, destination=T0097::SO_0000830, linkedAtt={T0038_uid::SO_0000577_uid uid_domain=T0097_uid::SO_0000830_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T015d, origin=T015d::GENO_0000113, destination=T00ae::PCO_0000000, linkedAtt={T015d_uid::GENO_0000113_uid uid_domain=T00ae_uid::PCO_0000000_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001d, origin=T001d::GENO_0000815, destination=T0052::BFO_0000031, linkedAtt={T001d_uid::GENO_0000815_uid uid_domain=T0052_uid::BFO_0000031_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00fe, origin=T00fe::GENO_0000850, destination=T00b3::GENO_0000856, linkedAtt={T00fe_uid::GENO_0000850_uid uid_domain=T00b3_uid::GENO_0000856_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b4, origin=T00b4::GENO_0000614, destination=T0097::SO_0000830, linkedAtt={T00b4_uid::GENO_0000614_uid uid_domain=T0097_uid::SO_0000830_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T014c, origin=T014c::CLO_0000031, destination=T0004::BFO_0000040, linkedAtt={T014c_uid::CLO_0000031_uid uid_domain=T0004_uid::BFO_0000040_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0145, origin=T0145::UBERON_0001062, destination=T0004::BFO_0000040, linkedAtt={T0145_uid::UBERON_0001062_uid uid_domain=T0004_uid::BFO_0000040_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0150, origin=T0150::GENO_0000148, destination=T0045::GENO_0000934, linkedAtt={T0150_uid::GENO_0000148_uid uid_domain=T0045_uid::GENO_0000934_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0015, origin=T0015::SO_1000012, destination=T0065::SO_1000011, linkedAtt={T0015_uid::SO_1000012_uid uid_domain=T0065_uid::SO_1000011_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T009d, origin=T009d::SO_0001505, destination=T013f::GENO_0000017, linkedAtt={T009d_uid::SO_0001505_uid uid_domain=T013f_uid::GENO_0000017_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00df, origin=T00df::SO_0001742, destination=T0143::SO_0001019, linkedAtt={T00df_uid::SO_0001742_uid uid_domain=T0143_uid::SO_0001019_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T013e, origin=T013e::GENO_0000477, destination=T0122::GENO_0000773, linkedAtt={T013e_uid::GENO_0000477_uid uid_domain=T0122_uid::GENO_0000773_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T007c, origin=T007c::GENO_0000172, destination=T009b::GENO_0000170, linkedAtt={T007c_uid::GENO_0000172_uid uid_domain=T009b_uid::GENO_0000170_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T013c, origin=T013c::GENO_0000138, destination=T00c1::BFO_0000016, linkedAtt={T013c_uid::GENO_0000138_uid uid_domain=T00c1_uid::BFO_0000016_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T012f, origin=T012f::GENO_0000890, destination=T0093::GENO_0000701, linkedAtt={T012f_uid::GENO_0000890_uid uid_domain=T0093_uid::GENO_0000701_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T010a, origin=T010a::OBI_0001149, destination=T001a::GENO_0000166, linkedAtt={T010a_uid::OBI_0001149_uid uid_domain=T001a_uid::GENO_0000166_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T018a, origin=T018a::SO_0001483, destination=T0039::SO_1000002, linkedAtt={T018a_uid::SO_0001483_uid uid_domain=T0039_uid::SO_1000002_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00cc, origin=T00cc::GENO_0000527, destination=T0072::GENO_0000715, linkedAtt={T00cc_uid::GENO_0000527_uid uid_domain=T0072_uid::GENO_0000715_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T016d, origin=T016d::Position, destination=T0001::GENO_0000902, linkedAtt={T016d_uid::Position_uid uid_domain=T0001_uid::GENO_0000902_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T018b, origin=T018b::MP_0000001, destination=T00f3::UPHENO_0001001, linkedAtt={T018b_uid::MP_0000001_uid uid_domain=T00f3_uid::UPHENO_0001001_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0060, origin=T0060::SO_0001410, destination=T0139::SO_0000110, linkedAtt={T0060_uid::SO_0001410_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0043, origin=T0043::NCBITaxon_7955, destination=T0141::OBI_0100026, linkedAtt={T0043_uid::NCBITaxon_7955_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ac, origin=T00ac::GENO_0000529, destination=T008c::GENO_0000737, linkedAtt={T00ac_uid::GENO_0000529_uid uid_domain=T008c_uid::GENO_0000737_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0101, origin=T0101::GENO_0000644, destination=T00da::GENO_0000899, linkedAtt={T0101_uid::GENO_0000644_uid uid_domain=T00da_uid::GENO_0000899_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T006c, origin=T006c::GENO_0000714, destination=T0170::GENO_0000919, linkedAtt={T006c_uid::GENO_0000714_uid uid_domain=T0170_uid::GENO_0000919_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001a, origin=T001a::GENO_0000166, destination=T003a::OBI_0600043, linkedAtt={T001a_uid::GENO_0000166_uid uid_domain=T003a_uid::OBI_0600043_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a3, origin=T00a3::GENO_0000722, destination=T0069::GENO_0000702, linkedAtt={T00a3_uid::GENO_0000722_uid uid_domain=T0069_uid::GENO_0000702_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0032, origin=T0032::SO_1000014, destination=T009a::SO_1000009, linkedAtt={T0032_uid::SO_1000014_uid uid_domain=T009a_uid::SO_1000009_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004a, origin=T004a::Region, destination=T0139::SO_0000110, linkedAtt={T004a_uid::Region_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0085, origin=T0085::GENO_0000833, destination=T0029::association, linkedAtt={T0085_uid::GENO_0000833_uid uid_domain=T0029_uid::association_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0082, origin=T0082::SO_0005836, destination=T0115::GENO_0000666, linkedAtt={T0082_uid::SO_0005836_uid uid_domain=T0115_uid::GENO_0000666_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ba, origin=T00ba::GENO_0000877, destination=T00f9::GENO_0000788, linkedAtt={T00ba_uid::GENO_0000877_uid uid_domain=T00f9_uid::GENO_0000788_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ef, origin=T00ef::SO_0000667, destination=T0189::SO_0001059, linkedAtt={T00ef_uid::SO_0000667_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T014f, origin=T014f::20423, destination=T0019::GENO_0000057, linkedAtt={T014f_uid::20423_uid uid_domain=T0019_uid::GENO_0000057_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0051, origin=T0051::SO_0001784, destination=T005e::SO_0001785, linkedAtt={T0051_uid::SO_0001784_uid uid_domain=T005e_uid::SO_0001785_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0004, origin=T0004::BFO_0000040, destination=T00b9::BFO_0000004, linkedAtt={T0004_uid::BFO_0000040_uid uid_domain=T00b9_uid::BFO_0000004_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0073, origin=T0073::GENO_0000945, destination=T008e::GENO_0000943, linkedAtt={T0073_uid::GENO_0000945_uid uid_domain=T008e_uid::GENO_0000943_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0016, origin=T0016::SO_1000024, destination=T0068::SO_1000023, linkedAtt={T0016_uid::SO_1000024_uid uid_domain=T0068_uid::SO_1000023_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c2, origin=T00c2::SO_1000018, destination=T00d0::SO_1000017, linkedAtt={T00c2_uid::SO_1000018_uid uid_domain=T00d0_uid::SO_1000017_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0125, origin=T0125::GENO_0000458, destination=T0175::GENO_0000135, linkedAtt={T0125_uid::GENO_0000458_uid uid_domain=T0175_uid::GENO_0000135_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001f, origin=T001f::SO_0001218, destination=T00ef::SO_0000667, linkedAtt={T001f_uid::SO_0001218_uid uid_domain=T00ef_uid::SO_0000667_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a0, origin=T00a0::GENO_0000952, destination=T0173::GENO_0000147, linkedAtt={T00a0_uid::GENO_0000952_uid uid_domain=T0173_uid::GENO_0000147_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00af, origin=T00af::GENO_0000953, destination=T0150::GENO_0000148, linkedAtt={T00af_uid::GENO_0000953_uid uid_domain=T0150_uid::GENO_0000148_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0154, origin=T0154::SO_0000289, destination=T0017::GENO_0000481, linkedAtt={T0154_uid::SO_0000289_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0157, origin=T0157::PATO_0000016, destination=T009c::ObsoleteClass, linkedAtt={T0157_uid::PATO_0000016_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T013d, origin=T013d::GENO_0000344, destination=T0140::GENO_0000343, linkedAtt={T013d_uid::GENO_0000344_uid uid_domain=T0140_uid::GENO_0000343_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a4, origin=T00a4::GENO_0000516, destination=T012e::GENO_0000660, linkedAtt={T00a4_uid::GENO_0000516_uid uid_domain=T012e_uid::GENO_0000660_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00bd, origin=T00bd::GENO_0000659, destination=T0093::GENO_0000701, linkedAtt={T00bd_uid::GENO_0000659_uid uid_domain=T0093_uid::GENO_0000701_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T016c, origin=T016c::NCBITaxon_9606, destination=T0141::OBI_0100026, linkedAtt={T016c_uid::NCBITaxon_9606_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e7, origin=T00e7::GENO_0000876, destination=T009c::ObsoleteClass, linkedAtt={T00e7_uid::GENO_0000876_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003b, origin=T003b::PATO_0000384, destination=T0162::PATO_0001894, linkedAtt={T003b_uid::PATO_0000384_uid uid_domain=T0162_uid::PATO_0001894_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0163, origin=T0163::GENO_0000918, destination=T00d4::GENO_0000875, linkedAtt={T0163_uid::GENO_0000918_uid uid_domain=T00d4_uid::GENO_0000875_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ae, origin=T00ae::PCO_0000000, destination=T0004::BFO_0000040, linkedAtt={T00ae_uid::PCO_0000000_uid uid_domain=T0004_uid::BFO_0000040_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0169, origin=T0169::GENO_0000133, destination=T00d4::GENO_0000875, linkedAtt={T0169_uid::GENO_0000133_uid uid_domain=T00d4_uid::GENO_0000875_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0023, origin=T0023::GENO_0000912, destination=T00ad::GENO_0000638, linkedAtt={T0023_uid::GENO_0000912_uid uid_domain=T00ad_uid::GENO_0000638_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0063, origin=T0063::GENO_0000932, destination=T018f::GENO_0000929, linkedAtt={T0063_uid::GENO_0000932_uid uid_domain=T018f_uid::GENO_0000929_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c5, origin=T00c5::CL_0000000, destination=T0145::UBERON_0001062, linkedAtt={T00c5_uid::CL_0000000_uid uid_domain=T0145_uid::UBERON_0001062_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0030, origin=T0030::GENO_0000719, destination=T00d7::GENO_0000536, linkedAtt={T0030_uid::GENO_0000719_uid uid_domain=T00d7_uid::GENO_0000536_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0110, origin=T0110::GENO_0000870, destination=T009c::ObsoleteClass, linkedAtt={T0110_uid::GENO_0000870_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0175, origin=T0175::GENO_0000135, destination=T0050::GENO_0000391, linkedAtt={T0175_uid::GENO_0000135_uid uid_domain=T0050_uid::GENO_0000391_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0161, origin=T0161::HsapDv_0000000, destination=T016a::GENO_0000351, linkedAtt={T0161_uid::HsapDv_0000000_uid uid_domain=T016a_uid::GENO_0000351_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0047, origin=T0047::BFO_0000020, destination=T00a2::BFO_0000002, linkedAtt={T0047_uid::BFO_0000020_uid uid_domain=T00a2_uid::BFO_0000002_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T006b, origin=T006b::SO_1000035, destination=T00ef::SO_0000667, linkedAtt={T006b_uid::SO_1000035_uid uid_domain=T00ef_uid::SO_0000667_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T011f, origin=T011f::GENO_0000106, destination=T0184::GENO_0000482, linkedAtt={T011f_uid::GENO_0000106_uid uid_domain=T0184_uid::GENO_0000482_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0028, origin=T0028::SO_1000016, destination=T0032::SO_1000014, linkedAtt={T0028_uid::SO_1000016_uid uid_domain=T0032_uid::SO_1000014_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0066, origin=T0066::BFO_0000034, destination=T00c1::BFO_0000016, linkedAtt={T0066_uid::BFO_0000034_uid uid_domain=T00c1_uid::BFO_0000016_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0058, origin=T0058::GENO_0000935, destination=T0075::GENO_0000933, linkedAtt={T0058_uid::GENO_0000935_uid uid_domain=T0075_uid::GENO_0000933_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0002, origin=T0002::GENO_0000914, destination=T017b::SO_0001026, linkedAtt={T0002_uid::GENO_0000914_uid uid_domain=T017b_uid::SO_0001026_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0117, origin=T0117::GENO_0000339, destination=T012a::GENO_0000346, linkedAtt={T0117_uid::GENO_0000339_uid uid_domain=T012a_uid::GENO_0000346_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T009a, origin=T009a::SO_1000009, destination=T018a::SO_0001483, linkedAtt={T009a_uid::SO_1000009_uid uid_domain=T018a_uid::SO_0001483_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T017a, origin=T017a::GENO_0000497, destination=T00d2::GENO_0000512, linkedAtt={T017a_uid::GENO_0000497_uid uid_domain=T00d2_uid::GENO_0000512_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e8, origin=T00e8::GENO_0000888, destination=T00ba::GENO_0000877, linkedAtt={T00e8_uid::GENO_0000888_uid uid_domain=T00ba_uid::GENO_0000877_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T007d, origin=T007d::GENO_0000160, destination=T012d::UBERON_0000105, linkedAtt={T007d_uid::GENO_0000160_uid uid_domain=T012d_uid::UBERON_0000105_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T012a, origin=T012a::GENO_0000346, destination=T0189::SO_0001059, linkedAtt={T012a_uid::GENO_0000346_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T012e, origin=T012e::GENO_0000660, destination=T00bd::GENO_0000659, linkedAtt={T012e_uid::GENO_0000660_uid uid_domain=T00bd_uid::GENO_0000659_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T012c, origin=T012c::GENO_0000685, destination=T0122::GENO_0000773, linkedAtt={T012c_uid::GENO_0000685_uid uid_domain=T0122_uid::GENO_0000773_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0143, origin=T0143::SO_0001019, destination=T0189::SO_0001059, linkedAtt={T0143_uid::SO_0001019_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0087, origin=T0087::GENO_0000736, destination=T006c::GENO_0000714, linkedAtt={T0087_uid::GENO_0000736_uid uid_domain=T006c_uid::GENO_0000714_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T015c, origin=T015c::GENO_0000476, destination=T0122::GENO_0000773, linkedAtt={T015c_uid::GENO_0000476_uid uid_domain=T0122_uid::GENO_0000773_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0111, origin=T0111::GENO_0000882, destination=T00ba::GENO_0000877, linkedAtt={T0111_uid::GENO_0000882_uid uid_domain=T00ba_uid::GENO_0000877_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T010b, origin=T010b::SO_0000281, destination=T0119::SO_0000704, linkedAtt={T010b_uid::SO_0000281_uid uid_domain=T0119_uid::SO_0000704_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e3, origin=T00e3::GENO_0000501, destination=T00d2::GENO_0000512, linkedAtt={T00e3_uid::GENO_0000501_uid uid_domain=T00d2_uid::GENO_0000512_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0144, origin=T0144::SO_1000040, destination=T0146::SO_1000173, linkedAtt={T0144_uid::SO_1000040_uid uid_domain=T0146_uid::SO_1000173_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00cb, origin=T00cb::BFO_0000003, destination=T00b1::BFO_0000001, linkedAtt={T00cb_uid::BFO_0000003_uid uid_domain=T00b1_uid::BFO_0000001_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005e, origin=T005e::SO_0001785, destination=T0189::SO_0001059, linkedAtt={T005e_uid::SO_0001785_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000d, origin=T000d::GENO_0000165, destination=T003a::OBI_0600043, linkedAtt={T000d_uid::GENO_0000165_uid uid_domain=T003a_uid::OBI_0600043_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a5, origin=T00a5::GENO_0000637, destination=T0082::SO_0005836, linkedAtt={T00a5_uid::GENO_0000637_uid uid_domain=T0082_uid::SO_0005836_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d5, origin=T00d5::GENO_0000500, destination=T017a::GENO_0000497, linkedAtt={T00d5_uid::GENO_0000500_uid uid_domain=T017a_uid::GENO_0000497_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c8, origin=T00c8::GENO_0000721, destination=T0069::GENO_0000702, linkedAtt={T00c8_uid::GENO_0000721_uid uid_domain=T0069_uid::GENO_0000702_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0164, origin=T0164::GENO_0000146, destination=T0022::GENO_0000936, linkedAtt={T0164_uid::GENO_0000146_uid uid_domain=T0022_uid::GENO_0000936_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0068, origin=T0068::SO_1000023, destination=T00d0::SO_1000017, linkedAtt={T0068_uid::SO_1000023_uid uid_domain=T00d0_uid::SO_1000017_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0054, origin=T0054::6469, destination=T0024::GENO_0000054, linkedAtt={T0054_uid::6469_uid uid_domain=T0024_uid::GENO_0000054_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0065, origin=T0065::SO_1000011, destination=T0078::SO_1000010, linkedAtt={T0065_uid::SO_1000011_uid uid_domain=T0078_uid::SO_1000010_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002c, origin=T002c::GENO_0000042, destination=T009c::ObsoleteClass, linkedAtt={T002c_uid::GENO_0000042_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T017c, origin=T017c::ERO_0002002, destination=T016b::ERO_0002003, linkedAtt={T017c_uid::ERO_0002002_uid uid_domain=T016b_uid::ERO_0002003_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T00bb, origin=T00bb::GENO_0000502, destination=T00e3::GENO_0000501, linkedAtt={T00bb_uid::GENO_0000502_uid uid_domain=T00e3_uid::GENO_0000501_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0006, origin=T0006::SO_1000025, destination=T0068::SO_1000023, linkedAtt={T0006_uid::SO_1000025_uid uid_domain=T0068_uid::SO_1000023_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003c, origin=T003c::GENO_0000152, destination=T0122::GENO_0000773, linkedAtt={T003c_uid::GENO_0000152_uid uid_domain=T0122_uid::GENO_0000773_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0123, origin=T0123::GENO_0000688, destination=T0139::SO_0000110, linkedAtt={T0123_uid::GENO_0000688_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00bf, origin=T00bf::GENO_0000889, destination=T000a::GENO_0000141, linkedAtt={T00bf_uid::GENO_0000889_uid uid_domain=T000a_uid::GENO_0000141_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d8, origin=T00d8::GENO_0000887, destination=T015e::GENO_0000112, linkedAtt={T00d8_uid::GENO_0000887_uid uid_domain=T015e_uid::GENO_0000112_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T018e, origin=T018e::SO_0000902, destination=T0119::SO_0000704, linkedAtt={T018e_uid::SO_0000902_uid uid_domain=T0119_uid::SO_0000704_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0046, origin=T0046::GENO_0000619, destination=T0076::GENO_0000618, linkedAtt={T0046_uid::GENO_0000619_uid uid_domain=T0076_uid::GENO_0000618_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ee, origin=T00ee::SO_0000207, destination=T004f::SO_0000248, linkedAtt={T00ee_uid::SO_0000207_uid uid_domain=T004f_uid::SO_0000248_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0107, origin=T0107::GENO_0000898, destination=T009c::ObsoleteClass, linkedAtt={T0107_uid::GENO_0000898_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c1, origin=T00c1::BFO_0000016, destination=T00eb::BFO_0000017, linkedAtt={T00c1_uid::BFO_0000016_uid uid_domain=T00eb_uid::BFO_0000017_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e9, origin=T00e9::GENO_0000513, destination=T0122::GENO_0000773, linkedAtt={T00e9_uid::GENO_0000513_uid uid_domain=T0122_uid::GENO_0000773_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002e, origin=T002e::OBI_0000435, destination=T0098::ERO_0000007, linkedAtt={T002e_uid::OBI_0000435_uid uid_domain=T0098_uid::ERO_0000007_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T017e, origin=T017e::GENO_0000916, destination=T0017::GENO_0000481, linkedAtt={T017e_uid::GENO_0000916_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T015b, origin=T015b::GENO_0000125, destination=T009c::ObsoleteClass, linkedAtt={T015b_uid::GENO_0000125_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T008d, origin=T008d::GENO_0000616, destination=T0097::SO_0000830, linkedAtt={T008d_uid::GENO_0000616_uid uid_domain=T0097_uid::SO_0000830_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T015e, origin=T015e::GENO_0000112, destination=T015d::GENO_0000113, linkedAtt={T015e_uid::GENO_0000112_uid uid_domain=T015d_uid::GENO_0000113_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0069, origin=T0069::GENO_0000702, destination=T007b::GENO_0000921, linkedAtt={T0069_uid::GENO_0000702_uid uid_domain=T007b_uid::GENO_0000921_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T015a, origin=T015a::GENO_0000137, destination=T0169::GENO_0000133, linkedAtt={T015a_uid::GENO_0000137_uid uid_domain=T0169_uid::GENO_0000133_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0035, origin=T0035::SO_1000026, destination=T0068::SO_1000023, linkedAtt={T0035_uid::SO_1000026_uid uid_domain=T0068_uid::SO_1000023_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00dc, origin=T00dc::GENO_0000645, destination=T00da::GENO_0000899, linkedAtt={T00dc_uid::GENO_0000645_uid uid_domain=T00da_uid::GENO_0000899_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0138, origin=T0138::NCBITaxon_8090, destination=T0141::OBI_0100026, linkedAtt={T0138_uid::NCBITaxon_8090_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T008f, origin=T008f::GENO_0000931, destination=T018f::GENO_0000929, linkedAtt={T008f_uid::GENO_0000931_uid uid_domain=T018f_uid::GENO_0000929_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f3, origin=T00f3::UPHENO_0001001, destination=T0047::BFO_0000020, linkedAtt={T00f3_uid::UPHENO_0001001_uid uid_domain=T0047_uid::BFO_0000020_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0001, origin=T0001::GENO_0000902, destination=T001d::GENO_0000815, linkedAtt={T0001_uid::GENO_0000902_uid uid_domain=T001d_uid::GENO_0000815_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0179, origin=T0179::GENO_0000134, destination=T0050::GENO_0000391, linkedAtt={T0179_uid::GENO_0000134_uid uid_domain=T0050_uid::GENO_0000391_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0124, origin=T0124::GENO_0000119, destination=T015e::GENO_0000112, linkedAtt={T0124_uid::GENO_0000119_uid uid_domain=T015e_uid::GENO_0000112_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0114, origin=T0114::GENO_0000872, destination=T004c::GENO_0000922, linkedAtt={T0114_uid::GENO_0000872_uid uid_domain=T004c_uid::GENO_0000922_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0009, origin=T0009::SO_0000337, destination=T0116::GENO_0000533, linkedAtt={T0009_uid::SO_0000337_uid uid_domain=T0116_uid::GENO_0000533_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003a, origin=T003a::OBI_0600043, destination=T0098::ERO_0000007, linkedAtt={T003a_uid::OBI_0600043_uid uid_domain=T0098_uid::ERO_0000007_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0132, origin=T0132::PCO_0000020, destination=T00ae::PCO_0000000, linkedAtt={T0132_uid::PCO_0000020_uid uid_domain=T00ae_uid::PCO_0000000_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0168, origin=T0168::GENO_0000145, destination=T0173::GENO_0000147, linkedAtt={T0168_uid::GENO_0000145_uid uid_domain=T0173_uid::GENO_0000147_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0112, origin=T0112::399483, destination=T0181::GENO_0000047, linkedAtt={T0112_uid::399483_uid uid_domain=T0181_uid::GENO_0000047_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0034, origin=T0034::GENO_0000949, destination=T000a::GENO_0000141, linkedAtt={T0034_uid::GENO_0000949_uid uid_domain=T000a_uid::GENO_0000141_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0045, origin=T0045::GENO_0000934, destination=T0075::GENO_0000933, linkedAtt={T0045_uid::GENO_0000934_uid uid_domain=T0075_uid::GENO_0000933_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T011e, origin=T011e::GENO_0000118, destination=T015e::GENO_0000112, linkedAtt={T011e_uid::GENO_0000118_uid uid_domain=T015e_uid::GENO_0000112_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T015f, origin=T015f::GENO_0000681, destination=T0131::GENO_0000684, linkedAtt={T015f_uid::GENO_0000681_uid uid_domain=T0131_uid::GENO_0000684_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000e, origin=T000e::ZP_0000199, destination=T0147::GENO_0000575, linkedAtt={T000e_uid::ZP_0000199_uid uid_domain=T0147_uid::GENO_0000575_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0079, origin=T0079::SO_1000022, destination=T00c2::SO_1000018, linkedAtt={T0079_uid::SO_1000022_uid uid_domain=T00c2_uid::SO_1000018_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f2, origin=T00f2::GENO_0000091, destination=T009c::ObsoleteClass, linkedAtt={T00f2_uid::GENO_0000091_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0153, origin=T0153::GENO_0000499, destination=T017a::GENO_0000497, linkedAtt={T0153_uid::GENO_0000499_uid uid_domain=T017a_uid::GENO_0000497_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0080, origin=T0080::GENO_0000942, destination=T0058::GENO_0000935, linkedAtt={T0080_uid::GENO_0000942_uid uid_domain=T0058_uid::GENO_0000935_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0170, origin=T0170::GENO_0000919, destination=T0095::GENO_0000713, linkedAtt={T0170_uid::GENO_0000919_uid uid_domain=T0095_uid::GENO_0000713_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0021, origin=T0021::GENO_0000948, destination=T0058::GENO_0000935, linkedAtt={T0021_uid::GENO_0000948_uid uid_domain=T0058_uid::GENO_0000935_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0108, origin=T0108::BFO_0000019, destination=T0047::BFO_0000020, linkedAtt={T0108_uid::BFO_0000019_uid uid_domain=T0047_uid::BFO_0000020_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005a, origin=T005a::GENO_0000174, destination=T009b::GENO_0000170, linkedAtt={T005a_uid::GENO_0000174_uid uid_domain=T009b_uid::GENO_0000170_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0126, origin=T0126::GENO_0000881, destination=T00ba::GENO_0000877, linkedAtt={T0126_uid::GENO_0000881_uid uid_domain=T00ba_uid::GENO_0000877_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0076, origin=T0076::GENO_0000618, destination=T00f9::GENO_0000788, linkedAtt={T0076_uid::GENO_0000618_uid uid_domain=T00f9_uid::GENO_0000788_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0099, origin=T0099::SO_0000637, destination=T009c::ObsoleteClass, linkedAtt={T0099_uid::SO_0000637_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005c, origin=T005c::GENO_0000150, destination=T009c::ObsoleteClass, linkedAtt={T005c_uid::GENO_0000150_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ad, origin=T00ad::GENO_0000638, destination=T0167::GENO_0000460, linkedAtt={T00ad_uid::GENO_0000638_uid uid_domain=T0167_uid::GENO_0000460_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T010c, origin=T010c::GENO_0000883, destination=T009c::ObsoleteClass, linkedAtt={T010c_uid::GENO_0000883_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a2, origin=T00a2::BFO_0000002, destination=T00b1::BFO_0000001, linkedAtt={T00a2_uid::BFO_0000002_uid uid_domain=T00b1_uid::BFO_0000001_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0070, origin=T0070::SO_0001479, destination=T00b3::GENO_0000856, linkedAtt={T0070_uid::SO_0001479_uid uid_domain=T00b3_uid::GENO_0000856_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0071, origin=T0071::GENO_0000606, destination=T0179::GENO_0000134, linkedAtt={T0071_uid::GENO_0000606_uid uid_domain=T0179_uid::GENO_0000134_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a6, origin=T00a6::GENO_0000879, destination=T00e8::GENO_0000888, linkedAtt={T00a6_uid::GENO_0000879_uid uid_domain=T00e8_uid::GENO_0000888_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0078, origin=T0078::SO_1000010, destination=T009a::SO_1000009, linkedAtt={T0078_uid::SO_1000010_uid uid_domain=T009a_uid::SO_1000009_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T010f, origin=T010f::GENO_0000640, destination=T00ad::GENO_0000638, linkedAtt={T010f_uid::GENO_0000640_uid uid_domain=T00ad_uid::GENO_0000638_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0044, origin=T0044::GENO_0000164, destination=T003a::OBI_0600043, linkedAtt={T0044_uid::GENO_0000164_uid uid_domain=T003a_uid::OBI_0600043_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0039, origin=T0039::SO_1000002, destination=T0189::SO_0001059, linkedAtt={T0039_uid::SO_1000002_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b8, origin=T00b8::GENO_0000720, destination=T0069::GENO_0000702, linkedAtt={T00b8_uid::GENO_0000720_uid uid_domain=T0069_uid::GENO_0000702_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0162, origin=T0162::PATO_0001894, destination=T0108::BFO_0000019, linkedAtt={T0162_uid::PATO_0001894_uid uid_domain=T0108_uid::BFO_0000019_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0012, origin=T0012::GENO_0000818, destination=T006c::GENO_0000714, linkedAtt={T0012_uid::GENO_0000818_uid uid_domain=T006c_uid::GENO_0000714_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T017b, origin=T017b::SO_0001026, destination=T012e::GENO_0000660, linkedAtt={T017b_uid::SO_0001026_uid uid_domain=T012e_uid::GENO_0000660_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e1, origin=T00e1::SO_0001744, destination=T0189::SO_0001059, linkedAtt={T00e1_uid::SO_0001744_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0062, origin=T0062::GENO_0000944, destination=T008e::GENO_0000943, linkedAtt={T0062_uid::GENO_0000944_uid uid_domain=T008e_uid::GENO_0000943_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001b, origin=T001b::GENO_0000142, destination=T009c::ObsoleteClass, linkedAtt={T001b_uid::GENO_0000142_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T004b, origin=T004b::GENO_0000910, destination=T0134::OBI_0000086, linkedAtt={T004b_uid::GENO_0000910_uid uid_domain=T0134_uid::OBI_0000086_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f1, origin=T00f1::WBPhenotype_0000886, destination=T00f3::UPHENO_0001001, linkedAtt={T00f1_uid::WBPhenotype_0000886_uid uid_domain=T00f3_uid::UPHENO_0001001_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0192, origin=T0192::GENO_0000132, destination=T0103::GENO_0000886, linkedAtt={T0192_uid::GENO_0000132_uid uid_domain=T0103_uid::GENO_0000886_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T007a, origin=T007a::SO_0000694, destination=T018a::SO_0001483, linkedAtt={T007a_uid::SO_0000694_uid uid_domain=T018a_uid::SO_0001483_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0178, origin=T0178::SO_0000167, destination=T0082::SO_0005836, linkedAtt={T0178_uid::SO_0000167_uid uid_domain=T0082_uid::SO_0005836_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d6, origin=T00d6::GENO_0000621, destination=T0076::GENO_0000618, linkedAtt={T00d6_uid::GENO_0000621_uid uid_domain=T0076_uid::GENO_0000618_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0005, origin=T0005::IAO_0000102, destination=T00ec::IAO_0000030, linkedAtt={T0005_uid::IAO_0000102_uid uid_domain=T00ec_uid::IAO_0000030_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ec, origin=T00ec::IAO_0000030, destination=T0052::BFO_0000031, linkedAtt={T00ec_uid::IAO_0000030_uid uid_domain=T0052_uid::BFO_0000031_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0173, origin=T0173::GENO_0000147, destination=T0045::GENO_0000934, linkedAtt={T0173_uid::GENO_0000147_uid uid_domain=T0045_uid::GENO_0000934_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e4, origin=T00e4::GENO_0000622, destination=T0046::GENO_0000619, linkedAtt={T00e4_uid::GENO_0000622_uid uid_domain=T0046_uid::GENO_0000619_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0172, origin=T0172::SO_0000143, destination=T0060::SO_0001410, linkedAtt={T0172_uid::SO_0000143_uid uid_domain=T0060_uid::SO_0001410_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f5, origin=T00f5::GENO_0000873, destination=T0102::GENO_0000874, linkedAtt={T00f5_uid::GENO_0000873_uid uid_domain=T0102_uid::GENO_0000874_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0134, origin=T0134::OBI_0000086, destination=T0092::BFO_0000023, linkedAtt={T0134_uid::OBI_0000086_uid uid_domain=T0092_uid::BFO_0000023_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0007, origin=T0007::GENO_0000938, destination=T0164::GENO_0000146, linkedAtt={T0007_uid::GENO_0000938_uid uid_domain=T0164_uid::GENO_0000146_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0116, origin=T0116::GENO_0000533, destination=T017f::SO_0000804, linkedAtt={T0116_uid::GENO_0000533_uid uid_domain=T017f_uid::SO_0000804_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T007f, origin=T007f::GENO_0000506, destination=T00ac::GENO_0000529, linkedAtt={T007f_uid::GENO_0000506_uid uid_domain=T00ac_uid::GENO_0000529_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b0, origin=T00b0::GENO_0000941, destination=T0058::GENO_0000935, linkedAtt={T00b0_uid::GENO_0000941_uid uid_domain=T0058_uid::GENO_0000935_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0147, origin=T0147::GENO_0000575, destination=T00f3::UPHENO_0001001, linkedAtt={T0147_uid::GENO_0000575_uid uid_domain=T00f3_uid::UPHENO_0001001_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T003d, origin=T003d::SO_0000699, destination=T0139::SO_0000110, linkedAtt={T003d_uid::SO_0000699_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ed, origin=T00ed::SO_1000019, destination=T00c2::SO_1000018, linkedAtt={T00ed_uid::SO_1000019_uid uid_domain=T00c2_uid::SO_1000018_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e5, origin=T00e5::GENO_0000525, destination=T00d7::GENO_0000536, linkedAtt={T00e5_uid::GENO_0000525_uid uid_domain=T00d7_uid::GENO_0000536_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T016b, origin=T016b::ERO_0002003, destination=T014c::CLO_0000031, linkedAtt={T016b_uid::ERO_0002003_uid uid_domain=T014c_uid::CLO_0000031_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00fc, origin=T00fc::OBI_0001148, destination=T001a::GENO_0000166, linkedAtt={T00fc_uid::OBI_0001148_uid uid_domain=T001a_uid::GENO_0000166_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d1, origin=T00d1::GENO_0000093, destination=T018e::SO_0000902, linkedAtt={T00d1_uid::GENO_0000093_uid uid_domain=T018e_uid::SO_0000902_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T008e, origin=T008e::GENO_0000943, destination=T0080::GENO_0000942, linkedAtt={T008e_uid::GENO_0000943_uid uid_domain=T0080_uid::GENO_0000942_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0141, origin=T0141::OBI_0100026, destination=T0004::BFO_0000040, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0004_uid::BFO_0000040_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ca, origin=T00ca::BFO_0000015, destination=T00cb::BFO_0000003, linkedAtt={T00ca_uid::BFO_0000015_uid uid_domain=T00cb_uid::BFO_0000003_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0067, origin=T0067::GENO_0000920, destination=T0095::GENO_0000713, linkedAtt={T0067_uid::GENO_0000920_uid uid_domain=T0095_uid::GENO_0000713_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T006e, origin=T006e::GENO_0000171, destination=T009b::GENO_0000170, linkedAtt={T006e_uid::GENO_0000171_uid uid_domain=T009b_uid::GENO_0000170_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T008c, origin=T008c::GENO_0000737, destination=T006c::GENO_0000714, linkedAtt={T008c_uid::GENO_0000737_uid uid_domain=T006c_uid::GENO_0000714_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T012a, origin=T012a::GENO_0000346, destination=T013a::SO_0000340, linkedAtt={T012a_uid::GENO_0000346_uid uid_domain=T013a_uid::SO_0000340_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0048, origin=T0048::SO_1000021, destination=T00c2::SO_1000018, linkedAtt={T0048_uid::SO_1000021_uid uid_domain=T00c2_uid::SO_1000018_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T010e, origin=T010e::GENO_0000338, destination=T012a::GENO_0000346, linkedAtt={T010e_uid::GENO_0000338_uid uid_domain=T012a_uid::GENO_0000346_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0174, origin=T0174::GENO_0000498, destination=T017a::GENO_0000497, linkedAtt={T0174_uid::GENO_0000498_uid uid_domain=T017a_uid::GENO_0000497_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f9, origin=T00f9::GENO_0000788, destination=T0047::BFO_0000020, linkedAtt={T00f9_uid::GENO_0000788_uid uid_domain=T0047_uid::BFO_0000020_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002d, origin=T002d::GO_0003674, destination=T0066::BFO_0000034, linkedAtt={T002d_uid::GO_0003674_uid uid_domain=T0066_uid::BFO_0000034_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0092, origin=T0092::BFO_0000023, destination=T00eb::BFO_0000017, linkedAtt={T0092_uid::BFO_0000023_uid uid_domain=T00eb_uid::BFO_0000017_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0188, origin=T0188::GENO_0000131, destination=T0103::GENO_0000886, linkedAtt={T0188_uid::GENO_0000131_uid uid_domain=T0103_uid::GENO_0000886_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0120, origin=T0120::GENO_0000880, destination=T00ba::GENO_0000877, linkedAtt={T0120_uid::GENO_0000880_uid uid_domain=T00ba_uid::GENO_0000877_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001e, origin=T001e::GENO_0000839, destination=T00cc::GENO_0000527, linkedAtt={T001e_uid::GENO_0000839_uid uid_domain=T00cc_uid::GENO_0000527_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00fd, origin=T00fd::GENO_0000620, destination=T0076::GENO_0000618, linkedAtt={T00fd_uid::GENO_0000620_uid uid_domain=T0076_uid::GENO_0000618_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T002f, origin=T002f::GENO_0000925, destination=T009c::ObsoleteClass, linkedAtt={T002f_uid::GENO_0000925_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T011c, origin=T011c::GENO_0000324, destination=T009c::ObsoleteClass, linkedAtt={T011c_uid::GENO_0000324_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0137, origin=T0137::GENO_0000782, destination=T00ea::GENO_0000779, linkedAtt={T0137_uid::GENO_0000782_uid uid_domain=T00ea_uid::GENO_0000779_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T014e, origin=T014e::SO_0001478, destination=T00b3::GENO_0000856, linkedAtt={T014e_uid::SO_0001478_uid uid_domain=T00b3_uid::GENO_0000856_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0061, origin=T0061::GENO_0000605, destination=T0179::GENO_0000134, linkedAtt={T0061_uid::GENO_0000605_uid uid_domain=T0179_uid::GENO_0000134_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00cd, origin=T00cd::GENO_0000878, destination=T00e8::GENO_0000888, linkedAtt={T00cd_uid::GENO_0000878_uid uid_domain=T00e8_uid::GENO_0000888_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0074, origin=T0074::GENO_0000848, destination=T009c::ObsoleteClass, linkedAtt={T0074_uid::GENO_0000848_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c0, origin=T00c0::GENO_0000647, destination=T00dc::GENO_0000645, linkedAtt={T00c0_uid::GENO_0000647_uid uid_domain=T00dc_uid::GENO_0000645_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T014d, origin=T014d::GENO_0000780, destination=T00ea::GENO_0000779, linkedAtt={T014d_uid::GENO_0000780_uid uid_domain=T00ea_uid::GENO_0000779_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00ab, origin=T00ab::ZP_0000755, destination=T0147::GENO_0000575, linkedAtt={T00ab_uid::ZP_0000755_uid uid_domain=T0147_uid::GENO_0000575_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a9, origin=T00a9::ZP_0005531, destination=T0147::GENO_0000575, linkedAtt={T00a9_uid::ZP_0005531_uid uid_domain=T0147_uid::GENO_0000575_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0088, origin=T0088::GENO_0000603, destination=T0163::GENO_0000918, linkedAtt={T0088_uid::GENO_0000603_uid uid_domain=T0163_uid::GENO_0000918_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0003, origin=T0003::GENO_0000926, destination=T00f9::GENO_0000788, linkedAtt={T0003_uid::GENO_0000926_uid uid_domain=T00f9_uid::GENO_0000788_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T013b, origin=T013b::GENO_0000029, destination=T009c::ObsoleteClass, linkedAtt={T013b_uid::GENO_0000029_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T016e, origin=T016e::SO_0001013, destination=T0039::SO_1000002, linkedAtt={T016e_uid::SO_0001013_uid uid_domain=T0039_uid::SO_1000002_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0094, origin=T0094::GENO_0000604, destination=T0179::GENO_0000134, linkedAtt={T0094_uid::GENO_0000604_uid uid_domain=T0179_uid::GENO_0000134_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00eb, origin=T00eb::BFO_0000017, destination=T0047::BFO_0000020, linkedAtt={T00eb_uid::BFO_0000017_uid uid_domain=T0047_uid::BFO_0000020_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00c4, origin=T00c4::GENO_0000092, destination=T00ef::SO_0000667, linkedAtt={T00c4_uid::GENO_0000092_uid uid_domain=T00ef_uid::SO_0000667_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0072, origin=T0072::GENO_0000715, destination=T0067::GENO_0000920, linkedAtt={T0072_uid::GENO_0000715_uid uid_domain=T0067_uid::GENO_0000920_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T016f, origin=T016f::GENO_0000907, destination=T0139::SO_0000110, linkedAtt={T016f_uid::GENO_0000907_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005f, origin=T005f::StrandedPosition, destination=T016d::Position, linkedAtt={T005f_uid::StrandedPosition_uid uid_domain=T016d_uid::Position_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0136, origin=T0136::GENO_0000891, destination=T00ec::IAO_0000030, linkedAtt={T0136_uid::GENO_0000891_uid uid_domain=T00ec_uid::IAO_0000030_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f8, origin=T00f8::GENO_0000897, destination=T0052::BFO_0000031, linkedAtt={T00f8_uid::GENO_0000897_uid uid_domain=T0052_uid::BFO_0000031_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0075, origin=T0075::GENO_0000933, destination=T000a::GENO_0000141, linkedAtt={T0075_uid::GENO_0000933_uid uid_domain=T000a_uid::GENO_0000141_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0053, origin=T0053::SO_1000032, destination=T0189::SO_0001059, linkedAtt={T0053_uid::SO_1000032_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000b, origin=T000b::GENO_0000492, destination=T0189::SO_0001059, linkedAtt={T000b_uid::GENO_0000492_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0142, origin=T0142::SO_0001477, destination=T00b3::GENO_0000856, linkedAtt={T0142_uid::SO_0001477_uid uid_domain=T00b3_uid::GENO_0000856_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0135, origin=T0135::GENO_0000770, destination=T016a::GENO_0000351, linkedAtt={T0135_uid::GENO_0000770_uid uid_domain=T016a_uid::GENO_0000351_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d4, origin=T00d4::GENO_0000875, destination=T00f9::GENO_0000788, linkedAtt={T00d4_uid::GENO_0000875_uid uid_domain=T00f9_uid::GENO_0000788_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0095, origin=T0095::GENO_0000713, destination=T0052::BFO_0000031, linkedAtt={T0095_uid::GENO_0000713_uid uid_domain=T0052_uid::BFO_0000031_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00be, origin=T00be::GENO_0000768, destination=T009c::ObsoleteClass, linkedAtt={T00be_uid::GENO_0000768_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a8, origin=T00a8::GENO_0000625, destination=T0046::GENO_0000619, linkedAtt={T00a8_uid::GENO_0000625_uid uid_domain=T0046_uid::GENO_0000619_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T008b, origin=T008b::GENO_0000628, destination=T0027::SO_0000105, linkedAtt={T008b_uid::GENO_0000628_uid uid_domain=T0027_uid::SO_0000105_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00f6, origin=T00f6::GENO_0000534, destination=T008c::GENO_0000737, linkedAtt={T00f6_uid::GENO_0000534_uid uid_domain=T008c_uid::GENO_0000737_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0166, origin=T0166::GENO_0000000, destination=T00da::GENO_0000899, linkedAtt={T0166_uid::GENO_0000000_uid uid_domain=T00da_uid::GENO_0000899_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0130, origin=T0130::GENO_0000781, destination=T00ea::GENO_0000779, linkedAtt={T0130_uid::GENO_0000781_uid uid_domain=T00ea_uid::GENO_0000779_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0098, origin=T0098::ERO_0000007, destination=T0185::OBI_0000011, linkedAtt={T0098_uid::ERO_0000007_uid uid_domain=T0185_uid::OBI_0000011_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0026, origin=T0026::PATO_0000383, destination=T0162::PATO_0001894, linkedAtt={T0026_uid::PATO_0000383_uid uid_domain=T0162_uid::PATO_0001894_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T018c, origin=T018c::SO_0000165, destination=T0082::SO_0005836, linkedAtt={T018c_uid::SO_0000165_uid uid_domain=T0082_uid::SO_0005836_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0165, origin=T0165::GENO_0000037, destination=T009c::ObsoleteClass, linkedAtt={T0165_uid::GENO_0000037_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0057, origin=T0057::GENO_0000911, destination=T0134::OBI_0000086, linkedAtt={T0057_uid::GENO_0000911_uid uid_domain=T0134_uid::OBI_0000086_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00b2, origin=T00b2::GENO_0000602, destination=T0163::GENO_0000918, linkedAtt={T00b2_uid::GENO_0000602_uid uid_domain=T0163_uid::GENO_0000918_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T018d, origin=T018d::GENO_0000169, destination=T0044::GENO_0000164, linkedAtt={T018d_uid::GENO_0000169_uid uid_domain=T0044_uid::GENO_0000164_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T014b, origin=T014b::GENO_0000139, destination=T013c::GENO_0000138, linkedAtt={T014b_uid::GENO_0000139_uid uid_domain=T013c_uid::GENO_0000138_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0186, origin=T0186::GENO_0000143, destination=T0173::GENO_0000147, linkedAtt={T0186_uid::GENO_0000143_uid uid_domain=T0173_uid::GENO_0000147_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0131, origin=T0131::GENO_0000684, destination=T0189::SO_0001059, linkedAtt={T0131_uid::GENO_0000684_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0129, origin=T0129::GO_0032502, destination=T016a::GENO_0000351, linkedAtt={T0129_uid::GO_0032502_uid uid_domain=T016a_uid::GENO_0000351_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0102, origin=T0102::GENO_0000874, destination=T0189::SO_0001059, linkedAtt={T0102_uid::GENO_0000874_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0055, origin=T0055::SO_1000020, destination=T00c2::SO_1000018, linkedAtt={T0055_uid::SO_1000020_uid uid_domain=T00c2_uid::SO_1000018_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0081, origin=T0081::GENO_0000930, destination=T018f::GENO_0000929, linkedAtt={T0081_uid::GENO_0000930_uid uid_domain=T018f_uid::GENO_0000929_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T005d, origin=T005d::GENO_0000392, destination=T0169::GENO_0000133, linkedAtt={T005d_uid::GENO_0000392_uid uid_domain=T0169_uid::GENO_0000133_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0140, origin=T0140::GENO_0000343, destination=T0189::SO_0001059, linkedAtt={T0140_uid::GENO_0000343_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00a1, origin=T00a1::CHEBI_23367, destination=T0004::BFO_0000040, linkedAtt={T00a1_uid::CHEBI_23367_uid uid_domain=T0004_uid::BFO_0000040_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T010d, origin=T010d::GENO_0000108, destination=T0004::BFO_0000040, linkedAtt={T010d_uid::GENO_0000108_uid uid_domain=T0004_uid::BFO_0000040_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0148, origin=T0148::SO_0000341, destination=T0097::SO_0000830, linkedAtt={T0148_uid::SO_0000341_uid uid_domain=T0097_uid::SO_0000830_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0089, origin=T0089::GENO_0000060, destination=T009c::ObsoleteClass, linkedAtt={T0089_uid::GENO_0000060_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0052, origin=T0052::BFO_0000031, destination=T00a2::BFO_0000002, linkedAtt={T0052_uid::BFO_0000031_uid uid_domain=T00a2_uid::BFO_0000002_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T017d, origin=T017d::GENO_0000904, destination=T0004::BFO_0000040, linkedAtt={T017d_uid::GENO_0000904_uid uid_domain=T0004_uid::BFO_0000040_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00db, origin=T00db::GENO_0000524, destination=T00d7::GENO_0000536, linkedAtt={T00db_uid::GENO_0000524_uid uid_domain=T00d7_uid::GENO_0000536_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0119, origin=T0119::SO_0000704, destination=T0017::GENO_0000481, linkedAtt={T0119_uid::SO_0000704_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00dd, origin=T00dd::GENO_0000415, destination=T009c::ObsoleteClass, linkedAtt={T00dd_uid::GENO_0000415_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0086, origin=T0086::GENO_0000724, destination=T009c::ObsoleteClass, linkedAtt={T0086_uid::GENO_0000724_uid uid_domain=T009c_uid::ObsoleteClass_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0122, origin=T0122::GENO_0000773, destination=T00f9::GENO_0000788, linkedAtt={T0122_uid::GENO_0000773_uid uid_domain=T00f9_uid::GENO_0000788_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00d3, origin=T00d3::GENO_0000633, destination=T0046::GENO_0000619, linkedAtt={T00d3_uid::GENO_0000633_uid uid_domain=T0046_uid::GENO_0000619_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T006f, origin=T006f::HP_0000118, destination=T00f3::UPHENO_0001001, linkedAtt={T006f_uid::HP_0000118_uid uid_domain=T00f3_uid::UPHENO_0001001_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0013, origin=T0013::GENO_0000939, destination=T0164::GENO_0000146, linkedAtt={T0013_uid::GENO_0000939_uid uid_domain=T0164_uid::GENO_0000146_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0159, origin=T0159::GENO_0000149, destination=T0022::GENO_0000936, linkedAtt={T0159_uid::GENO_0000149_uid uid_domain=T0022_uid::GENO_0000936_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0049, origin=T0049::NCBITaxon_10239, destination=T0141::OBI_0100026, linkedAtt={T0049_uid::NCBITaxon_10239_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e6, origin=T00e6::GENO_0000646, destination=T00dc::GENO_0000645, linkedAtt={T00e6_uid::GENO_0000646_uid uid_domain=T00dc_uid::GENO_0000645_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0182, origin=T0182::GENO_0000010, destination=T0002::GENO_0000914, linkedAtt={T0182_uid::GENO_0000010_uid uid_domain=T0002_uid::GENO_0000914_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0185, origin=T0185::OBI_0000011, destination=T00ca::BFO_0000015, linkedAtt={T0185_uid::OBI_0000011_uid uid_domain=T00ca_uid::BFO_0000015_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T00c5, origin=T00c5::CL_0000000, destination=T007e::ONTORELA_C0189X, linkedAtt={T00c5_uid::CL_0000000_uid uid_domain=T007e_uid::ONTORELA_C0189X_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T0049, origin=T0049::NCBITaxon_10239, destination=T007e::ONTORELA_C0189X, linkedAtt={T0049_uid::NCBITaxon_10239_uid uid_domain=T007e_uid::ONTORELA_C0189X_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00aa, origin=T00aa::ONTORELA_C018bX, destination=T011f::GENO_0000106, linkedAtt={T00aa_uid::ONTORELA_C018bX_uid uid_domain=T011f_uid::GENO_0000106_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T00d7, origin=T00d7::GENO_0000536, destination=T0084::ONTORELA_C018dX, linkedAtt={T00d7_uid::GENO_0000536_uid uid_domain=T0084_uid::ONTORELA_C018dX_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0083, origin=T0083::ONTORELA_C018dX-el0, destination=T0084::ONTORELA_C018dX, linkedAtt={T0083_uid::ONTORELA_C018dX-el0_uid uid_domain=T0084_uid::ONTORELA_C018dX_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T00e2, origin=T00e2::ONTORELA_C0190X, destination=T0129::GO_0032502, linkedAtt={T00e2_uid::ONTORELA_C0190X_uid uid_domain=T0129_uid::GO_0032502_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T00e2, origin=T00e2::ONTORELA_C0190X, destination=T0177::ONTORELA_C0190X-el0, linkedAtt={T00e2_uid::ONTORELA_C0190X_uid uid_domain=T0177_uid::ONTORELA_C0190X-el0_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T00a4, origin=T00a4::GENO_0000516, destination=T008a::ONTORELA_C0195X, linkedAtt={T00a4_uid::GENO_0000516_uid uid_domain=T008a_uid::ONTORELA_C0195X_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T017b, origin=T017b::SO_0001026, destination=T008a::ONTORELA_C0195X, linkedAtt={T017b_uid::SO_0001026_uid uid_domain=T008a_uid::ONTORELA_C0195X_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T012e, origin=T012e::GENO_0000660, destination=T00c3::ONTORELA_C0197X, linkedAtt={T012e_uid::GENO_0000660_uid uid_domain=T00c3_uid::ONTORELA_C0197X_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T0072, origin=T0072::GENO_0000715, destination=T00c3::ONTORELA_C0197X, linkedAtt={T0072_uid::GENO_0000715_uid uid_domain=T00c3_uid::ONTORELA_C0197X_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0156, origin=T0156::GENO_0000002, destination=T000f::ONTORELA_C0199X, linkedAtt={T0156_uid::GENO_0000002_uid uid_domain=T000f_uid::ONTORELA_C0199X_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0189, origin=T0189::SO_0001059, destination=T000f::ONTORELA_C0199X, linkedAtt={T0189_uid::SO_0001059_uid uid_domain=T000f_uid::ONTORELA_C0199X_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0152, origin=T0152::ONTORELA_C0199X-el0, destination=T000f::ONTORELA_C0199X, linkedAtt={T0152_uid::ONTORELA_C0199X-el0_uid uid_domain=T000f_uid::ONTORELA_C0199X_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0194, origin=T0194::SO_0000110_GENO_0000703, destination=T0139::SO_0000110, linkedAtt={T0139_uid::SO_0000110_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0195, origin=T0195::GENO_0000702_GENO_0000896, destination=T0069::GENO_0000702, linkedAtt={T0069_uid::GENO_0000702_uid uid_domain=T0069_uid::GENO_0000702_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0196, origin=T0196::GENO_0000914_GENO_0000239_SO_0001505, destination=T0002::GENO_0000914, linkedAtt={T0002_uid::GENO_0000914_uid uid_domain=T0002_uid::GENO_0000914_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0196, origin=T0196::GENO_0000914_GENO_0000239_SO_0001505, destination=T009d::SO_0001505, linkedAtt={T009d_uid::SO_0001505_uid uid_domain=T009d_uid::SO_0001505_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0197, origin=T0197::GENO_0000492_GENO_0000683_GENO_0000501, destination=T000b::GENO_0000492, linkedAtt={T000b_uid::GENO_0000492_uid uid_domain=T000b_uid::GENO_0000492_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0197, origin=T0197::GENO_0000492_GENO_0000683_GENO_0000501, destination=T00e3::GENO_0000501, linkedAtt={T00e3_uid::GENO_0000501_uid uid_domain=T00e3_uid::GENO_0000501_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0198, origin=T0198::GENO_0000915_GENO_0000408_GENO_0000916, destination=T0010::GENO_0000915, linkedAtt={T0010_uid::GENO_0000915_uid uid_domain=T0010_uid::GENO_0000915_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0198, origin=T0198::GENO_0000915_GENO_0000408_GENO_0000916, destination=T017e::GENO_0000916, linkedAtt={T017e_uid::GENO_0000916_uid uid_domain=T017e_uid::GENO_0000916_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0199, origin=T0199::GENO_0000915_BFO_0000051_SO_0001059, destination=T0010::GENO_0000915, linkedAtt={T0010_uid::GENO_0000915_uid uid_domain=T0010_uid::GENO_0000915_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0199, origin=T0199::GENO_0000915_BFO_0000051_SO_0001059, destination=T0189::SO_0001059, linkedAtt={T0189_uid::SO_0001059_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T019a, origin=T019a::GENO_0000481_RO_0002162_OBI_0100026, destination=T0017::GENO_0000481, linkedAtt={T0017_uid::GENO_0000481_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T019a, origin=T019a::GENO_0000481_RO_0002162_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T019b, origin=T019b::GENO_0000481_BFO_0000050_SO_0001026, destination=T0017::GENO_0000481, linkedAtt={T0017_uid::GENO_0000481_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T019b, origin=T019b::GENO_0000481_BFO_0000050_SO_0001026, destination=T017b::SO_0001026, linkedAtt={T017b_uid::SO_0001026_uid uid_domain=T017b_uid::SO_0001026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T019c, origin=T019c::GENO_0000033_GENO_0000382_SO_0001059, destination=T0018::GENO_0000033, linkedAtt={T0018_uid::GENO_0000033_uid uid_domain=T0018_uid::GENO_0000033_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T019c, origin=T019c::GENO_0000033_GENO_0000382_SO_0001059, destination=T0189::SO_0001059, linkedAtt={T0189_uid::SO_0001059_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T019d, origin=T019d::GENO_0000166_OBI_0000299_GENO_0000515, destination=T001a::GENO_0000166, linkedAtt={T001a_uid::GENO_0000166_uid uid_domain=T001a_uid::GENO_0000166_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T019d, origin=T019d::GENO_0000166_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T019e, origin=T019e::GENO_0000839_GENO_0000382_GENO_0000504, destination=T001e::GENO_0000839, linkedAtt={T001e_uid::GENO_0000839_uid uid_domain=T001e_uid::GENO_0000839_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T019e, origin=T019e::GENO_0000839_GENO_0000382_GENO_0000504, destination=T00a7::GENO_0000504, linkedAtt={T00a7_uid::GENO_0000504_uid uid_domain=T00a7_uid::GENO_0000504_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T019f, origin=T019f::SO_0001218_BFO_0000051_GENO_0000093, destination=T001f::SO_0001218, linkedAtt={T001f_uid::SO_0001218_uid uid_domain=T001f_uid::SO_0001218_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T019f, origin=T019f::SO_0001218_BFO_0000051_GENO_0000093, destination=T00d1::GENO_0000093, linkedAtt={T00d1_uid::GENO_0000093_uid uid_domain=T00d1_uid::GENO_0000093_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a0, origin=T01a0::SO_0000105_BFO_0000050_SO_0000830, destination=T0027::SO_0000105, linkedAtt={T0027_uid::SO_0000105_uid uid_domain=T0027_uid::SO_0000105_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a0, origin=T01a0::SO_0000105_BFO_0000050_SO_0000830, destination=T0097::SO_0000830, linkedAtt={T0097_uid::SO_0000830_uid uid_domain=T0097_uid::SO_0000830_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a1, origin=T01a1::GENO_0000719_IAO_0000219_ONTORELA_C0195X, destination=T0030::GENO_0000719, linkedAtt={T0030_uid::GENO_0000719_uid uid_domain=T0030_uid::GENO_0000719_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a1, origin=T01a1::GENO_0000719_IAO_0000219_ONTORELA_C0195X, destination=T008a::ONTORELA_C0195X, linkedAtt={T008a_uid::ONTORELA_C0195X_uid uid_domain=T008a_uid::ONTORELA_C0195X_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a2, origin=T01a2::OBI_0600043_OBI_0000299_ONTORELA_C018bX, destination=T003a::OBI_0600043, linkedAtt={T003a_uid::OBI_0600043_uid uid_domain=T003a_uid::OBI_0600043_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a2, origin=T01a2::OBI_0600043_OBI_0000299_ONTORELA_C018bX, destination=T00aa::ONTORELA_C018bX, linkedAtt={T00aa_uid::ONTORELA_C018bX_uid uid_domain=T00aa_uid::ONTORELA_C018bX_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a3, origin=T01a3::Region_begin_Position, destination=T004a::Region, linkedAtt={T004a_uid::Region_uid uid_domain=T004a_uid::Region_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a3, origin=T01a3::Region_begin_Position, destination=T016d::Position, linkedAtt={T016d_uid::Position_uid uid_domain=T016d_uid::Position_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a4, origin=T01a4::Region_end_Position, destination=T004a::Region, linkedAtt={T004a_uid::Region_uid uid_domain=T004a_uid::Region_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a4, origin=T01a4::Region_end_Position, destination=T016d::Position, linkedAtt={T016d_uid::Position_uid uid_domain=T016d_uid::Position_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a5, origin=T01a5::GENO_0000173_OBI_0000299_GENO_0000515, destination=T004e::GENO_0000173, linkedAtt={T004e_uid::GENO_0000173_uid uid_domain=T004e_uid::GENO_0000173_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a5, origin=T01a5::GENO_0000173_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a6, origin=T01a6::GENO_0000173_OBI_0000299_GENO_0000515, destination=T004e::GENO_0000173, linkedAtt={T004e_uid::GENO_0000173_uid uid_domain=T004e_uid::GENO_0000173_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a6, origin=T01a6::GENO_0000173_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a7, origin=T01a7::GENO_0000174_OBI_0000299_GENO_0000515, destination=T005a::GENO_0000174, linkedAtt={T005a_uid::GENO_0000174_uid uid_domain=T005a_uid::GENO_0000174_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a7, origin=T01a7::GENO_0000174_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a8, origin=T01a8::GENO_0000174_OBI_0000299_GENO_0000515, destination=T005a::GENO_0000174, linkedAtt={T005a_uid::GENO_0000174_uid uid_domain=T005a_uid::GENO_0000174_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a8, origin=T01a8::GENO_0000174_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01a9, origin=T01a9::GENO_0000920_GENO_0000726_GENO_0000659, destination=T0067::GENO_0000920, linkedAtt={T0067_uid::GENO_0000920_uid uid_domain=T0067_uid::GENO_0000920_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01a9, origin=T01a9::GENO_0000920_GENO_0000726_GENO_0000659, destination=T00bd::GENO_0000659, linkedAtt={T00bd_uid::GENO_0000659_uid uid_domain=T00bd_uid::GENO_0000659_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01aa, origin=T01aa::GENO_0000920_BFO_0000051_GENO_0000919, destination=T0067::GENO_0000920, linkedAtt={T0067_uid::GENO_0000920_uid uid_domain=T0067_uid::GENO_0000920_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01aa, origin=T01aa::GENO_0000920_BFO_0000051_GENO_0000919, destination=T0170::GENO_0000919, linkedAtt={T0170_uid::GENO_0000919_uid uid_domain=T0170_uid::GENO_0000919_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ab, origin=T01ab::GENO_0000714_GENO_0000726_SO_0000110, destination=T006c::GENO_0000714, linkedAtt={T006c_uid::GENO_0000714_uid uid_domain=T006c_uid::GENO_0000714_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ab, origin=T01ab::GENO_0000714_GENO_0000726_SO_0000110, destination=T0139::SO_0000110, linkedAtt={T0139_uid::SO_0000110_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ac, origin=T01ac::GENO_0000714_GENO_0000726_GENO_0000481, destination=T006c::GENO_0000714, linkedAtt={T006c_uid::GENO_0000714_uid uid_domain=T006c_uid::GENO_0000714_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ac, origin=T01ac::GENO_0000714_GENO_0000726_GENO_0000481, destination=T0017::GENO_0000481, linkedAtt={T0017_uid::GENO_0000481_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ad, origin=T01ad::GENO_0000714_RO_0002162_OBI_0100026, destination=T006c::GENO_0000714, linkedAtt={T006c_uid::GENO_0000714_uid uid_domain=T006c_uid::GENO_0000714_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ad, origin=T01ad::GENO_0000714_RO_0002162_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ae, origin=T01ae::GENO_0000714_GENO_0000580_Thing, destination=T006c::GENO_0000714, linkedAtt={T006c_uid::GENO_0000714_uid uid_domain=T006c_uid::GENO_0000714_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ae, origin=T01ae::GENO_0000714_GENO_0000580_Thing, destination=T0000::Thing, linkedAtt={T0000_uid::Thing_uid uid_domain=T0000_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01af, origin=T01af::GENO_0000171_OBI_0000299_GENO_0000515, destination=T006e::GENO_0000171, linkedAtt={T006e_uid::GENO_0000171_uid uid_domain=T006e_uid::GENO_0000171_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01af, origin=T01af::GENO_0000171_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b0, origin=T01b0::GENO_0000171_OBI_0000299_GENO_0000515, destination=T006e::GENO_0000171, linkedAtt={T006e_uid::GENO_0000171_uid uid_domain=T006e_uid::GENO_0000171_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b0, origin=T01b0::GENO_0000171_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b1, origin=T01b1::GENO_0000715_GENO_0000726_SO_0000110, destination=T0072::GENO_0000715, linkedAtt={T0072_uid::GENO_0000715_uid uid_domain=T0072_uid::GENO_0000715_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b1, origin=T01b1::GENO_0000715_GENO_0000726_SO_0000110, destination=T0139::SO_0000110, linkedAtt={T0139_uid::SO_0000110_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b2, origin=T01b2::GENO_0000715_GENO_0000726_GENO_0000660, destination=T0072::GENO_0000715, linkedAtt={T0072_uid::GENO_0000715_uid uid_domain=T0072_uid::GENO_0000715_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b2, origin=T01b2::GENO_0000715_GENO_0000726_GENO_0000660, destination=T012e::GENO_0000660, linkedAtt={T012e_uid::GENO_0000660_uid uid_domain=T012e_uid::GENO_0000660_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b3, origin=T01b3::GENO_0000715_RO_0002162_OBI_0100026, destination=T0072::GENO_0000715, linkedAtt={T0072_uid::GENO_0000715_uid uid_domain=T0072_uid::GENO_0000715_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b3, origin=T01b3::GENO_0000715_RO_0002162_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b4, origin=T01b4::GENO_0000715_RO_0002351_GENO_0000714, destination=T0072::GENO_0000715, linkedAtt={T0072_uid::GENO_0000715_uid uid_domain=T0072_uid::GENO_0000715_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b4, origin=T01b4::GENO_0000715_RO_0002351_GENO_0000714, destination=T006c::GENO_0000714, linkedAtt={T006c_uid::GENO_0000714_uid uid_domain=T006c_uid::GENO_0000714_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b5, origin=T01b5::GENO_0000172_OBI_0000299_GENO_0000515, destination=T007c::GENO_0000172, linkedAtt={T007c_uid::GENO_0000172_uid uid_domain=T007c_uid::GENO_0000172_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b5, origin=T01b5::GENO_0000172_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b6, origin=T01b6::GENO_0000172_OBI_0000299_GENO_0000515, destination=T007c::GENO_0000172, linkedAtt={T007c_uid::GENO_0000172_uid uid_domain=T007c_uid::GENO_0000172_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b6, origin=T01b6::GENO_0000172_OBI_0000299_GENO_0000515, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b7, origin=T01b7::ONTORELA_C018dX-el0_BFO_0000050_GENO_0000536, destination=T0083::ONTORELA_C018dX-el0, linkedAtt={T0083_uid::ONTORELA_C018dX-el0_uid uid_domain=T0083_uid::ONTORELA_C018dX-el0_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b7, origin=T01b7::ONTORELA_C018dX-el0_BFO_0000050_GENO_0000536, destination=T00d7::GENO_0000536, linkedAtt={T00d7_uid::GENO_0000536_uid uid_domain=T00d7_uid::GENO_0000536_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b8, origin=T01b8::GENO_0000833_association_has_subject_ONTORELA_C018dX, destination=T0085::GENO_0000833, linkedAtt={T0085_uid::GENO_0000833_uid uid_domain=T0085_uid::GENO_0000833_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b8, origin=T01b8::GENO_0000833_association_has_subject_ONTORELA_C018dX, destination=T0084::ONTORELA_C018dX, linkedAtt={T0084_uid::ONTORELA_C018dX_uid uid_domain=T0084_uid::ONTORELA_C018dX_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01b9, origin=T01b9::GENO_0000833_association_has_object_UPHENO_0001001, destination=T0085::GENO_0000833, linkedAtt={T0085_uid::GENO_0000833_uid uid_domain=T0085_uid::GENO_0000833_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01b9, origin=T01b9::GENO_0000833_association_has_object_UPHENO_0001001, destination=T00f3::UPHENO_0001001, linkedAtt={T00f3_uid::UPHENO_0001001_uid uid_domain=T00f3_uid::UPHENO_0001001_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ba, origin=T01ba::GENO_0000833_GENO_0000580_ONTORELA_C0190X, destination=T0085::GENO_0000833, linkedAtt={T0085_uid::GENO_0000833_uid uid_domain=T0085_uid::GENO_0000833_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ba, origin=T01ba::GENO_0000833_GENO_0000580_ONTORELA_C0190X, destination=T00e2::ONTORELA_C0190X, linkedAtt={T00e2_uid::ONTORELA_C0190X_uid uid_domain=T00e2_uid::ONTORELA_C0190X_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01bb, origin=T01bb::GENO_0000833_GENO_0000580_ENVO_01000254, destination=T0085::GENO_0000833, linkedAtt={T0085_uid::GENO_0000833_uid uid_domain=T0085_uid::GENO_0000833_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01bb, origin=T01bb::GENO_0000833_GENO_0000580_ENVO_01000254, destination=T00b5::ENVO_01000254, linkedAtt={T00b5_uid::ENVO_01000254_uid uid_domain=T00b5_uid::ENVO_01000254_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01bc, origin=T01bc::GENO_0000616_BFO_0000050_SO_0000341, destination=T008d::GENO_0000616, linkedAtt={T008d_uid::GENO_0000616_uid uid_domain=T008d_uid::GENO_0000616_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01bc, origin=T01bc::GENO_0000616_BFO_0000050_SO_0000341, destination=T0148::SO_0000341, linkedAtt={T0148_uid::SO_0000341_uid uid_domain=T0148_uid::SO_0000341_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01bd, origin=T01bd::GENO_0000616_GENO_0000207_GENO_0000618, destination=T008d::GENO_0000616, linkedAtt={T008d_uid::GENO_0000616_uid uid_domain=T008d_uid::GENO_0000616_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01bd, origin=T01bd::GENO_0000616_GENO_0000207_GENO_0000618, destination=T0076::GENO_0000618, linkedAtt={T0076_uid::GENO_0000618_uid uid_domain=T0076_uid::GENO_0000618_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01be, origin=T01be::ONTORELA_C0193X_RO_0002091_UBERON_0000105, destination=T0090::ONTORELA_C0193X, linkedAtt={T0090_uid::ONTORELA_C0193X_uid uid_domain=T0090_uid::ONTORELA_C0193X_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01be, origin=T01be::ONTORELA_C0193X_RO_0002091_UBERON_0000105, destination=T012d::UBERON_0000105, linkedAtt={T012d_uid::UBERON_0000105_uid uid_domain=T012d_uid::UBERON_0000105_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01bf, origin=T01bf::ONTORELA_C0193X_RO_0002093_UBERON_0000105, destination=T0090::ONTORELA_C0193X, linkedAtt={T0090_uid::ONTORELA_C0193X_uid uid_domain=T0090_uid::ONTORELA_C0193X_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01bf, origin=T01bf::ONTORELA_C0193X_RO_0002093_UBERON_0000105, destination=T012d::UBERON_0000105, linkedAtt={T012d_uid::UBERON_0000105_uid uid_domain=T012d_uid::UBERON_0000105_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c0, origin=T01c0::SO_0001505_RO_0000087_GENO_0000152, destination=T009d::SO_0001505, linkedAtt={T009d_uid::SO_0001505_uid uid_domain=T009d_uid::SO_0001505_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c0, origin=T01c0::SO_0001505_RO_0000087_GENO_0000152, destination=T003c::GENO_0000152, linkedAtt={T003c_uid::GENO_0000152_uid uid_domain=T003c_uid::GENO_0000152_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c1, origin=T01c1::GENO_0000528_GENO_0000382_GENO_0000506, destination=T009e::GENO_0000528, linkedAtt={T009e_uid::GENO_0000528_uid uid_domain=T009e_uid::GENO_0000528_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c1, origin=T01c1::GENO_0000528_GENO_0000382_GENO_0000506, destination=T007f::GENO_0000506, linkedAtt={T007f_uid::GENO_0000506_uid uid_domain=T007f_uid::GENO_0000506_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c2, origin=T01c2::GENO_0000722_GENO_0000783_GENO_0000782, destination=T00a3::GENO_0000722, linkedAtt={T00a3_uid::GENO_0000722_uid uid_domain=T00a3_uid::GENO_0000722_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c2, origin=T01c2::GENO_0000722_GENO_0000783_GENO_0000782, destination=T0137::GENO_0000782, linkedAtt={T0137_uid::GENO_0000782_uid uid_domain=T0137_uid::GENO_0000782_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c3, origin=T01c3::GENO_0000516_GENO_0000608_GENO_0000133, destination=T00a4::GENO_0000516, linkedAtt={T00a4_uid::GENO_0000516_uid uid_domain=T00a4_uid::GENO_0000516_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c3, origin=T01c3::GENO_0000516_GENO_0000608_GENO_0000133, destination=T0169::GENO_0000133, linkedAtt={T0169_uid::GENO_0000133_uid uid_domain=T0169_uid::GENO_0000133_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c4, origin=T01c4::GENO_0000516_RO_0002162_OBI_0100026, destination=T00a4::GENO_0000516, linkedAtt={T00a4_uid::GENO_0000516_uid uid_domain=T00a4_uid::GENO_0000516_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c4, origin=T01c4::GENO_0000516_RO_0002162_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c5, origin=T01c5::GENO_0000637_RO_0002525_SO_0000902, destination=T00a5::GENO_0000637, linkedAtt={T00a5_uid::GENO_0000637_uid uid_domain=T00a5_uid::GENO_0000637_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c5, origin=T01c5::GENO_0000637_RO_0002525_SO_0000902, destination=T018e::SO_0000902, linkedAtt={T018e_uid::SO_0000902_uid uid_domain=T018e_uid::SO_0000902_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c6, origin=T01c6::GENO_0000504_GENO_0000447_GENO_0000533, destination=T00a7::GENO_0000504, linkedAtt={T00a7_uid::GENO_0000504_uid uid_domain=T00a7_uid::GENO_0000504_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c6, origin=T01c6::GENO_0000504_GENO_0000447_GENO_0000533, destination=T0116::GENO_0000533, linkedAtt={T0116_uid::GENO_0000533_uid uid_domain=T0116_uid::GENO_0000533_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c7, origin=T01c7::GENO_0000504_GENO_0000231_GENO_0000534, destination=T00a7::GENO_0000504, linkedAtt={T00a7_uid::GENO_0000504_uid uid_domain=T00a7_uid::GENO_0000504_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c7, origin=T01c7::GENO_0000504_GENO_0000231_GENO_0000534, destination=T00f6::GENO_0000534, linkedAtt={T00f6_uid::GENO_0000534_uid uid_domain=T00f6_uid::GENO_0000534_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c8, origin=T01c8::ONTORELA_C018bX_GENO_0000211_GENO_0000002, destination=T00aa::ONTORELA_C018bX, linkedAtt={T00aa_uid::ONTORELA_C018bX_uid uid_domain=T00aa_uid::ONTORELA_C018bX_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c8, origin=T01c8::ONTORELA_C018bX_GENO_0000211_GENO_0000002, destination=T0156::GENO_0000002, linkedAtt={T0156_uid::GENO_0000002_uid uid_domain=T0156_uid::GENO_0000002_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01c9, origin=T01c9::GENO_0000529_GENO_0000443_SO_0000704, destination=T00ac::GENO_0000529, linkedAtt={T00ac_uid::GENO_0000529_uid uid_domain=T00ac_uid::GENO_0000529_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01c9, origin=T01c9::GENO_0000529_GENO_0000443_SO_0000704, destination=T0119::SO_0000704, linkedAtt={T0119_uid::SO_0000704_uid uid_domain=T0119_uid::SO_0000704_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ca, origin=T01ca::GENO_0000638_RO_0002525_SO_0000902, destination=T00ad::GENO_0000638, linkedAtt={T00ad_uid::GENO_0000638_uid uid_domain=T00ad_uid::GENO_0000638_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ca, origin=T01ca::GENO_0000638_RO_0002525_SO_0000902, destination=T018e::SO_0000902, linkedAtt={T018e_uid::SO_0000902_uid uid_domain=T018e_uid::SO_0000902_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01cb, origin=T01cb::PCO_0000000_RO_0002351_OBI_0100026, destination=T00ae::PCO_0000000, linkedAtt={T00ae_uid::PCO_0000000_uid uid_domain=T00ae_uid::PCO_0000000_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01cb, origin=T01cb::PCO_0000000_RO_0002351_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01cc, origin=T01cc::GENO_0000614_BFO_0000050_SO_0000105, destination=T00b4::GENO_0000614, linkedAtt={T00b4_uid::GENO_0000614_uid uid_domain=T00b4_uid::GENO_0000614_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01cc, origin=T01cc::GENO_0000614_BFO_0000050_SO_0000105, destination=T0027::SO_0000105, linkedAtt={T0027_uid::SO_0000105_uid uid_domain=T0027_uid::SO_0000105_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01cd, origin=T01cd::GENO_0000611_IAO_0000219_GENO_0000010, destination=T00b7::GENO_0000611, linkedAtt={T00b7_uid::GENO_0000611_uid uid_domain=T00b7_uid::GENO_0000611_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01cd, origin=T01cd::GENO_0000611_IAO_0000219_GENO_0000010, destination=T0182::GENO_0000010, linkedAtt={T0182_uid::GENO_0000010_uid uid_domain=T0182_uid::GENO_0000010_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ce, origin=T01ce::GENO_0000720_GENO_0000783_GENO_0000780, destination=T00b8::GENO_0000720, linkedAtt={T00b8_uid::GENO_0000720_uid uid_domain=T00b8_uid::GENO_0000720_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ce, origin=T01ce::GENO_0000720_GENO_0000783_GENO_0000780, destination=T014d::GENO_0000780, linkedAtt={T014d_uid::GENO_0000780_uid uid_domain=T014d_uid::GENO_0000780_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01cf, origin=T01cf::GENO_0000659_RO_0002351_SO_0000110, destination=T00bd::GENO_0000659, linkedAtt={T00bd_uid::GENO_0000659_uid uid_domain=T00bd_uid::GENO_0000659_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01cf, origin=T01cf::GENO_0000659_RO_0002351_SO_0000110, destination=T0139::SO_0000110, linkedAtt={T0139_uid::SO_0000110_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d0, origin=T01d0::GENO_0000092_RO_0002353_GENO_0000172, destination=T00c4::GENO_0000092, linkedAtt={T00c4_uid::GENO_0000092_uid uid_domain=T00c4_uid::GENO_0000092_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d0, origin=T01d0::GENO_0000092_RO_0002353_GENO_0000172, destination=T007c::GENO_0000172, linkedAtt={T007c_uid::GENO_0000172_uid uid_domain=T007c_uid::GENO_0000172_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d1, origin=T01d1::GENO_0000721_GENO_0000783_GENO_0000781, destination=T00c8::GENO_0000721, linkedAtt={T00c8_uid::GENO_0000721_uid uid_domain=T00c8_uid::GENO_0000721_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d1, origin=T01d1::GENO_0000721_GENO_0000783_GENO_0000781, destination=T0130::GENO_0000781, linkedAtt={T0130_uid::GENO_0000781_uid uid_domain=T0130_uid::GENO_0000781_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d2, origin=T01d2::GENO_0000527_RO_0002351_GENO_0000504, destination=T00cc::GENO_0000527, linkedAtt={T00cc_uid::GENO_0000527_uid uid_domain=T00cc_uid::GENO_0000527_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d2, origin=T01d2::GENO_0000527_RO_0002351_GENO_0000504, destination=T00a7::GENO_0000504, linkedAtt={T00a7_uid::GENO_0000504_uid uid_domain=T00a7_uid::GENO_0000504_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d3, origin=T01d3::GENO_0000515_GENO_0000641_SO_0000704, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d3, origin=T01d3::GENO_0000515_GENO_0000641_SO_0000704, destination=T0119::SO_0000704, linkedAtt={T0119_uid::SO_0000704_uid uid_domain=T0119_uid::SO_0000704_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d4, origin=T01d4::GENO_0000515_GENO_0000382_SO_0001059, destination=T00ce::GENO_0000515, linkedAtt={T00ce_uid::GENO_0000515_uid uid_domain=T00ce_uid::GENO_0000515_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d4, origin=T01d4::GENO_0000515_GENO_0000382_SO_0001059, destination=T0189::SO_0001059, linkedAtt={T0189_uid::SO_0001059_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d5, origin=T01d5::GENO_0000093_BFO_0000050_SO_0001218, destination=T00d1::GENO_0000093, linkedAtt={T00d1_uid::GENO_0000093_uid uid_domain=T00d1_uid::GENO_0000093_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d5, origin=T01d5::GENO_0000093_BFO_0000050_SO_0001218, destination=T001f::SO_0001218, linkedAtt={T001f_uid::SO_0001218_uid uid_domain=T001f_uid::SO_0001218_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d6, origin=T01d6::GENO_0000536_IAO_0000219_ONTORELA_C0197X, destination=T00d7::GENO_0000536, linkedAtt={T00d7_uid::GENO_0000536_uid uid_domain=T00d7_uid::GENO_0000536_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d6, origin=T01d6::GENO_0000536_IAO_0000219_ONTORELA_C0197X, destination=T00c3::ONTORELA_C0197X, linkedAtt={T00c3_uid::ONTORELA_C0197X_uid uid_domain=T00c3_uid::ONTORELA_C0197X_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d7, origin=T01d7::GENO_0000887_RO_0002351_NCBITaxon_8090, destination=T00d8::GENO_0000887, linkedAtt={T00d8_uid::GENO_0000887_uid uid_domain=T00d8_uid::GENO_0000887_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d7, origin=T01d7::GENO_0000887_RO_0002351_NCBITaxon_8090, destination=T0138::NCBITaxon_8090, linkedAtt={T0138_uid::NCBITaxon_8090_uid uid_domain=T0138_uid::NCBITaxon_8090_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d8, origin=T01d8::GENO_0000899_GENO_0000385_GENO_0000611, destination=T00da::GENO_0000899, linkedAtt={T00da_uid::GENO_0000899_uid uid_domain=T00da_uid::GENO_0000899_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d8, origin=T01d8::GENO_0000899_GENO_0000385_GENO_0000611, destination=T00b7::GENO_0000611, linkedAtt={T00b7_uid::GENO_0000611_uid uid_domain=T00b7_uid::GENO_0000611_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01d9, origin=T01d9::GENO_0000645_GENO_0000650_GENO_0000000, destination=T00dc::GENO_0000645, linkedAtt={T00dc_uid::GENO_0000645_uid uid_domain=T00dc_uid::GENO_0000645_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01d9, origin=T01d9::GENO_0000645_GENO_0000650_GENO_0000000, destination=T0166::GENO_0000000, linkedAtt={T0166_uid::GENO_0000000_uid uid_domain=T0166_uid::GENO_0000000_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01da, origin=T01da::GENO_0000501_GENO_0000683_GENO_0000481, destination=T00e3::GENO_0000501, linkedAtt={T00e3_uid::GENO_0000501_uid uid_domain=T00e3_uid::GENO_0000501_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01da, origin=T01da::GENO_0000501_GENO_0000683_GENO_0000481, destination=T0017::GENO_0000481, linkedAtt={T0017_uid::GENO_0000481_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01db, origin=T01db::GENO_0000525_BFO_0000051_GENO_0000719, destination=T00e5::GENO_0000525, linkedAtt={T00e5_uid::GENO_0000525_uid uid_domain=T00e5_uid::GENO_0000525_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01db, origin=T01db::GENO_0000525_BFO_0000051_GENO_0000719, destination=T0030::GENO_0000719, linkedAtt={T0030_uid::GENO_0000719_uid uid_domain=T0030_uid::GENO_0000719_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01dc, origin=T01dc::GENO_0000525_BFO_0000051_GENO_0000524, destination=T00e5::GENO_0000525, linkedAtt={T00e5_uid::GENO_0000525_uid uid_domain=T00e5_uid::GENO_0000525_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01dc, origin=T01dc::GENO_0000525_BFO_0000051_GENO_0000524, destination=T00db::GENO_0000524, linkedAtt={T00db_uid::GENO_0000524_uid uid_domain=T00db_uid::GENO_0000524_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01dd, origin=T01dd::GENO_0000897_RO_0002162_OBI_0100026, destination=T00f8::GENO_0000897, linkedAtt={T00f8_uid::GENO_0000897_uid uid_domain=T00f8_uid::GENO_0000897_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01dd, origin=T01dd::GENO_0000897_RO_0002162_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01de, origin=T01de::GENO_0000667_BFO_0000051_GENO_0000640, destination=T00fa::GENO_0000667, linkedAtt={T00fa_uid::GENO_0000667_uid uid_domain=T00fa_uid::GENO_0000667_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01de, origin=T01de::GENO_0000667_BFO_0000051_GENO_0000640, destination=T010f::GENO_0000640, linkedAtt={T010f_uid::GENO_0000640_uid uid_domain=T010f_uid::GENO_0000640_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01df, origin=T01df::GENO_0000667_GENO_0000207_SO_0000783, destination=T00fa::GENO_0000667, linkedAtt={T00fa_uid::GENO_0000667_uid uid_domain=T00fa_uid::GENO_0000667_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01df, origin=T01df::GENO_0000667_GENO_0000207_SO_0000783, destination=T0033::SO_0000783, linkedAtt={T0033_uid::SO_0000783_uid uid_domain=T0033_uid::SO_0000783_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e0, origin=T01e0::GENO_0000644_IAO_0000219_SO_0001026, destination=T0101::GENO_0000644, linkedAtt={T0101_uid::GENO_0000644_uid uid_domain=T0101_uid::GENO_0000644_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e0, origin=T01e0::GENO_0000644_IAO_0000219_SO_0001026, destination=T017b::SO_0001026, linkedAtt={T017b_uid::SO_0001026_uid uid_domain=T017b_uid::SO_0001026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e1, origin=T01e1::SO_0000281_GENO_0000207_SO_0000783, destination=T010b::SO_0000281, linkedAtt={T010b_uid::SO_0000281_uid uid_domain=T010b_uid::SO_0000281_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e1, origin=T01e1::SO_0000281_GENO_0000207_SO_0000783, destination=T0033::SO_0000783, linkedAtt={T0033_uid::SO_0000783_uid uid_domain=T0033_uid::SO_0000783_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e2, origin=T01e2::GENO_0000338_GENO_0000207_GENO_0000685, destination=T010e::GENO_0000338, linkedAtt={T010e_uid::GENO_0000338_uid uid_domain=T010e_uid::GENO_0000338_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e2, origin=T01e2::GENO_0000338_GENO_0000207_GENO_0000685, destination=T012c::GENO_0000685, linkedAtt={T012c_uid::GENO_0000685_uid uid_domain=T012c_uid::GENO_0000685_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e3, origin=T01e3::GENO_0000642_GENO_0000207_SO_0000783, destination=T0113::GENO_0000642, linkedAtt={T0113_uid::GENO_0000642_uid uid_domain=T0113_uid::GENO_0000642_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e3, origin=T01e3::GENO_0000642_GENO_0000207_SO_0000783, destination=T0033::SO_0000783, linkedAtt={T0033_uid::SO_0000783_uid uid_domain=T0033_uid::SO_0000783_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e4, origin=T01e4::GENO_0000106_GENO_0000248_ONTORELA_C0189X, destination=T011f::GENO_0000106, linkedAtt={T011f_uid::GENO_0000106_uid uid_domain=T011f_uid::GENO_0000106_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e4, origin=T01e4::GENO_0000106_GENO_0000248_ONTORELA_C0189X, destination=T007e::ONTORELA_C0189X, linkedAtt={T007e_uid::ONTORELA_C0189X_uid uid_domain=T007e_uid::ONTORELA_C0189X_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e5, origin=T01e5::GENO_0000106_BFO_0000050_GENO_0000108, destination=T011f::GENO_0000106, linkedAtt={T011f_uid::GENO_0000106_uid uid_domain=T011f_uid::GENO_0000106_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e5, origin=T01e5::GENO_0000106_BFO_0000050_GENO_0000108, destination=T010d::GENO_0000108, linkedAtt={T010d_uid::GENO_0000108_uid uid_domain=T010d_uid::GENO_0000108_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e6, origin=T01e6::GENO_0000106_RO_0000091_GENO_0000139, destination=T011f::GENO_0000106, linkedAtt={T011f_uid::GENO_0000106_uid uid_domain=T011f_uid::GENO_0000106_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e6, origin=T01e6::GENO_0000106_RO_0000091_GENO_0000139, destination=T014b::GENO_0000139, linkedAtt={T014b_uid::GENO_0000139_uid uid_domain=T014b_uid::GENO_0000139_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e7, origin=T01e7::GENO_0000119_RO_0002351_NCBITaxon_7955, destination=T0124::GENO_0000119, linkedAtt={T0124_uid::GENO_0000119_uid uid_domain=T0124_uid::GENO_0000119_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e7, origin=T01e7::GENO_0000119_RO_0002351_NCBITaxon_7955, destination=T0043::NCBITaxon_7955, linkedAtt={T0043_uid::NCBITaxon_7955_uid uid_domain=T0043_uid::NCBITaxon_7955_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e8, origin=T01e8::GENO_0000346_GENO_0000207_GENO_0000513, destination=T012a::GENO_0000346, linkedAtt={T012a_uid::GENO_0000346_uid uid_domain=T012a_uid::GENO_0000346_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e8, origin=T01e8::GENO_0000346_GENO_0000207_GENO_0000513, destination=T00e9::GENO_0000513, linkedAtt={T00e9_uid::GENO_0000513_uid uid_domain=T00e9_uid::GENO_0000513_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01e9, origin=T01e9::GENO_0000660_RO_0002351_GENO_0000481, destination=T012e::GENO_0000660, linkedAtt={T012e_uid::GENO_0000660_uid uid_domain=T012e_uid::GENO_0000660_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01e9, origin=T01e9::GENO_0000660_RO_0002351_GENO_0000481, destination=T0017::GENO_0000481, linkedAtt={T0017_uid::GENO_0000481_uid uid_domain=T0017_uid::GENO_0000481_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ea, origin=T01ea::GENO_0000891_IAO_0000219_GENO_0000890, destination=T0136::GENO_0000891, linkedAtt={T0136_uid::GENO_0000891_uid uid_domain=T0136_uid::GENO_0000891_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ea, origin=T01ea::GENO_0000891_IAO_0000219_GENO_0000890, destination=T012f::GENO_0000890, linkedAtt={T012f_uid::GENO_0000890_uid uid_domain=T012f_uid::GENO_0000890_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01eb, origin=T01eb::SO_0000110_GENO_0000239_GENO_0000702, destination=T0139::SO_0000110, linkedAtt={T0139_uid::SO_0000110_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01eb, origin=T01eb::SO_0000110_GENO_0000239_GENO_0000702, destination=T0069::GENO_0000702, linkedAtt={T0069_uid::GENO_0000702_uid uid_domain=T0069_uid::GENO_0000702_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ec, origin=T01ec::SO_0000110_GENO_0000903_GENO_0000815, destination=T0139::SO_0000110, linkedAtt={T0139_uid::SO_0000110_uid uid_domain=T0139_uid::SO_0000110_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ec, origin=T01ec::SO_0000110_GENO_0000903_GENO_0000815, destination=T001d::GENO_0000815, linkedAtt={T001d_uid::GENO_0000815_uid uid_domain=T001d_uid::GENO_0000815_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ed, origin=T01ed::GENO_0000343_GENO_0000248_SO_0000340, destination=T0140::GENO_0000343, linkedAtt={T0140_uid::GENO_0000343_uid uid_domain=T0140_uid::GENO_0000343_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ed, origin=T01ed::GENO_0000343_GENO_0000248_SO_0000340, destination=T013a::SO_0000340, linkedAtt={T013a_uid::SO_0000340_uid uid_domain=T013a_uid::SO_0000340_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ee, origin=T01ee::GENO_0000343_GENO_0000207_GENO_0000513, destination=T0140::GENO_0000343, linkedAtt={T0140_uid::GENO_0000343_uid uid_domain=T0140_uid::GENO_0000343_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ee, origin=T01ee::GENO_0000343_GENO_0000207_GENO_0000513, destination=T00e9::GENO_0000513, linkedAtt={T00e9_uid::GENO_0000513_uid uid_domain=T00e9_uid::GENO_0000513_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01ef, origin=T01ef::UBERON_0001062_RO_0001000_OBI_0100026, destination=T0145::UBERON_0001062, linkedAtt={T0145_uid::UBERON_0001062_uid uid_domain=T0145_uid::UBERON_0001062_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01ef, origin=T01ef::UBERON_0001062_RO_0001000_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f0, origin=T01f0::SO_0000341_BFO_0000050_GENO_0000614, destination=T0148::SO_0000341, linkedAtt={T0148_uid::SO_0000341_uid uid_domain=T0148_uid::SO_0000341_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f0, origin=T01f0::SO_0000341_BFO_0000050_GENO_0000614, destination=T00b4::GENO_0000614, linkedAtt={T00b4_uid::GENO_0000614_uid uid_domain=T00b4_uid::GENO_0000614_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f1, origin=T01f1::SO_0000341_GENO_0000207_GENO_0000618, destination=T0148::SO_0000341, linkedAtt={T0148_uid::SO_0000341_uid uid_domain=T0148_uid::SO_0000341_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f1, origin=T01f1::SO_0000341_GENO_0000207_GENO_0000618, destination=T0076::GENO_0000618, linkedAtt={T0076_uid::GENO_0000618_uid uid_domain=T0076_uid::GENO_0000618_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f2, origin=T01f2::CLO_0000031_RO_0001000_OBI_0100026, destination=T014c::CLO_0000031, linkedAtt={T014c_uid::CLO_0000031_uid uid_domain=T014c_uid::CLO_0000031_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f2, origin=T01f2::CLO_0000031_RO_0001000_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f3, origin=T01f3::ONTORELA_C0199X-el0_RO_0002524_SO_0001059, destination=T0152::ONTORELA_C0199X-el0, linkedAtt={T0152_uid::ONTORELA_C0199X-el0_uid uid_domain=T0152_uid::ONTORELA_C0199X-el0_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f3, origin=T01f3::ONTORELA_C0199X-el0_RO_0002524_SO_0001059, destination=T0189::SO_0001059, linkedAtt={T0189_uid::SO_0001059_uid uid_domain=T0189_uid::SO_0001059_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f4, origin=T01f4::GENO_0000112_RO_0002162_OBI_0100026, destination=T015e::GENO_0000112, linkedAtt={T015e_uid::GENO_0000112_uid uid_domain=T015e_uid::GENO_0000112_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f4, origin=T01f4::GENO_0000112_RO_0002162_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f5, origin=T01f5::GENO_0000681_GENO_0000207_GENO_0000139, destination=T015f::GENO_0000681, linkedAtt={T015f_uid::GENO_0000681_uid uid_domain=T015f_uid::GENO_0000681_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f5, origin=T01f5::GENO_0000681_GENO_0000207_GENO_0000139, destination=T014b::GENO_0000139, linkedAtt={T014b_uid::GENO_0000139_uid uid_domain=T014b_uid::GENO_0000139_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f6, origin=T01f6::GENO_0000681_GENO_0000207_GENO_0000685, destination=T015f::GENO_0000681, linkedAtt={T015f_uid::GENO_0000681_uid uid_domain=T015f_uid::GENO_0000681_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f6, origin=T01f6::GENO_0000681_GENO_0000207_GENO_0000685, destination=T012c::GENO_0000685, linkedAtt={T012c_uid::GENO_0000685_uid uid_domain=T012c_uid::GENO_0000685_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f7, origin=T01f7::GENO_0000133_RO_0000052_GENO_0000516, destination=T0169::GENO_0000133, linkedAtt={T0169_uid::GENO_0000133_uid uid_domain=T0169_uid::GENO_0000133_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f7, origin=T01f7::GENO_0000133_RO_0000052_GENO_0000516, destination=T00a4::GENO_0000516, linkedAtt={T00a4_uid::GENO_0000516_uid uid_domain=T00a4_uid::GENO_0000516_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f8, origin=T01f8::GENO_0000014_GENO_0000408_SO_0000704, destination=T0176::GENO_0000014, linkedAtt={T0176_uid::GENO_0000014_uid uid_domain=T0176_uid::GENO_0000014_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f8, origin=T01f8::GENO_0000014_GENO_0000408_SO_0000704, destination=T0119::SO_0000704, linkedAtt={T0119_uid::SO_0000704_uid uid_domain=T0119_uid::SO_0000704_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01f9, origin=T01f9::ONTORELA_C0190X-el0_GENO_0000580_ONTORELA_C0193X, destination=T0177::ONTORELA_C0190X-el0, linkedAtt={T0177_uid::ONTORELA_C0190X-el0_uid uid_domain=T0177_uid::ONTORELA_C0190X-el0_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01f9, origin=T01f9::ONTORELA_C0190X-el0_GENO_0000580_ONTORELA_C0193X, destination=T0090::ONTORELA_C0193X, linkedAtt={T0090_uid::ONTORELA_C0193X_uid uid_domain=T0090_uid::ONTORELA_C0193X_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T01fa, origin=T01fa::SO_0001026_RO_0002162_OBI_0100026, destination=T017b::SO_0001026, linkedAtt={T017b_uid::SO_0001026_uid uid_domain=T017b_uid::SO_0001026_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T01fa, origin=T01fa::SO_0001026_RO_0002162_OBI_0100026, destination=T0141::OBI_0100026, linkedAtt={T0141_uid::OBI_0100026_uid uid_domain=T0141_uid::OBI_0100026_uid uid_domain}]

@@ -1,0 +1,10 @@
+# Default database configurations
+schemaName: MONDIAL
+rdbmsName: postgresql
+defaultKeyName: uid
+defaultKeyDomainName: uid_domain
+defaultKeyType: UUID
+defaultAttributeName : value
+defaultAttributeDomaineName: value_domain
+defaultAttributeType: TEXT
+normalizeDatatype: false

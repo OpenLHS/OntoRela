@@ -1,0 +1,286 @@
+ONTOLOGY :"univ-bench.owl"  
+
+PROPERTY :"advisor"   
+  LABEL @en 'is being advised by' 
+
+PROPERTY :"affiliateOf"   
+  LABEL @en 'is affiliated with' 
+
+PROPERTY :"affiliatedOrganizationOf"   
+  LABEL @en 'is affiliated with' 
+
+PROPERTY :"degreeFrom"   
+  LABEL @en 'has a degree from' 
+
+PROPERTY :"doctoralDegreeFrom"   
+  LABEL @en 'has a doctoral degree from' 
+  ISA :"degreeFrom"  
+
+PROPERTY :"hasAlumnus"   
+  LABEL @en 'has as an alumnus' 
+
+PROPERTY :"headOf"   
+  LABEL @en 'is the head of' 
+  ISA :"worksFor"  
+
+PROPERTY :"listedCourse"   
+  LABEL @en 'lists as a course' 
+
+PROPERTY :"mastersDegreeFrom"   
+  LABEL @en 'has a masters degree from' 
+  ISA :"degreeFrom"  
+
+PROPERTY :"member"   
+  LABEL @en 'has as a member' 
+
+PROPERTY :"memberOf"   
+  LABEL @en 'member of' 
+
+PROPERTY :"orgPublication"   
+  LABEL @en 'publishes' 
+
+PROPERTY :"publicationAuthor"   
+  LABEL @en 'was written by' 
+
+PROPERTY :"publicationDate"   
+  LABEL @en 'was written on' 
+
+PROPERTY :"publicationResearch"   
+  LABEL @en 'is about' 
+
+PROPERTY :"researchProject"   
+  LABEL @en 'has as a research project' 
+
+PROPERTY :"softwareDocumentation"   
+  LABEL @en 'is documented in' 
+
+PROPERTY :"softwareVersion"   
+  LABEL @en 'is version' 
+
+PROPERTY :"subOrganizationOf"   
+  LABEL @en 'is part of' 
+
+PROPERTY :"takesCourse"   
+  LABEL @en 'is taking' 
+
+PROPERTY :"teacherOf"   
+  LABEL @en 'teaches' 
+
+PROPERTY :"teachingAssistantOf"   
+  LABEL @en 'is a teaching assistant for' 
+
+PROPERTY :"tenured"   
+  LABEL @en 'is tenured:' 
+
+PROPERTY :"undergraduateDegreeFrom"   
+  LABEL @en 'has an undergraduate degree from' 
+  ISA :"degreeFrom"  
+
+PROPERTY :"worksFor"   
+  LABEL @en 'Works For' 
+  ISA :"memberOf"  
+
+PROPERTY :"age"   
+  LABEL @en 'is age' 
+
+PROPERTY :"emailAddress"   
+  LABEL @en 'can be reached at' 
+
+PROPERTY :"name"   
+  LABEL @en 'name' 
+
+PROPERTY :"officeNumber"   
+  LABEL @en 'office room No.' 
+
+PROPERTY :"researchInterest"   
+  LABEL @en 'is researching' 
+
+PROPERTY :"telephone"   
+  LABEL @en 'telephone number' 
+
+PROPERTY :"title"   
+  LABEL @en 'title' 
+
+CLASS :"ResearchAssistant"   
+  LABEL @en 'university research assistant'  
+  ISA :"Person"  
+  :"worksFor"  [1..*] :"ResearchGroup" 
+
+CLASS :"AdministrativeStaff"   
+  LABEL @en 'administrative staff worker'  
+  ISA :"Employee"  
+
+CLASS :"Book"   
+  LABEL @en 'book'  
+  ISA :"Publication"  
+
+CLASS :"Director"   
+  LABEL @en 'director'  
+
+CLASS :"SystemsStaff"   
+  LABEL @en 'systems staff worker'  
+  ISA :"AdministrativeStaff"  
+
+CLASS :"College"   
+  LABEL @en 'school'  
+  ISA :"Organization"  
+
+CLASS :"TeachingAssistant"   
+  LABEL @en 'university teaching assistant'  
+  :"teachingAssistantOf"  [1..*] :"Course" 
+
+CLASS :"Student"   
+  LABEL @en 'student'  
+
+CLASS :"Publication"   
+  LABEL @en 'publication'  
+  :"publicationAuthor"  [1..*] :"Person" 
+  :"publicationResearch"  [1..*] :"Research" 
+
+CLASS :"GraduateCourse"   
+  LABEL @en 'Graduate Level Courses'  
+  ISA :"Course"  
+
+CLASS :"Faculty"   
+  LABEL @en 'faculty member'  
+  ISA :"Employee"  
+  :"teacherOf"  [1..*] :"Course" 
+
+CLASS :"Dean"   
+  LABEL @en 'dean'  
+  ISA :"Professor"  
+
+CLASS :"FullProfessor"   
+  LABEL @en 'full professor'  
+  ISA :"Professor"  
+
+CLASS :"Lecturer"   
+  LABEL @en 'lecturer'  
+  ISA :"Faculty"  
+
+CLASS :"Program"   
+  LABEL @en 'program'  
+  ISA :"Organization"  
+
+CLASS :"Manual"   
+  LABEL @en 'manual'  
+  ISA :"Publication"  
+
+CLASS :"TechnicalReport"   
+  LABEL @en 'technical report'  
+  ISA :"Article"  
+
+CLASS :"JournalArticle"   
+  LABEL @en 'journal article'  
+  ISA :"Article"  
+
+CLASS :"Department"   
+  LABEL @en 'university department'  
+  ISA :"Organization"  
+
+CLASS :"GraduateStudent"   
+  LABEL @en 'graduate student'  
+  ISA :"Person"  
+  :"takesCourse"  [1..*] :"GraduateCourse" 
+
+CLASS :"Course"   
+  LABEL @en 'teaching course'  
+  ISA :"Work"  
+
+CLASS :"Institute"   
+  LABEL @en 'institute'  
+  ISA :"Organization"  
+
+CLASS :"Professor"   
+  LABEL @en 'professor'  
+  ISA :"Faculty"  
+
+CLASS :"UndergraduateStudent"   
+  LABEL @en 'undergraduate student'  
+  ISA :"Student"  
+
+CLASS :"ResearchGroup"   
+  LABEL @en 'research group'  
+  ISA :"Organization"  
+  :"researchProject"  [1..*] :"Research" 
+
+CLASS :"AssistantProfessor"   
+  LABEL @en 'assistant professor'  
+  ISA :"Professor"  
+
+CLASS :"Work"   
+  LABEL @en 'Work'  
+
+CLASS :"Software"   
+  LABEL @en 'software program'  
+  ISA :"Publication"  
+  :"softwareDocumentation"  [1..*] :"Publication" 
+
+CLASS :"Chair"   
+  LABEL @en 'chair'  
+  ISA :"Professor"  
+
+CLASS :"ClericalStaff"   
+  LABEL @en 'clerical staff worker'  
+  ISA :"AdministrativeStaff"  
+
+CLASS :"Organization"   
+  LABEL @en 'organization'  
+  :"affiliateOf"  [1..*] :"Person" 
+  :"affiliatedOrganizationOf"  [1..*] :"Organization" 
+  :"member"  [1..*] :"Person" 
+  :"orgPublication"  [1..*] :"Publication" 
+  :"subOrganizationOf"  [1..*] :"Organization" 
+
+CLASS :"VisitingProfessor"   
+  LABEL @en 'visiting professor'  
+  ISA :"Professor"  
+
+CLASS :"Employee"   
+  LABEL @en 'Employee'  
+
+CLASS :"AssociateProfessor"   
+  LABEL @en 'associate professor'  
+  ISA :"Professor"  
+
+CLASS :"Article"   
+  LABEL @en 'article'  
+  ISA :"Publication"  
+
+CLASS :"University"   
+  LABEL @en 'university'  
+  ISA :"Organization"  
+  :"hasAlumnus"  [1..*] :"Person" 
+
+CLASS :"UnofficialPublication"   
+  LABEL @en 'unnoficial publication'  
+  ISA :"Publication"  
+
+CLASS :"Research"   
+  LABEL @en 'research work'  
+  ISA :"Work"  
+
+CLASS :"Specification"   
+  LABEL @en 'published specification'  
+  ISA :"Publication"  
+
+CLASS :"Schedule"   
+  LABEL @en 'schedule'  
+  :"listedCourse"  [1..*] :"Course" 
+
+CLASS :"ConferencePaper"   
+  LABEL @en 'conference paper'  
+  ISA :"Article"  
+
+CLASS :"PostDoc"   
+  LABEL @en 'post doctorate'  
+  ISA :"Faculty"  
+
+CLASS :"Person"   
+  LABEL @en 'person'  
+  :"advisor"  [1..*] :"Professor" 
+  :"degreeFrom"  [1..*] :"University" 
+  :"doctoralDegreeFrom"  [1..*] :"University" 
+  :"mastersDegreeFrom"  [1..*] :"University" 
+  :"undergraduateDegreeFrom"  [1..*] :"University" 
+

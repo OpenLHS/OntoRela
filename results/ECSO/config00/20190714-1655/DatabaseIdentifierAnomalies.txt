@@ -1,0 +1,2744 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+Table T0000
+
+Table T0001
+  View name @en: VEGAS2.1_MstmipVersion1_Modeled_Method
+    View attribute @en: uid VEGAS2.1_MstmipVersion1_Modeled_Method
+
+Table T0002
+
+Table T0003
+  View name @en: Near Surface Air Temperature MOV
+    View attribute @en: uid Near Surface Air Temperature MOV
+
+Table T0004
+
+Table T0005
+
+Table T0006
+
+Table T0007
+  View name @en: Annual Net Primary Productivity Flux
+    View attribute @en: uid Annual Net Primary Productivity Flux
+
+Table T0008
+
+Table T0009
+
+Table T000a
+
+Table T000b
+
+Table T000c
+  View name IRI KilogramPerMeterSquaredPerSecond
+  View name @en: KilogramPerMeterSquaredPerSecond
+    View attribute IRIKilogramPerMeterSquaredPerSecond_uid
+    View attribute @en: uid KilogramPerMeterSquaredPerSecond
+    View attribute @fr: uid KilogramPerMeterSquaredPerSecond_fr
+
+Table T000d
+
+Table T000e
+
+Table T000f
+
+Table T0010
+
+Table T0011
+
+Table T0012
+
+Table T0013
+
+Table T0014
+
+Table T0015
+
+Table T0016
+
+Table T0017
+  View name @en: specifically dependent continuant
+    View attribute @en: uid specifically dependent continuant
+
+Table T0018
+
+Table T0019
+
+Table T001a
+
+Table T001b
+  View name @en: VISIT_MstmipVersion1_Modeled_Method
+    View attribute @en: uid VISIT_MstmipVersion1_Modeled_Method
+
+Table T001c
+
+Table T001d
+
+Table T001e
+  View name @en: Net Ecosystem Exchange Carbon Flux
+    View attribute @en: uid Net Ecosystem Exchange Carbon Flux
+
+Table T001f
+
+Table T0020
+
+Table T0021
+    View attribute @en: uid Proportion Measurement Type
+
+Table T0022
+
+Table T0023
+    View attribute @en: uid Specifc Net Production Flux
+
+Table T0024
+
+Table T0025
+  View name @en: Oceanic Carbonate Concentration
+    View attribute @en: uid Oceanic Carbonate Concentration
+
+Table T0026
+
+Table T0027
+
+Table T0028
+
+Table T0029
+
+Table T002a
+
+Table T002b
+
+Table T002c
+
+Table T002d
+    View attribute @en: uid Dissolved Organic Carbon Pool
+
+Table T002e
+
+Table T002f
+
+Table T0030
+
+Table T0031
+
+Table T0032
+    View attribute @en: uid High Temperature Combustion
+
+Table T0033
+
+Table T0034
+  View name @en: 00 Unclassified Measurement Type
+    View attribute @en: uid 00 Unclassified Measurement Type
+
+Table T0035
+
+Table T0036
+
+Table T0037
+  View name @en: Non-Plant Material Biomass Density
+    View attribute @en: uid Non-Plant Material Biomass Density
+
+Table T0038
+  View name @en: Net Primary Production Biomass Flux
+    View attribute @en: uid Net Primary Production Biomass Flux
+
+Table T0039
+  View name @en: Dissolved Organic Carbon Concentration
+    View attribute @en: uid Dissolved Organic Carbon Concentration
+
+Table T003a
+
+Table T003b
+
+Table T003c
+
+Table T003d
+    View attribute @en: uid Dissolved Organic Carbon Flux
+
+Table T003e
+
+Table T003f
+  View name @en: Absorbed_Fraction_Incoming_PAR_MOV
+    View attribute @en: uid Absorbed_Fraction_Incoming_PAR_MOV
+
+Table T0040
+
+Table T0041
+
+Table T0042
+  View name @en: Volumetric Water Content Method
+    View attribute @en: uid Volumetric Water Content Method
+
+Table T0043
+
+Table T0044
+
+Table T0045
+
+Table T0046
+
+Table T0047
+
+Table T0048
+
+Table T0049
+
+Table T004a
+
+Table T004b
+
+Table T004c
+
+Table T004d
+    View attribute @en: uid Size of Each Carbon Pool MOV
+
+Table T004e
+  View name @en: Net Primary Production Carbon Flux
+    View attribute @en: uid Net Primary Production Carbon Flux
+
+Table T004f
+
+Table T0050
+    View attribute @en: uid Net_Shortwave_Radiation_MOV
+
+Table T0051
+
+Table T0052
+
+Table T0053
+
+Table T0054
+
+Table T0055
+
+Table T0056
+
+Table T0057
+
+Table T0058
+
+Table T0059
+
+Table T005a
+    View attribute @en: uid Specifc Gross Production Flux
+
+Table T005b
+
+Table T005c
+  View name @en: Total Soil Nitrogen Concentration intersectionOf nitrogen atom
+    View attribute @en: uid Total Soil Nitrogen Concentration intersectionOf nitrogen atom
+
+Table T005d
+
+Table T005e
+    View attribute @en: uid Plant Material Biomass Density
+
+Table T005f
+
+Table T0060
+
+Table T0061
+
+Table T0062
+
+Table T0063
+
+Table T0064
+  View name @en: Near_Surface_CO2_Concentration_MOV
+    View attribute @en: uid Near_Surface_CO2_Concentration_MOV
+
+Table T0065
+
+Table T0066
+
+Table T0067
+
+Table T0068
+
+Table T0069
+
+Table T006a
+
+Table T006b
+
+Table T006c
+    View attribute @en: uid Soil Carbon Change Percentage
+
+Table T006d
+
+Table T006e
+  View name @en: Freshwater Total Inorganic Carbon Concentration
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration
+
+Table T006f
+
+Table T0070
+
+Table T0071
+
+Table T0072
+  View name @en: Carbon to Nitrogen Ratio unionOf Organism | environmental material
+    View attribute @en: uid Carbon to Nitrogen Ratio unionOf Organism | environmental material
+
+Table T0073
+
+Table T0074
+
+Table T0075
+
+Table T0076
+
+Table T0077
+  View name @en: generically dependent continuant
+    View attribute @en: uid generically dependent continuant
+
+Table T0078
+    View attribute @en: uid Heterotrophic Respiration MOV
+
+Table T0079
+
+Table T007a
+    View attribute IRIKilogramPerMeterSquaredPerDay_uid
+    View attribute @en: uid KilogramPerMeterSquaredPerDay
+    View attribute @fr: uid KilogramPerMeterSquaredPerDay_fr
+
+Table T007b
+
+Table T007c
+
+Table T007d
+
+Table T007e
+
+Table T007f
+
+Table T0080
+
+Table T0081
+
+Table T0082
+  View name @en: Vegetation Carbon Change Percentage
+    View attribute @en: uid Vegetation Carbon Change Percentage
+
+Table T0083
+
+Table T0084
+
+Table T0085
+
+Table T0086
+
+Table T0087
+  View name @en: Non-Plant Material Count Aerial Density
+    View attribute @en: uid Non-Plant Material Count Aerial Density
+
+Table T0088
+  View name @en: Gross Primary Production Carbon Flux
+    View attribute @en: uid Gross Primary Production Carbon Flux
+
+Table T0089
+  View name @en: Near Surface Module of the Wind MOV
+    View attribute @en: uid Near Surface Module of the Wind MOV
+
+Table T008a
+
+Table T008b
+
+Table T008c
+
+Table T008d
+
+Table T008e
+
+Table T008f
+
+Table T0090
+
+Table T0091
+
+Table T0092
+
+Table T0093
+    View attribute @en: uid Areal Density Measurement Type
+
+Table T0094
+
+Table T0095
+  View name @en: Total Soil Nitrogen Concentration
+    View attribute @en: uid Total Soil Nitrogen Concentration
+
+Table T0096
+  View name @en: Oceanic Carbon Dioxide Concentration
+    View attribute @en: uid Oceanic Carbon Dioxide Concentration
+
+Table T0097
+
+Table T0098
+
+Table T0099
+
+Table T009a
+
+Table T009b
+
+Table T009c
+
+Table T009d
+
+Table T009e
+
+Table T009f
+
+Table T00a0
+  View name @en: Marine Macroalgae Net Primary Production Carbon Flux
+    View attribute @en: uid Marine Macroalgae Net Primary Production Carbon Flux
+
+Table T00a1
+
+Table T00a2
+
+Table T00a3
+
+Table T00a4
+
+Table T00a5
+  View name @en: Freshwater Carbonate Concentration
+    View attribute @en: uid Freshwater Carbonate Concentration
+
+Table T00a6
+  View name @en: Particulate Organic Carbon Pool
+    View attribute @en: uid Particulate Organic Carbon Pool
+
+Table T00a7
+
+Table T00a8
+  View name @en: SIB3-JPL_MstmipVersion1_Modeled_Method
+    View attribute @en: uid SIB3-JPL_MstmipVersion1_Modeled_Method
+
+Table T00a9
+    View attribute @en: uid Soil organic matter proportion
+
+Table T00aa
+
+Table T00ab
+
+Table T00ac
+
+Table T00ad
+
+Table T00ae
+
+Table T00af
+  View name @en: Aboveground Net Primary Production Carbon Flux
+    View attribute @en: uid Aboveground Net Primary Production Carbon Flux
+
+Table T00b0
+    View attribute @en: uid Oceanic Carbon Dioxide Flux
+
+Table T00b1
+
+Table T00b2
+
+Table T00b3
+
+Table T00b4
+
+Table T00b5
+  View name @en: Freshwater Bicarbonate Concentration
+    View attribute @en: uid Freshwater Bicarbonate Concentration
+
+Table T00b6
+  View name @en: SIBCASA_MstmipVersion1_Modeled_Method
+    View attribute @en: uid SIBCASA_MstmipVersion1_Modeled_Method
+
+Table T00b7
+
+Table T00b8
+  View name @en: Aquatic Particulate Organic Carbon
+    View attribute @en: uid Aquatic Particulate Organic Carbon
+
+Table T00b9
+
+Table T00ba
+
+Table T00bb
+
+Table T00bc
+
+Table T00bd
+  View name @en: Fire Carbon Flux unionOf Eddy Covariance Method | Biomass Method
+    View attribute @en: uid Fire Carbon Flux unionOf Eddy Covariance Method | Biomass Method
+
+Table T00be
+
+Table T00bf
+
+Table T00c0
+
+Table T00c1
+  View name @en: biomass_density_MeasurementType
+    View attribute @en: uid biomass_density_MeasurementType
+
+Table T00c2
+
+Table T00c3
+    View attribute @en: uid Carbon Dioxide Diffusion Flux
+
+Table T00c4
+
+Table T00c5
+  View name @en: LPJ-wsl_Mstmip_Version1_Modeled_Method
+    View attribute @en: uid LPJ-wsl_Mstmip_Version1_Modeled_Method
+
+Table T00c6
+  View name @en: Aquatic Dissolved Organic Carbon
+    View attribute @en: uid Aquatic Dissolved Organic Carbon
+
+Table T00c7
+
+Table T00c8
+
+Table T00c9
+
+Table T00ca
+
+Table T00cb
+
+Table T00cc
+
+Table T00cd
+
+Table T00ce
+
+Table T00cf
+
+Table T00d0
+
+Table T00d1
+
+Table T00d2
+
+Table T00d3
+  View name @en: ORCHIDEE-LSCE_MstmipVersion1_Modeled_Method
+    View attribute @en: uid ORCHIDEE-LSCE_MstmipVersion1_Modeled_Method
+
+Table T00d4
+  View name @en: Aboveground Woody Biomass Carbon Pool
+    View attribute @en: uid Aboveground Woody Biomass Carbon Pool
+
+Table T00d5
+
+Table T00d6
+
+Table T00d7
+
+Table T00d8
+
+Table T00d9
+
+Table T00da
+
+Table T00db
+
+Table T00dc
+
+Table T00dd
+
+Table T00de
+
+Table T00df
+
+Table T00e0
+  View name @en: periphyton MassSpecificProductionRate
+    View attribute @en: uid periphyton MassSpecificProductionRate
+
+Table T00e1
+  View name @en: GTEC_Mstmip_Version1_Modeled_Method
+    View attribute @en: uid GTEC_Mstmip_Version1_Modeled_Method
+
+Table T00e2
+  View name @en: Autotrophic Respiration Carbon Flux
+    View attribute @en: uid Autotrophic Respiration Carbon Flux
+
+Table T00e3
+
+Table T00e4
+
+Table T00e5
+
+Table T00e6
+
+Table T00e7
+
+Table T00e8
+
+Table T00e9
+
+Table T00ea
+
+Table T00eb
+
+Table T00ec
+  View name @en: Vegetation Carbon Change Percentage intersectionOf carbon atom
+    View attribute @en: uid Vegetation Carbon Change Percentage intersectionOf carbon atom
+
+Table T00ed
+
+Table T00ee
+
+Table T00ef
+
+Table T00f0
+
+Table T00f1
+
+Table T00f2
+
+Table T00f3
+  View name @en: ISAM_Mstmip_Version1_Modeled_Method
+    View attribute @en: uid ISAM_Mstmip_Version1_Modeled_Method
+
+Table T00f4
+
+Table T00f5
+
+Table T00f6
+
+Table T00f7
+
+Table T00f8
+  View name @en: Heterotrophic Respiration Carbon Flux
+    View attribute @en: uid Heterotrophic Respiration Carbon Flux
+
+Table T00f9
+
+Table T00fa
+
+Table T00fb
+
+Table T00fc
+
+Table T00fd
+
+Table T00fe
+
+Table T00ff
+
+Table T0100
+
+Table T0101
+  View name @en: Aquatic Total Organic Carbon Concentration
+    View attribute @en: uid Aquatic Total Organic Carbon Concentration
+
+Table T0102
+
+Table T0103
+
+Table T0104
+
+Table T0105
+
+Table T0106
+
+Table T0107
+
+Table T0108
+  View name @en: CLM_Mstmip_Version1_Modeled_Method
+    View attribute @en: uid CLM_Mstmip_Version1_Modeled_Method
+
+Table T0109
+
+Table T010a
+
+Table T010b
+  View name @en: Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011
+
+Table T010c
+
+Table T010d
+
+Table T010e
+    View attribute @en: uid Primary Production Carbon Flux
+
+Table T010f
+
+Table T0110
+  View name IRI MicroeinsteinsPerMeterSquaredPerSecond
+  View name @en: MicroeinsteinsPerMeterSquaredPerSecond
+    View attribute IRIMicroeinsteinsPerMeterSquaredPerSecond_uid
+    View attribute @en: uid MicroeinsteinsPerMeterSquaredPerSecond
+    View attribute @fr: uid MicroeinsteinsPerMeterSquaredPerSecond_fr
+
+Table T0111
+
+Table T0112
+
+Table T0113
+
+Table T0114
+
+Table T0115
+
+Table T0116
+
+Table T0117
+
+Table T0118
+
+Table T0119
+  View name @en: Net Carbon Respiration Rate Flux
+    View attribute @en: uid Net Carbon Respiration Rate Flux
+
+Table T011a
+  View name @en: A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.
+    View attribute @en: uid A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.
+
+Table T011b
+
+Table T011c
+
+Table T011d
+  View name @en: DLEM_Mstmip_Version1_Modeled_Method
+    View attribute @en: uid DLEM_Mstmip_Version1_Modeled_Method
+
+Table T011e
+
+Table T011f
+  View name @en: Total Living Biomass Carbon Pool
+    View attribute @en: uid Total Living Biomass Carbon Pool
+
+Table T0120
+
+Table T0121
+
+Table T0122
+
+Table T0123
+
+Table T0124
+  View name @en: Carbon Specific Net Production Rate
+    View attribute @en: uid Carbon Specific Net Production Rate
+
+Table T0125
+
+Table T0126
+  View name @en: Oxygen Concentration intersectionOf oxygen atom | environmental material
+    View attribute @en: uid Oxygen Concentration intersectionOf oxygen atom | environmental material
+
+Table T0127
+
+Table T0128
+
+Table T0129
+    View attribute @en: uid Temperature Measurement Type
+
+Table T012a
+
+Table T012b
+
+Table T012c
+
+Table T012d
+
+Table T012e
+
+Table T012f
+
+Table T0130
+
+Table T0131
+
+Table T0132
+
+Table T0133
+    View attribute @en: uid Litter Carbon Concentration
+
+Table T0134
+  View name @en: Plant Material Count Aerial Density
+    View attribute @en: uid Plant Material Count Aerial Density
+
+Table T0135
+
+Table T0136
+
+Table T0137
+
+Table T0138
+
+Table T0139
+
+Table T013a
+
+Table T013b
+
+Table T013c
+
+Table T013d
+
+Table T013e
+  View name @en: Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+    View attribute @en: uid Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+
+Table T013f
+
+Table T0140
+
+Table T0141
+
+Table T0142
+
+Table T0143
+
+Table T0144
+
+Table T0145
+
+Table T0146
+
+Table T0147
+
+Table T0148
+
+Table T0149
+    View attribute @en: uid plant-derived organic material
+
+Table T014a
+
+Table T014b
+
+Table T014c
+
+Table T014d
+  View name @en: Aerial Cover Percentage intersectionOf Entity | ENVO_00010504
+    View attribute @en: uid Aerial Cover Percentage intersectionOf Entity | ENVO_00010504
+
+Table T014e
+  View name @en: Aquatic Inorganic Carbon Concentration
+    View attribute @en: uid Aquatic Inorganic Carbon Concentration
+
+Table T014f
+
+Table T0150
+
+Table T0151
+    View attribute @en: uid Sampled Individuals Proportion
+
+Table T0152
+
+Table T0153
+
+Table T0154
+  View name @en: ENVO_00010504 unionOf ocean surface | ENVO_01000324
+    View attribute @en: uid ENVO_00010504 unionOf ocean surface | ENVO_01000324
+
+Table T0155
+  View name @en: Oxygen Evolution LightDark Method
+    View attribute @en: uid Oxygen Evolution LightDark Method
+
+Table T0156
+
+Table T0157
+
+Table T0158
+
+Table T0159
+    View attribute @en: uid concentration_MeasurementType
+
+Table T015a
+
+Table T015b
+    View attribute @en: uid Fluorescence_measurementType
+
+Table T015c
+
+Table T015d
+
+Table T015e
+
+Table T015f
+
+Table T0160
+  View name @en: Soil Carbon Change Percentage intersectionOf carbon atom
+    View attribute @en: uid Soil Carbon Change Percentage intersectionOf carbon atom
+
+Table T0161
+
+Table T0162
+    View attribute IRIMilligramPerMeterCubedPerDay_uid
+    View attribute @en: uid MilligramPerMeterCubedPerDay
+    View attribute @fr: uid MilligramPerMeterCubedPerDay_fr
+
+Table T0163
+
+Table T0164
+
+Table T0165
+
+Table T0166
+  View name @en: Width unionOf Organism | environmental feature element environmental feature
+    View attribute @en: uid Width unionOf Organism | environmental feature element environmental feature
+
+Table T0167
+    View attribute @en: uid Peak Biomass Harvest Method
+
+Table T0168
+
+Table T0169
+
+Table T016a
+  View name @en: Carbonate Concentration intersectionOf Carbonate | ENVO_00002006
+    View attribute @en: uid Carbonate Concentration intersectionOf Carbonate | ENVO_00002006
+
+Table T016b
+
+Table T016c
+
+Table T016d
+
+Table T016e
+
+Table T016f
+
+Table T0170
+  View name @en: Freshwater Chlorophyll Fluorescence
+    View attribute @en: uid Freshwater Chlorophyll Fluorescence
+
+Table T0171
+
+Table T0172
+
+Table T0173
+    View attribute @en: uid Tree Diameter at Breast Height
+
+Table T0174
+
+Table T0175
+
+Table T0176
+  View name @en: Marine Macroalgae Net Primary Production Carbon Flux unionOf ENVO_01000020 | ENVO_01000048
+    View attribute @en: uid Marine Macroalgae Net Primary Production Carbon Flux unionOf ENVO_01000020 | ENVO_01000048
+
+Table T0177
+
+Table T0178
+
+Table T0179
+
+Table T017a
+
+Table T017b
+
+Table T017c
+  View name @en: Freshwater Carbon Dioxide Concentration
+    View attribute @en: uid Freshwater Carbon Dioxide Concentration
+
+Table T017d
+
+Table T017e
+  View name @en: Phytoplankton Primary Production Carbon Flux
+    View attribute @en: uid Phytoplankton Primary Production Carbon Flux
+
+Table T017f
+
+Table T0180
+
+Table T0181
+
+Table T0182
+
+Table T0183
+
+Table T0184
+  View name @en: Atmospheric Carbon Dioxide Pool
+    View attribute @en: uid Atmospheric Carbon Dioxide Pool
+
+Table T0185
+
+Table T0186
+
+Table T0187
+
+Table T0188
+
+Table T0189
+
+Table T018a
+  View name @en: Oceanic Total Inorganic Carbon Concentration
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration
+
+Table T018b
+
+Table T018c
+
+Table T018d
+  View name @en: Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006
+    View attribute @en: uid Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006
+
+Table T018e
+
+Table T018f
+
+Table T0190
+
+Table T0191
+    View attribute @en: uid Dissolved Carbon Dioxide Pool
+
+Table T0192
+
+Table T0193
+
+Table T0194
+
+Table T0195
+  View name @en: Total Soil Carbon intersectionOf Organic Carbon
+    View attribute @en: uid Total Soil Carbon intersectionOf Organic Carbon
+
+Table T0196
+  View name @en: CO2 Concentration unionOf ENVO_00002005 | ENVO_00002006
+    View attribute @en: uid CO2 Concentration unionOf ENVO_00002005 | ENVO_00002006
+
+Table T0197
+
+Table T0198
+
+Table T0199
+
+Table T019a
+
+Table T019b
+    View attribute @en: uid Organic Carbon Concentration
+
+Table T019c
+  View name @en: Soil Heterotrophic Respiration Carbon Flux
+    View attribute @en: uid Soil Heterotrophic Respiration Carbon Flux
+
+Table T019d
+
+Table T019e
+
+Table T019f
+
+Table T01a0
+
+Table T01a1
+
+Table T01a2
+  View name @en: 'Seawater Chlorophyll Fluorescence'
+    View attribute @en: uid 'Seawater Chlorophyll Fluorescence'
+
+Table T01a3
+  View name @en: Soil Porewater Salinity Concentration intersectionOf ENVO_00002006
+    View attribute @en: uid Soil Porewater Salinity Concentration intersectionOf ENVO_00002006
+
+Table T01a4
+
+Table T01a5
+  View name @en: TEM6_MstmipVersion1_Modeled_Method
+    View attribute @en: uid TEM6_MstmipVersion1_Modeled_Method
+
+Table T01a6
+
+Table T01a7
+
+Table T01a8
+  View name @en: Height unionOf Organism | environmental feature element environmental feature
+    View attribute @en: uid Height unionOf Organism | environmental feature element environmental feature
+
+Table T01a9
+
+Table T01aa
+  View name @en: Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010
+
+Table T01ab
+
+Table T01ac
+
+Table T01ad
+
+Table T01ae
+
+Table T01af
+
+Table T01b0
+
+Table T01b1
+  View name @en: Grassland Above Ground Net Primary Production Carbon Flux
+    View attribute @en: uid Grassland Above Ground Net Primary Production Carbon Flux
+
+Table T01b2
+
+Table T01b3
+
+Table T01b4
+
+Table T01b5
+
+Table T01b6
+
+Table T01b7
+
+Table T01b8
+
+Table T01b9
+  View name @en: TRIPLEX-GHG_MstmipVersion1_Modeled_Method
+    View attribute @en: uid TRIPLEX-GHG_MstmipVersion1_Modeled_Method
+
+Table T01ba
+
+Table T01bb
+
+Table T01bc
+
+Table T01bd
+
+Table T01be
+  View name @en: Average_Layer_Soil_Temperature_MOV
+    View attribute @en: uid Average_Layer_Soil_Temperature_MOV
+
+Table T01bf
+
+Table T01c0
+  View name @en: Plant Cover Percentage intersectionOf plant | ENVO_00010504
+    View attribute @en: uid Plant Cover Percentage intersectionOf plant | ENVO_00010504
+
+Table T01c1
+    View attribute @en: uid Name of Each Carbon Pool MOV
+
+Table T01c2
+
+Table T01c3
+
+Table T01c4
+  View name @en: Autotrophic Respiration MOV unionOf phytoplankton | Phytoplankton | plant
+    View attribute @en: uid Autotrophic Respiration MOV unionOf phytoplankton | Phytoplankton | plant
+
+Table T01c5
+  View name @en: Oceanic Bicarbonate Concentration
+    View attribute @en: uid Oceanic Bicarbonate Concentration
+
+Table T01c6
+
+Table T01c7
+    View attribute IRIAmountOfSubstanceConcentration_uid
+    View attribute @en: uid AmountOfSubstanceConcentration
+    View attribute @fr: uid AmountOfSubstanceConcentration_fr
+
+Table T01c8
+
+Table T01c9
+
+Table T01ca
+
+Table T01cb
+
+Table T01cc
+
+Table T01cd
+
+Table T01ce
+
+Table T01cf
+
+Table T01d0
+  View name @en: Calcium Carbonate Concentration
+    View attribute @en: uid Calcium Carbonate Concentration
+
+Table T01d1
+
+Table T01d2
+
+Table T01d3
+
+Table T01d4
+  View name @en: Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+    View attribute @en: uid Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+
+Table T01d5
+  View name @en: Length unionOf Organism | environmental feature element environmental feature
+    View attribute @en: uid Length unionOf Organism | environmental feature element environmental feature
+
+Table T01d6
+  View name @en: Surface Incident Shortwave Radiation MOV
+    View attribute @en: uid Surface Incident Shortwave Radiation MOV
+
+Table T01d7
+  View name @en: Gross Primary Production Carbon Flux unionOf ENVO_00000063 | land
+    View attribute @en: uid Gross Primary Production Carbon Flux unionOf ENVO_00000063 | land
+
+Table T01d8
+
+Table T01d9
+    View attribute @en: uid Soil_Layer_Bottom_Depth_MOV
+
+Table T01da
+
+Table T01db
+
+Table T01dc
+    View attribute @en: uid Carbon Stable Isotope Ratio
+
+Table T01dd
+  View name @en: Organic Carbon Concentration in Water
+    View attribute @en: uid Organic Carbon Concentration in Water
+
+Table T01de
+
+Table T01df
+
+Table T01e0
+
+Table T01e1
+
+Table T01e2
+
+Table T01e3
+    View attribute @en: uid Environmental System Process
+
+Table T01e4
+  View name @en: Volume Fraction Biomass Concentration
+    View attribute @en: uid Volume Fraction Biomass Concentration
+
+Table T01e5
+
+Table T01e6
+
+Table T01e7
+
+Table T01e8
+
+Table T01e9
+
+Table T01ea
+  View name @en: CLM4VIC_MstmipVersion1_Modeled_Method
+    View attribute @en: uid CLM4VIC_MstmipVersion1_Modeled_Method
+
+Table T01eb
+
+Table T01ec
+
+Table T01ed
+
+Table T01ee
+
+Table T01ef
+  View name @en: Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011
+    View attribute @en: uid Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011
+
+Table T01f0
+  View name @en: Carbon to Nitrogen Ratio unionOf Organism | environmental material element environmental material
+    View attribute @en: uid Carbon to Nitrogen Ratio unionOf Organism | environmental material element environmental material
+
+Table T01f1
+
+Table T01f2
+
+Table T01f3
+
+Table T01f4
+  View name @en: Soil Porewater Salinity Concentration
+    View attribute @en: uid Soil Porewater Salinity Concentration
+
+Table T01f5
+
+Table T01f6
+
+Table T01f7
+  View name @en: catalytic (activity) concentration
+    View attribute @en: uid catalytic (activity) concentration
+
+Table T01f8
+  View name @en: Average Layer Soil Moisture MOV
+    View attribute @en: uid Average Layer Soil Moisture MOV
+
+Table T01f9
+    View attribute @en: uid Gross Primary Productivity MOV
+
+Table T01fa
+
+Table T01fb
+
+Table T01fc
+  View name @en: Length unionOf Organism | environmental feature
+    View attribute @en: uid Length unionOf Organism | environmental feature
+
+Table T01fd
+
+Table T01fe
+
+Table T01ff
+
+Table T0200
+
+Table T0201
+
+Table T0202
+
+Table T0203
+
+Table T0204
+
+Table T0205
+
+Table T0206
+
+Table T0207
+  View name @en: BIOME-BGC_Mstmip_Version1_Modeled_Method
+    View attribute @en: uid BIOME-BGC_Mstmip_Version1_Modeled_Method
+
+Table T0208
+  View name @en: Belowground Biomass intersectionOf 
+    View attribute @en: uid Belowground Biomass intersectionOf 
+
+Table T0209
+    View attribute @en: uid Autotrophic Respiration MOV
+
+Table T020a
+    View attribute @en: uid Above_Ground_Woody_Biomass_MOV
+
+Table T020b
+
+Table T020c
+
+Table T020d
+
+Table T020e
+
+Table T020f
+  View name @en: Width unionOf Organism | environmental feature
+    View attribute @en: uid Width unionOf Organism | environmental feature
+
+Table T0210
+
+Table T0211
+
+Table T0212
+
+Table T0213
+
+Table T0214
+
+Table T0215
+    View attribute @en: uid Plant Pigment Concentration
+
+Table T0216
+    View attribute @en: uid Ash Free Dry Weight Biomass
+
+Table T0217
+  View name @en: Soil Moisture Percentage intersectionOf ENVO_00002006
+    View attribute @en: uid Soil Moisture Percentage intersectionOf ENVO_00002006
+
+Table T0218
+  View name @en: Volumetric Density Measurement Type
+    View attribute @en: uid Volumetric Density Measurement Type
+
+Table T0219
+
+Table T021a
+
+Table T021b
+  View name @en: Height unionOf Organism | environmental feature
+    View attribute @en: uid Height unionOf Organism | environmental feature
+
+Table T021c
+
+Table T021d
+
+Table T021e
+
+Table T021f
+
+Table T0220
+
+Table T0221
+
+Table T0222
+  View name @en: CLASS-CTEMNplus_Mstmip_Version1_Modeled_Method
+    View attribute @en: uid CLASS-CTEMNplus_Mstmip_Version1_Modeled_Method
+
+Table T0223
+
+Table T0224
+
+Table T0225
+
+Table T0226
+
+Table T0227
+
+Table T0228
+
+Table T0229
+
+Table T022a
+
+Table T022b
+
+Table T022c
+    View attribute @en: uid Temporal Rate Measurement Type
+
+Table T022d
+
+Table T022e
+    View attribute @en: uid Mass Density Measurement Type
+
+Table T022f
+
+Table T0230
+
+Table T0231
+
+Table T0232
+
+Table T0233
+
+Table T0234
+
+Table T0235
+
+Table T0236
+
+Table T0237
+    View attribute @en: uid Chlorophyll-a Concentration
+
+Table T0238
+
+Table T0239
+  View name @en: Near Surface Specific Humidity MOV
+    View attribute @en: uid Near Surface Specific Humidity MOV
+
+Table T023a
+  View name @en: Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006
+    View attribute @en: uid Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006
+
+Table T023b
+
+Table T023c
+
+Table T023d
+
+Table T023e
+
+Table T023f
+
+Table T0240
+
+Table T0241
+
+Table T0242
+  View name @en: Surface Incident Longwave Radiation MOV
+    View attribute @en: uid Surface Incident Longwave Radiation MOV
+
+Table T0243
+
+Table T0244
+
+Table T0245
+    View attribute IRIMilligramPerMeterSquaredPerDay_uid
+    View attribute @en: uid MilligramPerMeterSquaredPerDay
+    View attribute @fr: uid MilligramPerMeterSquaredPerDay_fr
+
+Table T0246
+
+Table T0247
+
+Table T0248
+  View name @en: Built Feature Count Aerial Density
+    View attribute @en: uid Built Feature Count Aerial Density
+
+Table T0249
+    View attribute @en: uid ecosystem-wide photosynthesis
+
+Table T024a
+
+Table T024b
+
+Table T024c
+
+Table T024d
+  View name @en: Carbon Specific Gross Production Rate
+    View attribute @en: uid Carbon Specific Gross Production Rate
+
+Table T024e
+
+Table T024f
+
+Table T0250
+
+Table T0251
+  View name @en: Total Living Biomass MOV unionOf plant-derived organic material | Plant Material | ENVO_00002040 | root matter
+    View attribute @en: uid Total Living Biomass MOV unionOf plant-derived organic material | Plant Material | ENVO_00002040 | root matter
+
+Table T0252
+
+Table T0253
+
+Table T0254
+  View name IRI ECSO_00000013_BFO_0000050_ENVO_01001305
+  View name @en: Fire Carbon Flux BFO_0000050 ENVO_01001305
+
+Table T0255
+  View name IRI ECSO_00000013_measuresUsingProtocol_ONTORELA_C0248X
+  View name @en: Fire Carbon Flux measuresUsingProtocol Fire Carbon Flux unionOf Eddy Covariance Method | Biomass Method
+    View attribute @en: uid Fire Carbon Flux unionOf Eddy Covariance Method | Biomass Method
+
+Table T0256
+  View name IRI ECSO_00000049_ENVO_2100001_ENVO_01000324
+  View name @en: Near Surface Air Temperature MOV determined by ENVO_01000324
+    View attribute @en: uid Near Surface Air Temperature MOV
+
+Table T0257
+  View name IRI ECSO_00000025_RO_0002473_ECSO_00000329
+  View name @en: Carbon Pool composed primarily of Organic Carbon
+
+Table T0258
+  View name IRI ECSO_00001212_ENVO_2100001_ENVO_00000023
+  View name @en: Stream Depth determined by ENVO_00000023
+
+Table T0259
+  View name IRI ECSO_00001200_measuresEntity_ENVO_01000155
+  View name @en: Biomass Volumetric Density measuresEntity ENVO_01000155
+
+Table T025a
+  View name IRI ECSO_00001139_measuresEntity_ENVO_01000155
+  View name @en: Wet Weight Biomass measuresEntity ENVO_01000155
+
+Table T025b
+  View name IRI ECSO_00001139_RO_0000086_PATO_0001823
+  View name @en: Wet Weight Biomass RO_0000086 wet
+
+Table T025c
+  View name IRI ECSO_00001127_measuresEntity_CHEBI_27594
+  View name @en: Carbon Percentage measuresEntity carbon atom
+
+Table T025d
+  View name IRI ECSO_00001224_measuresEntity_ECSO_00000323
+  View name @en: Carbon Dioxide Pressure measuresEntity Carbon Dioxide
+
+Table T025e
+  View name IRI ENVO_01000406_RO_0002473_ONTORELA_C0236X
+  View name @en: snow composed primarily of snow unionOf ENVO_00002006
+
+Table T025f
+  View name IRI ENVO_00002033_RO_0000086_PATO_0001422
+
+Table T0260
+  View name IRI ECSO_00000014_measuresEntity_CHEBI_27594
+  View name @en: Net Ecosystem Exchange Carbon Flux measuresEntity carbon atom
+    View attribute @en: uid Net Ecosystem Exchange Carbon Flux
+
+Table T0261
+  View name IRI ECSO_00001138_measuresEntity_CHEBI_25555
+  View name @en: Carbon to Nitrogen Ratio measuresEntity nitrogen atom
+
+Table T0262
+  View name IRI ECSO_00001138_measuresEntity_CHEBI_27594
+  View name @en: Carbon to Nitrogen Ratio measuresEntity carbon atom
+
+Table T0263
+  View name IRI ECSO_00001126_STATO_0000259_ENVO_00002010
+  View name @en: Oceanic Carbonate Concentration has denominator ENVO_00002010
+    View attribute @en: uid Oceanic Carbonate Concentration
+
+Table T0264
+  View name IRI ECSO_00001126_STATO_0000101_ECSO_00000325
+  View name @en: Oceanic Carbonate Concentration has numerator Carbonate
+    View attribute @en: uid Oceanic Carbonate Concentration
+
+Table T0265
+  View name IRI ECSO_00001126_STATO_0000101_ECSO_00000325
+  View name @en: Oceanic Carbonate Concentration has numerator Carbonate
+    View attribute @en: uid Oceanic Carbonate Concentration
+
+Table T0266
+  View name IRI ECSO_00001114_RO_0002473_ENVO_01000155
+  View name @en: Biomass composed primarily of ENVO_01000155
+
+Table T0267
+  View name IRI ECSO_00001235_BFO_0000050_ENVO_00001999
+  View name @en: Seawater Velocity BFO_0000050 ENVO_00001999
+
+Table T0268
+  View name IRI ECSO_00000582_measuresEntity_ECSO_00000324
+  View name @en: Methane Flux measuresEntity Methane
+
+Table T0269
+  View name IRI ECSO_00000047_RO_0000056_ENVO_02500008
+  View name @en: Total_Respiration_MOV participates in ecosystem-wide respiration
+
+Table T026a
+  View name IRI ECSO_00001234_measuresEntity_ENVO_00002006
+  View name @en: Water Velocity measuresEntity ENVO_00002006
+
+Table T026b
+  View name IRI ECSO_00001222_measuresEntity_ECSO_00000503
+  View name @en: Plant Material Height measuresEntity plant-derived organic material
+    View attribute @en: uid plant-derived organic material
+
+Table T026c
+  View name IRI ECSO_00001210_measuresEntity_ECSO_00000575
+  View name @en: Soil Active Layer Depth measuresEntity soil active layer
+
+Table T026d
+  View name IRI ECSO_00001149_measuresEntity_ECSO_00000312
+  View name @en: Non-Plant Material Biomass Density measuresEntity Organism
+    View attribute @en: uid Non-Plant Material Biomass Density
+
+Table T026e
+  View name IRI ECSO_00001137_measuresEntity_ENVO_01000155
+  View name @en: Net Primary Production Biomass Flux measuresEntity ENVO_01000155
+    View attribute @en: uid Net Primary Production Biomass Flux
+
+Table T026f
+  View name IRI ECSO_00001125_STATO_0000101_ECSO_00000329
+  View name @en: Dissolved Organic Carbon Concentration has numerator Organic Carbon
+    View attribute @en: uid Dissolved Organic Carbon Concentration
+
+Table T0270
+  View name IRI ECSO_00001125_STATO_0000259_ENVO_00002006
+  View name @en: Dissolved Organic Carbon Concentration has denominator ENVO_00002006
+    View attribute @en: uid Dissolved Organic Carbon Concentration
+
+Table T0271
+  View name IRI ECSO_00001125_measuresEntity_ONTORELA_C0258X
+  View name @en: Dissolved Organic Carbon Concentration measuresEntity Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006
+    View attribute @en: uid Dissolved Organic Carbon Concentration
+    View attribute @en: uid Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006
+
+Table T0272
+  View name IRI ECSO_00001246_measuresEntity_ONTORELA_C025aX
+  View name @en: Oxygen Concentration measuresEntity Oxygen Concentration intersectionOf oxygen atom | environmental material
+    View attribute @en: uid Oxygen Concentration intersectionOf oxygen atom | environmental material
+
+Table T0273
+  View name IRI ECSO_00001233_measuresEntity_ENVO_00002005
+  View name @en: Wind Speed measuresEntity ENVO_00002005
+
+Table T0274
+  View name IRI ECSO_00001221_measuresEntity_ECSO_00000503
+  View name @en: Crown Height measuresEntity plant-derived organic material
+    View attribute @en: uid plant-derived organic material
+
+Table T0275
+  View name IRI ECSO_00001148_measuresEntity_ECSO_00000503
+  View name @en: Plant Material Biomass measuresEntity plant-derived organic material
+    View attribute @en: uid plant-derived organic material
+
+Table T0276
+  View name IRI ECSO_00001136_measuresEntity_ENVO_01000155
+  View name @en: Growth Rate measuresEntity ENVO_01000155
+
+Table T0277
+  View name IRI ECSO_00000580_measuresEntity_ECSO_00000323
+  View name @en: CO2 Concentration in air measuresEntity Carbon Dioxide
+
+Table T0278
+  View name IRI ENVO_00002042_BFO_0000050_ENVO_00010504
+  View name @en: ENVO_00002042 BFO_0000050 ENVO_00010504
+
+Table T0279
+  View name IRI ECSO_00001135_measuresEntity_ONTORELA_C026cX
+  View name @en: Aboveground Biomass measuresEntity Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+    View attribute @en: uid Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+
+Table T027a
+  View name IRI ECSO_00001256_measuresUsingStandard_ECSO_00000560
+  View name @en: Specific Flux measuresUsingStandard flux unit
+
+Table T027b
+  View name IRI ECSO_00001111_measuresEntity_ONTORELA_C023eX
+  View name @en: Belowground Biomass measuresEntity Belowground Biomass intersectionOf 
+    View attribute @en: uid Belowground Biomass intersectionOf 
+
+Table T027c
+  View name IRI ECSO_00001220_measuresEntity_ENVO_00000047
+  View name @en: Tree Canopy Height measuresEntity ENVO_00000047
+
+Table T027d
+  View name IRI ONTORELA_C0238X_BFO_0000050_ENVO_00001998
+  View name @en: Total Soil Nitrogen Concentration intersectionOf nitrogen atom BFO_0000050 ENVO_00001998
+    View attribute @en: uid Total Soil Nitrogen Concentration intersectionOf nitrogen atom
+
+Table T027e
+  View name IRI ECSO_00001147_measuresEntity_ECSO_00000503
+  View name @en: Plant Material Biomass Density measuresEntity plant-derived organic material
+    View attribute @en: uid Plant Material Biomass Density
+    View attribute @en: uid plant-derived organic material
+
+Table T027f
+  View name IRI ECSO_00000046_ENVO_2100001_ENVO_00010504
+  View name @en: Near_Surface_CO2_Concentration_MOV determined by ENVO_00010504
+    View attribute @en: uid Near_Surface_CO2_Concentration_MOV
+
+Table T0280
+  View name IRI ECSO_00000046_measuresEntity_ECSO_00000323
+  View name @en: Near_Surface_CO2_Concentration_MOV measuresEntity Carbon Dioxide
+    View attribute @en: uid Near_Surface_CO2_Concentration_MOV
+
+Table T0281
+  View name IRI ECSO_00000046_BFO_0000050_ENVO_00002005
+  View name @en: Near_Surface_CO2_Concentration_MOV BFO_0000050 ENVO_00002005
+    View attribute @en: uid Near_Surface_CO2_Concentration_MOV
+
+Table T0282
+  View name IRI ECSO_00000046_STATO_0000101_ECSO_00000323
+  View name @en: Near_Surface_CO2_Concentration_MOV has numerator Carbon Dioxide
+    View attribute @en: uid Near_Surface_CO2_Concentration_MOV
+
+Table T0283
+  View name IRI ECSO_00000046_STATO_0000259_ENVO_00002005
+  View name @en: Near_Surface_CO2_Concentration_MOV has denominator ENVO_00002005
+    View attribute @en: uid Near_Surface_CO2_Concentration_MOV
+
+Table T0284
+  View name IRI ECSO_00000058_ENVO_2100001_ECSO_00000574
+  View name @en: Soil_Layer_Node_Depth_MOV determined by soil layer
+
+Table T0285
+  View name IRI ECSO_00001134_measuresEntity_ONTORELA_C0252X
+  View name @en: Soil Carbon Change Percentage measuresEntity Soil Carbon Change Percentage intersectionOf carbon atom
+    View attribute @en: uid Soil Carbon Change Percentage
+    View attribute @en: uid Soil Carbon Change Percentage intersectionOf carbon atom
+
+Table T0286
+  View name IRI ECSO_00001122_STATO_0000259_ENVO_00002011
+  View name @en: Freshwater Total Inorganic Carbon Concentration has denominator ENVO_00002011
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration
+
+Table T0287
+  View name IRI ECSO_00001122_measuresEntity_ONTORELA_C0250X
+  View name @en: Freshwater Total Inorganic Carbon Concentration measuresEntity Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011
+
+Table T0288
+  View name IRI ECSO_00001122_STATO_0000101_ECSO_00000337
+  View name @en: Freshwater Total Inorganic Carbon Concentration has numerator Inorganic Carbon
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration
+
+Table T0289
+  View name IRI ECSO_00001122_STATO_0000259_ENVO_00002006
+  View name @en: Freshwater Total Inorganic Carbon Concentration has denominator ENVO_00002006
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration
+
+Table T028a
+  View name IRI ECSO_00001122_STATO_0000101_ECSO_00000337
+  View name @en: Freshwater Total Inorganic Carbon Concentration has numerator Inorganic Carbon
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration
+
+Table T028b
+  View name IRI ECSO_00001243_measuresEntity_ECSO_00000562
+  View name @en: Chlorophyll Concentration measuresEntity chlorophyll
+
+Table T028c
+  View name IRI ECSO_00001110_RO_0002473_ENVO_00005802
+  View name @en: Soil Bulk Density composed primarily of ENVO_00005802
+
+Table T028d
+  View name IRI ECSO_00001110_measuresEntity_ENVO_00001998
+  View name @en: Soil Bulk Density measuresEntity ENVO_00001998
+
+Table T028e
+  View name IRI ECSO_00000067_ENVO_2100001_ECSO_00000569
+  View name @en: Heterotrophic Respiration MOV determined by Bacteria
+    View attribute @en: uid Heterotrophic Respiration MOV
+
+Table T028f
+  View name IRI ECSO_00000079_RO_0000056_ENVO_02500034
+  View name @en: Total_Evaporation_MOV participates in evaporation
+
+Table T0290
+  View name IRI ECSO_00000043_RO_0002473_ONTORELA_C0266X
+  View name @en: Total Living Biomass MOV composed primarily of Total Living Biomass MOV unionOf plant-derived organic material | Plant Material | ENVO_00002040 | root matter
+    View attribute @en: uid Total Living Biomass MOV unionOf plant-derived organic material | Plant Material | ENVO_00002040 | root matter
+
+Table T0291
+  View name IRI ECSO_00000055_ENVO_2100001_ECSO_00000574
+  View name @en: Soil_Layer_Top_Depth_MOV determined by soil layer
+
+Table T0292
+  View name IRI ECSO_00001230_measuresEntity_ENVO_00001998
+  View name @en: Soil Temperature measuresEntity ENVO_00001998
+
+Table T0293
+  View name IRI Entity_ECSO_00000318_ECSO_00000314
+  View name @en: Entity has state Physical State
+
+Table T0294
+  View name IRI ECSO_00001157_measuresCharacteristic_Identifier
+  View name @en: Identity measuresCharacteristic Identifier
+
+Table T0295
+  View name IRI ECSO_00001145_measuresEntity_CHEBI_25555
+  View name @en: Nitrogen Percentage measuresEntity nitrogen atom
+
+Table T0296
+  View name IRI ECSO_00001133_measuresEntity_ONTORELA_C026aX
+  View name @en: Vegetation Carbon Change Percentage measuresEntity Vegetation Carbon Change Percentage intersectionOf carbon atom
+    View attribute @en: uid Vegetation Carbon Change Percentage
+    View attribute @en: uid Vegetation Carbon Change Percentage intersectionOf carbon atom
+
+Table T0297
+  View name IRI ECSO_00001169_measuresEntity_ECSO_00000312
+  View name @en: Non-Plant Material Count Aerial Density measuresEntity Organism
+    View attribute @en: uid Non-Plant Material Count Aerial Density
+
+Table T0298
+  View name IRI ECSO_00000020_ENVO_2100001_ONTORELA_C024aX
+  View name @en: Gross Primary Production Carbon Flux determined by Gross Primary Production Carbon Flux unionOf ENVO_00000063 | land
+    View attribute @en: uid Gross Primary Production Carbon Flux
+    View attribute @en: uid Gross Primary Production Carbon Flux unionOf ENVO_00000063 | land
+
+Table T0299
+  View name IRI ECSO_00000056_RO_0000056_ENVO_01000793
+  View name @en: Near Surface Module of the Wind MOV participates in atmospheric wind
+    View attribute @en: uid Near Surface Module of the Wind MOV
+
+Table T029a
+  View name IRI ECSO_00000056_ENVO_2100001_ENVO_01000324
+  View name @en: Near Surface Module of the Wind MOV determined by ENVO_01000324
+    View attribute @en: uid Near Surface Module of the Wind MOV
+
+Table T029b
+  View name IRI ECSO_00000068_ENVO_2100001_ENVO_00000134
+  View name @en: Active_Layer_Thickness_MOV determined by ENVO_00000134
+
+Table T029c
+  View name IRI ECSO_00001241_RO_0000086_PATO_0001824
+  View name @en: Soil Dry Weight RO_0000086 PATO_0001824
+
+Table T029d
+  View name IRI ECSO_00001241_measuresEntity_ENVO_00001998
+  View name @en: Soil Dry Weight measuresEntity ENVO_00001998
+
+Table T029e
+  View name IRI ECSO_00001156_measuresEntity_ONTORELA_C024eX
+  View name @en: Leaf Area Index measuresEntity Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+    View attribute @en: uid Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+
+Table T029f
+  View name IRI ECSO_00001144_measuresEntity_ONTORELA_C0238X
+  View name @en: Total Soil Nitrogen Concentration measuresEntity Total Soil Nitrogen Concentration intersectionOf nitrogen atom
+    View attribute @en: uid Total Soil Nitrogen Concentration
+    View attribute @en: uid Total Soil Nitrogen Concentration intersectionOf nitrogen atom
+
+Table T02a0
+  View name IRI ECSO_00001144_STATO_0000101_CHEBI_25555
+  View name @en: Total Soil Nitrogen Concentration has numerator nitrogen atom
+    View attribute @en: uid Total Soil Nitrogen Concentration
+
+Table T02a1
+  View name IRI ECSO_00001144_STATO_0000259_ENVO_00001998
+  View name @en: Total Soil Nitrogen Concentration has denominator ENVO_00001998
+    View attribute @en: uid Total Soil Nitrogen Concentration
+
+Table T02a2
+  View name IRI ECSO_00001132_BFO_0000050_ENVO_00002010
+  View name @en: Oceanic Carbon Dioxide Concentration BFO_0000050 ENVO_00002010
+    View attribute @en: uid Oceanic Carbon Dioxide Concentration
+
+Table T02a3
+  View name IRI ECSO_00001132_STATO_0000101_ECSO_00000323
+  View name @en: Oceanic Carbon Dioxide Concentration has numerator Carbon Dioxide
+    View attribute @en: uid Oceanic Carbon Dioxide Concentration
+
+Table T02a4
+  View name IRI ECSO_00001132_STATO_0000259_ENVO_00002010
+  View name @en: Oceanic Carbon Dioxide Concentration has denominator ENVO_00002010
+    View attribute @en: uid Oceanic Carbon Dioxide Concentration
+
+Table T02a5
+  View name IRI ECSO_00001132_measuresEntity_ECSO_00000323
+  View name @en: Oceanic Carbon Dioxide Concentration measuresEntity Carbon Dioxide
+    View attribute @en: uid Oceanic Carbon Dioxide Concentration
+
+Table T02a6
+  View name IRI ECSO_00001132_measuresEntity_ECSO_00000323
+  View name @en: Oceanic Carbon Dioxide Concentration measuresEntity Carbon Dioxide
+    View attribute @en: uid Oceanic Carbon Dioxide Concentration
+
+Table T02a7
+  View name IRI MeasurementType_RO_0000056_ECSO_00000546
+  View name @en: Measurement Type participates in Process
+
+Table T02a8
+  View name IRI ENVO_01001305_RO_0002473_ECSO_00000573
+  View name @en: ENVO_01001305 composed primarily of plant
+
+Table T02a9
+  View name IRI ECSO_00000530_BFO_0000050_ONTORELA_C0246X
+  View name @en: CO2 Concentration BFO_0000050 CO2 Concentration unionOf ENVO_00002005 | ENVO_00002006
+    View attribute @en: uid CO2 Concentration unionOf ENVO_00002005 | ENVO_00002006
+
+Table T02aa
+  View name IRI ECSO_00000542_ENVO_2100001_ECSO_00000508
+  View name @en: Marine Macroalgae Net Primary Production Carbon Flux determined by Macroalgae
+    View attribute @en: uid Marine Macroalgae Net Primary Production Carbon Flux
+
+Table T02ab
+  View name IRI ECSO_00000542_RO_0001025_ONTORELA_C0268X
+  View name @en: Marine Macroalgae Net Primary Production Carbon Flux RO_0001025 Marine Macroalgae Net Primary Production Carbon Flux unionOf ENVO_01000020 | ENVO_01000048
+    View attribute @en: uid Marine Macroalgae Net Primary Production Carbon Flux
+    View attribute @en: uid Marine Macroalgae Net Primary Production Carbon Flux unionOf ENVO_01000020 | ENVO_01000048
+
+Table T02ac
+  View name IRI ECSO_00000300_ENVO_2100001_ECSO_00000323
+  View name @en: CO2 Enrichment Method determined by Carbon Dioxide
+
+Table T02ad
+  View name IRI ECSO_00000566_STATO_0000259_ENVO_00002011
+  View name @en: Freshwater Carbonate Concentration has denominator ENVO_00002011
+    View attribute @en: uid Freshwater Carbonate Concentration
+
+Table T02ae
+  View name IRI ECSO_00000566_measuresEntity_ECSO_00000325
+  View name @en: Freshwater Carbonate Concentration measuresEntity Carbonate
+    View attribute @en: uid Freshwater Carbonate Concentration
+
+Table T02af
+  View name IRI ECSO_00000566_BFO_0000050_ENVO_00002011
+  View name @en: Freshwater Carbonate Concentration BFO_0000050 ENVO_00002011
+    View attribute @en: uid Freshwater Carbonate Concentration
+
+Table T02b0
+  View name IRI ECSO_00000566_STATO_0000101_ECSO_00000325
+  View name @en: Freshwater Carbonate Concentration has numerator Carbonate
+    View attribute @en: uid Freshwater Carbonate Concentration
+
+Table T02b1
+  View name IRI ECSO_00000566_STATO_0000101_ECSO_00000325
+  View name @en: Freshwater Carbonate Concentration has numerator Carbonate
+    View attribute @en: uid Freshwater Carbonate Concentration
+
+Table T02b2
+  View name IRI ECSO_00000579_measuresEntity_ENVO_00001998
+  View name @en: Soil organic matter proportion measuresEntity ENVO_00001998
+    View attribute @en: uid Soil organic matter proportion
+
+Table T02b3
+  View name IRI ECSO_00000579_measuresCharacteristic_ECSO_00003030
+  View name @en: Soil organic matter proportion measuresCharacteristic organic_content
+    View attribute @en: uid Soil organic matter proportion
+
+Table T02b4
+  View name IRI ECSO_00000531_measuresUsingProtocol_ECSO_00000555
+  View name @en: Total Soil Carbon measuresUsingProtocol Biomass Method
+
+Table T02b5
+  View name IRI ECSO_00000531_measuresEntity_ONTORELA_C023aX
+  View name @en: Total Soil Carbon measuresEntity Total Soil Carbon intersectionOf Organic Carbon
+    View attribute @en: uid Total Soil Carbon intersectionOf Organic Carbon
+
+Table T02b6
+  View name IRI ECSO_00000543_RO_0001025_ocean_surface
+  View name @en: Oceanic Carbon Dioxide Flux RO_0001025 ocean surface
+    View attribute @en: uid Oceanic Carbon Dioxide Flux
+
+Table T02b7
+  View name IRI ECSO_00000555_ENVO_2100001_ENVO_01001305
+  View name @en: Biomass Method determined by ENVO_01001305
+
+Table T02b8
+  View name IRI ECSO_00000567_STATO_0000259_ENVO_00002011
+  View name @en: Freshwater Bicarbonate Concentration has denominator ENVO_00002011
+    View attribute @en: uid Freshwater Bicarbonate Concentration
+
+Table T02b9
+  View name IRI ECSO_00000567_measuresEntity_ONTORELA_C0256X
+  View name @en: Freshwater Bicarbonate Concentration measuresEntity Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011
+    View attribute @en: uid Freshwater Bicarbonate Concentration
+    View attribute @en: uid Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011
+
+Table T02ba
+  View name IRI ECSO_00000567_STATO_0000101_ECSO_00000326
+  View name @en: Freshwater Bicarbonate Concentration has numerator Bicarbonate
+    View attribute @en: uid Freshwater Bicarbonate Concentration
+
+Table T02bb
+  View name IRI ECSO_00000567_STATO_0000101_ECSO_00000326
+  View name @en: Freshwater Bicarbonate Concentration has numerator Bicarbonate
+    View attribute @en: uid Freshwater Bicarbonate Concentration
+
+Table T02bc
+  View name IRI ECSO_00000578_BFO_0000050_ENVO_00002006
+  View name @en: Aquatic Particulate Organic Carbon BFO_0000050 ENVO_00002006
+    View attribute @en: uid Aquatic Particulate Organic Carbon
+
+Table T02bd
+  View name IRI ECSO_00001219_measuresEntity_ECSO_00001100
+  View name @en: Latent Heat Flux measuresEntity electromagnetic radiation
+
+Table T02be
+  View name IRI ECSO_00001207_measuresEntity_ENVO_00001998
+  View name @en: Soil Depth measuresEntity ENVO_00001998
+
+Table T02bf
+  View name IRI ECSO_00000201_measuresUsingProtocol_ECSO_00000091
+  View name @en: Carbon Dioxide Diffusion Flux measuresUsingProtocol Eddy Covariance Method
+    View attribute @en: uid Carbon Dioxide Diffusion Flux
+
+Table T02c0
+  View name IRI ECSO_00000577_BFO_0000050_ENVO_00002006
+  View name @en: Aquatic Dissolved Organic Carbon BFO_0000050 ENVO_00002006
+    View attribute @en: uid Aquatic Dissolved Organic Carbon
+
+Table T02c1
+  View name IRI ECSO_00001109_measuresEntity_CHEBI_25555
+  View name @en: Nitrogen Fixation Rate measuresEntity nitrogen atom
+
+Table T02c2
+  View name IRI ECSO_00001206_ENVO_2100001_ENVO_00000105
+  View name @en: Lake Depth determined by ENVO_00000105
+
+Table T02c3
+  View name IRI ECSO_00000541_measuresUsingProtocol_ECSO_00000094
+  View name @en: Tree Height measuresUsingProtocol Allometric Method
+
+Table T02c4
+  View name IRI ECSO_00000553_measuresUsingProtocol_ECSO_00000094
+  View name @en: Linear Measurement Type measuresUsingProtocol Allometric Method
+
+Table T02c5
+  View name IRI ECSO_00000565_measuresEntity_ONTORELA_C0264X
+  View name @en: Carbonate Concentration measuresEntity Carbonate Concentration intersectionOf Carbonate | ENVO_00002006
+    View attribute @en: uid Carbonate Concentration intersectionOf Carbonate | ENVO_00002006
+
+Table T02c6
+  View name IRI ECSO_00000565_STATO_0000259_ENVO_00002006
+  View name @en: Carbonate Concentration has denominator ENVO_00002006
+
+Table T02c7
+  View name IRI ECSO_00000565_STATO_0000101_ECSO_00000337
+  View name @en: Carbonate Concentration has numerator Inorganic Carbon
+
+Table T02c8
+  View name IRI ECSO_00000565_STATO_0000259_ENVO_00002006
+  View name @en: Carbonate Concentration has denominator ENVO_00002006
+
+Table T02c9
+  View name IRI ECSO_00000576_STATO_0000101_CHEBI_27594
+  View name @en: Soil Carbon Concentration has numerator carbon atom
+
+Table T02ca
+  View name IRI ECSO_00000576_STATO_0000259_ENVO_00001998
+  View name @en: Soil Carbon Concentration has denominator ENVO_00001998
+
+Table T02cb
+  View name IRI ECSO_00001205_measuresEntity_ENVO_01000406
+
+Table T02cc
+  View name IRI ECSO_00001108_measuresEntity_ENVO_01000155
+  View name @en: Ash Weight Biomass measuresEntity ENVO_01000155
+
+Table T02cd
+  View name IRI ECSO_00001229_measuresEntity_ENVO_01000635
+  View name @en: Ground Temperature measuresEntity land
+
+Table T02ce
+  View name IRI ECSO_00001217_measuresCharacteristic_TagNumber
+  View name @en: Tag Number measuresCharacteristic TagNumber
+
+Table T02cf
+  View name IRI ECSO_00002777_measuresEntity_ECSO_00002776
+  View name @en: periphyton MassSpecificProductionRate measuresEntity periphyton
+    View attribute @en: uid periphyton MassSpecificProductionRate
+
+Table T02d0
+  View name IRI ECSO_00002777_measuresCharacteristic_ECSO_00002775
+  View name @en: periphyton MassSpecificProductionRate measuresCharacteristic MassSpecificProductionRate
+    View attribute @en: uid periphyton MassSpecificProductionRate
+
+Table T02d1
+  View name IRI ENVO_00010504_BFO_0000050_ONTORELA_C0244X
+  View name @en: ENVO_00010504 BFO_0000050 ENVO_00010504 unionOf ocean surface | ENVO_01000324
+    View attribute @en: uid ENVO_00010504 unionOf ocean surface | ENVO_01000324
+
+Table T02d2
+  View name IRI ECSO_00001216_measuresEntity_ENVO_01000635
+  View name @en: Ground Heat Flux measuresEntity land
+
+Table T02d3
+  View name IRI ECSO_00001204_ENVO_2100001_ocean_surface
+  View name @en: Seawater Depth determined by ocean surface
+
+Table T02d4
+  View name IRI ECSO_00001228_measuresEntity_ENVO_00005774
+  View name @en: Peat Temperature measuresEntity ENVO_00005774
+
+Table T02d5
+  View name IRI ONTORELA_C026aX_BFO_0000050_ENVO_01001305
+  View name @en: Vegetation Carbon Change Percentage intersectionOf carbon atom BFO_0000050 ENVO_01001305
+    View attribute @en: uid Vegetation Carbon Change Percentage intersectionOf carbon atom
+
+Table T02d6
+  View name IRI ENVO_00005801_RO_0002473_ENVO_01000349
+  View name @en: ENVO_00005801 composed primarily of root matter
+
+Table T02d7
+  View name IRI ECSO_00000551_RO_0002473_ECSO_00001114
+  View name @en: biomass_density composed primarily of Biomass
+
+Table T02d8
+  View name IRI ECSO_00001227_measuresEntity_ENVO_00002006
+  View name @en: Water Temperature measuresEntity ENVO_00002006
+
+Table T02d9
+  View name IRI ECSO_00000574_RO_0002473_ENVO_00001998
+  View name @en: soil layer composed primarily of ENVO_00001998
+
+Table T02da
+  View name IRI ECSO_00001203_measuresEntity_ENVO_00002006
+  View name @en: Water Depth measuresEntity ENVO_00002006
+
+Table T02db
+  View name IRI ECSO_00001118_BFO_0000050_ENVO_00002006
+  View name @en: Aquatic Total Organic Carbon Concentration BFO_0000050 ENVO_00002006
+    View attribute @en: uid Aquatic Total Organic Carbon Concentration
+
+Table T02dc
+  View name IRI ONTORELA_C0250X_BFO_0000050_ENVO_00002011
+  View name @en: Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011 BFO_0000050 ENVO_00002011
+    View attribute @en: uid Freshwater Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002011
+
+Table T02dd
+  View name IRI ECSO_00000015_measuresEntity_CHEBI_27594
+  View name @en: Primary Production Carbon Flux measuresEntity carbon atom
+    View attribute @en: uid Primary Production Carbon Flux
+
+Table T02de
+  View name IRI ECSO_00001238_measuresEntity_ENVO_00003075
+  View name @en: Physical Feature Width measuresEntity ENVO_00003075
+
+Table T02df
+  View name IRI ECSO_00001226_BFO_0000050_ENVO_00001999
+  View name @en: Seawater Temperature BFO_0000050 ENVO_00001999
+
+Table T02e0
+  View name IRI ECSO_00001202_measuresEntity_CHEBI_27594
+  View name @en: Biomass Concentration measuresEntity carbon atom
+
+Table T02e1
+  View name IRI ECSO_00001202_BFO_0000050_ENVO_01000155
+  View name @en: Biomass Concentration BFO_0000050 ENVO_01000155
+
+Table T02e2
+  View name IRI ECSO_00001202_STATO_0000101_CHEBI_27594
+  View name @en: Biomass Concentration has numerator carbon atom
+
+Table T02e3
+  View name IRI ECSO_00001202_STATO_0000259_ENVO_01000155
+  View name @en: Biomass Concentration has denominator ENVO_01000155
+
+Table T02e4
+  View name IRI ECSO_00001129_measuresEntity_CHEBI_27594
+  View name @en: Net Carbon Respiration Rate Flux measuresEntity carbon atom
+    View attribute @en: uid Net Carbon Respiration Rate Flux
+
+Table T02e5
+  View name IRI ECSO_00001128_measuresEntity_CHEBI_27594
+  View name @en: Carbon Specific Net Production Rate measuresEntity carbon atom
+    View attribute @en: uid Carbon Specific Net Production Rate
+
+Table T02e6
+  View name IRI ECSO_00001249_measuresEntity_ECSO_00000564
+  View name @en: Pheophytin Concentration measuresEntity pheophytin
+
+Table T02e7
+  View name IRI ONTORELA_C025aX_BFO_0000050_ENVO_00010483
+  View name @en: Oxygen Concentration intersectionOf oxygen atom | environmental material BFO_0000050 environmental material
+    View attribute @en: uid Oxygen Concentration intersectionOf oxygen atom | environmental material
+
+Table T02e8
+  View name IRI ECSO_00001116_STATO_0000101_CHEBI_51143
+  View name @en: Ammonium Concentration has numerator CHEBI_51143
+
+Table T02e9
+  View name IRI ECSO_00001116_STATO_0000259_ENVO_00002006
+  View name @en: Ammonium Concentration has denominator ENVO_00002006
+
+Table T02ea
+  View name IRI ECSO_00001116_measuresEntity_CHEBI_51143
+  View name @en: Ammonium Concentration measuresEntity CHEBI_51143
+
+Table T02eb
+  View name IRI ECSO_00001116_BFO_0000050_ENVO_00002006
+  View name @en: Ammonium Concentration BFO_0000050 ENVO_00002006
+
+Table T02ec
+  View name IRI ECSO_00001237_measuresEntity_ENVO_00002006
+  View name @en: Precipitation Volume measuresEntity ENVO_00002006
+
+Table T02ed
+  View name IRI ECSO_00001225_measuresEntity_ENVO_00002005
+  View name @en: Air Temperature measuresEntity ENVO_00002005
+
+Table T02ee
+  View name IRI ECSO_00001213_ENVO_2100001_ENVO_00002041
+  View name @en: Groundwater Depth determined by ENVO_00002041
+
+Table T02ef
+  View name IRI ECSO_00000502_STATO_0000101_CHEBI_27594
+  View name @en: Litter Carbon Concentration has numerator carbon atom
+    View attribute @en: uid Litter Carbon Concentration
+
+Table T02f0
+  View name IRI ECSO_00000502_STATO_0000259_ENVO_01000155
+  View name @en: Litter Carbon Concentration has denominator ENVO_01000155
+    View attribute @en: uid Litter Carbon Concentration
+
+Table T02f1
+  View name IRI ECSO_00001170_measuresEntity_ECSO_00000503
+  View name @en: Plant Material Count Aerial Density measuresEntity plant-derived organic material
+    View attribute @en: uid Plant Material Count Aerial Density
+    View attribute @en: uid plant-derived organic material
+
+Table T02f2
+  View name IRI ECSO_00000538_measuresEntity_ONTORELA_C0242X
+  View name @en: Bicarbonate Concentration measuresEntity Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006
+    View attribute @en: uid Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006
+
+Table T02f3
+  View name IRI ECSO_00000538_STATO_0000259_ENVO_00002006
+  View name @en: Bicarbonate Concentration has denominator ENVO_00002006
+
+Table T02f4
+  View name IRI ECSO_00000538_STATO_0000259_ENVO_00002006
+  View name @en: Bicarbonate Concentration has denominator ENVO_00002006
+
+Table T02f5
+  View name IRI ECSO_00000538_STATO_0000101_ECSO_00000337
+  View name @en: Bicarbonate Concentration has numerator Inorganic Carbon
+
+Table T02f6
+  View name IRI ECSO_00001195_measuresEntity_ENVO_00010504
+  View name @en: Area Percentage measuresEntity ENVO_00010504
+
+Table T02f7
+  View name IRI ONTORELA_C026cX_BFO_0000050_ENVO_00010504
+  View name @en: Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504 BFO_0000050 ENVO_00010504
+    View attribute @en: uid Aboveground Biomass intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+
+Table T02f8
+  View name IRI ECSO_00000092_ENVO_2100001_CHEBI_36927
+  View name @en: Carbon14 Uptake Method determined by carbon-14
+
+Table T02f9
+  View name IRI ECSO_00000080_ENVO_2100001_ENVO_01000323
+  View name @en: Latent Heat MOV determined by ENVO_01000323
+
+Table T02fa
+  View name IRI ECSO_00000094_ENVO_2100001_ECSO_00000540
+  View name @en: Allometric Method determined by Growth
+
+Table T02fb
+  View name IRI ECSO_00001193_measuresCharacteristic_Name
+  View name @en: Name measuresCharacteristic Name
+
+Table T02fc
+  View name IRI ONTORELA_C0240X_BFO_0000050_ENVO_00010504
+  View name @en: Aerial Cover Percentage intersectionOf Entity | ENVO_00010504 BFO_0000050 ENVO_00010504
+    View attribute @en: uid Aerial Cover Percentage intersectionOf Entity | ENVO_00010504
+
+Table T02fd
+  View name IRI ECSO_00000093_ENVO_2100001_oxygen_atom
+  View name @en: Oxygen Evolution LightDark Method determined by oxygen atom
+    View attribute @en: uid Oxygen Evolution LightDark Method
+
+Table T02fe
+  View name IRI ECSO_00000512_STATO_0000101_Entity
+  View name @en: concentration_MeasurementType has numerator Entity
+    View attribute @en: uid concentration_MeasurementType
+
+Table T02ff
+  View name IRI ECSO_00000512_STATO_0000259_Entity
+  View name @en: concentration_MeasurementType has denominator Entity
+    View attribute @en: uid concentration_MeasurementType
+
+Table T0300
+  View name IRI ECSO_00001192_measuresEntity_ENVO_00000047
+  View name @en: Canopy Percentage measuresEntity ENVO_00000047
+
+Table T0301
+  View name IRI ECSO_00001180_measuresEntity_CHEBI_27594
+  View name @en: Carbon Biomass Density measuresEntity carbon atom
+
+Table T0302
+  View name IRI ECSO_00000548_RO_0000086_PATO_0001823
+
+Table T0303
+  View name IRI ONTORELA_C0252X_BFO_0000050_ENVO_00001998
+  View name @en: Soil Carbon Change Percentage intersectionOf carbon atom BFO_0000050 ENVO_00001998
+    View attribute @en: uid Soil Carbon Change Percentage intersectionOf carbon atom
+
+Table T0304
+  View name IRI ECSO_00002932_measuresEntity_ECSO_00002569
+  View name @en: carbon concentration_of measuresEntity carbon
+
+Table T0305
+  View name IRI ECSO_00002932_measuresCharacteristic_ECSO_00001120
+  View name @en: carbon concentration_of measuresCharacteristic Concentration
+
+Table T0306
+  View name IRI ONTORELA_C0264X_BFO_0000050_ENVO_00002006
+  View name @en: Carbonate Concentration intersectionOf Carbonate | ENVO_00002006 BFO_0000050 ENVO_00002006
+    View attribute @en: uid Carbonate Concentration intersectionOf Carbonate | ENVO_00002006
+
+Table T0307
+  View name IRI ECSO_00000501_RO_0002473_ENVO_00002040
+  View name @en: Tree composed primarily of ENVO_00002040
+
+Table T0308
+  View name IRI ECSO_00001191_measuresEntity_ECSO_00000503
+  View name @en: Crown Cover Percentage measuresEntity plant-derived organic material
+    View attribute @en: uid plant-derived organic material
+
+Table T0309
+  View name IRI ENVO_01000155_ENVO_2100001_CHEBI_27594
+  View name @en: ENVO_01000155 determined by carbon atom
+
+Table T030a
+  View name IRI ECSO_00000091_ENVO_2100001_ENVO_01000323
+  View name @en: Eddy Covariance Method determined by ENVO_01000323
+
+Table T030b
+  View name IRI ECSO_00000522_STATO_0000101_ECSO_00000323
+  View name @en: Freshwater Carbon Dioxide Concentration has numerator Carbon Dioxide
+    View attribute @en: uid Freshwater Carbon Dioxide Concentration
+
+Table T030c
+  View name IRI ECSO_00000522_STATO_0000259_ENVO_00002011
+  View name @en: Freshwater Carbon Dioxide Concentration has denominator ENVO_00002011
+    View attribute @en: uid Freshwater Carbon Dioxide Concentration
+
+Table T030d
+  View name IRI ECSO_00000522_BFO_0000050_ENVO_00002011
+  View name @en: Freshwater Carbon Dioxide Concentration BFO_0000050 ENVO_00002011
+    View attribute @en: uid Freshwater Carbon Dioxide Concentration
+
+Table T030e
+  View name IRI ECSO_00000522_measuresEntity_ECSO_00000323
+  View name @en: Freshwater Carbon Dioxide Concentration measuresEntity Carbon Dioxide
+    View attribute @en: uid Freshwater Carbon Dioxide Concentration
+
+Table T030f
+  View name IRI ECSO_00000522_measuresEntity_ECSO_00000323
+  View name @en: Freshwater Carbon Dioxide Concentration measuresEntity Carbon Dioxide
+    View attribute @en: uid Freshwater Carbon Dioxide Concentration
+
+Table T0310
+  View name IRI ECSO_00000534_ENVO_2100001_ECSO_00000504
+  View name @en: Phytoplankton Primary Production Carbon Flux determined by phytoplankton
+    View attribute @en: uid Phytoplankton Primary Production Carbon Flux
+
+Table T0311
+  View name IRI ECSO_00000534_RO_0001025_ENVO_00002030
+  View name @en: Phytoplankton Primary Production Carbon Flux RO_0001025 ENVO_00002030
+    View attribute @en: uid Phytoplankton Primary Production Carbon Flux
+
+Table T0312
+  View name IRI ECSO_00001190_measuresEntity_ONTORELA_C0240X
+  View name @en: Aerial Cover Percentage measuresEntity Aerial Cover Percentage intersectionOf Entity | ENVO_00010504
+    View attribute @en: uid Aerial Cover Percentage intersectionOf Entity | ENVO_00010504
+
+Table T0313
+  View name IRI ECSO_00000535_STATO_0000259_ENVO_00002010
+  View name @en: Oceanic Total Inorganic Carbon Concentration has denominator ENVO_00002010
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration
+
+Table T0314
+  View name IRI ECSO_00000535_measuresEntity_ONTORELA_C024cX
+  View name @en: Oceanic Total Inorganic Carbon Concentration measuresEntity Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010
+
+Table T0315
+  View name IRI ECSO_00000535_STATO_0000101_ECSO_00000337
+  View name @en: Oceanic Total Inorganic Carbon Concentration has numerator Inorganic Carbon
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration
+
+Table T0316
+  View name IRI ECSO_00000535_STATO_0000259_ENVO_00002006
+  View name @en: Oceanic Total Inorganic Carbon Concentration has denominator ENVO_00002006
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration
+
+Table T0317
+  View name IRI ECSO_00000535_STATO_0000101_ECSO_00000337
+  View name @en: Oceanic Total Inorganic Carbon Concentration has numerator Inorganic Carbon
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration
+
+Table T0318
+  View name IRI ONTORELA_C0242X_BFO_0000050_ENVO_00002006
+  View name @en: Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006 BFO_0000050 ENVO_00002006
+    View attribute @en: uid Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002006
+
+Table T0319
+  View name IRI ENVO_00000111_RO_0002473_ECSO_00000501
+  View name @en: ENVO_00000111 composed primarily of Tree
+
+Table T031a
+  View name IRI ECSO_00000544_measuresUsingProtocol_ECSO_00000094
+  View name @en: Tree Diameter measuresUsingProtocol Allometric Method
+
+Table T031b
+  View name IRI ECSO_00000556_RO_0000086_PATO_0001824
+  View name @en: dry_weight RO_0000086 PATO_0001824
+
+Table T031c
+  View name IRI ONTORELA_C0254X_BFO_0000050_ENVO_00001998
+  View name @en: Soil Porewater Salinity Concentration intersectionOf ENVO_00002006 BFO_0000050 ENVO_00001998
+    View attribute @en: uid Soil Porewater Salinity Concentration intersectionOf ENVO_00002006
+
+Table T031d
+  View name IRI ONTORELA_C024cX_BFO_0000050_ENVO_00002010
+  View name @en: Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010 BFO_0000050 ENVO_00002010
+    View attribute @en: uid Oceanic Total Inorganic Carbon Concentration intersectionOf Inorganic Carbon | ENVO_00002010
+
+Table T031e
+  View name IRI ECSO_00000533_measuresUsingProtocol_ECSO_00000090
+  View name @en: Grassland Above Ground Net Primary Production Carbon Flux measuresUsingProtocol Peak Biomass Harvest Method
+    View attribute @en: uid Grassland Above Ground Net Primary Production Carbon Flux
+    View attribute @en: uid Peak Biomass Harvest Method
+
+Table T031f
+  View name IRI ECSO_00000533_BFO_0000050_ECSO_00000503
+  View name @en: Grassland Above Ground Net Primary Production Carbon Flux BFO_0000050 plant-derived organic material
+    View attribute @en: uid Grassland Above Ground Net Primary Production Carbon Flux
+    View attribute @en: uid plant-derived organic material
+
+Table T0320
+  View name IRI ECSO_00000545_measuresUsingProtocol_ECSO_00000094
+  View name @en: Tree Circumference measuresUsingProtocol Allometric Method
+
+Table T0321
+  View name IRI ECSO_00001209_measuresEntity_ENVO_01000628
+  View name @en: Litter Depth measuresEntity plant litter
+
+Table T0322
+  View name IRI ECSO_00000053_ENVO_2100001_ECSO_00000574
+  View name @en: Average_Layer_Soil_Temperature_MOV determined by soil layer
+    View attribute @en: uid Average_Layer_Soil_Temperature_MOV
+
+Table T0323
+  View name IRI ENVO_01000628_RO_0000086_PATO_0001422
+
+Table T0324
+  View name IRI ENVO_01000628_RO_0002473_ECSO_00000503
+  View name @en: plant litter composed primarily of plant-derived organic material
+    View attribute @en: uid plant-derived organic material
+
+Table T0325
+  View name IRI ONTORELA_C023cX_BFO_0000050_ENVO_00010504
+  View name @en: Plant Cover Percentage intersectionOf plant | ENVO_00010504 BFO_0000050 ENVO_00010504
+    View attribute @en: uid Plant Cover Percentage intersectionOf plant | ENVO_00010504
+
+Table T0326
+  View name IRI ECSO_00001131_STATO_0000259_ENVO_00002010
+  View name @en: Oceanic Bicarbonate Concentration has denominator ENVO_00002010
+    View attribute @en: uid Oceanic Bicarbonate Concentration
+
+Table T0327
+  View name IRI ECSO_00001131_STATO_0000101_ECSO_00000326
+  View name @en: Oceanic Bicarbonate Concentration has numerator Bicarbonate
+    View attribute @en: uid Oceanic Bicarbonate Concentration
+
+Table T0328
+  View name IRI ECSO_00001131_STATO_0000101_ECSO_00000326
+  View name @en: Oceanic Bicarbonate Concentration has numerator Bicarbonate
+    View attribute @en: uid Oceanic Bicarbonate Concentration
+
+Table T0329
+  View name IRI ECSO_00001179_measuresEntity_CHEBI_25555
+  View name @en: Nitrogen Biomass Density measuresEntity nitrogen atom
+
+Table T032a
+  View name IRI ECSO_00001167_measuresCharacteristic_PATO_0001309
+  View name @en: temporal_MeasurementType measuresCharacteristic duration
+
+Table T032b
+  View name IRI ECSO_00001167_measuresUsingStandard_UO_0000003
+  View name @en: temporal_MeasurementType measuresUsingStandard UO_0000003
+
+Table T032c
+  View name IRI ECSO_00001143_measuresEntity_CHEBI_27594
+  View name @en: Carbon Biomass measuresEntity carbon atom
+
+Table T032d
+  View name IRI ECSO_00003196_measuresEntity_ECSO_00003195
+  View name @en: Calcium Carbonate Concentration measuresEntity Calcium Carbonate
+    View attribute @en: uid Calcium Carbonate Concentration
+
+Table T032e
+  View name IRI ECSO_00003196_measuresCharacteristic_ECSO_00001120
+  View name @en: Calcium Carbonate Concentration measuresCharacteristic Concentration
+    View attribute @en: uid Calcium Carbonate Concentration
+
+Table T032f
+  View name IRI ONTORELA_C024eX_BFO_0000050_ENVO_00010504
+  View name @en: Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504 BFO_0000050 ENVO_00010504
+    View attribute @en: uid Leaf Area Index intersectionOf plant-derived organic material | Plant Material | ENVO_00010504
+
+Table T0330
+  View name IRI ECSO_00000078_ENVO_2100001_ENVO_01000324
+  View name @en: Surface Incident Shortwave Radiation MOV determined by ENVO_01000324
+    View attribute @en: uid Surface Incident Shortwave Radiation MOV
+
+Table T0331
+  View name IRI ECSO_00000054_ENVO_2100001_ENVO_01000635
+  View name @en: Surface Runoff MOV determined by land
+
+Table T0332
+  View name IRI ECSO_00000066_ENVO_2100001_ECSO_00000574
+  View name @en: Soil_Layer_Bottom_Depth_MOV determined by soil layer
+    View attribute @en: uid Soil_Layer_Bottom_Depth_MOV
+
+Table T0333
+  View name IRI carbon_cycling_RO_0002473_CHEBI_27594
+  View name @en: carbon cycling composed primarily of carbon atom
+
+Table T0334
+  View name IRI ECSO_00001142_measuresEntity_CHEBI_36928
+  View name @en: Carbon Stable Isotope Ratio measuresEntity carbon-13
+    View attribute @en: uid Carbon Stable Isotope Ratio
+
+Table T0335
+  View name IRI ECSO_00001130_STATO_0000101_ECSO_00000329
+  View name @en: Organic Carbon Concentration in Water has numerator Organic Carbon
+    View attribute @en: uid Organic Carbon Concentration in Water
+
+Table T0336
+  View name IRI ECSO_00001130_STATO_0000259_ENVO_00002006
+  View name @en: Organic Carbon Concentration in Water has denominator ENVO_00002006
+    View attribute @en: uid Organic Carbon Concentration in Water
+
+Table T0337
+  View name IRI ECSO_00001130_measuresEntity_ECSO_00000329
+  View name @en: Organic Carbon Concentration in Water measuresEntity Organic Carbon
+    View attribute @en: uid Organic Carbon Concentration in Water
+
+Table T0338
+  View name IRI ECSO_00001178_measuresEntity_ENVO_00001998
+  View name @en: Soil Wet Weight measuresEntity ENVO_00001998
+
+Table T0339
+  View name IRI ECSO_00001178_RO_0000086_PATO_0001823
+
+Table T033a
+  View name IRI ECSO_00001166_measuresEntity_ENVO_01000155
+  View name @en: Volume Fraction Biomass Concentration measuresEntity ENVO_01000155
+    View attribute @en: uid Volume Fraction Biomass Concentration
+
+Table T033b
+  View name IRI ECSO_00000075_ENVO_2100001_ENVO_01000323
+  View name @en: Sensible Heat MOV determined by ENVO_01000323
+
+Table T033c
+  View name IRI ECSO_00000051_ENVO_2100001_ENVO_01000324
+  View name @en: Surface Pressure MOV determined by ENVO_01000324
+
+Table T033d
+  View name IRI ECSO_00001153_RO_0000086_PATO_0001824
+  View name @en: Dry Weight Biomass RO_0000086 PATO_0001824
+
+Table T033e
+  View name IRI ECSO_00001153_measuresEntity_ENVO_01000155
+  View name @en: Dry Weight Biomass measuresEntity ENVO_01000155
+
+Table T033f
+  View name IRI ONTORELA_C0256X_BFO_0000050_ENVO_00002011
+  View name @en: Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011 BFO_0000050 ENVO_00002011
+    View attribute @en: uid Freshwater Bicarbonate Concentration intersectionOf Bicarbonate | ENVO_00002011
+
+Table T0340
+  View name IRI ONTORELA_C0261X-el0_BFO_0000050_ENVO_00010483
+  View name @en: Carbon to Nitrogen Ratio unionOf Organism | environmental material element environmental material BFO_0000050 environmental material
+    View attribute @en: uid Carbon to Nitrogen Ratio unionOf Organism | environmental material element environmental material
+
+Table T0341
+  View name IRI ECSO_00001177_measuresEntity_ECSO_00000312
+  View name @en: Non-Plant Material Length measuresEntity Organism
+
+Table T0342
+  View name IRI ECSO_00001165_STATO_0000101_ENVO_00002006
+  View name @en: Soil Porewater Salinity Concentration has numerator ENVO_00002006
+    View attribute @en: uid Soil Porewater Salinity Concentration
+
+Table T0343
+  View name IRI ECSO_00001165_STATO_0000259_ENVO_00001998
+  View name @en: Soil Porewater Salinity Concentration has denominator ENVO_00001998
+    View attribute @en: uid Soil Porewater Salinity Concentration
+
+Table T0344
+  View name IRI ECSO_00001165_measuresEntity_ONTORELA_C0254X
+  View name @en: Soil Porewater Salinity Concentration measuresEntity Soil Porewater Salinity Concentration intersectionOf ENVO_00002006
+    View attribute @en: uid Soil Porewater Salinity Concentration
+    View attribute @en: uid Soil Porewater Salinity Concentration intersectionOf ENVO_00002006
+
+Table T0345
+  View name IRI ECSO_00000052_ENVO_2100001_ECSO_00000574
+  View name @en: Average Layer Soil Moisture MOV determined by soil layer
+    View attribute @en: uid Average Layer Soil Moisture MOV
+
+Table T0346
+  View name IRI ECSO_00000064_RO_0000056_ENVO_02500007
+  View name @en: Gross Primary Productivity MOV participates in ecosystem-wide photosynthesis
+    View attribute @en: uid Gross Primary Productivity MOV
+    View attribute @en: uid ecosystem-wide photosynthesis
+
+Table T0347
+  View name IRI ECSO_00000076_RO_0000056_carbon_cycling
+  View name @en: Net Ecosystem Exchange MOV participates in carbon cycling
+
+Table T0348
+  View name IRI ECSO_00001152_measuresEntity_ENVO_00010504
+  View name @en: Sampling Site Area measuresEntity ENVO_00010504
+
+Table T0349
+  View name IRI ONTORELA_C023eX_BFO_0000050_ENVO_00001998
+  View name @en: Belowground Biomass intersectionOf  BFO_0000050 ENVO_00001998
+    View attribute @en: uid Belowground Biomass intersectionOf 
+
+Table T034a
+  View name IRI ECSO_00000061_ENVO_2100001_ONTORELA_C025cX
+  View name @en: Autotrophic Respiration MOV determined by Autotrophic Respiration MOV unionOf phytoplankton | Phytoplankton | plant
+    View attribute @en: uid Autotrophic Respiration MOV
+    View attribute @en: uid Autotrophic Respiration MOV unionOf phytoplankton | Phytoplankton | plant
+
+Table T034b
+  View name IRI ECSO_00000073_RO_0002473_ENVO_00002040
+  View name @en: Above_Ground_Woody_Biomass_MOV composed primarily of ENVO_00002040
+    View attribute @en: uid Above_Ground_Woody_Biomass_MOV
+
+Table T034c
+  View name IRI ECSO_00001175_measuresEntity_ENVO_00002006
+  View name @en: Water Height measuresEntity ENVO_00002006
+
+Table T034d
+  View name IRI ECSO_00001151_RO_0000086_PATO_0001824
+  View name @en: Ash Free Dry Weight Biomass RO_0000086 PATO_0001824
+    View attribute @en: uid Ash Free Dry Weight Biomass
+
+Table T034e
+  View name IRI ECSO_00001151_measuresEntity_ENVO_01000155
+  View name @en: Ash Free Dry Weight Biomass measuresEntity ENVO_01000155
+    View attribute @en: uid Ash Free Dry Weight Biomass
+
+Table T034f
+  View name IRI ONTORELA_C0234X_BFO_0000050_ENVO_00001998
+  View name @en: Soil Moisture Percentage intersectionOf ENVO_00002006 BFO_0000050 ENVO_00001998
+    View attribute @en: uid Soil Moisture Percentage intersectionOf ENVO_00002006
+
+Table T0350
+  View name IRI ECSO_00001187_measuresEntity_ENVO_00002149
+  View name @en: Seawater Pressure measuresEntity ENVO_00002149
+
+Table T0351
+  View name IRI ECSO_00003031_measuresEntity_ENVO_00001998
+  View name @en: soil organic_content measuresEntity ENVO_00001998
+
+Table T0352
+  View name IRI ECSO_00003031_measuresCharacteristic_ECSO_00003030
+  View name @en: soil organic_content measuresCharacteristic organic_content
+
+Table T0353
+  View name IRI ECSO_00000074_ENVO_2100001_ENVO_01000324
+  View name @en: Subsurface_Runoff_MOV determined by ENVO_01000324
+
+Table T0354
+  View name IRI ECSO_00000050_ENVO_2100001_ECSO_00000503
+  View name @en: Leaf_Area_Index_MOV determined by plant-derived organic material
+    View attribute @en: uid plant-derived organic material
+
+Table T0355
+  View name IRI ECSO_00000062_RO_0000056_ENVO_01000830
+  View name @en: Rainfall_Rate_MOV participates in water-based rainfall
+
+Table T0356
+  View name IRI ECSO_00001186_measuresEntity_ENVO_00002005
+  View name @en: Air Pressure measuresEntity ENVO_00002005
+
+Table T0357
+  View name IRI ECSO_00001174_ENVO_2100001_ocean_surface
+  View name @en: Sea Level Height determined by ocean surface
+
+Table T0358
+  View name IRI ECSO_00001162_measuresEntity_ENVO_00002006
+  View name @en: Precipitation Rate measuresEntity ENVO_00002006
+
+Table T0359
+  View name IRI ECSO_00001150_measuresEntity_ECSO_00000312
+  View name @en: Non-Plant Material Biomass measuresEntity Organism
+
+Table T035a
+  View name IRI ECSO_00000095_ENVO_2100001_ENVO_01000635
+  View name @en: LIDAR Method determined by land
+
+Table T035b
+  View name IRI ECSO_00000516_measuresEntity_ECSO_00000563
+  View name @en: Chlorophyll-a Concentration measuresEntity chloroplyll-a
+    View attribute @en: uid Chlorophyll-a Concentration
+
+Table T035c
+  View name IRI ECSO_00001197_measuresEntity_ONTORELA_C023cX
+  View name @en: Plant Cover Percentage measuresEntity Plant Cover Percentage intersectionOf plant | ENVO_00010504
+    View attribute @en: uid Plant Cover Percentage intersectionOf plant | ENVO_00010504
+
+Table T035d
+  View name IRI ECSO_00000528_ENVO_2100001_ENVO_01000324
+  View name @en: Near Surface Specific Humidity MOV determined by ENVO_01000324
+    View attribute @en: uid Near Surface Specific Humidity MOV
+
+Table T035e
+  View name IRI ONTORELA_C0258X_BFO_0000050_ENVO_00002006
+  View name @en: Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006 BFO_0000050 ENVO_00002006
+    View attribute @en: uid Dissolved Organic Carbon Concentration intersectionOf Organic Carbon | ENVO_00002006
+
+Table T035f
+  View name IRI ECSO_00001161_measuresEntity_ENVO_00002006
+  View name @en: Potential Temperature measuresEntity ENVO_00002006
+
+Table T0360
+  View name IRI ECSO_00000072_ENVO_2100001_ENVO_01000324
+  View name @en: Surface Incident Longwave Radiation MOV determined by ENVO_01000324
+    View attribute @en: uid Surface Incident Longwave Radiation MOV
+
+Table T0361
+  View name IRI ECSO_00001171_measuresEntity_ENVO_00003075
+  View name @en: Built Feature Count Aerial Density measuresEntity ENVO_00003075
+    View attribute @en: uid Built Feature Count Aerial Density
+
+Table T0362
+  View name IRI ECSO_00000517_measuresEntity_ONTORELA_C0234X
+  View name @en: Soil Moisture Percentage measuresEntity Soil Moisture Percentage intersectionOf ENVO_00002006
+    View attribute @en: uid Soil Moisture Percentage intersectionOf ENVO_00002006
+
+Table T0363
+  View name IRI ECSO_00000517_measuresUsingProtocol_ECSO_00001112
+  View name @en: Soil Moisture Percentage measuresUsingProtocol Volumetric Water Content Method
+    View attribute @en: uid Volumetric Water Content Method
+
+Table T0364
+  View name IRI ECSO_00001196_measuresEntity_CHEBI_27594
+  View name @en: Carbon Specific Gross Production Rate measuresEntity carbon atom
+    View attribute @en: uid Carbon Specific Gross Production Rate
+
+Table T0365
+  View name IRI ECSO_00001184_measuresEntity_ENVO_01000155
+  View name @en: Dry Mass Density measuresEntity ENVO_01000155
+
+Table T0366
+  View name IRI ECSO_00001172_measuresEntity_ENVO_01000628
+  View name @en: Litter Biomass Density measuresEntity plant litter
+
+Table T0367
+  View name IRI ECSO_00000071_RO_0000056_ENVO_01000786
+  View name @en: Fire_Emissions_MOV participates in fire
+

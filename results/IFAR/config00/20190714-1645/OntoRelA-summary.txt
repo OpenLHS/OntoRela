@@ -1,0 +1,30 @@
+
+======================================================= 
+OntoRelA summary
+======================================================= 
+
+--------------------------------------- 
+Reduced Ontology (axiom redundancy reduction)
+--------------------------------------- 
+http://www.semanticweb.org/ontologies/2012/11/abnormalities.owl
+Nb. classes          : 4531
+Nb. data properties  : 0
+Nb. object properties: 0
+Nb. isa axioms       : 4977
+Nb. data axioms      : 0
+Nb. class axioms     : 0
+Nb. reduced axioms : 0
+
+--------------------------------------- 
+OntoRel database
+--------------------------------------- 
+Nb. all tables          : 4531
+Nb. association tables  : 0
+Nb. fks                 : 4984
+Nb. constraint functions: 0
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 52 sec
+Output total size: 16513 KB

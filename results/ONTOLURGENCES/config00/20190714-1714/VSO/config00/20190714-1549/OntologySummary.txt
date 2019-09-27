@@ -1,0 +1,1144 @@
+
+======================================================= 
+Ontology Summary
+======================================================= 
+IRI_owlapi [ontoIRI=OntoIRI [fullIRI=http://purl.org/vso/ns, shortIRI=ns], iriOwlapi=http://purl.org/vso/ns]
+
+--------------------------------------- 
+Imported Ontology : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Prefixes : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Datatypes : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Data properties : 16
+--------------------------------------- 
+DataProperty_owlapi [<http://purl.org/goodrelations/v1#datatypeProductOrServiceProperty>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://purl.org/goodrelations/v1#hasMaxValueFloat>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://purl.org/goodrelations/v1#hasMinValueFloat>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://purl.org/goodrelations/v1#hasUnitOfMeasurement>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://purl.org/goodrelations/v1#hasValueFloat>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://purl.org/goodrelations/v1#serialNumber>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://purl.org/vso/ns#ACRISSCode>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<http://purl.org/vso/ns#VIN>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<http://purl.org/vso/ns#color>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+DataProperty_owlapi [<http://purl.org/vso/ns#condition>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+DataProperty_owlapi [<http://purl.org/vso/ns#damages>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+DataProperty_owlapi [<http://purl.org/vso/ns#engineName>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+DataProperty_owlapi [<http://purl.org/vso/ns#firstRegistration>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+DataProperty_owlapi [<http://purl.org/vso/ns#modelDate>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+DataProperty_owlapi [<http://purl.org/vso/ns#productionDate>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+DataProperty_owlapi [<http://purl.org/vso/ns#rentalUsage>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=boolean OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#boolean, shortIRI=boolean]], owlDatatype=xsd:boolean]
+
+--------------------------------------- 
+Object properties : 38
+--------------------------------------- 
+ObjectProperty_owlapi [<http://purl.org/goodrelations/v1#qualitativeProductOrServiceProperty>, isFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://purl.org/goodrelations/v1#quantitativeProductOrServiceProperty>, isFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://purl.org/goodrelations/v1#valueReference>, isFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://purl.org/vso/ns#acceleration>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#axles>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#bodyStyle>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#BodyStyleValue, shortIRI=BodyStyleValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#cargoVolume>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Watercraft, shortIRI=Watercraft],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#doors>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#driveWheelConfiguration>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#DriveWheelConfigurationValue, shortIRI=DriveWheelConfigurationValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#engineDisplacement>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#enginePower>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#engineType>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EngineTypeValue, shortIRI=EngineTypeValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#feature>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FeatureValue, shortIRI=FeatureValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelConsumption>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelEconomy>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelTankVolume>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelType>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FuelTypeValue, shortIRI=FuelTypeValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#gearsTotal>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Quadracycle, shortIRI=Quadracycle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#height>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#length>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#meetsEmissionStandard>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EmissionStandardValue, shortIRI=EmissionStandardValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#mileageFromOdometer>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#payload>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#previousOwners>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#referenceDistance>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValue, shortIRI=QuantitativeValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#referenceFuelQuantity>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FuelQuantity, shortIRI=FuelQuantity],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#referenceSpeeds>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SpeedInterval, shortIRI=SpeedInterval],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#roofLoad>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#seatingCapacity>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#speed>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#steeringPosition>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SteeringPositionValue, shortIRI=SteeringPositionValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#tongueWeight>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#trailerWeight>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#transmission>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Quadracycle, shortIRI=Quadracycle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#TransmissionTypeValue, shortIRI=TransmissionTypeValue],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#weight>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#weightTotal>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#wheelbase>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Quadracycle, shortIRI=Quadracycle],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ObjectProperty_owlapi [<http://purl.org/vso/ns#width>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+
+--------------------------------------- 
+Classes : 33
+--------------------------------------- 
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#BusOrCoach, shortIRI=BusOrCoach],type=DECLARED]
+  ISA http://purl.org/vso/ns#MotorizedRoadVehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FeatureValue, shortIRI=FeatureValue],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QualitativeValue
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Motorcycle, shortIRI=Motorcycle],type=DECLARED]
+  ISA http://purl.org/vso/ns#MotorizedRoadVehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Automobile, shortIRI=Automobile],type=DECLARED]
+  ISA http://purl.org/vso/ns#MotorizedRoadVehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Truck, shortIRI=Truck],type=DECLARED]
+  ISA http://purl.org/vso/ns#MotorizedRoadVehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EmissionStandardValue, shortIRI=EmissionStandardValue],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QualitativeValue
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#DriveWheelConfigurationValue, shortIRI=DriveWheelConfigurationValue],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QualitativeValue
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Kayak, shortIRI=Kayak],type=DECLARED]
+  ISA http://purl.org/vso/ns#Watercraft
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Watercraft, shortIRI=Watercraft],type=DECLARED]
+  ISA http://purl.org/vso/ns#Vehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Vehicle, shortIRI=Vehicle],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#ProductOrService
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EngineTypeValue, shortIRI=EngineTypeValue],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QualitativeValue
+OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValue, shortIRI=QuantitativeValue],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FuelQuantity, shortIRI=FuelQuantity],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QuantitativeValueFloat
+OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Rickshaw, shortIRI=Rickshaw],type=DECLARED]
+  ISA http://purl.org/vso/ns#Vehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Canoe, shortIRI=Canoe],type=DECLARED]
+  ISA http://purl.org/vso/ns#Boat
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  ISA http://purl.org/vso/ns#Vehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  ISA http://purl.org/vso/ns#Watercraft
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Van, shortIRI=Van],type=DECLARED]
+  ISA http://purl.org/vso/ns#MotorizedRoadVehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#BodyStyleValue, shortIRI=BodyStyleValue],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QualitativeValue
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Quadracycle, shortIRI=Quadracycle],type=DECLARED]
+  ISA http://purl.org/vso/ns#Vehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedBicycle, shortIRI=MotorizedBicycle],type=DECLARED]
+  ISA http://purl.org/vso/ns#MotorizedRoadVehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FuelTypeValue, shortIRI=FuelTypeValue],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QualitativeValue
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  ISA http://purl.org/vso/ns#Watercraft
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  ISA http://purl.org/vso/ns#Vehicle
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SailingBoat, shortIRI=SailingBoat],type=DECLARED]
+  ISA http://purl.org/vso/ns#Boat
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#TransmissionTypeValue, shortIRI=TransmissionTypeValue],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QualitativeValue
+OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorBoat, shortIRI=MotorBoat],type=DECLARED]
+  ISA http://purl.org/vso/ns#Boat
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SpeedInterval, shortIRI=SpeedInterval],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QuantitativeValueFloat
+OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SteeringPositionValue, shortIRI=SteeringPositionValue],type=DECLARED]
+  ISA http://purl.org/goodrelations/v1#QualitativeValue
+
+--------------------------------------- 
+Class Inheritance Axioms : 28
+--------------------------------------- 
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Motorcycle, shortIRI=Motorcycle],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Quadracycle, shortIRI=Quadracycle],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Vehicle, shortIRI=Vehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Watercraft, shortIRI=Watercraft],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#BusOrCoach, shortIRI=BusOrCoach],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Automobile, shortIRI=Automobile],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedBicycle, shortIRI=MotorizedBicycle],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Vehicle, shortIRI=Vehicle],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Watercraft, shortIRI=Watercraft],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Rickshaw, shortIRI=Rickshaw],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Vehicle, shortIRI=Vehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Vehicle, shortIRI=Vehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Van, shortIRI=Van],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EngineTypeValue, shortIRI=EngineTypeValue],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Watercraft, shortIRI=Watercraft],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Vehicle, shortIRI=Vehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FuelQuantity, shortIRI=FuelQuantity],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EmissionStandardValue, shortIRI=EmissionStandardValue],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FuelTypeValue, shortIRI=FuelTypeValue],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SteeringPositionValue, shortIRI=SteeringPositionValue],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#DriveWheelConfigurationValue, shortIRI=DriveWheelConfigurationValue],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Vehicle, shortIRI=Vehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Truck, shortIRI=Truck],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SailingBoat, shortIRI=SailingBoat],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Canoe, shortIRI=Canoe],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorBoat, shortIRI=MotorBoat],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Kayak, shortIRI=Kayak],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Watercraft, shortIRI=Watercraft],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#BodyStyleValue, shortIRI=BodyStyleValue],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SpeedInterval, shortIRI=SpeedInterval],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#TransmissionTypeValue, shortIRI=TransmissionTypeValue],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FeatureValue, shortIRI=FeatureValue],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QualitativeValue, shortIRI=QualitativeValue],type=DECLARED]
+ axiomOrigin=DECLARED]
+
+--------------------------------------- 
+Data Association Axioms : 13
+--------------------------------------- 
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#ACRISSCode>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] ACRISSCode string]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] ACRISSCode string]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#VIN>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] VIN string]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] VIN string]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#color>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] color Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] color Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#condition>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] condition Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] condition Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#damages>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] damages Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] damages Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#engineName>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Bicycle [1..*] engineName Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=Bicycle [1..*] engineName Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#engineName>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] engineName Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] engineName Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#engineName>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] engineName Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] engineName Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#engineName>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=rdfs:Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] engineName Literal]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] engineName Literal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#firstRegistration>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] firstRegistration date]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] firstRegistration date]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#modelDate>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] modelDate date]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] modelDate date]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#productionDate>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] productionDate date]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] productionDate date]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<http://purl.org/vso/ns#rentalUsage>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=boolean OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#boolean, shortIRI=boolean]], owlDatatype=xsd:boolean]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] rentalUsage boolean]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] rentalUsage boolean]
+]]
+
+--------------------------------------- 
+Class Association Axioms : 58
+--------------------------------------- 
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#acceleration>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] acceleration QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] acceleration QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#acceleration>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] acceleration QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#acceleration>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] acceleration QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] acceleration QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#axles>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] axles QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#bodyStyle>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#BodyStyleValue, shortIRI=BodyStyleValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] bodyStyle BodyStyleValue]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] bodyStyle BodyStyleValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#cargoVolume>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] cargoVolume QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Watercraft, shortIRI=Watercraft],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#cargoVolume>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Watercraft [1..*] cargoVolume QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Watercraft [1..*] cargoVolume QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#doors>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] doors QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#driveWheelConfiguration>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#DriveWheelConfigurationValue, shortIRI=DriveWheelConfigurationValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] driveWheelConfiguration DriveWheelConfigurationValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#engineDisplacement>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] engineDisplacement QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] engineDisplacement QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#engineDisplacement>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] engineDisplacement QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#engineDisplacement>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] engineDisplacement QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] engineDisplacement QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#enginePower>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] enginePower QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] enginePower QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#enginePower>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] enginePower QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#enginePower>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] enginePower QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] enginePower QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#engineType>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EngineTypeValue, shortIRI=EngineTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] engineType EngineTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] engineType EngineTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#engineType>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EngineTypeValue, shortIRI=EngineTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] engineType EngineTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] engineType EngineTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#engineType>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EngineTypeValue, shortIRI=EngineTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] engineType EngineTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] engineType EngineTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#feature>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FeatureValue, shortIRI=FeatureValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] feature FeatureValue]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] feature FeatureValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelConsumption>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] fuelConsumption QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] fuelConsumption QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelConsumption>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] fuelConsumption QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelConsumption>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] fuelConsumption QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] fuelConsumption QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelEconomy>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] fuelEconomy QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelTankVolume>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] fuelTankVolume QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] fuelTankVolume QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelTankVolume>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] fuelTankVolume QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelTankVolume>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] fuelTankVolume QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] fuelTankVolume QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#fuelType>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FuelTypeValue, shortIRI=FuelTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] fuelType FuelTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] fuelType FuelTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#gearsTotal>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Bicycle [1..*] gearsTotal QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=Bicycle [1..*] gearsTotal QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#gearsTotal>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] gearsTotal QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] gearsTotal QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#gearsTotal>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] gearsTotal QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Quadracycle, shortIRI=Quadracycle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#gearsTotal>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Quadracycle [1..*] gearsTotal QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=Quadracycle [1..*] gearsTotal QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#gearsTotal>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] gearsTotal QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] gearsTotal QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#height>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] height QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] height QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#length>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] length QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] length QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#meetsEmissionStandard>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#EmissionStandardValue, shortIRI=EmissionStandardValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] meetsEmissionStandard EmissionStandardValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#mileageFromOdometer>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] mileageFromOdometer QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#payload>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] payload QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] payload QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#previousOwners>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] previousOwners QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] previousOwners QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#referenceDistance>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValue, shortIRI=QuantitativeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=QuantitativeValueFloat [1..*] referenceDistance QuantitativeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#referenceFuelQuantity>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#FuelQuantity, shortIRI=FuelQuantity],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity]
+OntoAnnotation [type=DEFINITION, language=en, value=QuantitativeValueFloat [1..*] referenceFuelQuantity FuelQuantity]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#referenceSpeeds>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SpeedInterval, shortIRI=SpeedInterval],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval]
+OntoAnnotation [type=DEFINITION, language=en, value=QuantitativeValueFloat [1..*] referenceSpeeds SpeedInterval]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#roofLoad>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] roofLoad QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#seatingCapacity>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueInteger, shortIRI=QuantitativeValueInteger],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] seatingCapacity QuantitativeValueInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] seatingCapacity QuantitativeValueInteger]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#speed>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] speed QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] speed QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#steeringPosition>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#SteeringPositionValue, shortIRI=SteeringPositionValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] steeringPosition SteeringPositionValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#tongueWeight>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] tongueWeight QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#trailerWeight>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] trailerWeight QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#transmission>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#TransmissionTypeValue, shortIRI=TransmissionTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Bicycle [1..*] transmission TransmissionTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=Bicycle [1..*] transmission TransmissionTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Boat, shortIRI=Boat],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#transmission>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#TransmissionTypeValue, shortIRI=TransmissionTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Boat [1..*] transmission TransmissionTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=Boat [1..*] transmission TransmissionTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#transmission>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#TransmissionTypeValue, shortIRI=TransmissionTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] transmission TransmissionTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Quadracycle, shortIRI=Quadracycle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#transmission>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#TransmissionTypeValue, shortIRI=TransmissionTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Quadracycle [1..*] transmission TransmissionTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=Quadracycle [1..*] transmission TransmissionTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Ship, shortIRI=Ship],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#transmission>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#TransmissionTypeValue, shortIRI=TransmissionTypeValue],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Ship [1..*] transmission TransmissionTypeValue]
+OntoAnnotation [type=DEFINITION, language=en, value=Ship [1..*] transmission TransmissionTypeValue]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#weight>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] weight QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] weight QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#weightTotal>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] weightTotal QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] weightTotal QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Bicycle, shortIRI=Bicycle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#wheelbase>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Bicycle [1..*] wheelbase QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Bicycle [1..*] wheelbase QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#MotorizedRoadVehicle, shortIRI=MotorizedRoadVehicle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#wheelbase>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=MotorizedRoadVehicle [1..*] wheelbase QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/vso/ns#Quadracycle, shortIRI=Quadracycle],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#wheelbase>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Quadracycle [1..*] wheelbase QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=Quadracycle [1..*] wheelbase QuantitativeValueFloat]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#ProductOrService, shortIRI=ProductOrService],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://purl.org/vso/ns#width>, isFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://purl.org/goodrelations/v1#QuantitativeValueFloat, shortIRI=QuantitativeValueFloat],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ProductOrService [1..*] width QuantitativeValueFloat]
+OntoAnnotation [type=DEFINITION, language=en, value=ProductOrService [1..*] width QuantitativeValueFloat]
+]]

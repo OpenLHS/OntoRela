@@ -1,0 +1,523 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.obolibrary.org/obo/GENO_0000902 -> T0001::GENO_0000902::genomic locus
+http://purl.obolibrary.org/obo/GENO_0000914 -> T0002::GENO_0000914::reference genome
+http://purl.obolibrary.org/obo/GENO_0000926 -> T0003::GENO_0000926::allelic cellular distribution
+http://purl.obolibrary.org/obo/BFO_0000040 -> T0004::BFO_0000040::material entity
+http://purl.obolibrary.org/obo/IAO_0000102 -> T0005::IAO_0000102::data about an ontology part
+http://purl.obolibrary.org/obo/SO_1000025 -> T0006::SO_1000025::A_to_T_transversion
+http://purl.obolibrary.org/obo/GENO_0000938 -> T0007::GENO_0000938::incomplete X-linked dominant inheritance
+http://purl.obolibrary.org/obo/SO_1000013 -> T0008::SO_1000013::T_to_C_transition
+http://purl.obolibrary.org/obo/SO_0000337 -> T0009::SO_0000337::RNAi_reagent
+http://purl.obolibrary.org/obo/GENO_0000141 -> T000a::GENO_0000141::inheritance pattern
+http://purl.obolibrary.org/obo/GENO_0000492 -> T000b::GENO_0000492::mutation
+http://purl.obolibrary.org/obo/GENO_0000480 -> T000c::GENO_0000480::mutant
+http://purl.obolibrary.org/obo/GENO_0000165 -> T000d::GENO_0000165::mutagen treatment technique
+http://purl.obolibrary.org/obo/ZP_0000199 -> T000e::ZP_0000199::abnormal(ly) malformed endocardium cell
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C0199X -> T000f::ONTORELA_C0199X::variant allele unionOf sequence_alteration | has subsequence
+http://purl.obolibrary.org/obo/GENO_0000915 -> T0010::GENO_0000915::haplotype
+http://purl.obolibrary.org/obo/GENO_0000927 -> T0011::GENO_0000927::constitutional
+http://purl.obolibrary.org/obo/GENO_0000818 -> T0012::GENO_0000818::modification-qualified sequence feature
+http://purl.obolibrary.org/obo/GENO_0000939 -> T0013::GENO_0000939::co-dominant X-linked inheritance
+http://purl.obolibrary.org/obo/SO_1000036 -> T0014::SO_1000036::inversion
+http://purl.obolibrary.org/obo/SO_1000012 -> T0015::SO_1000012::C_to_T_transition_at_pCpG_site
+http://purl.obolibrary.org/obo/SO_1000024 -> T0016::SO_1000024::A_to_C_transversion
+http://purl.obolibrary.org/obo/GENO_0000481 -> T0017::GENO_0000481::genomic feature
+http://purl.obolibrary.org/obo/GENO_0000033 -> T0018::GENO_0000033::variant genome
+http://purl.obolibrary.org/obo/GENO_0000057 -> T0019::GENO_0000057::mus musculus gene
+http://purl.obolibrary.org/obo/GENO_0000166 -> T001a::GENO_0000166::targeted gene mutation technique
+http://purl.obolibrary.org/obo/GENO_0000142 -> T001b::GENO_0000142::obsolete_dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000924 -> T001c::GENO_0000924::obsolete_intrinsic sequence feature attribute
+http://purl.obolibrary.org/obo/GENO_0000815 -> T001d::GENO_0000815::sequence feature location
+http://purl.obolibrary.org/obo/GENO_0000839 -> T001e::GENO_0000839::knockdown reagent targeted gene complement
+http://purl.obolibrary.org/obo/SO_0001218 -> T001f::SO_0001218::transgenic_insertion
+http://purl.obolibrary.org/obo/SO_1000015 -> T0020::SO_1000015::A_to_G_transition
+http://purl.obolibrary.org/obo/GENO_0000948 -> T0021::GENO_0000948::W-linked inheritance
+http://purl.obolibrary.org/obo/GENO_0000936 -> T0022::GENO_0000936::X-linked inheritance
+http://purl.obolibrary.org/obo/GENO_0000912 -> T0023::GENO_0000912::selectable marker region
+http://purl.obolibrary.org/obo/GENO_0000054 -> T0024::GENO_0000054::homo sapiens gene
+http://purl.obolibrary.org/obo/GENO_0000393 -> T0025::GENO_0000393::trisomic homozygous
+http://purl.obolibrary.org/obo/PATO_0000383 -> T0026::PATO_0000383::female
+http://purl.obolibrary.org/obo/SO_0000105 -> T0027::SO_0000105::chromosome arm
+http://purl.obolibrary.org/obo/SO_1000016 -> T0028::SO_1000016::G_to_A_transition
+http://purl.org/oban/association -> T0029::association::association
+http://purl.obolibrary.org/obo/GENO_0000030 -> T002a::GENO_0000030::variant single locus complement
+http://purl.obolibrary.org/obo/GENO_0000175 -> T002b::GENO_0000175::random transgene insertion technique
+http://purl.obolibrary.org/obo/GENO_0000042 -> T002c::GENO_0000042::obsolete_reference junction
+http://purl.obolibrary.org/obo/GO_0003674 -> T002d::GO_0003674::molecular function
+http://purl.obolibrary.org/obo/OBI_0000435 -> T002e::OBI_0000435::genotyping assay
+http://purl.obolibrary.org/obo/GENO_0000925 -> T002f::GENO_0000925::obsolete_extrinsic sequence feature attribute
+http://purl.obolibrary.org/obo/GENO_0000719 -> T0030::GENO_0000719::intrinsic genotype
+http://purl.obolibrary.org/obo/SO_0000771 -> T0031::SO_0000771::QTL
+http://purl.obolibrary.org/obo/SO_1000014 -> T0032::SO_1000014::purine_transition
+http://purl.obolibrary.org/obo/SO_0000783 -> T0033::SO_0000783::engineered
+http://purl.obolibrary.org/obo/GENO_0000949 -> T0034::GENO_0000949::mitochondrial inheritance
+http://purl.obolibrary.org/obo/SO_1000026 -> T0035::SO_1000026::G_to_C_transversion
+http://purl.obolibrary.org/obo/GENO_0000937 -> T0036::GENO_0000937::complete X-linked dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000901 -> T0037::GENO_0000901::obsolete_allele cellular context
+http://purl.obolibrary.org/obo/SO_0000577 -> T0038::SO_0000577::centromere
+http://purl.obolibrary.org/obo/SO_1000002 -> T0039::SO_1000002::substitution
+http://purl.obolibrary.org/obo/OBI_0600043 -> T003a::OBI_0600043::genetic modification technique
+http://purl.obolibrary.org/obo/PATO_0000384 -> T003b::PATO_0000384::male
+http://purl.obolibrary.org/obo/GENO_0000152 -> T003c::GENO_0000152::reference
+http://purl.obolibrary.org/obo/SO_0000699 -> T003d::SO_0000699::junction
+http://purl.obolibrary.org/obo/GENO_0000394 -> T003e::GENO_0000394::trisomic heterozygous
+http://purl.obolibrary.org/obo/GENO_0000140 -> T003f::GENO_0000140::non-heritable
+http://purl.obolibrary.org/obo/SO_1000027 -> T0040::SO_1000027::G_to_T_transversion
+http://purl.obolibrary.org/obo/GENO_0000491 -> T0041::GENO_0000491::obsolete_mutant allele
+http://purl.obolibrary.org/obo/SO_1000039 -> T0042::SO_1000039::direct_tandem_duplication
+http://purl.obolibrary.org/obo/NCBITaxon_7955 -> T0043::NCBITaxon_7955::Danio rerio
+http://purl.obolibrary.org/obo/GENO_0000164 -> T0044::GENO_0000164::genetic insertion technique
+http://purl.obolibrary.org/obo/GENO_0000934 -> T0045::GENO_0000934::autosomal inheritance
+http://purl.obolibrary.org/obo/GENO_0000619 -> T0046::GENO_0000619::gpos
+http://purl.obolibrary.org/obo/BFO_0000020 -> T0047::BFO_0000020::specifically dependent continuant
+http://purl.obolibrary.org/obo/SO_1000021 -> T0048::SO_1000021::T_to_A_transversion
+http://purl.obolibrary.org/obo/NCBITaxon_10239 -> T0049::NCBITaxon_10239::Viruses
+http://biohackathon.org/resource/faldo#Region -> T004a::Region::Region
+http://purl.obolibrary.org/obo/GENO_0000910 -> T004b::GENO_0000910::reporter role
+http://purl.obolibrary.org/obo/GENO_0000922 -> T004c::GENO_0000922::biological sequence complement
+http://purl.obolibrary.org/obo/GENO_0000946 -> T004d::GENO_0000946::co-dominant Z-linked inheritance
+http://purl.obolibrary.org/obo/GENO_0000173 -> T004e::GENO_0000173::promoter trapping technique
+http://purl.obolibrary.org/obo/SO_0000248 -> T004f::SO_0000248::sequence_length_variation
+http://purl.obolibrary.org/obo/GENO_0000391 -> T0050::GENO_0000391::disomic zygosity
+http://purl.obolibrary.org/obo/SO_0001784 -> T0051::SO_0001784::complex_structural_alteration
+http://purl.obolibrary.org/obo/BFO_0000031 -> T0052::BFO_0000031::generically dependent continuant
+http://purl.obolibrary.org/obo/SO_1000032 -> T0053::SO_1000032::indel
+http://www.ncbi.nlm.nih.gov/gene/6469 -> T0054::6469::homo sapiens SHH gene
+http://purl.obolibrary.org/obo/SO_1000020 -> T0055::SO_1000020::C_to_G_transversion
+http://purl.obolibrary.org/obo/GENO_0000947 -> T0056::GENO_0000947::Z-linked reccessive inheritance
+http://purl.obolibrary.org/obo/GENO_0000911 -> T0057::GENO_0000911::selectable marker role
+http://purl.obolibrary.org/obo/GENO_0000935 -> T0058::GENO_0000935::allosomal inheritance
+http://purl.obolibrary.org/obo/GENO_0000923 -> T0059::GENO_0000923::genetic dosage
+http://purl.obolibrary.org/obo/GENO_0000174 -> T005a::GENO_0000174::targeted knock-in technique
+http://purl.obolibrary.org/obo/ZP_0000386 -> T005b::ZP_0000386::abnormal(ly) absent dorso-rostral cluster
+http://purl.obolibrary.org/obo/GENO_0000150 -> T005c::GENO_0000150::obsolete_autosomal recessive inheritance
+http://purl.obolibrary.org/obo/GENO_0000392 -> T005d::GENO_0000392::aneusomic zygosity
+http://purl.obolibrary.org/obo/SO_0001785 -> T005e::SO_0001785::structural_alteration
+http://biohackathon.org/resource/faldo#StrandedPosition -> T005f::StrandedPosition::Stranded position
+http://purl.obolibrary.org/obo/SO_0001410 -> T0060::SO_0001410::experimental_feature
+http://purl.obolibrary.org/obo/GENO_0000605 -> T0061::GENO_0000605::hemizygous Y-linked
+http://purl.obolibrary.org/obo/GENO_0000944 -> T0062::GENO_0000944::complete Z-linked dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000932 -> T0063::GENO_0000932::polygenic inheritance
+http://purl.obolibrary.org/obo/GENO_0000629 -> T0064::GENO_0000629::long chromosome arm
+http://purl.obolibrary.org/obo/SO_1000011 -> T0065::SO_1000011::C_to_T_transition
+http://purl.obolibrary.org/obo/BFO_0000034 -> T0066::BFO_0000034::function
+http://purl.obolibrary.org/obo/GENO_0000920 -> T0067::GENO_0000920::qualified sequence feature complement
+http://purl.obolibrary.org/obo/SO_1000023 -> T0068::SO_1000023::purine_to_pyrimidine_transversion
+http://purl.obolibrary.org/obo/GENO_0000702 -> T0069::GENO_0000702::biological sequence
+http://purl.obolibrary.org/obo/GENO_0000823 -> T006a::GENO_0000823::allelic genotype
+http://purl.obolibrary.org/obo/SO_1000035 -> T006b::SO_1000035::duplication
+http://purl.obolibrary.org/obo/GENO_0000714 -> T006c::GENO_0000714::qualified genomic feature
+http://purl.obolibrary.org/obo/SO_0000149 -> T006d::SO_0000149::contig
+http://purl.obolibrary.org/obo/GENO_0000171 -> T006e::GENO_0000171::enhancer trapping technique
+http://purl.obolibrary.org/obo/HP_0000118 -> T006f::HP_0000118::human phenotypic abnormality
+http://purl.obolibrary.org/obo/SO_0001479 -> T0070::SO_0001479::enhancer_trap_construct
+http://purl.obolibrary.org/obo/GENO_0000606 -> T0071::GENO_0000606::hemizygous insertion-linked
+http://purl.obolibrary.org/obo/GENO_0000715 -> T0072::GENO_0000715::qualified genomic feature complement
+http://purl.obolibrary.org/obo/GENO_0000945 -> T0073::GENO_0000945::incomplete Z-linked dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000848 -> T0074::GENO_0000848::obsolete_coding sequence alteration
+http://purl.obolibrary.org/obo/GENO_0000933 -> T0075::GENO_0000933::monogenic inheritance
+http://purl.obolibrary.org/obo/GENO_0000618 -> T0076::GENO_0000618::chromosomal band intensity
+http://biohackathon.org/resource/faldo#ExactPosition -> T0077::ExactPosition::Exact position
+http://purl.obolibrary.org/obo/SO_1000010 -> T0078::SO_1000010::pyrimidine_transition
+http://purl.obolibrary.org/obo/SO_1000022 -> T0079::SO_1000022::T_to_G_transversion
+http://purl.obolibrary.org/obo/SO_0000694 -> T007a::SO_0000694::SNP
+http://purl.obolibrary.org/obo/GENO_0000921 -> T007b::GENO_0000921::biological sequence or collection
+http://purl.obolibrary.org/obo/GENO_0000172 -> T007c::GENO_0000172::gene trapping technique
+http://purl.obolibrary.org/obo/GENO_0000160 -> T007d::GENO_0000160::unspecified life cycle stage
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C0189X -> T007e::ONTORELA_C0189X::genomic material unionOf cell | Viruses
+http://purl.obolibrary.org/obo/GENO_0000506 -> T007f::GENO_0000506::transiently-expressed transgene
+http://purl.obolibrary.org/obo/GENO_0000942 -> T0080::GENO_0000942::Z-linked inheritance
+http://purl.obolibrary.org/obo/GENO_0000930 -> T0081::GENO_0000930::digenic inheritance
+http://purl.obolibrary.org/obo/SO_0005836 -> T0082::SO_0005836::regulatory_region
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C018dX-el0 -> T0083::ONTORELA_C018dX-el0::genotype-phenotype association unionOf genotype | is part of element genotype | is part of
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C018dX -> T0084::ONTORELA_C018dX::genotype-phenotype association unionOf genotype | is part of
+http://purl.obolibrary.org/obo/GENO_0000833 -> T0085::GENO_0000833::genotype-phenotype association
+http://purl.obolibrary.org/obo/GENO_0000724 -> T0086::GENO_0000724::obsolete_biological sequence or collection
+http://purl.obolibrary.org/obo/GENO_0000736 -> T0087::GENO_0000736::location-qualified sequence feature
+http://purl.obolibrary.org/obo/GENO_0000603 -> T0088::GENO_0000603::heteroplasmic
+http://purl.obolibrary.org/obo/GENO_0000060 -> T0089::GENO_0000060::obsolete_reference gene allele
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C0195X -> T008a::ONTORELA_C0195X::intrinsic genotype unionOf single locus complement | genome
+http://purl.obolibrary.org/obo/GENO_0000628 -> T008b::GENO_0000628::short chromosome arm
+http://purl.obolibrary.org/obo/GENO_0000737 -> T008c::GENO_0000737::expression-qualified sequence feature
+http://purl.obolibrary.org/obo/GENO_0000616 -> T008d::GENO_0000616::chromosome sub-band
+http://purl.obolibrary.org/obo/GENO_0000943 -> T008e::GENO_0000943::Z-linked dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000931 -> T008f::GENO_0000931::oligogenic inheritance
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C0193X -> T0090::ONTORELA_C0193X::genotype-phenotype association intersectionOf developmental process | starts during | ends during | life cycle stage element life cycle stage | ends during | starts during intersectionOf starts during | life cycle stage | ends during
+http://purl.obolibrary.org/obo/OBI_0000181 -> T0091::OBI_0000181::population
+http://purl.obolibrary.org/obo/BFO_0000023 -> T0092::BFO_0000023::role
+http://purl.obolibrary.org/obo/GENO_0000701 -> T0093::GENO_0000701::sequence feature or collection
+http://purl.obolibrary.org/obo/GENO_0000604 -> T0094::GENO_0000604::hemizygous X-linked
+http://purl.obolibrary.org/obo/GENO_0000713 -> T0095::GENO_0000713::qualified sequence feature or collection
+http://purl.obolibrary.org/obo/GENO_0000725 -> T0096::GENO_0000725::obsolete_biological sequence collection
+http://purl.obolibrary.org/obo/SO_0000830 -> T0097::SO_0000830::chromosome part
+http://purl.obolibrary.org/obo/ERO_0000007 -> T0098::ERO_0000007::technique
+http://purl.obolibrary.org/obo/SO_0000637 -> T0099::SO_0000637::obsolete_engineered_plasmid
+http://purl.obolibrary.org/obo/SO_1000009 -> T009a::SO_1000009::transition
+http://purl.obolibrary.org/obo/GENO_0000170 -> T009b::GENO_0000170::targeted genetic insertion technique
+http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -> T009c::ObsoleteClass::ObsoleteClass
+http://purl.obolibrary.org/obo/SO_0001505 -> T009d::SO_0001505::reference genome sequence
+http://purl.obolibrary.org/obo/GENO_0000528 -> T009e::GENO_0000528::transiently-expressed transgene complement
+http://purl.obolibrary.org/obo/GENO_0000649 -> T009f::GENO_0000649::unspecified background genotype
+http://purl.obolibrary.org/obo/GENO_0000952 -> T00a0::GENO_0000952::sex-limited autosomal dominant inheritance
+http://purl.obolibrary.org/obo/CHEBI_23367 -> T00a1::CHEBI_23367::molecular entity
+http://purl.obolibrary.org/obo/BFO_0000002 -> T00a2::BFO_0000002::continuant
+http://purl.obolibrary.org/obo/GENO_0000722 -> T00a3::GENO_0000722::amino acid sequence
+http://purl.obolibrary.org/obo/GENO_0000516 -> T00a4::GENO_0000516::single locus complement
+http://purl.obolibrary.org/obo/GENO_0000637 -> T00a5::GENO_0000637::regulatory transgene region
+http://purl.obolibrary.org/obo/GENO_0000879 -> T00a6::GENO_0000879::paternal allele origin
+http://purl.obolibrary.org/obo/GENO_0000504 -> T00a7::GENO_0000504::reagent targeted gene
+http://purl.obolibrary.org/obo/GENO_0000625 -> T00a8::GENO_0000625::gpos25
+http://purl.obolibrary.org/obo/ZP_0005531 -> T00a9::ZP_0005531::abnormal(ly) disrupted neutrophil aggregation
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C018bX -> T00aa::ONTORELA_C018bX::genetic modification technique intersectionOf genomic material | bears_concretization_of | variant allele
+http://purl.obolibrary.org/obo/ZP_0000755 -> T00ab::ZP_0000755::abnormal(ly) disrupted  diencephalon development
+http://purl.obolibrary.org/obo/GENO_0000529 -> T00ac::GENO_0000529::expression-variant gene
+http://purl.obolibrary.org/obo/GENO_0000638 -> T00ad::GENO_0000638::expressed transgene region
+http://purl.obolibrary.org/obo/PCO_0000000 -> T00ae::PCO_0000000::collection of organisms
+http://purl.obolibrary.org/obo/GENO_0000953 -> T00af::GENO_0000953::sex-limited autosomal recessive inheritance
+http://purl.obolibrary.org/obo/GENO_0000941 -> T00b0::GENO_0000941::Y-linked inheritance
+http://purl.obolibrary.org/obo/BFO_0000001 -> T00b1::BFO_0000001::entity
+http://purl.obolibrary.org/obo/GENO_0000602 -> T00b2::GENO_0000602::homoplasmic
+http://purl.obolibrary.org/obo/GENO_0000856 -> T00b3::GENO_0000856::engineered genetic construct
+http://purl.obolibrary.org/obo/GENO_0000614 -> T00b4::GENO_0000614::chromosomal region
+http://purl.obolibrary.org/obo/ENVO_01000254 -> T00b5::ENVO_01000254::environmental system
+http://purl.obolibrary.org/obo/SO_0001745 -> T00b6::SO_0001745::maternal_uniparental_disomy
+http://purl.obolibrary.org/obo/GENO_0000611 -> T00b7::GENO_0000611::background genotype
+http://purl.obolibrary.org/obo/GENO_0000720 -> T00b8::GENO_0000720::DNA sequence
+http://purl.obolibrary.org/obo/BFO_0000004 -> T00b9::BFO_0000004::independent continuant
+http://purl.obolibrary.org/obo/GENO_0000877 -> T00ba::GENO_0000877::allele origin
+http://purl.obolibrary.org/obo/GENO_0000502 -> T00bb::GENO_0000502::wild-type gene
+http://purl.obolibrary.org/obo/GENO_0000623 -> T00bc::GENO_0000623::gpos75
+http://purl.obolibrary.org/obo/GENO_0000659 -> T00bd::GENO_0000659::sequence feature complement
+http://purl.obolibrary.org/obo/GENO_0000768 -> T00be::GENO_0000768::obsolete_genomic position
+http://purl.obolibrary.org/obo/GENO_0000889 -> T00bf::GENO_0000889::undetermined inheritance
+http://purl.obolibrary.org/obo/GENO_0000647 -> T00c0::GENO_0000647::female intrinsic genotype
+http://purl.obolibrary.org/obo/BFO_0000016 -> T00c1::BFO_0000016::disposition
+http://purl.obolibrary.org/obo/SO_1000018 -> T00c2::SO_1000018::pyrimidine_to_purine_transversion
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C0197X -> T00c3::ONTORELA_C0197X::genotype unionOf genomic feature complement | qualified genomic feature complement
+http://purl.obolibrary.org/obo/GENO_0000092 -> T00c4::GENO_0000092::gene trap insertion
+http://purl.obolibrary.org/obo/CL_0000000 -> T00c5::CL_0000000::cell
+http://purl.obolibrary.org/obo/SO_0001746 -> T00c6::SO_0001746::paternal_uniparental_disomy
+http://biohackathon.org/resource/faldo#ReverseStrandPosition -> T00c7::ReverseStrandPosition::Negative strand
+http://purl.obolibrary.org/obo/GENO_0000721 -> T00c8::GENO_0000721::RNA sequence
+http://purl.obolibrary.org/obo/GENO_0000624 -> T00c9::GENO_0000624::gpos50
+http://purl.obolibrary.org/obo/BFO_0000015 -> T00ca::BFO_0000015::process
+http://purl.obolibrary.org/obo/BFO_0000003 -> T00cb::BFO_0000003::occurrent
+http://purl.obolibrary.org/obo/GENO_0000527 -> T00cc::GENO_0000527::reagent-targeted gene complement
+http://purl.obolibrary.org/obo/GENO_0000878 -> T00cd::GENO_0000878::maternal allele origin
+http://purl.obolibrary.org/obo/GENO_0000515 -> T00ce::GENO_0000515::variant gene allele
+http://purl.obolibrary.org/obo/SO_1000005 -> T00cf::SO_1000005::complex_substitution
+http://purl.obolibrary.org/obo/SO_1000017 -> T00d0::SO_1000017::transversion
+http://purl.obolibrary.org/obo/GENO_0000093 -> T00d1::GENO_0000093::integrated transgene
+http://purl.obolibrary.org/obo/GENO_0000512 -> T00d2::GENO_0000512::allele
+http://purl.obolibrary.org/obo/GENO_0000633 -> T00d3::GENO_0000633::gpos33
+http://purl.obolibrary.org/obo/GENO_0000875 -> T00d4::GENO_0000875::allelic state
+http://purl.obolibrary.org/obo/GENO_0000500 -> T00d5::GENO_0000500::ancestral polymorphic allele
+http://purl.obolibrary.org/obo/GENO_0000621 -> T00d6::GENO_0000621::gvar
+http://purl.obolibrary.org/obo/GENO_0000536 -> T00d7::GENO_0000536::genotype
+http://purl.obolibrary.org/obo/GENO_0000887 -> T00d8::GENO_0000887::oryzias latipes strain
+http://purl.obolibrary.org/obo/GENO_0000778 -> T00d9::GENO_0000778::obsolete_sequence information entity
+http://purl.obolibrary.org/obo/GENO_0000899 -> T00da::GENO_0000899::genomic genotype
+http://purl.obolibrary.org/obo/GENO_0000524 -> T00db::GENO_0000524::extrinsic genotype
+http://purl.obolibrary.org/obo/GENO_0000645 -> T00dc::GENO_0000645::genomic genotype (sex-qualified)
+http://purl.obolibrary.org/obo/GENO_0000415 -> T00dd::GENO_0000415::obsolete_reagent sequence feature
+http://purl.obolibrary.org/obo/SO_1000008 -> T00de::SO_1000008::point_mutation
+http://purl.obolibrary.org/obo/SO_0001742 -> T00df::SO_0001742::copy_number_gain
+http://purl.obolibrary.org/obo/SO_0001500 -> T00e0::SO_0001500::heritable_phenotypic_marker
+http://purl.obolibrary.org/obo/SO_0001744 -> T00e1::SO_0001744::UPD
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C0190X -> T00e2::ONTORELA_C0190X::genotype-phenotype association intersectionOf developmental process | starts during | ends during | life cycle stage
+http://purl.obolibrary.org/obo/GENO_0000501 -> T00e3::GENO_0000501::wild-type allele
+http://purl.obolibrary.org/obo/GENO_0000622 -> T00e4::GENO_0000622::gpos100
+http://purl.obolibrary.org/obo/GENO_0000525 -> T00e5::GENO_0000525::effective genotype
+http://purl.obolibrary.org/obo/GENO_0000646 -> T00e6::GENO_0000646::male intrinsic genotype
+http://purl.obolibrary.org/obo/GENO_0000876 -> T00e7::GENO_0000876::obsolete_genetic dosage
+http://purl.obolibrary.org/obo/GENO_0000888 -> T00e8::GENO_0000888::germline allele origin
+http://purl.obolibrary.org/obo/GENO_0000513 -> T00e9::GENO_0000513::aneusomic
+http://purl.obolibrary.org/obo/GENO_0000779 -> T00ea::GENO_0000779::biological sequence unit
+http://purl.obolibrary.org/obo/BFO_0000017 -> T00eb::BFO_0000017::realizable entity
+http://purl.obolibrary.org/obo/IAO_0000030 -> T00ec::IAO_0000030::information content entity
+http://purl.obolibrary.org/obo/SO_1000019 -> T00ed::SO_1000019::C_to_A_transversion
+http://purl.obolibrary.org/obo/SO_0000207 -> T00ee::SO_0000207::simple_sequence_length_variation
+http://purl.obolibrary.org/obo/SO_0000667 -> T00ef::SO_0000667::insertion
+http://purl.obolibrary.org/obo/SO_0001743 -> T00f0::SO_0001743::copy_number_loss
+http://purl.obolibrary.org/obo/WBPhenotype_0000886 -> T00f1::WBPhenotype_0000886::worm phenotype
+http://purl.obolibrary.org/obo/GENO_0000091 -> T00f2::GENO_0000091::obsolete_experimental insertion
+http://purl.obolibrary.org/obo/UPHENO_0001001 -> T00f3::UPHENO_0001001::Phenotype
+http://purl.obolibrary.org/obo/GENO_0000861 -> T00f4::GENO_0000861::extra-chromosomal transgene
+http://purl.obolibrary.org/obo/GENO_0000873 -> T00f5::GENO_0000873::microsatellite alteration
+http://purl.obolibrary.org/obo/GENO_0000534 -> T00f6::GENO_0000534::reagent-targeted gene subregion
+http://purl.obolibrary.org/obo/GENO_0000885 -> T00f7::GENO_0000885::diplotype
+http://purl.obolibrary.org/obo/GENO_0000897 -> T00f8::GENO_0000897::genomic entity
+http://purl.obolibrary.org/obo/GENO_0000788 -> T00f9::GENO_0000788::sequence feature attribute
+http://purl.obolibrary.org/obo/GENO_0000667 -> T00fa::GENO_0000667::reporter transgene
+http://biohackathon.org/resource/faldo#ForwardStrandPosition -> T00fb::ForwardStrandPosition::Positive strand
+http://purl.obolibrary.org/obo/OBI_0001148 -> T00fc::OBI_0001148::targeted gene knock-out technique
+http://purl.obolibrary.org/obo/GENO_0000620 -> T00fd::GENO_0000620::gneg
+http://purl.obolibrary.org/obo/GENO_0000850 -> T00fe::GENO_0000850::P-element construct
+http://purl.obolibrary.org/obo/SO_0000199 -> T00ff::SO_0000199::translocation
+http://purl.obolibrary.org/obo/GENO_0000402 -> T0100::GENO_0000402::compound heterozygous
+http://purl.obolibrary.org/obo/GENO_0000644 -> T0101::GENO_0000644::karyotype
+http://purl.obolibrary.org/obo/GENO_0000874 -> T0102::GENO_0000874::repeat region alteration
+http://purl.obolibrary.org/obo/GENO_0000886 -> T0103::GENO_0000886::allelic phase
+http://purl.obolibrary.org/obo/GENO_0000511 -> T0104::GENO_0000511::wild-type
+http://purl.obolibrary.org/obo/GENO_0000632 -> T0105::GENO_0000632::gpos66
+http://purl.obolibrary.org/obo/GENO_0000777 -> T0106::GENO_0000777::variant genomic genotype
+http://purl.obolibrary.org/obo/GENO_0000898 -> T0107::GENO_0000898::obsolete_haplotype block
+http://purl.obolibrary.org/obo/BFO_0000019 -> T0108::BFO_0000019::quality
+http://purl.obolibrary.org/obo/CHEBI_33696 -> T0109::CHEBI_33696::nucleic acid
+http://purl.obolibrary.org/obo/OBI_0001149 -> T010a::OBI_0001149::targeted gene knock-in technique
+http://purl.obolibrary.org/obo/SO_0000281 -> T010b::SO_0000281::engineered_foreign_gene
+http://purl.obolibrary.org/obo/GENO_0000883 -> T010c::GENO_0000883::obsolete_gametic
+http://purl.obolibrary.org/obo/GENO_0000108 -> T010d::GENO_0000108::material genome
+http://purl.obolibrary.org/obo/GENO_0000338 -> T010e::GENO_0000338::gained aneusomic chromosome
+http://purl.obolibrary.org/obo/GENO_0000640 -> T010f::GENO_0000640::reporter region
+http://purl.obolibrary.org/obo/GENO_0000870 -> T0110::GENO_0000870::obsolete_sequence feature collection
+http://purl.obolibrary.org/obo/GENO_0000882 -> T0111::GENO_0000882::somatic allele origin
+http://www.ncbi.nlm.nih.gov/gene/399483 -> T0112::399483::danio rerio cdkn1ca gene
+http://purl.obolibrary.org/obo/GENO_0000642 -> T0113::GENO_0000642::selectable marker transgene
+http://purl.obolibrary.org/obo/GENO_0000872 -> T0114::GENO_0000872::genomic sequence complement
+http://purl.obolibrary.org/obo/GENO_0000666 -> T0115::GENO_0000666::gene part
+http://purl.obolibrary.org/obo/GENO_0000533 -> T0116::GENO_0000533::gene knockdown reagent
+http://purl.obolibrary.org/obo/GENO_0000339 -> T0117::GENO_0000339::lost aneusomic chromosome
+http://purl.obolibrary.org/obo/ZP_0005692 -> T0118::ZP_0005692::abnormal(ly) absent adaxial cell
+http://purl.obolibrary.org/obo/SO_0000704 -> T0119::SO_0000704::gene
+http://purl.obolibrary.org/obo/GENO_0000871 -> T011a::GENO_0000871::obsolete_haplotype
+http://biohackathon.org/resource/faldo#BothStrandsPosition -> T011b::BothStrandsPosition::Both strands
+http://purl.obolibrary.org/obo/GENO_0000324 -> T011c::GENO_0000324::obsolete_chromosome complement
+http://purl.obolibrary.org/obo/GENO_0000009 -> T011d::GENO_0000009::genomic variation complement
+http://purl.obolibrary.org/obo/GENO_0000118 -> T011e::GENO_0000118::mus musculus strain
+http://purl.obolibrary.org/obo/GENO_0000106 -> T011f::GENO_0000106::genomic material
+http://purl.obolibrary.org/obo/GENO_0000880 -> T0120::GENO_0000880::de novo allele origin
+http://purl.obolibrary.org/obo/GENO_0000892 -> T0121::GENO_0000892::heteroplasmic mitochondrial inheritance
+http://purl.obolibrary.org/obo/GENO_0000773 -> T0122::GENO_0000773::variation attribute
+http://purl.obolibrary.org/obo/GENO_0000688 -> T0123::GENO_0000688::terminus
+http://purl.obolibrary.org/obo/GENO_0000119 -> T0124::GENO_0000119::danio rerio strain
+http://purl.obolibrary.org/obo/GENO_0000458 -> T0125::GENO_0000458::simple heterozygous
+http://purl.obolibrary.org/obo/GENO_0000881 -> T0126::GENO_0000881::unknown allele origin
+http://purl.obolibrary.org/obo/GENO_0000772 -> T0127::GENO_0000772::obsolete_unspecified
+http://purl.obolibrary.org/obo/GENO_0000893 -> T0128::GENO_0000893::homoplasmic mitochondrial inheritance
+http://purl.obolibrary.org/obo/GO_0032502 -> T0129::GO_0032502::developmental process
+http://purl.obolibrary.org/obo/GENO_0000346 -> T012a::GENO_0000346::aneusomic chromosome
+http://purl.obolibrary.org/obo/GENO_0000019 -> T012b::GENO_0000019::obsolete_sequence feature collection
+http://purl.obolibrary.org/obo/GENO_0000685 -> T012c::GENO_0000685::novel
+http://purl.obolibrary.org/obo/UBERON_0000105 -> T012d::UBERON_0000105::life cycle stage
+http://purl.obolibrary.org/obo/GENO_0000660 -> T012e::GENO_0000660::genomic feature complement
+http://purl.obolibrary.org/obo/GENO_0000890 -> T012f::GENO_0000890::canonical allele
+http://purl.obolibrary.org/obo/GENO_0000781 -> T0130::GENO_0000781::RNA residue
+http://purl.obolibrary.org/obo/GENO_0000684 -> T0131::GENO_0000684::novel replicon
+http://purl.obolibrary.org/obo/PCO_0000020 -> T0132::PCO_0000020::family
+http://www.ncbi.nlm.nih.gov/gene/30269 -> T0133::30269::danio rerio shha gene
+http://purl.obolibrary.org/obo/OBI_0000086 -> T0134::OBI_0000086::reagent role
+http://purl.obolibrary.org/obo/GENO_0000770 -> T0135::GENO_0000770::phenotypic inheritance process
+http://purl.obolibrary.org/obo/GENO_0000891 -> T0136::GENO_0000891::contextual allele
+http://purl.obolibrary.org/obo/GENO_0000782 -> T0137::GENO_0000782::amino acid residue
+http://purl.obolibrary.org/obo/NCBITaxon_8090 -> T0138::NCBITaxon_8090::Oryzias latipes
+http://purl.obolibrary.org/obo/SO_0000110 -> T0139::SO_0000110::sequence_feature
+http://purl.obolibrary.org/obo/SO_0000340 -> T013a::SO_0000340::chromosome
+http://purl.obolibrary.org/obo/GENO_0000029 -> T013b::GENO_0000029::obsolete_reference single locus complement
+http://purl.obolibrary.org/obo/GENO_0000138 -> T013c::GENO_0000138::heritabililty
+http://purl.obolibrary.org/obo/GENO_0000344 -> T013d::GENO_0000344::gained aneusomic chromosomal segment
+http://purl.obolibrary.org/obo/GENO_0000477 -> T013e::GENO_0000477::polymorphic
+http://purl.obolibrary.org/obo/GENO_0000017 -> T013f::GENO_0000017::reference sequence
+http://purl.obolibrary.org/obo/GENO_0000343 -> T0140::GENO_0000343::aneusomic chromosomal part
+http://purl.obolibrary.org/obo/OBI_0100026 -> T0141::OBI_0100026::organism
+http://purl.obolibrary.org/obo/SO_0001477 -> T0142::SO_0001477::gene_trap_construct
+http://purl.obolibrary.org/obo/SO_0001019 -> T0143::SO_0001019::copy_number_variation
+http://purl.obolibrary.org/obo/SO_1000040 -> T0144::SO_1000040::inverted_tandem_duplication
+http://purl.obolibrary.org/obo/UBERON_0001062 -> T0145::UBERON_0001062::anatomical entity
+http://purl.obolibrary.org/obo/SO_1000173 -> T0146::SO_1000173::tandem_duplication
+http://purl.obolibrary.org/obo/GENO_0000575 -> T0147::GENO_0000575::zebrafish phenotype
+http://purl.obolibrary.org/obo/SO_0000341 -> T0148::SO_0000341::chromosome band
+http://purl.obolibrary.org/obo/GENO_0000345 -> T0149::GENO_0000345::lost aneusomic chromosomal segment
+http://purl.obolibrary.org/obo/SO_0000159 -> T014a::SO_0000159::deletion
+http://purl.obolibrary.org/obo/GENO_0000139 -> T014b::GENO_0000139::heritable
+http://purl.obolibrary.org/obo/CLO_0000031 -> T014c::CLO_0000031::cell line
+http://purl.obolibrary.org/obo/GENO_0000780 -> T014d::GENO_0000780::DNA residue
+http://purl.obolibrary.org/obo/SO_0001478 -> T014e::SO_0001478::promoter_trap_construct
+http://www.ncbi.nlm.nih.gov/gene/20423 -> T014f::20423::mus musculus shh gene
+http://purl.obolibrary.org/obo/GENO_0000148 -> T0150::GENO_0000148::autosomal recessive inheritance
+http://purl.obolibrary.org/obo/GENO_0000136 -> T0151::GENO_0000136::homozygous
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C0199X-el0 -> T0152::ONTORELA_C0199X-el0::variant allele unionOf sequence_alteration | has subsequence element sequence_alteration | has subsequence
+http://purl.obolibrary.org/obo/GENO_0000499 -> T0153::GENO_0000499::minor polymorphic allele
+http://purl.obolibrary.org/obo/SO_0000289 -> T0154::SO_0000289::microsatellite
+http://purl.obolibrary.org/obo/GENO_0000680 -> T0155::GENO_0000680::obsolete_null feature
+http://purl.obolibrary.org/obo/GENO_0000002 -> T0156::GENO_0000002::variant allele
+http://purl.obolibrary.org/obo/PATO_0000016 -> T0157::PATO_0000016::obsolete_color brightness
+http://purl.obolibrary.org/obo/GENO_0000111 -> T0158::GENO_0000111::human population
+http://purl.obolibrary.org/obo/GENO_0000149 -> T0159::GENO_0000149::X-linked recessive inheritance
+http://purl.obolibrary.org/obo/GENO_0000137 -> T015a::GENO_0000137::unspecified zygosity
+http://purl.obolibrary.org/obo/GENO_0000125 -> T015b::GENO_0000125::obsolete_sequence feature collection attribute
+http://purl.obolibrary.org/obo/GENO_0000476 -> T015c::GENO_0000476::variant
+http://purl.obolibrary.org/obo/GENO_0000113 -> T015d::GENO_0000113::taxonomic group
+http://purl.obolibrary.org/obo/GENO_0000112 -> T015e::GENO_0000112::strain or breed
+http://purl.obolibrary.org/obo/GENO_0000681 -> T015f::GENO_0000681::novel extrachromosomal replicon
+http://purl.obolibrary.org/obo/NCBITaxon_10090 -> T0160::NCBITaxon_10090::Mus musculus
+http://purl.obolibrary.org/obo/HsapDv_0000000 -> T0161::HsapDv_0000000::human life cycle stage
+http://purl.obolibrary.org/obo/PATO_0001894 -> T0162::PATO_0001894::phenotypic sex
+http://purl.obolibrary.org/obo/GENO_0000918 -> T0163::GENO_0000918::organellar plasmy
+http://purl.obolibrary.org/obo/GENO_0000146 -> T0164::GENO_0000146::X-linked dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000037 -> T0165::GENO_0000037::obsolete_unspecified feature
+http://purl.obolibrary.org/obo/GENO_0000000 -> T0166::GENO_0000000::genomic genotype (sex-agnostic)
+http://purl.obolibrary.org/obo/GENO_0000460 -> T0167::GENO_0000460::transgene part
+http://purl.obolibrary.org/obo/GENO_0000145 -> T0168::GENO_0000145::incomplete autosomal dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000133 -> T0169::GENO_0000133::zygosity
+http://purl.obolibrary.org/obo/GENO_0000351 -> T016a::GENO_0000351::biological process
+http://purl.obolibrary.org/obo/ERO_0002003 -> T016b::ERO_0002003::stem cell line
+http://purl.obolibrary.org/obo/NCBITaxon_9606 -> T016c::NCBITaxon_9606::Homo sapiens
+http://biohackathon.org/resource/faldo#Position -> T016d::Position::Position
+http://purl.obolibrary.org/obo/SO_0001013 -> T016e::SO_0001013::MNP
+http://purl.obolibrary.org/obo/GENO_0000907 -> T016f::GENO_0000907::gene product
+http://purl.obolibrary.org/obo/GENO_0000919 -> T0170::GENO_0000919::qualified sequence feature
+http://purl.obolibrary.org/obo/SO_0000034 -> T0171::SO_0000034::morpholino_oligo
+http://purl.obolibrary.org/obo/SO_0000143 -> T0172::SO_0000143::assembly_component
+http://purl.obolibrary.org/obo/GENO_0000147 -> T0173::GENO_0000147::autosomal dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000498 -> T0174::GENO_0000498::major polymorphic allele
+http://purl.obolibrary.org/obo/GENO_0000135 -> T0175::GENO_0000135::heterozygous
+http://purl.obolibrary.org/obo/GENO_0000014 -> T0176::GENO_0000014::gene allele
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C0190X-el0 -> T0177::ONTORELA_C0190X-el0::genotype-phenotype association intersectionOf developmental process | starts during | ends during | life cycle stage element life cycle stage | ends during | starts during
+http://purl.obolibrary.org/obo/SO_0000167 -> T0178::SO_0000167::promoter
+http://purl.obolibrary.org/obo/GENO_0000134 -> T0179::GENO_0000134::hemizygous
+http://purl.obolibrary.org/obo/GENO_0000497 -> T017a::GENO_0000497::polymorphic allele
+http://purl.obolibrary.org/obo/SO_0001026 -> T017b::SO_0001026::genome
+http://purl.obolibrary.org/obo/ERO_0002002 -> T017c::ERO_0002002::embryonic stem cell line
+http://purl.obolibrary.org/obo/GENO_0000904 -> T017d::GENO_0000904::organismal entity
+http://purl.obolibrary.org/obo/GENO_0000916 -> T017e::GENO_0000916::haplotype block
+http://purl.obolibrary.org/obo/SO_0000804 -> T017f::SO_0000804::engineered_region
+http://purl.obolibrary.org/obo/GENO_0000928 -> T0180::GENO_0000928::clonal
+http://purl.obolibrary.org/obo/GENO_0000047 -> T0181::GENO_0000047::danio rerio gene
+http://purl.obolibrary.org/obo/GENO_0000010 -> T0182::GENO_0000010::background genome
+http://purl.obolibrary.org/obo/GENO_0000022 -> T0183::GENO_0000022::obsolete_genomic feature collection
+http://purl.obolibrary.org/obo/GENO_0000482 -> T0184::GENO_0000482::genetic material
+http://purl.obolibrary.org/obo/OBI_0000011 -> T0185::OBI_0000011::planned process
+http://purl.obolibrary.org/obo/GENO_0000143 -> T0186::GENO_0000143::co-dominant autosomal inheritance
+http://purl.obolibrary.org/obo/GENO_0000494 -> T0187::GENO_0000494::extrachromosomal replicon
+http://purl.obolibrary.org/obo/GENO_0000131 -> T0188::GENO_0000131::in cis
+http://purl.obolibrary.org/obo/SO_0001059 -> T0189::SO_0001059::sequence_alteration
+http://purl.obolibrary.org/obo/SO_0001483 -> T018a::SO_0001483::SNV
+http://purl.obolibrary.org/obo/MP_0000001 -> T018b::MP_0000001::mammalian phenotype
+http://purl.obolibrary.org/obo/SO_0000165 -> T018c::SO_0000165::enhancer
+http://purl.obolibrary.org/obo/GENO_0000169 -> T018d::GENO_0000169::random genetic insertion technique
+http://purl.obolibrary.org/obo/SO_0000902 -> T018e::SO_0000902::transgene
+http://purl.obolibrary.org/obo/GENO_0000929 -> T018f::GENO_0000929::multifactorial inheritance
+http://purl.obolibrary.org/obo/GENO_0000036 -> T0190::GENO_0000036::reference allele
+http://purl.obolibrary.org/obo/GENO_0000144 -> T0191::GENO_0000144::complete autosomal dominant inheritance
+http://purl.obolibrary.org/obo/GENO_0000132 -> T0192::GENO_0000132::in trans
+http://purl.obolibrary.org/obo/GENO_0000495 -> T0193::GENO_0000495::expression construct
+
+--------------------------------------- 
+Type-Table Catalog
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+SO_0000110 [1..*] GENO_0000703 string -> T0194::sequence_feature has_sequence_string
+GENO_0000702 [1..*] GENO_0000896 string -> T0195::biological sequence has_string
+GENO_0000914 [1..*] GENO_0000239 SO_0001505 -> T0196::reference genome has_sequence reference genome sequence
+GENO_0000492 [1..*] GENO_0000683 GENO_0000501 -> T0197::mutation varies_with wild-type allele
+GENO_0000915 [1..*] GENO_0000408 GENO_0000916 -> T0198::haplotype is_allele_of haplotype block
+GENO_0000915 [1..*] BFO_0000051 SO_0001059 -> T0199::haplotype has part sequence_alteration
+GENO_0000481 [1..*] RO_0002162 OBI_0100026 -> T019a::genomic feature in taxon organism
+GENO_0000481 [1..*] BFO_0000050 SO_0001026 -> T019b::genomic feature is part of genome
+GENO_0000033 [1..*] GENO_0000382 SO_0001059 -> T019c::variant genome has_variant_part sequence_alteration
+GENO_0000166 [1..*] OBI_0000299 GENO_0000515 -> T019d::targeted gene mutation technique has_specified_output variant gene allele
+GENO_0000839 [1..*] GENO_0000382 GENO_0000504 -> T019e::knockdown reagent targeted gene complement has_variant_part reagent targeted gene
+SO_0001218 [1..*] BFO_0000051 GENO_0000093 -> T019f::transgenic_insertion has part integrated transgene
+SO_0000105 [1..*] BFO_0000050 SO_0000830 -> T01a0::chromosome arm is part of chromosome part
+GENO_0000719 [1..*] IAO_0000219 ONTORELA_C0195X -> T01a1::intrinsic genotype denotes intrinsic genotype unionOf single locus complement | genome
+OBI_0600043 [1..*] OBI_0000299 ONTORELA_C018bX -> T01a2::genetic modification technique has_specified_output genetic modification technique intersectionOf genomic material | bears_concretization_of | variant allele
+Region [1..1] begin Position -> T01a3::Region begin Position
+Region [1..1] end Position -> T01a4::Region end Position
+GENO_0000173 [1..*] OBI_0000299 GENO_0000515 -> T01a5::promoter trapping technique has_specified_output variant gene allele
+GENO_0000173 [1..*] OBI_0000299 GENO_0000515 -> T01a6::promoter trapping technique has_specified_output variant gene allele
+GENO_0000174 [1..*] OBI_0000299 GENO_0000515 -> T01a7::targeted knock-in technique has_specified_output variant gene allele
+GENO_0000174 [1..*] OBI_0000299 GENO_0000515 -> T01a8::targeted knock-in technique has_specified_output variant gene allele
+GENO_0000920 [1..*] GENO_0000726 GENO_0000659 -> T01a9::qualified sequence feature complement has_sequence_feature sequence feature complement
+GENO_0000920 [1..*] BFO_0000051 GENO_0000919 -> T01aa::qualified sequence feature complement has part qualified sequence feature
+GENO_0000714 [1..*] GENO_0000726 SO_0000110 -> T01ab::qualified genomic feature has_sequence_feature sequence_feature
+GENO_0000714 [1..*] GENO_0000726 GENO_0000481 -> T01ac::qualified genomic feature has_sequence_feature genomic feature
+GENO_0000714 [1..*] RO_0002162 OBI_0100026 -> T01ad::qualified genomic feature in taxon organism
+GENO_0000714 [1..*] GENO_0000580 Thing -> T01ae::qualified genomic feature has_qualifier Thing
+GENO_0000171 [1..*] OBI_0000299 GENO_0000515 -> T01af::enhancer trapping technique has_specified_output variant gene allele
+GENO_0000171 [1..*] OBI_0000299 GENO_0000515 -> T01b0::enhancer trapping technique has_specified_output variant gene allele
+GENO_0000715 [1..*] GENO_0000726 SO_0000110 -> T01b1::qualified genomic feature complement has_sequence_feature sequence_feature
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660 -> T01b2::qualified genomic feature complement has_sequence_feature genomic feature complement
+GENO_0000715 [1..*] RO_0002162 OBI_0100026 -> T01b3::qualified genomic feature complement in taxon organism
+GENO_0000715 [1..*] RO_0002351 GENO_0000714 -> T01b4::qualified genomic feature complement has member qualified genomic feature
+GENO_0000172 [1..*] OBI_0000299 GENO_0000515 -> T01b5::gene trapping technique has_specified_output variant gene allele
+GENO_0000172 [1..*] OBI_0000299 GENO_0000515 -> T01b6::gene trapping technique has_specified_output variant gene allele
+ONTORELA_C018dX-el0 [1..*] BFO_0000050 GENO_0000536 -> T01b7::genotype-phenotype association unionOf genotype | is part of element genotype | is part of is part of genotype
+GENO_0000833 [1..*] association_has_subject ONTORELA_C018dX -> T01b8::genotype-phenotype association association has subject genotype-phenotype association unionOf genotype | is part of
+GENO_0000833 [1..*] association_has_object UPHENO_0001001 -> T01b9::genotype-phenotype association association has object Phenotype
+GENO_0000833 [1..*] GENO_0000580 ONTORELA_C0190X -> T01ba::genotype-phenotype association has_qualifier genotype-phenotype association intersectionOf developmental process | starts during | ends during | life cycle stage
+GENO_0000833 [1..*] GENO_0000580 ENVO_01000254 -> T01bb::genotype-phenotype association has_qualifier environmental system
+GENO_0000616 [1..*] BFO_0000050 SO_0000341 -> T01bc::chromosome sub-band is part of chromosome band
+GENO_0000616 [1..*] GENO_0000207 GENO_0000618 -> T01bd::chromosome sub-band has_sequence_attribute chromosomal band intensity
+ONTORELA_C0193X [1..*] RO_0002091 UBERON_0000105 -> T01be::genotype-phenotype association intersectionOf developmental process | starts during | ends during | life cycle stage element life cycle stage | ends during | starts during intersectionOf starts during | life cycle stage | ends during starts during life cycle stage
+ONTORELA_C0193X [1..*] RO_0002093 UBERON_0000105 -> T01bf::genotype-phenotype association intersectionOf developmental process | starts during | ends during | life cycle stage element life cycle stage | ends during | starts during intersectionOf starts during | life cycle stage | ends during ends during life cycle stage
+SO_0001505 [1..*] RO_0000087 GENO_0000152 -> T01c0::reference genome sequence has_role reference
+GENO_0000528 [1..*] GENO_0000382 GENO_0000506 -> T01c1::transiently-expressed transgene complement has_variant_part transiently-expressed transgene
+GENO_0000722 [1..*] GENO_0000783 GENO_0000782 -> T01c2::amino acid sequence has_sequence_unit amino acid residue
+GENO_0000516 [1..*] GENO_0000608 GENO_0000133 -> T01c3::single locus complement has_zygosity zygosity
+GENO_0000516 [1..*] RO_0002162 OBI_0100026 -> T01c4::single locus complement in taxon organism
+GENO_0000637 [1..*] RO_0002525 SO_0000902 -> T01c5::regulatory transgene region is subsequence of transgene
+GENO_0000504 [1..*] GENO_0000447 GENO_0000533 -> T01c6::reagent targeted gene is_gene_target_of gene knockdown reagent
+GENO_0000504 [1..*] GENO_0000231 GENO_0000534 -> T01c7::reagent targeted gene has_proper_part reagent-targeted gene subregion
+ONTORELA_C018bX [1..*] GENO_0000211 GENO_0000002 -> T01c8::genetic modification technique intersectionOf genomic material | bears_concretization_of | variant allele bears_concretization_of variant allele
+GENO_0000529 [1..*] GENO_0000443 SO_0000704 -> T01c9::expression-variant gene is_expression_variant_of gene
+GENO_0000638 [1..*] RO_0002525 SO_0000902 -> T01ca::expressed transgene region is subsequence of transgene
+PCO_0000000 [1..*] RO_0002351 OBI_0100026 -> T01cb::collection of organisms has member organism
+GENO_0000614 [1..*] BFO_0000050 SO_0000105 -> T01cc::chromosomal region is part of chromosome arm
+GENO_0000611 [1..*] IAO_0000219 GENO_0000010 -> T01cd::background genotype denotes background genome
+GENO_0000720 [1..*] GENO_0000783 GENO_0000780 -> T01ce::DNA sequence has_sequence_unit DNA residue
+GENO_0000659 [1..*] RO_0002351 SO_0000110 -> T01cf::sequence feature complement has member sequence_feature
+GENO_0000092 [1..*] RO_0002353 GENO_0000172 -> T01d0::gene trap insertion output of gene trapping technique
+GENO_0000721 [1..*] GENO_0000783 GENO_0000781 -> T01d1::RNA sequence has_sequence_unit RNA residue
+GENO_0000527 [1..*] RO_0002351 GENO_0000504 -> T01d2::reagent-targeted gene complement has member reagent targeted gene
+GENO_0000515 [1..*] GENO_0000641 SO_0000704 -> T01d3::variant gene allele is_variant_allele_of gene
+GENO_0000515 [1..*] GENO_0000382 SO_0001059 -> T01d4::variant gene allele has_variant_part sequence_alteration
+GENO_0000093 [1..*] BFO_0000050 SO_0001218 -> T01d5::integrated transgene is part of transgenic_insertion
+GENO_0000536 [1..*] IAO_0000219 ONTORELA_C0197X -> T01d6::genotype denotes genotype unionOf genomic feature complement | qualified genomic feature complement
+GENO_0000887 [1..*] RO_0002351 NCBITaxon_8090 -> T01d7::oryzias latipes strain has member Oryzias latipes
+GENO_0000899 [1..*] GENO_0000385 GENO_0000611 -> T01d8::genomic genotype has_reference_part background genotype
+GENO_0000645 [1..*] GENO_0000650 GENO_0000000 -> T01d9::genomic genotype (sex-qualified) has_sex_agnostic_part genomic genotype (sex-agnostic)
+GENO_0000501 [1..*] GENO_0000683 GENO_0000481 -> T01da::wild-type allele varies_with genomic feature
+GENO_0000525 [1..*] BFO_0000051 GENO_0000719 -> T01db::effective genotype has part intrinsic genotype
+GENO_0000525 [1..*] BFO_0000051 GENO_0000524 -> T01dc::effective genotype has part extrinsic genotype
+GENO_0000897 [1..*] RO_0002162 OBI_0100026 -> T01dd::genomic entity in taxon organism
+GENO_0000667 [1..*] BFO_0000051 GENO_0000640 -> T01de::reporter transgene has part reporter region
+GENO_0000667 [1..*] GENO_0000207 SO_0000783 -> T01df::reporter transgene has_sequence_attribute engineered
+GENO_0000644 [1..*] IAO_0000219 SO_0001026 -> T01e0::karyotype denotes genome
+SO_0000281 [1..*] GENO_0000207 SO_0000783 -> T01e1::engineered_foreign_gene has_sequence_attribute engineered
+GENO_0000338 [1..*] GENO_0000207 GENO_0000685 -> T01e2::gained aneusomic chromosome has_sequence_attribute novel
+GENO_0000642 [1..*] GENO_0000207 SO_0000783 -> T01e3::selectable marker transgene has_sequence_attribute engineered
+GENO_0000106 [1..*] GENO_0000248 ONTORELA_C0189X -> T01e4::genomic material is_proper_part_of genomic material unionOf cell | Viruses
+GENO_0000106 [1..*] BFO_0000050 GENO_0000108 -> T01e5::genomic material is part of material genome
+GENO_0000106 [1..*] RO_0000091 GENO_0000139 -> T01e6::genomic material has disposition heritable
+GENO_0000119 [1..*] RO_0002351 NCBITaxon_7955 -> T01e7::danio rerio strain has member Danio rerio
+GENO_0000346 [1..*] GENO_0000207 GENO_0000513 -> T01e8::aneusomic chromosome has_sequence_attribute aneusomic
+GENO_0000660 [1..*] RO_0002351 GENO_0000481 -> T01e9::genomic feature complement has member genomic feature
+GENO_0000891 [1..*] IAO_0000219 GENO_0000890 -> T01ea::contextual allele denotes canonical allele
+SO_0000110 [1..*] GENO_0000239 GENO_0000702 -> T01eb::sequence_feature has_sequence biological sequence
+SO_0000110 [1..*] GENO_0000903 GENO_0000815 -> T01ec::sequence_feature has_location sequence feature location
+GENO_0000343 [1..*] GENO_0000248 SO_0000340 -> T01ed::aneusomic chromosomal part is_proper_part_of chromosome
+GENO_0000343 [1..*] GENO_0000207 GENO_0000513 -> T01ee::aneusomic chromosomal part has_sequence_attribute aneusomic
+UBERON_0001062 [1..*] RO_0001000 OBI_0100026 -> T01ef::anatomical entity derives from organism
+SO_0000341 [1..*] BFO_0000050 GENO_0000614 -> T01f0::chromosome band is part of chromosomal region
+SO_0000341 [1..*] GENO_0000207 GENO_0000618 -> T01f1::chromosome band has_sequence_attribute chromosomal band intensity
+CLO_0000031 [1..*] RO_0001000 OBI_0100026 -> T01f2::cell line derives from organism
+ONTORELA_C0199X-el0 [1..*] RO_0002524 SO_0001059 -> T01f3::variant allele unionOf sequence_alteration | has subsequence element sequence_alteration | has subsequence has subsequence sequence_alteration
+GENO_0000112 [1..*] RO_0002162 OBI_0100026 -> T01f4::strain or breed in taxon organism
+GENO_0000681 [1..*] GENO_0000207 GENO_0000139 -> T01f5::novel extrachromosomal replicon has_sequence_attribute heritable
+GENO_0000681 [1..*] GENO_0000207 GENO_0000685 -> T01f6::novel extrachromosomal replicon has_sequence_attribute novel
+GENO_0000133 [1..*] RO_0000052 GENO_0000516 -> T01f7::zygosity inheres_in single locus complement
+GENO_0000014 [1..*] GENO_0000408 SO_0000704 -> T01f8::gene allele is_allele_of gene
+ONTORELA_C0190X-el0 [1..*] GENO_0000580 ONTORELA_C0193X -> T01f9::genotype-phenotype association intersectionOf developmental process | starts during | ends during | life cycle stage element life cycle stage | ends during | starts during has_qualifier genotype-phenotype association intersectionOf developmental process | starts during | ends during | life cycle stage element life cycle stage | ends during | starts during intersectionOf starts during | life cycle stage | ends during
+SO_0001026 [1..*] RO_0002162 OBI_0100026 -> T01fa::genome in taxon organism

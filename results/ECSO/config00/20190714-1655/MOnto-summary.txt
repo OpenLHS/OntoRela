@@ -1,0 +1,33 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+
+--------------------------------------- 
+Origin OWL Ontology
+--------------------------------------- 
+http://purl.dataone.org/odo/ECSO_
+Nb. classes          : 561
+Nb. data properties  : 2
+Nb. object properties: 23
+Nb. isa axioms       : 470
+Nb. data axioms      : 0
+Nb. class axioms     : 423
+
+--------------------------------------- 
+Reduced Ontology (axiom complexity reduction)
+--------------------------------------- 
+http://purl.dataone.org/odo/ECSO_
+Nb. classes          : 595
+Nb. data properties  : 2
+Nb. object properties: 23
+Nb. isa axioms       : 518
+Nb. data axioms      : 0
+Nb. class axioms     : 270
+Nb. reduced class axioms: 61
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 870 KB
