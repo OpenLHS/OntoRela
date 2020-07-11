@@ -3,14 +3,14 @@
 
 L’application permet de générer un schéma relationnel à partir d’une ontologie : l’ontologie est d’abord analysée, simplifiée puis réduite ; ensuite, chaque composant ontologique est converti en un composant relationnel ; finalement, chaque composant relationnel est traduit en SQL. Tout au long du processus des messages sont produits afin de consigner les anomalies et d’aider leur éventuel traitement.
 
-OntoRelα génère à partir d’une ontologie OWL et de fichiers de configuration : (1) des scripts pour une base de données relationnelle (2) des listes d’avertissements (3) un dictionnaire d’arrimage (OntoRelDic), et (4) une ontologie normalisée formalisée selon μOnto. μOnto, un modèle simplifié qui est inspiré de la théorie d’ensemble et à certaines parties de la logique de description, notamment ALCQI(D) [Chomicki and Saake 1998:8]. Le but de μOnto est de définir des composants ontologiques et fournir une classification des axiomes adéquate et suffisante pour la conversion en un schéma relationnel tout en préservant l’expressivité ontologique.
+OntoRelα génère à partir d’une ontologie OWL et de fichiers de configuration : (1) des scripts pour une base de données relationnelle (2) des listes d’avertissements (3) un dictionnaire d’arrimage (OntoRelDic), et (4) une ontologie normalisée formalisée selon μOnto (MOnto). μOnto, un modèle simplifié qui est inspiré de la théorie d’ensemble et à certaines parties de la logique de description, notamment ALCQI(D) [Chomicki and Saake 1998:8]. Le but de μOnto est de définir des composants ontologiques et fournir une classification des axiomes adéquate et suffisante pour la conversion en un schéma relationnel tout en préservant l’expressivité ontologique.
 
 ### Références
 Khnaisser C, Lavoie L, Burgun A, et al. Generating a relational database for heterogeneous data using an ontology. (research report available through the URL and scientific article currently submitted to JODS). 2019. A summary can be found here http://griis.ca/horg-ontorela/
 
-## Environnement
-μOnto est une bibliothèque interne indépendante qui est intégrée dans OntoRelα pour représenter les composants ontologiques.
+Khnaisser, Christina. « Construction de modèles de données relationnels temporalisés guidée par les ontologies ». Université de Paris cotutelle Université de Sherbrooke, 2019. https://savoirs.usherbrooke.ca/handle/11143/16329.
 
+## Environnement
 OntoRelα est mis en œuvre en Java 8 avec les bibliothèques externes suivantes :
 * OWLAPI 5.1  pour charger et analyser l’ontologie au format OWL 2,
 * JGraphT  pour créer le graphe de l’ontologie et le graphe relationnel,
@@ -39,7 +39,7 @@ Dans le même dossier, OntoRela va générer tous les résultats :
 * DatabaseScripts : dossier contenant tous les scripts SQL de la base de données.
 * <ontologyname>.owl_normalized.txt : l’ontologie normalisée selon μOnto.
 * InitialOntoGraph.dot : le graphe de l’ontologie initiale.
-* MOnto-summary.txt : résumé de l'éxecution de contruction de l'ontologie.
+* MOnto-summary.txt : résumé de l'exécution de construction de l'ontologie.
 * OntoGraph.dot : le graphe de l’ontologie normalisée et filtrée
 * OntologyAnnotationDiagnostics.txt : les avertissements sur les annotations ontologiques.
 * OntologyAnomalies.txt : les avertissements sur les classes orphelines et sans axiomes de données.
@@ -52,8 +52,18 @@ Dans le même dossier, OntoRela va générer tous les résultats :
 * README.txt : résumé de l’exécution d’OntoRela.
 * RelGraph.dot : le graphe de la base de données.
 
+Voir dans le dossier __resultat__ pour des exemples de sorties.
+
+## Utilisation
+1. Vérifier si vous avez Java installé, Java 1.8+ JDK is nécessaire.
+2. Télécharger le zip ou cloner ce dépôt Git.
+3. Exécuter la commande ci-dessous dans une console: 
+<code>java -jar OntoRelA-1.0.0.jar *path-To-A-Configuration-Directory*</code>
+Par exemple, pour générer la base de données pour l'ontologie MONDIAL fournie dans le dossier __demo__ exécuter:
+<code> java -jar OntoRelA-1.0.0.jar demo/MONDIAL/config00 </code>
+
 ## Travail en cours
-Cette version :
+La version courante :
 * Prend en entrée une ontologie en OWL 2
 * Génère un schéma compatible avec PostgreSQL v9.5+
 
@@ -62,9 +72,11 @@ Le code complet sera bientôt disponible.
 ### Structure du dépôt
 __results__ : contain OntoRelα output for various ontologies. <br>
 __demo__ : un jeu de données avec des ontologies et des configurations. <br>
-__OntoRela.exe__ : l’exécutable de l’applicaiton.
+__OntoRelA-1.0.0.exe__ : l’exécutable de l’applicaiton.
 
 ## Responsables
+Pour plus d'information, contacter :
+
 Christina Khnaisser : Christina.Khnaisser@usherbrooke.ca <br>
 Luc Lavoie : Luc.Lavoie@usherbrooke.ca <br>
 Jean-François Ethier : Jf.Ether@usherbrooke.ca
