@@ -3,10 +3,12 @@
 
 L’application permet de générer un schéma relationnel à partir d’une ontologie : l’ontologie est d’abord analysée, simplifiée puis réduite ; ensuite, chaque composant ontologique est converti en un composant relationnel ; finalement, chaque composant relationnel est traduit en SQL. Tout au long du processus des messages sont produits afin de consigner les anomalies et d’aider leur éventuel traitement.
 
-OntoRelα génère à partir d’une ontologie OWL et de fichiers de configuration : (1) des scripts pour une base de données relationnelle (2) des listes d’avertissements (3) un dictionnaire d’arrimage (OntoRelDic), et (4) une ontologie normalisée formalisée selon μOnto (MOnto). μOnto, un modèle simplifié qui est inspiré de la théorie d’ensemble et à certaines parties de la logique de description, notamment ALCQI(D) [Chomicki and Saake 1998:8]. Le but de μOnto est de définir des composants ontologiques et fournir une classification des axiomes adéquate et suffisante pour la conversion en un schéma relationnel tout en préservant l’expressivité ontologique.
+OntoRelα génère à partir d’une ontologie OWL et de fichiers de configuration : (1) des scripts pour une base de données relationnelle (2) des listes d’avertissements (3) un catalogue de mise en correspondance entre des contructeurs ontologiques et les contructeurs relationnels (OntoRelDic), et (4) une ontologie normalisée formalisée selon μOnto (MOnto). μOnto, un modèle simplifié qui est inspiré de la théorie d’ensemble et à certaines parties de la logique de description, notamment ALCQI(D) [Chomicki and Saake 1998:8]. Le but de μOnto est de définir des composants ontologiques et fournir une classification des axiomes adéquate et suffisante pour la conversion en un schéma relationnel tout en préservant l’expressivité ontologique.
 
 ### Références
-Khnaisser C, Lavoie L, Burgun A, et al. Generating a relational database for heterogeneous data using an ontology. (research report available through the URL and scientific article currently submitted to JODS). 2019. A summary can be found here http://griis.ca/horg-ontorela/
+Khnaisser C, Lavoie, L., Fraikin, B., Barton, A., Dussault, S., Burgun, A., et Ethier J.F. Using an ontology to derive a sharable and interoperable relational data model for heterogeneous healthcare data (submitted to ADBIS 2021). 2020. A summary can be found here http://griis.ca/horg-ontorela/
+
+Khnaisser, C, Lavoie L., Burgun A., et Ethier J.F. Generating Relational Database Using Ontology Review : Issues, Challenges and Trends. International Journal of Advanced Computer Science and Applications (IJACSA) 9, nᵒ 6 (2018): 139--145. https://doi.org/10.14569/IJACSA.2018.090620.
 
 Khnaisser, Christina. « Construction de modèles de données relationnels temporalisés guidée par les ontologies ». Université de Paris cotutelle Université de Sherbrooke, 2019. https://savoirs.usherbrooke.ca/handle/11143/16329.
 
@@ -46,8 +48,8 @@ Dans le même dossier, OntoRela va générer tous les résultats :
 * OntologySummary.txt : sommaire du contenu de l’ontologie.
 * OntoRelA-summary.txt : sommaire quantitatif de l’ontologie.
 * OntoRelDiagnostics.txt : les avertissements sur la réduction.
-* OntoRelDic.json : OntoRelDic en format JSON.
-* OntoRelDic.txt :  OntoRelDic en format texte.
+* OntoRelCat.json : catalogue de correspondance OntoRel en format JSON.
+* OntoRelCat.txt :  catalogue de correspondance OntoRel en format texte.
 * OntoRelGraph.dot : graphe de l’ontoRel.
 * README.txt : résumé de l’exécution d’OntoRela.
 * RelGraph.dot : le graphe de la base de données.
@@ -70,9 +72,10 @@ La version courante :
 Le code complet sera bientôt disponible.
 
 ### Structure du dépôt
-__results__ : contain OntoRelα output for various ontologies. <br>
 __demo__ : un jeu de données avec des ontologies et des configurations. <br>
-__OntoRelA-1.0.0.exe__ : l’exécutable de l’applicaiton.
+__results__ : contient OntoRelα les artéfacts de sortie des exécution des ontologies dans __demo__. <br>
+__report__ : contient des rapports techniques. <br>
+__OntoRelA-1.1.0.exe__ : l’exécutable de l’applicaiton.
 
 ## Responsables
 Pour plus d'information, contacter :
@@ -81,5 +84,15 @@ Christina Khnaisser : Christina.Khnaisser@usherbrooke.ca <br>
 Luc Lavoie : Luc.Lavoie@usherbrooke.ca <br>
 Jean-François Ethier : Jf.Ether@usherbrooke.ca
 
-### License
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+### Copyright et Licenses
+Copyright 2016-{localyear}, [GRIIS](https://griis.ca/en)
+GRIIS (Groupe de recherche interdisciplinaire en informatique de la santé) <br>
+Faculté des sciences et Faculté de médecine et sciences de la santé <br>
+Université de Sherbrooke (Québec) J1K 2R1 <br>
+CANADA
+
+Le logiciel est sous license
+[LILIQ-R+ version 1.1](https://forge.gouv.qc.ca/licence/fr/liliq-v1-1/#strong-reciprocity-liliq-r)
+
+La documentation est sous license
+[Creative Common CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode)

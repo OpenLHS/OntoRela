@@ -1,0 +1,763 @@
+
+======================================================= 
+OntoRel Diagnostics
+======================================================= 
+
+--------------------------------------- 
+OWL to SQL datatypes
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom redundancy reduction
+--------------------------------------- 
+============ Reducing class axioms of f://m#Organization
+Organization [1..1] hasHeadq City
+
+============ Reducing class axioms of f://m#AnthropoGeographicalThing
+
+============ Reducing class axioms of f://m#Lake
+Lake [1..*] flowsInto Water
+Lake [1..*] locatedOnIsland Island
+Reduction of: Lake [1..*] flowsInto Water and Lake [1..*] locatedOnIsland Island
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#Encompassed
+Encompassed [1..1] encompassedArea EncompassedArea
+Encompassed [1..1] encompassedBy Continent
+Reduction of: Encompassed [1..1] encompassedArea EncompassedArea and Encompassed [1..1] encompassedBy Continent
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#NonGeographicalPoliticalThing
+
+============ Reducing class axioms of f://m#Islands
+
+============ Reducing class axioms of f://m#Membership
+Membership [1..1] inOrganization Organization
+Membership [1..1] ofMember Country
+Reduction of: Membership [1..1] inOrganization Organization and Membership [1..1] ofMember Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#PopulationCount
+
+============ Reducing class axioms of f://m#River
+River [1..*] flowsInto Water
+River [1..*] flowsThrough Lake
+River [1..1] hasEstuary Estuary
+River [1..1] hasSource Source
+River [1..*] locatedOnIsland Island
+River [1..1] hasEstuary Thing
+River [1..1] hasSource Thing
+Reduction of: River [1..*] flowsInto Water and River [1..*] flowsThrough Lake
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsInto Water and River [1..1] hasEstuary Estuary
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsInto Water and River [1..1] hasSource Source
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsInto Water and River [1..*] locatedOnIsland Island
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsInto Water and River [1..1] hasEstuary Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsInto Water and River [1..1] hasSource Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsThrough Lake and River [1..1] hasEstuary Estuary
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsThrough Lake and River [1..1] hasSource Source
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsThrough Lake and River [1..*] locatedOnIsland Island
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsThrough Lake and River [1..1] hasEstuary Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] flowsThrough Lake and River [1..1] hasSource Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..1] hasEstuary Estuary and River [1..1] hasSource Source
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..1] hasEstuary Estuary and River [1..*] locatedOnIsland Island
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..1] hasEstuary Estuary and River [1..1] hasEstuary Thing
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: River [1..1] hasEstuary Estuary and River [1..1] hasSource Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..1] hasSource Source and River [1..*] locatedOnIsland Island
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..1] hasSource Source and River [1..1] hasEstuary Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..1] hasSource Source and River [1..1] hasSource Thing
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: River [1..*] locatedOnIsland Island and River [1..1] hasEstuary Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..*] locatedOnIsland Island and River [1..1] hasSource Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: River [1..1] hasEstuary Thing and River [1..1] hasSource Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#AdministrativeSubdivision
+AdministrativeSubdivision [1..1] belongsTo Country
+
+============ Reducing class axioms of f://m#SpokenBy
+SpokenBy [1..1] onLanguage Language
+
+============ Reducing class axioms of f://m#BelievedBy
+BelievedBy [1..1] onReligion Religion
+
+============ Reducing class axioms of f://m#Language
+
+============ Reducing class axioms of f://m#EthnicProportion
+EthnicProportion [1..1] onEthnicGroup EthnicGroup
+
+============ Reducing class axioms of f://m#AdministrativeArea
+AdministrativeArea [1..1] capital City
+AdministrativeArea [1..*] hasCity City
+Reduction of: AdministrativeArea [1..1] capital City and AdministrativeArea [1..*] hasCity City
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#Source
+Source [1..1] inMountains Mountains
+Source [1..1] hasSource- Thing
+Reduction of: Source [1..1] inMountains Mountains and Source [1..1] hasSource- Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#Estuary
+Estuary [1..1] hasEstuary- Thing
+
+============ Reducing class axioms of f://m#Area
+
+============ Reducing class axioms of f://m#MondialThing
+
+============ Reducing class axioms of f://m#City
+City [1..*] hadPopulation PopulationCount
+City [1..*] locatedAt Water
+City [1..*] locatedOnIsland Island
+City [1..1] locatedIn Country
+City [0..1] locatedIn Province
+City [1..1] cityIn Country
+City [0..1] cityIn Province
+City [0..1] isCapitalOf Country
+Reduction of: City [1..*] hadPopulation PopulationCount and City [1..*] locatedAt Water
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] hadPopulation PopulationCount and City [1..*] locatedOnIsland Island
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] hadPopulation PopulationCount and City [1..1] locatedIn Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] hadPopulation PopulationCount and City [0..1] locatedIn Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] hadPopulation PopulationCount and City [1..1] cityIn Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] hadPopulation PopulationCount and City [0..1] cityIn Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] hadPopulation PopulationCount and City [0..1] isCapitalOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedAt Water and City [1..*] locatedOnIsland Island
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedAt Water and City [1..1] locatedIn Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedAt Water and City [0..1] locatedIn Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedAt Water and City [1..1] cityIn Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedAt Water and City [0..1] cityIn Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedAt Water and City [0..1] isCapitalOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedOnIsland Island and City [1..1] locatedIn Country
+  d1=d2 & op1<op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..*] locatedOnIsland Island and City [0..1] locatedIn Province
+  d1=d2 & op1<op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..*] locatedOnIsland Island and City [1..1] cityIn Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedOnIsland Island and City [0..1] cityIn Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..*] locatedOnIsland Island and City [0..1] isCapitalOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..1] locatedIn Country and City [0..1] locatedIn Province
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..1] locatedIn Country and City [1..1] cityIn Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..1] locatedIn Country and City [0..1] cityIn Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..1] locatedIn Country and City [0..1] isCapitalOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [0..1] locatedIn Province and City [1..1] cityIn Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [0..1] locatedIn Province and City [0..1] cityIn Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [0..1] locatedIn Province and City [0..1] isCapitalOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [1..1] cityIn Country and City [0..1] cityIn Province
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..1] cityIn Country and City [0..1] isCapitalOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: City [0..1] cityIn Province and City [0..1] isCapitalOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#Location
+
+============ Reducing class axioms of f://m#Continent
+
+============ Reducing class axioms of f://m#Place
+
+============ Reducing class axioms of f://m#AnthropoGeographicalRelationship
+
+============ Reducing class axioms of f://m#EthnicGroup
+
+============ Reducing class axioms of f://m#Country
+Country [1..*] believeInReligion Religion
+Country [1..*] belongToEthnicGroup EthnicGroup
+Country [1..1] dependentOf Country
+Country [1..*] ethnicInfo EthnicProportion
+Country [1..*] hadPopulation PopulationCount
+Country [1..*] hasProvince Province
+Country [1..*] isMember Organization
+Country [1..*] languageInfo SpokenBy
+Country [1..*] neighbor Country
+Country [1..*] religionInfo BelievedBy
+Country [1..*] speakLanguage Language
+Country [1..1] wasDependentOf PoliticalBody
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] belongToEthnicGroup EthnicGroup
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..1] dependentOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] ethnicInfo EthnicProportion
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] hadPopulation PopulationCount
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] hasProvince Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] isMember Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] languageInfo SpokenBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] neighbor Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] believeInReligion Religion and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..1] dependentOf Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..*] ethnicInfo EthnicProportion
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..*] hadPopulation PopulationCount
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..*] hasProvince Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..*] isMember Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..*] languageInfo SpokenBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..*] neighbor Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..*] ethnicInfo EthnicProportion
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..*] hadPopulation PopulationCount
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..*] hasProvince Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..*] isMember Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..*] languageInfo SpokenBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..*] neighbor Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and Country [1..*] hadPopulation PopulationCount
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and Country [1..*] hasProvince Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and Country [1..*] isMember Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and Country [1..*] languageInfo SpokenBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and Country [1..*] neighbor Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hadPopulation PopulationCount and Country [1..*] hasProvince Province
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hadPopulation PopulationCount and Country [1..*] isMember Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hadPopulation PopulationCount and Country [1..*] languageInfo SpokenBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hadPopulation PopulationCount and Country [1..*] neighbor Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hadPopulation PopulationCount and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hadPopulation PopulationCount and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hadPopulation PopulationCount and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hasProvince Province and Country [1..*] isMember Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hasProvince Province and Country [1..*] languageInfo SpokenBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hasProvince Province and Country [1..*] neighbor Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hasProvince Province and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hasProvince Province and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] hasProvince Province and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] isMember Organization and Country [1..*] languageInfo SpokenBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] isMember Organization and Country [1..*] neighbor Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] isMember Organization and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] isMember Organization and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] isMember Organization and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] languageInfo SpokenBy and Country [1..*] neighbor Country
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] languageInfo SpokenBy and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] languageInfo SpokenBy and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] languageInfo SpokenBy and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] neighbor Country and Country [1..*] religionInfo BelievedBy
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] neighbor Country and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] neighbor Country and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] religionInfo BelievedBy and Country [1..*] speakLanguage Language
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] religionInfo BelievedBy and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Country [1..*] speakLanguage Language and Country [1..1] wasDependentOf PoliticalBody
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#Line
+
+============ Reducing class axioms of f://m#GeographicalThing
+GeographicalThing [1..*] locatedIn Area
+
+============ Reducing class axioms of f://m#TimeSeriesElement
+
+============ Reducing class axioms of f://m#SmallArea
+
+============ Reducing class axioms of f://m#Water
+Water [0..1] flowsInto Thing
+
+============ Reducing class axioms of f://m#Religion
+
+============ Reducing class axioms of f://m#Mountains
+
+============ Reducing class axioms of f://m#GeographicalNonPoliticalThing
+
+============ Reducing class axioms of f://m#Province
+Province [1..*] hadPopulation PopulationCount
+
+============ Reducing class axioms of f://m#Border
+Border [1..*] isBorderOf Country
+Border [2..2] isBorderOf Thing
+Reduction of: Border [1..*] isBorderOf Country and Border [2..2] isBorderOf Thing
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of f://m#Island
+Island [1..1] belongsToIslands Islands
+Island [1..*] locatedInWater Water
+Reduction of: Island [1..1] belongsToIslands Islands and Island [1..*] locatedInWater Water
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#Desert
+
+============ Reducing class axioms of f://m#Sea
+Sea [1..*] mergesWith Sea
+
+============ Reducing class axioms of f://m#PoliticalThing
+
+============ Reducing class axioms of f://m#Volcano
+
+============ Reducing class axioms of f://m#YearlyMeasurement
+
+============ Reducing class axioms of f://m#PoliticalOrGeographicalThing
+
+============ Reducing class axioms of f://m#LargeArea
+LargeArea [1..*] borders LargeArea
+
+============ Reducing class axioms of f://m#Measurement
+Measurement [1..1] ofObject MondialThing
+
+============ Reducing class axioms of f://m#EncompassedArea
+EncompassedArea [1..*] encompassed Continent
+
+============ Reducing class axioms of f://m#Geometrical
+
+============ Reducing class axioms of http://www.w3.org/2002/07/owl#Nothing
+
+============ Reducing class axioms of f://m#Mountain
+Mountain [1..1] inMountains Mountains
+Mountain [1..*] locatedOnIsland Island
+Reduction of: Mountain [1..1] inMountains Mountains and Mountain [1..*] locatedOnIsland Island
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of f://m#ReifiedThing
+
+============ Reducing class axioms of f://m#PoliticalBody
+
+============ Reducing class and subclasses axioms of f://m#Organization
+============ Reducing class and subclasses axioms of f://m#AnthropoGeographicalThing
+f://m#Religion
+f://m#EthnicGroup
+f://m#Language
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#Lake
+============ Reducing class and subclasses axioms of f://m#Encompassed
+============ Reducing class and subclasses axioms of f://m#NonGeographicalPoliticalThing
+============ Reducing class and subclasses axioms of f://m#Islands
+============ Reducing class and subclasses axioms of f://m#Membership
+============ Reducing class and subclasses axioms of f://m#PopulationCount
+============ Reducing class and subclasses axioms of f://m#River
+============ Reducing class and subclasses axioms of f://m#AdministrativeSubdivision
+f://m#City
+===== Les axiomes 
+AdministrativeSubdivision [1..1] belongsTo Country
+City [1..*] hadPopulation PopulationCount
+City [1..*] locatedAt Water
+City [1..*] locatedOnIsland Island
+City [1..1] locatedIn Country
+City [0..1] locatedIn Province
+City [1..1] cityIn Country
+City [0..1] cityIn Province
+City [0..1] isCapitalOf Country
+===== Les permutations 
+Reduction of: City [1..*] hadPopulation PopulationCount and AdministrativeSubdivision [1..1] belongsTo Country
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..*] locatedAt Water and AdministrativeSubdivision [1..1] belongsTo Country
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..*] locatedOnIsland Island and AdministrativeSubdivision [1..1] belongsTo Country
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..1] locatedIn Country and AdministrativeSubdivision [1..1] belongsTo Country
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [0..1] locatedIn Province and AdministrativeSubdivision [1..1] belongsTo Country
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..1] cityIn Country and AdministrativeSubdivision [1..1] belongsTo Country
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [0..1] cityIn Province and AdministrativeSubdivision [1..1] belongsTo Country
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [0..1] isCapitalOf Country and AdministrativeSubdivision [1..1] belongsTo Country
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of f://m#SpokenBy
+============ Reducing class and subclasses axioms of f://m#BelievedBy
+============ Reducing class and subclasses axioms of f://m#Language
+============ Reducing class and subclasses axioms of f://m#EthnicProportion
+============ Reducing class and subclasses axioms of f://m#AdministrativeArea
+============ Reducing class and subclasses axioms of f://m#Source
+============ Reducing class and subclasses axioms of f://m#Estuary
+============ Reducing class and subclasses axioms of f://m#Area
+f://m#LargeArea
+===== Les axiomes 
+LargeArea [1..*] borders LargeArea
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#MondialThing
+============ Reducing class and subclasses axioms of f://m#City
+============ Reducing class and subclasses axioms of f://m#Location
+============ Reducing class and subclasses axioms of f://m#Continent
+============ Reducing class and subclasses axioms of f://m#Place
+f://m#Source
+f://m#Mountain
+f://m#Estuary
+===== Les axiomes 
+Source [1..1] inMountains Mountains
+Source [1..1] hasSource- Thing
+===== Les permutations 
+===== Les axiomes 
+Mountain [1..1] inMountains Mountains
+Mountain [1..*] locatedOnIsland Island
+===== Les permutations 
+===== Les axiomes 
+Estuary [1..1] hasEstuary- Thing
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#AnthropoGeographicalRelationship
+f://m#EthnicProportion
+f://m#BelievedBy
+f://m#SpokenBy
+===== Les axiomes 
+EthnicProportion [1..1] onEthnicGroup EthnicGroup
+===== Les permutations 
+===== Les axiomes 
+BelievedBy [1..1] onReligion Religion
+===== Les permutations 
+===== Les axiomes 
+SpokenBy [1..1] onLanguage Language
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#EthnicGroup
+============ Reducing class and subclasses axioms of f://m#Country
+============ Reducing class and subclasses axioms of f://m#Line
+f://m#Border
+f://m#River
+===== Les axiomes 
+Border [1..*] isBorderOf Country
+Border [2..2] isBorderOf Thing
+===== Les permutations 
+===== Les axiomes 
+River [1..*] flowsInto Water
+River [1..*] flowsThrough Lake
+River [1..1] hasEstuary Estuary
+River [1..1] hasSource Source
+River [1..*] locatedOnIsland Island
+River [1..1] hasEstuary Thing
+River [1..1] hasSource Thing
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#GeographicalThing
+f://m#City
+===== Les axiomes 
+GeographicalThing [1..*] locatedIn Area
+City [1..*] hadPopulation PopulationCount
+City [1..*] locatedAt Water
+City [1..*] locatedOnIsland Island
+City [1..1] locatedIn Country
+City [0..1] locatedIn Province
+City [1..1] cityIn Country
+City [0..1] cityIn Province
+City [0..1] isCapitalOf Country
+===== Les permutations 
+Reduction of: City [1..*] hadPopulation PopulationCount and GeographicalThing [1..*] locatedIn Area
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..*] locatedAt Water and GeographicalThing [1..*] locatedIn Area
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..*] locatedOnIsland Island and GeographicalThing [1..*] locatedIn Area
+  d1<d2 & op1<op2 & r2><r1 -> not Applicable 
+Reduction of: City [1..1] locatedIn Country and GeographicalThing [1..*] locatedIn Area
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+Reduction of: City [0..1] locatedIn Province and GeographicalThing [1..*] locatedIn Area
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+Reduction of: City [1..1] cityIn Country and GeographicalThing [1..*] locatedIn Area
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [0..1] cityIn Province and GeographicalThing [1..*] locatedIn Area
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: City [0..1] isCapitalOf Country and GeographicalThing [1..*] locatedIn Area
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of f://m#TimeSeriesElement
+f://m#YearlyMeasurement
+f://m#Measurement
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+Measurement [1..1] ofObject MondialThing
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#SmallArea
+f://m#Desert
+f://m#Islands
+f://m#Island
+f://m#Mountains
+f://m#Lake
+f://m#City
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+Island [1..1] belongsToIslands Islands
+Island [1..*] locatedInWater Water
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+Lake [1..*] flowsInto Water
+Lake [1..*] locatedOnIsland Island
+===== Les permutations 
+===== Les axiomes 
+City [1..*] hadPopulation PopulationCount
+City [1..*] locatedAt Water
+City [1..*] locatedOnIsland Island
+City [1..1] locatedIn Country
+City [0..1] locatedIn Province
+City [1..1] cityIn Country
+City [0..1] cityIn Province
+City [0..1] isCapitalOf Country
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#Water
+============ Reducing class and subclasses axioms of f://m#Religion
+============ Reducing class and subclasses axioms of f://m#Mountains
+============ Reducing class and subclasses axioms of f://m#GeographicalNonPoliticalThing
+============ Reducing class and subclasses axioms of f://m#Province
+============ Reducing class and subclasses axioms of f://m#Border
+============ Reducing class and subclasses axioms of f://m#Island
+============ Reducing class and subclasses axioms of f://m#Desert
+============ Reducing class and subclasses axioms of f://m#Sea
+============ Reducing class and subclasses axioms of f://m#PoliticalThing
+f://m#PoliticalBody
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#Volcano
+============ Reducing class and subclasses axioms of f://m#YearlyMeasurement
+f://m#PopulationCount
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#PoliticalOrGeographicalThing
+============ Reducing class and subclasses axioms of f://m#LargeArea
+f://m#Sea
+f://m#Continent
+f://m#Country
+f://m#Province
+===== Les axiomes 
+LargeArea [1..*] borders LargeArea
+Sea [1..*] mergesWith Sea
+===== Les permutations 
+Reduction of: Sea [1..*] mergesWith Sea and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1<op2 & r1<r2  -> parametric Reduce 
+
+===== Les axiomes 
+LargeArea [1..*] borders LargeArea
+===== Les permutations 
+
+===== Les axiomes 
+LargeArea [1..*] borders LargeArea
+Country [1..*] believeInReligion Religion
+Country [1..*] belongToEthnicGroup EthnicGroup
+Country [1..1] dependentOf Country
+Country [1..*] ethnicInfo EthnicProportion
+Country [1..*] hadPopulation PopulationCount
+Country [1..*] hasProvince Province
+Country [1..*] isMember Organization
+Country [1..*] languageInfo SpokenBy
+Country [1..*] neighbor Country
+Country [1..*] religionInfo BelievedBy
+Country [1..*] speakLanguage Language
+Country [1..1] wasDependentOf PoliticalBody
+===== Les permutations 
+Reduction of: Country [1..*] believeInReligion Religion and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..*] belongToEthnicGroup EthnicGroup and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..1] dependentOf Country and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..*] ethnicInfo EthnicProportion and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..*] hadPopulation PopulationCount and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..*] hasProvince Province and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..*] isMember Organization and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..*] languageInfo SpokenBy and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..*] neighbor Country and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1<op2 & r1<r2  -> parametric Reduce 
+Reduction of: Country [1..*] religionInfo BelievedBy and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..*] speakLanguage Language and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Country [1..1] wasDependentOf PoliticalBody and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+LargeArea [1..*] borders LargeArea
+Province [1..*] hadPopulation PopulationCount
+===== Les permutations 
+Reduction of: Province [1..*] hadPopulation PopulationCount and LargeArea [1..*] borders LargeArea
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of f://m#Measurement
+f://m#YearlyMeasurement
+===== Les axiomes 
+Measurement [1..1] ofObject MondialThing
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of f://m#EncompassedArea
+============ Reducing class and subclasses axioms of f://m#Geometrical
+============ Reducing class and subclasses axioms of http://www.w3.org/2002/07/owl#Nothing
+============ Reducing class and subclasses axioms of f://m#Mountain
+f://m#Volcano
+===== Les axiomes 
+Mountain [1..1] inMountains Mountains
+Mountain [1..*] locatedOnIsland Island
+===== Les permutations 
+
+
+============ Reducing class and subclasses axioms of f://m#ReifiedThing
+f://m#Membership
+f://m#Encompassed
+===== Les axiomes 
+Membership [1..1] inOrganization Organization
+Membership [1..1] ofMember Country
+===== Les permutations 
+===== Les axiomes 
+Encompassed [1..1] encompassedArea EncompassedArea
+Encompassed [1..1] encompassedBy Continent
+===== Les permutations 
+============ Reducing class and subclasses axioms of f://m#PoliticalBody
+============ Reduction summary
+Creating join table for: Organization [1..1] hasHeadq City
+Creating join table for: Lake [1..*] flowsInto Water
+Creating join table for: Lake [1..*] locatedOnIsland Island
+Creating join table for: Encompassed [1..1] encompassedArea EncompassedArea
+Creating join table for: Encompassed [1..1] encompassedBy Continent
+Creating join table for: Membership [1..1] inOrganization Organization
+Creating join table for: Membership [1..1] ofMember Country
+Creating join table for: River [1..*] flowsInto Water
+Creating join table for: River [1..*] flowsThrough Lake
+Creating join table for: River [1..1] hasEstuary Estuary
+Creating join table for: River [1..1] hasSource Source
+Creating join table for: River [1..*] locatedOnIsland Island
+Creating join table for: River [1..1] hasEstuary Thing
+Creating join table for: River [1..1] hasSource Thing
+Creating join table for: AdministrativeSubdivision [1..1] belongsTo Country
+Creating join table for: SpokenBy [1..1] onLanguage Language
+Creating join table for: BelievedBy [1..1] onReligion Religion
+Creating join table for: EthnicProportion [1..1] onEthnicGroup EthnicGroup
+Creating join table for: AdministrativeArea [1..1] capital City
+Creating join table for: AdministrativeArea [1..*] hasCity City
+Creating join table for: Source [1..1] inMountains Mountains
+Creating join table for: Source [1..1] hasSource- Thing
+Creating join table for: Estuary [1..1] hasEstuary- Thing
+Creating join table for: City [1..*] hadPopulation PopulationCount
+Creating join table for: City [1..*] locatedAt Water
+Creating join table for: City [1..*] locatedOnIsland Island
+Creating join table for: City [1..1] locatedIn Country
+Creating join table for: City [0..1] locatedIn Province
+Creating join table for: City [1..1] cityIn Country
+Creating join table for: City [0..1] cityIn Province
+Creating join table for: City [0..1] isCapitalOf Country
+Creating join table for: Country [1..*] believeInReligion Religion
+Creating join table for: Country [1..*] belongToEthnicGroup EthnicGroup
+Creating join table for: Country [1..1] dependentOf Country
+Creating join table for: Country [1..*] ethnicInfo EthnicProportion
+Creating join table for: Country [1..*] hadPopulation PopulationCount
+Creating join table for: Country [1..*] hasProvince Province
+Creating join table for: Country [1..*] isMember Organization
+Creating join table for: Country [1..*] languageInfo SpokenBy
+Creating join table for: Country [1..*] neighbor Country
+Creating join table for: Country [1..*] religionInfo BelievedBy
+Creating join table for: Country [1..*] speakLanguage Language
+Creating join table for: Country [1..1] wasDependentOf PoliticalBody
+Creating join table for: GeographicalThing [1..*] locatedIn Area
+Creating join table for: Water [0..1] flowsInto Thing
+Creating join table for: Province [1..*] hadPopulation PopulationCount
+Creating join table for: Border [1..*] isBorderOf Country
+Creating join table for: Border [2..2] isBorderOf Thing
+Creating join table for: Island [1..1] belongsToIslands Islands
+Creating join table for: Island [1..*] locatedInWater Water
+Creating join table for: Sea [1..*] mergesWith Sea
+Creating join table for: LargeArea [1..*] borders LargeArea
+Creating join table for: Measurement [1..1] ofObject MondialThing
+Creating join table for: EncompassedArea [1..*] encompassed Continent
+Creating join table for: Mountain [1..1] inMountains Mountains
+Creating join table for: Mountain [1..*] locatedOnIsland Island

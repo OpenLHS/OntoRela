@@ -1,0 +1,132 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+Table T0000
+
+Table T0001
+  View name @en: physiological evaluation report
+    View attribute @en: iid physiological evaluation report
+
+Table T0002
+
+Table T0003
+
+Table T0004
+
+Table T0005
+  View name @en: human body mass measurement datum
+    View attribute @en: iid human body mass measurement datum
+
+Table T0006
+
+Table T0007
+
+Table T0008
+
+Table T0009
+  View name @en: body weight measurement process
+    View attribute @en: iid body weight measurement process
+
+Table T000a
+
+Table T000b
+
+Table T000c
+
+Table T000d
+
+Table T000e
+
+Table T000f
+
+Table T0010
+
+Table T0011
+  View name @en: medical record identifier intersectionOf health care record | is about | patient
+    View attribute @en: iid medical record identifier intersectionOf health care record | is about | patient
+
+Table T0012
+
+Table T0013
+
+Table T0014
+
+Table T0015
+
+Table T0016
+
+Table T0017
+
+Table T0018
+
+Table T0019
+
+Table T001a
+
+Table T001b
+
+Table T001c
+
+Table T001d
+
+Table T001e
+
+Table T001f
+  View name @en: scalar measurement datum has measurement value double
+
+Table T0020
+
+Table T0021
+  View name IRI IAO_0000003_PHYSIO_0000100_string
+  View name @en: measurement unit label has value string
+
+Table T0022
+
+Table T0023
+  View name IRI IAO_0000032_IAO_0000004_Literal
+  View name @en: scalar measurement datum has measurement value Literal
+
+Table T0024
+  View name IRI PHYSIO_0000083_BFO_0000051_HADO_0000006
+  View name @en: physiological evaluation report has_part medical record identifier
+    View attribute @en: iid physiological evaluation report
+
+Table T0025
+  View name IRI PHYSIO_0000083_BFO_0000051_PHYSIO_0000093
+  View name @en: physiological evaluation report has_part physiological data item
+    View attribute @en: iid physiological evaluation report
+
+Table T0026
+  View name IRI HADO_0000006_IAO_0000219_ONTORELA_C0025X
+  View name @en: medical record identifier denotes medical record identifier intersectionOf health care record | is about | patient
+    View attribute @en: iid medical record identifier intersectionOf health care record | is about | patient
+
+Table T0027
+  View name IRI PHYSIO_0000065_OBI_0000312_PHYSIO_0000008
+  View name @en: human body mass measurement datum is_specified_output_of body weight measurement process
+    View attribute @en: iid human body mass measurement datum
+    View attribute @en: iid body weight measurement process
+
+Table T0028
+  View name IRI PHYSIO_0000085_PHYSIO_0000089_OBI_0100026
+  View name @en: physiological evaluation has evaluant organism
+
+Table T0029
+  View name IRI IAO_0000109_IAO_0000039_IAO_0000003
+  View name @en: measurement datum has measurement unit label measurement unit label
+
+Table T002a
+  View name IRI IAO_0000032_OBI_0001938_OBI_0001931
+  View name @en: scalar measurement datum has value specification scalar value specification
+
+Table T002b
+  View name IRI ONTORELA_C0025X_IAO_0000136_HADO_0000008
+  View name @en: medical record identifier intersectionOf health care record | is about | patient is about patient
+    View attribute @en: iid medical record identifier intersectionOf health care record | is about | patient
+
