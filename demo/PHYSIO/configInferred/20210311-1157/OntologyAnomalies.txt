@@ -1,0 +1,30 @@
+
+======================================================= 
+Classes without data association axiom
+======================================================= 
+http://purl.obolibrary.org/obo/PHYSIO_0000083
+http://purl.obolibrary.org/obo/humanbodyweight-appli-inf.owl/PHYSIO_0000085
+http://purl.obolibrary.org/obo/humanbodyweight-appli-inf.owl/PHYSIO_0000093
+http://purl.obolibrary.org/obo/PHYSIO_0000008
+http://purl.obolibrary.org/obo/PHYSIO_0000065
+http://purl.obolibrary.org/obo/IAO_0000027
+http://purl.obolibrary.org/obo/IAO_0000109
+http://purl.obolibrary.org/obo/OBI_0001931
+http://purl.obolibrary.org/obo/UO_0000002
+http://purl.obolibrary.org/obo/HADO_0000008
+http://purl.obolibrary.org/obo/HADO_0000006
+http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/NCBITaxon_9606
+http://purl.obolibrary.org/obo/PHYSIO_0000094
+
+======================================================= 
+Leaf classes without data association axiom
+======================================================= 
+http://purl.obolibrary.org/obo/PHYSIO_0000008
+http://purl.obolibrary.org/obo/OBI_0001931
+http://purl.obolibrary.org/obo/UO_0000002
+http://purl.obolibrary.org/obo/HADO_0000008
+
+======================================================= 
+Isolated classes
+======================================================= 

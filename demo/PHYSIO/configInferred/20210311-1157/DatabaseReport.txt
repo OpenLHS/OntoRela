@@ -1,0 +1,131 @@
+
+======================================================= 
+Database Report
+======================================================= 
+humanbodyweight-appli-inf.owl
+Schemas: 1
+  Schema [id=HumanBodyWeightInferred, schemaType=BASE]
+
+--------------------------------------- 
+HumanBodyWeightInferred
+--------------------------------------- 
+All Tables: 44
+Join Tables: 23
+Types: 7
+Foreign keys: 68
+Constraints: 24
+
+Tables:
+  T0000::Thing
+  T0001::PHYSIO_0000083
+  T0002::PHYSIO_0000094
+  T0003::HADO_0000008
+  T0004::HADO_0000006
+  T0005::PHYSIO_0000065
+  T0006::NCBITaxon_9606
+  T0007::PHYSIO_0000093
+  T0008::UO_0000002
+  T0009::PHYSIO_0000008
+  T000a::IAO_0000027
+  T000b::PHYSIO_0000085
+  T000c::IAO_0000003
+  T000d::IAO_0000109
+  T000e::OBI_0001931
+  T000f::OBI_0100026
+  T0010::IAO_0000032
+  T0011::ONTORELA_C0025X
+  T0012::BFO_0000050
+  T0013::BFO_0000051
+  T0014::BFO_0000066
+  T0015::IAO_0000039
+  T0016::IAO_0000136
+  T0017::IAO_0000219
+  T0018::OBI_0000299
+  T0019::OBI_0000312
+  T001a::OBI_0001938
+  T001b::RO_0000052
+  T001c::RO_0000057
+  T001d::PHYSIO_0000089
+  T001e::double
+  T001f::IAO_0000032_IAO_0000004_double
+  T0020::string
+  T0021::IAO_0000003_PHYSIO_0000100_string
+  T0022::Literal
+  T0023::IAO_0000032_IAO_0000004_Literal
+  T0024::PHYSIO_0000083_BFO_0000051_HADO_0000006
+  T0025::PHYSIO_0000083_BFO_0000051_PHYSIO_0000093
+  T0026::HADO_0000006_IAO_0000219_ONTORELA_C0025X
+  T0027::PHYSIO_0000065_OBI_0000312_PHYSIO_0000008
+  T0028::PHYSIO_0000085_PHYSIO_0000089_OBI_0100026
+  T0029::IAO_0000109_IAO_0000039_IAO_0000003
+  T002a::IAO_0000032_OBI_0001938_OBI_0001931
+  T002b::ONTORELA_C0025X_IAO_0000136_HADO_0000008
+Foreign keys: 
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0001, origin=T0001::PHYSIO_0000083, destination=T0000::Thing, linkedAtt={T0001_iid::PHYSIO_0000083_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0002, origin=T0002::PHYSIO_0000094, destination=T0000::Thing, linkedAtt={T0002_iid::PHYSIO_0000094_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0004, origin=T0004::HADO_0000006, destination=T0000::Thing, linkedAtt={T0004_iid::HADO_0000006_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000a, origin=T000a::IAO_0000027, destination=T0000::Thing, linkedAtt={T000a_iid::IAO_0000027_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000b, origin=T000b::PHYSIO_0000085, destination=T0000::Thing, linkedAtt={T000b_iid::PHYSIO_0000085_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000c, origin=T000c::IAO_0000003, destination=T0000::Thing, linkedAtt={T000c_iid::IAO_0000003_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000e, origin=T000e::OBI_0001931, destination=T0000::Thing, linkedAtt={T000e_iid::OBI_0001931_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000f, origin=T000f::OBI_0100026, destination=T0000::Thing, linkedAtt={T000f_iid::OBI_0100026_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0006, origin=T0006::NCBITaxon_9606, destination=T000f::OBI_0100026, linkedAtt={T0006_iid::NCBITaxon_9606_iid iid_domain=T000f_iid::OBI_0100026_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0005, origin=T0005::PHYSIO_0000065, destination=T0010::IAO_0000032, linkedAtt={T0005_iid::PHYSIO_0000065_iid iid_domain=T0010_iid::IAO_0000032_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0007, origin=T0007::PHYSIO_0000093, destination=T000a::IAO_0000027, linkedAtt={T0007_iid::PHYSIO_0000093_iid iid_domain=T000a_iid::IAO_0000027_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T000d, origin=T000d::IAO_0000109, destination=T000a::IAO_0000027, linkedAtt={T000d_iid::IAO_0000109_iid iid_domain=T000a_iid::IAO_0000027_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_T0005, origin=T0005::PHYSIO_0000065, destination=T0007::PHYSIO_0000093, linkedAtt={T0005_iid::PHYSIO_0000065_iid iid_domain=T0007_iid::PHYSIO_0000093_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0008, origin=T0008::UO_0000002, destination=T000c::IAO_0000003, linkedAtt={T0008_iid::UO_0000002_iid iid_domain=T000c_iid::IAO_0000003_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0010, origin=T0010::IAO_0000032, destination=T000d::IAO_0000109, linkedAtt={T0010_iid::IAO_0000032_iid iid_domain=T000d_iid::IAO_0000109_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0003, origin=T0003::HADO_0000008, destination=T0006::NCBITaxon_9606, linkedAtt={T0003_iid::HADO_0000008_iid iid_domain=T0006_iid::NCBITaxon_9606_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0009, origin=T0009::PHYSIO_0000008, destination=T000b::PHYSIO_0000085, linkedAtt={T0009_iid::PHYSIO_0000008_iid iid_domain=T000b_iid::PHYSIO_0000085_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0011, origin=T0011::ONTORELA_C0025X, destination=T0002::PHYSIO_0000094, linkedAtt={T0011_iid::ONTORELA_C0025X_iid iid_domain=T0002_iid::PHYSIO_0000094_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0012, origin=T0012::BFO_0000050, destination=T0000::Thing, linkedAtt={domain_T0000_iid::domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0012, origin=T0012::BFO_0000050, destination=T0000::Thing, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0013, origin=T0013::BFO_0000051, destination=T0000::Thing, linkedAtt={domain_T0000_iid::domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0013, origin=T0013::BFO_0000051, destination=T0000::Thing, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0014, origin=T0014::BFO_0000066, destination=T0000::Thing, linkedAtt={domain_T0000_iid::domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0014, origin=T0014::BFO_0000066, destination=T0000::Thing, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0015, origin=T0015::IAO_0000039, destination=T0013::BFO_0000051, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain, domain_T0000_iid::domain_Thing_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0016, origin=T0016::IAO_0000136, destination=T0000::Thing, linkedAtt={domain_T0000_iid::domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0016, origin=T0016::IAO_0000136, destination=T0000::Thing, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0017, origin=T0017::IAO_0000219, destination=T0016::IAO_0000136, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain, domain_T0000_iid::domain_Thing_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T0018, origin=T0018::OBI_0000299, destination=T001c::RO_0000057, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain, domain_T0000_iid::domain_Thing_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0019, origin=T0019::OBI_0000312, destination=T0000::Thing, linkedAtt={domain_T0000_iid::domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0019, origin=T0019::OBI_0000312, destination=T0000::Thing, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T001a, origin=T001a::OBI_0001938, destination=T0000::Thing, linkedAtt={domain_T0000_iid::domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T001a, origin=T001a::OBI_0001938, destination=T0000::Thing, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T001b, origin=T001b::RO_0000052, destination=T0000::Thing, linkedAtt={domain_T0000_iid::domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T001b, origin=T001b::RO_0000052, destination=T0000::Thing, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T001c, origin=T001c::RO_0000057, destination=T0000::Thing, linkedAtt={domain_T0000_iid::domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T001c, origin=T001c::RO_0000057, destination=T0000::Thing, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=T0000_iid::Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_T001d, origin=T001d::PHYSIO_0000089, destination=T001c::RO_0000057, linkedAtt={range_T0000_iid::range_domain_Thing_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain, domain_T0000_iid::domain_Thing_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T001f, origin=T001f::IAO_0000032_IAO_0000004_double, destination=T0010::IAO_0000032, linkedAtt={T0010_iid::IAO_0000032_iid iid_domain=T0010_iid::IAO_0000032_iid iid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk1_T001f, origin=T001f::IAO_0000032_IAO_0000004_double, destination=T001e::double, linkedAtt={T001e_iid::double_iid iid_domain=T001e_iid::double_iid iid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0021, origin=T0021::IAO_0000003_PHYSIO_0000100_string, destination=T000c::IAO_0000003, linkedAtt={T000c_iid::IAO_0000003_iid iid_domain=T000c_iid::IAO_0000003_iid iid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk1_T0021, origin=T0021::IAO_0000003_PHYSIO_0000100_string, destination=T0020::string, linkedAtt={T0020_iid::string_iid iid_domain=T0020_iid::string_iid iid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_T0023, origin=T0023::IAO_0000032_IAO_0000004_Literal, destination=T0010::IAO_0000032, linkedAtt={T0010_iid::IAO_0000032_iid iid_domain=T0010_iid::IAO_0000032_iid iid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk1_T0023, origin=T0023::IAO_0000032_IAO_0000004_Literal, destination=T0022::Literal, linkedAtt={T0022_iid::Literal_iid iid_domain=T0022_iid::Literal_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0024, origin=T0024::PHYSIO_0000083_BFO_0000051_HADO_0000006, destination=T0001::PHYSIO_0000083, linkedAtt={T0001_iid::PHYSIO_0000083_iid iid_domain=T0001_iid::PHYSIO_0000083_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0024, origin=T0024::PHYSIO_0000083_BFO_0000051_HADO_0000006, destination=T0004::HADO_0000006, linkedAtt={T0004_iid::HADO_0000006_iid iid_domain=T0004_iid::HADO_0000006_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T0024, origin=T0024::PHYSIO_0000083_BFO_0000051_HADO_0000006, destination=T0013::BFO_0000051, linkedAtt={T0001_iid::PHYSIO_0000083_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain, T0004_iid::HADO_0000006_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0025, origin=T0025::PHYSIO_0000083_BFO_0000051_PHYSIO_0000093, destination=T0001::PHYSIO_0000083, linkedAtt={T0001_iid::PHYSIO_0000083_iid iid_domain=T0001_iid::PHYSIO_0000083_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0025, origin=T0025::PHYSIO_0000083_BFO_0000051_PHYSIO_0000093, destination=T0007::PHYSIO_0000093, linkedAtt={T0007_iid::PHYSIO_0000093_iid iid_domain=T0007_iid::PHYSIO_0000093_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T0025, origin=T0025::PHYSIO_0000083_BFO_0000051_PHYSIO_0000093, destination=T0013::BFO_0000051, linkedAtt={T0001_iid::PHYSIO_0000083_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain, T0007_iid::PHYSIO_0000093_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0026, origin=T0026::HADO_0000006_IAO_0000219_ONTORELA_C0025X, destination=T0004::HADO_0000006, linkedAtt={T0004_iid::HADO_0000006_iid iid_domain=T0004_iid::HADO_0000006_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0026, origin=T0026::HADO_0000006_IAO_0000219_ONTORELA_C0025X, destination=T0011::ONTORELA_C0025X, linkedAtt={T0011_iid::ONTORELA_C0025X_iid iid_domain=T0011_iid::ONTORELA_C0025X_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T0026, origin=T0026::HADO_0000006_IAO_0000219_ONTORELA_C0025X, destination=T0017::IAO_0000219, linkedAtt={T0004_iid::HADO_0000006_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain, T0011_iid::ONTORELA_C0025X_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0027, origin=T0027::PHYSIO_0000065_OBI_0000312_PHYSIO_0000008, destination=T0005::PHYSIO_0000065, linkedAtt={T0005_iid::PHYSIO_0000065_iid iid_domain=T0005_iid::PHYSIO_0000065_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0027, origin=T0027::PHYSIO_0000065_OBI_0000312_PHYSIO_0000008, destination=T0009::PHYSIO_0000008, linkedAtt={T0009_iid::PHYSIO_0000008_iid iid_domain=T0009_iid::PHYSIO_0000008_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T0027, origin=T0027::PHYSIO_0000065_OBI_0000312_PHYSIO_0000008, destination=T0019::OBI_0000312, linkedAtt={T0005_iid::PHYSIO_0000065_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain, T0009_iid::PHYSIO_0000008_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0028, origin=T0028::PHYSIO_0000085_PHYSIO_0000089_OBI_0100026, destination=T000b::PHYSIO_0000085, linkedAtt={T000b_iid::PHYSIO_0000085_iid iid_domain=T000b_iid::PHYSIO_0000085_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0028, origin=T0028::PHYSIO_0000085_PHYSIO_0000089_OBI_0100026, destination=T000f::OBI_0100026, linkedAtt={T000f_iid::OBI_0100026_iid iid_domain=T000f_iid::OBI_0100026_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T0028, origin=T0028::PHYSIO_0000085_PHYSIO_0000089_OBI_0100026, destination=T001d::PHYSIO_0000089, linkedAtt={T000b_iid::PHYSIO_0000085_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain, T000f_iid::OBI_0100026_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T0029, origin=T0029::IAO_0000109_IAO_0000039_IAO_0000003, destination=T000d::IAO_0000109, linkedAtt={T000d_iid::IAO_0000109_iid iid_domain=T000d_iid::IAO_0000109_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T0029, origin=T0029::IAO_0000109_IAO_0000039_IAO_0000003, destination=T000c::IAO_0000003, linkedAtt={T000c_iid::IAO_0000003_iid iid_domain=T000c_iid::IAO_0000003_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T0029, origin=T0029::IAO_0000109_IAO_0000039_IAO_0000003, destination=T0015::IAO_0000039, linkedAtt={T000d_iid::IAO_0000109_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain, T000c_iid::IAO_0000003_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T002a, origin=T002a::IAO_0000032_OBI_0001938_OBI_0001931, destination=T0010::IAO_0000032, linkedAtt={T0010_iid::IAO_0000032_iid iid_domain=T0010_iid::IAO_0000032_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T002a, origin=T002a::IAO_0000032_OBI_0001938_OBI_0001931, destination=T000e::OBI_0001931, linkedAtt={T000e_iid::OBI_0001931_iid iid_domain=T000e_iid::OBI_0001931_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T002a, origin=T002a::IAO_0000032_OBI_0001938_OBI_0001931, destination=T001a::OBI_0001938, linkedAtt={T0010_iid::IAO_0000032_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain, T000e_iid::OBI_0001931_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_T002b, origin=T002b::ONTORELA_C0025X_IAO_0000136_HADO_0000008, destination=T0011::ONTORELA_C0025X, linkedAtt={T0011_iid::ONTORELA_C0025X_iid iid_domain=T0011_iid::ONTORELA_C0025X_iid iid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_T002b, origin=T002b::ONTORELA_C0025X_IAO_0000136_HADO_0000008, destination=T0003::HADO_0000008, linkedAtt={T0003_iid::HADO_0000008_iid iid_domain=T0003_iid::HADO_0000008_iid iid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_T002b, origin=T002b::ONTORELA_C0025X_IAO_0000136_HADO_0000008, destination=T0016::IAO_0000136, linkedAtt={T0011_iid::ONTORELA_C0025X_iid iid_domain=domain_T0000_iid::domain_Thing_iid iid_domain, T0003_iid::HADO_0000008_iid iid_domain=range_T0000_iid::range_domain_Thing_iid iid_domain}]

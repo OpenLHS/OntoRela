@@ -1,0 +1,15 @@
+# Default database configurations
+schemaName: HumanBodyWeightInferred
+rdbmsName: postgresql
+defaultKeyName: iid
+defaultKeyDomainName: iid_domain
+defaultKeyType: INT
+defaultAttributeName : value
+defaultAttributeDomaineName: value_domain
+defaultAttributeType: TEXT
+maxIdentifierLength: 30
+useIRIasTableId : true
+normalizeDatatype: true
+normalizeAxiom: false
+generateOpTable: true
+

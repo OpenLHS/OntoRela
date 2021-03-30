@@ -1,0 +1,64 @@
+
+======================================================= 
+Database Report
+======================================================= 
+
+--------------------------------------- 
+Class-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2002/07/owl#Thing -> T0000::Thing::Thing
+http://purl.obolibrary.org/obo/PHYSIO_0000083 -> T0001::PHYSIO_0000083::physiological evaluation report
+http://purl.obolibrary.org/obo/PHYSIO_0000094 -> T0002::PHYSIO_0000094::health care record
+http://purl.obolibrary.org/obo/HADO_0000008 -> T0003::HADO_0000008::patient
+http://purl.obolibrary.org/obo/HADO_0000006 -> T0004::HADO_0000006::medical record identifier
+http://purl.obolibrary.org/obo/PHYSIO_0000065 -> T0005::PHYSIO_0000065::human body mass measurement datum
+http://purl.obolibrary.org/obo/NCBITaxon_9606 -> T0006::NCBITaxon_9606::Homo sapiens
+http://purl.obolibrary.org/obo/humanbodyweight-appli-inf.owl/PHYSIO_0000093 -> T0007::PHYSIO_0000093::physiological data item
+http://purl.obolibrary.org/obo/UO_0000002 -> T0008::UO_0000002::mass unit
+http://purl.obolibrary.org/obo/PHYSIO_0000008 -> T0009::PHYSIO_0000008::body weight measurement process
+http://purl.obolibrary.org/obo/IAO_0000027 -> T000a::IAO_0000027::data item
+http://purl.obolibrary.org/obo/humanbodyweight-appli-inf.owl/PHYSIO_0000085 -> T000b::PHYSIO_0000085::physiological evaluation
+http://purl.obolibrary.org/obo/IAO_0000003 -> T000c::IAO_0000003::measurement unit label
+http://purl.obolibrary.org/obo/IAO_0000109 -> T000d::IAO_0000109::measurement datum
+http://purl.obolibrary.org/obo/OBI_0001931 -> T000e::OBI_0001931::scalar value specification
+http://purl.obolibrary.org/obo/OBI_0100026 -> T000f::OBI_0100026::organism
+http://purl.obolibrary.org/obo/IAO_0000032 -> T0010::IAO_0000032::scalar measurement datum
+http://purl.obolibrary.org/obo/humanbodyweight-appli.owl#ONTORELA_C0025X -> T0011::ONTORELA_C0025X::medical record identifier intersectionOf health care record | is about | patient
+
+--------------------------------------- 
+Type-Table Catalog
+--------------------------------------- 
+http://www.w3.org/2001/XMLSchema#double -> T001e::double::double
+http://www.w3.org/2001/XMLSchema#string -> T0020::string::string
+http://www.w3.org/2000/01/rdf-schema#Literal -> T0022::Literal::Literal
+
+--------------------------------------- 
+ObjectProperty-Table Catalog
+--------------------------------------- 
+http://purl.obolibrary.org/obo/BFO_0000050 -> T0012::BFO_0000050::part of
+http://purl.obolibrary.org/obo/BFO_0000051 -> T0013::BFO_0000051::has_part
+http://purl.obolibrary.org/obo/BFO_0000066 -> T0014::BFO_0000066::occurs in
+http://purl.obolibrary.org/obo/IAO_0000039 -> T0015::IAO_0000039::has measurement unit label
+http://purl.obolibrary.org/obo/IAO_0000136 -> T0016::IAO_0000136::is about
+http://purl.obolibrary.org/obo/IAO_0000219 -> T0017::IAO_0000219::denotes
+http://purl.obolibrary.org/obo/OBI_0000299 -> T0018::OBI_0000299::has_specified_output
+http://purl.obolibrary.org/obo/OBI_0000312 -> T0019::OBI_0000312::is_specified_output_of
+http://purl.obolibrary.org/obo/OBI_0001938 -> T001a::OBI_0001938::has value specification
+http://purl.obolibrary.org/obo/RO_0000052 -> T001b::RO_0000052::inheres in
+http://purl.obolibrary.org/obo/RO_0000057 -> T001c::RO_0000057::has participant
+http://purl.obolibrary.org/obo/humanbodyweight-appli-inf.owl/PHYSIO_0000089 -> T001d::PHYSIO_0000089::has evaluant
+
+--------------------------------------- 
+Axiom-Table Catalog
+--------------------------------------- 
+IAO_0000032 [1..1] IAO_0000004 double -> T001f::scalar measurement datum has measurement value double
+IAO_0000003 [1..1] PHYSIO_0000100 string -> T0021::measurement unit label has value string
+IAO_0000032 [1..*] IAO_0000004 Literal -> T0023::scalar measurement datum has measurement value Literal
+PHYSIO_0000083 [1..1] BFO_0000051 HADO_0000006 -> T0024::physiological evaluation report has_part medical record identifier
+PHYSIO_0000083 [1..*] BFO_0000051 PHYSIO_0000093 -> T0025::physiological evaluation report has_part physiological data item
+HADO_0000006 [1..1] IAO_0000219 ONTORELA_C0025X -> T0026::medical record identifier denotes medical record identifier intersectionOf health care record | is about | patient
+PHYSIO_0000065 [1..*] OBI_0000312 PHYSIO_0000008 -> T0027::human body mass measurement datum is_specified_output_of body weight measurement process
+PHYSIO_0000085 [1..1] PHYSIO_0000089 OBI_0100026 -> T0028::physiological evaluation has evaluant organism
+IAO_0000109 [1..1] IAO_0000039 IAO_0000003 -> T0029::measurement datum has measurement unit label measurement unit label
+IAO_0000032 [1..*] OBI_0001938 OBI_0001931 -> T002a::scalar measurement datum has value specification scalar value specification
+ONTORELA_C0025X [1..*] IAO_0000136 HADO_0000008 -> T002b::medical record identifier intersectionOf health care record | is about | patient is about patient
