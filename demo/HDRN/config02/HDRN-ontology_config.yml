@@ -1,0 +1,18 @@
+owlFilePath: https://raw.githubusercontent.com/OpenLHS/HDRN/main/HDRN-full.owl
+loadEquivalentClass: false
+annotations:
+  labels:
+    - "http://www.w3.org/2000/01/rdf-schema#label"
+  definitions:
+    - "http://purl.obolibrary.org/obo/IAO_0000115"
+    - "http://purl.obolibrary.org/obo/IAO_0000600"
+
+classes:
+  - "http://purl.obolibrary.org/obo/PDRO_0000042" # Drug dispensing record
+  - "http://purl.obolibrary.org/obo/PDRO_0000041" # Drug dispensing record item
+  - "http://purl.obolibrary.org/obo/PDRO_0000111" # Drug dispensed quantity
+  - "http://purl.obolibrary.org/obo/PDRO_0000110" # Drug dispensing record item dispensing date
+  - "http://purl.obolibrary.org/obo/IOIO_0000014" # Human identifier
+  - "http://purl.obolibrary.org/obo/PDRO_0000112" # Drug dispensing covered duration specification
+  - "http://purl.obolibrary.org/obo/HOSO_0000019"
+  - "http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"

@@ -1,0 +1,608 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @en: uid pathological condition end temporally qualifying statement
+
+
+
+
+  View name @en: healthcare organization clinical visit
+ and (immediately precedes some immediate inpatient subsequent visit)
+    View attribute @en: uid healthcare organization clinical visit
+ and (immediately precedes some immediate inpatient subsequent visit)
+
+  View name @en: healthcare organization service delivery beginning temporal information
+    View attribute @en: uid healthcare organization service delivery beginning temporal information
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @en: uid pathological condition start temporally qualifying statement
+
+
+  View name @en: process
+ and (realizes some agent plan to act as if some statement was true)
+    View attribute @en: uid process
+ and (realizes some agent plan to act as if some statement was true)
+
+
+
+
+    View attribute @en: uid canadian healthcare organization forward sorting area code
+
+
+
+
+
+
+
+
+  View name @en: health organization clinical visit pathological condition impact statement
+    View attribute @en: uid health organization clinical visit pathological condition impact statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: healthcare organization service delivery ending temporal information
+    View attribute @en: uid healthcare organization service delivery ending temporal information
+
+
+
+
+
+
+
+
+
+  View name @en: public provincial health insurance primary residence statement
+    View attribute @en: uid public provincial health insurance primary residence statement
+
+  View name @en: human birth statement
+ and (is about exactly 1 human clinical visit specified patient)
+    View attribute @en: uid human birth statement
+ and (is about exactly 1 human clinical visit specified patient)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: temporal qualification of the appearance of a plan to act as if some statement was true
+    View attribute @en: uid temporal qualification of the appearance of a plan to act as if some statement was true
+
+
+
+
+
+
+
+    View attribute @en: uid healthcare organization service delivery ending statement
+
+
+
+
+
+  View name @en: human biological sex or gender identity information content entity
+    View attribute @en: uid human biological sex or gender identity information content entity
+
+
+
+
+  View name @en: temporal qualification of the disappearance of a plan to act as if some statement was true
+    View attribute @en: uid temporal qualification of the disappearance of a plan to act as if some statement was true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @en: uid healthcare organization service delivery beginning statement
+
+  View name @en: human death statement
+ and (is about exactly 1 human clinical visit specified patient)
+    View attribute @en: uid human death statement
+ and (is about exactly 1 human clinical visit specified patient)
+
+  View name @en: provincial health insurance primary residence statement beginning
+    View attribute @en: uid provincial health insurance primary residence statement beginning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute IRIOpenLHS-Core_0000057_OpenLHS-Core_0000058_string_OpenLHS-Core_0000058
+
+    View attribute IRIOpenLHS-Core_0000054_OpenLHS-Core_0000059_Literal_OpenLHS-Core_0000059
+
+
+  View name @en: public provincial health insurance record is about primary health insurance beneficiary human
+
+  View name @en: service agreement specification is_specified_output_of service agreement negotiation
+
+
+  View name @en: human clinical visit specified patient denoted by healthcare service organism specification
+
+
+  View name @en: health procedure outcome information is_specified_output_of health procedure resulting process
+
+  View name @en: pathological condition end temporally qualifying statement has component pathological condition end temporal information
+    View attribute @en: uid pathological condition end temporally qualifying statement
+
+  View name @en: healthcare organization clinical visit
+ and (immediately precedes some immediate inpatient subsequent visit) immediately precedes immediate inpatient subsequent visit
+  View name @fr: HOSO_0000012
+ and (RO_0002090 some HOSO_0000038) RO_0002090 HOSO_0000038
+    View attribute @en: uid healthcare organization clinical visit
+ and (immediately precedes some immediate inpatient subsequent visit)
+
+
+
+  View name @en: health procedure resulting process has_specified_input health activity outcome information
+
+  View name @en: pathological condition start temporally qualifying statement has component pathological condition start temporal information
+    View attribute @en: uid pathological condition start temporally qualifying statement
+
+  View name @en: process
+ and (realizes some agent plan to act as if some statement was true) realizes agent plan to act as if some statement was true
+  View name @fr: BFO_0000015
+ and (BFO_0000055 some OpenLHS-Core_0000043) BFO_0000055 OpenLHS-Core_0000043
+    View attribute @en: uid process
+ and (realizes some agent plan to act as if some statement was true)
+
+  View name @en: pathological condition sub-group name is about pathological condition
+
+  View name @en: health organization clinical visit pathological condition impact statement has component pathological condition impact type on clinical visit
+    View attribute @en: uid health organization clinical visit pathological condition impact statement
+
+  View name @en: health organization clinical visit pathological condition impact statement has component healthcare organization service delivery identifier
+    View attribute @en: uid health organization clinical visit pathological condition impact statement
+
+  View name @en: human death temporal information component of human death statement
+
+
+  View name @en: continuant temporally qualifying statement is about continuant
+
+  View name @en: process
+ and (has agent some organization) has agent organization
+  View name @fr: BFO_0000015
+ and (has_agent some OBI_0000245) has_agent OBI_0000245
+
+  View name @en: prior visit category to an inpatient visit is about healthcare organization clinical visit
+ and (immediately precedes some immediate inpatient subsequent visit)
+  View name @fr: HOSO_0000039 IAO_0000136 HOSO_0000012
+ and (RO_0002090 some HOSO_0000038)
+    View attribute @en: uid healthcare organization clinical visit
+ and (immediately precedes some immediate inpatient subsequent visit)
+
+
+  View name @en: identifier is_specified_output_of identifier creating process
+
+
+
+  View name @en: health procedure is maximally directed by health procedure specification
+
+
+  View name @en: pathological condition presence statement has component organism identifier
+
+  View name @en: pathological condition presence statement has component pathological condition sub-group name
+
+
+
+
+
+
+  View name IRI OpenLHS-Core_0000036_OpenLHS-Core_0000067_OpenLHS-Core_0000028
+  View name @en: service delivery is maximally directed by service agreement specification
+  View name @fr: OpenLHS-Core_0000036 OpenLHS-Core_0000067 OpenLHS-Core_0000028
+
+  View name IRI OpenLHS-Core_0000012_OpenLHS-Core_0000008_OpenLHS-Core_0000013
+  View name @fr: OpenLHS-Core_0000012 OpenLHS-Core_0000008 OpenLHS-Core_0000013
+
+  View name @en: human birth temporal information component of human birth statement
+
+  View name @en: healthcare organization has role healthcare organization role
+
+  View name @en: specifically dependent continuant concretizes generically dependent continuant
+
+  View name @en: concretizes some plan specification concretizes plan specification
+
+  View name @en: healthcare birth visit has_specified_output human birth statement
+ and (is about exactly 1 human clinical visit specified patient)
+  View name @fr: HOSO_0000041 OBI_0000299 IOIO_0000001
+ and (IAO_0000136 exactly 1 HOSO_0000137)
+    View attribute @en: uid human birth statement
+ and (is about exactly 1 human clinical visit specified patient)
+
+  View name IRI OpenLHS-Core_0000013_OpenLHS-Core_0000001_OpenLHS-Core_0000012
+  View name @fr: OpenLHS-Core_0000013 OpenLHS-Core_0000001 OpenLHS-Core_0000012
+
+
+  View name @en: dispensed drug quantity component of drug dispensing record item
+
+
+
+
+  View name @en: primary health insurance beneficiary human has role primary health insurance beneficiary human role
+
+  View name @en: human death statement has component human death temporal information
+
+
+  View name @en: canadian postal code has component canadian forward sorting area code
+
+  View name @en: human biological sex statement has component human biological sex information content entity
+
+  View name @en: human biological sex statement has component human identifier
+
+
+  View name @en: drug dispensing record item dispensing date component of drug dispensing record item
+
+  View name @en: facility-supported clinical visit has part that occurs in healthcare facility
+
+  View name @en: public provincial health insurance primary residence statement has component canadian postal address
+    View attribute @en: uid public provincial health insurance primary residence statement
+
+  View name @en: public provincial health insurance primary residence statement part of public provincial health insurance record
+    View attribute @en: uid public provincial health insurance primary residence statement
+
+  View name @en: human birth statement
+ and (is about exactly 1 human clinical visit specified patient) is about human clinical visit specified patient
+  View name @fr: IOIO_0000001
+ and (IAO_0000136 exactly 1 HOSO_0000137) IAO_0000136 HOSO_0000137
+    View attribute @en: uid human birth statement
+ and (is about exactly 1 human clinical visit specified patient)
+
+
+
+  View name @en: public provincial health identifier is about public provincial health insurance record
+
+  View name @en: generically dependent continuant is concretized as specifically dependent continuant
+
+  View name @en: health activity outcome information is_specified_output_of health activity
+
+
+  View name @en: human birth statement has component human birth temporal information
+
+
+  View name @en: temporal qualification of the appearance of a plan to act as if some statement was true is about agent plan to act as if some statement was true
+    View attribute @en: uid temporal qualification of the appearance of a plan to act as if some statement was true
+
+
+  View name @en: unit qualified scalar specified value has component numerical specified value
+
+  View name @en: immediate subsequent visit immediately preceded by healthcare organization clinical visit
+
+
+
+  View name @en: canadian postal address has component canadian first-order administrative region identifier
+
+
+  View name @en: healthcare organization service delivery ending statement has component healthcare organization service delivery ending temporal information
+    View attribute @en: uid healthcare organization service delivery ending statement
+    View attribute @en: uid healthcare organization service delivery ending temporal information
+
+  View name @en: healthcare organization service delivery ending statement has component healthcare organization service delivery identifier
+    View attribute @en: uid healthcare organization service delivery ending statement
+
+
+  View name @en: health activity ending statement has component health activity identifier
+
+  View name @en: health activity ending statement has component health activity ending temporal information
+
+  View name @en: temporal qualification of the disappearance of a plan to act as if some statement was true is about agent plan to act as if some statement was true
+    View attribute @en: uid temporal qualification of the disappearance of a plan to act as if some statement was true
+
+
+
+  View name @en: canadian census subdivision identifier denoted by canadian postal code
+
+  View name @en: healthcare visit of expiration has_specified_output human death statement
+ and (is about exactly 1 human clinical visit specified patient)
+  View name @fr: HOSO_0000045 OBI_0000299 IOIO_0000003
+ and (IAO_0000136 exactly 1 HOSO_0000137)
+    View attribute @en: uid human death statement
+ and (is about exactly 1 human clinical visit specified patient)
+
+  View name @en: health activity beginning statement has component health activity identifier
+
+  View name @en: health activity beginning statement has component health activity beginning temporal information
+
+
+
+  View name @en: day inpatient surgery visit has part surgical health procedure
+
+  View name @en: denotes some centrally registered identifier registry denotes centrally registered identifier registry
+
+  View name @en: pragmatically accepted statement participates in process
+ and (realizes some agent plan to act as if some statement was true)
+  View name @fr: OpenLHS-Core_0000010 RO_0000056 BFO_0000015
+ and (BFO_0000055 some OpenLHS-Core_0000043)
+    View attribute @en: uid process
+ and (realizes some agent plan to act as if some statement was true)
+
+
+  View name @en: health procedure ending statement has component health procedure identifier
+
+  View name @en: health procedure ending statement has component health procedure ending temporal information
+
+
+
+  View name @en: service agreement negotiation has_specified_input service offer
+
+  View name @en: government sanctioned statement is_specified_output_of process
+ and (has agent some organization)
+  View name @fr: OpenLHS-Core_0000011 OBI_0000312 BFO_0000015
+ and (has_agent some OBI_0000245)
+
+  View name @en: healthcare organization service delivery beginning statement has component healthcare organization service delivery beginning temporal information
+    View attribute @en: uid healthcare organization service delivery beginning statement
+    View attribute @en: uid healthcare organization service delivery beginning temporal information
+
+  View name @en: healthcare organization service delivery beginning statement has component healthcare organization service delivery identifier
+    View attribute @en: uid healthcare organization service delivery beginning statement
+
+  View name @en: human death statement
+ and (is about exactly 1 human clinical visit specified patient) is about human clinical visit specified patient
+  View name @fr: IOIO_0000003
+ and (IAO_0000136 exactly 1 HOSO_0000137) IAO_0000136 HOSO_0000137
+    View attribute @en: uid human death statement
+ and (is about exactly 1 human clinical visit specified patient)
+
+  View name @en: provincial health insurance primary residence statement beginning is about public provincial health insurance primary residence statement
+    View attribute @en: uid provincial health insurance primary residence statement beginning
+    View attribute @en: uid public provincial health insurance primary residence statement
+
+  View name @en: health procedure beginning statement has component health procedure identifier
+
+  View name @en: health procedure beginning statement has component health procedure beginning temporal information
+
+  View name @en: centrally registered identifier has part centrally registered identifier symbol
+
+  View name @en: centrally registered identifier has part denotes some centrally registered identifier registry
+
+  View name @en: visit transfer specification category part of visit transfer specification
+
+  View name @en: diagnosis related group is about healthcare organization clinical visit
+
+
+  View name @en: healthcare organization clinical visit is directed by healthcare service organism specification
+
+  View name @en: healthcare organization clinical visit has participating recipient organism
+
+  View name @en: healthcare organization clinical visit has part healthcare procedure
+
+
+
+
+
+
+
+  View name @en: centrally registered identifier symbol part of centrally registered identifier
+
+  View name @en: outpatient diagnostic visit has part diagnostic health procedure
+
+
+
+  View name @en: visit discharge specification is about healthcare organization clinical visit
+
+
+  View name @en: temporally qualifying statement has component temporal information
+
+  View name @en: healthcare procedure has participating performer healthcare provider
+
+
+  View name @en: health procedure request has part health procedure specification
+
+
+
+  View name @en: health procedure agreement specification has part health procedure specification
+
+
+  View name @en: agent plan to act as if some statement was true characteristic of Agent
+
+  View name @en: visit transfer specification is about healthcare organization
+
+  View name @en: healthcare organization service delivery realizes healthcare organization role
+
+  View name @en: healthcare organization identifier denotes healthcare organization
+
+
+
+  View name @en: process is maximally directed by directive information entity
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3145 @@
+
+======================================================= 
+OntoRel Diagnostics
+======================================================= 
+
+--------------------------------------- 
+OWL to SQL datatypes
+--------------------------------------- 
+OWL Type langString does not exist in config file. The type TEXT will be used
+
+--------------------------------------- 
+Axiom redundancy reduction
+--------------------------------------- 
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000619
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000910
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000922
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001785
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000934
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000946
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001410
+
+============ Reducing class axioms of http://biohackathon.org/resource/faldo#Region
+Region [1..1] begin Position
+Region [1..1] end Position
+Reduction of: Region [1..1] begin Position and Region [1..1] end Position
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ERO_0002002
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000174
+GENO_0000174 [1..*] OBI_0000299 GENO_0000515
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000392
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000150
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000248
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000022
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000010
+
+============ Reducing class axioms of http://biohackathon.org/resource/faldo#ReverseStrandPosition
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000947
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000911
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000923
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000935
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ERO_0002003
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/NCBITaxon_9606
+
+============ Reducing class axioms of http://biohackathon.org/resource/faldo#ExactPosition
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000175
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000393
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000021
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000030
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000042
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000054
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000815
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000936
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000948
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000839
+GENO_0000839 [1..*] GENO_0000382 GENO_0000504
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000912
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000924
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000164
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000394
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000152
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ZP_0005531
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000140
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000491
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000105
+SO_0000105 [1..*] BFO_0000050 SO_0000830
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000577
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000020
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000771
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000032
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000783
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001218
+SO_0001218 [1..*] BFO_0000051 GENO_0000093
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000925
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000937
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000719
+GENO_0000719 [1..*] IAO_0000219 ONTORELA_C349f0240
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000949
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000901
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000141
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000480
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000492
+GENO_0000492 [1..*] GENO_0000683 GENO_0000501
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/OBI_0000435
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ZP_0000199
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/OBI_0600043
+OBI_0600043 [1..*] OBI_0000299 ONTORELA_C55a946a3
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000699
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000165
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000914
+GENO_0000914 [1..*] GENO_0000239 SO_0001505
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000926
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000938
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000902
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000033
+GENO_0000033 [1..*] GENO_0000382 SO_0001059
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000142
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000057
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000337
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000481
+GENO_0000481 [1..*] BFO_0000050 SO_0001026
+GENO_0000481 [1..*] RO_0002162 OBI_0100026
+Reduction of: GENO_0000481 [1..*] BFO_0000050 SO_0001026 and GENO_0000481 [1..*] RO_0002162 OBI_0100026
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/UBERON_0001062
+UBERON_0001062 [1..*] RO_0001000 OBI_0100026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000040
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000166
+GENO_0000166 [1..*] OBI_0000299 GENO_0000515
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000915
+GENO_0000915 [1..*] GENO_0000408 GENO_0000916
+GENO_0000915 [1..*] BFO_0000051 SO_0001059
+Reduction of: GENO_0000915 [1..*] GENO_0000408 GENO_0000916 and GENO_0000915 [1..*] BFO_0000051 SO_0001059
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000927
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000818
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000939
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001500
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001742
+
+============ Reducing class axioms of http://purl.org/oban/association
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000022
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000131
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000482
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000494
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GO_0003674
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000143
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000010
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000904
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000916
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000928
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001743
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000047
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/IAO_0000030
+
+============ Reducing class axioms of http://www.geneontology.org/formats/oboInOwl#ObsoleteClass
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000040
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000144
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000495
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000173
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000132
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001744
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C349f0240
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000929
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000000
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000460
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000207
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000667
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000351
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000036
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000169
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000145
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000133
+GENO_0000133 [1..*] RO_0000052 GENO_0000516
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000918
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000018
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000037
+
+============ Reducing class axioms of http://biohackathon.org/resource/faldo#StrandedPosition
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001026
+SO_0001026 [1..*] RO_0002162 OBI_0100026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000167
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000034
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000143
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000146
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000497
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000134
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000020
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/PCO_0000020
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C50fc6ccd
+ONTORELA_C50fc6ccd [1..*] BFO_0000050 GENO_0000536
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000907
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000919
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000017
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000002
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000014
+GENO_0000014 [1..*] GENO_0000408 SO_0000704
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000680
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/CL_0000000
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000005
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000289
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ZP_0000755
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000147
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000135
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000498
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C55a946a3
+ONTORELA_C55a946a3 [1..*] GENO_0000211 GENO_0000002
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000111
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000031
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C3009a2bd
+ONTORELA_C3009a2bd [1..*] RO_0002091 UBERON_0000105
+ONTORELA_C3009a2bd [1..*] RO_0002093 UBERON_0000105
+Reduction of: ONTORELA_C3009a2bd [1..*] RO_0002091 UBERON_0000105 and ONTORELA_C3009a2bd [1..*] RO_0002093 UBERON_0000105
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000681
+GENO_0000681 [1..*] GENO_0000207 GENO_0000139
+GENO_0000681 [1..*] GENO_0000207 GENO_0000685
+Reduction of: GENO_0000681 [1..*] GENO_0000207 GENO_0000139 and GENO_0000681 [1..*] GENO_0000207 GENO_0000685
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ZP_0005692
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000016
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000148
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000499
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000136
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000112
+GENO_0000112 [1..*] RO_0002162 OBI_0100026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C64c7aff2
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001477
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/OBI_0100026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000039
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000015
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/NCBITaxon_7955
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000027
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000149
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000110
+SO_0000110 [1..*] GENO_0000239 GENO_0000702
+SO_0000110 [1..*] GENO_0000903 GENO_0000815
+Reduction of: SO_0000110 [1..*] GENO_0000239 GENO_0000702 and SO_0000110 [1..*] GENO_0000903 GENO_0000815
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000340
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000137
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000125
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000113
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000343
+GENO_0000343 [1..*] GENO_0000248 SO_0000340
+GENO_0000343 [1..*] GENO_0000207 GENO_0000513
+Reduction of: GENO_0000343 [1..*] GENO_0000248 SO_0000340 and GENO_0000343 [1..*] GENO_0000207 GENO_0000513
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000476
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001478
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/CHEBI_33696
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000780
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000159
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000017
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000002
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ENVO_01000254
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000014
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000029
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000138
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000477
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000341
+SO_0000341 [1..*] GENO_0000207 GENO_0000618
+SO_0000341 [1..*] BFO_0000050 GENO_0000614
+Reduction of: SO_0000341 [1..*] GENO_0000207 GENO_0000618 and SO_0000341 [1..*] BFO_0000050 GENO_0000614
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000344
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0005836
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/PCO_0000000
+PCO_0000000 [1..*] RO_0002351 OBI_0100026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001479
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C78d57b7f
+ONTORELA_C78d57b7f [1..*] RO_0002524 SO_0001059
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000890
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000013
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000025
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000139
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000023
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000345
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/UPHENO_0001001
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000781
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001019
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000660
+GENO_0000660 [1..*] RO_0002162 OBI_0100026
+GENO_0000660 [1..*] RO_0002351 GENO_0000481
+Reduction of: GENO_0000660 [1..*] RO_0002162 OBI_0100026 and GENO_0000660 [1..*] RO_0002351 GENO_0000481
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000575
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000684
+GENO_0000684 [1..*] GENO_0000207 GENO_0000685
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GO_0032502
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000019
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ERO_0000007
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000149
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000024
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000036
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000034
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000012
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000694
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000346
+GENO_0000346 [1..*] GENO_0000207 GENO_0000513
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000770
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000891
+GENO_0000891 [1..*] IAO_0000219 GENO_0000890
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000782
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000685
+
+============ Reducing class axioms of http://www.ncbi.nlm.nih.gov/gene/30269
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001784
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000035
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000011
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000023
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000880
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000892
+
+============ Reducing class axioms of http://biohackathon.org/resource/faldo#BothStrandsPosition
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/PATO_0001894
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000118
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000009
+
+============ Reducing class axioms of http://biohackathon.org/resource/faldo#Position
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000016
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000004
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000106
+GENO_0000106 [1..*] RO_0000091 GENO_0000139
+GENO_0000106 [1..*] GENO_0000248 ONTORELA_C64c7aff2
+GENO_0000106 [1..*] BFO_0000050 GENO_0000108
+Reduction of: GENO_0000106 [1..*] RO_0000091 GENO_0000139 and GENO_0000106 [1..*] GENO_0000248 ONTORELA_C64c7aff2
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000106 [1..*] RO_0000091 GENO_0000139 and GENO_0000106 [1..*] BFO_0000050 GENO_0000108
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000106 [1..*] GENO_0000248 ONTORELA_C64c7aff2 and GENO_0000106 [1..*] BFO_0000050 GENO_0000108
+  d1=d2 & op1<op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000324
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000881
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000772
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000893
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000119
+GENO_0000119 [1..*] RO_0002351 NCBITaxon_7955
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000015
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000458
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000003
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000688
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/UBERON_0000105
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/PATO_0000016
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000870
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000281
+SO_0000281 [1..*] GENO_0000207 SO_0000783
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000882
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C6cdb8ddf
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000773
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000640
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000108
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000338
+GENO_0000338 [1..*] GENO_0000207 GENO_0000685
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/NCBITaxon_10090
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000002
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000871
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000883
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000339
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000704
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000533
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000001
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000642
+GENO_0000642 [1..*] GENO_0000207 SO_0000783
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000666
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000872
+
+============ Reducing class axioms of http://www.ncbi.nlm.nih.gov/gene/20423
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000199
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000873
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000885
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000667
+GENO_0000667 [1..*] BFO_0000051 GENO_0000640
+GENO_0000667 [1..*] GENO_0000207 SO_0000783
+Reduction of: GENO_0000667 [1..*] BFO_0000051 GENO_0000640 and GENO_0000667 [1..*] GENO_0000207 SO_0000783
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000897
+GENO_0000897 [1..*] RO_0002162 OBI_0100026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000788
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000534
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000861
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001483
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000009
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000019
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/CLO_0000031
+CLO_0000031 [1..*] RO_0001000 OBI_0100026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000402
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000511
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000632
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001059
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000874
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000620
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000886
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000777
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000898
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000644
+GENO_0000644 [1..*] IAO_0000219 SO_0001026
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000850
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/OBI_0001149
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000778
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000899
+GENO_0000899 [1..*] GENO_0000385 GENO_0000611
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/WBPhenotype_0000886
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000536
+GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000415
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000804
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/OBI_0000011
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000008
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000091
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000500
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000621
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000524
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000645
+GENO_0000645 [1..*] GENO_0000650 GENO_0000000
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000875
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000165
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000887
+GENO_0000887 [1..*] RO_0002351 NCBITaxon_8090
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000512
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000633
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000888
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000779
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000525
+GENO_0000525 [1..*] BFO_0000051 GENO_0000524
+GENO_0000525 [1..*] BFO_0000051 GENO_0000719
+Reduction of: GENO_0000525 [1..*] BFO_0000051 GENO_0000524 and GENO_0000525 [1..*] BFO_0000051 GENO_0000719
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000646
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/OBI_0001148
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000902
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_1000019
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001013
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/BFO_0000017
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000092
+GENO_0000092 [1..*] RO_0002353 GENO_0000172
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000513
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000876
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000501
+GENO_0000501 [1..*] GENO_0000683 GENO_0000481
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000622
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/MP_0000001
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001745
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000647
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000877
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000768
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000889
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000659
+GENO_0000659 [1..*] RO_0002351 SO_0000110
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/NCBITaxon_10239
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/HsapDv_0000000
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/PATO_0000384
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/ZP_0000386
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000720
+GENO_0000720 [1..*] GENO_0000783 GENO_0000780
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000093
+GENO_0000093 [1..*] BFO_0000050 SO_0001218
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000502
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000623
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000611
+GENO_0000611 [1..*] IAO_0000219 GENO_0000010
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001746
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000515
+GENO_0000515 [1..*] GENO_0000641 SO_0000704
+GENO_0000515 [1..*] GENO_0000382 SO_0001059
+Reduction of: GENO_0000515 [1..*] GENO_0000641 SO_0000704 and GENO_0000515 [1..*] GENO_0000382 SO_0001059
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000878
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000624
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000527
+GENO_0000527 [1..*] RO_0002351 GENO_0000504
+
+============ Reducing class axioms of http://www.ncbi.nlm.nih.gov/gene/6469
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/HP_0000118
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/PATO_0000383
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000721
+GENO_0000721 [1..*] GENO_0000783 GENO_0000781
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0001505
+SO_0001505 [1..*] RO_0000087 GENO_0000152
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000504
+GENO_0000504 [1..*] GENO_0000447 GENO_0000533
+GENO_0000504 [1..*] GENO_0000231 GENO_0000534
+Reduction of: GENO_0000504 [1..*] GENO_0000447 GENO_0000533 and GENO_0000504 [1..*] GENO_0000231 GENO_0000534
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000625
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000528
+GENO_0000528 [1..*] GENO_0000382 GENO_0000506
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000649
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000879
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C6eeefcf9
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000516
+GENO_0000516 [1..*] GENO_0000608 GENO_0000133
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000637
+GENO_0000637 [1..*] RO_0002525 SO_0000902
+
+============ Reducing class axioms of http://www.ncbi.nlm.nih.gov/gene/399483
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/CHEBI_23367
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000722
+GENO_0000722 [1..*] GENO_0000783 GENO_0000782
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000952
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000529
+GENO_0000529 [1..*] GENO_0000443 SO_0000704
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000614
+GENO_0000614 [1..*] BFO_0000050 SO_0000105
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000856
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000602
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000638
+GENO_0000638 [1..*] RO_0002525 SO_0000902
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000060
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000941
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000953
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000603
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000724
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000833
+GENO_0000833 [1..*] association_has_object UPHENO_0001001
+GENO_0000833 [1..*] GENO_0000580 ONTORELA_C3009a2bd
+GENO_0000833 [1..*] GENO_0000580 ENVO_01000254
+GENO_0000833 [1..*] association_has_subject ONTORELA_C6eeefcf9
+Reduction of: GENO_0000833 [1..*] association_has_object UPHENO_0001001 and GENO_0000833 [1..*] GENO_0000580 ONTORELA_C3009a2bd
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000833 [1..*] association_has_object UPHENO_0001001 and GENO_0000833 [1..*] GENO_0000580 ENVO_01000254
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000833 [1..*] association_has_object UPHENO_0001001 and GENO_0000833 [1..*] association_has_subject ONTORELA_C6eeefcf9
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000833 [1..*] GENO_0000580 ONTORELA_C3009a2bd and GENO_0000833 [1..*] GENO_0000580 ENVO_01000254
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000833 [1..*] GENO_0000580 ONTORELA_C3009a2bd and GENO_0000833 [1..*] association_has_subject ONTORELA_C6eeefcf9
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000833 [1..*] GENO_0000580 ENVO_01000254 and GENO_0000833 [1..*] association_has_subject ONTORELA_C6eeefcf9
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000506
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000736
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/IAO_0000102
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/NCBITaxon_8090
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000830
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000170
+GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000930
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000942
+
+============ Reducing class axioms of http://biohackathon.org/resource/faldo#ForwardStrandPosition
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000628
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000713
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000943
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000701
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000616
+GENO_0000616 [1..*] BFO_0000050 SO_0000341
+GENO_0000616 [1..*] GENO_0000207 GENO_0000618
+Reduction of: GENO_0000616 [1..*] BFO_0000050 SO_0000341 and GENO_0000616 [1..*] GENO_0000207 GENO_0000618
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000737
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000604
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000725
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/OBI_0000181
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/SO_0000637
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000171
+GENO_0000171 [1..*] OBI_0000299 GENO_0000515
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000931
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000629
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000702
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000932
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000823
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000944
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000605
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000714
+GENO_0000714 [1..*] GENO_0000726 SO_0000110
+GENO_0000714 [1..*] RO_0002162 OBI_0100026
+GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+GENO_0000714 [1..*] GENO_0000580 Thing
+Reduction of: GENO_0000714 [1..*] GENO_0000726 SO_0000110 and GENO_0000714 [1..*] RO_0002162 OBI_0100026
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000714 [1..*] GENO_0000726 SO_0000110 and GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000714 [1..*] GENO_0000726 SO_0000110 and GENO_0000714 [1..*] GENO_0000580 Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000714 [1..*] RO_0002162 OBI_0100026 and GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000714 [1..*] RO_0002162 OBI_0100026 and GENO_0000714 [1..*] GENO_0000580 Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000714 [1..*] GENO_0000726 GENO_0000481 and GENO_0000714 [1..*] GENO_0000580 Thing
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000172
+GENO_0000172 [1..*] OBI_0000299 GENO_0000515
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000160
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000920
+GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+Reduction of: GENO_0000920 [1..*] GENO_0000726 GENO_0000659 and GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000618
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000848
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000606
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000921
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000933
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000715
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002162 OBI_0100026
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000945
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/OBI_0000086
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000173
+GENO_0000173 [1..*] OBI_0000299 GENO_0000515
+
+============ Reducing class axioms of http://purl.obolibrary.org/obo/GENO_0000391
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000619
+http://purl.obolibrary.org/obo/GENO_0000625
+http://purl.obolibrary.org/obo/GENO_0000623
+http://purl.obolibrary.org/obo/GENO_0000633
+http://purl.obolibrary.org/obo/GENO_0000624
+http://purl.obolibrary.org/obo/GENO_0000632
+http://purl.obolibrary.org/obo/GENO_0000622
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000910
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000922
+http://purl.obolibrary.org/obo/GENO_0000872
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001785
+http://purl.obolibrary.org/obo/SO_0001784
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000934
+http://purl.obolibrary.org/obo/GENO_0000148
+http://purl.obolibrary.org/obo/GENO_0000147
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000946
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001410
+http://purl.obolibrary.org/obo/SO_0000143
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://biohackathon.org/resource/faldo#Region
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ERO_0002002
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000174
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000392
+http://purl.obolibrary.org/obo/GENO_0000394
+http://purl.obolibrary.org/obo/GENO_0000393
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000150
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000248
+http://purl.obolibrary.org/obo/SO_0000207
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000022
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000010
+http://purl.obolibrary.org/obo/SO_1000011
+http://purl.obolibrary.org/obo/SO_1000013
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://biohackathon.org/resource/faldo#ReverseStrandPosition
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000947
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000911
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000923
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000935
+http://purl.obolibrary.org/obo/GENO_0000948
+http://purl.obolibrary.org/obo/GENO_0000942
+http://purl.obolibrary.org/obo/GENO_0000941
+http://purl.obolibrary.org/obo/GENO_0000936
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ERO_0002003
+http://purl.obolibrary.org/obo/ERO_0002002
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/NCBITaxon_9606
+============ Reducing class and subclasses axioms of http://biohackathon.org/resource/faldo#ExactPosition
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000175
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000393
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000021
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000030
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000042
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000054
+http://www.ncbi.nlm.nih.gov/gene/6469
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000815
+http://purl.obolibrary.org/obo/GENO_0000902
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000936
+http://purl.obolibrary.org/obo/GENO_0000146
+http://purl.obolibrary.org/obo/GENO_0000149
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000948
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000839
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000912
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000924
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000164
+http://purl.obolibrary.org/obo/GENO_0000169
+http://purl.obolibrary.org/obo/GENO_0000170
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000394
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000152
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ZP_0005531
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000140
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000491
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000105
+http://purl.obolibrary.org/obo/GENO_0000629
+http://purl.obolibrary.org/obo/GENO_0000628
+===== Les axiomes 
+SO_0000105 [1..*] BFO_0000050 SO_0000830
+===== Les permutations 
+
+===== Les axiomes 
+SO_0000105 [1..*] BFO_0000050 SO_0000830
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000577
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000020
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000771
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000032
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000783
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001218
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000925
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000937
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000719
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000949
+http://purl.obolibrary.org/obo/GENO_0000892
+http://purl.obolibrary.org/obo/GENO_0000893
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000901
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000141
+http://purl.obolibrary.org/obo/GENO_0000889
+http://purl.obolibrary.org/obo/GENO_0000929
+http://purl.obolibrary.org/obo/GENO_0000949
+http://purl.obolibrary.org/obo/GENO_0000933
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000480
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000492
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/OBI_0000435
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ZP_0000199
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/OBI_0600043
+http://purl.obolibrary.org/obo/GENO_0000166
+http://purl.obolibrary.org/obo/GENO_0000164
+http://purl.obolibrary.org/obo/GENO_0000165
+===== Les axiomes 
+OBI_0600043 [1..*] OBI_0000299 ONTORELA_C55a946a3
+GENO_0000166 [1..*] OBI_0000299 GENO_0000515
+===== Les permutations 
+Reduction of: GENO_0000166 [1..*] OBI_0000299 GENO_0000515 and OBI_0600043 [1..*] OBI_0000299 ONTORELA_C55a946a3
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+
+===== Les axiomes 
+OBI_0600043 [1..*] OBI_0000299 ONTORELA_C55a946a3
+===== Les permutations 
+
+===== Les axiomes 
+OBI_0600043 [1..*] OBI_0000299 ONTORELA_C55a946a3
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000699
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000165
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000914
+http://purl.obolibrary.org/obo/GENO_0000010
+===== Les axiomes 
+GENO_0000914 [1..*] GENO_0000239 SO_0001505
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000926
+http://purl.obolibrary.org/obo/GENO_0000927
+http://purl.obolibrary.org/obo/GENO_0000928
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000938
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000902
+http://biohackathon.org/resource/faldo#Position
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000033
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000142
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000057
+http://www.ncbi.nlm.nih.gov/gene/20423
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000337
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000481
+http://purl.obolibrary.org/obo/SO_0000771
+http://purl.obolibrary.org/obo/SO_0000289
+http://purl.obolibrary.org/obo/SO_0000704
+http://purl.obolibrary.org/obo/GENO_0000916
+http://purl.obolibrary.org/obo/SO_0001500
+http://purl.obolibrary.org/obo/SO_0000340
+===== Les axiomes 
+GENO_0000481 [1..*] BFO_0000050 SO_0001026
+GENO_0000481 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+
+
+===== Les axiomes 
+GENO_0000481 [1..*] BFO_0000050 SO_0001026
+GENO_0000481 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+
+
+===== Les axiomes 
+GENO_0000481 [1..*] BFO_0000050 SO_0001026
+GENO_0000481 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+
+
+===== Les axiomes 
+GENO_0000481 [1..*] BFO_0000050 SO_0001026
+GENO_0000481 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+
+
+===== Les axiomes 
+GENO_0000481 [1..*] BFO_0000050 SO_0001026
+GENO_0000481 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+
+
+===== Les axiomes 
+GENO_0000481 [1..*] BFO_0000050 SO_0001026
+GENO_0000481 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/UBERON_0001062
+http://purl.obolibrary.org/obo/CL_0000000
+===== Les axiomes 
+UBERON_0001062 [1..*] RO_0001000 OBI_0100026
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/UBERON_0001062
+http://purl.obolibrary.org/obo/ENVO_01000254
+http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/GENO_0000108
+http://purl.obolibrary.org/obo/PCO_0000000
+http://purl.obolibrary.org/obo/CLO_0000031
+http://purl.obolibrary.org/obo/GENO_0000904
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+UBERON_0001062 [1..*] RO_0001000 OBI_0100026
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+PCO_0000000 [1..*] RO_0002351 OBI_0100026
+===== Les permutations 
+===== Les axiomes 
+CLO_0000031 [1..*] RO_0001000 OBI_0100026
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000166
+http://purl.obolibrary.org/obo/OBI_0001149
+http://purl.obolibrary.org/obo/OBI_0001148
+===== Les axiomes 
+GENO_0000166 [1..*] OBI_0000299 GENO_0000515
+===== Les permutations 
+
+===== Les axiomes 
+GENO_0000166 [1..*] OBI_0000299 GENO_0000515
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000915
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000927
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000818
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000939
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001500
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001742
+============ Reducing class and subclasses axioms of http://purl.org/oban/association
+http://purl.obolibrary.org/obo/GENO_0000833
+===== Les axiomes 
+GENO_0000833 [1..*] association_has_object UPHENO_0001001
+GENO_0000833 [1..*] GENO_0000580 ONTORELA_C3009a2bd
+GENO_0000833 [1..*] GENO_0000580 ENVO_01000254
+GENO_0000833 [1..*] association_has_subject ONTORELA_C6eeefcf9
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000022
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000131
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000482
+http://purl.obolibrary.org/obo/GENO_0000106
+===== Les axiomes 
+GENO_0000106 [1..*] RO_0000091 GENO_0000139
+GENO_0000106 [1..*] GENO_0000248 ONTORELA_C64c7aff2
+GENO_0000106 [1..*] BFO_0000050 GENO_0000108
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000494
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GO_0003674
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000143
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000010
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000904
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000916
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000928
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001743
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000047
+http://www.ncbi.nlm.nih.gov/gene/399483
+http://www.ncbi.nlm.nih.gov/gene/30269
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/GENO_0000891
+http://purl.org/oban/association
+http://purl.obolibrary.org/obo/IAO_0000102
+http://purl.obolibrary.org/obo/GENO_0000923
+http://purl.obolibrary.org/obo/GENO_0000536
+===== Les axiomes 
+GENO_0000891 [1..*] IAO_0000219 GENO_0000890
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://www.geneontology.org/formats/oboInOwl#ObsoleteClass
+http://purl.obolibrary.org/obo/GENO_0000848
+http://purl.obolibrary.org/obo/GENO_0000778
+http://purl.obolibrary.org/obo/GENO_0000871
+http://purl.obolibrary.org/obo/GENO_0000324
+http://purl.obolibrary.org/obo/GENO_0000125
+http://purl.obolibrary.org/obo/GENO_0000768
+http://purl.obolibrary.org/obo/GENO_0000724
+http://purl.obolibrary.org/obo/GENO_0000022
+http://purl.obolibrary.org/obo/GENO_0000037
+http://purl.obolibrary.org/obo/GENO_0000019
+http://purl.obolibrary.org/obo/GENO_0000142
+http://purl.obolibrary.org/obo/GENO_0000042
+http://purl.obolibrary.org/obo/GENO_0000150
+http://purl.obolibrary.org/obo/GENO_0000898
+http://purl.obolibrary.org/obo/GENO_0000772
+http://purl.obolibrary.org/obo/GENO_0000060
+http://purl.obolibrary.org/obo/GENO_0000901
+http://purl.obolibrary.org/obo/GENO_0000680
+http://purl.obolibrary.org/obo/GENO_0000883
+http://purl.obolibrary.org/obo/GENO_0000491
+http://purl.obolibrary.org/obo/GENO_0000925
+http://purl.obolibrary.org/obo/GENO_0000415
+http://purl.obolibrary.org/obo/GENO_0000091
+http://purl.obolibrary.org/obo/GENO_0000870
+http://purl.obolibrary.org/obo/SO_0000637
+http://purl.obolibrary.org/obo/PATO_0000016
+http://purl.obolibrary.org/obo/GENO_0000924
+http://purl.obolibrary.org/obo/GENO_0000029
+http://purl.obolibrary.org/obo/GENO_0000876
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000040
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000144
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000495
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000173
+http://purl.obolibrary.org/obo/SO_1000040
+http://purl.obolibrary.org/obo/SO_1000039
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000132
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001744
+http://purl.obolibrary.org/obo/SO_0001746
+http://purl.obolibrary.org/obo/SO_0001745
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C349f0240
+http://purl.obolibrary.org/obo/GENO_0000516
+http://purl.obolibrary.org/obo/SO_0001026
+===== Les axiomes 
+GENO_0000516 [1..*] GENO_0000608 GENO_0000133
+===== Les permutations 
+===== Les axiomes 
+SO_0001026 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000929
+http://purl.obolibrary.org/obo/GENO_0000932
+http://purl.obolibrary.org/obo/GENO_0000930
+http://purl.obolibrary.org/obo/GENO_0000931
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000000
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000460
+http://purl.obolibrary.org/obo/GENO_0000638
+===== Les axiomes 
+GENO_0000638 [1..*] RO_0002525 SO_0000902
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000207
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000667
+http://purl.obolibrary.org/obo/GENO_0000092
+http://purl.obolibrary.org/obo/SO_0001218
+http://purl.obolibrary.org/obo/SO_1000035
+===== Les axiomes 
+GENO_0000092 [1..*] RO_0002353 GENO_0000172
+===== Les permutations 
+===== Les axiomes 
+SO_0001218 [1..*] BFO_0000051 GENO_0000093
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000351
+http://purl.obolibrary.org/obo/GENO_0000770
+http://purl.obolibrary.org/obo/GO_0032502
+http://purl.obolibrary.org/obo/HsapDv_0000000
+http://purl.obolibrary.org/obo/UBERON_0000105
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000036
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000169
+http://purl.obolibrary.org/obo/GENO_0000175
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000145
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000133
+http://purl.obolibrary.org/obo/GENO_0000391
+http://purl.obolibrary.org/obo/GENO_0000392
+http://purl.obolibrary.org/obo/GENO_0000137
+===== Les axiomes 
+GENO_0000133 [1..*] RO_0000052 GENO_0000516
+===== Les permutations 
+
+===== Les axiomes 
+GENO_0000133 [1..*] RO_0000052 GENO_0000516
+===== Les permutations 
+
+===== Les axiomes 
+GENO_0000133 [1..*] RO_0000052 GENO_0000516
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000918
+http://purl.obolibrary.org/obo/GENO_0000602
+http://purl.obolibrary.org/obo/GENO_0000603
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000018
+http://purl.obolibrary.org/obo/SO_1000021
+http://purl.obolibrary.org/obo/SO_1000019
+http://purl.obolibrary.org/obo/SO_1000020
+http://purl.obolibrary.org/obo/SO_1000022
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000037
+============ Reducing class and subclasses axioms of http://biohackathon.org/resource/faldo#StrandedPosition
+http://biohackathon.org/resource/faldo#ForwardStrandPosition
+http://biohackathon.org/resource/faldo#ReverseStrandPosition
+http://biohackathon.org/resource/faldo#BothStrandsPosition
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001026
+http://purl.obolibrary.org/obo/GENO_0000914
+===== Les axiomes 
+SO_0001026 [1..*] RO_0002162 OBI_0100026
+GENO_0000914 [1..*] GENO_0000239 SO_0001505
+===== Les permutations 
+Reduction of: GENO_0000914 [1..*] GENO_0000239 SO_0001505 and SO_0001026 [1..*] RO_0002162 OBI_0100026
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000167
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000034
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000143
+http://purl.obolibrary.org/obo/SO_0000149
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000146
+http://purl.obolibrary.org/obo/GENO_0000937
+http://purl.obolibrary.org/obo/GENO_0000939
+http://purl.obolibrary.org/obo/GENO_0000938
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000497
+http://purl.obolibrary.org/obo/GENO_0000499
+http://purl.obolibrary.org/obo/GENO_0000500
+http://purl.obolibrary.org/obo/GENO_0000498
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000134
+http://purl.obolibrary.org/obo/GENO_0000605
+http://purl.obolibrary.org/obo/GENO_0000604
+http://purl.obolibrary.org/obo/GENO_0000606
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000020
+http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/GENO_0000788
+http://purl.obolibrary.org/obo/UPHENO_0001001
+http://purl.obolibrary.org/obo/BFO_0000017
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/PCO_0000020
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C50fc6ccd
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000907
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000919
+http://purl.obolibrary.org/obo/GENO_0000714
+===== Les axiomes 
+GENO_0000714 [1..*] GENO_0000726 SO_0000110
+GENO_0000714 [1..*] RO_0002162 OBI_0100026
+GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+GENO_0000714 [1..*] GENO_0000580 Thing
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000017
+http://purl.obolibrary.org/obo/SO_1000018
+http://purl.obolibrary.org/obo/SO_1000023
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000002
+http://purl.obolibrary.org/obo/SO_0001059
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C78d57b7f
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+ONTORELA_C78d57b7f [1..*] RO_0002524 SO_0001059
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000014
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000680
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/CL_0000000
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000005
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000289
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ZP_0000755
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000147
+http://purl.obolibrary.org/obo/GENO_0000144
+http://purl.obolibrary.org/obo/GENO_0000145
+http://purl.obolibrary.org/obo/GENO_0000952
+http://purl.obolibrary.org/obo/GENO_0000143
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000135
+http://purl.obolibrary.org/obo/GENO_0000458
+http://purl.obolibrary.org/obo/GENO_0000402
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000498
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C55a946a3
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000111
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000031
+http://purl.obolibrary.org/obo/GENO_0000921
+http://purl.obolibrary.org/obo/GENO_0000897
+http://purl.obolibrary.org/obo/GENO_0000713
+http://purl.obolibrary.org/obo/GENO_0000701
+http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/GENO_0000815
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000897 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C3009a2bd
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000681
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ZP_0005692
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000016
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000148
+http://purl.obolibrary.org/obo/GENO_0000953
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000499
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000136
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000112
+http://purl.obolibrary.org/obo/GENO_0000887
+http://purl.obolibrary.org/obo/GENO_0000118
+http://purl.obolibrary.org/obo/GENO_0000119
+===== Les axiomes 
+GENO_0000112 [1..*] RO_0002162 OBI_0100026
+GENO_0000887 [1..*] RO_0002351 NCBITaxon_8090
+===== Les permutations 
+Reduction of: GENO_0000887 [1..*] RO_0002351 NCBITaxon_8090 and GENO_0000112 [1..*] RO_0002162 OBI_0100026
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+GENO_0000112 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+
+===== Les axiomes 
+GENO_0000112 [1..*] RO_0002162 OBI_0100026
+GENO_0000119 [1..*] RO_0002351 NCBITaxon_7955
+===== Les permutations 
+Reduction of: GENO_0000119 [1..*] RO_0002351 NCBITaxon_7955 and GENO_0000112 [1..*] RO_0002162 OBI_0100026
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C64c7aff2
+http://purl.obolibrary.org/obo/CL_0000000
+http://purl.obolibrary.org/obo/NCBITaxon_10239
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001477
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/NCBITaxon_7955
+http://purl.obolibrary.org/obo/NCBITaxon_9606
+http://purl.obolibrary.org/obo/NCBITaxon_8090
+http://purl.obolibrary.org/obo/NCBITaxon_10239
+http://purl.obolibrary.org/obo/NCBITaxon_10090
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000039
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000015
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/NCBITaxon_7955
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000027
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000149
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000110
+http://purl.obolibrary.org/obo/GENO_0000688
+http://biohackathon.org/resource/faldo#Region
+http://purl.obolibrary.org/obo/SO_0001410
+http://purl.obolibrary.org/obo/GENO_0000907
+http://purl.obolibrary.org/obo/SO_0000699
+===== Les axiomes 
+SO_0000110 [1..*] GENO_0000239 GENO_0000702
+SO_0000110 [1..*] GENO_0000903 GENO_0000815
+===== Les permutations 
+
+
+===== Les axiomes 
+SO_0000110 [1..*] GENO_0000239 GENO_0000702
+SO_0000110 [1..*] GENO_0000903 GENO_0000815
+Region [1..1] begin Position
+Region [1..1] end Position
+===== Les permutations 
+Reduction of: Region [1..1] begin Position and SO_0000110 [1..*] GENO_0000239 GENO_0000702
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Region [1..1] end Position and SO_0000110 [1..*] GENO_0000239 GENO_0000702
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: Region [1..1] begin Position and SO_0000110 [1..*] GENO_0000903 GENO_0000815
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: Region [1..1] end Position and SO_0000110 [1..*] GENO_0000903 GENO_0000815
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+SO_0000110 [1..*] GENO_0000239 GENO_0000702
+SO_0000110 [1..*] GENO_0000903 GENO_0000815
+===== Les permutations 
+
+
+===== Les axiomes 
+SO_0000110 [1..*] GENO_0000239 GENO_0000702
+SO_0000110 [1..*] GENO_0000903 GENO_0000815
+===== Les permutations 
+
+
+===== Les axiomes 
+SO_0000110 [1..*] GENO_0000239 GENO_0000702
+SO_0000110 [1..*] GENO_0000903 GENO_0000815
+===== Les permutations 
+
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000340
+http://purl.obolibrary.org/obo/GENO_0000346
+===== Les axiomes 
+GENO_0000346 [1..*] GENO_0000207 GENO_0000513
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000137
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000125
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000113
+http://purl.obolibrary.org/obo/OBI_0000181
+http://purl.obolibrary.org/obo/GENO_0000112
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000112 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000343
+http://purl.obolibrary.org/obo/GENO_0000345
+http://purl.obolibrary.org/obo/GENO_0000344
+===== Les axiomes 
+GENO_0000343 [1..*] GENO_0000248 SO_0000340
+GENO_0000343 [1..*] GENO_0000207 GENO_0000513
+===== Les permutations 
+
+
+===== Les axiomes 
+GENO_0000343 [1..*] GENO_0000248 SO_0000340
+GENO_0000343 [1..*] GENO_0000207 GENO_0000513
+===== Les permutations 
+
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000476
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001478
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/CHEBI_33696
+http://purl.obolibrary.org/obo/GENO_0000482
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000780
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000026
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000159
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000017
+http://purl.obolibrary.org/obo/SO_0001505
+===== Les axiomes 
+SO_0001505 [1..*] RO_0000087 GENO_0000152
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000002
+http://purl.obolibrary.org/obo/SO_1000005
+http://purl.obolibrary.org/obo/SO_0001013
+http://purl.obolibrary.org/obo/SO_0001483
+http://purl.obolibrary.org/obo/SO_0000248
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ENVO_01000254
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000014
+http://purl.obolibrary.org/obo/SO_1000016
+http://purl.obolibrary.org/obo/SO_1000015
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000029
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000138
+http://purl.obolibrary.org/obo/GENO_0000139
+http://purl.obolibrary.org/obo/GENO_0000140
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000477
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000341
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000344
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0005836
+http://purl.obolibrary.org/obo/SO_0000167
+http://purl.obolibrary.org/obo/GENO_0000637
+http://purl.obolibrary.org/obo/SO_0000165
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000637 [1..*] RO_0002525 SO_0000902
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/PCO_0000000
+http://purl.obolibrary.org/obo/GENO_0000113
+http://purl.obolibrary.org/obo/PCO_0000020
+===== Les axiomes 
+PCO_0000000 [1..*] RO_0002351 OBI_0100026
+===== Les permutations 
+
+===== Les axiomes 
+PCO_0000000 [1..*] RO_0002351 OBI_0100026
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001479
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C78d57b7f
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000890
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000013
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000025
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000139
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/OBI_0000086
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000345
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/UPHENO_0001001
+http://purl.obolibrary.org/obo/WBPhenotype_0000886
+http://purl.obolibrary.org/obo/GENO_0000575
+http://purl.obolibrary.org/obo/MP_0000001
+http://purl.obolibrary.org/obo/HP_0000118
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000781
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001019
+http://purl.obolibrary.org/obo/SO_0001742
+http://purl.obolibrary.org/obo/SO_0001743
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000660
+http://purl.obolibrary.org/obo/GENO_0000516
+http://purl.obolibrary.org/obo/SO_0001026
+===== Les axiomes 
+GENO_0000660 [1..*] RO_0002162 OBI_0100026
+GENO_0000660 [1..*] RO_0002351 GENO_0000481
+GENO_0000516 [1..*] GENO_0000608 GENO_0000133
+===== Les permutations 
+Reduction of: GENO_0000516 [1..*] GENO_0000608 GENO_0000133 and GENO_0000660 [1..*] RO_0002162 OBI_0100026
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GENO_0000516 [1..*] GENO_0000608 GENO_0000133 and GENO_0000660 [1..*] RO_0002351 GENO_0000481
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+GENO_0000660 [1..*] RO_0002162 OBI_0100026
+GENO_0000660 [1..*] RO_0002351 GENO_0000481
+SO_0001026 [1..*] RO_0002162 OBI_0100026
+===== Les permutations 
+Reduction of: SO_0001026 [1..*] RO_0002162 OBI_0100026 and GENO_0000660 [1..*] RO_0002162 OBI_0100026
+  d1<d2 & op1=op2 & r1=r2  -> Redundancy Warning: SO_0001026 [1..*] RO_0002162 OBI_0100026
+
+Reduction of: SO_0001026 [1..*] RO_0002162 OBI_0100026 and GENO_0000660 [1..*] RO_0002351 GENO_0000481
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000575
+http://purl.obolibrary.org/obo/ZP_0005692
+http://purl.obolibrary.org/obo/ZP_0000386
+http://purl.obolibrary.org/obo/ZP_0005531
+http://purl.obolibrary.org/obo/ZP_0000199
+http://purl.obolibrary.org/obo/ZP_0000755
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000684
+http://purl.obolibrary.org/obo/GENO_0000681
+===== Les axiomes 
+GENO_0000684 [1..*] GENO_0000207 GENO_0000685
+GENO_0000681 [1..*] GENO_0000207 GENO_0000139
+GENO_0000681 [1..*] GENO_0000207 GENO_0000685
+===== Les permutations 
+Reduction of: GENO_0000681 [1..*] GENO_0000207 GENO_0000139 and GENO_0000684 [1..*] GENO_0000207 GENO_0000685
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+Reduction of: GENO_0000681 [1..*] GENO_0000207 GENO_0000685 and GENO_0000684 [1..*] GENO_0000207 GENO_0000685
+  d1<d2 & op1=op2 & r1=r2  -> Redundancy Warning: GENO_0000681 [1..*] GENO_0000207 GENO_0000685
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GO_0032502
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C3009a2bd
+===== Les axiomes 
+ONTORELA_C3009a2bd [1..*] RO_0002091 UBERON_0000105
+ONTORELA_C3009a2bd [1..*] RO_0002093 UBERON_0000105
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000019
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ERO_0000007
+http://purl.obolibrary.org/obo/OBI_0000435
+http://purl.obolibrary.org/obo/OBI_0600043
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+OBI_0600043 [1..*] OBI_0000299 ONTORELA_C55a946a3
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000149
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000024
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000036
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000034
+http://purl.obolibrary.org/obo/GO_0003674
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000012
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000694
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000346
+http://purl.obolibrary.org/obo/GENO_0000338
+http://purl.obolibrary.org/obo/GENO_0000339
+===== Les axiomes 
+GENO_0000346 [1..*] GENO_0000207 GENO_0000513
+GENO_0000338 [1..*] GENO_0000207 GENO_0000685
+===== Les permutations 
+Reduction of: GENO_0000338 [1..*] GENO_0000207 GENO_0000685 and GENO_0000346 [1..*] GENO_0000207 GENO_0000513
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+
+===== Les axiomes 
+GENO_0000346 [1..*] GENO_0000207 GENO_0000513
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000770
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000891
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000782
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000685
+============ Reducing class and subclasses axioms of http://www.ncbi.nlm.nih.gov/gene/30269
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001784
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000035
+http://purl.obolibrary.org/obo/SO_1000173
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000011
+http://purl.obolibrary.org/obo/SO_1000012
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000023
+http://purl.obolibrary.org/obo/SO_1000024
+http://purl.obolibrary.org/obo/SO_1000026
+http://purl.obolibrary.org/obo/SO_1000025
+http://purl.obolibrary.org/obo/SO_1000027
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000880
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000892
+============ Reducing class and subclasses axioms of http://biohackathon.org/resource/faldo#BothStrandsPosition
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/PATO_0001894
+http://purl.obolibrary.org/obo/PATO_0000384
+http://purl.obolibrary.org/obo/PATO_0000383
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000118
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000009
+============ Reducing class and subclasses axioms of http://biohackathon.org/resource/faldo#Position
+http://biohackathon.org/resource/faldo#ExactPosition
+http://biohackathon.org/resource/faldo#StrandedPosition
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000016
+http://purl.obolibrary.org/obo/GENO_0000138
+http://purl.obolibrary.org/obo/BFO_0000034
+http://purl.obolibrary.org/obo/GENO_0000141
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000004
+http://purl.obolibrary.org/obo/BFO_0000040
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000106
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C55a946a3
+===== Les axiomes 
+GENO_0000106 [1..*] RO_0000091 GENO_0000139
+GENO_0000106 [1..*] GENO_0000248 ONTORELA_C64c7aff2
+GENO_0000106 [1..*] BFO_0000050 GENO_0000108
+ONTORELA_C55a946a3 [1..*] GENO_0000211 GENO_0000002
+===== Les permutations 
+Reduction of: ONTORELA_C55a946a3 [1..*] GENO_0000211 GENO_0000002 and GENO_0000106 [1..*] RO_0000091 GENO_0000139
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ONTORELA_C55a946a3 [1..*] GENO_0000211 GENO_0000002 and GENO_0000106 [1..*] GENO_0000248 ONTORELA_C64c7aff2
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ONTORELA_C55a946a3 [1..*] GENO_0000211 GENO_0000002 and GENO_0000106 [1..*] BFO_0000050 GENO_0000108
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000324
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000881
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000772
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000893
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000119
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/GENO_0000351
+http://purl.obolibrary.org/obo/OBI_0000011
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000458
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000003
+http://purl.obolibrary.org/obo/BFO_0000015
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000688
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/UBERON_0000105
+http://purl.obolibrary.org/obo/GENO_0000160
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/PATO_0000016
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000870
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000281
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000882
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C6cdb8ddf
+http://purl.obolibrary.org/obo/GENO_0000660
+http://purl.obolibrary.org/obo/GENO_0000715
+===== Les axiomes 
+GENO_0000660 [1..*] RO_0002162 OBI_0100026
+GENO_0000660 [1..*] RO_0002351 GENO_0000481
+===== Les permutations 
+===== Les axiomes 
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000773
+http://purl.obolibrary.org/obo/GENO_0000685
+http://purl.obolibrary.org/obo/GENO_0000152
+http://purl.obolibrary.org/obo/GENO_0000476
+http://purl.obolibrary.org/obo/GENO_0000477
+http://purl.obolibrary.org/obo/GENO_0000511
+http://purl.obolibrary.org/obo/GENO_0000513
+http://purl.obolibrary.org/obo/GENO_0000480
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000640
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000108
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000338
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/NCBITaxon_10090
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000002
+http://purl.obolibrary.org/obo/BFO_0000004
+http://purl.obolibrary.org/obo/BFO_0000020
+http://purl.obolibrary.org/obo/BFO_0000031
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000871
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000883
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000339
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000704
+http://purl.obolibrary.org/obo/SO_0000902
+http://purl.obolibrary.org/obo/GENO_0000502
+http://purl.obolibrary.org/obo/SO_0000281
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+SO_0000281 [1..*] GENO_0000207 SO_0000783
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000533
+http://purl.obolibrary.org/obo/SO_0000034
+http://purl.obolibrary.org/obo/SO_0000337
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000001
+http://purl.obolibrary.org/obo/BFO_0000003
+http://purl.obolibrary.org/obo/BFO_0000002
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000642
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000666
+http://purl.obolibrary.org/obo/SO_0005836
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000872
+============ Reducing class and subclasses axioms of http://www.ncbi.nlm.nih.gov/gene/20423
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000199
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000873
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000885
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000667
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000897
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000788
+http://purl.obolibrary.org/obo/GENO_0000877
+http://purl.obolibrary.org/obo/SO_0000783
+http://purl.obolibrary.org/obo/GENO_0000773
+http://purl.obolibrary.org/obo/GENO_0000618
+http://purl.obolibrary.org/obo/GENO_0000926
+http://purl.obolibrary.org/obo/GENO_0000875
+http://purl.obolibrary.org/obo/GENO_0000886
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000534
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000861
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001483
+http://purl.obolibrary.org/obo/SO_0000694
+http://purl.obolibrary.org/obo/SO_1000008
+http://purl.obolibrary.org/obo/SO_1000009
+http://purl.obolibrary.org/obo/SO_1000017
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000009
+http://purl.obolibrary.org/obo/SO_1000010
+http://purl.obolibrary.org/obo/SO_1000014
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/PATO_0001894
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/CLO_0000031
+http://purl.obolibrary.org/obo/ERO_0002003
+===== Les axiomes 
+CLO_0000031 [1..*] RO_0001000 OBI_0100026
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000402
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000511
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000632
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001059
+http://purl.obolibrary.org/obo/GENO_0000343
+http://purl.obolibrary.org/obo/GENO_0000684
+http://purl.obolibrary.org/obo/SO_0001019
+http://purl.obolibrary.org/obo/SO_0000667
+http://purl.obolibrary.org/obo/SO_1000036
+http://purl.obolibrary.org/obo/SO_1000002
+http://purl.obolibrary.org/obo/SO_0001785
+http://purl.obolibrary.org/obo/SO_0001744
+http://purl.obolibrary.org/obo/SO_0000159
+http://purl.obolibrary.org/obo/GENO_0000874
+http://purl.obolibrary.org/obo/SO_0000199
+http://purl.obolibrary.org/obo/GENO_0000492
+http://purl.obolibrary.org/obo/SO_1000032
+http://purl.obolibrary.org/obo/GENO_0000346
+===== Les axiomes 
+GENO_0000343 [1..*] GENO_0000248 SO_0000340
+GENO_0000343 [1..*] GENO_0000207 GENO_0000513
+===== Les permutations 
+===== Les axiomes 
+GENO_0000684 [1..*] GENO_0000207 GENO_0000685
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000492 [1..*] GENO_0000683 GENO_0000501
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000346 [1..*] GENO_0000207 GENO_0000513
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000874
+http://purl.obolibrary.org/obo/GENO_0000873
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000620
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000886
+http://purl.obolibrary.org/obo/GENO_0000132
+http://purl.obolibrary.org/obo/GENO_0000131
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000777
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000898
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000644
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000850
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/OBI_0001149
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000778
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000899
+http://purl.obolibrary.org/obo/GENO_0000645
+http://purl.obolibrary.org/obo/GENO_0000644
+http://purl.obolibrary.org/obo/GENO_0000000
+===== Les axiomes 
+GENO_0000899 [1..*] GENO_0000385 GENO_0000611
+GENO_0000645 [1..*] GENO_0000650 GENO_0000000
+===== Les permutations 
+Reduction of: GENO_0000645 [1..*] GENO_0000650 GENO_0000000 and GENO_0000899 [1..*] GENO_0000385 GENO_0000611
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+GENO_0000899 [1..*] GENO_0000385 GENO_0000611
+GENO_0000644 [1..*] IAO_0000219 SO_0001026
+===== Les permutations 
+Reduction of: GENO_0000644 [1..*] IAO_0000219 SO_0001026 and GENO_0000899 [1..*] GENO_0000385 GENO_0000611
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+GENO_0000899 [1..*] GENO_0000385 GENO_0000611
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/WBPhenotype_0000886
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000536
+http://purl.obolibrary.org/obo/GENO_0000524
+http://purl.obolibrary.org/obo/GENO_0000719
+http://purl.obolibrary.org/obo/GENO_0000525
+===== Les axiomes 
+GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+===== Les permutations 
+
+===== Les axiomes 
+GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+GENO_0000719 [1..*] IAO_0000219 ONTORELA_C349f0240
+===== Les permutations 
+Reduction of: GENO_0000719 [1..*] IAO_0000219 ONTORELA_C349f0240 and GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+
+===== Les axiomes 
+GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+GENO_0000525 [1..*] BFO_0000051 GENO_0000524
+GENO_0000525 [1..*] BFO_0000051 GENO_0000719
+===== Les permutations 
+Reduction of: GENO_0000525 [1..*] BFO_0000051 GENO_0000524 and GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000525 [1..*] BFO_0000051 GENO_0000719 and GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000415
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000804
+http://purl.obolibrary.org/obo/GENO_0000533
+http://purl.obolibrary.org/obo/GENO_0000856
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/OBI_0000011
+http://purl.obolibrary.org/obo/ERO_0000007
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000008
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000091
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000500
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000621
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000524
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000645
+http://purl.obolibrary.org/obo/GENO_0000647
+http://purl.obolibrary.org/obo/GENO_0000646
+===== Les axiomes 
+GENO_0000645 [1..*] GENO_0000650 GENO_0000000
+===== Les permutations 
+
+===== Les axiomes 
+GENO_0000645 [1..*] GENO_0000650 GENO_0000000
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000875
+http://purl.obolibrary.org/obo/GENO_0000918
+http://purl.obolibrary.org/obo/GENO_0000133
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000133 [1..*] RO_0000052 GENO_0000516
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000165
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000887
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000512
+http://purl.obolibrary.org/obo/GENO_0000497
+http://purl.obolibrary.org/obo/GENO_0000501
+http://purl.obolibrary.org/obo/GENO_0000915
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000501 [1..*] GENO_0000683 GENO_0000481
+===== Les permutations 
+===== Les axiomes 
+GENO_0000915 [1..*] GENO_0000408 GENO_0000916
+GENO_0000915 [1..*] BFO_0000051 SO_0001059
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000633
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000888
+http://purl.obolibrary.org/obo/GENO_0000878
+http://purl.obolibrary.org/obo/GENO_0000879
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000779
+http://purl.obolibrary.org/obo/GENO_0000781
+http://purl.obolibrary.org/obo/GENO_0000782
+http://purl.obolibrary.org/obo/GENO_0000780
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000525
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000646
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/OBI_0001148
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000902
+http://purl.obolibrary.org/obo/GENO_0000861
+http://purl.obolibrary.org/obo/GENO_0000093
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000093 [1..*] BFO_0000050 SO_0001218
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_1000019
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001013
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/BFO_0000017
+http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/BFO_0000016
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000092
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000513
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000876
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000501
+http://purl.obolibrary.org/obo/GENO_0000502
+===== Les axiomes 
+GENO_0000501 [1..*] GENO_0000683 GENO_0000481
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000622
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/MP_0000001
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001745
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000647
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000877
+http://purl.obolibrary.org/obo/GENO_0000888
+http://purl.obolibrary.org/obo/GENO_0000880
+http://purl.obolibrary.org/obo/GENO_0000881
+http://purl.obolibrary.org/obo/GENO_0000882
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000768
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000889
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000659
+http://purl.obolibrary.org/obo/GENO_0000660
+===== Les axiomes 
+GENO_0000659 [1..*] RO_0002351 SO_0000110
+GENO_0000660 [1..*] RO_0002162 OBI_0100026
+GENO_0000660 [1..*] RO_0002351 GENO_0000481
+===== Les permutations 
+Reduction of: GENO_0000660 [1..*] RO_0002162 OBI_0100026 and GENO_0000659 [1..*] RO_0002351 SO_0000110
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000660 [1..*] RO_0002351 GENO_0000481 and GENO_0000659 [1..*] RO_0002351 SO_0000110
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/NCBITaxon_10239
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/HsapDv_0000000
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/PATO_0000384
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/ZP_0000386
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000720
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000093
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000502
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000623
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000611
+http://purl.obolibrary.org/obo/GENO_0000649
+===== Les axiomes 
+GENO_0000611 [1..*] IAO_0000219 GENO_0000010
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001746
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000515
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000878
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000624
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000527
+http://purl.obolibrary.org/obo/GENO_0000839
+===== Les axiomes 
+GENO_0000527 [1..*] RO_0002351 GENO_0000504
+GENO_0000839 [1..*] GENO_0000382 GENO_0000504
+===== Les permutations 
+Reduction of: GENO_0000839 [1..*] GENO_0000382 GENO_0000504 and GENO_0000527 [1..*] RO_0002351 GENO_0000504
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://www.ncbi.nlm.nih.gov/gene/6469
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/HP_0000118
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/PATO_0000383
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000721
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0001505
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000504
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000625
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000528
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000649
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000879
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C6eeefcf9
+http://purl.obolibrary.org/obo/GENO_0000536
+http://purl.obolibrary.org/obo/geno.owl#ONTORELA_C50fc6ccd
+===== Les axiomes 
+GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+===== Les permutations 
+===== Les axiomes 
+ONTORELA_C50fc6ccd [1..*] BFO_0000050 GENO_0000536
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000516
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000637
+============ Reducing class and subclasses axioms of http://www.ncbi.nlm.nih.gov/gene/399483
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_33696
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000722
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000952
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000529
+http://purl.obolibrary.org/obo/GENO_0000504
+http://purl.obolibrary.org/obo/GENO_0000506
+===== Les axiomes 
+GENO_0000529 [1..*] GENO_0000443 SO_0000704
+GENO_0000504 [1..*] GENO_0000447 GENO_0000533
+GENO_0000504 [1..*] GENO_0000231 GENO_0000534
+===== Les permutations 
+Reduction of: GENO_0000504 [1..*] GENO_0000447 GENO_0000533 and GENO_0000529 [1..*] GENO_0000443 SO_0000704
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000504 [1..*] GENO_0000231 GENO_0000534 and GENO_0000529 [1..*] GENO_0000443 SO_0000704
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+GENO_0000529 [1..*] GENO_0000443 SO_0000704
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000614
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000856
+http://purl.obolibrary.org/obo/GENO_0000495
+http://purl.obolibrary.org/obo/SO_0001478
+http://purl.obolibrary.org/obo/SO_0001479
+http://purl.obolibrary.org/obo/GENO_0000850
+http://purl.obolibrary.org/obo/SO_0001477
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000602
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000638
+http://purl.obolibrary.org/obo/GENO_0000912
+http://purl.obolibrary.org/obo/GENO_0000640
+===== Les axiomes 
+GENO_0000638 [1..*] RO_0002525 SO_0000902
+===== Les permutations 
+
+===== Les axiomes 
+GENO_0000638 [1..*] RO_0002525 SO_0000902
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000060
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000941
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000953
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000603
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000724
+http://purl.obolibrary.org/obo/GENO_0000725
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000833
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000506
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000736
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/IAO_0000102
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/NCBITaxon_8090
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000830
+http://purl.obolibrary.org/obo/SO_0000577
+http://purl.obolibrary.org/obo/GENO_0000616
+http://purl.obolibrary.org/obo/SO_0000105
+http://purl.obolibrary.org/obo/SO_0000341
+http://purl.obolibrary.org/obo/GENO_0000614
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+GENO_0000616 [1..*] BFO_0000050 SO_0000341
+GENO_0000616 [1..*] GENO_0000207 GENO_0000618
+===== Les permutations 
+===== Les axiomes 
+SO_0000105 [1..*] BFO_0000050 SO_0000830
+===== Les permutations 
+===== Les axiomes 
+SO_0000341 [1..*] GENO_0000207 GENO_0000618
+SO_0000341 [1..*] BFO_0000050 GENO_0000614
+===== Les permutations 
+===== Les axiomes 
+GENO_0000614 [1..*] BFO_0000050 SO_0000105
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000170
+http://purl.obolibrary.org/obo/GENO_0000172
+http://purl.obolibrary.org/obo/GENO_0000173
+http://purl.obolibrary.org/obo/GENO_0000171
+http://purl.obolibrary.org/obo/GENO_0000174
+===== Les axiomes 
+GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+GENO_0000172 [1..*] OBI_0000299 GENO_0000515
+===== Les permutations 
+Reduction of: GENO_0000172 [1..*] OBI_0000299 GENO_0000515 and GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+  d1<d2 & op1=op2 & r1=r2  -> Redundancy Warning: GENO_0000172 [1..*] OBI_0000299 GENO_0000515
+
+===== Les axiomes 
+GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+GENO_0000173 [1..*] OBI_0000299 GENO_0000515
+===== Les permutations 
+Reduction of: GENO_0000173 [1..*] OBI_0000299 GENO_0000515 and GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+  d1<d2 & op1=op2 & r1=r2  -> Redundancy Warning: GENO_0000173 [1..*] OBI_0000299 GENO_0000515
+
+===== Les axiomes 
+GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+GENO_0000171 [1..*] OBI_0000299 GENO_0000515
+===== Les permutations 
+Reduction of: GENO_0000171 [1..*] OBI_0000299 GENO_0000515 and GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+  d1<d2 & op1=op2 & r1=r2  -> Redundancy Warning: GENO_0000171 [1..*] OBI_0000299 GENO_0000515
+
+===== Les axiomes 
+GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+GENO_0000174 [1..*] OBI_0000299 GENO_0000515
+===== Les permutations 
+Reduction of: GENO_0000174 [1..*] OBI_0000299 GENO_0000515 and GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+  d1<d2 & op1=op2 & r1=r2  -> Redundancy Warning: GENO_0000174 [1..*] OBI_0000299 GENO_0000515
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000930
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000942
+http://purl.obolibrary.org/obo/GENO_0000943
+http://purl.obolibrary.org/obo/GENO_0000947
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://biohackathon.org/resource/faldo#ForwardStrandPosition
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000628
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000713
+http://purl.obolibrary.org/obo/GENO_0000920
+http://purl.obolibrary.org/obo/GENO_0000919
+===== Les axiomes 
+GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000943
+http://purl.obolibrary.org/obo/GENO_0000944
+http://purl.obolibrary.org/obo/GENO_0000946
+http://purl.obolibrary.org/obo/GENO_0000945
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000701
+http://purl.obolibrary.org/obo/GENO_0000659
+http://purl.obolibrary.org/obo/SO_0000110
+http://purl.obolibrary.org/obo/GENO_0000890
+===== Les axiomes 
+GENO_0000659 [1..*] RO_0002351 SO_0000110
+===== Les permutations 
+===== Les axiomes 
+SO_0000110 [1..*] GENO_0000239 GENO_0000702
+SO_0000110 [1..*] GENO_0000903 GENO_0000815
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000616
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000737
+http://purl.obolibrary.org/obo/GENO_0000529
+http://purl.obolibrary.org/obo/GENO_0000534
+===== Les axiomes 
+GENO_0000529 [1..*] GENO_0000443 SO_0000704
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000604
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000725
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/OBI_0000181
+http://purl.obolibrary.org/obo/GENO_0000111
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/SO_0000637
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000171
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000931
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000629
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000702
+http://purl.obolibrary.org/obo/GENO_0000722
+http://purl.obolibrary.org/obo/GENO_0000720
+http://purl.obolibrary.org/obo/GENO_0000721
+http://purl.obolibrary.org/obo/GENO_0000779
+===== Les axiomes 
+GENO_0000722 [1..*] GENO_0000783 GENO_0000782
+===== Les permutations 
+===== Les axiomes 
+GENO_0000720 [1..*] GENO_0000783 GENO_0000780
+===== Les permutations 
+===== Les axiomes 
+GENO_0000721 [1..*] GENO_0000783 GENO_0000781
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000932
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000823
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000944
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000605
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000714
+http://purl.obolibrary.org/obo/GENO_0000737
+http://purl.obolibrary.org/obo/GENO_0000818
+http://purl.obolibrary.org/obo/GENO_0000736
+===== Les axiomes 
+GENO_0000714 [1..*] GENO_0000726 SO_0000110
+GENO_0000714 [1..*] RO_0002162 OBI_0100026
+GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+GENO_0000714 [1..*] GENO_0000580 Thing
+===== Les permutations 
+
+
+
+
+===== Les axiomes 
+GENO_0000714 [1..*] GENO_0000726 SO_0000110
+GENO_0000714 [1..*] RO_0002162 OBI_0100026
+GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+GENO_0000714 [1..*] GENO_0000580 Thing
+===== Les permutations 
+
+
+
+
+===== Les axiomes 
+GENO_0000714 [1..*] GENO_0000726 SO_0000110
+GENO_0000714 [1..*] RO_0002162 OBI_0100026
+GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+GENO_0000714 [1..*] GENO_0000580 Thing
+===== Les permutations 
+
+
+
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000172
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000160
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000920
+http://purl.obolibrary.org/obo/GENO_0000715
+===== Les axiomes 
+GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+===== Les permutations 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+  d1<d2 & op1=op2 & r1<r2  -> reduce: GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+Adding: GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+  d1<d2 & op1<op2 & r1<r2  -> reduce: GENO_0000715 [1..*] RO_0002351 GENO_0000714
+Adding: GENO_0000715 [1..*] RO_0002351 GENO_0000714
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Reduce class axioms http://purl.obolibrary.org/obo/GENO_0000715
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002162 OBI_0100026
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1=op2 & r1=r2  -> reduce: GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002162 OBI_0100026
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r1=r2  -> reduce: GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002162 OBI_0100026
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r1=r2  -> reduce: GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002162 OBI_0100026
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Removing: GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+===== Les axiomes 
+GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+===== Les permutations 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 GENO_0000660 and GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+  d1<d2 & op1=op2 & r1<r2  -> reduce: GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+Adding: GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+
+===== Reduce class axioms http://purl.obolibrary.org/obo/GENO_0000715
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002162 OBI_0100026
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] GENO_0000726 SO_0000110 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1=op2 & r2><r1 -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002162 OBI_0100026 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: GENO_0000715 [1..*] RO_0002351 GENO_0000714 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Removing: GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+Removing: GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+===== Les axiomes 
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000618
+http://purl.obolibrary.org/obo/GENO_0000621
+http://purl.obolibrary.org/obo/GENO_0000620
+http://purl.obolibrary.org/obo/GENO_0000619
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000848
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000606
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000921
+http://purl.obolibrary.org/obo/GENO_0000702
+http://purl.obolibrary.org/obo/GENO_0000922
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000933
+http://purl.obolibrary.org/obo/GENO_0000934
+http://purl.obolibrary.org/obo/GENO_0000935
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000715
+http://purl.obolibrary.org/obo/GENO_0000527
+http://purl.obolibrary.org/obo/GENO_0000528
+===== Les axiomes 
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+GENO_0000527 [1..*] RO_0002351 GENO_0000504
+===== Les permutations 
+Reduction of: GENO_0000527 [1..*] RO_0002351 GENO_0000504 and GENO_0000715 [1..*] GENO_0000726 SO_0000110
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GENO_0000527 [1..*] RO_0002351 GENO_0000504 and GENO_0000715 [1..*] RO_0002162 OBI_0100026
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GENO_0000527 [1..*] RO_0002351 GENO_0000504 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1<d2 & op1=op2 & r2><r1 -> not Applicable
+
+Reduction of: GENO_0000527 [1..*] RO_0002351 GENO_0000504 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+GENO_0000715 [1..*] GENO_0000726 SO_0000110
+GENO_0000715 [1..*] RO_0002162 OBI_0100026
+GENO_0000715 [1..*] RO_0002351 GENO_0000714
+GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+GENO_0000528 [1..*] GENO_0000382 GENO_0000506
+===== Les permutations 
+Reduction of: GENO_0000528 [1..*] GENO_0000382 GENO_0000506 and GENO_0000715 [1..*] GENO_0000726 SO_0000110
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GENO_0000528 [1..*] GENO_0000382 GENO_0000506 and GENO_0000715 [1..*] RO_0002162 OBI_0100026
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GENO_0000528 [1..*] GENO_0000382 GENO_0000506 and GENO_0000715 [1..*] RO_0002351 GENO_0000714
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GENO_0000528 [1..*] GENO_0000382 GENO_0000506 and GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000945
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/OBI_0000086
+http://purl.obolibrary.org/obo/GENO_0000911
+http://purl.obolibrary.org/obo/GENO_0000910
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000173
+============ Reducing class and subclasses axioms of http://purl.obolibrary.org/obo/GENO_0000391
+http://purl.obolibrary.org/obo/GENO_0000135
+http://purl.obolibrary.org/obo/GENO_0000136
+http://purl.obolibrary.org/obo/GENO_0000134
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reduction summary
+Creating join table for: Region [1..1] begin Position
+Creating join table for: Region [1..1] end Position
+Creating join table for: GENO_0000174 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000839 [1..*] GENO_0000382 GENO_0000504
+Creating join table for: SO_0000105 [1..*] BFO_0000050 SO_0000830
+Creating join table for: SO_0001218 [1..*] BFO_0000051 GENO_0000093
+Creating join table for: GENO_0000719 [1..*] IAO_0000219 ONTORELA_C349f0240
+Creating join table for: GENO_0000492 [1..*] GENO_0000683 GENO_0000501
+Creating join table for: OBI_0600043 [1..*] OBI_0000299 ONTORELA_C55a946a3
+Creating join table for: GENO_0000914 [1..*] GENO_0000239 SO_0001505
+Creating join table for: GENO_0000033 [1..*] GENO_0000382 SO_0001059
+Creating join table for: GENO_0000481 [1..*] BFO_0000050 SO_0001026
+Creating join table for: GENO_0000481 [1..*] RO_0002162 OBI_0100026
+Creating join table for: UBERON_0001062 [1..*] RO_0001000 OBI_0100026
+Creating join table for: GENO_0000166 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000915 [1..*] GENO_0000408 GENO_0000916
+Creating join table for: GENO_0000915 [1..*] BFO_0000051 SO_0001059
+Creating join table for: GENO_0000133 [1..*] RO_0000052 GENO_0000516
+Creating join table for: SO_0001026 [1..*] RO_0002162 OBI_0100026
+Creating join table for: ONTORELA_C50fc6ccd [1..*] BFO_0000050 GENO_0000536
+Creating join table for: GENO_0000014 [1..*] GENO_0000408 SO_0000704
+Creating join table for: ONTORELA_C55a946a3 [1..*] GENO_0000211 GENO_0000002
+Creating join table for: ONTORELA_C3009a2bd [1..*] RO_0002091 UBERON_0000105
+Creating join table for: ONTORELA_C3009a2bd [1..*] RO_0002093 UBERON_0000105
+Creating join table for: GENO_0000681 [1..*] GENO_0000207 GENO_0000139
+Creating join table for: GENO_0000681 [1..*] GENO_0000207 GENO_0000685
+Creating join table for: GENO_0000112 [1..*] RO_0002162 OBI_0100026
+Creating join table for: SO_0000110 [1..*] GENO_0000239 GENO_0000702
+Creating join table for: SO_0000110 [1..*] GENO_0000903 GENO_0000815
+Creating join table for: GENO_0000343 [1..*] GENO_0000248 SO_0000340
+Creating join table for: GENO_0000343 [1..*] GENO_0000207 GENO_0000513
+Creating join table for: SO_0000341 [1..*] GENO_0000207 GENO_0000618
+Creating join table for: SO_0000341 [1..*] BFO_0000050 GENO_0000614
+Creating join table for: PCO_0000000 [1..*] RO_0002351 OBI_0100026
+Creating join table for: ONTORELA_C78d57b7f [1..*] RO_0002524 SO_0001059
+Creating join table for: GENO_0000660 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000660 [1..*] RO_0002351 GENO_0000481
+Creating join table for: GENO_0000684 [1..*] GENO_0000207 GENO_0000685
+Creating join table for: GENO_0000346 [1..*] GENO_0000207 GENO_0000513
+Creating join table for: GENO_0000891 [1..*] IAO_0000219 GENO_0000890
+Creating join table for: GENO_0000106 [1..*] RO_0000091 GENO_0000139
+Creating join table for: GENO_0000106 [1..*] GENO_0000248 ONTORELA_C64c7aff2
+Creating join table for: GENO_0000106 [1..*] BFO_0000050 GENO_0000108
+Creating join table for: GENO_0000119 [1..*] RO_0002351 NCBITaxon_7955
+Creating join table for: SO_0000281 [1..*] GENO_0000207 SO_0000783
+Creating join table for: GENO_0000338 [1..*] GENO_0000207 GENO_0000685
+Creating join table for: GENO_0000642 [1..*] GENO_0000207 SO_0000783
+Creating join table for: GENO_0000667 [1..*] BFO_0000051 GENO_0000640
+Creating join table for: GENO_0000667 [1..*] GENO_0000207 SO_0000783
+Creating join table for: GENO_0000897 [1..*] RO_0002162 OBI_0100026
+Creating join table for: CLO_0000031 [1..*] RO_0001000 OBI_0100026
+Creating join table for: GENO_0000644 [1..*] IAO_0000219 SO_0001026
+Creating join table for: GENO_0000899 [1..*] GENO_0000385 GENO_0000611
+Creating join table for: GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+Creating join table for: GENO_0000645 [1..*] GENO_0000650 GENO_0000000
+Creating join table for: GENO_0000887 [1..*] RO_0002351 NCBITaxon_8090
+Creating join table for: GENO_0000525 [1..*] BFO_0000051 GENO_0000524
+Creating join table for: GENO_0000525 [1..*] BFO_0000051 GENO_0000719
+Creating join table for: GENO_0000092 [1..*] RO_0002353 GENO_0000172
+Creating join table for: GENO_0000501 [1..*] GENO_0000683 GENO_0000481
+Creating join table for: GENO_0000659 [1..*] RO_0002351 SO_0000110
+Creating join table for: GENO_0000720 [1..*] GENO_0000783 GENO_0000780
+Creating join table for: GENO_0000093 [1..*] BFO_0000050 SO_0001218
+Creating join table for: GENO_0000611 [1..*] IAO_0000219 GENO_0000010
+Creating join table for: GENO_0000515 [1..*] GENO_0000641 SO_0000704
+Creating join table for: GENO_0000515 [1..*] GENO_0000382 SO_0001059
+Creating join table for: GENO_0000527 [1..*] RO_0002351 GENO_0000504
+Creating join table for: GENO_0000721 [1..*] GENO_0000783 GENO_0000781
+Creating join table for: SO_0001505 [1..*] RO_0000087 GENO_0000152
+Creating join table for: GENO_0000504 [1..*] GENO_0000447 GENO_0000533
+Creating join table for: GENO_0000504 [1..*] GENO_0000231 GENO_0000534
+Creating join table for: GENO_0000528 [1..*] GENO_0000382 GENO_0000506
+Creating join table for: GENO_0000516 [1..*] GENO_0000608 GENO_0000133
+Creating join table for: GENO_0000637 [1..*] RO_0002525 SO_0000902
+Creating join table for: GENO_0000722 [1..*] GENO_0000783 GENO_0000782
+Creating join table for: GENO_0000529 [1..*] GENO_0000443 SO_0000704
+Creating join table for: GENO_0000614 [1..*] BFO_0000050 SO_0000105
+Creating join table for: GENO_0000638 [1..*] RO_0002525 SO_0000902
+Creating join table for: GENO_0000833 [1..*] association_has_object UPHENO_0001001
+Creating join table for: GENO_0000833 [1..*] GENO_0000580 ONTORELA_C3009a2bd
+Creating join table for: GENO_0000833 [1..*] GENO_0000580 ENVO_01000254
+Creating join table for: GENO_0000833 [1..*] association_has_subject ONTORELA_C6eeefcf9
+Creating join table for: GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000616 [1..*] BFO_0000050 SO_0000341
+Creating join table for: GENO_0000616 [1..*] GENO_0000207 GENO_0000618
+Creating join table for: GENO_0000171 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000714 [1..*] GENO_0000726 SO_0000110
+Creating join table for: GENO_0000714 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+Creating join table for: GENO_0000714 [1..*] GENO_0000580 Thing
+Creating join table for: GENO_0000172 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000715 [1..*] GENO_0000726 SO_0000110
+Creating join table for: GENO_0000715 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000715 [1..*] RO_0002351 GENO_0000714
+Creating join table for: GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+Creating join table for: GENO_0000173 [1..*] OBI_0000299 GENO_0000515

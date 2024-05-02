@@ -1,0 +1,1211 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+
+
+
+    View attribute @en: uid biological sequence complement
+
+
+
+  View name @en: co-dominant Z-linked inheritance
+    View attribute @en: uid co-dominant Z-linked inheritance
+
+
+
+
+    View attribute @en: uid targeted knock-in technique
+
+
+  View name @en: obsolete_autosomal recessive inheritance
+    View attribute @en: uid obsolete_autosomal recessive inheritance
+
+
+
+
+
+  View name @en: Z-linked reccessive inheritance
+    View attribute @en: uid Z-linked reccessive inheritance
+
+
+
+
+
+
+
+  View name @en: random transgene insertion technique
+    View attribute @en: uid random transgene insertion technique
+
+
+
+  View name @en: variant single locus complement
+    View attribute @en: uid variant single locus complement
+
+    View attribute @en: uid obsolete_reference junction
+
+
+
+
+
+  View name @en: knockdown reagent targeted gene complement
+    View attribute @en: uid knockdown reagent targeted gene complement
+
+
+  View name @en: obsolete_intrinsic sequence feature attribute
+    View attribute @en: uid obsolete_intrinsic sequence feature attribute
+
+    View attribute @en: uid genetic insertion technique
+
+
+
+  View name @en: abnormal(ly) disrupted neutrophil aggregation
+    View attribute @en: uid abnormal(ly) disrupted neutrophil aggregation
+
+
+
+
+
+
+
+
+
+
+  View name @en: obsolete_extrinsic sequence feature attribute
+    View attribute @en: uid obsolete_extrinsic sequence feature attribute
+
+  View name @en: complete X-linked dominant inheritance
+    View attribute @en: uid complete X-linked dominant inheritance
+
+
+
+  View name @en: obsolete_allele cellular context
+    View attribute @en: uid obsolete_allele cellular context
+
+
+
+
+
+  View name @en: abnormal(ly) malformed endocardium cell
+    View attribute @en: uid abnormal(ly) malformed endocardium cell
+
+    View attribute @en: uid genetic modification technique
+
+
+    View attribute @en: uid mutagen treatment technique
+
+
+    View attribute @en: uid allelic cellular distribution
+
+  View name @en: incomplete X-linked dominant inheritance
+    View attribute @en: uid incomplete X-linked dominant inheritance
+
+
+
+    View attribute @en: uid obsolete_dominant inheritance
+
+
+
+
+
+
+  View name @en: targeted gene mutation technique
+    View attribute @en: uid targeted gene mutation technique
+
+
+
+  View name @en: modification-qualified sequence feature
+    View attribute @en: uid modification-qualified sequence feature
+
+  View name @en: co-dominant X-linked inheritance
+    View attribute @en: uid co-dominant X-linked inheritance
+
+    View attribute @en: uid heritable_phenotypic_marker
+
+
+
+  View name @en: obsolete_genomic feature collection
+    View attribute @en: uid obsolete_genomic feature collection
+
+
+
+
+
+  View name @en: co-dominant autosomal inheritance
+    View attribute @en: uid co-dominant autosomal inheritance
+
+
+
+
+
+
+
+
+
+    View attribute @en: uid inverted_tandem_duplication
+
+  View name @en: complete autosomal dominant inheritance
+    View attribute @en: uid complete autosomal dominant inheritance
+
+
+
+
+
+  View name @en: single locus complement or genome
+    View attribute @en: uid single locus complement or genome
+
+
+  View name @en: genomic genotype (sex-agnostic)
+    View attribute @en: uid genomic genotype (sex-agnostic)
+
+
+  View name @en: simple_sequence_length_variation
+    View attribute @en: uid simple_sequence_length_variation
+
+
+
+
+  View name @en: random genetic insertion technique
+    View attribute @en: uid random genetic insertion technique
+
+  View name @en: incomplete autosomal dominant inheritance
+    View attribute @en: uid incomplete autosomal dominant inheritance
+
+
+
+  View name @en: pyrimidine_to_purine_transversion
+    View attribute @en: uid pyrimidine_to_purine_transversion
+
+    View attribute @en: uid obsolete_unspecified feature
+
+
+
+
+
+
+    View attribute @en: uid X-linked dominant inheritance
+
+
+
+  View name @en: specifically dependent continuant
+    View attribute @en: uid specifically dependent continuant
+
+
+    View attribute @fr: uid BFO_0000050 some GENO_0000536
+
+
+
+
+
+
+
+
+
+
+  View name @en: abnormal(ly) disrupted  diencephalon development
+    View attribute @en: uid abnormal(ly) disrupted  diencephalon development
+
+    View attribute @en: uid autosomal dominant inheritance
+
+
+
+  View name @en: genomic material
+ and (bears_concretization_of some variant allele)
+  View name @fr: GENO_0000106
+ and (GENO_0000211 some GENO_0000002)
+    View attribute @en: uid genomic material
+ and (bears_concretization_of some variant allele)
+    View attribute @fr: uid GENO_0000106
+ and (GENO_0000211 some GENO_0000002)
+
+
+  View name @en: generically dependent continuant
+    View attribute @en: uid generically dependent continuant
+
+  View name @en: developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+  View name @fr: GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+    View attribute @en: uid developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+    View attribute @fr: uid GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+
+  View name @en: novel extrachromosomal replicon
+    View attribute @en: uid novel extrachromosomal replicon
+
+  View name @en: abnormal(ly) absent adaxial cell
+    View attribute @en: uid abnormal(ly) absent adaxial cell
+
+
+  View name @en: autosomal recessive inheritance
+    View attribute @en: uid autosomal recessive inheritance
+
+
+
+
+    View attribute @fr: uid CL_0000000 or NCBITaxon_10239
+
+
+
+
+
+
+
+    View attribute @en: uid X-linked recessive inheritance
+
+
+
+
+  View name @en: obsolete_sequence feature collection attribute
+    View attribute @en: uid obsolete_sequence feature collection attribute
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: obsolete_reference single locus complement
+    View attribute @en: uid obsolete_reference single locus complement
+
+
+
+
+  View name @en: gained aneusomic chromosomal segment
+    View attribute @en: uid gained aneusomic chromosomal segment
+
+
+
+
+  View name @en: has subsequence some sequence_alteration
+    View attribute @en: uid has subsequence some sequence_alteration
+
+
+
+
+
+
+  View name @en: lost aneusomic chromosomal segment
+    View attribute @en: uid lost aneusomic chromosomal segment
+
+
+
+
+
+
+
+
+  View name @en: obsolete_sequence feature collection
+    View attribute @en: uid obsolete_sequence feature collection
+
+
+
+
+
+
+    View attribute @en: uid C_to_T_transition_at_pCpG_site
+
+
+
+    View attribute @en: uid phenotypic inheritance process
+
+
+
+
+
+    View attribute @en: uid complex_structural_alteration
+
+
+
+  View name @en: purine_to_pyrimidine_transversion
+    View attribute @en: uid purine_to_pyrimidine_transversion
+
+
+  View name @en: heteroplasmic mitochondrial inheritance
+    View attribute @en: uid heteroplasmic mitochondrial inheritance
+
+
+
+
+    View attribute @en: uid genomic variation complement
+
+
+
+
+
+    View attribute @en: uid obsolete_chromosome complement
+
+
+
+  View name @en: homoplasmic mitochondrial inheritance
+    View attribute @en: uid homoplasmic mitochondrial inheritance
+
+
+
+
+
+
+
+
+  View name @en: obsolete_sequence feature collection
+    View attribute @en: uid obsolete_sequence feature collection
+
+
+
+  View name @en: genomic feature complement or qualified genomic feature complement
+    View attribute @en: uid genomic feature complement or qualified genomic feature complement
+    View attribute @fr: uid GENO_0000660 or GENO_0000715
+
+
+
+
+    View attribute @en: uid gained aneusomic chromosome
+
+
+
+
+
+
+
+
+
+    View attribute @en: uid selectable marker transgene
+
+
+    View attribute @en: uid genomic sequence complement
+
+
+
+
+
+
+
+
+  View name @en: reagent-targeted gene subregion
+    View attribute @en: uid reagent-targeted gene subregion
+
+    View attribute @en: uid extra-chromosomal transgene
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: targeted gene knock-in technique
+    View attribute @en: uid targeted gene knock-in technique
+
+  View name @en: obsolete_sequence information entity
+    View attribute @en: uid obsolete_sequence information entity
+
+
+
+
+  View name @en: obsolete_reagent sequence feature
+    View attribute @en: uid obsolete_reagent sequence feature
+
+
+
+
+  View name @en: obsolete_experimental insertion
+    View attribute @en: uid obsolete_experimental insertion
+
+    View attribute @en: uid ancestral polymorphic allele
+
+
+
+  View name @en: genomic genotype (sex-qualified)
+    View attribute @en: uid genomic genotype (sex-qualified)
+
+
+
+
+
+
+
+
+
+
+  View name @en: targeted gene knock-out technique
+    View attribute @en: uid targeted gene knock-out technique
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @en: uid maternal_uniparental_disomy
+
+
+
+
+
+    View attribute @en: uid sequence feature complement
+
+
+
+
+  View name @en: abnormal(ly) absent dorso-rostral cluster
+    View attribute @en: uid abnormal(ly) absent dorso-rostral cluster
+
+
+
+
+
+
+    View attribute @en: uid paternal_uniparental_disomy
+
+
+
+
+  View name @en: reagent-targeted gene complement
+    View attribute @en: uid reagent-targeted gene complement
+
+
+    View attribute @en: uid human phenotypic abnormality
+
+
+
+
+
+
+  View name @en: transiently-expressed transgene complement
+    View attribute @en: uid transiently-expressed transgene complement
+
+  View name @en: unspecified background genotype
+    View attribute @en: uid unspecified background genotype
+
+
+  View name @en: genotype or (is part of some genotype)
+  View name @fr: GENO_0000536 or (BFO_0000050 some GENO_0000536)
+    View attribute @en: uid genotype or (is part of some genotype)
+    View attribute @fr: uid GENO_0000536 or (BFO_0000050 some GENO_0000536)
+
+
+    View attribute @en: uid regulatory transgene region
+
+
+
+
+  View name @en: sex-limited autosomal dominant inheritance
+    View attribute @en: uid sex-limited autosomal dominant inheritance
+
+
+
+    View attribute @en: uid engineered genetic construct
+
+
+
+    View attribute @en: uid obsolete_reference gene allele
+
+
+  View name @en: sex-limited autosomal recessive inheritance
+    View attribute @en: uid sex-limited autosomal recessive inheritance
+
+
+  View name @en: obsolete_biological sequence or collection
+    View attribute @en: uid obsolete_biological sequence or collection
+
+    View attribute @en: uid genotype-phenotype association
+
+  View name @en: transiently-expressed transgene
+    View attribute @en: uid transiently-expressed transgene
+
+  View name @en: location-qualified sequence feature
+    View attribute @en: uid location-qualified sequence feature
+
+    View attribute @en: uid data about an ontology part
+
+
+
+  View name @en: targeted genetic insertion technique
+    View attribute @en: uid targeted genetic insertion technique
+
+
+
+
+
+  View name @en: qualified sequence feature or collection
+    View attribute @en: uid qualified sequence feature or collection
+
+    View attribute @en: uid Z-linked dominant inheritance
+
+    View attribute @en: uid sequence feature or collection
+
+
+  View name @en: expression-qualified sequence feature
+    View attribute @en: uid expression-qualified sequence feature
+
+
+  View name @en: obsolete_biological sequence collection
+    View attribute @en: uid obsolete_biological sequence collection
+
+
+    View attribute @en: uid obsolete_engineered_plasmid
+
+    View attribute @en: uid enhancer trapping technique
+
+
+
+
+
+
+  View name @en: complete Z-linked dominant inheritance
+    View attribute @en: uid complete Z-linked dominant inheritance
+
+
+
+
+    View attribute @en: uid unspecified life cycle stage
+
+  View name @en: qualified sequence feature complement
+    View attribute @en: uid qualified sequence feature complement
+
+
+  View name @en: obsolete_coding sequence alteration
+    View attribute @en: uid obsolete_coding sequence alteration
+
+    View attribute @en: uid hemizygous insertion-linked
+
+  View name @en: biological sequence or collection
+    View attribute @en: uid biological sequence or collection
+
+
+  View name @en: qualified genomic feature complement
+    View attribute @en: uid qualified genomic feature complement
+
+  View name @en: incomplete Z-linked dominant inheritance
+    View attribute @en: uid incomplete Z-linked dominant inheritance
+
+
+    View attribute @en: uid promoter trapping technique
+
+
+
+
+
+
+
+
+    View attribute @en: domain_uid sequence feature or collection
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: obsolete_is_phenotype_of_genotype
+
+  View name @en: obsolete_participates_in_inheritance_process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: obsolete_is_expression_variant_with
+
+
+    View attribute @en: domain_uid single locus complement
+
+
+    View attribute @en: domain_uid sequence feature or collection
+
+
+
+
+
+    View attribute @en: domain_uid obsolete_mutant allele
+
+
+
+
+
+
+
+
+    View attribute @en: domain_uid qualified genomic feature
+
+
+
+
+
+
+  View name @en: obsolete_has_position_component
+
+
+
+
+
+  View name @en: inferred_to_contribute_to_condition
+
+  View name @en: inferred_to_correlate_with_condition
+
+
+  View name @en: likely_pathogenic_for_condition
+
+
+
+
+  View name @en: has_uncertain_significance_for_condition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: causes or contributes to condition
+
+
+
+  View name @en: contributes to severity of condition
+
+  View name @en: contributes to frequency of condition
+
+
+
+
+
+
+
+
+
+  View name @en: sequence_feature has_sequence_string string
+
+  View name IRI GENO_0000702_GENO_0000896_string
+  View name @en: biological sequence has_string string
+  View name @fr: GENO_0000702 GENO_0000896 string
+
+
+
+  View name IRI GENO_0000174_OBI_0000299_GENO_0000515
+  View name @en: targeted knock-in technique has_specified_output variant gene allele
+  View name @fr: GENO_0000174 OBI_0000299 GENO_0000515
+    View attribute @en: uid targeted knock-in technique
+
+  View name IRI GENO_0000839_GENO_0000382_GENO_0000504
+  View name @en: knockdown reagent targeted gene complement has_variant_part reagent targeted gene
+  View name @fr: GENO_0000839 GENO_0000382 GENO_0000504
+    View attribute @en: uid knockdown reagent targeted gene complement
+
+  View name IRI SO_0000105_BFO_0000050_SO_0000830
+  View name @en: chromosome arm is part of chromosome part
+  View name @fr: SO_0000105 BFO_0000050 SO_0000830
+
+  View name IRI SO_0001218_BFO_0000051_GENO_0000093
+  View name @en: transgenic_insertion has part integrated transgene
+  View name @fr: SO_0001218 BFO_0000051 GENO_0000093
+
+  View name IRI GENO_0000719_IAO_0000219_ONTORELA_C349f0240
+  View name @en: intrinsic genotype denotes single locus complement or genome
+  View name @fr: GENO_0000719 IAO_0000219 GENO_0000516 or SO_0001026
+    View attribute @en: uid single locus complement or genome
+
+  View name IRI GENO_0000492_GENO_0000683_GENO_0000501
+  View name @en: mutation varies_with wild-type allele
+  View name @fr: GENO_0000492 GENO_0000683 GENO_0000501
+
+  View name IRI OBI_0600043_OBI_0000299_ONTORELA_C55a946a3
+  View name @en: genetic modification technique has_specified_output genomic material
+ and (bears_concretization_of some variant allele)
+  View name @fr: OBI_0600043 OBI_0000299 GENO_0000106
+ and (GENO_0000211 some GENO_0000002)
+    View attribute @en: uid genetic modification technique
+    View attribute @en: uid genomic material
+ and (bears_concretization_of some variant allele)
+    View attribute @fr: uid GENO_0000106
+ and (GENO_0000211 some GENO_0000002)
+
+  View name IRI GENO_0000914_GENO_0000239_SO_0001505
+  View name @en: reference genome has_sequence reference genome sequence
+  View name @fr: GENO_0000914 GENO_0000239 SO_0001505
+
+  View name IRI GENO_0000033_GENO_0000382_SO_0001059
+  View name @en: variant genome has_variant_part sequence_alteration
+  View name @fr: GENO_0000033 GENO_0000382 SO_0001059
+
+  View name IRI GENO_0000481_BFO_0000050_SO_0001026
+  View name @en: genomic feature is part of genome
+  View name @fr: GENO_0000481 BFO_0000050 SO_0001026
+
+  View name IRI GENO_0000481_RO_0002162_OBI_0100026
+  View name @en: genomic feature in taxon organism
+  View name @fr: GENO_0000481 RO_0002162 OBI_0100026
+
+  View name IRI UBERON_0001062_RO_0001000_OBI_0100026
+  View name @en: anatomical entity derives from organism
+  View name @fr: UBERON_0001062 RO_0001000 OBI_0100026
+
+  View name IRI GENO_0000166_OBI_0000299_GENO_0000515
+  View name @en: targeted gene mutation technique has_specified_output variant gene allele
+  View name @fr: GENO_0000166 OBI_0000299 GENO_0000515
+    View attribute @en: uid targeted gene mutation technique
+
+  View name IRI GENO_0000915_GENO_0000408_GENO_0000916
+  View name @en: haplotype is_allele_of haplotype block
+  View name @fr: GENO_0000915 GENO_0000408 GENO_0000916
+
+  View name IRI GENO_0000915_BFO_0000051_SO_0001059
+  View name @en: haplotype has part sequence_alteration
+  View name @fr: GENO_0000915 BFO_0000051 SO_0001059
+
+  View name IRI GENO_0000133_RO_0000052_GENO_0000516
+  View name @en: zygosity inheres_in single locus complement
+  View name @fr: GENO_0000133 RO_0000052 GENO_0000516
+
+  View name IRI SO_0001026_RO_0002162_OBI_0100026
+  View name @fr: SO_0001026 RO_0002162 OBI_0100026
+
+  View name IRI ONTORELA_C50fc6ccd_BFO_0000050_GENO_0000536
+  View name @en: is part of some genotype is part of genotype
+  View name @fr: BFO_0000050 some GENO_0000536 BFO_0000050 GENO_0000536
+    View attribute @fr: uid BFO_0000050 some GENO_0000536
+
+  View name IRI GENO_0000014_GENO_0000408_SO_0000704
+  View name @fr: GENO_0000014 GENO_0000408 SO_0000704
+
+  View name IRI ONTORELA_C55a946a3_GENO_0000211_GENO_0000002
+  View name @en: genomic material
+ and (bears_concretization_of some variant allele) bears_concretization_of variant allele
+  View name @fr: GENO_0000106
+ and (GENO_0000211 some GENO_0000002) GENO_0000211 GENO_0000002
+    View attribute @en: uid genomic material
+ and (bears_concretization_of some variant allele)
+    View attribute @fr: uid GENO_0000106
+ and (GENO_0000211 some GENO_0000002)
+
+  View name IRI ONTORELA_C3009a2bd_RO_0002091_UBERON_0000105
+  View name @en: developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage)) starts during life cycle stage
+  View name @fr: GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105)) RO_0002091 UBERON_0000105
+    View attribute @en: uid developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+    View attribute @fr: uid GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+
+  View name IRI ONTORELA_C3009a2bd_RO_0002093_UBERON_0000105
+  View name @en: developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage)) ends during life cycle stage
+  View name @fr: GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105)) RO_0002093 UBERON_0000105
+    View attribute @en: uid developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+    View attribute @fr: uid GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+
+  View name IRI GENO_0000681_GENO_0000207_GENO_0000139
+  View name @en: novel extrachromosomal replicon has_sequence_attribute heritable
+  View name @fr: GENO_0000681 GENO_0000207 GENO_0000139
+    View attribute @en: uid novel extrachromosomal replicon
+
+  View name IRI GENO_0000681_GENO_0000207_GENO_0000685
+  View name @en: novel extrachromosomal replicon has_sequence_attribute novel
+  View name @fr: GENO_0000681 GENO_0000207 GENO_0000685
+    View attribute @en: uid novel extrachromosomal replicon
+
+  View name IRI GENO_0000112_RO_0002162_OBI_0100026
+  View name @en: strain or breed in taxon organism
+  View name @fr: GENO_0000112 RO_0002162 OBI_0100026
+
+  View name IRI SO_0000110_GENO_0000239_GENO_0000702
+  View name @en: sequence_feature has_sequence biological sequence
+  View name @fr: SO_0000110 GENO_0000239 GENO_0000702
+
+  View name IRI SO_0000110_GENO_0000903_GENO_0000815
+  View name @en: sequence_feature has_location sequence feature location
+  View name @fr: SO_0000110 GENO_0000903 GENO_0000815
+
+  View name IRI GENO_0000343_GENO_0000248_SO_0000340
+  View name @en: aneusomic chromosomal part is_proper_part_of chromosome
+  View name @fr: GENO_0000343 GENO_0000248 SO_0000340
+
+  View name IRI GENO_0000343_GENO_0000207_GENO_0000513
+  View name @en: aneusomic chromosomal part has_sequence_attribute aneusomic
+  View name @fr: GENO_0000343 GENO_0000207 GENO_0000513
+
+  View name IRI SO_0000341_GENO_0000207_GENO_0000618
+  View name @en: chromosome band has_sequence_attribute chromosomal band intensity
+  View name @fr: SO_0000341 GENO_0000207 GENO_0000618
+
+  View name IRI SO_0000341_BFO_0000050_GENO_0000614
+  View name @en: chromosome band is part of chromosomal region
+  View name @fr: SO_0000341 BFO_0000050 GENO_0000614
+
+  View name IRI PCO_0000000_RO_0002351_OBI_0100026
+  View name @en: collection of organisms has member organism
+  View name @fr: PCO_0000000 RO_0002351 OBI_0100026
+
+  View name IRI ONTORELA_C78d57b7f_RO_0002524_SO_0001059
+  View name @en: has subsequence some sequence_alteration has subsequence sequence_alteration
+  View name @fr: RO_0002524 some SO_0001059 RO_0002524 SO_0001059
+    View attribute @en: uid has subsequence some sequence_alteration
+
+  View name IRI GENO_0000660_RO_0002162_OBI_0100026
+  View name @en: genomic feature complement in taxon organism
+  View name @fr: GENO_0000660 RO_0002162 OBI_0100026
+
+  View name IRI GENO_0000660_RO_0002351_GENO_0000481
+  View name @en: genomic feature complement has member genomic feature
+  View name @fr: GENO_0000660 RO_0002351 GENO_0000481
+
+  View name IRI GENO_0000684_GENO_0000207_GENO_0000685
+  View name @en: novel replicon has_sequence_attribute novel
+  View name @fr: GENO_0000684 GENO_0000207 GENO_0000685
+
+  View name IRI GENO_0000346_GENO_0000207_GENO_0000513
+  View name @en: aneusomic chromosome has_sequence_attribute aneusomic
+  View name @fr: GENO_0000346 GENO_0000207 GENO_0000513
+
+  View name IRI GENO_0000891_IAO_0000219_GENO_0000890
+  View name @en: contextual allele denotes canonical allele
+  View name @fr: GENO_0000891 IAO_0000219 GENO_0000890
+
+  View name IRI GENO_0000106_RO_0000091_GENO_0000139
+  View name @en: genomic material has disposition heritable
+  View name @fr: GENO_0000106 RO_0000091 GENO_0000139
+
+  View name IRI GENO_0000106_GENO_0000248_ONTORELA_C64c7aff2
+  View name @en: genomic material is_proper_part_of cell or Viruses
+  View name @fr: GENO_0000106 GENO_0000248 CL_0000000 or NCBITaxon_10239
+    View attribute @fr: uid CL_0000000 or NCBITaxon_10239
+
+  View name IRI GENO_0000106_BFO_0000050_GENO_0000108
+  View name @en: genomic material is part of material genome
+  View name @fr: GENO_0000106 BFO_0000050 GENO_0000108
+
+  View name IRI GENO_0000119_RO_0002351_NCBITaxon_7955
+  View name @en: danio rerio strain has member Danio rerio
+  View name @fr: GENO_0000119 RO_0002351 NCBITaxon_7955
+
+  View name IRI SO_0000281_GENO_0000207_SO_0000783
+  View name @en: engineered_foreign_gene has_sequence_attribute engineered
+  View name @fr: SO_0000281 GENO_0000207 SO_0000783
+
+  View name IRI GENO_0000338_GENO_0000207_GENO_0000685
+  View name @en: gained aneusomic chromosome has_sequence_attribute novel
+  View name @fr: GENO_0000338 GENO_0000207 GENO_0000685
+    View attribute @en: uid gained aneusomic chromosome
+
+  View name IRI GENO_0000642_GENO_0000207_SO_0000783
+  View name @en: selectable marker transgene has_sequence_attribute engineered
+  View name @fr: GENO_0000642 GENO_0000207 SO_0000783
+    View attribute @en: uid selectable marker transgene
+
+  View name IRI GENO_0000667_BFO_0000051_GENO_0000640
+  View name @en: reporter transgene has part reporter region
+  View name @fr: GENO_0000667 BFO_0000051 GENO_0000640
+
+  View name IRI GENO_0000667_GENO_0000207_SO_0000783
+  View name @en: reporter transgene has_sequence_attribute engineered
+  View name @fr: GENO_0000667 GENO_0000207 SO_0000783
+
+  View name IRI GENO_0000897_RO_0002162_OBI_0100026
+  View name @en: genomic entity in taxon organism
+  View name @fr: GENO_0000897 RO_0002162 OBI_0100026
+
+  View name IRI CLO_0000031_RO_0001000_OBI_0100026
+  View name @en: cell line derives from organism
+  View name @fr: CLO_0000031 RO_0001000 OBI_0100026
+
+  View name IRI GENO_0000644_IAO_0000219_SO_0001026
+  View name @fr: GENO_0000644 IAO_0000219 SO_0001026
+
+  View name IRI GENO_0000899_GENO_0000385_GENO_0000611
+  View name @en: genomic genotype has_reference_part background genotype
+  View name @fr: GENO_0000899 GENO_0000385 GENO_0000611
+
+  View name IRI GENO_0000536_IAO_0000219_ONTORELA_C6cdb8ddf
+  View name @en: genotype denotes genomic feature complement or qualified genomic feature complement
+  View name @fr: GENO_0000536 IAO_0000219 GENO_0000660 or GENO_0000715
+    View attribute @en: uid genomic feature complement or qualified genomic feature complement
+    View attribute @fr: uid GENO_0000660 or GENO_0000715
+
+  View name IRI GENO_0000645_GENO_0000650_GENO_0000000
+  View name @en: genomic genotype (sex-qualified) has_sex_agnostic_part genomic genotype (sex-agnostic)
+  View name @fr: GENO_0000645 GENO_0000650 GENO_0000000
+    View attribute @en: uid genomic genotype (sex-qualified)
+    View attribute @en: uid genomic genotype (sex-agnostic)
+
+  View name IRI GENO_0000887_RO_0002351_NCBITaxon_8090
+  View name @en: oryzias latipes strain has member Oryzias latipes
+  View name @fr: GENO_0000887 RO_0002351 NCBITaxon_8090
+
+  View name IRI GENO_0000525_BFO_0000051_GENO_0000524
+  View name @en: effective genotype has part extrinsic genotype
+  View name @fr: GENO_0000525 BFO_0000051 GENO_0000524
+
+  View name IRI GENO_0000525_BFO_0000051_GENO_0000719
+  View name @en: effective genotype has part intrinsic genotype
+  View name @fr: GENO_0000525 BFO_0000051 GENO_0000719
+
+  View name IRI GENO_0000092_RO_0002353_GENO_0000172
+  View name @en: gene trap insertion output of gene trapping technique
+  View name @fr: GENO_0000092 RO_0002353 GENO_0000172
+
+  View name IRI GENO_0000501_GENO_0000683_GENO_0000481
+  View name @en: wild-type allele varies_with genomic feature
+  View name @fr: GENO_0000501 GENO_0000683 GENO_0000481
+
+  View name IRI GENO_0000659_RO_0002351_SO_0000110
+  View name @en: sequence feature complement has member sequence_feature
+  View name @fr: GENO_0000659 RO_0002351 SO_0000110
+    View attribute @en: uid sequence feature complement
+
+  View name IRI GENO_0000720_GENO_0000783_GENO_0000780
+  View name @en: DNA sequence has_sequence_unit DNA residue
+  View name @fr: GENO_0000720 GENO_0000783 GENO_0000780
+
+  View name IRI GENO_0000093_BFO_0000050_SO_0001218
+  View name @en: integrated transgene is part of transgenic_insertion
+  View name @fr: GENO_0000093 BFO_0000050 SO_0001218
+
+  View name IRI GENO_0000611_IAO_0000219_GENO_0000010
+  View name @en: background genotype denotes background genome
+  View name @fr: GENO_0000611 IAO_0000219 GENO_0000010
+
+  View name IRI GENO_0000515_GENO_0000641_SO_0000704
+  View name @en: variant gene allele is_variant_allele_of gene
+  View name @fr: GENO_0000515 GENO_0000641 SO_0000704
+
+  View name IRI GENO_0000515_GENO_0000382_SO_0001059
+  View name @en: variant gene allele has_variant_part sequence_alteration
+  View name @fr: GENO_0000515 GENO_0000382 SO_0001059
+
+  View name IRI GENO_0000527_RO_0002351_GENO_0000504
+  View name @en: reagent-targeted gene complement has member reagent targeted gene
+  View name @fr: GENO_0000527 RO_0002351 GENO_0000504
+    View attribute @en: uid reagent-targeted gene complement
+
+  View name IRI GENO_0000721_GENO_0000783_GENO_0000781
+  View name @en: RNA sequence has_sequence_unit RNA residue
+  View name @fr: GENO_0000721 GENO_0000783 GENO_0000781
+
+  View name IRI SO_0001505_RO_0000087_GENO_0000152
+  View name @en: reference genome sequence has_role reference
+  View name @fr: SO_0001505 RO_0000087 GENO_0000152
+
+  View name IRI GENO_0000504_GENO_0000447_GENO_0000533
+  View name @en: reagent targeted gene is_gene_target_of gene knockdown reagent
+  View name @fr: GENO_0000504 GENO_0000447 GENO_0000533
+
+  View name IRI GENO_0000504_GENO_0000231_GENO_0000534
+  View name @en: reagent targeted gene has_proper_part reagent-targeted gene subregion
+  View name @fr: GENO_0000504 GENO_0000231 GENO_0000534
+    View attribute @en: uid reagent-targeted gene subregion
+
+  View name IRI GENO_0000528_GENO_0000382_GENO_0000506
+  View name @en: transiently-expressed transgene complement has_variant_part transiently-expressed transgene
+  View name @fr: GENO_0000528 GENO_0000382 GENO_0000506
+    View attribute @en: uid transiently-expressed transgene complement
+    View attribute @en: uid transiently-expressed transgene
+
+  View name IRI GENO_0000516_GENO_0000608_GENO_0000133
+  View name @en: single locus complement has_zygosity zygosity
+  View name @fr: GENO_0000516 GENO_0000608 GENO_0000133
+
+  View name IRI GENO_0000637_RO_0002525_SO_0000902
+  View name @en: regulatory transgene region is subsequence of transgene
+  View name @fr: GENO_0000637 RO_0002525 SO_0000902
+    View attribute @en: uid regulatory transgene region
+
+  View name IRI GENO_0000722_GENO_0000783_GENO_0000782
+  View name @en: amino acid sequence has_sequence_unit amino acid residue
+  View name @fr: GENO_0000722 GENO_0000783 GENO_0000782
+
+  View name IRI GENO_0000529_GENO_0000443_SO_0000704
+  View name @en: expression-variant gene is_expression_variant_of gene
+  View name @fr: GENO_0000529 GENO_0000443 SO_0000704
+
+  View name IRI GENO_0000614_BFO_0000050_SO_0000105
+  View name @en: chromosomal region is part of chromosome arm
+  View name @fr: GENO_0000614 BFO_0000050 SO_0000105
+
+  View name IRI GENO_0000638_RO_0002525_SO_0000902
+  View name @en: expressed transgene region is subsequence of transgene
+  View name @fr: GENO_0000638 RO_0002525 SO_0000902
+
+  View name IRI GENO_0000833_association_has_object_UPHENO_0001001
+  View name @en: genotype-phenotype association association has object Phenotype
+  View name @fr: GENO_0000833 association_has_object UPHENO_0001001
+    View attribute @en: uid genotype-phenotype association
+
+  View name IRI GENO_0000833_GENO_0000580_ONTORELA_C3009a2bd
+  View name @en: genotype-phenotype association has_qualifier developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+  View name @fr: GENO_0000833 GENO_0000580 GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+    View attribute @en: uid genotype-phenotype association
+    View attribute @en: uid developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+    View attribute @fr: uid GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+
+  View name IRI GENO_0000833_GENO_0000580_ENVO_01000254
+  View name @en: genotype-phenotype association has_qualifier environmental system
+  View name @fr: GENO_0000833 GENO_0000580 ENVO_01000254
+    View attribute @en: uid genotype-phenotype association
+
+  View name IRI GENO_0000833_association_has_subject_ONTORELA_C6eeefcf9
+  View name @en: genotype-phenotype association association has subject genotype or (is part of some genotype)
+  View name @fr: GENO_0000833 association_has_subject GENO_0000536 or (BFO_0000050 some GENO_0000536)
+    View attribute @en: uid genotype-phenotype association
+    View attribute @en: uid genotype or (is part of some genotype)
+    View attribute @fr: uid GENO_0000536 or (BFO_0000050 some GENO_0000536)
+
+  View name IRI GENO_0000170_OBI_0000299_GENO_0000515
+  View name @en: targeted genetic insertion technique has_specified_output variant gene allele
+  View name @fr: GENO_0000170 OBI_0000299 GENO_0000515
+    View attribute @en: uid targeted genetic insertion technique
+
+  View name IRI GENO_0000616_BFO_0000050_SO_0000341
+  View name @en: chromosome sub-band is part of chromosome band
+  View name @fr: GENO_0000616 BFO_0000050 SO_0000341
+
+  View name IRI GENO_0000616_GENO_0000207_GENO_0000618
+  View name @en: chromosome sub-band has_sequence_attribute chromosomal band intensity
+  View name @fr: GENO_0000616 GENO_0000207 GENO_0000618
+
+  View name IRI GENO_0000171_OBI_0000299_GENO_0000515
+  View name @en: enhancer trapping technique has_specified_output variant gene allele
+  View name @fr: GENO_0000171 OBI_0000299 GENO_0000515
+    View attribute @en: uid enhancer trapping technique
+
+  View name IRI GENO_0000714_GENO_0000726_SO_0000110
+  View name @en: qualified genomic feature has_sequence_feature sequence_feature
+  View name @fr: GENO_0000714 GENO_0000726 SO_0000110
+
+  View name IRI GENO_0000714_RO_0002162_OBI_0100026
+  View name @en: qualified genomic feature in taxon organism
+  View name @fr: GENO_0000714 RO_0002162 OBI_0100026
+
+  View name IRI GENO_0000714_GENO_0000726_GENO_0000481
+  View name @en: qualified genomic feature has_sequence_feature genomic feature
+  View name @fr: GENO_0000714 GENO_0000726 GENO_0000481
+
+  View name IRI GENO_0000714_GENO_0000580_Thing
+  View name @en: qualified genomic feature has_qualifier Thing
+  View name @fr: GENO_0000714 GENO_0000580 Thing
+
+  View name IRI GENO_0000172_OBI_0000299_GENO_0000515
+  View name @en: gene trapping technique has_specified_output variant gene allele
+  View name @fr: GENO_0000172 OBI_0000299 GENO_0000515
+
+  View name IRI GENO_0000715_GENO_0000726_SO_0000110
+  View name @en: qualified genomic feature complement has_sequence_feature sequence_feature
+  View name @fr: GENO_0000715 GENO_0000726 SO_0000110
+    View attribute @en: uid qualified genomic feature complement
+
+  View name IRI GENO_0000715_RO_0002162_OBI_0100026
+  View name @en: qualified genomic feature complement in taxon organism
+  View name @fr: GENO_0000715 RO_0002162 OBI_0100026
+    View attribute @en: uid qualified genomic feature complement
+
+  View name IRI GENO_0000715_RO_0002351_GENO_0000714
+  View name @en: qualified genomic feature complement has member qualified genomic feature
+  View name @fr: GENO_0000715 RO_0002351 GENO_0000714
+    View attribute @en: uid qualified genomic feature complement
+
+  View name IRI GENO_0000715_GENO_0000726_GENO_0000660
+  View name @en: qualified genomic feature complement has_sequence_feature genomic feature complement
+  View name @fr: GENO_0000715 GENO_0000726 GENO_0000660
+    View attribute @en: uid qualified genomic feature complement
+
+  View name IRI GENO_0000173_OBI_0000299_GENO_0000515
+  View name @en: promoter trapping technique has_specified_output variant gene allele
+  View name @fr: GENO_0000173 OBI_0000299 GENO_0000515
+    View attribute @en: uid promoter trapping technique
+

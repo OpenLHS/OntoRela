@@ -1,0 +1,1471 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "DRON_00000001" [ label="\"DRON_00000001\"@
+clinical drug role" shape="ellipse" ];
+  "OPMI_0000098" [ label="\"OPMI_0000098\"@
+person full name" shape="ellipse" ];
+  "PDRO_0000097" [ label="\"PDRO_0000097\"@
+Drug Identification Number" shape="ellipse" ];
+  "PDRO_0000096" [ label="\"PDRO_0000096\"@
+drug dispensing specification" shape="ellipse" ];
+  "OPMI_0000096" [ label="\"OPMI_0000096\"@
+person last name" shape="ellipse" ];
+  "PDRO_0000099" [ label="\"PDRO_0000099\"@
+metered dose administration count value specification" shape="ellipse" ];
+  "OPMI_0000097" [ label="\"OPMI_0000097\"@
+person middle name" shape="ellipse" ];
+  "OPMI_0000094" [ label="\"OPMI_0000094\"@
+person name" shape="ellipse" ];
+  "OBI_0001141" [ label="\"OBI_0001141\"@
+individual organism identifier" shape="ellipse" ];
+  "OPMI_0000095" [ label="\"OPMI_0000095\"@
+person first name" shape="ellipse" ];
+  "DRON_00000005" [ label="\"DRON_00000005\"@
+drug product" shape="ellipse" ];
+  "OMIABIS_0001025" [ label="\"OMIABIS_0001025\"@
+survey plan specification" shape="ellipse" ];
+  "OMIABIS_0001026" [ label="\"OMIABIS_0001026\"@
+medical record" shape="ellipse" ];
+  "PDRO_0000088" [ label="\"PDRO_0000088\"@
+pharmacist role" shape="ellipse" ];
+  "IAO_0000007" [ label="\"IAO_0000007\"@
+action specification" shape="ellipse" ];
+  "IAO_0000009" [ label="\"IAO_0000009\"@
+datum label" shape="ellipse" ];
+  "IAO_0000003" [ label="\"IAO_0000003\"@
+measurement unit label" shape="ellipse" ];
+  "IAO_0000005" [ label="\"IAO_0000005\"@
+objective specification" shape="ellipse" ];
+  "PDRO_0000091" [ label="\"PDRO_0000091\"@
+after some drug administration condition" shape="ellipse" ];
+  "PDRO_0000090" [ label="\"PDRO_0000090\"@
+after some process condition" shape="ellipse" ];
+  "PDRO_0000093" [ label="\"PDRO_0000093\"@
+after some surgery condition" shape="ellipse" ];
+  "PDRO_0000092" [ label="\"PDRO_0000092\"@
+after some dose administration condition" shape="ellipse" ];
+  "PDRO_0000094" [ label="\"PDRO_0000094\"@
+site of drug administration specification" shape="ellipse" ];
+  "CHEBI_23367" [ label="\"CHEBI_23367\"@
+molecular entity" shape="ellipse" ];
+  "OMRSE_00000102" [ label="\"OMRSE_00000102\"@
+health care facility" shape="ellipse" ];
+  "NCBITaxon_9606" [ label="\"NCBITaxon_9606\"@
+Homo sapiens" shape="ellipse" ];
+  "OBI_0002139" [ label="\"OBI_0002139\"@
+volume value specification" shape="ellipse" ];
+  "PDRO_0000196" [ label="\"PDRO_0000196\"@
+drug administration prescription item" shape="ellipse" ];
+  "PDRO_0000074" [ label="\"PDRO_0000074\"@
+pharmacy facility" shape="ellipse" ];
+  "PDRO_0000195" [ label="\"PDRO_0000195\"@
+drug prescription item" shape="ellipse" ];
+  "PDRO_0000077" [ label="\"PDRO_0000077\"@
+excipient name" shape="ellipse" ];
+  "PDRO_0000198" [ label="\"PDRO_0000198\"@
+drug administration continuation prescription item" shape="ellipse" ];
+  "PDRO_0000197" [ label="\"PDRO_0000197\"@
+drug administration initiation precription item" shape="ellipse" ];
+  "PDRO_0000079" [ label="\"PDRO_0000079\"@
+exactly some number of doses in drug administration condition" shape="ellipse" ];
+  "DRON_00000029" [ label="\"DRON_00000029\"@
+excipient" shape="ellipse" ];
+  "PATO_0001710" [ label="\"PATO_0001710\"@
+3-D extent" shape="ellipse" ];
+  "PDRO_0000078" [ label="\"PDRO_0000078\"@
+number of doses in drug administration condition" shape="ellipse" ];
+  "PDRO_0000199" [ label="\"PDRO_0000199\"@
+drug administration modification prescription item" shape="ellipse" ];
+  "DRON_00000028" [ label="\"DRON_00000028\"@
+active ingredient" shape="ellipse" ];
+  "PDRO_0000080" [ label="\"PDRO_0000080\"@
+drug selection" shape="ellipse" ];
+  "PDRO_0000082" [ label="\"PDRO_0000082\"@
+less than some number of doses have occurred condition" shape="ellipse" ];
+  "PDRO_0000084" [ label="\"PDRO_0000084\"@
+greater than some time elapsed since the previous dispensing condition" shape="ellipse" ];
+  "PDRO_0000083" [ label="\"PDRO_0000083\"@
+greater than some number of doses have occurred condition" shape="ellipse" ];
+  "IAO_0000590" [ label="\"IAO_0000590\"@
+written name" shape="ellipse" ];
+  "PDRO_0000066" [ label="\"PDRO_0000066\"@
+day of the week category specification" shape="ellipse" ];
+  "PDRO_0000068" [ label="\"PDRO_0000068\"@
+drug excipient item" shape="ellipse" ];
+  "IAO_0000109" [ label="\"IAO_0000109\"@
+measurement datum" shape="ellipse" ];
+  "UO_0000105" [ label="\"UO_0000105\"@
+frequency unit" shape="ellipse" ];
+  "IAO_0000104" [ label="\"IAO_0000104\"@
+plan specification" shape="ellipse" ];
+  "PDRO_0000190" [ label="\"PDRO_0000190\"@
+dose administration specification" shape="ellipse" ];
+  "HADO_0000004" [ label="\"HADO_0000004\"@
+health insurance identifier" shape="ellipse" ];
+  "PDRO_0000071" [ label="\"PDRO_0000071\"@
+time elapsed since previous dose condition" shape="ellipse" ];
+  "PDRO_0000192" [ label="\"PDRO_0000192\"@
+pharmacist dispensing drug administration specification" shape="ellipse" ];
+  "HADO_0000006" [ label="\"HADO_0000006\"@
+medical record identifier" shape="ellipse" ];
+  "PDRO_0000070" [ label="\"PDRO_0000070\"@
+time elapsed since first dose condition" shape="ellipse" ];
+  "PDRO_0000191" [ label="\"PDRO_0000191\"@
+prescription drug administration specification" shape="ellipse" ];
+  "IAO_0000100" [ label="\"IAO_0000100\"@
+data set" shape="ellipse" ];
+  "PDRO_0000194" [ label="\"PDRO_0000194\"@
+pharmacist drug dispensing specification" shape="ellipse" ];
+  "HADO_0000008" [ label="\"HADO_0000008\"@
+patient" shape="ellipse" ];
+  "PDRO_0000072" [ label="\"PDRO_0000072\"@
+present time instant condition" shape="ellipse" ];
+  "PDRO_0000193" [ label="\"PDRO_0000193\"@
+prescription drug dispensing specification" shape="ellipse" ];
+  "CHEBI_24431" [ label="\"CHEBI_24431\"@
+chemical entity" shape="ellipse" ];
+  "Thing" [ label="\"Thing\"@
+Thing" shape="ellipse" ];
+  "OBI_0000011" [ label="\"OBI_0000011\"@
+planned process" shape="ellipse" ];
+  "PDRO_0010010" [ label="\"PDRO_0010010\"@
+health care objective specification" shape="ellipse" ];
+  "OMRSE_00000012" [ label="\"OMRSE_00000012\"@
+health care provider role" shape="ellipse" ];
+  "OMRSE_00000010" [ label="\"OMRSE_00000010\"@
+human health care role" shape="ellipse" ];
+  "PDRO_0010019" [ label="\"PDRO_0010019\"@
+prophylaxis objective specification" shape="ellipse" ];
+  "OMRSE_00000015" [ label="\"OMRSE_00000015\"@
+health care provider organization role" shape="ellipse" ];
+  "PDRO_0010018" [ label="\"PDRO_0010018\"@
+treatment objective specification" shape="ellipse" ];
+  "PDRO_0010017" [ label="\"PDRO_0010017\"@
+drug dispensing amount specification" shape="ellipse" ];
+  "PDRO_0000325" [ label="\"PDRO_0000325\"@
+reported drug administration description" shape="ellipse" ];
+  "PDRO_0000203" [ label="\"PDRO_0000203\"@
+pharmacist drug dispensing record" shape="ellipse" ];
+  "PDRO_0000324" [ label="\"PDRO_0000324\"@
+drug product characterization" shape="ellipse" ];
+  "DRON_00000031" [ label="\"DRON_00000031\"@
+drug administration" shape="ellipse" ];
+  "OGMS_0000097" [ label="\"OGMS_0000097\"@
+health care encounter" shape="ellipse" ];
+  "DRON_00000030" [ label="\"DRON_00000030\"@
+role of scattered molecular aggregate" shape="ellipse" ];
+  "BFO_0000038" [ label="\"BFO_0000038\"@
+1d-t-region" shape="ellipse" ];
+  "PDRO_0000200" [ label="\"PDRO_0000200\"@
+drug administration cessation prescription item" shape="ellipse" ];
+  "PDRO_0000321" [ label="\"PDRO_0000321\"@
+specification of a part of a drug prescription validity period" shape="ellipse" ];
+  "UO_0000002" [ label="\"UO_0000002\"@
+mass unit" shape="ellipse" ];
+  "PDRO_0000320" [ label="\"PDRO_0000320\"@
+dosing frequency specification" shape="ellipse" ];
+  "UO_0000003" [ label="\"UO_0000003\"@
+time unit" shape="ellipse" ];
+  "PDRO_0000202" [ label="\"PDRO_0000202\"@
+pharmacist record item" shape="ellipse" ];
+  "PDRO_0000323" [ label="\"PDRO_0000323\"@
+drug administration description" shape="ellipse" ];
+  "OGMS_0000090" [ label="\"OGMS_0000090\"@
+treatment" shape="ellipse" ];
+  "PDRO_0000201" [ label="\"PDRO_0000201\"@
+pharmacist record" shape="ellipse" ];
+  "PDRO_0000322" [ label="\"PDRO_0000322\"@
+drug prescription validity period" shape="ellipse" ];
+  "UO_0000006" [ label="\"UO_0000006\"@
+substance unit" shape="ellipse" ];
+  "OPMI_0000324" [ label="\"OPMI_0000324\"@
+person first and last name" shape="ellipse" ];
+  "BFO_0000040" [ label="\"BFO_0000040\"@
+material" shape="ellipse" ];
+  "OMRSE_00000022" [ label="\"OMRSE_00000022\"@
+aggregate of objectual organisms" shape="ellipse" ];
+  "OMRSE_00000023" [ label="\"OMRSE_00000023\"@
+collection of humans" shape="ellipse" ];
+  "PDRO_0010008" [ label="\"PDRO_0010008\"@
+prescribed drug administration" shape="ellipse" ];
+  "PDRO_0010007" [ label="\"PDRO_0010007\"@
+drug prophylaxis" shape="ellipse" ];
+  "OMRSE_00000027" [ label="\"OMRSE_00000027\"@
+organization health care role" shape="ellipse" ];
+  "OMRSE_00000024" [ label="\"OMRSE_00000024\"@
+role in human social processes" shape="ellipse" ];
+  "OMRSE_00000025" [ label="\"OMRSE_00000025\"@
+organization social role" shape="ellipse" ];
+  "PDRO_0010004" [ label="\"PDRO_0010004\"@
+frequency value specification" shape="ellipse" ];
+  "PDRO_0000314" [ label="\"PDRO_0000314\"@
+drug dispensing ending validity temporal specification" shape="ellipse" ];
+  "PDRO_0000313" [ label="\"PDRO_0000313\"@
+Anatomical Therapeutic Chemical code" shape="ellipse" ];
+  "PDRO_0000316" [ label="\"PDRO_0000316\"@
+drug prescription ending validity temporal specification" shape="ellipse" ];
+  "PDRO_0000315" [ label="\"PDRO_0000315\"@
+drug dispensing starting validity temporal specification" shape="ellipse" ];
+  "PDRO_0000318" [ label="\"PDRO_0000318\"@
+drug prescription starting validity temporal specification" shape="ellipse" ];
+  "PDRO_0000317" [ label="\"PDRO_0000317\"@
+drug prescription validity period specification" shape="ellipse" ];
+  "PDRO_9876003" [ label="\"PDRO_9876003\"@
+active ingredient aggregate biological activity" shape="ellipse" ];
+  "PDRO_0000319" [ label="\"PDRO_0000319\"@
+health care prescription identifier" shape="ellipse" ];
+  "PDRO_9876002" [ label="\"PDRO_9876002\"@
+drug product dose form" shape="ellipse" ];
+  "PDRO_9876001" [ label="\"PDRO_9876001\"@
+administration dose form" shape="ellipse" ];
+  "PDRO_0000310" [ label="\"PDRO_0000310\"@
+starting validity temporal specification" shape="ellipse" ];
+  "PDRO_0000312" [ label="\"PDRO_0000312\"@
+drug product proprietary label" shape="ellipse" ];
+  "PDRO_0020006" [ label="\"PDRO_0020006\"@
+generic drug product" shape="ellipse" ];
+  "PDRO_0000311" [ label="\"PDRO_0000311\"@
+ending validity temporal specification" shape="ellipse" ];
+  "IAO_0000033" [ label="\"IAO_0000033\"@
+directive information entity" shape="ellipse" ];
+  "IAO_0000030" [ label="\"IAO_0000030\"@
+information content entity" shape="ellipse" ];
+  "OBI_0001929" [ label="\"OBI_0001929\"@
+mass value specification" shape="ellipse" ];
+  "PDRO_0000305" [ label="\"PDRO_0000305\"@
+drug administration modification condition" shape="ellipse" ];
+  "PDRO_0000304" [ label="\"PDRO_0000304\"@
+pharmacist drug administration specification instruction" shape="ellipse" ];
+  "PDRO_0000307" [ label="\"PDRO_0000307\"@
+drug dispensing validity period specification" shape="ellipse" ];
+  "OBI_0001930" [ label="\"OBI_0001930\"@
+categorical value specification" shape="ellipse" ];
+  "PDRO_0000306" [ label="\"PDRO_0000306\"@
+drug administration cessation condition" shape="ellipse" ];
+  "OBI_0001931" [ label="\"OBI_0001931\"@
+scalar value specification" shape="ellipse" ];
+  "PDRO_0000308" [ label="\"PDRO_0000308\"@
+complete drug administration specification" shape="ellipse" ];
+  "PATO_0001405" [ label="\"PATO_0001405\"@
+anucleate" shape="ellipse" ];
+  "PATO_0001404" [ label="\"PATO_0001404\"@
+nucleate quality" shape="ellipse" ];
+  "ObsoleteClass" [ label="\"ObsoleteClass\"@
+ObsoleteClass" shape="ellipse" ];
+  "BFO_0000182" [ label="\"BFO_0000182\"@
+history" shape="ellipse" ];
+  "IAO_0000027" [ label="\"IAO_0000027\"@
+data item" shape="ellipse" ];
+  "IAO_0000028" [ label="\"IAO_0000028\"@
+symbol" shape="ellipse" ];
+  "OBI_0000969" [ label="\"OBI_0000969\"@
+dose specification" shape="ellipse" ];
+  "OMIABIS_0001035" [ label="\"OMIABIS_0001035\"@
+survey execution" shape="ellipse" ];
+  "OBI_0100026" [ label="\"OBI_0100026\"@
+organism" shape="ellipse" ];
+  "OBI_0001933" [ label="\"OBI_0001933\"@
+value specification" shape="ellipse" ];
+  "PDRO_0033203" [ label="\"PDRO_0033203\"@
+INN name" shape="ellipse" ];
+  "OMIABIS_0000060" [ label="\"OMIABIS_0000060\"@
+survey data" shape="ellipse" ];
+  "PDRO_0000019" [ label="\"PDRO_0000019\"@
+temporal instant specification" shape="ellipse" ];
+  "PDRO_0000139" [ label="\"PDRO_0000139\"@
+minimum dosing interval condition" shape="ellipse" ];
+  "UO_0000270" [ label="\"UO_0000270\"@
+volumetric flow rate unit" shape="ellipse" ];
+  "BFO_0000006" [ label="\"BFO_0000006\"@
+s-region" shape="ellipse" ];
+  "BFO_0000003" [ label="\"BFO_0000003\"@
+occurrent" shape="ellipse" ];
+  "PDRO_0000011" [ label="\"PDRO_0000011\"@
+drug product information item" shape="ellipse" ];
+  "BFO_0000004" [ label="\"BFO_0000004\"@
+independent continuant" shape="ellipse" ];
+  "OBI_0000576" [ label="\"OBI_0000576\"@
+scattered molecular aggregate" shape="ellipse" ];
+  "BFO_0000009" [ label="\"BFO_0000009\"@
+two-dimensional spatial region" shape="ellipse" ];
+  "PATO_0000125" [ label="\"PATO_0000125\"@
+mass" shape="ellipse" ];
+  "OBI_0002076" [ label="\"OBI_0002076\"@
+collection of specimens" shape="ellipse" ];
+  "PDRO_0000012" [ label="\"PDRO_0000012\"@
+drug treatment" shape="ellipse" ];
+  "BFO_0000008" [ label="\"BFO_0000008\"@
+t-region" shape="ellipse" ];
+  "OMRSE_00000051" [ label="\"OMRSE_00000051\"@
+organization role" shape="ellipse" ];
+  "OMRSE_00000172" [ label="\"OMRSE_00000172\"@
+health care function" shape="ellipse" ];
+  "PDRO_0010053" [ label="\"PDRO_0010053\"@
+time elapsed since dose condition" shape="ellipse" ];
+  "PDRO_0010052" [ label="\"PDRO_0010052\"@
+equal to total dosage condition" shape="ellipse" ];
+  "BFO_0000011" [ label="\"BFO_0000011\"@
+st-region" shape="ellipse" ];
+  "OMRSE_00000050" [ label="\"OMRSE_00000050\"@
+Homo sapiens role" shape="ellipse" ];
+  "PDRO_0010051" [ label="\"PDRO_0010051\"@
+greater than total dosage condition" shape="ellipse" ];
+  "OBI_0100051" [ label="\"OBI_0100051\"@
+specimen" shape="ellipse" ];
+  "PDRO_0000006" [ label="\"PDRO_0000006\"@
+health care prescription time identification" shape="ellipse" ];
+  "PDRO_0000127" [ label="\"PDRO_0000127\"@
+continuing drug administration condition" shape="ellipse" ];
+  "PDRO_0000005" [ label="\"PDRO_0000005\"@
+document creation time identification" shape="ellipse" ];
+  "PDRO_0000126" [ label="\"PDRO_0000126\"@
+active ingredient mass delivery rate value specification" shape="ellipse" ];
+  "PDRO_0000008" [ label="\"PDRO_0000008\"@
+prescribed site of drug administration specification" shape="ellipse" ];
+  "PDRO_0000129" [ label="\"PDRO_0000129\"@
+condition" shape="ellipse" ];
+  "PDRO_0000007" [ label="\"PDRO_0000007\"@
+drug administration and dispensing specification" shape="ellipse" ];
+  "PDRO_0000128" [ label="\"PDRO_0000128\"@
+starting drug administration condition" shape="ellipse" ];
+  "PDRO_0000009" [ label="\"PDRO_0000009\"@
+drug product characteristic specification" shape="ellipse" ];
+  "PDRO_0010050" [ label="\"PDRO_0010050\"@
+less than or equal to total dosage condition" shape="ellipse" ];
+  "PDRO_0000000" [ label="\"PDRO_0000000\"@
+time elapsed since dispensing condition" shape="ellipse" ];
+  "PDRO_0000121" [ label="\"PDRO_0000121\"@
+mass per time value specification" shape="ellipse" ];
+  "PDRO_0000120" [ label="\"PDRO_0000120\"@
+excipient aggregate" shape="ellipse" ];
+  "PDRO_0000002" [ label="\"PDRO_0000002\"@
+prescriber identification" shape="ellipse" ];
+  "PDRO_0000123" [ label="\"PDRO_0000123\"@
+dose quantification specification" shape="ellipse" ];
+  "PDRO_0000001" [ label="\"PDRO_0000001\"@
+health care prescription" shape="ellipse" ];
+  "PDRO_0000122" [ label="\"PDRO_0000122\"@
+drug renewal process" shape="ellipse" ];
+  "PDRO_0000004" [ label="\"PDRO_0000004\"@
+active ingredient aggregate mass" shape="ellipse" ];
+  "PDRO_0000125" [ label="\"PDRO_0000125\"@
+drug product quantification specification" shape="ellipse" ];
+  "PDRO_0000003" [ label="\"PDRO_0000003\"@
+patient identification" shape="ellipse" ];
+  "PDRO_0000124" [ label="\"PDRO_0000124\"@
+active ingredient quantification specification" shape="ellipse" ];
+  "PDRO_0010046" [ label="\"PDRO_0010046\"@
+number of dispensings condition" shape="ellipse" ];
+  "PDRO_0010045" [ label="\"PDRO_0010045\"@
+exactly some number of doses per unit time condition" shape="ellipse" ];
+  "PDRO_0010044" [ label="\"PDRO_0010044\"@
+greater than some number of doses per unit time condition" shape="ellipse" ];
+  "BFO_0000001" [ label="\"BFO_0000001\"@
+entity" shape="ellipse" ];
+  "OMRSE_00000062" [ label="\"OMRSE_00000062\"@
+facility" shape="ellipse" ];
+  "PDRO_0010043" [ label="\"PDRO_0010043\"@
+less than some number of doses per unit time condition" shape="ellipse" ];
+  "BFO_0000002" [ label="\"BFO_0000002\"@
+continuant" shape="ellipse" ];
+  "PDRO_0010042" [ label="\"PDRO_0010042\"@
+number of doses per unit time condition" shape="ellipse" ];
+  "PDRO_0010041" [ label="\"PDRO_0010041\"@
+time elapsed condition" shape="ellipse" ];
+  "OMRSE_00000061" [ label="\"OMRSE_00000061\"@
+architectural structure" shape="ellipse" ];
+  "PDRO_0010040" [ label="\"PDRO_0010040\"@
+current time condition" shape="ellipse" ];
+  "PDRO_0010049" [ label="\"PDRO_0010049\"@
+total dosage condition" shape="ellipse" ];
+  "PDRO_0010048" [ label="\"PDRO_0010048\"@
+less than some number of dispensings condition" shape="ellipse" ];
+  "PDRO_0000115" [ label="\"PDRO_0000115\"@
+mass per time unit" shape="ellipse" ];
+  "PDRO_0000117" [ label="\"PDRO_0000117\"@
+dose range specification" shape="ellipse" ];
+  "PDRO_0000119" [ label="\"PDRO_0000119\"@
+active ingredient aggregate" shape="ellipse" ];
+  "BFO_0000027" [ label="\"BFO_0000027\"@
+object aggregate" shape="ellipse" ];
+  "BFO_0000148" [ label="\"BFO_0000148\"@
+0d-t-region" shape="ellipse" ];
+  "BFO_0000028" [ label="\"BFO_0000028\"@
+3d-s-region" shape="ellipse" ];
+  "BFO_0000146" [ label="\"BFO_0000146\"@
+two-dimensional continuant fiat boundary" shape="ellipse" ];
+  "PDRO_0000110" [ label="\"PDRO_0000110\"@
+supervising prescriber identification" shape="ellipse" ];
+  "BFO_0000026" [ label="\"BFO_0000026\"@
+one-dimensional spatial region" shape="ellipse" ];
+  "BFO_0000147" [ label="\"BFO_0000147\"@
+zero-dimensional continuant fiat boundary" shape="ellipse" ];
+  "PDRO_0000112" [ label="\"PDRO_0000112\"@
+rate of administration specification" shape="ellipse" ];
+  "OBI_0000112" [ label="\"OBI_0000112\"@
+specimen role" shape="ellipse" ];
+  "BFO_0000029" [ label="\"BFO_0000029\"@
+site" shape="ellipse" ];
+  "PDRO_0000114" [ label="\"PDRO_0000114\"@
+site of administration category specification" shape="ellipse" ];
+  "BFO_0000030" [ label="\"BFO_0000030\"@
+object" shape="ellipse" ];
+  "PDRO_0010036" [ label="\"PDRO_0010036\"@
+pharmacological unit" shape="ellipse" ];
+  "BFO_0000031" [ label="\"BFO_0000031\"@
+generically dependent continuant" shape="ellipse" ];
+  "PDRO_0010035" [ label="\"PDRO_0010035\"@
+active ingredient molar value specification" shape="ellipse" ];
+  "PDRO_0010034" [ label="\"PDRO_0010034\"@
+drug product volumetric flow rate value specification" shape="ellipse" ];
+  "PDRO_0010033" [ label="\"PDRO_0010033\"@
+volumetric flow rate value specification" shape="ellipse" ];
+  "BFO_0000034" [ label="\"BFO_0000034\"@
+function" shape="ellipse" ];
+  "PDRO_0010032" [ label="\"PDRO_0010032\"@
+substance quantity value specification" shape="ellipse" ];
+  "BFO_0000035" [ label="\"BFO_0000035\"@
+process boundary" shape="ellipse" ];
+  "PDRO_0010031" [ label="\"PDRO_0010031\"@
+pharmacological unit value specification" shape="ellipse" ];
+  "PDRO_0010030" [ label="\"PDRO_0010030\"@
+dose administration frequency specification" shape="ellipse" ];
+  "OMRSE_00000033" [ label="\"OMRSE_00000033\"@
+aggregate of organizations" shape="ellipse" ];
+  "OGMS_0000103" [ label="\"OGMS_0000103\"@
+disease prophylaxis" shape="ellipse" ];
+  "PDRO_0010039" [ label="\"PDRO_0010039\"@
+state of consciousness condition" shape="ellipse" ];
+  "PDRO_0010038" [ label="\"PDRO_0010038\"@
+presence of symptom condition" shape="ellipse" ];
+  "PDRO_0010037" [ label="\"PDRO_0010037\"@
+dose administration count specification" shape="ellipse" ];
+  "PATO_0000918" [ label="\"PATO_0000918\"@
+volume" shape="ellipse" ];
+  "PDRO_0000109" [ label="\"PDRO_0000109\"@
+portion of drug product" shape="ellipse" ];
+  "PDRO_0000108" [ label="\"PDRO_0000108\"@
+dose of drug product" shape="ellipse" ];
+  "BFO_0000016" [ label="\"BFO_0000016\"@
+disposition" shape="ellipse" ];
+  "BFO_0000017" [ label="\"BFO_0000017\"@
+realizable entity" shape="ellipse" ];
+  "BFO_0000015" [ label="\"BFO_0000015\"@
+process" shape="ellipse" ];
+  "PATO_0000117" [ label="\"PATO_0000117\"@
+size" shape="ellipse" ];
+  "OBI_0000245" [ label="\"OBI_0000245\"@
+organization" shape="ellipse" ];
+  "PDRO_0000100" [ label="\"PDRO_0000100\"@
+drug dispensing process" shape="ellipse" ];
+  "BFO_0000018" [ label="\"BFO_0000018\"@
+0d-s-region" shape="ellipse" ];
+  "PDRO_0000103" [ label="\"PDRO_0000103\"@
+prescribed dosing specification" shape="ellipse" ];
+  "BFO_0000019" [ label="\"BFO_0000019\"@
+quality" shape="ellipse" ];
+  "PDRO_0000102" [ label="\"PDRO_0000102\"@
+drug perfusion specification" shape="ellipse" ];
+  "BFO_0000140" [ label="\"BFO_0000140\"@
+continuant fiat boundary" shape="ellipse" ];
+  "PDRO_0010025" [ label="\"PDRO_0010025\"@
+drug product mass value specification" shape="ellipse" ];
+  "BFO_0000020" [ label="\"BFO_0000020\"@
+sdc" shape="ellipse" ];
+  "BFO_0000141" [ label="\"BFO_0000141\"@
+immaterial entity" shape="ellipse" ];
+  "PATO_0000001" [ label="\"PATO_0000001\"@
+quality" shape="ellipse" ];
+  "PDRO_0010024" [ label="\"PDRO_0010024\"@
+drug product volume value specification" shape="ellipse" ];
+  "PDRO_0010023" [ label="\"PDRO_0010023\"@
+drug product object count specification" shape="ellipse" ];
+  "PDRO_0010022" [ label="\"PDRO_0010022\"@
+drug administration specification" shape="ellipse" ];
+  "BFO_0000023" [ label="\"BFO_0000023\"@
+role" shape="ellipse" ];
+  "BFO_0000144" [ label="\"BFO_0000144\"@
+process profile" shape="ellipse" ];
+  "OPMI_0000102" [ label="\"OPMI_0000102\"@
+maiden name" shape="ellipse" ];
+  "BFO_0000024" [ label="\"BFO_0000024\"@
+fiat object part" shape="ellipse" ];
+  "BFO_0000145" [ label="\"BFO_0000145\"@
+r-quality" shape="ellipse" ];
+  "PDRO_0010020" [ label="\"PDRO_0010020\"@
+diagnostic objective specification" shape="ellipse" ];
+  "BFO_0000142" [ label="\"BFO_0000142\"@
+1d-cf-boundary" shape="ellipse" ];
+  "OPMI_0000100" [ label="\"OPMI_0000100\"@
+birth name" shape="ellipse" ];
+  "OMRSE_00000048" [ label="\"OMRSE_00000048\"@
+material entity role" shape="ellipse" ];
+  "PDRO_0010029" [ label="\"PDRO_0010029\"@
+temporal duration specification" shape="ellipse" ];
+  "OMRSE_00000049" [ label="\"OMRSE_00000049\"@
+organism role" shape="ellipse" ];
+  "PDRO_0010028" [ label="\"PDRO_0010028\"@
+statement" shape="ellipse" ];
+  "OBI_0000093" [ label="\"OBI_0000093\"@
+patient role" shape="ellipse" ];
+  "PDRO_0000053" [ label="\"PDRO_0000053\"@
+drug active ingredient specification" shape="ellipse" ];
+  "PDRO_0000052" [ label="\"PDRO_0000052\"@
+drug excipient specification" shape="ellipse" ];
+  "PATO_0001018" [ label="\"PATO_0001018\"@
+physical quality" shape="ellipse" ];
+  "PDRO_0000055" [ label="\"PDRO_0000055\"@
+current time is before some instant condition" shape="ellipse" ];
+  "PDRO_0000054" [ label="\"PDRO_0000054\"@
+generic drug product proprietary label" shape="ellipse" ];
+  "IAO_0000579" [ label="\"IAO_0000579\"@
+centrally registered identifier registry" shape="ellipse" ];
+  "PDRO_0000057" [ label="\"PDRO_0000057\"@
+current time is approximately some instant condition" shape="ellipse" ];
+  "PDRO_0000056" [ label="\"PDRO_0000056\"@
+current time is after some instant condition" shape="ellipse" ];
+  "PDRO_0000059" [ label="\"PDRO_0000059\"@
+exactly some time elapsed since previous dose condition" shape="ellipse" ];
+  "PDRO_0000058" [ label="\"PDRO_0000058\"@
+greater than some time elapsed since previous dose condition" shape="ellipse" ];
+  "IAO_0000577" [ label="\"IAO_0000577\"@
+centrally registered identifier symbol" shape="ellipse" ];
+  "IAO_0000578" [ label="\"IAO_0000578\"@
+centrally registered identifier" shape="ellipse" ];
+  "PATO_0000051" [ label="\"PATO_0000051\"@
+morphology" shape="ellipse" ];
+  "PDRO_0000060" [ label="\"PDRO_0000060\"@
+drug product specification" shape="ellipse" ];
+  "OBI_0000659" [ label="\"OBI_0000659\"@
+specimen collection process" shape="ellipse" ];
+  "PDRO_0000062" [ label="\"PDRO_0000062\"@
+month of the year" shape="ellipse" ];
+  "PDRO_0000061" [ label="\"PDRO_0000061\"@
+time of the day" shape="ellipse" ];
+  "PDRO_0000044" [ label="\"PDRO_0000044\"@
+drug product name" shape="ellipse" ];
+  "PDRO_0000043" [ label="\"PDRO_0000043\"@
+less than some time elapsed since previous dose condition" shape="ellipse" ];
+  "PATO_0001396" [ label="\"PATO_0001396\"@
+cellular quality" shape="ellipse" ];
+  "PDRO_0000051" [ label="\"PDRO_0000051\"@
+drug dose form specification" shape="ellipse" ];
+  "PDRO_0000050" [ label="\"PDRO_0000050\"@
+day of the week" shape="ellipse" ];
+  "PDRO_0000039" [ label="\"PDRO_0000039\"@
+dose administration" shape="ellipse" ];
+  "PDRO_0000038" [ label="\"PDRO_0000038\"@
+drug dose form item" shape="ellipse" ];
+  "PDRO_1000009" [ label="\"PDRO_1000009\"@
+drug preparation" shape="ellipse" ];
+  "OGMS_0000020" [ label="\"OGMS_0000020\"@
+symptom" shape="ellipse" ];
+  "PDRO_0000030" [ label="\"PDRO_0000030\"@
+duration of administration specification" shape="ellipse" ];
+  "PDRO_0000151" [ label="\"PDRO_0000151\"@
+drug dispensing count specification" shape="ellipse" ];
+  "UO_0000095" [ label="\"UO_0000095\"@
+volume unit" shape="ellipse" ];
+  "PDRO_0010080" [ label="\"PDRO_0010080\"@
+route of administration category specification" shape="ellipse" ];
+  "PDRO_0000034" [ label="\"PDRO_0000034\"@
+initial rate of administration specification" shape="ellipse" ];
+  "PDRO_0000037" [ label="\"PDRO_0000037\"@
+non-generic drug product proprietary label" shape="ellipse" ];
+  "PDRO_0000036" [ label="\"PDRO_0000036\"@
+drug active ingredient item" shape="ellipse" ];
+  "PATO_0001241" [ label="\"PATO_0001241\"@
+physical object quality" shape="ellipse" ];
+  "IAO_0000314" [ label="\"IAO_0000314\"@
+document part" shape="ellipse" ];
+  "PDRO_0000040" [ label="\"PDRO_0000040\"@
+presence of sign condition" shape="ellipse" ];
+  "IAO_0000310" [ label="\"IAO_0000310\"@
+document" shape="ellipse" ];
+  "PDRO_0000160" [ label="\"PDRO_0000160\"@
+initial drug dispensing process" shape="ellipse" ];
+  "OGMS_0000024" [ label="\"OGMS_0000024\"@
+sign" shape="ellipse" ];
+  "PDRO_0000028" [ label="\"PDRO_0000028\"@
+drug strength per volume unit item" shape="ellipse" ];
+  "PDRO_0000027" [ label="\"PDRO_0000027\"@
+drug strength per discrete dose form item" shape="ellipse" ];
+  "PDRO_0000029" [ label="\"PDRO_0000029\"@
+drug strength per mass unit item" shape="ellipse" ];
+  "PDRO_0000020" [ label="\"PDRO_0000020\"@
+route of administration specification" shape="ellipse" ];
+  "PDRO_0040002" [ label="\"PDRO_0040002\"@
+active ingredient name" shape="ellipse" ];
+  "PDRO_0000022" [ label="\"PDRO_0000022\"@
+drug strength specification" shape="ellipse" ];
+  "PDRO_0000021" [ label="\"PDRO_0000021\"@
+active ingredient mass value specification" shape="ellipse" ];
+  "PDRO_0000024" [ label="\"PDRO_0000024\"@
+drug prescription" shape="ellipse" ];
+  "OBI_0000684" [ label="\"OBI_0000684\"@
+specimen collection objective" shape="ellipse" ];
+  "PDRO_0000026" [ label="\"PDRO_0000026\"@
+drug strength item" shape="ellipse" ];
+  "PDRO_0000147" [ label="\"PDRO_0000147\"@
+dosing condition" shape="ellipse" ];
+  "PDRO_0000146" [ label="\"PDRO_0000146\"@
+maximum dosage condition" shape="ellipse" ];
+  "IAO_0000300" [ label="\"IAO_0000300\"@
+textual entity" shape="ellipse" ];
+  "IAO_0000302" [ label="\"IAO_0000302\"@
+author identification" shape="ellipse" ];
+  "PDRO_0000150" [ label="\"PDRO_0000150\"@
+drug dispensing frequency specification" shape="ellipse" ];
+  "PDRO_0012001" [ label="\"PDRO_0012001\"@
+non-generic drug product" shape="ellipse" ];
+  "OGMS_0000039" [ label="\"OGMS_0000039\"@
+configuration" shape="ellipse" ];
+  "ONTORELA_C5d1abc5c" [ label="\"ONTORELA_C5d1abc5c\"@
+health insurance identifier or person full name" shape="ellipse" ];
+  "ONTORELA_C316c7ee9" [ label="\"ONTORELA_C316c7ee9\"@
+Homo sapiens
+ and (is bearer of some patient role)" shape="ellipse" ];
+  "ONTORELA_C1d96dad2" [ label="\"ONTORELA_C1d96dad2\"@
+material
+ and (is_specified_output_of some specimen collection process)" shape="ellipse" ];
+  "ONTORELA_C310d8aaf" [ label="\"ONTORELA_C310d8aaf\"@
+realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some health care objective specification)))" shape="ellipse" ];
+  "ONTORELA_C3ad998b9" [ label="\"ONTORELA_C3ad998b9\"@
+plan specification
+ and (has part some health care objective specification)" shape="ellipse" ];
+  "ONTORELA_C40692846" [ label="\"ONTORELA_C40692846\"@
+realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some prophylaxis objective specification)))" shape="ellipse" ];
+  "ONTORELA_C3addb010" [ label="\"ONTORELA_C3addb010\"@
+plan specification
+ and (has part some prophylaxis objective specification)" shape="ellipse" ];
+  "ONTORELA_C750054bc" [ label="\"ONTORELA_C750054bc\"@
+active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification or pharmacological unit value specification or active ingredient molar value specification" shape="ellipse" ];
+  "ONTORELA_C6f17ffd2" [ label="\"ONTORELA_C6f17ffd2\"@
+active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification" shape="ellipse" ];
+  "ONTORELA_C192f7c9b" [ label="\"ONTORELA_C192f7c9b\"@
+prescribed dosing specification
+ and (has part some initial rate of administration specification)" shape="ellipse" ];
+  "ONTORELA_C5cac32c4" [ label="\"ONTORELA_C5cac32c4\"@
+drug product proprietary label or active ingredient name" shape="ellipse" ];
+  "ONTORELA_C3cca813" [ label="\"ONTORELA_C3cca813\"@
+active ingredient mass value specification or pharmacological unit value specification or active ingredient molar value specification" shape="ellipse" ];
+  "ONTORELA_C5406a853" [ label="\"ONTORELA_C5406a853\"@
+medical record
+ and (is about some patient)" shape="ellipse" ];
+  "ONTORELA_C4c4852ca" [ label="\"ONTORELA_C4c4852ca\"@
+medical record identifier or patient identification" shape="ellipse" ];
+  "ONTORELA_C3eb44fa7" [ label="\"ONTORELA_C3eb44fa7\"@
+realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some treatment objective specification)))" shape="ellipse" ];
+  "ONTORELA_C3add3bb1" [ label="\"ONTORELA_C3add3bb1\"@
+plan specification
+ and (has part some treatment objective specification)" shape="ellipse" ];
+  "ONTORELA_C3f6f3e4f" [ label="\"ONTORELA_C3f6f3e4f\"@
+denotes some centrally registered identifier registry" shape="ellipse" ];
+  "ONTORELA_C29e4c3a1" [ label="\"ONTORELA_C29e4c3a1\"@
+realizable entity
+ and (concretizes some drug dispensing specification)" shape="ellipse" ];
+  "ONTORELA_C6be873c8" [ label="\"ONTORELA_C6be873c8\"@
+drug administration specification
+ and (part of exactly 1 drug prescription)" shape="ellipse" ];
+  "ONTORELA_C18b194d6" [ label="\"ONTORELA_C18b194d6\"@
+Homo sapiens or organization" shape="ellipse" ];
+  "ONTORELA_C33dffb9d" [ label="\"ONTORELA_C33dffb9d\"@
+1d-t-region
+ and (part of some drug prescription validity period)" shape="ellipse" ];
+  "ONTORELA_C54fc9933" [ label="\"ONTORELA_C54fc9933\"@
+drug administration
+ and (has participant some patient)" shape="ellipse" ];
+  "ONTORELA_C39dbd10a" [ label="\"ONTORELA_C39dbd10a\"@
+organization or organism" shape="ellipse" ];
+  "ONTORELA_C5960bf6c" [ label="\"ONTORELA_C5960bf6c\"@
+drug product
+ and (has disposition some 
+    (disposition
+     and ( inverse (is about) some Anatomical Therapeutic Chemical code)))" shape="ellipse" ];
+  "ONTORELA_C17cc6afd" [ label="\"ONTORELA_C17cc6afd\"@
+disposition
+ and ( inverse (is about) some Anatomical Therapeutic Chemical code)" shape="ellipse" ];
+  "ONTORELA_C5cee9ffd" [ label="\"ONTORELA_C5cee9ffd\"@
+facility
+ and (is owned by some (is bearer of some health care provider organization role))" shape="ellipse" ];
+  "ONTORELA_C6f0acf47" [ label="\"ONTORELA_C6f0acf47\"@
+is bearer of some health care provider organization role" shape="ellipse" ];
+  "ONTORELA_C44a080fc" [ label="\"ONTORELA_C44a080fc\"@
+is administered by some (is bearer of some health care provider organization role)" shape="ellipse" ];
+  "ONTORELA_C2eb7caa8" [ label="\"ONTORELA_C2eb7caa8\"@
+drug administration specification
+ and (part of some drug prescription)" shape="ellipse" ];
+  "ONTORELA_C2875fe2d" [ label="\"ONTORELA_C2875fe2d\"@
+concretizes some plan specification" shape="ellipse" ];
+  "ONTORELA_C3cabfeaf" [ label="\"ONTORELA_C3cabfeaf\"@
+concretizes some survey plan specification" shape="ellipse" ];
+  "ONTORELA_C764bfb7" [ label="\"ONTORELA_C764bfb7\"@
+scattered molecular aggregate
+ and (is bearer of some active ingredient)" shape="ellipse" ];
+  "real" [ label="\"real\"@
+real" shape="box" ];
+  "rational" [ label="\"rational\"@
+rational" shape="box" ];
+  "Literal" [ label="\"Literal\"@
+Literal" shape="box" ];
+  "BFO_0000146" -> "BFO_0000140" [ label="\"isa\"" style="solid" ];
+  "BFO_0000015" -> "BFO_0000003" [ label="\"isa\"" style="solid" ];
+  "OGMS_0000024" -> "BFO_0000001" [ label="\"isa\"" style="solid" ];
+  "PATO_0000117" -> "PATO_0000051" [ label="\"isa\"" style="solid" ];
+  "IAO_0000003" -> "IAO_0000009" [ label="\"isa\"" style="solid" ];
+  "IAO_0000100" -> "IAO_0000027" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000121" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000099" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "PDRO_0012001" -> "DRON_00000005" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000053" -> "PDRO_0000009" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000097" -> "IAO_0000577" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000304" -> "IAO_0000310" [ label="\"isa\"" style="solid" ];
+  "BFO_0000017" -> "BFO_0000020" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010019" -> "PDRO_0010010" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010031" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010004" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000110" -> "PDRO_0000002" [ label="\"isa\"" style="solid" ];
+  "PATO_0001405" -> "PATO_0001404" [ label="\"isa\"" style="solid" ];
+  "IAO_0000009" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000036" -> "PDRO_0000011" [ label="\"isa\"" style="solid" ];
+  "IAO_0000590" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010035" -> "PDRO_0010032" [ label="\"isa\"" style="solid" ];
+  "BFO_0000006" -> "BFO_0000141" [ label="\"isa\"" style="solid" ];
+  "BFO_0000144" -> "BFO_0000015" [ label="\"isa\"" style="solid" ];
+  "BFO_0000004" -> "BFO_0000002" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000139" -> "PDRO_0000147" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000200" -> "PDRO_0000195" [ label="\"isa\"" style="solid" ];
+  "BFO_0000026" -> "BFO_0000006" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000002" -> "IAO_0000590" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000117" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "IAO_0000302" -> "IAO_0000590" [ label="\"isa\"" style="solid" ];
+  "IAO_0000579" -> "IAO_0000100" [ label="\"isa\"" style="solid" ];
+  "OBI_0000576" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000055" -> "PDRO_0000072" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010048" -> "PDRO_0010046" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000033" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "DRON_00000028" -> "DRON_00000030" [ label="\"isa\"" style="solid" ];
+  "BFO_0000024" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000321" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_9876002" -> "OGMS_0000039" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010017" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000196" -> "PDRO_0000195" [ label="\"isa\"" style="solid" ];
+  "DRON_00000005" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "IAO_0000027" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "UO_0000095" -> "IAO_0000003" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000127" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000040" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000308" -> "PDRO_0010022" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000097" -> "OPMI_0000094" [ label="\"isa\"" style="solid" ];
+  "BFO_0000018" -> "BFO_0000006" [ label="\"isa\"" style="solid" ];
+  "PDRO_0040002" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000039" -> "BFO_0000015" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000095" -> "OPMI_0000094" [ label="\"isa\"" style="solid" ];
+  "OBI_0002139" -> "OBI_0001933" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000109" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000122" -> "PDRO_0000100" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010050" -> "PDRO_0010049" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000056" -> "PDRO_0000072" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000074" -> "OMRSE_00000102" [ label="\"isa\"" style="solid" ];
+  "BFO_0000009" -> "BFO_0000006" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010028" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "PDRO_0020006" -> "DRON_00000005" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000003" -> "IAO_0000590" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000043" -> "PDRO_0000071" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000077" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000202" -> "IAO_0000033" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000203" -> "IAO_0000027" [ label="\"isa\"" style="solid" ];
+  "PATO_0000918" -> "PATO_0001710" [ label="\"isa\"" style="solid" ];
+  "OBI_0000969" -> "IAO_0000033" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000057" -> "PDRO_0000072" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010044" -> "PDRO_0010042" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010038" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "IAO_0000005" -> "IAO_0000033" [ label="\"isa\"" style="solid" ];
+  "OBI_0100026" -> "BFO_0000030" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000027" -> "OMRSE_00000025" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000061" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010024" -> "OBI_0002139" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000066" -> "OBI_0001930" [ label="\"isa\"" style="solid" ];
+  "OMIABIS_0001025" -> "IAO_0000104" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000124" -> "PDRO_0000123" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000324" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "BFO_0000031" -> "BFO_0000002" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010080" -> "OBI_0001930" [ label="\"isa\"" style="solid" ];
+  "DRON_00000031" -> "BFO_0000015" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000129" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "IAO_0000030" -> "BFO_0000031" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010010" -> "IAO_0000005" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000093" -> "PDRO_0000090" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000160" -> "PDRO_0000100" [ label="\"isa\"" style="solid" ];
+  "OBI_0001930" -> "OBI_0001933" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010022" -> "PDRO_0000323" [ label="\"isa\"" style="solid" ];
+  "UO_0000270" -> "IAO_0000003" [ label="\"isa\"" style="solid" ];
+  "UO_0000105" -> "IAO_0000003" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000305" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000021" -> "OBI_0001929" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000114" -> "OBI_0001930" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000096" -> "OPMI_0000094" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000010" -> "OMRSE_00000024" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000102" -> "OMRSE_00000062" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010039" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000094" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000316" -> "PDRO_0000311" [ label="\"isa\"" style="solid" ];
+  "BFO_0000142" -> "BFO_0000140" [ label="\"isa\"" style="solid" ];
+  "PATO_0001241" -> "PATO_0000001" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000103" -> "IAO_0000033" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010023" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "DRON_00000001" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000044" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_1000009" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010025" -> "OBI_0001929" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000112" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010045" -> "PDRO_0010042" [ label="\"isa\"" style="solid" ];
+  "IAO_0000007" -> "IAO_0000033" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000001" -> "IAO_0000310" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000102" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PATO_0000051" -> "PATO_0001241" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010043" -> "PDRO_0010042" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010033" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "BFO_0000040" -> "BFO_0000004" [ label="\"isa\"" style="solid" ];
+  "OBI_0001141" -> "IAO_0000577" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000312" -> "PDRO_0000009" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000146" -> "PDRO_0000147" [ label="\"isa\"" style="solid" ];
+  "OMIABIS_0001026" -> "IAO_0000310" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000009" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000311" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010032" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000100" -> "OPMI_0000094" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010053" -> "PDRO_0010041" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000094" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "OBI_0002076" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000062" -> "OMRSE_00000061" [ label="\"isa\"" style="solid" ];
+  "IAO_0000104" -> "IAO_0000033" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010030" -> "PDRO_0010004" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000190" -> "IAO_0000007" [ label="\"isa\"" style="solid" ];
+  "BFO_0000029" -> "BFO_0000141" [ label="\"isa\"" style="solid" ];
+  "OGMS_0000090" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "PATO_0001710" -> "PATO_0000117" [ label="\"isa\"" style="solid" ];
+  "CHEBI_24431" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000191" -> "PDRO_0010022" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000024" -> "PDRO_0000001" [ label="\"isa\"" style="solid" ];
+  "BFO_0000141" -> "BFO_0000004" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000090" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000060" -> "PDRO_0000324" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000000" -> "PDRO_0010041" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000080" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000194" -> "PDRO_0000096" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000150" -> "PDRO_0010004" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000072" -> "PDRO_0010040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000319" -> "IAO_0000577" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000070" -> "PDRO_0010053" [ label="\"isa\"" style="solid" ];
+  "PATO_0001241" -> "BFO_0000019" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000126" -> "PDRO_0000121" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010049" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010018" -> "PDRO_0010010" [ label="\"isa\"" style="solid" ];
+  "BFO_0000028" -> "BFO_0000006" [ label="\"isa\"" style="solid" ];
+  "CHEBI_23367" -> "CHEBI_24431" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000310" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000079" -> "PDRO_0000078" [ label="\"isa\"" style="solid" ];
+  "BFO_0000140" -> "BFO_0000141" [ label="\"isa\"" style="solid" ];
+  "IAO_0000314" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "OBI_0000093" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "IAO_0000300" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010042" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "IAO_0000577" -> "IAO_0000028" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000038" -> "PDRO_0000011" [ label="\"isa\"" style="solid" ];
+  "BFO_0000038" -> "BFO_0000008" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010052" -> "PDRO_0010049" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010041" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000082" -> "PDRO_0000078" [ label="\"isa\"" style="solid" ];
+  "OBI_0001929" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000096" -> "IAO_0000007" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010036" -> "IAO_0000003" [ label="\"isa\"" style="solid" ];
+  "IAO_0000033" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000023" -> "OMRSE_00000022" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000147" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "OBI_0000684" -> "IAO_0000005" [ label="\"isa\"" style="solid" ];
+  "OMIABIS_0000060" -> "IAO_0000027" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000020" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "DRON_00000031" -> "OGMS_0000090" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000037" -> "PDRO_0000312" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000318" -> "PDRO_0000310" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000012" -> "OMRSE_00000010" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000011" -> "IAO_0000027" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000172" -> "BFO_0000034" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000102" -> "OPMI_0000096" [ label="\"isa\"" style="solid" ];
+  "BFO_0000019" -> "BFO_0000020" [ label="\"isa\"" style="solid" ];
+  "PATO_0001396" -> "PATO_0001241" [ label="\"isa\"" style="solid" ];
+  "BFO_0000016" -> "BFO_0000017" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000083" -> "PDRO_0000078" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000022" -> "BFO_0000027" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000193" -> "PDRO_0000096" [ label="\"isa\"" style="solid" ];
+  "BFO_0000011" -> "BFO_0000003" [ label="\"isa\"" style="solid" ];
+  "DRON_00000030" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "PATO_0001404" -> "PATO_0001396" [ label="\"isa\"" style="solid" ];
+  "UO_0000006" -> "IAO_0000003" [ label="\"isa\"" style="solid" ];
+  "BFO_0000008" -> "BFO_0000003" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000125" -> "PDRO_0000123" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010051" -> "PDRO_0010049" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000068" -> "PDRO_0000011" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000059" -> "PDRO_0000071" [ label="\"isa\"" style="solid" ];
+  "UO_0000003" -> "IAO_0000003" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000307" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000015" -> "OMRSE_00000027" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000092" -> "PDRO_0000090" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010008" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "HADO_0000006" -> "IAO_0000577" [ label="\"isa\"" style="solid" ];
+  "BFO_0000034" -> "BFO_0000016" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000054" -> "PDRO_0000312" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000306" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000323" -> "IAO_0000007" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010020" -> "PDRO_0010010" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010046" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000320" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "BFO_0000182" -> "BFO_0000015" [ label="\"isa\"" style="solid" ];
+  "OGMS_0000097" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "OGMS_0000103" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000199" -> "PDRO_0000196" [ label="\"isa\"" style="solid" ];
+  "PATO_0000125" -> "PATO_0001018" [ label="\"isa\"" style="solid" ];
+  "BFO_0000145" -> "BFO_0000019" [ label="\"isa\"" style="solid" ];
+  "CHEBI_23367" -> "BFO_0000030" [ label="\"isa\"" style="solid" ];
+  "BFO_0000027" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010040" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000197" -> "PDRO_0000196" [ label="\"isa\"" style="solid" ];
+  "OBI_0001933" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000051" -> "OMRSE_00000048" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000128" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "IAO_0000310" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000100" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000324" -> "OPMI_0000094" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000192" -> "PDRO_0010022" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000024" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000115" -> "IAO_0000003" [ label="\"isa\"" style="solid" ];
+  "IAO_0000028" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000004" -> "PATO_0000125" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000123" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000005" -> "IAO_0000300" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000151" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "DRON_00000029" -> "DRON_00000030" [ label="\"isa\"" style="solid" ];
+  "OBI_0001931" -> "OBI_0001933" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000052" -> "PDRO_0000009" [ label="\"isa\"" style="solid" ];
+  "UO_0000002" -> "IAO_0000003" [ label="\"isa\"" style="solid" ];
+  "OBI_0000112" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000108" -> "PDRO_0000109" [ label="\"isa\"" style="solid" ];
+  "NCBITaxon_9606" -> "OBI_0100026" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000325" -> "PDRO_0000323" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000051" -> "PDRO_0000009" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000084" -> "PDRO_0000000" [ label="\"isa\"" style="solid" ];
+  "BFO_0000020" -> "BFO_0000002" [ label="\"isa\"" style="solid" ];
+  "OGMS_0000039" -> "BFO_0000019" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000195" -> "IAO_0000033" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000022" -> "PDRO_0000009" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000030" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_0033203" -> "PDRO_0040002" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000058" -> "PDRO_0000071" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000019" -> "OBI_0001933" [ label="\"isa\"" style="solid" ];
+  "PATO_0001018" -> "PATO_0001241" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000091" -> "PDRO_0000090" [ label="\"isa\"" style="solid" ];
+  "OBI_0000245" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010034" -> "PDRO_0010033" [ label="\"isa\"" style="solid" ];
+  "IAO_0000109" -> "IAO_0000027" [ label="\"isa\"" style="solid" ];
+  "OMIABIS_0001035" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "BFO_0000023" -> "BFO_0000017" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000201" -> "IAO_0000310" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000313" -> "IAO_0000577" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000034" -> "PDRO_0000112" [ label="\"isa\"" style="solid" ];
+  "BFO_0000148" -> "BFO_0000008" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000025" -> "OMRSE_00000024" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000071" -> "PDRO_0010053" [ label="\"isa\"" style="solid" ];
+  "HADO_0000004" -> "OBI_0001141" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000050" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "PDRO_9876003" -> "BFO_0000019" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000088" -> "OMRSE_00000012" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000098" -> "OPMI_0000094" [ label="\"isa\"" style="solid" ];
+  "BFO_0000147" -> "BFO_0000140" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010037" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "BFO_0000001" -> "Thing" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000198" -> "PDRO_0000196" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000062" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000007" -> "IAO_0000033" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010029" -> "OBI_0001931" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000061" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000078" -> "PDRO_0000129" [ label="\"isa\"" style="solid" ];
+  "IAO_0000578" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "BFO_0000002" -> "BFO_0000001" [ label="\"isa\"" style="solid" ];
+  "BFO_0000035" -> "BFO_0000003" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000026" -> "PDRO_0000011" [ label="\"isa\"" style="solid" ];
+  "OBI_0000011" -> "BFO_0000015" [ label="\"isa\"" style="solid" ];
+  "OBI_0000576" -> "BFO_0000027" [ label="\"isa\"" style="solid" ];
+  "BFO_0000030" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000317" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "PDRO_9876001" -> "OGMS_0000039" [ label="\"isa\"" style="solid" ];
+  "PATO_0000001" -> "BFO_0000020" [ label="\"isa\"" style="solid" ];
+  "OGMS_0000020" -> "BFO_0000001" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000322" -> "BFO_0000038" [ label="\"isa\"" style="solid" ];
+  "BFO_0000003" -> "BFO_0000001" [ label="\"isa\"" style="solid" ];
+  "HADO_0000004" -> "ONTORELA_C5d1abc5c" [ label="\"isa\"" style="solid" ];
+  "OPMI_0000098" -> "ONTORELA_C5d1abc5c" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C316c7ee9" -> "NCBITaxon_9606" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C1d96dad2" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C310d8aaf" -> "BFO_0000017" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C3ad998b9" -> "IAO_0000104" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C40692846" -> "BFO_0000017" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C3addb010" -> "IAO_0000104" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000021" -> "ONTORELA_C750054bc" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010023" -> "ONTORELA_C750054bc" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010024" -> "ONTORELA_C750054bc" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010025" -> "ONTORELA_C750054bc" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010031" -> "ONTORELA_C750054bc" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010035" -> "ONTORELA_C750054bc" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000021" -> "ONTORELA_C6f17ffd2" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010023" -> "ONTORELA_C6f17ffd2" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010024" -> "ONTORELA_C6f17ffd2" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010025" -> "ONTORELA_C6f17ffd2" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C192f7c9b" -> "PDRO_0000103" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000312" -> "ONTORELA_C5cac32c4" [ label="\"isa\"" style="solid" ];
+  "PDRO_0040002" -> "ONTORELA_C5cac32c4" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000021" -> "ONTORELA_C3cca813" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010031" -> "ONTORELA_C3cca813" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010035" -> "ONTORELA_C3cca813" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C5406a853" -> "OMIABIS_0001026" [ label="\"isa\"" style="solid" ];
+  "HADO_0000006" -> "ONTORELA_C4c4852ca" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000003" -> "ONTORELA_C4c4852ca" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C3eb44fa7" -> "BFO_0000017" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C3add3bb1" -> "IAO_0000104" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C29e4c3a1" -> "BFO_0000017" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C6be873c8" -> "PDRO_0010022" [ label="\"isa\"" style="solid" ];
+  "NCBITaxon_9606" -> "ONTORELA_C18b194d6" [ label="\"isa\"" style="solid" ];
+  "OBI_0000245" -> "ONTORELA_C18b194d6" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C33dffb9d" -> "BFO_0000038" [ label="\"isa\"" style="solid" ];
+  "DRON_00000031" -> "OGMS_0000090" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C54fc9933" -> "DRON_00000031" [ label="\"isa\"" style="solid" ];
+  "OBI_0000245" -> "ONTORELA_C39dbd10a" [ label="\"isa\"" style="solid" ];
+  "OBI_0100026" -> "ONTORELA_C39dbd10a" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C5960bf6c" -> "DRON_00000005" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C17cc6afd" -> "BFO_0000016" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C5cee9ffd" -> "OMRSE_00000102" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C5cee9ffd" -> "OMRSE_00000062" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C44a080fc" -> "OMRSE_00000102" [ label="\"isa\"" style="solid" ];
+  "OBI_0000659" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000050" -> "OMRSE_00000049" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000008" -> "PDRO_0000094" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C2eb7caa8" -> "PDRO_0010022" [ label="\"isa\"" style="solid" ];
+  "HADO_0000008" -> "NCBITaxon_9606" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000062" -> "OMRSE_00000061" [ label="\"isa\"" style="solid" ];
+  "DRON_00000030" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "OBI_0100051" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000048" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000172" -> "BFO_0000034" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000314" -> "PDRO_0000311" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000315" -> "PDRO_0000310" [ label="\"isa\"" style="solid" ];
+  "PDRO_0010007" -> "OGMS_0000103" [ label="\"isa\"" style="solid" ];
+  "OMIABIS_0001035" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000006" -> "PDRO_0000005" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000027" -> "PDRO_0000026" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000029" -> "PDRO_0000026" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000051" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "DRON_00000005" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C764bfb7" -> "OBI_0000576" [ label="\"isa\"" style="solid" ];
+  "OBI_0002076" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000012" -> "OGMS_0000090" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000028" -> "PDRO_0000026" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000120" -> "OBI_0000576" [ label="\"isa\"" style="solid" ];
+  "PDRO_0000119" -> "OBI_0000576" [ label="\"isa\"" style="solid" ];
+  "OMRSE_00000049" -> "OMRSE_00000048" [ label="\"isa\"" style="solid" ];
+  "BFO_0000017" -> "BFO_0000015" [ label="[1..*]
+\"BFO_0000054@realized in\"" style="solid" ];
+  "BFO_0000015" -> "BFO_0000017" [ label="[1..*]
+\"BFO_0000055@realizes\"" style="solid" ];
+  "OBI_0000011" -> "IAO_0000005" [ label="[1..*]
+\"OBI_0000417@achieves_planned_objective\"" style="solid" ];
+  "IAO_0000005" -> "OBI_0000011" [ label="[1..*]
+\"OBI_0000833@objective_achieved_by\"" style="solid" ];
+  "IAO_0000030" -> "OBI_0001933" [ label="[1..*]
+\"OBI_0001938@has value specification\"" style="solid" ];
+  "NCBITaxon_9606" -> "BFO_0000040" [ label="[1..*]
+\"OMIABIS_0000008@owns\"" style="solid" ];
+  "OBI_0000245" -> "BFO_0000040" [ label="[1..*]
+\"OMIABIS_0000008@owns\"" style="solid" ];
+  "OMRSE_00000023" -> "BFO_0000040" [ label="[1..*]
+\"OMIABIS_0000008@owns\"" style="solid" ];
+  "OMRSE_00000033" -> "BFO_0000040" [ label="[1..*]
+\"OMIABIS_0000008@owns\"" style="solid" ];
+  "NCBITaxon_9606" -> "BFO_0000040" [ label="[1..*]
+\"OMIABIS_0000009@administrates\"" style="solid" ];
+  "OBI_0000245" -> "BFO_0000040" [ label="[1..*]
+\"OMIABIS_0000009@administrates\"" style="solid" ];
+  "OMRSE_00000023" -> "BFO_0000040" [ label="[1..*]
+\"OMIABIS_0000009@administrates\"" style="solid" ];
+  "OMRSE_00000033" -> "BFO_0000040" [ label="[1..*]
+\"OMIABIS_0000009@administrates\"" style="solid" ];
+  "BFO_0000040" -> "NCBITaxon_9606" [ label="[1..*]
+\"OMIABIS_0000048@is owned by\"" style="solid" ];
+  "IAO_0000030" -> "NCBITaxon_9606" [ label="[1..*]
+\"OMIABIS_0000048@is owned by\"" style="solid" ];
+  "BFO_0000002" -> "BFO_0000003" [ label="[1..*]
+\"RO_0000056@participates in\"" style="solid" ];
+  "BFO_0000003" -> "BFO_0000002" [ label="[1..*]
+\"RO_0000057@has participant\"" style="solid" ];
+  "BFO_0000031" -> "BFO_0000020" [ label="[1..*]
+\"RO_0000058@is concretized as\"" style="solid" ];
+  "BFO_0000020" -> "BFO_0000031" [ label="[1..*]
+\"RO_0000059@concretizes\"" style="solid" ];
+  "BFO_0000004" -> "BFO_0000023" [ label="[1..*]
+\"RO_0000087@has role\"" style="solid" ];
+  "BFO_0000004" -> "BFO_0000016" [ label="[1..*]
+\"RO_0000091@has disposition\"" style="solid" ];
+  "PDRO_0000003" -> "ONTORELA_C5d1abc5c" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000317" -> "PDRO_0000316" [ label="[1..1]
+\"BFO_0000051@has part\"" style="solid" ];
+  "HADO_0000004" -> "NCBITaxon_9606" [ label="[1..1]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "PDRO_0010017" -> "PDRO_0000096" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "OPMI_0000094" -> "NCBITaxon_9606" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0010008" -> "ONTORELA_C316c7ee9" [ label="[1..*]
+\"RO_0000057@has participant\"" style="solid" ];
+  "ONTORELA_C316c7ee9" -> "OBI_0000093" [ label="[1..*]
+\"RO_0000053@is bearer of\"" style="solid" ];
+  "PDRO_0000019" -> "BFO_0000148" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "OBI_0000112" -> "ONTORELA_C1d96dad2" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "ONTORELA_C1d96dad2" -> "OBI_0000659" [ label="[1..*]
+\"OBI_0000312@is_specified_output_of\"" style="solid" ];
+  "PDRO_0000307" -> "PDRO_0000096" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0000053" -> "PDRO_0040002" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0010042" -> "PDRO_0010037" [ label="[1..*]
+\"OBI_0001938@has value specification\"" style="solid" ];
+  "PDRO_0000054" -> "PDRO_0020006" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000077" -> "DRON_00000029" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "PDRO_0000040" -> "OGMS_0000024" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0010008" -> "ONTORELA_C310d8aaf" [ label="[1..*]
+\"BFO_0000055@realizes\"" style="solid" ];
+  "ONTORELA_C310d8aaf" -> "ONTORELA_C3ad998b9" [ label="[1..*]
+\"RO_0000059@concretizes\"" style="solid" ];
+  "ONTORELA_C3ad998b9" -> "PDRO_0010010" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "OGMS_0000103" -> "ONTORELA_C40692846" [ label="[1..*]
+\"BFO_0000055@realizes\"" style="solid" ];
+  "ONTORELA_C40692846" -> "ONTORELA_C3addb010" [ label="[1..*]
+\"RO_0000059@concretizes\"" style="solid" ];
+  "ONTORELA_C3addb010" -> "PDRO_0010019" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "OBI_0000969" -> "ONTORELA_C750054bc" [ label="[1..*]
+\"OBI_0001938@has value specification\"" style="solid" ];
+  "PDRO_0010017" -> "ONTORELA_C6f17ffd2" [ label="[1..*]
+\"OBI_0001938@has value specification\"" style="solid" ];
+  "PDRO_0000102" -> "ONTORELA_C192f7c9b" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "ONTORELA_C192f7c9b" -> "PDRO_0000034" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000024" -> "PDRO_0000195" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000304" -> "PDRO_0010022" [ label="[1..1]
+\"BFO_0000051@has part\"" style="solid" ];
+  "OBI_0000576" -> "CHEBI_23367" [ label="[1..*]
+\"OBI_0000643@has grain\"" style="solid" ];
+  "PDRO_0000150" -> "PDRO_0000096" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0000001" -> "ONTORELA_C316c7ee9" [ label="[1..*]
+\"IAO_0000142@mentions\"" style="solid" ];
+  "PDRO_0000060" -> "ONTORELA_C5cac32c4" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000026" -> "ONTORELA_C3cca813" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000193" -> "PDRO_0000024" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0000021" -> "PDRO_0000004" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_9876001" -> "DRON_00000005" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "PDRO_0000117" -> "IAO_0000003" [ label="[1..*]
+\"IAO_0000039@has measurement unit label\"" style="solid" ];
+  "PDRO_0010046" -> "PDRO_0000151" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_9876002" -> "DRON_00000005" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "OMRSE_00000010" -> "OGMS_0000097" [ label="[1..*]
+\"BFO_0000054@realized in\"" style="solid" ];
+  "PDRO_0000097" -> "PDRO_0000051" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000024" -> "PDRO_0000002" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "OMRSE_00000062" -> "OBI_0000245" [ label="[1..*]
+\"OMRSE_00000068@is administered by\"" style="solid" ];
+  "IAO_0000033" -> "BFO_0000017" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000034" -> "PDRO_0010034" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000320" -> "PDRO_0000103" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0010031" -> "PDRO_0010036" [ label="[1..*]
+\"IAO_0000039@has measurement unit label\"" style="solid" ];
+  "PDRO_0000109" -> "DRON_00000005" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0000323" -> "PDRO_0000324" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_9876003" -> "PDRO_0000119" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "PDRO_0000193" -> "PDRO_0000196" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0000317" -> "PDRO_0000322" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "PDRO_0000020" -> "PDRO_0010080" [ label="[1..*]
+\"OBI_0001938@has value specification\"" style="solid" ];
+  "PDRO_0000097" -> "PDRO_0000022" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000304" -> "PDRO_0000096" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "HADO_0000006" -> "ONTORELA_C5406a853" [ label="[1..1]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "ONTORELA_C5406a853" -> "HADO_0000008" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000196" -> "PDRO_0010022" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000037" -> "PDRO_0012001" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000036" -> "PDRO_0040002" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "IAO_0000578" -> "IAO_0000577" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000001" -> "IAO_0000302" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000001" -> "PDRO_0000005" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000001" -> "ONTORELA_C4c4852ca" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000060" -> "DRON_00000005" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "OGMS_0000090" -> "ONTORELA_C3eb44fa7" [ label="[1..*]
+\"BFO_0000055@realizes\"" style="solid" ];
+  "ONTORELA_C3eb44fa7" -> "ONTORELA_C3add3bb1" [ label="[1..*]
+\"RO_0000059@concretizes\"" style="solid" ];
+  "ONTORELA_C3add3bb1" -> "PDRO_0010018" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000307" -> "PDRO_0000311" [ label="[1..1]
+\"BFO_0000051@has part\"" style="solid" ];
+  "OMRSE_00000015" -> "OGMS_0000097" [ label="[1..*]
+\"BFO_0000054@realized in\"" style="solid" ];
+  "IAO_0000578" -> "ONTORELA_C3f6f3e4f" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "ONTORELA_C3f6f3e4f" -> "IAO_0000579" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "OBI_0001929" -> "PATO_0000125" [ label="[1..*]
+\"OBI_0001927@specifies value of\"" style="solid" ];
+  "PDRO_0000100" -> "ONTORELA_C29e4c3a1" [ label="[1..*]
+\"BFO_0000055@realizes\"" style="solid" ];
+  "ONTORELA_C29e4c3a1" -> "PDRO_0000096" [ label="[1..*]
+\"RO_0000059@concretizes\"" style="solid" ];
+  "PDRO_0000190" -> "PDRO_0000123" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000304" -> "ONTORELA_C6be873c8" [ label="[1..1]
+\"IAO_0000136@is about\"" style="solid" ];
+  "ONTORELA_C6be873c8" -> "PDRO_0000024" [ label="[1..1]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0010041" -> "PDRO_0010029" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0010038" -> "OGMS_0000020" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000194" -> "PDRO_0000100" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000202" -> "PDRO_0010022" [ label="[1..1]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000103" -> "PDRO_0000190" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0010022" -> "PDRO_0000060" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000127" -> "PDRO_0000103" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0000202" -> "PDRO_0000096" [ label="[1..1]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000317" -> "PDRO_0000318" [ label="[1..1]
+\"BFO_0000051@has part\"" style="solid" ];
+  "OBI_0000659" -> "BFO_0000040" [ label="[1..*]
+\"OBI_0000293@has_specified_input\"" style="solid" ];
+  "PDRO_0000150" -> "PDRO_0000122" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "OBI_0000093" -> "NCBITaxon_9606" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "OMRSE_00000012" -> "ONTORELA_C18b194d6" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "PDRO_0000321" -> "ONTORELA_C33dffb9d" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "ONTORELA_C33dffb9d" -> "PDRO_0000322" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0000044" -> "PDRO_0000312" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000317" -> "PDRO_0000024" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0010049" -> "PDRO_0010029" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0010049" -> "ONTORELA_C750054bc" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000004" -> "PDRO_0000119" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "PDRO_0000020" -> "DRON_00000031" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "DRON_00000031" -> "DRON_00000005" [ label="[1..*]
+\"RO_0000057@has participant\"" style="solid" ];
+  "DRON_00000031" -> "OBI_0100026" [ label="[1..*]
+\"RO_0000057@has participant\"" style="solid" ];
+  "OBI_0002139" -> "PATO_0000918" [ label="[1..*]
+\"OBI_0001927@specifies value of\"" style="solid" ];
+  "IAO_0000104" -> "IAO_0000005" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000005" -> "BFO_0000038" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "PDRO_0000078" -> "PDRO_0010037" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0010031" -> "PDRO_9876003" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000044" -> "DRON_00000005" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0000323" -> "ONTORELA_C54fc9933" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "ONTORELA_C54fc9933" -> "HADO_0000008" [ label="[1..*]
+\"RO_0000057@has participant\"" style="solid" ];
+  "OMRSE_00000024" -> "ONTORELA_C39dbd10a" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "PDRO_0000307" -> "PDRO_0000310" [ label="[1..1]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000097" -> "PDRO_0000044" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0010022" -> "PDRO_0000103" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000319" -> "PDRO_0000001" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "PDRO_0000003" -> "HADO_0000008" [ label="[1..1]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "PDRO_0000319" -> "PDRO_0000001" [ label="[1..1]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "PDRO_0000097" -> "ONTORELA_C5960bf6c" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "ONTORELA_C5960bf6c" -> "ONTORELA_C17cc6afd" [ label="[1..*]
+\"RO_0000091@has disposition\"" style="solid" ];
+  "ONTORELA_C17cc6afd" -> "PDRO_0000313" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0010042" -> "PDRO_0010029" [ label="[1..*]
+\"OBI_0001938@has value specification\"" style="solid" ];
+  "IAO_0000030" -> "BFO_0000001" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "IAO_0000314" -> "IAO_0000310" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "OBI_0001931" -> "Thing" [ label="[1..*]
+\"IAO_0000039@has measurement unit label\"" style="solid" ];
+  "PDRO_0000011" -> "DRON_00000005" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "OMRSE_00000102" -> "ONTORELA_C6f0acf47" [ label="[1..*]
+\"OMIABIS_0000048@is owned by\"" style="solid" ];
+  "ONTORELA_C6f0acf47" -> "OMRSE_00000015" [ label="[1..*]
+\"RO_0000053@is bearer of\"" style="solid" ];
+  "ONTORELA_C44a080fc" -> "ONTORELA_C6f0acf47" [ label="[1..*]
+\"OMRSE_00000068@is administered by\"" style="solid" ];
+  "PDRO_0000030" -> "PDRO_0010029" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "PDRO_0000201" -> "PDRO_0000202" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "IAO_0000577" -> "IAO_0000578" [ label="[1..*]
+\"BFO_0000050@part of\"" style="solid" ];
+  "OMRSE_00000025" -> "OBI_0000245" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="solid" ];
+  "PDRO_0010004" -> "UO_0000105" [ label="[1..*]
+\"IAO_0000039@has measurement unit label\"" style="solid" ];
+  "IAO_0000104" -> "IAO_0000007" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "OBI_0000659" -> "OBI_0100051" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="solid" ];
+  "PDRO_0010017" -> "PDRO_0000100" [ label="[1..*]
+\"IAO_0000136@is about\"" style="solid" ];
+  "PDRO_0040002" -> "DRON_00000028" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "PDRO_0000072" -> "PDRO_0000019" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "OBI_0000659" -> "OBI_0000684" [ label="[1..*]
+\"OBI_0000417@achieves_planned_objective\"" style="dotted" ];
+  "OMRSE_00000050" -> "NCBITaxon_9606" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="dotted" ];
+  "PDRO_0000008" -> "ONTORELA_C2eb7caa8" [ label="[1..*]
+\"BFO_0000050@part of\"" style="dotted" ];
+  "ONTORELA_C2eb7caa8" -> "PDRO_0000024" [ label="[1..*]
+\"BFO_0000050@part of\"" style="dotted" ];
+  "HADO_0000008" -> "OBI_0000093" [ label="[1..*]
+\"RO_0000087@has role\"" style="dotted" ];
+  "OMRSE_00000062" -> "BFO_0000034" [ label="[1..*]
+\"RO_0000053@is bearer of\"" style="dotted" ];
+  "DRON_00000030" -> "OBI_0000576" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="dotted" ];
+  "OBI_0100051" -> "OBI_0000112" [ label="[1..*]
+\"RO_0000087@has role\"" style="dotted" ];
+  "OBI_0000011" -> "ONTORELA_C2875fe2d" [ label="[1..*]
+\"BFO_0000055@realizes\"" style="dotted" ];
+  "ONTORELA_C2875fe2d" -> "IAO_0000104" [ label="[1..*]
+\"RO_0000059@concretizes\"" style="dotted" ];
+  "OMRSE_00000048" -> "BFO_0000040" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="dotted" ];
+  "OMRSE_00000172" -> "OGMS_0000097" [ label="[1..*]
+\"BFO_0000054@realized in\"" style="dotted" ];
+  "PDRO_0000314" -> "PDRO_0000307" [ label="[1..*]
+\"BFO_0000050@part of\"" style="dotted" ];
+  "PDRO_0000315" -> "PDRO_0000307" [ label="[1..*]
+\"BFO_0000050@part of\"" style="dotted" ];
+  "PDRO_0010007" -> "PDRO_0000039" [ label="[1..*]
+\"BFO_0000051@has part\"" style="dotted" ];
+  "OMIABIS_0001035" -> "ONTORELA_C3cabfeaf" [ label="[1..*]
+\"BFO_0000055@realizes\"" style="dotted" ];
+  "ONTORELA_C3cabfeaf" -> "OMIABIS_0001025" [ label="[1..*]
+\"RO_0000059@concretizes\"" style="dotted" ];
+  "OMIABIS_0001035" -> "OMIABIS_0000060" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="dotted" ];
+  "PDRO_0000006" -> "PDRO_0000001" [ label="[1..*]
+\"BFO_0000050@part of\"" style="dotted" ];
+  "PDRO_0000027" -> "PDRO_0010023" [ label="[1..*]
+\"BFO_0000051@has part\"" style="dotted" ];
+  "PDRO_0000029" -> "PDRO_0010025" [ label="[1..*]
+\"BFO_0000051@has part\"" style="dotted" ];
+  "OMRSE_00000051" -> "OBI_0000245" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="dotted" ];
+  "DRON_00000005" -> "DRON_00000001" [ label="[1..*]
+\"BFO_0000053@is bearer of\"" style="dotted" ];
+  "DRON_00000005" -> "ONTORELA_C764bfb7" [ label="[1..*]
+\"has_proper_part@has_proper_part\"" style="dotted" ];
+  "ONTORELA_C764bfb7" -> "DRON_00000028" [ label="[1..*]
+\"BFO_0000053@is bearer of\"" style="dotted" ];
+  "PDRO_0000012" -> "PDRO_0000039" [ label="[1..*]
+\"BFO_0000051@has part\"" style="dotted" ];
+  "PDRO_0000028" -> "PDRO_0010024" [ label="[1..*]
+\"BFO_0000051@has part\"" style="dotted" ];
+  "PDRO_0000120" -> "DRON_00000029" [ label="[1..*]
+\"RO_0000087@has role\"" style="dotted" ];
+  "PDRO_0000119" -> "DRON_00000028" [ label="[1..*]
+\"RO_0000087@has role\"" style="dotted" ];
+  "OMRSE_00000033" -> "OBI_0000245" [ label="[2..*]
+\"OMRSE_00000020@is-aggregate-of\"" style="dotted" ];
+  "OMRSE_00000049" -> "OBI_0100026" [ label="[1..*]
+\"RO_0000052@inheres in\"" style="dotted" ];
+  "OBI_0001933" -> "real" [ label="[1..*]
+\"OBI_0001937@has specified numeric value\"" style="solid" ];
+  "PDRO_0000117" -> "rational" [ label="[1..1]
+\"PDRO_0000133@has minimum range value\"" style="solid" ];
+  "OBI_0001931" -> "Literal" [ label="[1..*]
+\"OBI_0001937@has specified numeric value\"" style="solid" ];
+  "PDRO_0000117" -> "rational" [ label="[1..1]
+\"PDRO_0000134@has maximum range value\"" style="solid" ];
+}

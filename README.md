@@ -34,25 +34,27 @@ See content of __demo__ for examples.
 
 ### Outputs
 OntoRelα generates the following outputs:
+* DatabaseScripts : repository for the SQL scripts.
+* * Graphs
+  * InitialOntoGraph.dot : initial ontology graph.
+  * OntoGraph.dot : normalized ontology graph.
+  * OntoRelGraph.dot : ontoRel graph.
+  * RelGraph.dot : database relational graph.
+  
 * DatabaseIdentifierAnomalies.txt : maximum length of an identifier (60 characters for PostgreSQL).
 * DatabaseReport.txt : database content summary.
-* DatabaseScripts : repository for the SQL scripts.
 * *ontologyname*.owl_normalized.txt : normalized ontology formalized with μOnto.
-* InitialOntoGraph.dot : initial ontology graph.
+* *ontologyname*.owl_normalized.ttl : normalized ontology formalized with Turtle.
 * MOnto-summary.txt : summary of the ontology builder process.
-* OntoGraph.dot : normalized ontology graph.
 * OntologyAnnotationDiagnostics.txt : ontology missing annotations warnings.
 * OntologyAnomalies.txt : missing axioms with data properties for leaf classes.
 * OntologySummary.txt : ontology content summary.
 * OntoRelA-summary.txt : quantitative summary of the ontology content.
 * OntoRelDiagnostics.txt : warnings for the reduction process.
-* OntoRelCat.json : OntoRel mapping catalog in JSON.
-* OntoRelCat.txt :  OntoRel mapping catalog in text.
-* OntoRelGraph.dot : ontoRel graph.
 * README.txt : summary of OntoRelα execution.
-* RelGraph.dot : database relational graph.
 
-See the content of __results__ for examples.
+
+See the content of __demo__ for examples.
 
 ## How to use
 1. First make sure you have Java installed, Java 1.8+ JDK is required.
@@ -71,9 +73,9 @@ Source code will be available soon.
 
 ## Repository content
 __demo__ : a dataset of various ontologies. <br>
-__results__ : contain OntoRelα output for ontologies in __demo__. <br>
+__results__ : contain OntoRelα 1.0.0 output for ontologies __demo__. <br>
 __report__ : contain technical reports. <br>
-__OntoRelA-1.1.0.jar__ : the executable file of the application.
+__OntoRelA-1.3.0.jar__ : the executable file of the application.
 
 ## Responsables
 For more information please contact :

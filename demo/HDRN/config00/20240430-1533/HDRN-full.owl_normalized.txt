@@ -1,0 +1,1800 @@
+ONTOLOGY :"HDRN-full.owl"  
+
+PROPERTY :"BFO_0000050"   
+  LABEL @en 'part of' 
+  DESCRIPTION @en 'a core relation that holds between a part and its whole'
+
+PROPERTY :"BFO_0000051"   
+  LABEL @en 'has part' 
+  DESCRIPTION @en 'a core relation that holds between a whole and its part'
+
+PROPERTY :"BFO_0000054"   
+  LABEL @en 'realized in' 
+  DESCRIPTION @en '[copied from inverse property 'realizes'] to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])'
+
+PROPERTY :"BFO_0000055"   
+  LABEL @en 'realizes' 
+  DESCRIPTION @en 'to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])'
+
+PROPERTY :"BFO_0000062"   
+  LABEL @en 'preceded by' 
+  DESCRIPTION @en 'x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.'
+  ISA :"RO_0002086"  
+
+PROPERTY :"BFO_0000063"   
+  LABEL @en 'precedes' 
+  DESCRIPTION @en 'x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.'
+  ISA :"RO_0002222"  
+
+PROPERTY :"BFO_0000066"   
+  LABEL @en 'occurs in' 
+  DESCRIPTION @en 'b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t'
+
+PROPERTY :"BFO_0000067"   
+  LABEL @en 'contains process' 
+  DESCRIPTION @en '[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t'
+
+PROPERTY :"HOSO_0000001"   
+  LABEL @en 'has participating performer' 
+  DESCRIPTION @en 'TBD'
+  ISA :"RO_0000057"  
+
+PROPERTY :"HOSO_0000002"   
+  LABEL @en 'has participating recipient' 
+  DESCRIPTION @en 'TBD'
+  ISA :"RO_0000057"  
+
+PROPERTY :"IAO_0000136"   
+  LABEL @en 'is about' 
+  DESCRIPTION @en 'A (currently) primitive relation that relates an information artifact to an entity.'
+
+PROPERTY :"IAO_0000142"   
+  LABEL @en 'mentions' 
+  DESCRIPTION @en 'An information artifact IA mentions an entity E exactly when it has a component/part that denotes E'
+  ISA :"IAO_0000136"  
+
+PROPERTY :"IAO_0000143"   
+  LABEL @en 'mentioned by' 
+  DESCRIPTION @en 'Inverse of the relation 'mentions''
+
+PROPERTY :"IAO_0000219"   
+  LABEL @en 'denotes' 
+  DESCRIPTION @en 'A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically'
+  ISA :"IAO_0000136"  
+
+PROPERTY :"IAO_0000235"   
+  LABEL @en 'denoted by' 
+  DESCRIPTION @en 'inverse of the relation 'denotes''
+
+PROPERTY :"OBI_0000293"   
+  LABEL @en 'has_specified_input' 
+  DESCRIPTION @en 'The inverse property of is_specified_input_of'
+  ISA :"RO_0000057"  
+
+PROPERTY :"OBI_0000295"   
+  LABEL @en 'is_specified_input_of' 
+  DESCRIPTION @en 'A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.'
+  ISA :"RO_0000056"  
+
+PROPERTY :"OBI_0000299"   
+  LABEL @en 'has_specified_output' 
+  DESCRIPTION @en 'The inverse property of is_specified_output_of'
+  ISA :"RO_0000057"  
+
+PROPERTY :"OBI_0000312"   
+  LABEL @en 'is_specified_output_of' 
+  DESCRIPTION @en 'A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.'
+  ISA :"RO_0000056"  
+
+PROPERTY :"OMRSE_00000068"   
+  LABEL @en 'is administered by' 
+
+PROPERTY :"OpenLHS-Core_0000001"   
+  LABEL @en 'fills' 
+  DESCRIPTION @en 'A relation that holds between a filler and a slot it fills.'
+
+PROPERTY :"OpenLHS-Core_0000004"   
+  LABEL @en 'is directed by' 
+  DESCRIPTION @en 'The inverse relations of directs'
+
+PROPERTY :"OpenLHS-Core_0000005"   
+  LABEL @en 'is about an aspect of' 
+  DESCRIPTION @en 'A is about an aspect of B := A is about a specifically dependent continuant that inheres in B.'
+  ISA :"IAO_0000136"  
+
+PROPERTY :"OpenLHS-Core_0000007"   
+  LABEL @en 'directs' 
+  DESCRIPTION @en 'A directs B := A is a directive information entity that guides an agent in the execution of B.'
+
+PROPERTY :"OpenLHS-Core_0000008"   
+  LABEL @en 'is filled by' 
+  DESCRIPTION @en 'The inverse relation of fills'
+
+PROPERTY :"OpenLHS-Core_0000066"   
+  LABEL @en 'maximally directs' 
+  DESCRIPTION @en 'A maximally directs B := A directs B, and B is compliant to A.'
+  ISA :"OpenLHS-Core_0000007"  
+
+PROPERTY :"OpenLHS-Core_0000067"   
+  LABEL @en 'is maximally directed by' 
+  DESCRIPTION @en 'The inverse relation of maximally directs.'
+  ISA :"OpenLHS-Core_0000004"  
+
+PROPERTY :"OpenLHS-Core_0000070"   
+  LABEL @en 'component of' 
+  DESCRIPTION @en 'The inverse relation of has component.'
+  ISA :"BFO_0000050"  
+
+PROPERTY :"OpenLHS-Core_0000071"   
+  LABEL @en 'component process of' 
+  DESCRIPTION @en 'The inverse relation of has component process.'
+  ISA :"OpenLHS-Core_0000070"  
+
+PROPERTY :"RO_0000052"   
+  LABEL @en 'characteristic of' 
+  DESCRIPTION @en 'a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.'
+
+PROPERTY :"RO_0000053"   
+  LABEL @en 'has characteristic' 
+  DESCRIPTION @en 'Inverse of characteristic_of'
+
+PROPERTY :"RO_0000056"   
+  LABEL @en 'participates in' 
+  DESCRIPTION @en 'a relation between a continuant and a process, in which the continuant is somehow involved in the process'
+
+PROPERTY :"RO_0000057"   
+  LABEL @en 'has participant' 
+  DESCRIPTION @en 'a relation between a process and a continuant, in which the continuant is somehow involved in the process'
+
+PROPERTY :"RO_0000058"   
+  LABEL @en 'is concretized as' 
+  DESCRIPTION @en 'A relationship between a generically dependent continuant and a specifically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. A generically dependent continuant may be concretized as multiple specifically dependent continuants.'
+
+PROPERTY :"RO_0000059"   
+  LABEL @en 'concretizes' 
+  DESCRIPTION @en 'A relationship between a specifically dependent continuant and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant also depends on that same independent continuant. Multiple specifically dependent continuants can concretize the same generically dependent continuant.'
+
+PROPERTY :"RO_0000079"   
+  LABEL @en 'function of' 
+  DESCRIPTION @en 'a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence'
+  ISA :"RO_0000052"  
+
+PROPERTY :"RO_0000080"   
+  LABEL @en 'quality of' 
+  DESCRIPTION @en 'a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence'
+  ISA :"RO_0000052"  
+
+PROPERTY :"RO_0000081"   
+  LABEL @en 'role of' 
+  DESCRIPTION @en 'a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence'
+  ISA :"RO_0000052"  
+
+PROPERTY :"RO_0000085"   
+  LABEL @en 'has function' 
+  DESCRIPTION @en 'a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence'
+  ISA :"RO_0000053"  
+
+PROPERTY :"RO_0000086"   
+  LABEL @en 'has quality' 
+  DESCRIPTION @en 'a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence'
+  ISA :"RO_0000053"  
+
+PROPERTY :"RO_0000087"   
+  LABEL @en 'has role' 
+  DESCRIPTION @en 'a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence'
+  ISA :"RO_0000053"  
+
+PROPERTY :"RO_0000091"   
+  LABEL @en 'has disposition' 
+  DESCRIPTION @en 'a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence'
+  ISA :"RO_0000053"  
+
+PROPERTY :"RO_0000092"   
+  LABEL @en 'disposition of' 
+  DESCRIPTION @en 'inverse of has disposition'
+  ISA :"RO_0000052"  
+
+PROPERTY :"RO_0002018"   
+  LABEL @en 'has component process' 
+  DESCRIPTION @en 'w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.'
+  ISA :"RO_0002180"  
+
+PROPERTY :"RO_0002081"   
+  LABEL @en 'before or simultaneous with' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002082"   
+  LABEL @en 'simultaneous with' 
+  ISA :"RO_0002081"  
+
+PROPERTY :"RO_0002083"   
+  LABEL @en 'before' 
+  ISA :"RO_0002081"  
+
+PROPERTY :"RO_0002084"   
+  LABEL @en 'during which ends' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002085"   
+  LABEL @en 'encompasses' 
+  ISA :"RO_0002088"  
+
+PROPERTY :"RO_0002086"   
+  LABEL @en 'ends after' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002087"   
+  LABEL @en 'immediately preceded by' 
+  ISA :"BFO_0000062"  
+
+PROPERTY :"RO_0002088"   
+  LABEL @en 'during which starts' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002089"   
+  LABEL @en 'starts before' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002090"   
+  LABEL @en 'immediately precedes' 
+  ISA :"BFO_0000063"  
+
+PROPERTY :"RO_0002091"   
+  LABEL @en 'starts during' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002092"   
+  LABEL @en 'happens during' 
+  ISA :"RO_0002091" 
+  ISA :"RO_0002093"  
+
+PROPERTY :"RO_0002093"   
+  LABEL @en 'ends during' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002180"   
+  LABEL @en 'has component' 
+  DESCRIPTION @en 'w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.'
+  ISA :"BFO_0000051"  
+
+PROPERTY :"RO_0002222"   
+  LABEL @en 'temporally related to' 
+
+PROPERTY :"RO_0002223"   
+  LABEL @en 'starts' 
+  DESCRIPTION @en 'inverse of starts with'
+  ISA :"RO_0002222" 
+  ISA :"BFO_0000050"  
+
+PROPERTY :"RO_0002224"   
+  LABEL @en 'starts with' 
+  DESCRIPTION @en 'x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.'
+  ISA :"RO_0002222" 
+  ISA :"BFO_0000051"  
+
+PROPERTY :"RO_0002229"   
+  LABEL @en 'ends' 
+  DESCRIPTION @en 'inverse of ends with'
+  ISA :"BFO_0000050" 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002230"   
+  LABEL @en 'ends with' 
+  DESCRIPTION @en 'x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.'
+  ISA :"BFO_0000051" 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002233"   
+  LABEL @en 'has input' 
+  DESCRIPTION @en 'p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.'
+  ISA :"RO_0000057"  
+
+PROPERTY :"RO_0002234"   
+  LABEL @en 'has output' 
+  DESCRIPTION @en 'p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p.'
+  ISA :"RO_0000057"  
+
+PROPERTY :"RO_0002350"   
+  LABEL @en 'member of' 
+  DESCRIPTION @en 'is member of is a mereological relation between a item and a collection.'
+  ISA :"BFO_0000050"  
+
+PROPERTY :"RO_0002351"   
+  LABEL @en 'has member' 
+  DESCRIPTION @en 'has member is a mereological relation between a collection and an item.'
+  ISA :"BFO_0000051"  
+
+PROPERTY :"RO_0002352"   
+  LABEL @en 'input of' 
+  DESCRIPTION @en 'inverse of has input'
+  ISA :"RO_0000056"  
+
+PROPERTY :"RO_0002353"   
+  LABEL @en 'output of' 
+  DESCRIPTION @en 'inverse of has output'
+  ISA :"RO_0000056"  
+
+PROPERTY :"RO_0002479"   
+  LABEL @en 'has part that occurs in' 
+  DESCRIPTION @en 'p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.'
+
+PROPERTY :"agent_in"   
+  LABEL @en 'agent in' 
+  DESCRIPTION @en 'x agent_in y iff y is an instance of Process and x is an instance of Agent, such that x is causally active in y.'
+  ISA :"RO_0000056"  
+
+PROPERTY :"capability_of"  
+  ISA :"RO_0000052"  
+
+PROPERTY :"has_agent"   
+  LABEL @en 'has agent' 
+  DESCRIPTION @en 'x has_agent y iff x is an instance of Process and y is an instance of Agent, such that y is causally active in x.'
+  ISA :"RO_0000057"  
+
+PROPERTY :"has_capability"   
+  LABEL @en 'has capability' 
+  DESCRIPTION @en 'x has_capability y iff x is an instance of Agent and y is an instance of Agent Capability, such that x bearer of y.'
+  ISA :"RO_0000053"  
+
+PROPERTY :"HDRN_0000001"   
+  LABEL @en 'has HDRN date value' 
+
+PROPERTY :"OpenLHS-Core_0000058"   
+  LABEL @en 'has textual representation' 
+
+PROPERTY :"OpenLHS-Core_0000059"   
+  LABEL @en 'has value' 
+
+PROPERTY :"OpenLHS-Core_0000072"   
+  LABEL @en 'has numerical value' 
+
+PROPERTY :"OpenLHS-Core_0000073"   
+  LABEL @en 'has temporal value' 
+
+PROPERTY :"OpenLHS-Core_0000074"   
+  LABEL @en 'has text value' 
+
+PROPERTY :"topDataProperty"  
+
+CLASS :"OMRSE_00000204"   
+  LABEL @en 'social identity information content entity' 
+  DESCRIPTION @en 'An information content entity that is intended to be a truthful statement about some person and whether that person identifies as some particular aspect of social identity—such as a gender, an ethnicity, a race, or a sexual orientation—where the sense of identifying may correspond to either (i) an aspect of one’s cognitive representation of oneself, (ii) how one prefers to be regarded by others within some social context, or (iii) how one chooses to present oneself to others within some social context.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"OMRSE_00000209"   
+  LABEL @en 'gender identity information content entity' 
+  DESCRIPTION @en 'A social identity information content entity that is about whether some person identifies as some gender.' 
+  ISA :"IOIO_0000012" 
+  ISA :"OMRSE_00000204"  
+
+CLASS :"HEPRO_0000105"   
+  LABEL @en 'health procedure ending temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a health procedure ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of the health procedure.' 
+  ISA :"OpenLHS-Core_0000065"  
+
+CLASS :"IOIO_0000001"   
+  LABEL @en 'human birth statement' 
+  DESCRIPTION @en 'A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.' 
+  ISA :"OpenLHS-Core_0000031"  
+  :"RO_0002180"  [1..*] :"IOIO_0000005" 
+  :"RO_0002180"  [1..*] :"IOIO_0000014" 
+
+CLASS :"OGMS_0000045"   
+  LABEL @en 'disorder' 
+  DESCRIPTION @en 'A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease.' 
+  ISA :"BFO_0000040" 
+  ISA :"OpenLHS-Core_0000060"  
+
+CLASS :"OMRSE_00000210"   
+  LABEL @en 'female gender identity information content entity' 
+  DESCRIPTION @en 'A gender identity information content entity that is about some person%'s identifying as female in gender.' 
+  ISA :"OMRSE_00000209"  
+
+CLASS :"HEPRO_0000100"   
+  LABEL @en 'health activity identifier' 
+  DESCRIPTION @en 'An identifier that denotes a health activity.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"HEPRO_0000102"   
+  LABEL @en 'health activity beginning temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a health activity beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of the health activity.' 
+  ISA :"OpenLHS-Core_0000065"  
+
+CLASS :"HEPRO_0000101"   
+  LABEL @en 'health procedure identifier' 
+  DESCRIPTION @en 'An identifier that denotes a health procedure.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"HEPRO_0000104"   
+  LABEL @en 'health activity ending temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a health activity ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of the health activity.' 
+  ISA :"OpenLHS-Core_0000065"  
+
+CLASS :"OMRSE_00000211"   
+  LABEL @en 'male gender identity information content entity' 
+  DESCRIPTION @en 'A gender identity information content entity that is about some person%'s identifying as male in gender.' 
+  ISA :"OMRSE_00000209"  
+
+CLASS :"HEPRO_0000103"   
+  LABEL @en 'health procedure beginning temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a health procedure beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of the health procedure.' 
+  ISA :"OpenLHS-Core_0000065"  
+
+CLASS :"OMRSE_00000212"   
+  LABEL @en 'non-binary identity information content entity' 
+  DESCRIPTION @en 'A gender identity information content entity that is about some person%'s identifying as non-binary in gender.' 
+  ISA :"OMRSE_00000209"  
+
+CLASS :"IOIO_0000006"   
+  LABEL @en 'human death temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human.' 
+  ISA :"OpenLHS-Core_0000065"  
+  :"OpenLHS-Core_0000070"  [1..*] :"IOIO_0000003" 
+
+CLASS :"IAO_0000007"   
+  LABEL @en 'action specification' 
+  DESCRIPTION @en 'A directive information entity that describes an action the bearer will take.' 
+  ISA :"IAO_0000033"  
+
+CLASS :"IOIO_0000002"   
+  LABEL @en 'civil birth record' 
+  DESCRIPTION @en 'A state sanctioned human birth statement.' 
+  ISA :"OpenLHS-Core_0000011" 
+  ISA :"IOIO_0000001"  
+
+CLASS :"IOIO_0000003"   
+  LABEL @en 'human death statement' 
+  DESCRIPTION @en 'A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.' 
+  ISA :"OpenLHS-Core_0000031"  
+  :"RO_0002180"  [1..*] :"IOIO_0000014" 
+  :"RO_0002180"  [1..*] :"IOIO_0000006" 
+
+CLASS :"IOIO_0000004"   
+  LABEL @en 'civil death record' 
+  DESCRIPTION @en 'A state sanctioned human death statement.' 
+  ISA :"IOIO_0000003" 
+  ISA :"OpenLHS-Core_0000011"  
+
+CLASS :"IOIO_0000005"   
+  LABEL @en 'human birth temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human.' 
+  ISA :"OpenLHS-Core_0000065"  
+  :"OpenLHS-Core_0000070"  [1..*] :"IOIO_0000001" 
+
+CLASS :"IOIO_0000010"   
+  LABEL @en 'biological sex information content entity' 
+  DESCRIPTION @en 'An information content entity that denotes the biological sex of an organism.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"IAO_0000005"   
+  LABEL @en 'objective specification' 
+  DESCRIPTION @en 'A directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.' 
+  ISA :"IAO_0000033"  
+
+CLASS :"IOIO_0000011"   
+  LABEL @en 'human biological sex information content entity' 
+  DESCRIPTION @en 'A biological sex information content entity that denotes the biological sex of a human.' 
+  ISA :"IOIO_0000012" 
+  ISA :"OpenLHS-Core_0000054" 
+  ISA :"IOIO_0000010"  
+
+CLASS :"IOIO_0000012"   
+  LABEL @en 'human biological sex or gender identity information content entity' 
+  DESCRIPTION @en 'An information content entity that denotes a biological sex or a gender identity of a human.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"NCBITaxon_9606"   
+  LABEL @en 'Homo sapiens'  
+  ISA :"NCBITaxon_2759"  
+
+CLASS :"OGMS_0000060"   
+  LABEL @en 'bodily process'  
+  ISA :"BFO_0000015"  
+
+CLASS :"OGMS_0000061"   
+  LABEL @en 'pathological bodily process' 
+  DESCRIPTION @en 'A bodily process that is clinically abnormal.' 
+  ISA :"OpenLHS-Core_0000060" 
+  ISA :"OGMS_0000060"  
+
+CLASS :"NCBITaxon_10239"   
+  LABEL @en 'Viruses'  
+  ISA :"OBI_0100026"  
+
+CLASS :"OpenLHS-Core_0000055"   
+  LABEL @en 'numerical specified value'  
+  ISA :"OpenLHS-Core_0000054"  
+
+CLASS :"OpenLHS-Core_0000054"   
+  LABEL @en 'specified value'  
+  ISA :"IAO_0000030"  
+  :"OpenLHS-Core_0000059"  [1..1] :"Literal" 
+
+CLASS :"OpenLHS-Core_0000057"   
+  LABEL @en 'unit'  
+  ISA :"IAO_0000030"  
+  :"OpenLHS-Core_0000058"  [1..*] :"string" 
+
+CLASS :"OpenLHS-Core_0000056"   
+  LABEL @en 'unit qualified scalar specified value'  
+  ISA :"OpenLHS-Core_0000054"  
+  :"RO_0002180"  [1..1] :"OpenLHS-Core_0000055" 
+  :"RO_0002180"  [1..1] :"OpenLHS-Core_0000057" 
+
+CLASS :"OpenLHS-Core_0000051"   
+  LABEL @en 'continuant temporally qualifying statement' 
+  DESCRIPTION @en 'A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some continuant exists.' 
+  ISA :"OpenLHS-Core_0000030"  
+  :"IAO_0000136"  [1..*] :"BFO_0000002" 
+
+CLASS :"OpenLHS-Core_0000053"   
+  LABEL @en 'continuant disappearance statement' 
+  DESCRIPTION @en 'A continuant temporally qualifying statement temporally qualifying the disappearance of a continuant.' 
+  ISA :"OpenLHS-Core_0000051"  
+
+CLASS :"OpenLHS-Core_0000052"   
+  LABEL @en 'continuant appearance statement' 
+  DESCRIPTION @en 'A continuant temporally qualifying statement qualifying temporally the appearance of a continuant.' 
+  ISA :"OpenLHS-Core_0000051"  
+
+CLASS :"OpenLHS-Core_0000065"   
+  LABEL @en 'temporal information' 
+  DESCRIPTION @en 'An information content entity that denotes a one-dimension temporal region.' 
+  ISA :"IAO_0000030"  
+  :"IAO_0000219"  [1..*] :"BFO_0000008" 
+
+CLASS :"IAO_0000109"   
+  LABEL @en 'measurement datum' 
+  DESCRIPTION @en 'A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device.' 
+  ISA :"IAO_0000027"  
+
+CLASS :"IAO_0000104"   
+  LABEL @en 'plan specification' 
+  DESCRIPTION @en 'A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.' 
+  ISA :"IAO_0000033"  
+  :"BFO_0000051"  [1..*] :"IAO_0000005" 
+  :"BFO_0000051"  [1..*] :"IAO_0000007" 
+
+CLASS :"OpenLHS-Core_0000060"   
+  LABEL @en 'pathological condition' 
+  DESCRIPTION @en 'An entity that is a disorder, a disease or a pathological bodily process' 
+  ISA :"BFO_0000001"  
+
+CLASS :"HOSO_0000069"   
+  LABEL @en 'immediate subsequent visit in same organization' 
+  DESCRIPTION @en 'An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation.' 
+  ISA :"HOSO_0000068"  
+
+CLASS :"Thing"   
+
+CLASS :"HEPRO_0000030"   
+  LABEL @en 'health procedure specification' 
+  DESCRIPTION @en 'A directive information entity that aims to direct a health procedure.' 
+  ISA :"IAO_0000033"  
+
+CLASS :"OGMS_0000086"   
+  LABEL @en 'syndrome' 
+  DESCRIPTION @en 'A pattern of signs and symptoms that typically co-occur.' 
+  ISA :"BFO_0000019"  
+
+CLASS :"HOSO_0000062"   
+  LABEL @en 'primary health insurance beneficiary human' 
+  DESCRIPTION @en 'A human that has a role of primary health insurance benificiary role' 
+  ISA :"NCBITaxon_9606"  
+  :"RO_0000087"  [1..*] :"HOSO_0000061" 
+
+CLASS :"OpenLHS-Core_0000033"   
+  LABEL @en 'process beginning statement' 
+  DESCRIPTION @en 'A process temporally qualifying statement qualifying temporally the beginning of a process.' 
+  ISA :"OpenLHS-Core_0000031"  
+
+CLASS :"HOSO_0000061"   
+  LABEL @en 'primary health insurance beneficiary human role' 
+  DESCRIPTION @en 'A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract.' 
+  ISA :"BFO_0000023"  
+
+CLASS :"OpenLHS-Core_0000035"   
+  LABEL @en 'service agreement negotiation' 
+  DESCRIPTION @en 'A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement.' 
+  ISA :"OBI_0000011"  
+  :"OBI_0000293"  [1..*] :"OpenLHS-Core_0000029" 
+  :"OBI_0000293"  [1..*] :"OpenLHS-Core_0000027" 
+
+CLASS :"HOSO_0000063"   
+  LABEL @en 'public provincial health insurance primary residence statement' 
+  DESCRIPTION @en 'A statement that indicates the postal address of the primary residence for a primary health insurance beneficiary of a public health provincial plan.' 
+  ISA :"OpenLHS-Core_0000010"  
+  :"RO_0002180"  [0..1] :"OpenLHS-Core_0000020" 
+  :"BFO_0000050"  [1..*] :"HOSO_0000060" 
+
+CLASS :"OpenLHS-Core_0000034"   
+  LABEL @en 'process ending statement' 
+  DESCRIPTION @en 'A process temporally qualifying statement qualifying temporally the ending of a process.' 
+  ISA :"OpenLHS-Core_0000031"  
+
+CLASS :"OpenLHS-Core_0000036"   
+  LABEL @en 'service delivery' 
+  DESCRIPTION @en '- A planned process that aims at fulfilling the commitments of a service agreement.
+
+- A planned process that is maximally directed by a service agreement specification.' 
+  ISA :"OBI_0000011"  
+  :"OpenLHS-Core_0000067"  [1..*] :"OpenLHS-Core_0000028" 
+
+CLASS :"HOSO_0000068"   
+  LABEL @en 'immediate subsequent visit' 
+  DESCRIPTION @en 'A healthcare organization clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit.' 
+  ISA :"HOSO_0000012"  
+  :"RO_0002087"  [1..*] :"HOSO_0000012" 
+
+CLASS :"HOSO_0000067"   
+  LABEL @en 'provincial health insurance primary residence statement beginning'  
+  ISA :"OpenLHS-Core_0000033"  
+  :"IAO_0000136"  [1..*] :"HOSO_0000063" 
+
+CLASS :"OBI_0000011"   
+  LABEL @en 'planned process' 
+  DESCRIPTION @en 'A process that realizes a plan which is the concretization of a plan specification.' 
+  ISA :"BFO_0000015"  
+  :"BFO_0000055"  [1..*] :"ONTORELA_C2875fe2d" 
+
+CLASS :"HOSO_0000060"   
+  LABEL @en 'public provincial health insurance record' 
+  DESCRIPTION @en 'An information content entity that contains the information required to manage the insurance coverage of an insured individual.' 
+  ISA :"IAO_0000030"  
+  :"IAO_0000136"  [1..1] :"HOSO_0000062" 
+
+CLASS :"OpenLHS-Core_0000031"   
+  LABEL @en 'process temporally qualifying statement' 
+  DESCRIPTION @en 'A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some process occurred, occurs or will occur.' 
+  ISA :"OpenLHS-Core_0000030"  
+  :"IAO_0000136"  [1..*] :"BFO_0000015" 
+
+CLASS :"OpenLHS-Core_0000030"   
+  LABEL @en 'temporally qualifying statement' 
+  DESCRIPTION @en 'A statement that states that an entity existed, exists or will exist at some point during a specified temporal region.' 
+  ISA :"SEPIO_0000174"  
+  :"RO_0002180"  [1..*] :"OpenLHS-Core_0000065" 
+
+CLASS :"HEPRO_0000021"   
+  LABEL @en 'health procedure ending statement' 
+  DESCRIPTION @en 'A process ending statement that temporally qualifies the end of a health procedure.' 
+  ISA :"OpenLHS-Core_0000034"  
+  :"RO_0002180"  [1..*] :"HEPRO_0000105" 
+  :"RO_0002180"  [1..*] :"HEPRO_0000101" 
+
+CLASS :"HEPRO_0000020"   
+  LABEL @en 'health procedure beginning statement' 
+  DESCRIPTION @en 'A process beginning statement that temporally qualifies the beginning of a health procedure.' 
+  ISA :"OpenLHS-Core_0000033"  
+  :"RO_0002180"  [1..*] :"HEPRO_0000103" 
+  :"RO_0002180"  [1..*] :"HEPRO_0000101" 
+
+CLASS :"HEPRO_0000023"   
+  LABEL @en 'health activity ending statement' 
+  DESCRIPTION @en 'A process ending statement that temporally qualifies the end of a health activity.' 
+  ISA :"OpenLHS-Core_0000034"  
+  :"RO_0002180"  [1..*] :"HEPRO_0000104" 
+  :"RO_0002180"  [1..*] :"HEPRO_0000100" 
+
+CLASS :"HEPRO_0000022"   
+  LABEL @en 'health activity beginning statement' 
+  DESCRIPTION @en 'A process beginning statement that temporally qualifies the beginning of a health activity.' 
+  ISA :"OpenLHS-Core_0000033"  
+  :"RO_0002180"  [1..*] :"HEPRO_0000102" 
+  :"RO_0002180"  [1..*] :"HEPRO_0000100" 
+
+CLASS :"HEPRO_0000025"   
+  LABEL @en 'health procedure agreement specification' 
+  DESCRIPTION @en 'A service agreement specification that aims to direct some health procedure.' 
+  ISA :"OpenLHS-Core_0000028"  
+  :"BFO_0000051"  [1..*] :"HEPRO_0000030" 
+
+CLASS :"OBI_0000260"   
+  LABEL @en 'plan' 
+  DESCRIPTION @en 'A plan is a realizable entity that is the inheres in a bearer who is committed to realizing it as a planned process.' 
+  ISA :"BFO_0000017"  
+
+CLASS :"BFO_0000038"   
+  LABEL @en 'one-dimensional temporal region' 
+  DESCRIPTION @en 'A one-dimensional temporal region is a temporal region that is extended. (axiom label in BFO2 Reference: [103-001])' 
+  ISA :"BFO_0000008"  
+
+CLASS :"HOSO_0000051"   
+  LABEL @en 'visit ended by the patient without notification' 
+  DESCRIPTION @en 'A visit ended by the patient without notifying the healthcare organization.' 
+  ISA :"HOSO_0000050"  
+
+CLASS :"OpenLHS-Core_0000044"   
+  LABEL @en 'temporal qualification of the appearance of a plan to act as if some statement was true' 
+  DESCRIPTION @en 'A continuant appearance statement that temporally qualifies the apparition of a plan to act as if some statement was true.' 
+  ISA :"OpenLHS-Core_0000052"  
+  :"IAO_0000136"  [1..*] :"OpenLHS-Core_0000043" 
+
+CLASS :"HOSO_0000050"   
+  LABEL @en 'visit ended by the patient' 
+  DESCRIPTION @en 'A healthcare organization clinical visit ended at the initiative of the patient without physician approval.' 
+  ISA :"HOSO_0000012"  
+
+CLASS :"OpenLHS-Core_0000043"   
+  LABEL @en 'agent plan to act as if some statement was true' 
+  DESCRIPTION @en 'A plan of an agent to act as if some statement was true.' 
+  ISA :"OBI_0000260"  
+  :"RO_0000052"  [1..*] :"Agent" 
+
+CLASS :"HOSO_0000053"   
+  LABEL @en 'emergency department visit with partial treatment' 
+  DESCRIPTION @en 'An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided.' 
+  ISA :"HOSO_0000032" 
+  ISA :"HOSO_0000050"  
+
+CLASS :"HOSO_0000052"   
+  LABEL @en 'triage-only emergency department visit' 
+  DESCRIPTION @en 'An emergency department visit with a triage encounter but no further encounter.' 
+  ISA :"HOSO_0000032"  
+
+CLASS :"OpenLHS-Core_0000045"   
+  LABEL @en 'temporal qualification of the disappearance of a plan to act as if some statement was true' 
+  DESCRIPTION @en 'A continuant disappearance statement that temporally qualifies the disappearance of a plan to act as if some statement was true.' 
+  ISA :"OpenLHS-Core_0000053"  
+  :"IAO_0000136"  [1..*] :"OpenLHS-Core_0000043" 
+
+CLASS :"HOSO_0000055"   
+  LABEL @en 'healthcare organization service delivery beginning statement' 
+  DESCRIPTION @en 'A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.' 
+  ISA :"OpenLHS-Core_0000033"  
+  :"RO_0002180"  [1..*] :"HOSO_0000102" 
+  :"RO_0002180"  [1..*] :"HOSO_0000100" 
+
+CLASS :"HOSO_0000054"   
+  LABEL @en 'visit diagnosis related group code' 
+  DESCRIPTION @en 'An identifier that denotes a diagnosis related group.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"HOSO_0000056"   
+  LABEL @en 'healthcare organization service delivery ending statement' 
+  DESCRIPTION @en 'A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.' 
+  ISA :"OpenLHS-Core_0000034"  
+  :"RO_0002180"  [1..*] :"HOSO_0000100" 
+  :"RO_0002180"  [1..*] :"HOSO_0000103" 
+
+CLASS :"BFO_0000040"   
+  LABEL @en 'material entity' 
+  DESCRIPTION @en 'A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])' 
+  ISA :"BFO_0000004"  
+
+CLASS :"HOSO_0000048"   
+  LABEL @en 'visit transfer specification category' 
+  DESCRIPTION @en 'An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified.' 
+  ISA :"IAO_0000030"  
+  :"BFO_0000050"  [1..*] :"HOSO_0000047" 
+
+CLASS :"HOSO_0000047"   
+  LABEL @en 'visit transfer specification' 
+  DESCRIPTION @en 'A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit.' 
+  ISA :"HOSO_0000046"  
+  :"IAO_0000136"  [1..*] :"HOSO_0000008" 
+
+CLASS :"HOSO_0000049"   
+  LABEL @en 'visit discharge specification for home' 
+  DESCRIPTION @en 'A visit discharge specification for a given clinical visit that has no visit transfer specification.' 
+  ISA :"HOSO_0000046"  
+
+CLASS :"HOSO_0000040"   
+  LABEL @en 'still born healthcare service' 
+  DESCRIPTION @en 'A healthcare organisation service delivery where the main entity of interest is a still born.' 
+  ISA :"HOSO_0000011"  
+
+CLASS :"OpenLHS-Core_0000011"   
+  LABEL @en 'government sanctioned statement' 
+  DESCRIPTION @en 'A pragmatically accepted statement authored by a governement or a related organization such that if this organization acts upon it, it will treat it as true.' 
+  ISA :"OpenLHS-Core_0000010"  
+  :"OBI_0000312"  [1..*] :"ONTORELA_C6a3e089c" 
+
+CLASS :"OpenLHS-Core_0000010"   
+  LABEL @en 'pragmatically accepted statement' 
+  DESCRIPTION @en 'A statement for which there is at least one contributor such that if it/he acts upon it, it/he will treat it as true.' 
+  ISA :"SEPIO_0000174"  
+  :"RO_0000056"  [1..*] :"ONTORELA_C73b67cf5" 
+
+CLASS :"HOSO_0000042"   
+  LABEL @en 'inpatient visit from an external location' 
+  DESCRIPTION @en 'an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit' 
+  ISA :"HOSO_0000028"  
+
+CLASS :"OpenLHS-Core_0000013"   
+  LABEL @en 'informational filler' 
+  DESCRIPTION @en 'An informational entity that fills an informational slot.' 
+  ISA :"OpenLHS-Core_0000009"  
+  :"OpenLHS-Core_0000001"  [1..*] :"OpenLHS-Core_0000012" 
+
+CLASS :"HOSO_0000041"   
+  LABEL @en 'healthcare birth visit' 
+  DESCRIPTION @en 'In the case of human health the specified organism refers to the child born during the visit.' 
+  ISA :"HOSO_0000012"  
+  :"OBI_0000299"  [1..*] :"ONTORELA_C624fa67d" 
+
+CLASS :"OpenLHS-Core_0000012"   
+  LABEL @en 'informational slot' 
+  DESCRIPTION @en 'An informational entity that can be filled by an informational filler.' 
+  ISA :"OpenLHS-Core_0000009"  
+  :"OpenLHS-Core_0000008"  [1..1] :"OpenLHS-Core_0000013" 
+
+CLASS :"HOSO_0000044"   
+  LABEL @en 'cadaver service' 
+  DESCRIPTION @en 'A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service.' 
+  ISA :"HOSO_0000011"  
+
+CLASS :"HOSO_0000043"   
+  LABEL @en 'ambulance initiated emergency department visit' 
+  DESCRIPTION @en 'An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.' 
+  ISA :"HOSO_0000032" 
+  ISA :"HOSO_0000068"  
+
+CLASS :"HOSO_0000046"   
+  LABEL @en 'visit discharge specification' 
+  DESCRIPTION @en 'A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit.' 
+  ISA :"IAO_0000033"  
+  :"IAO_0000136"  [1..*] :"HOSO_0000012" 
+
+CLASS :"HOSO_0000045"   
+  LABEL @en 'healthcare visit of expiration' 
+  DESCRIPTION @en 'A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary.' 
+  ISA :"HOSO_0000012"  
+  :"OBI_0000299"  [1..*] :"ONTORELA_C5c900f41" 
+
+CLASS :"HEPRO_0000007"   
+  LABEL @en 'health procedure outcome information' 
+  DESCRIPTION @en 'An information content entity that is the output of a health procedure resulting process and that describes some outcomes of a health procedure.' 
+  ISA :"IAO_0000030"  
+  :"OBI_0000312"  [1..*] :"HEPRO_0000006" 
+
+CLASS :"HEPRO_0000128"   
+  LABEL @en 'pathological condition end temporally qualifying statement' 
+  DESCRIPTION @en 'A temporally qualifying statement that qualifies the clinically identified disappearance of a disorder or a disease, or the ending of a pathological process.' 
+  ISA :"HEPRO_0000125"  
+  :"RO_0002180"  [1..*] :"HEPRO_0000130" 
+
+CLASS :"HEPRO_0000006"   
+  LABEL @en 'health procedure resulting process' 
+  DESCRIPTION @en 'A planned process that is a part of a health procedure, that has as specified input at least one health activity outcome information and aim at generating a health procedure outcome information.' 
+  ISA :"OBI_0000011"  
+  :"OBI_0000293"  [1..*] :"HEPRO_0000008" 
+
+CLASS :"HEPRO_0000127"   
+  LABEL @en 'pathological condition start temporally qualifying statement' 
+  DESCRIPTION @en 'A temporally qualifying statement that qualifies the clinically identified appearance of a disorder or a disease, or the beginning of a pathological process.' 
+  ISA :"HEPRO_0000125"  
+  :"RO_0002180"  [1..*] :"HEPRO_0000129" 
+
+CLASS :"HEPRO_0000009"   
+  LABEL @en 'health provider identifier' 
+  DESCRIPTION @en 'An individual identifier that denotes a health provider.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"HEPRO_0000008"   
+  LABEL @en 'health activity outcome information' 
+  DESCRIPTION @en 'An information content entity that is a specified output of a health activity.' 
+  ISA :"IAO_0000030"  
+  :"OBI_0000312"  [1..*] :"HEPRO_0000005" 
+
+CLASS :"HEPRO_0000129"   
+  LABEL @en 'pathological condition start temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a pathological condition start temporallly qualifying statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the clinically identified start of the pathological condition.' 
+  ISA :"OpenLHS-Core_0000065"  
+
+CLASS :"IAO_0000033"   
+  LABEL @en 'directive information entity' 
+  DESCRIPTION @en 'An information content entity whose concretizations indicate to their bearer how to realize them in a process.' 
+  ISA :"IAO_0000030"  
+  :"OpenLHS-Core_0000007"  [1..*] :"BFO_0000015" 
+  :"OpenLHS-Core_0000066"  [1..*] :"BFO_0000015" 
+  :"IAO_0000136"  [1..*] :"BFO_0000017" 
+
+CLASS :"HEPRO_0000001"   
+  LABEL @en 'health procedure request' 
+  DESCRIPTION @en 'A request requesting the execution of some health procedure.' 
+  ISA :"OpenLHS-Core_0000027"  
+  :"BFO_0000051"  [1..*] :"HEPRO_0000030" 
+
+CLASS :"IAO_0000030"   
+  LABEL @en 'information content entity' 
+  DESCRIPTION @en 'A generically dependent continuant that is about some thing.' 
+  ISA :"BFO_0000031"  
+  :"IAO_0000219"  [1..*] :"BFO_0000001" 
+  :"IAO_0000136"  [1..*] :"BFO_0000001" 
+
+CLASS :"HEPRO_0000003"   
+  LABEL @en 'health procedure report' 
+  DESCRIPTION @en 'An information content entity containing information about some health procedure requests and possibly the associated health procedures.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"HEPRO_0000005"   
+  LABEL @en 'health activity' 
+  DESCRIPTION @en 'A planned process that aims to produce a truthful statement about the health status of an organism or modify it.' 
+  ISA :"OBI_0000011"  
+
+CLASS :"HEPRO_0000004"   
+  LABEL @en 'health procedure' 
+  DESCRIPTION @en '- A planned process that is maximally directed by a health procedure specification.
+- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury.' 
+  ISA :"OBI_0000011"  
+  :"OpenLHS-Core_0000067"  [1..*] :"HEPRO_0000030" 
+  :"RO_0002018"  [1..*] :"HEPRO_0000005" 
+
+CLASS :"HEPRO_0000125"   
+  LABEL @en 'pathological condition presence statement' 
+  DESCRIPTION @en 'A pragmatically accepted statement that states the presence of a pathological condition for an organism.' 
+  ISA :"OpenLHS-Core_0000010"  
+  :"RO_0002180"  [1..*] :"IOIO_0000013" 
+  :"RO_0002180"  [1..*] :"HEPRO_0000017" 
+
+CLASS :"HOSO_0000037"   
+  LABEL @en 'outpatient diagnostic visit' 
+  DESCRIPTION @en 'An outpatient visit which includes a diagnostic procedure.' 
+  ISA :"HOSO_0000026"  
+  :"BFO_0000051"  [1..*] :"HEPRO_0000013" 
+
+CLASS :"HOSO_0000036"   
+  LABEL @en 'outpatient surgery visit' 
+  DESCRIPTION @en 'An outpatient visit which includes a surgical procedure.' 
+  ISA :"HOSO_0000026"  
+  :"BFO_0000051"  [1..*] :"HEPRO_0000014" 
+
+CLASS :"OpenLHS-Core_0000029"   
+  LABEL @en 'service offer' 
+  DESCRIPTION @en 'An information content entity describing the processes a person or an organization is willing to perform for a third-party.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"HOSO_0000039"   
+  LABEL @en 'prior visit category to an inpatient visit' 
+  DESCRIPTION @en 'An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit.' 
+  ISA :"IAO_0000030"  
+  :"IAO_0000136"  [1..*] :"ONTORELA_Cdb7d47d" 
+
+CLASS :"HOSO_0000038"   
+  LABEL @en 'immediate inpatient subsequent visit' 
+  DESCRIPTION @en 'An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.' 
+  ISA :"HOSO_0000069" 
+  ISA :"HOSO_0000028"  
+
+CLASS :"OpenLHS-Core_0000022"   
+  LABEL @en 'canadian first-order administrative region identifier' 
+  DESCRIPTION @en 'An identifier that denotes a Canadian province or a Canadian territory.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"OpenLHS-Core_0000021"   
+  LABEL @en 'canadian census subdivision identifier' 
+  DESCRIPTION @en 'An identifier that denotes a Canadian municipality (as determined by provincial/territorial legislation) or a Canadian area treated as a municipal equivalent for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories).' 
+  ISA :"IAO_0020000"  
+  :"IAO_0000235"  [1..*] :"OpenLHS-Core_0000026" 
+
+CLASS :"HOSO_0000031"   
+  LABEL @en 'hospitalization' 
+  DESCRIPTION @en 'An inpatient visit located in a hospital facility requested by a physician, that may extends overnight.' 
+  ISA :"HOSO_0000028"  
+
+CLASS :"OpenLHS-Core_0000024"   
+  LABEL @en 'postal address city' 
+  DESCRIPTION @en 'An identifier that denotes a city and is intended to be used as part of a postal address.' 
+  ISA :"IAO_0020000"  
+  :"BFO_0000050"  [1..*] :"IAO_0000422" 
+
+CLASS :"HOSO_0000030"   
+  LABEL @en 'day inpatient surgery visit' 
+  DESCRIPTION @en 'A day inpatient visit which includes a surgical procedure.' 
+  ISA :"HOSO_0000029"  
+  :"BFO_0000051"  [1..*] :"HEPRO_0000014" 
+
+CLASS :"OpenLHS-Core_0000023"   
+  LABEL @en 'canadian forward sorting area code' 
+  DESCRIPTION @en 'An identifier that denotes a geographical region on which is based the first three characters of a Canadian postal code.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"HOSO_0000033"   
+  LABEL @en 'emergency department inpatient visit' 
+  DESCRIPTION @en 'An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit.' 
+  ISA :"HOSO_0000028" 
+  ISA :"HOSO_0000032"  
+
+CLASS :"OpenLHS-Core_0000026"   
+  LABEL @en 'canadian postal code' 
+  DESCRIPTION @en 'A postal code that denotes some geographical region in Canada.' 
+  ISA :"IAO_0000646"  
+  :"RO_0002180"  [1..1] :"OpenLHS-Core_0000023" 
+
+CLASS :"HOSO_0000032"   
+  LABEL @en 'emergency department visit' 
+  DESCRIPTION @en 'A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.
+It is not necessarily an immediate inpatient subsequent visit.' 
+  ISA :"HOSO_0000139"  
+
+CLASS :"OpenLHS-Core_0000025"   
+  LABEL @en 'postal address country' 
+  DESCRIPTION @en 'An identifier that denotes a country and is intended to be used as part of a postal address.' 
+  ISA :"IAO_0020000"  
+  :"BFO_0000050"  [1..*] :"IAO_0000422" 
+
+CLASS :"HOSO_0000035"   
+  LABEL @en 'walk-in clinic visit' 
+  DESCRIPTION @en 'An outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions.' 
+  ISA :"HOSO_0000026"  
+
+CLASS :"OpenLHS-Core_0000028"   
+  LABEL @en 'service agreement specification' 
+  DESCRIPTION @en 'An information content entity that specifies a service agreement made between a request party and a service offer party, and aim to direct some processes that correspond to what has been agreed between the parties.' 
+  ISA :"IAO_0000030"  
+  :"OBI_0000312"  [1..*] :"OpenLHS-Core_0000035" 
+
+CLASS :"HOSO_0000034"   
+  LABEL @en 'emergency department outpatient visit' 
+  DESCRIPTION @en 'An emergency department visit and an outpatient visit.' 
+  ISA :"HOSO_0000032" 
+  ISA :"HOSO_0000026"  
+
+CLASS :"OpenLHS-Core_0000027"   
+  LABEL @en 'request' 
+  DESCRIPTION @en 'An information content entity specifiying one or several types of processes that a party, whether a person or an organization, wants to see instantiated for the benefit of itself or another party.' 
+  ISA :"IAO_0000030"  
+  :"BFO_0000051"  [1..*] :"IAO_0000033" 
+
+CLASS :"HEPRO_0000017"   
+  LABEL @en 'pathological condition sub-group name' 
+  DESCRIPTION @en 'An information content entity that is about a sub-group of pathological conditions.' 
+  ISA :"IAO_0000030"  
+  :"IAO_0000136"  [1..*] :"OpenLHS-Core_0000060" 
+
+CLASS :"BFO_0000182"   
+  LABEL @en 'history' 
+  DESCRIPTION @en 'A history is a process that is the sum of the totality of processes taking place in the spatiotemporal region occupied by a material entity or site, including processes on the surface of the entity or within the cavities to which it serves as host. (axiom label in BFO2 Reference: [138-001])' 
+  ISA :"BFO_0000015"  
+
+CLASS :"IAO_0000027"   
+  LABEL @en 'data item' 
+  DESCRIPTION @en 'An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"IAO_0000028"   
+  LABEL @en 'symbol' 
+  DESCRIPTION @en 'An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"OpenLHS-Core_0000020"   
+  LABEL @en 'canadian postal address' 
+  DESCRIPTION @en 'A postal address that can be used to help the delivery of something in Canada.' 
+  ISA :"IAO_0000422"  
+  :"RO_0002180"  [1..1] :"OpenLHS-Core_0000026" 
+  :"RO_0002180"  [1..1] :"OpenLHS-Core_0000025" 
+  :"RO_0002180"  [1..1] :"OpenLHS-Core_0000022" 
+  :"RO_0002180"  [1..1] :"OpenLHS-Core_0000024" 
+
+CLASS :"OBI_0100026"   
+  LABEL @en 'organism' 
+  DESCRIPTION @en 'A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.' 
+  ISA :"BFO_0000040"  
+
+CLASS :"HEPRO_0000010"   
+  LABEL @en 'physician identifier' 
+  DESCRIPTION @en 'A health provider identifier that is used to denote a person authorised to act as a physician.' 
+  ISA :"HEPRO_0000009"  
+
+CLASS :"HEPRO_0000130"   
+  LABEL @en 'pathological condition end temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a pathological condition end temporallly qualifying statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the clinically identified end of the pathological condition.' 
+  ISA :"OpenLHS-Core_0000065"  
+
+CLASS :"HEPRO_0000012"   
+  LABEL @en 'health provider' 
+  DESCRIPTION @en 'An organism that is the bearer of a health provider role.' 
+  ISA :"OBI_0100026"  
+  :"RO_0000087"  [1..*] :"HEPRO_0000011" 
+
+CLASS :"HEPRO_0000011"   
+  LABEL @en 'health provider role' 
+  DESCRIPTION @en 'A role that inheres in an organism as a consequence of training in order to be able to participate as a performer in some health activities.' 
+  ISA :"BFO_0000023"  
+  :"RO_0000081"  [1..*] :"OBI_0100026" 
+
+CLASS :"HEPRO_0000014"   
+  LABEL @en 'surgical health procedure' 
+  DESCRIPTION @en 'A health procedure that includes a surgical procedure - TBD.' 
+  ISA :"HEPRO_0000004"  
+
+CLASS :"HEPRO_0000013"   
+  LABEL @en 'diagnostic health procedure' 
+  DESCRIPTION @en 'A health procedure that include a diagnostic procedure - TBD.' 
+  ISA :"HEPRO_0000004"  
+
+CLASS :"HEPRO_0000016"   
+  LABEL @en 'health activity sub-group name' 
+  DESCRIPTION @en 'An information content entity that is about a sub-group of health activities.' 
+  ISA :"IAO_0000030"  
+  :"IAO_0000136"  [1..*] :"HEPRO_0000005" 
+
+CLASS :"HEPRO_0000015"   
+  LABEL @en 'health procedure sub-group name' 
+  DESCRIPTION @en 'An information content entity that is about a sub-group of health procedures.' 
+  ISA :"IAO_0000030"  
+  :"IAO_0000136"  [1..*] :"HEPRO_0000004" 
+
+CLASS :"HOSO_0000026"   
+  LABEL @en 'outpatient visit' 
+  DESCRIPTION @en 'A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient.' 
+  ISA :"HOSO_0000139"  
+
+CLASS :"HOSO_0000028"   
+  LABEL @en 'inpatient visit' 
+  DESCRIPTION @en 'A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient.' 
+  ISA :"HOSO_0000139"  
+  :"BFO_0000051"  [1..*] :"HOSO_0000014" 
+
+CLASS :"HOSO_0000029"   
+  LABEL @en 'day inpatient visit' 
+  DESCRIPTION @en 'An inpatient visit that does not extend overnight.' 
+  ISA :"HOSO_0000028"  
+
+CLASS :"NCBITaxon_2"   
+  LABEL @en 'Bacteria'  
+  ISA :"OBI_0100026"  
+
+CLASS :"NCBITaxon_2157"   
+  LABEL @en 'Archaea'  
+  ISA :"OBI_0100026"  
+
+CLASS :"BFO_0000006"   
+  LABEL @en 'spatial region' 
+  DESCRIPTION @en 'A spatial region is a continuant entity that is a continuant_part_of spaceR as defined relative to some frame R. (axiom label in BFO2 Reference: [035-001])' 
+  ISA :"BFO_0000141"  
+
+CLASS :"BFO_0000003"   
+  LABEL @en 'occurrent' 
+  DESCRIPTION @en 'An occurrent is an entity that unfolds itself in time or it is the instantaneous boundary of such an entity (for example a beginning or an ending) or it is a temporal or spatiotemporal region which such an entity occupies_temporal_region or occupies_spatiotemporal_region. (axiom label in BFO2 Reference: [077-002])' 
+  ISA :"BFO_0000001"  
+  :"BFO_0000062"  [1..*] :"BFO_0000003" 
+  :"BFO_0000063"  [1..*] :"BFO_0000003" 
+  :"BFO_0000066"  [1..*] :"BFO_0000004" 
+  :"RO_0000057"  [1..*] :"BFO_0000002" 
+  :"RO_0002091"  [1..*] :"BFO_0000003" 
+  :"RO_0002222"  [1..*] :"BFO_0000003" 
+  :"RO_0002479"  [1..*] :"BFO_0000004" 
+
+CLASS :"BFO_0000004"   
+  LABEL @en 'independent continuant' 
+  DESCRIPTION @en 'b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])' 
+  ISA :"BFO_0000002"  
+  :"RO_0000085"  [1..*] :"BFO_0000034" 
+  :"RO_0000087"  [1..*] :"BFO_0000023" 
+  :"RO_0000091"  [1..*] :"BFO_0000016" 
+
+CLASS :"HOSO_0000140"   
+  LABEL @en 'facility address' 
+  DESCRIPTION @en 'A postal address that enables an agent to locate a facility.' 
+  ISA :"IAO_0000422"  
+  :"IAO_0000136"  [1..*] :"OMRSE_00000062" 
+
+CLASS :"BFO_0000009"   
+  LABEL @en 'two-dimensional spatial region' 
+  DESCRIPTION @en 'A two-dimensional spatial region is a spatial region that is of two dimensions. (axiom label in BFO2 Reference: [039-001])' 
+  ISA :"BFO_0000006"  
+
+CLASS :"HOSO_0000022"   
+  LABEL @en 'healthcare facility identifier' 
+  DESCRIPTION @en 'An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"HOSO_0000142"   
+  LABEL @en 'canadian facility address' 
+  DESCRIPTION @en 'A Canadian postal address that enables an agent to locate a facility.' 
+  ISA :"HOSO_0000140" 
+  ISA :"OpenLHS-Core_0000020"  
+
+CLASS :"HOSO_0000145"   
+  LABEL @en 'diagnosis related group' 
+  DESCRIPTION @en 'An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition.' 
+  ISA :"IAO_0000030"  
+  :"IAO_0000136"  [1..*] :"HOSO_0000012" 
+
+CLASS :"BFO_0000008"   
+  LABEL @en 'temporal region' 
+  DESCRIPTION @en 'A temporal region is an occurrent entity that is part of time as defined relative to some reference frame. (axiom label in BFO2 Reference: [100-001])' 
+  ISA :"BFO_0000003"  
+
+CLASS :"HOSO_0000023"   
+  LABEL @en 'healthcare organization identifier' 
+  DESCRIPTION @en 'An identifier that denotes a healthcare organization.' 
+  ISA :"IAO_0020000"  
+  :"IAO_0000219"  [1..1] :"HOSO_0000008" 
+
+CLASS :"IAO_0020020"   
+  LABEL @en 'code set' 
+  DESCRIPTION @en 'An information content entity that is a collection of other information content entities that has been created to identify or annotate things in a specified domain, and where the intention of its creators is that the collection has a one-to-one correspondence with those things.' 
+  ISA :"IAO_0000030"  
+  :"BFO_0000051"  [1..*] :"IAO_0020000" 
+
+CLASS :"BFO_0000011"   
+  LABEL @en 'spatiotemporal region' 
+  DESCRIPTION @en 'A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])' 
+  ISA :"BFO_0000003"  
+
+CLASS :"AgentCapability"   
+  LABEL @en 'Agent Capability' 
+  DESCRIPTION @en 'A Realizable Entity that inheres in an Agent to the extent of that Agent%'s capacity to realize it in Intentional Acts of a certain type.' 
+  ISA :"BFO_0000017"  
+  :"capability_of"  [1..*] :"Agent" 
+
+CLASS :"HOSO_0000014"   
+  LABEL @en 'custodial care service delivery' 
+  DESCRIPTION @en 'A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities.' 
+  ISA :"OpenLHS-Core_0000036"  
+
+CLASS :"HOSO_0000017"   
+  LABEL @en 'healthcare organization clinical encounter' 
+  DESCRIPTION @en 'A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism.' 
+  ISA :"HOSO_0000012"  
+
+CLASS :"HOSO_0000138"   
+  LABEL @en 'healthcare provider identifier' 
+  DESCRIPTION @en 'An identifier that denotes a healthcare provider.' 
+  ISA :"HEPRO_0000009"  
+  :"IAO_0000219"  [1..*] :"HOSO_0000009" 
+
+CLASS :"HOSO_0000016"   
+  LABEL @en 'populational healthcare service' 
+  DESCRIPTION @en 'A healthcare service that aims at providing a desired effect on the health status of a community.' 
+  ISA :"HOSO_0000011"  
+
+CLASS :"HOSO_0000137"   
+  LABEL @en 'human clinical visit specified patient'  
+  ISA :"NCBITaxon_9606"  
+  :"IAO_0000235"  [1..*] :"HOSO_0000003" 
+
+CLASS :"OpenLHS-Core_0000009"   
+  LABEL @en 'informational entity' 
+  DESCRIPTION @en 'A generically dependent continuant that is a building block of information or a combination thereof.' 
+  ISA :"BFO_0000031"  
+
+CLASS :"HOSO_0000019"   
+  LABEL @en 'public provincial health identifier' 
+  DESCRIPTION @en 'An identifier that denotes a public provincial health insurance record.' 
+  ISA :"IAO_0020000" 
+  ISA :"OpenLHS-Core_0000054"  
+  :"IAO_0000136"  [1..*] :"HOSO_0000060" 
+
+CLASS :"HOSO_0000018"   
+  LABEL @en 'facility-supported healthcare encounter' 
+  DESCRIPTION @en 'A healthcare encounter during which the recipient is located in a healthcare facility at some time.' 
+  ISA :"HOSO_0000017" 
+  ISA :"HOSO_0000139"  
+
+CLASS :"HOSO_0000139"   
+  LABEL @en 'facility-supported clinical visit' 
+  DESCRIPTION @en 'A healthcare organization clinical visit whom some parts occurs in a healthcare facility.' 
+  ISA :"HOSO_0000012"  
+  :"RO_0002479"  [1..*] :"HOSO_0000004" 
+
+CLASS :"HOSO_0000011"   
+  LABEL @en 'healthcare organization service delivery' 
+  DESCRIPTION @en 'A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization.' 
+  ISA :"OpenLHS-Core_0000036"  
+  :"BFO_0000055"  [1..*] :"HOSO_0000006" 
+
+CLASS :"HOSO_0000010"   
+  LABEL @en 'healthcare procedure' 
+  DESCRIPTION @en 'A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role.' 
+  ISA :"HEPRO_0000004"  
+  :"HOSO_0000001"  [1..*] :"HOSO_0000009" 
+
+CLASS :"IAO_0000646"   
+  LABEL @en 'postal code' 
+  DESCRIPTION @en 'An identifier that denotes some postal delivery route, some aggregate of postal delivery routes or a geographical region and was created for the purpose of sorting and delivering mail.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"HOSO_0000013"   
+  LABEL @en 'ancillary care service delivery' 
+  DESCRIPTION @en 'A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities.' 
+  ISA :"OpenLHS-Core_0000036"  
+
+CLASS :"HOSO_0000012"   
+  LABEL @en 'healthcare organization clinical visit' 
+  DESCRIPTION @en 'A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.' 
+  ISA :"HOSO_0000011"  
+  :"HOSO_0000002"  [1..*] :"OBI_0100026" 
+  :"OpenLHS-Core_0000004"  [1..1] :"HOSO_0000003" 
+  :"BFO_0000051"  [1..*] :"HOSO_0000010" 
+
+CLASS :"BFO_0000001"   
+  LABEL @en 'entity' 
+  DESCRIPTION @en 'An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])' 
+  ISA :"Thing"  
+  :"IAO_0000235"  [1..*] :"IAO_0000030" 
+
+CLASS :"OMRSE_00000062"   
+  LABEL @en 'facility' 
+  DESCRIPTION @en 'An architectural structure that bears some function.' 
+  ISA :"OMRSE_00000061"  
+  :"OMRSE_00000068"  [1..*] :"OBI_0000245" 
+  :"RO_0000053"  [1..*] :"BFO_0000034" 
+
+CLASS :"BFO_0000002"   
+  LABEL @en 'continuant' 
+  DESCRIPTION @en 'A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])' 
+  ISA :"BFO_0000001"  
+  :"RO_0000056"  [1..*] :"BFO_0000003" 
+
+CLASS :"OMRSE_00000061"   
+  LABEL @en 'architectural structure' 
+  DESCRIPTION @en 'A material entity that is a human made strcuture with firm connection between its foundation and the ground.' 
+  ISA :"BFO_0000040"  
+
+CLASS :"HOSO_0000004"   
+  LABEL @en 'healthcare facility' 
+  DESCRIPTION @en 'A facility that bears a healthcare function - WiP.' 
+  ISA :"OMRSE_00000062"  
+
+CLASS :"HOSO_0000125"   
+  LABEL @en 'clinical visit ending determination' 
+  DESCRIPTION @en 'A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end.' 
+  ISA :"HOSO_0000010"  
+
+CLASS :"PDRO_0000116"   
+  LABEL @en 'drug dispensing drug product charge' 
+  DESCRIPTION @en 'An information content entity that describes the amount paid by the payer to a pharmacy for the drug.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"HOSO_0000003"   
+  LABEL @en 'healthcare service organism specification' 
+  DESCRIPTION @en 'A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.' 
+  ISA :"OpenLHS-Core_0000028"  
+  :"IAO_0000219"  [1..*] :"OBI_0100026" 
+
+CLASS :"HOSO_0000124"   
+  LABEL @en 'health organization clinical visit pathological condition impact statement' 
+  DESCRIPTION @en 'A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.' 
+  ISA :"OpenLHS-Core_0000010"  
+  :"RO_0002180"  [1..*] :"HOSO_0000126" 
+  :"RO_0002180"  [1..*] :"HOSO_0000100" 
+
+CLASS :"PDRO_0000115"   
+  LABEL @en 'drug dispensing total payment' 
+  DESCRIPTION @en 'An information content entity that describes the total amount actually paid from all payers to cover a drug dispensing procedure and related drug products.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"HOSO_0000006"   
+  LABEL @en 'healthcare organization role' 
+  DESCRIPTION @en 'A role that inheres in an organisation and is realized by providing some healthcare service delivery.' 
+  ISA :"BFO_0000023"  
+
+CLASS :"HOSO_0000126"   
+  LABEL @en 'pathological condition impact type on clinical visit' 
+  DESCRIPTION @en 'An information content entity that describes the type of impact of a pathological condition on a clinical visit.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"PDRO_0000117"   
+  LABEL @en 'drug dispensing healthcare provider charge' 
+  DESCRIPTION @en 'An information content entity that describes the amount paid by the Payer to a pharmacy for dispensing a drug.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"HOSO_0000008"   
+  LABEL @en 'healthcare organization' 
+  DESCRIPTION @en 'An organisation that bears a healthcare organisation role.' 
+  ISA :"OBI_0000245"  
+  :"RO_0000087"  [1..*] :"HOSO_0000006" 
+
+CLASS :"HOSO_0000009"   
+  LABEL @en 'healthcare provider' 
+  DESCRIPTION @en 'A health provider who is a member of a healthcare organisation.' 
+  ISA :"HEPRO_0000012"  
+  :"RO_0002350"  [1..*] :"HOSO_0000008" 
+
+CLASS :"BFO_0000027"   
+  LABEL @en 'object aggregate' 
+  DESCRIPTION @en 'b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])' 
+  ISA :"BFO_0000040"  
+
+CLASS :"BFO_0000148"   
+  LABEL @en 'zero-dimensional temporal region' 
+  DESCRIPTION @en 'A zero-dimensional temporal region is a temporal region that is without extent. (axiom label in BFO2 Reference: [102-001])' 
+  ISA :"BFO_0000008"  
+
+CLASS :"BFO_0000028"   
+  LABEL @en 'three-dimensional spatial region' 
+  DESCRIPTION @en 'A three-dimensional spatial region is a spatial region that is of three dimensions. (axiom label in BFO2 Reference: [040-001])' 
+  ISA :"BFO_0000006"  
+
+CLASS :"BFO_0000146"   
+  LABEL @en 'two-dimensional continuant fiat boundary' 
+  DESCRIPTION @en 'a two-dimensional continuant fiat boundary (surface) is a self-connected fiat surface whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [033-001])' 
+  ISA :"BFO_0000140"  
+
+CLASS :"PDRO_0000110"   
+  LABEL @en 'drug dispensing record item dispensing date' 
+  DESCRIPTION @en 'A temporal information that is a component of a drug dispensing record item that indicates that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the drug dispensing process described by the drug dispensing record item.' 
+  ISA :"OpenLHS-Core_0000065"  
+  :"OpenLHS-Core_0000070"  [1..*] :"PDRO_0000041" 
+
+CLASS :"BFO_0000026"   
+  LABEL @en 'one-dimensional spatial region' 
+  DESCRIPTION @en 'A one-dimensional spatial region is a line or aggregate of lines stretching from one point in space to another. (axiom label in BFO2 Reference: [038-001])' 
+  ISA :"BFO_0000006"  
+
+CLASS :"BFO_0000147"   
+  LABEL @en 'zero-dimensional continuant fiat boundary' 
+  DESCRIPTION @en 'a zero-dimensional continuant fiat boundary is a fiat point whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [031-001])' 
+  ISA :"BFO_0000140"  
+
+CLASS :"HOSO_0000121"   
+  LABEL @en 'canadian healthcare organization postal code' 
+  DESCRIPTION @en 'A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.' 
+  ISA :"OpenLHS-Core_0000026"  
+
+CLASS :"PDRO_0000112"   
+  LABEL @en 'drug dispensing covered duration specification' 
+  DESCRIPTION @en 'A directive information entity that specifies over how much time a dispensed drug quantity should be administered.' 
+  ISA :"IAO_0000033"  
+
+CLASS :"HOSO_0000120"   
+  LABEL @en 'canadian healthcare facility postal code' 
+  DESCRIPTION @en 'A canadian postal code that denotes a geographical region where a canadian healthcare facility is located.' 
+  ISA :"OpenLHS-Core_0000026"  
+
+CLASS :"PDRO_0000111"   
+  LABEL @en 'dispensed drug quantity' 
+  DESCRIPTION @en 'A data item that is about the total quantity of a drug product that was distributed during a drug dispensing procedure.' 
+  ISA :"IAO_0000027"  
+  :"OpenLHS-Core_0000070"  [1..*] :"PDRO_0000041" 
+
+CLASS :"BFO_0000029"   
+  LABEL @en 'site' 
+  DESCRIPTION @en 'b is a site means: b is a three-dimensional immaterial entity that is (partially or wholly) bounded by a material entity or it is a three-dimensional immaterial part thereof. (axiom label in BFO2 Reference: [034-002])' 
+  ISA :"BFO_0000141"  
+
+CLASS :"HOSO_0000123"   
+  LABEL @en 'canadian healthcare organization forward sorting area code' 
+  DESCRIPTION @en 'A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.' 
+  ISA :"OpenLHS-Core_0000023"  
+
+CLASS :"PDRO_0000114"   
+  LABEL @en 'drug dispensing total charge' 
+  DESCRIPTION @en 'An information content entity that describes the total amount charged by a healthcare organization to payers to cover a drug dispensing procedure and related drug products.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"HOSO_0000122"   
+  LABEL @en 'canadian healthcare facility forward sorting area code' 
+  DESCRIPTION @en 'A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.' 
+  ISA :"OpenLHS-Core_0000023"  
+
+CLASS :"BFO_0000030"   
+  LABEL @en 'object' 
+  DESCRIPTION @en 'b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above & is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])' 
+  ISA :"BFO_0000040"  
+
+CLASS :"BFO_0000031"   
+  LABEL @en 'generically dependent continuant' 
+  DESCRIPTION @en 'b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])' 
+  ISA :"BFO_0000002"  
+  :"RO_0000058"  [1..*] :"BFO_0000020" 
+
+CLASS :"BFO_0000034"   
+  LABEL @en 'function' 
+  DESCRIPTION @en 'A function is a disposition that exists in virtue of the bearer’s physical make-up and this physical make-up is something the bearer possesses because it came into being, either through evolution (in the case of natural biological entities) or through intentional design (in the case of artifacts), in order to realize processes of a certain sort. (axiom label in BFO2 Reference: [064-001])' 
+  ISA :"BFO_0000016"  
+
+CLASS :"BFO_0000035"   
+  LABEL @en 'process boundary' 
+  DESCRIPTION @en 'p is a process boundary =Def. p is a temporal part of a process & p has no proper temporal parts. (axiom label in BFO2 Reference: [084-001])' 
+  ISA :"BFO_0000003"  
+
+CLASS :"OGMS_0000102"   
+  LABEL @en 'injury' 
+  DESCRIPTION @en 'A disorder that involves some structural damage that is immediately caused by a catastrophic external force.' 
+  ISA :"OGMS_0000045"  
+
+CLASS :"PDRO_0000109"   
+  LABEL @en 'drug product characterization' 
+  DESCRIPTION @en 'An information content entity that characterizes a class of drug product.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"BFO_0000016"   
+  LABEL @en 'disposition' 
+  DESCRIPTION @en 'b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])' 
+  ISA :"BFO_0000017"  
+
+CLASS :"BFO_0000017"   
+  LABEL @en 'realizable entity' 
+  DESCRIPTION @en 'To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])' 
+  ISA :"BFO_0000020"  
+  :"BFO_0000054"  [1..*] :"BFO_0000015" 
+
+CLASS :"BFO_0000015"   
+  LABEL @en 'process' 
+  DESCRIPTION @en 'p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])' 
+  ISA :"BFO_0000003"  
+  :"BFO_0000055"  [1..*] :"BFO_0000017" 
+  :"OpenLHS-Core_0000004"  [1..*] :"IAO_0000033" 
+  :"OpenLHS-Core_0000067"  [1..*] :"IAO_0000033" 
+  :"OpenLHS-Core_0000071"  [1..*] :"BFO_0000015" 
+  :"RO_0002018"  [1..*] :"BFO_0000015" 
+
+CLASS :"OBI_0000245"   
+  LABEL @en 'organization' 
+  DESCRIPTION @en 'An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.' 
+  ISA :"BFO_0000040"  
+
+CLASS :"BFO_0000018"   
+  LABEL @en 'zero-dimensional spatial region' 
+  DESCRIPTION @en 'A zero-dimensional spatial region is a point in space. (axiom label in BFO2 Reference: [037-001])' 
+  ISA :"BFO_0000006"  
+
+CLASS :"BFO_0000019"   
+  LABEL @en 'quality' 
+  DESCRIPTION @en 'a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])' 
+  ISA :"BFO_0000020"  
+
+CLASS :"BFO_0000140"   
+  LABEL @en 'continuant fiat boundary' 
+  DESCRIPTION @en 'b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])' 
+  ISA :"BFO_0000141"  
+
+CLASS :"BFO_0000020"   
+  LABEL @en 'specifically dependent continuant' 
+  DESCRIPTION @en 'b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])' 
+  ISA :"BFO_0000002"  
+  :"RO_0000059"  [1..*] :"BFO_0000031" 
+
+CLASS :"BFO_0000141"   
+  LABEL @en 'immaterial entity'  
+  ISA :"BFO_0000004"  
+
+CLASS :"BFO_0000023"   
+  LABEL @en 'role' 
+  DESCRIPTION @en 'b is a role means: b is a realizable entity & b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be& b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])' 
+  ISA :"BFO_0000017"  
+
+CLASS :"BFO_0000144"   
+  LABEL @en 'process profile' 
+  DESCRIPTION @en 'b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])' 
+  ISA :"BFO_0000015"  
+
+CLASS :"BFO_0000024"   
+  LABEL @en 'fiat object part' 
+  DESCRIPTION @en 'b is a fiat object part = Def. b is a material entity which is such that for all times t, if b exists at t then there is some object c such that b proper continuant_part of  c at t and c is demarcated from the remainder of c by a two-dimensional continuant fiat boundary. (axiom label in BFO2 Reference: [027-004])' 
+  ISA :"BFO_0000040"  
+
+CLASS :"BFO_0000145"   
+  LABEL @en 'relational quality' 
+  DESCRIPTION @en 'b is a relational quality = Def. for some independent continuants c, d and for some time t: b quality_of c at t & b quality_of d at t. (axiom label in BFO2 Reference: [057-001])' 
+  ISA :"BFO_0000019"  
+
+CLASS :"BFO_0000142"   
+  LABEL @en 'one-dimensional continuant fiat boundary' 
+  DESCRIPTION @en 'a one-dimensional continuant fiat boundary is a continuous fiat line whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [032-001])' 
+  ISA :"BFO_0000140"  
+
+CLASS :"Agent"   
+  LABEL @en 'Agent' 
+  DESCRIPTION @en 'A Material Entity that is capable of performing Planned Acts' 
+  ISA :"BFO_0000040"  
+  :"has_capability"  [1..*] :"AgentCapability" 
+  :"agent_in"  [1..*] :"BFO_0000015" 
+
+CLASS :"HOSO_0000103"   
+  LABEL @en 'healthcare organization service delivery ending temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.' 
+  ISA :"OpenLHS-Core_0000065"  
+
+CLASS :"HOSO_0000102"   
+  LABEL @en 'healthcare organization service delivery beginning temporal information' 
+  DESCRIPTION @en 'A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.' 
+  ISA :"OpenLHS-Core_0000065"  
+
+CLASS :"IAO_0000579"   
+  LABEL @en 'centrally registered identifier registry' 
+  DESCRIPTION @en 'A code set of CRID records, each consisting of a CRID symbol and additional information which was recorded in the code set through an assigning a centrally registered identifier process.' 
+  ISA :"IAO_0020020"  
+
+CLASS :"HOSO_0000100"   
+  LABEL @en 'healthcare organization service delivery identifier' 
+  DESCRIPTION @en 'An identifier that denotes a healthcare organization service delivery.' 
+  ISA :"IAO_0020000"  
+
+CLASS :"NCBITaxon_2759"   
+  LABEL @en 'Eukaryota'  
+  ISA :"OBI_0100026"  
+
+CLASS :"OGMS_0000129"   
+  LABEL @en 'physical sign' 
+  DESCRIPTION @en 'An abnormal material entity that is part of a patient and hypothesized to be clinically relevant.' 
+  ISA :"BFO_0000040"  
+
+CLASS :"IAO_0000577"   
+  LABEL @en 'centrally registered identifier symbol' 
+  DESCRIPTION @en 'A symbol that is part of a CRID and that is sufficient to look up a record from the CRID%'s registry.' 
+  ISA :"IAO_0000028"  
+  :"BFO_0000050"  [1..*] :"IAO_0000578" 
+
+CLASS :"IAO_0000578"   
+  LABEL @en 'centrally registered identifier' 
+  DESCRIPTION @en 'An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.' 
+  ISA :"IAO_0020000"  
+  :"BFO_0000051"  [1..*] :"IAO_0000577" 
+  :"BFO_0000051"  [1..*] :"ONTORELA_C3f6f3e4f" 
+
+CLASS :"PDRO_0000042"   
+  LABEL @en 'drug dispensing record' 
+  DESCRIPTION @en 'An information content entity that is usually part of a pharmacist information system and includes patient identification as well as drug dispensing record item.' 
+  ISA :"IAO_0000030"  
+  :"RO_0002180"  [1..1] :"IOIO_0000014" 
+  :"BFO_0000051"  [1..*] :"PDRO_0000041" 
+
+CLASS :"PDRO_0000041"   
+  LABEL @en 'drug dispensing record item' 
+  DESCRIPTION @en 'A data item that is part of a drug-dispensing record and describes the dispensing process, including how much of some drug products have been dispensed to a patient.' 
+  ISA :"IAO_0000027"  
+
+CLASS :"OGMS_0000020"   
+  LABEL @en 'symptom' 
+  DESCRIPTION @en 'A process experienced by the patient, which can only be experienced by the patient, that is hypothesized to be clinically relevant.' 
+  ISA :"BFO_0000015"  
+
+CLASS :"OGMS_0000141"   
+  LABEL @en 'processual sign' 
+  DESCRIPTION @en 'An abnormal processual entity occuring in a patient that is hypothesized to be clinically relevant.' 
+  ISA :"BFO_0000015"  
+
+CLASS :"OGMS_0000142"   
+  LABEL @en 'qualitative sign' 
+  DESCRIPTION @en 'An abnormal observable quality of a part of a patient that is hypothesized to be clinically relevant.' 
+  ISA :"BFO_0000019"  
+
+CLASS :"IOIO_0000013"   
+  LABEL @en 'organism identifier' 
+  DESCRIPTION @en 'An identifier that denotes a particular organism.' 
+  ISA :"IAO_0020000"  
+  :"IAO_0000219"  [1..*] :"OBI_0100026" 
+
+CLASS :"IOIO_0000014"   
+  LABEL @en 'human identifier' 
+  DESCRIPTION @en 'An organism identifier that denotes a particular human.' 
+  ISA :"IOIO_0000013"  
+  :"IAO_0000219"  [1..*] :"NCBITaxon_9606" 
+
+CLASS :"IOIO_0000015"   
+  LABEL @en 'human biological sex statement' 
+  DESCRIPTION @en 'A statement stating the biological sex of a human.' 
+  ISA :"SEPIO_0000174"  
+  :"RO_0002180"  [1..*] :"IOIO_0000011" 
+  :"RO_0002180"  [1..*] :"IOIO_0000014" 
+
+CLASS :"IOIO_0000020"   
+  LABEL @en 'human birth date' 
+  DESCRIPTION @en 'A human birth temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.' 
+  ISA :"IOIO_0000005"  
+
+CLASS :"IOIO_0000021"   
+  LABEL @en 'human death date' 
+  DESCRIPTION @en 'A human death temporal information that denotes a time interval of one day as defined in a calendar accepted in a human society.' 
+  ISA :"IOIO_0000006"  
+
+CLASS :"IAO_0020000"   
+  LABEL @en 'identifier' 
+  DESCRIPTION @en 'An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.' 
+  ISA :"IAO_0000030"  
+  :"OBI_0000312"  [1..*] :"IAO_0020010" 
+  :"IAO_0000219"  [1..*] :"BFO_0000001" 
+
+CLASS :"SEPIO_0000187"   
+  LABEL @en 'confidence level' 
+  DESCRIPTION @en 'A measurement datum that quantifies the level of confidence an agent has that a particular piece of information is true.' 
+  ISA :"IAO_0000109"  
+  :"IAO_0000136"  [1..*] :"IAO_0000030" 
+  :"OpenLHS-Core_0000005"  [1..*] :"Agent" 
+
+CLASS :"PDRO_0000040"   
+  LABEL @en 'drug dispensing procedure' 
+  DESCRIPTION @en 'A healthcare procedure in which a specified quantity of a particular drug product is made available with the goal of the drug product being administered to an organism.' 
+  ISA :"HOSO_0000010"  
+
+CLASS :"IAO_0000310"   
+  LABEL @en 'document' 
+  DESCRIPTION @en 'A collection of information content entities intended to be understood together as a whole' 
+  ISA :"IAO_0000030"  
+
+CLASS :"HDRN_0000003"   
+  LABEL @en 'HDRN human birth temporal information'  
+  ISA :"IOIO_0000005"  
+  :"HDRN_0000001"  [1..1] :"dateTime" 
+
+CLASS :"HDRN_0000002"   
+  LABEL @en 'HDRN human biological sex information content entity'  
+  ISA :"IOIO_0000011"  
+
+CLASS :"OGMS_0000031"   
+  LABEL @en 'disease' 
+  DESCRIPTION @en 'A disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.' 
+  ISA :"OpenLHS-Core_0000060" 
+  ISA :"BFO_0000016"  
+
+CLASS :"IAO_0000300"   
+  LABEL @en 'textual entity' 
+  DESCRIPTION @en 'A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"IAO_0000422"   
+  LABEL @en 'postal address' 
+  DESCRIPTION @en 'A textual entity that is used as directive to deliver something to a person, or organization' 
+  ISA :"IAO_0000300"  
+
+CLASS :"SEPIO_0000174"   
+  LABEL @en 'statement' 
+  DESCRIPTION @en 'An information content entity expressing a declarative sentence that is either true or false.' 
+  ISA :"IAO_0000030"  
+
+CLASS :"IAO_0020010"   
+  LABEL @en 'identifier creating process' 
+  DESCRIPTION @en 'A planned process that provides a reference to an individual entity shared by a group of subscribers to refer to that individual entity.' 
+  ISA :"OBI_0000011"  
+  :"OBI_0000299"  [1..*] :"IAO_0020000" 
+
+CLASS :"ONTORELA_C624fa67d"   
+  LABEL @fr 'IOIO_0000001
+ and (IAO_0000136 exactly 1 HOSO_0000137)'
+    @en 'human birth statement
+ and (is about exactly 1 human clinical visit specified patient)' 
+  DESCRIPTION @fr 'HOSO_0000041'
+    @en 'healthcare birth visitA process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.' 
+  ISA :"IOIO_0000001"  
+  :"IAO_0000136"  [1..1] :"HOSO_0000137" 
+
+CLASS :"ONTORELA_C5c900f41"   
+  LABEL @fr 'IOIO_0000003
+ and (IAO_0000136 exactly 1 HOSO_0000137)'
+    @en 'human death statement
+ and (is about exactly 1 human clinical visit specified patient)' 
+  DESCRIPTION @fr 'HOSO_0000045'
+    @en 'healthcare visit of expirationA process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.' 
+  ISA :"IOIO_0000003"  
+  :"IAO_0000136"  [1..1] :"HOSO_0000137" 
+
+CLASS :"ONTORELA_C73b67cf5"   
+  LABEL @fr 'BFO_0000015
+ and (BFO_0000055 some OpenLHS-Core_0000043)'
+    @en 'process
+ and (realizes some agent plan to act as if some statement was true)' 
+  DESCRIPTION @fr 'OpenLHS-Core_0000010'
+    @en 'pragmatically accepted statementp is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) A plan of an agent to act as if some statement was true.' 
+  ISA :"BFO_0000015"  
+  :"BFO_0000055"  [1..*] :"OpenLHS-Core_0000043" 
+
+CLASS :"ONTORELA_Cdb7d47d"   
+  LABEL @fr 'HOSO_0000012
+ and (RO_0002090 some HOSO_0000038)'
+    @en 'healthcare organization clinical visit
+ and (immediately precedes some immediate inpatient subsequent visit)' 
+  DESCRIPTION @fr 'HOSO_0000039'
+    @en 'prior visit category to an inpatient visitA healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes. An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.' 
+  ISA :"HOSO_0000012"  
+  :"RO_0002090"  [1..*] :"HOSO_0000038" 
+
+CLASS :"ONTORELA_C3f6f3e4f"   
+  LABEL @fr 'IAO_0000219 some IAO_0000579'
+    @en 'denotes some centrally registered identifier registry' 
+  DESCRIPTION @fr 'IAO_0000578'
+    @en 'centrally registered identifierA code set of CRID records, each consisting of a CRID symbol and additional information which was recorded in the code set through an assigning a centrally registered identifier process.' 
+  :"IAO_0000219"  [1..*] :"IAO_0000579" 
+
+CLASS :"ONTORELA_C2875fe2d"   
+  LABEL @fr 'RO_0000059 some IAO_0000104'
+    @en 'concretizes some plan specification' 
+  DESCRIPTION @fr 'OBI_0000011'
+    @en 'planned processA directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified.' 
+  :"RO_0000059"  [1..*] :"IAO_0000104" 
+
+CLASS :"ONTORELA_C6a3e089c"   
+  LABEL @fr 'BFO_0000015
+ and (has_agent some OBI_0000245)'
+    @en 'process
+ and (has agent some organization)' 
+  DESCRIPTION @fr 'OpenLHS-Core_0000011'
+    @en 'government sanctioned statementp is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003]) An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.' 
+  ISA :"BFO_0000015"  
+  :"has_agent"  [1..*] :"OBI_0000245" 
+

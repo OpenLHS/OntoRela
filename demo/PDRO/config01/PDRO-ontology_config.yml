@@ -1,5 +1,5 @@
-owlFilePath: demo/PDRO/PDRO.owl
-
+owlFilePath: test-data/_ontologies/PDRO/PDRO.owl
+loadEquivalentClass: false
 annotations:
   labels:
     - "http://www.w3.org/2000/01/rdf-schema#label"

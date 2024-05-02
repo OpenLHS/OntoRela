@@ -1,0 +1,34 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+Original ontology : http://purl.obolibrary.org/obo/geno.owl
+Alias : geno.owl
+@en Label : null
+
+--------------------------------------- 
+Original ontology
+--------------------------------------- 
+Nb. classes          : 393
+Nb. data properties  : 9
+Nb. object properties: 123
+Nb. isa axioms       : 366
+Nb. data axioms      : 6
+Nb. class axioms     : 96
+
+--------------------------------------- 
+Reduced ontology (axiom complexity reduction)
+--------------------------------------- 
+Nb. classes          : 401
+Nb. data properties  : 9
+Nb. object properties: 123
+Nb. isa axioms       : 378
+Nb. data axioms      : 2
+Nb. class axioms     : 98
+Nb. reduced class axioms: 8
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 744 KB

@@ -1,0 +1,528 @@
+
+======================================================= 
+OntoRel Diagnostics
+======================================================= 
+
+--------------------------------------- 
+OWL to SQL datatypes
+--------------------------------------- 
+
+--------------------------------------- 
+Axiom redundancy reduction
+--------------------------------------- 
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant
+ResearchAssistant [1..*] worksFor ResearchGroup
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software
+Software [1..*] softwareDocumentation Publication
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization
+Organization [1..*] affiliateOf Person
+Organization [1..*] affiliatedOrganizationOf Organization
+Organization [1..*] member Person
+Organization [1..*] orgPublication Publication
+Organization [1..*] subOrganizationOf Organization
+Reduction of: Organization [1..*] affiliateOf Person and Organization [1..*] affiliatedOrganizationOf Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] affiliateOf Person and Organization [1..*] member Person
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] affiliateOf Person and Organization [1..*] orgPublication Publication
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] affiliateOf Person and Organization [1..*] subOrganizationOf Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] affiliatedOrganizationOf Organization and Organization [1..*] member Person
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] affiliatedOrganizationOf Organization and Organization [1..*] orgPublication Publication
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] affiliatedOrganizationOf Organization and Organization [1..*] subOrganizationOf Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] member Person and Organization [1..*] orgPublication Publication
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] member Person and Organization [1..*] subOrganizationOf Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Organization [1..*] orgPublication Publication and Organization [1..*] subOrganizationOf Organization
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule
+Schedule [1..*] listedCourse Course
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent
+GraduateStudent [1..*] takesCourse GraduateCourse
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person
+Person [1..*] advisor Professor
+Person [1..*] degreeFrom University
+Person [1..*] doctoralDegreeFrom University
+Person [1..*] mastersDegreeFrom University
+Person [1..*] undergraduateDegreeFrom University
+Reduction of: Person [1..*] advisor Professor and Person [1..*] degreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] doctoralDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] degreeFrom University and Person [1..*] doctoralDegreeFrom University
+  d1=d2 & op2<op1 & r1=r2  ->  reduce: Person [1..*] doctoralDegreeFrom University
+Person [1..*] advisor Professor
+Person [1..*] mastersDegreeFrom University
+Person [1..*] undergraduateDegreeFrom University
+Person [1..*] doctoralDegreeFrom University
+Reduction of: Person [1..*] advisor Professor and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] doctoralDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] mastersDegreeFrom University and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] mastersDegreeFrom University and Person [1..*] doctoralDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] undergraduateDegreeFrom University and Person [1..*] doctoralDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Reduction of: Person [1..*] degreeFrom University and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op2<op1 & r1=r2  ->  reduce: Person [1..*] mastersDegreeFrom University
+Person [1..*] advisor Professor
+Person [1..*] undergraduateDegreeFrom University
+Person [1..*] doctoralDegreeFrom University
+Person [1..*] mastersDegreeFrom University
+Reduction of: Person [1..*] advisor Professor and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] doctoralDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] undergraduateDegreeFrom University and Person [1..*] doctoralDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] undergraduateDegreeFrom University and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] doctoralDegreeFrom University and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Reduction of: Person [1..*] degreeFrom University and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op2<op1 & r1=r2  ->  reduce: Person [1..*] undergraduateDegreeFrom University
+Person [1..*] advisor Professor
+Person [1..*] doctoralDegreeFrom University
+Person [1..*] mastersDegreeFrom University
+Person [1..*] undergraduateDegreeFrom University
+Reduction of: Person [1..*] advisor Professor and Person [1..*] doctoralDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] advisor Professor and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] doctoralDegreeFrom University and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] doctoralDegreeFrom University and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] mastersDegreeFrom University and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+Reduction of: Person [1..*] doctoralDegreeFrom University and Person [1..*] mastersDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] doctoralDegreeFrom University and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+Reduction of: Person [1..*] mastersDegreeFrom University and Person [1..*] undergraduateDegreeFrom University
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant
+TeachingAssistant [1..*] teachingAssistantOf Course
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#College
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup
+ResearchGroup [1..*] researchProject Research
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#University
+University [1..*] hasAlumnus Person
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty
+Faculty [1..*] teacherOf Course
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair
+
+============ Reducing class axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication
+Publication [1..*] publicationAuthor Person
+Publication [1..*] publicationResearch Research
+Reduction of: Publication [1..*] publicationAuthor Person and Publication [1..*] publicationResearch Research
+  d1=d2 & op1><op2 & r2><r1  -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#University
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#College
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department
+===== Les axiomes 
+Organization [1..*] affiliateOf Person
+Organization [1..*] affiliatedOrganizationOf Organization
+Organization [1..*] member Person
+Organization [1..*] orgPublication Publication
+Organization [1..*] subOrganizationOf Organization
+University [1..*] hasAlumnus Person
+===== Les permutations 
+Reduction of: University [1..*] hasAlumnus Person and Organization [1..*] affiliateOf Person
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: University [1..*] hasAlumnus Person and Organization [1..*] affiliatedOrganizationOf Organization
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: University [1..*] hasAlumnus Person and Organization [1..*] member Person
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: University [1..*] hasAlumnus Person and Organization [1..*] orgPublication Publication
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: University [1..*] hasAlumnus Person and Organization [1..*] subOrganizationOf Organization
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+Organization [1..*] affiliateOf Person
+Organization [1..*] affiliatedOrganizationOf Organization
+Organization [1..*] member Person
+Organization [1..*] orgPublication Publication
+Organization [1..*] subOrganizationOf Organization
+===== Les permutations 
+
+
+
+
+
+===== Les axiomes 
+Organization [1..*] affiliateOf Person
+Organization [1..*] affiliatedOrganizationOf Organization
+Organization [1..*] member Person
+Organization [1..*] orgPublication Publication
+Organization [1..*] subOrganizationOf Organization
+===== Les permutations 
+
+
+
+
+
+===== Les axiomes 
+Organization [1..*] affiliateOf Person
+Organization [1..*] affiliatedOrganizationOf Organization
+Organization [1..*] member Person
+Organization [1..*] orgPublication Publication
+Organization [1..*] subOrganizationOf Organization
+ResearchGroup [1..*] researchProject Research
+===== Les permutations 
+Reduction of: ResearchGroup [1..*] researchProject Research and Organization [1..*] affiliateOf Person
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ResearchGroup [1..*] researchProject Research and Organization [1..*] affiliatedOrganizationOf Organization
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ResearchGroup [1..*] researchProject Research and Organization [1..*] member Person
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ResearchGroup [1..*] researchProject Research and Organization [1..*] orgPublication Publication
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ResearchGroup [1..*] researchProject Research and Organization [1..*] subOrganizationOf Organization
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+Organization [1..*] affiliateOf Person
+Organization [1..*] affiliatedOrganizationOf Organization
+Organization [1..*] member Person
+Organization [1..*] orgPublication Publication
+Organization [1..*] subOrganizationOf Organization
+===== Les permutations 
+
+
+
+
+
+===== Les axiomes 
+Organization [1..*] affiliateOf Person
+Organization [1..*] affiliatedOrganizationOf Organization
+Organization [1..*] member Person
+Organization [1..*] orgPublication Publication
+Organization [1..*] subOrganizationOf Organization
+===== Les permutations 
+
+
+
+
+
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent
+===== Les axiomes 
+Person [1..*] advisor Professor
+Person [1..*] doctoralDegreeFrom University
+Person [1..*] mastersDegreeFrom University
+Person [1..*] undergraduateDegreeFrom University
+ResearchAssistant [1..*] worksFor ResearchGroup
+===== Les permutations 
+Reduction of: ResearchAssistant [1..*] worksFor ResearchGroup and Person [1..*] advisor Professor
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ResearchAssistant [1..*] worksFor ResearchGroup and Person [1..*] doctoralDegreeFrom University
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ResearchAssistant [1..*] worksFor ResearchGroup and Person [1..*] mastersDegreeFrom University
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: ResearchAssistant [1..*] worksFor ResearchGroup and Person [1..*] undergraduateDegreeFrom University
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+Person [1..*] advisor Professor
+Person [1..*] doctoralDegreeFrom University
+Person [1..*] mastersDegreeFrom University
+Person [1..*] undergraduateDegreeFrom University
+GraduateStudent [1..*] takesCourse GraduateCourse
+===== Les permutations 
+Reduction of: GraduateStudent [1..*] takesCourse GraduateCourse and Person [1..*] advisor Professor
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GraduateStudent [1..*] takesCourse GraduateCourse and Person [1..*] doctoralDegreeFrom University
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GraduateStudent [1..*] takesCourse GraduateCourse and Person [1..*] mastersDegreeFrom University
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: GraduateStudent [1..*] takesCourse GraduateCourse and Person [1..*] undergraduateDegreeFrom University
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff
+===== Les axiomes 
+Faculty [1..*] teacherOf Course
+===== Les permutations 
+===== Les axiomes 
+===== Les permutations 
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#College
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#University
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+===== Les axiomes 
+Faculty [1..*] teacherOf Course
+===== Les permutations 
+
+===== Les axiomes 
+Faculty [1..*] teacherOf Course
+===== Les permutations 
+
+===== Les axiomes 
+Faculty [1..*] teacherOf Course
+===== Les permutations 
+
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair
+============ Reducing class and subclasses axioms of http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication
+===== Les axiomes 
+Publication [1..*] publicationAuthor Person
+Publication [1..*] publicationResearch Research
+===== Les permutations 
+
+
+===== Les axiomes 
+Publication [1..*] publicationAuthor Person
+Publication [1..*] publicationResearch Research
+===== Les permutations 
+
+
+===== Les axiomes 
+Publication [1..*] publicationAuthor Person
+Publication [1..*] publicationResearch Research
+===== Les permutations 
+
+
+===== Les axiomes 
+Publication [1..*] publicationAuthor Person
+Publication [1..*] publicationResearch Research
+===== Les permutations 
+
+
+===== Les axiomes 
+Publication [1..*] publicationAuthor Person
+Publication [1..*] publicationResearch Research
+Software [1..*] softwareDocumentation Publication
+===== Les permutations 
+Reduction of: Software [1..*] softwareDocumentation Publication and Publication [1..*] publicationAuthor Person
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+Reduction of: Software [1..*] softwareDocumentation Publication and Publication [1..*] publicationResearch Research
+  d1<d2 & op1><op2 & r2><r1 -> not Applicable 
+
+===== Les axiomes 
+Publication [1..*] publicationAuthor Person
+Publication [1..*] publicationResearch Research
+===== Les permutations 
+
+
+============ Reduction summary
+Creating join table for: ResearchAssistant [1..*] worksFor ResearchGroup
+Creating join table for: Software [1..*] softwareDocumentation Publication
+Creating join table for: Organization [1..*] affiliateOf Person
+Creating join table for: Organization [1..*] affiliatedOrganizationOf Organization
+Creating join table for: Organization [1..*] member Person
+Creating join table for: Organization [1..*] orgPublication Publication
+Creating join table for: Organization [1..*] subOrganizationOf Organization
+Creating join table for: Schedule [1..*] listedCourse Course
+Creating join table for: GraduateStudent [1..*] takesCourse GraduateCourse
+Creating join table for: Person [1..*] advisor Professor
+Creating join table for: Person [1..*] doctoralDegreeFrom University
+Creating join table for: Person [1..*] mastersDegreeFrom University
+Creating join table for: Person [1..*] undergraduateDegreeFrom University
+Creating join table for: TeachingAssistant [1..*] teachingAssistantOf Course
+Creating join table for: ResearchGroup [1..*] researchProject Research
+Creating join table for: University [1..*] hasAlumnus Person
+Creating join table for: Faculty [1..*] teacherOf Course
+Creating join table for: Publication [1..*] publicationAuthor Person
+Creating join table for: Publication [1..*] publicationResearch Research

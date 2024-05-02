@@ -1,10 +1,13 @@
 # Default database configurations
 schemaName: ENVO
-rdbmsName: postgresql
+rdbmsName:
+  - postgresql
 defaultKeyName: uid
 defaultKeyDomainName: uid_domain
 defaultKeyType: UUID
 defaultAttributeName : value
 defaultAttributeDomaineName: value_domain
 defaultAttributeType: TEXT
+useIRIasTableId: false
 normalizeDatatype: false
+removeThingTable: false

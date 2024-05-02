@@ -1,0 +1,1291 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: is administered by some (bearer of some health care provider organization role)
+    View attribute @en: uid is administered by some (bearer of some health care provider organization role)
+
+
+
+
+
+
+
+
+
+  View name @en: drug product
+ and (has disposition some 
+    (disposition
+     and ( inverse (is about) some Anatomical Therapeutic Chemical code)))
+  View name @fr: DRON_00000005
+ and (RO_0000091 some 
+    (BFO_0000016
+     and ( inverse (IAO_0000136) some PDRO_0000313)))
+    View attribute @en: uid drug product
+ and (has disposition some 
+    (disposition
+     and ( inverse (is about) some Anatomical Therapeutic Chemical code)))
+    View attribute @fr: uid DRON_00000005
+ and (RO_0000091 some 
+    (BFO_0000016
+     and ( inverse (IAO_0000136) some PDRO_0000313)))
+
+
+  View name @en: plan specification
+ and (has part some health care objective specification)
+  View name @fr: IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de santé)
+    View attribute @en: uid plan specification
+ and (has part some health care objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de santé)
+
+  View name @en: active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification or pharmacological unit value specification or active ingredient molar value specification
+  View name @fr: spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+    View attribute @en: uid active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification or pharmacological unit value specification or active ingredient molar value specification
+    View attribute @fr: uid spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+
+
+
+  View name @fr: condition indiquant qu'un nombre de distributions passées est plus petit qu'un certain nombre
+    View attribute @fr: uid condition indiquant qu'un nombre de distributions passées est plus petit qu'un certain nombre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @fr: uid spécification de la catégorie de la voie d'administration
+
+
+
+
+
+
+
+
+  View name @en: exactly some number of doses in drug administration condition
+    View attribute @en: uid exactly some number of doses in drug administration condition
+
+
+
+  View name @fr: condition sur le temps maximal écoulé depuis une précédente administration de dose
+    View attribute @en: uid less than some time elapsed since previous dose condition
+    View attribute @fr: uid condition sur le temps maximal écoulé depuis une précédente administration de dose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: facility
+ and (is owned by some (bearer of some health care provider organization role))
+  View name @fr: OMRSE_00000062
+ and (OMIABIS_0000048 some (RO_0000053 some OMRSE_00000015))
+    View attribute @en: uid facility
+ and (is owned by some (bearer of some health care provider organization role))
+    View attribute @fr: uid OMRSE_00000062
+ and (OMIABIS_0000048 some (RO_0000053 some OMRSE_00000015))
+
+
+
+
+
+
+
+  View name @fr: condition sur le temps minimal écoulé depuis une précédente administration de dose
+    View attribute @en: uid greater than some time elapsed since previous dose condition
+    View attribute @fr: uid condition sur le temps minimal écoulé depuis une précédente administration de dose
+
+
+
+
+
+
+
+
+
+  View name @en: plan specification
+ and (has part some treatment objective specification)
+  View name @fr: IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de traitement)
+    View attribute @en: uid plan specification
+ and (has part some treatment objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de traitement)
+
+
+
+
+
+  View name @en: drug administration specification
+ and (part of exactly 1 drug prescription)
+  View name @fr: spécification d’administration de médicament
+ and (BFO_0000050 exactly 1 prescription de médicaments)
+    View attribute @en: uid drug administration specification
+ and (part of exactly 1 drug prescription)
+    View attribute @fr: uid spécification d’administration de médicament
+ and (BFO_0000050 exactly 1 prescription de médicaments)
+
+
+
+
+  View name @fr: condition affirmant que l'instant présent est approximativement un instant donné
+    View attribute @fr: uid condition affirmant que l'instant présent est approximativement un instant donné
+
+
+
+
+
+
+
+
+
+  View name @fr: condition indiquant que le nombre de doses par unité de temps est supérieur à
+    View attribute @en: uid greater than some number of doses per unit time condition
+    View attribute @fr: uid condition indiquant que le nombre de doses par unité de temps est supérieur à
+
+
+
+
+
+  View name @en: 1d-t-region
+ and (part of some drug prescription validity period)
+    View attribute @en: uid 1d-t-region
+ and (part of some drug prescription validity period)
+
+
+
+  View name @fr: spécification de la période de validité de la distribution d'un médicament
+    View attribute @fr: uid spécification de la période de validité de la distribution d'un médicament
+
+
+
+
+
+
+
+
+    View attribute @fr: uid condition indiquant le temps écoulé depuis une distribution
+
+  View name @en: material
+ and (is_specified_output_of some specimen collection process)
+    View attribute @en: uid material
+ and (is_specified_output_of some specimen collection process)
+
+
+
+
+  View name @fr: condition indiquant que le nombre de doses par unité de temps est égal à
+    View attribute @fr: uid condition indiquant que le nombre de doses par unité de temps est égal à
+
+    View attribute @en: uid drug prescription starting validity temporal specification
+
+
+
+
+
+  View name @fr: condition sur le temps exactement écoulé depuis une précédente administration de dose
+    View attribute @fr: uid condition sur le temps exactement écoulé depuis une précédente administration de dose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: drug administration specification
+ and (part of some drug prescription)
+  View name @fr: spécification d’administration de médicament
+ and (BFO_0000050 some prescription de médicaments)
+    View attribute @en: uid drug administration specification
+ and (part of some drug prescription)
+    View attribute @fr: uid spécification d’administration de médicament
+ and (BFO_0000050 some prescription de médicaments)
+
+
+
+    View attribute @fr: uid condition décrivant le nombre de doses par unité de temps
+
+  View name @en: scattered molecular aggregate
+ and (is bearer of some active ingredient)
+    View attribute @en: uid scattered molecular aggregate
+ and (is bearer of some active ingredient)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @fr: condition indiquant que le nombre de doses par unité de temps est inférieur à
+    View attribute @fr: uid condition indiquant que le nombre de doses par unité de temps est inférieur à
+
+
+
+
+
+
+  View name @en: plan specification
+ and (has part some prophylaxis objective specification)
+  View name @fr: IAO_0000104
+ and (BFO_0000051 some spécification d'objectif prophylactique)
+    View attribute @en: uid plan specification
+ and (has part some prophylaxis objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif prophylactique)
+
+
+
+
+
+  View name @en: realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some prophylaxis objective specification)))
+  View name @fr: BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif prophylactique)))
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some prophylaxis objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif prophylactique)))
+
+
+
+
+
+
+
+  View name @en: realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some health care objective specification)))
+  View name @fr: BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de santé)))
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some health care objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de santé)))
+
+
+
+
+    View attribute @en: uid greater than some number of doses have occurred condition
+
+
+
+  View name @fr: condition indiquant le temps écoulé depuis une précédente administration de dose
+    View attribute @fr: uid condition indiquant le temps écoulé depuis une précédente administration de dose
+
+
+
+
+
+
+    View attribute @fr: uid condition de dosage total supérieur à une certaine quantité
+
+  View name @fr: élément d'information de force médicamenteuse par unité de volume
+    View attribute @fr: uid élément d'information de force médicamenteuse par unité de volume
+
+
+
+
+
+
+  View name @fr: condition indiquant le temps écoulé depuis une première administration de dose
+    View attribute @fr: uid condition indiquant le temps écoulé depuis une première administration de dose
+
+
+
+
+  View name @fr: condition indiquant le temps écoulé depuis une administration de dose
+    View attribute @fr: uid condition indiquant le temps écoulé depuis une administration de dose
+
+
+
+
+
+
+
+
+
+
+
+  View name @fr: élément d'information de force médicamenteuse par forme discrète
+    View attribute @fr: uid élément d'information de force médicamenteuse par forme discrète
+
+
+
+    View attribute @fr: uid spécification de quantité d’ingrédient actif dans une dose
+
+
+
+
+
+
+  View name @en: prescribed dosing specification
+ and (has part some initial rate of administration specification)
+  View name @fr: spécification de dosage prescrit
+ and (BFO_0000051 some spécification de débit initial d'administration de dose)
+    View attribute @en: uid prescribed dosing specification
+ and (has part some initial rate of administration specification)
+    View attribute @fr: uid spécification de dosage prescrit
+ and (BFO_0000051 some spécification de débit initial d'administration de dose)
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @fr: identification du temps de création d'une prescription médicale
+    View attribute @fr: uid identification du temps de création d'une prescription médicale
+
+
+  View name @en: specification of a part of a drug prescription validity period
+    View attribute @en: uid specification of a part of a drug prescription validity period
+
+
+
+
+
+  View name @en: greater than some time elapsed since the previous dispensing condition
+  View name @fr: condition de temps minimum passé depuis une distribution de médicament
+    View attribute @en: uid greater than some time elapsed since the previous dispensing condition
+    View attribute @fr: uid condition de temps minimum passé depuis une distribution de médicament
+
+
+
+
+
+
+  View name @en: active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification
+  View name @fr: spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament
+    View attribute @en: uid active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification
+    View attribute @fr: uid spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament
+
+  View name @en: realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some treatment objective specification)))
+  View name @fr: BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de traitement)))
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some treatment objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de traitement)))
+
+
+
+  View name @fr: administration de médicament
+ and (RO_0000057 some HADO_0000008)
+    View attribute @fr: uid administration de médicament
+ and (RO_0000057 some HADO_0000008)
+
+
+
+
+
+
+
+
+  View name @fr: condition de dosage total inférieur ou égal à une certaine quantité
+    View attribute @fr: uid condition de dosage total inférieur ou égal à une certaine quantité
+
+  View name @fr: élément d'information de force médicamenteuse par unité de masse
+    View attribute @fr: uid élément d'information de force médicamenteuse par unité de masse
+
+
+
+  View name @fr: spécification de taux d’administration de masse d’ingrédient actif
+    View attribute @fr: uid spécification de taux d’administration de masse d’ingrédient actif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: active ingredient mass value specification or pharmacological unit value specification or active ingredient molar value specification
+  View name @fr: spécification de valeur de masse d'ingrédient actif or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+    View attribute @en: uid active ingredient mass value specification or pharmacological unit value specification or active ingredient molar value specification
+    View attribute @fr: uid spécification de valeur de masse d'ingrédient actif or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+
+
+
+  View name @fr: spécification de site d’administration de médicament prescrit
+    View attribute @fr: uid spécification de site d’administration de médicament prescrit
+
+
+
+
+  View name @en: realizable entity
+ and (concretizes some drug dispensing specification)
+  View name @fr: BFO_0000017
+ and (RO_0000059 some spécification de distribution de médicament)
+    View attribute @en: uid realizable entity
+ and (concretizes some drug dispensing specification)
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some spécification de distribution de médicament)
+
+
+
+  View name @en: disposition
+ and ( inverse (is about) some Anatomical Therapeutic Chemical code)
+    View attribute @en: uid disposition
+ and ( inverse (is about) some Anatomical Therapeutic Chemical code)
+    View attribute @fr: uid BFO_0000016
+ and ( inverse (IAO_0000136) some PDRO_0000313)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @fr: spécification de distribution et d’administration de médicament
+    View attribute @fr: uid spécification de distribution et d’administration de médicament
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @fr: spécification d’intervalle de dose a valeur maximale de gamme
+
+
+  View name @fr: spécification d’intervalle de dose a valeur minimale de gamme
+
+  View name @en: dose specification has value specification active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification or pharmacological unit value specification or active ingredient molar value specification
+  View name @fr: spécification de dose OBI_0001938 spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+    View attribute @en: uid active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification or pharmacological unit value specification or active ingredient molar value specification
+    View attribute @fr: uid spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+
+  View name @en: drug dispensing frequency specification is about drug renewal process
+  View name @fr: spécification de fréquence de distribution de médicament IAO_0000136 processus de renouvellement de médicament
+
+  View name @en: drug dispensing frequency specification part of drug dispensing specification
+  View name @fr: spécification de fréquence de distribution de médicament BFO_0000050 spécification de distribution de médicament
+
+  View name @fr: condition indiquant la présence d'un symptôme IAO_0000136 OGMS_0000020
+
+
+
+
+  View name @en: active ingredient aggregate biological activity inheres in active ingredient aggregate
+  View name @fr: activité biologique d'un aggrégat d'ingrédient actif RO_0000052 aggrégat d'ingrédient actif
+
+  View name @en: number of doses in drug administration condition has part dose administration count specification
+  View name @fr: condition de nombre d’administration de doses BFO_0000051 spécification de nombre d'administrations de doses
+
+  View name @en: generic drug product proprietary label is about generic drug product
+  View name @fr: nom propriétaire d'un médicament générique IAO_0000136 médicament générique
+
+  View name @fr: condition indiquant la présence d'un signe IAO_0000136 OGMS_0000024
+
+
+
+  View name @en: drug product has_proper_part scattered molecular aggregate
+ and (is bearer of some active ingredient)
+  View name @fr: DRON_00000005 has_proper_part OBI_0000576
+ and (BFO_0000053 some DRON_00000028)
+    View attribute @en: uid scattered molecular aggregate
+ and (is bearer of some active ingredient)
+
+
+
+  View name @en: is administered by some (bearer of some health care provider organization role) is administered by bearer of some health care provider organization role
+  View name @fr: OMRSE_00000068 some (RO_0000053 some OMRSE_00000015) OMRSE_00000068 RO_0000053 some OMRSE_00000015
+    View attribute @en: uid is administered by some (bearer of some health care provider organization role)
+
+  View name @fr: OMIABIS_0001026
+ and (IAO_0000136 some HADO_0000008) IAO_0000136 HADO_0000008
+
+
+  View name @en: drug product
+ and (has disposition some 
+    (disposition
+     and ( inverse (is about) some Anatomical Therapeutic Chemical code))) has disposition disposition
+ and ( inverse (is about) some Anatomical Therapeutic Chemical code)
+  View name @fr: DRON_00000005
+ and (RO_0000091 some 
+    (BFO_0000016
+     and ( inverse (IAO_0000136) some PDRO_0000313))) RO_0000091 BFO_0000016
+ and ( inverse (IAO_0000136) some PDRO_0000313)
+    View attribute @en: uid drug product
+ and (has disposition some 
+    (disposition
+     and ( inverse (is about) some Anatomical Therapeutic Chemical code)))
+    View attribute @fr: uid DRON_00000005
+ and (RO_0000091 some 
+    (BFO_0000016
+     and ( inverse (IAO_0000136) some PDRO_0000313)))
+    View attribute @en: uid disposition
+ and ( inverse (is about) some Anatomical Therapeutic Chemical code)
+    View attribute @fr: uid BFO_0000016
+ and ( inverse (IAO_0000136) some PDRO_0000313)
+
+  View name @en: drug active ingredient specification has part active ingredient name
+  View name @fr: spécification d’ingrédient actif de médicament BFO_0000051 nom d'ingrédient actif
+
+  View name @en: plan specification
+ and (has part some health care objective specification) has part health care objective specification
+  View name @fr: IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de santé) BFO_0000051 spécification d'objectif de santé
+    View attribute @en: uid plan specification
+ and (has part some health care objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de santé)
+
+
+
+
+
+  View name @en: drug dispensing starting validity temporal specification part of drug dispensing validity period specification
+  View name @fr: PDRO_0000315 BFO_0000050 spécification de la période de validité de la distribution d'un médicament
+    View attribute @fr: uid spécification de la période de validité de la distribution d'un médicament
+
+  View name @en: Homo sapiens
+ and (bearer of some patient role) bearer of patient role
+  View name @fr: NCBITaxon_9606
+ and (RO_0000053 some OBI_0000093) RO_0000053 OBI_0000093
+
+
+
+  View name @en: route of administration specification is about drug administration
+  View name @fr: spécification de voie d'administration IAO_0000136 administration de médicament
+
+  View name @en: route of administration specification has value specification route of administration category specification
+  View name @fr: spécification de voie d'administration OBI_0001938 spécification de la catégorie de la voie d'administration
+    View attribute @fr: uid spécification de la catégorie de la voie d'administration
+
+  View name @en: duration of administration specification has part temporal duration specification
+  View name @fr: spécification de durée d'administration de dose BFO_0000051 spécification de durée temporelle
+
+  View name @en: total dosage condition has part temporal duration specification
+  View name @fr: condition de dosage total BFO_0000051 spécification de durée temporelle
+
+  View name @en: total dosage condition has part active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification or pharmacological unit value specification or active ingredient molar value specification
+  View name @fr: condition de dosage total BFO_0000051 spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+    View attribute @en: uid active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification or pharmacological unit value specification or active ingredient molar value specification
+    View attribute @fr: uid spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+
+  View name @en: drug dispensing ending validity temporal specification part of drug dispensing validity period specification
+  View name @fr: PDRO_0000314 BFO_0000050 spécification de la période de validité de la distribution d'un médicament
+    View attribute @fr: uid spécification de la période de validité de la distribution d'un médicament
+
+  View name @en: treatment realizes realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some treatment objective specification)))
+  View name @fr: OGMS_0000090 BFO_0000055 BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de traitement)))
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some treatment objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de traitement)))
+
+
+  View name @en: health care facility is owned by bearer of some health care provider organization role
+  View name @fr: OMRSE_00000102 OMIABIS_0000048 RO_0000053 some OMRSE_00000015
+
+  View name @en: drug administration specification has part drug product specification
+  View name @fr: spécification d’administration de médicament BFO_0000051 Spécification de produit médicamenteux
+
+  View name @en: drug administration specification has part prescribed dosing specification
+  View name @fr: spécification d’administration de médicament BFO_0000051 spécification de dosage prescrit
+
+  View name @en: number of dispensings condition has part drug dispensing count specification
+  View name @fr: condition indiquant un nombre de distributions passées BFO_0000051 spécification de nombre de distributions de médicaments
+
+  View name @en: survey execution realizes concretizes some survey plan specification
+
+
+  View name @en: drug prescription validity period specification denotes drug prescription validity period
+
+  View name @en: drug prescription validity period specification has part drug prescription starting validity temporal specification
+    View attribute @en: uid drug prescription starting validity temporal specification
+
+  View name @en: drug prescription validity period specification has part drug prescription ending validity temporal specification
+
+  View name @en: drug prescription validity period specification part of drug prescription
+
+  View name @en: initial rate of administration specification has part drug product volumetric flow rate value specification
+  View name @fr: spécification de débit initial d'administration de dose BFO_0000051 spécification de valeur de rythme de médicament
+
+  View name @en: bearer of some health care provider organization role bearer of health care provider organization role
+
+
+
+
+  View name @en: plan specification
+ and (has part some treatment objective specification) has part treatment objective specification
+  View name @fr: IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de traitement) BFO_0000051 spécification d'objectif de traitement
+    View attribute @en: uid plan specification
+ and (has part some treatment objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de traitement)
+
+  View name @en: drug administration specification
+ and (part of exactly 1 drug prescription) part of drug prescription
+  View name @fr: spécification d’administration de médicament
+ and (BFO_0000050 exactly 1 prescription de médicaments) BFO_0000050 prescription de médicaments
+    View attribute @en: uid drug administration specification
+ and (part of exactly 1 drug prescription)
+    View attribute @fr: uid spécification d’administration de médicament
+ and (BFO_0000050 exactly 1 prescription de médicaments)
+
+
+  View name @en: pharmacist drug administration specification instruction has part drug administration specification
+  View name @fr: PDRO_0000304 BFO_0000051 spécification d’administration de médicament
+
+  View name @en: pharmacist drug administration specification instruction has part drug dispensing specification
+  View name @fr: PDRO_0000304 BFO_0000051 spécification de distribution de médicament
+
+  View name @en: pharmacist drug administration specification instruction is about drug administration specification
+ and (part of exactly 1 drug prescription)
+  View name @fr: PDRO_0000304 IAO_0000136 spécification d’administration de médicament
+ and (BFO_0000050 exactly 1 prescription de médicaments)
+    View attribute @en: uid drug administration specification
+ and (part of exactly 1 drug prescription)
+    View attribute @fr: uid spécification d’administration de médicament
+ and (BFO_0000050 exactly 1 prescription de médicaments)
+
+  View name @en: active ingredient mass value specification is about active ingredient aggregate mass
+  View name @fr: spécification de valeur de masse d'ingrédient actif IAO_0000136 masse d'aggrégat d'ingrédient actif
+
+
+
+
+
+  View name @en: 1d-t-region
+ and (part of some drug prescription validity period) part of drug prescription validity period
+  View name @fr: BFO_0000038
+ and (BFO_0000050 some PDRO_0000322) BFO_0000050 PDRO_0000322
+    View attribute @en: uid 1d-t-region
+ and (part of some drug prescription validity period)
+
+  View name @en: health care prescription identifier part of health care prescription
+
+  View name @en: health care prescription identifier denotes health care prescription
+
+  View name @en: drug dispensing validity period specification has part starting validity temporal specification
+  View name @fr: spécification de la période de validité de la distribution d'un médicament BFO_0000051 spécification de début de période de validité
+    View attribute @fr: uid spécification de la période de validité de la distribution d'un médicament
+
+  View name @en: drug dispensing validity period specification part of drug dispensing specification
+  View name @fr: spécification de la période de validité de la distribution d'un médicament BFO_0000050 spécification de distribution de médicament
+    View attribute @fr: uid spécification de la période de validité de la distribution d'un médicament
+
+  View name @en: drug dispensing validity period specification has part ending validity temporal specification
+  View name @fr: spécification de la période de validité de la distribution d'un médicament BFO_0000051 spécification de fin de période de validité
+    View attribute @fr: uid spécification de la période de validité de la distribution d'un médicament
+
+
+  View name @fr: élément d'information d'ingrédient médicamenteux BFO_0000051 nom d'ingrédient actif
+
+
+  View name @fr: prescription de médicaments BFO_0000051 identification de prescripteur
+
+
+  View name @en: material
+ and (is_specified_output_of some specimen collection process) is_specified_output_of specimen collection process
+  View name @fr: BFO_0000040
+ and (OBI_0000312 some OBI_0000659) OBI_0000312 OBI_0000659
+    View attribute @en: uid material
+ and (is_specified_output_of some specimen collection process)
+
+
+
+
+  View name @fr: élément d'information sur un médicament IAO_0000136 DRON_00000005
+
+
+  View name @en: specimen role inheres in material
+ and (is_specified_output_of some specimen collection process)
+  View name @fr: OBI_0000112 RO_0000052 BFO_0000040
+ and (OBI_0000312 some OBI_0000659)
+    View attribute @en: uid material
+ and (is_specified_output_of some specimen collection process)
+
+
+
+
+
+  View name @en: dose administration specification has part dose quantification specification
+  View name @fr: spécification d'administration de dose BFO_0000051 spécification de quantification de dose
+
+  View name @en: drug administration specification
+ and (part of some drug prescription) part of drug prescription
+  View name @fr: spécification d’administration de médicament
+ and (BFO_0000050 some prescription de médicaments) BFO_0000050 prescription de médicaments
+    View attribute @en: uid drug administration specification
+ and (part of some drug prescription)
+    View attribute @fr: uid spécification d’administration de médicament
+ and (BFO_0000050 some prescription de médicaments)
+
+  View name @en: number of doses per unit time condition has value specification temporal duration specification
+  View name @fr: condition décrivant le nombre de doses par unité de temps OBI_0001938 spécification de durée temporelle
+    View attribute @fr: uid condition décrivant le nombre de doses par unité de temps
+
+  View name @en: number of doses per unit time condition has value specification dose administration count specification
+  View name @fr: condition décrivant le nombre de doses par unité de temps OBI_0001938 spécification de nombre d'administrations de doses
+    View attribute @fr: uid condition décrivant le nombre de doses par unité de temps
+
+  View name @en: scattered molecular aggregate
+ and (is bearer of some active ingredient) is bearer of active ingredient
+  View name @fr: OBI_0000576
+ and (BFO_0000053 some DRON_00000028) BFO_0000053 DRON_00000028
+    View attribute @en: uid scattered molecular aggregate
+ and (is bearer of some active ingredient)
+
+  View name @en: drug strength item has part active ingredient mass value specification or pharmacological unit value specification or active ingredient molar value specification
+  View name @fr: élément d'information de force médicamenteuse BFO_0000051 spécification de valeur de masse d'ingrédient actif or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+    View attribute @en: uid active ingredient mass value specification or pharmacological unit value specification or active ingredient molar value specification
+    View attribute @fr: uid spécification de valeur de masse d'ingrédient actif or spécification de valeur d'unité pharmacologique or spécification de valeur molaire d'ingrédient actif
+
+
+
+  View name @en: specimen collection process achieves_planned_objective specimen collection objective
+
+
+  View name @en: pharmacological unit value specification has measurement unit label pharmacological unit
+  View name @fr: spécification de valeur d'unité pharmacologique IAO_0000039 unité pharmacologique
+
+  View name @en: pharmacological unit value specification is about active ingredient aggregate biological activity
+  View name @fr: spécification de valeur d'unité pharmacologique IAO_0000136 activité biologique d'un aggrégat d'ingrédient actif
+
+  View name @en: plan specification
+ and (has part some prophylaxis objective specification) has part prophylaxis objective specification
+  View name @fr: IAO_0000104
+ and (BFO_0000051 some spécification d'objectif prophylactique) BFO_0000051 spécification d'objectif prophylactique
+    View attribute @en: uid plan specification
+ and (has part some prophylaxis objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif prophylactique)
+
+
+
+  View name @en: non-generic drug product proprietary label is about non-generic drug product
+  View name @fr: nom propriétaire d'un médicament non-générique IAO_0000136 médicament non-générique
+
+  View name @en: realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some prophylaxis objective specification))) concretizes plan specification
+ and (has part some prophylaxis objective specification)
+  View name @fr: BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif prophylactique))) RO_0000059 IAO_0000104
+ and (BFO_0000051 some spécification d'objectif prophylactique)
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some prophylaxis objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif prophylactique)))
+    View attribute @en: uid plan specification
+ and (has part some prophylaxis objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif prophylactique)
+
+
+  View name @en: health care prescription has part document creation time identification
+  View name @fr: prescription de santé BFO_0000051 identification de l'instant de création d'un document
+
+  View name @en: health care prescription has part medical record identifier or patient identification
+  View name @fr: prescription de santé BFO_0000051 HADO_0000006 or identification d'un patient
+
+  View name @en: health care prescription mentions Homo sapiens
+ and (bearer of some patient role)
+  View name @fr: prescription de santé IAO_0000142 NCBITaxon_9606
+ and (RO_0000053 some OBI_0000093)
+
+  View name @en: realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some health care objective specification))) concretizes plan specification
+ and (has part some health care objective specification)
+  View name @fr: BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de santé))) RO_0000059 IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de santé)
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some health care objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de santé)))
+    View attribute @en: uid plan specification
+ and (has part some health care objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de santé)
+
+  View name @en: objective specification objective_achieved_by planned process
+
+  View name @en: health care provider organization role realized in health care encounter
+
+  View name @en: prescribed drug administration realizes realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some health care objective specification)))
+  View name @fr: administration de médicament BFO_0000055 BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de santé)))
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some health care objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de santé)))
+
+  View name @en: prescribed drug administration has participant Homo sapiens
+ and (bearer of some patient role)
+  View name @fr: administration de médicament RO_0000057 NCBITaxon_9606
+ and (RO_0000053 some OBI_0000093)
+
+
+
+  View name @en: drug strength per volume unit item has part drug product volume value specification
+  View name @fr: élément d'information de force médicamenteuse par unité de volume BFO_0000051 spécification de valeur de volume de médicament
+    View attribute @fr: uid élément d'information de force médicamenteuse par unité de volume
+
+  View name @en: active ingredient aggregate mass inheres in active ingredient aggregate
+  View name @fr: masse d'aggrégat d'ingrédient actif RO_0000052 aggrégat d'ingrédient actif
+
+  View name @en: time elapsed condition has part temporal duration specification
+  View name @fr: condition de temps écoulé BFO_0000051 spécification de durée temporelle
+
+  View name @en: disease prophylaxis realizes realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some prophylaxis objective specification)))
+  View name @fr: OGMS_0000103 BFO_0000055 BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif prophylactique)))
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some prophylaxis objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif prophylactique)))
+
+  View name @en: planned process achieves_planned_objective objective specification
+
+
+  View name @en: medical record identifier denotes medical record
+ and (is about some patient)
+  View name @fr: HADO_0000006 IAO_0000219 OMIABIS_0001026
+ and (IAO_0000136 some HADO_0000008)
+
+  View name @en: concretizes some survey plan specification concretizes survey plan specification
+
+
+
+  View name @en: drug strength per discrete dose form item has part drug product object count specification
+  View name @fr: élément d'information de force médicamenteuse par forme discrète BFO_0000051 spécification de nombre de médicaments
+    View attribute @fr: uid élément d'information de force médicamenteuse par forme discrète
+
+
+  View name @en: patient identification has part health insurance identifier or person full name
+  View name @fr: identification d'un patient BFO_0000051 HADO_0000004 or OPMI_0000098
+
+  View name @en: drug dispensing process realizes realizable entity
+ and (concretizes some drug dispensing specification)
+  View name @fr: processus de distribution de médicament BFO_0000055 BFO_0000017
+ and (RO_0000059 some spécification de distribution de médicament)
+    View attribute @en: uid realizable entity
+ and (concretizes some drug dispensing specification)
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some spécification de distribution de médicament)
+
+  View name @en: pharmacist drug dispensing specification is about drug dispensing process
+  View name @fr: PDRO_0000194 IAO_0000136 processus de distribution de médicament
+
+  View name @en: prescribed dosing specification
+ and (has part some initial rate of administration specification) has part initial rate of administration specification
+  View name @fr: spécification de dosage prescrit
+ and (BFO_0000051 some spécification de débit initial d'administration de dose) BFO_0000051 spécification de débit initial d'administration de dose
+    View attribute @en: uid prescribed dosing specification
+ and (has part some initial rate of administration specification)
+    View attribute @fr: uid spécification de dosage prescrit
+ and (BFO_0000051 some spécification de débit initial d'administration de dose)
+
+
+
+
+
+
+  View name @en: continuing drug administration condition part of prescribed dosing specification
+  View name @fr: condition de continuation d’administration de médicament BFO_0000050 spécification de dosage prescrit
+
+  View name @en: role of scattered molecular aggregate inheres in scattered molecular aggregate
+
+  View name @en: health care prescription time identification part of health care prescription
+  View name @fr: identification du temps de création d'une prescription médicale BFO_0000050 prescription de santé
+    View attribute @fr: uid identification du temps de création d'une prescription médicale
+
+  View name @en: prescribed dosing specification has part dose administration specification
+  View name @fr: spécification de dosage prescrit BFO_0000051 spécification d'administration de dose
+
+  View name @en: specification of a part of a drug prescription validity period denotes 1d-t-region
+ and (part of some drug prescription validity period)
+  View name @fr: PDRO_0000321 IAO_0000219 BFO_0000038
+ and (BFO_0000050 some PDRO_0000322)
+    View attribute @en: uid specification of a part of a drug prescription validity period
+    View attribute @en: uid 1d-t-region
+ and (part of some drug prescription validity period)
+
+  View name @fr: prophylaxie médicamenteuse BFO_0000051 administration de dose
+
+  View name @en: present time instant condition has part temporal instant specification
+  View name @fr: condition sur l’instant présent BFO_0000051 spécification d'instant temporel
+
+  View name @en: prescription drug dispensing specification part of drug prescription
+
+  View name @en: prescription drug dispensing specification part of drug administration prescription item
+
+  View name @fr: Spécification de produit médicamenteux IAO_0000136 DRON_00000005
+
+  View name @en: drug product specification has part drug product proprietary label or active ingredient name
+  View name @fr: Spécification de produit médicamenteux BFO_0000051 PDRO_0000312 or nom d'ingrédient actif
+
+
+  View name @en: realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some treatment objective specification))) concretizes plan specification
+ and (has part some treatment objective specification)
+  View name @fr: BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de traitement))) RO_0000059 IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de traitement)
+    View attribute @en: uid realizable entity
+ and (concretizes some 
+    (plan specification
+     and (has part some treatment objective specification)))
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some 
+    (IAO_0000104
+     and (BFO_0000051 some spécification d'objectif de traitement)))
+    View attribute @en: uid plan specification
+ and (has part some treatment objective specification)
+    View attribute @fr: uid IAO_0000104
+ and (BFO_0000051 some spécification d'objectif de traitement)
+
+  View name @en: drug administration
+ and (has participant some patient) has participant patient
+  View name @fr: administration de médicament
+ and (RO_0000057 some HADO_0000008) RO_0000057 HADO_0000008
+    View attribute @fr: uid administration de médicament
+ and (RO_0000057 some HADO_0000008)
+
+  View name @en: information content entity has value specification value specification
+
+
+
+  View name @en: drug strength per mass unit item has part drug product mass value specification
+  View name @fr: élément d'information de force médicamenteuse par unité de masse BFO_0000051 spécification de valeur de masse de médicament
+    View attribute @fr: uid élément d'information de force médicamenteuse par unité de masse
+
+  View name @fr: identification de l'instant de création d'un document IAO_0000219 BFO_0000038
+
+  View name @en: drug perfusion specification part of prescribed dosing specification
+ and (has part some initial rate of administration specification)
+  View name @fr: spécification de taux de perfusion de médicament BFO_0000050 spécification de dosage prescrit
+ and (BFO_0000051 some spécification de débit initial d'administration de dose)
+    View attribute @en: uid prescribed dosing specification
+ and (has part some initial rate of administration specification)
+    View attribute @fr: uid spécification de dosage prescrit
+ and (BFO_0000051 some spécification de débit initial d'administration de dose)
+
+
+
+  View name @en: dosing frequency specification part of prescribed dosing specification
+
+  View name @fr: Numéro d’identification d’un médicament IAO_0000136 nom de médicament
+
+  View name @en: Drug Identification Number is about drug dose form specification
+  View name @fr: Numéro d’identification d’un médicament IAO_0000136 spécification de forme de dose médicamenteuse
+
+  View name @en: Drug Identification Number is about drug product
+ and (has disposition some 
+    (disposition
+     and ( inverse (is about) some Anatomical Therapeutic Chemical code)))
+  View name @fr: Numéro d’identification d’un médicament IAO_0000136 DRON_00000005
+ and (RO_0000091 some 
+    (BFO_0000016
+     and ( inverse (IAO_0000136) some PDRO_0000313)))
+    View attribute @en: uid drug product
+ and (has disposition some 
+    (disposition
+     and ( inverse (is about) some Anatomical Therapeutic Chemical code)))
+    View attribute @fr: uid DRON_00000005
+ and (RO_0000091 some 
+    (BFO_0000016
+     and ( inverse (IAO_0000136) some PDRO_0000313)))
+
+  View name @en: Drug Identification Number is about drug strength specification
+  View name @fr: Numéro d’identification d’un médicament IAO_0000136 spécification de force médicamenteuse
+
+  View name @en: centrally registered identifier has part centrally registered identifier symbol
+
+  View name @en: centrally registered identifier has part denotes some centrally registered identifier registry
+
+
+
+  View name @en: frequency value specification has measurement unit label frequency unit
+
+  View name @en: prescribed site of drug administration specification part of drug administration specification
+ and (part of some drug prescription)
+  View name @fr: spécification de site d’administration de médicament prescrit BFO_0000050 spécification d’administration de médicament
+ and (BFO_0000050 some prescription de médicaments)
+    View attribute @fr: uid spécification de site d’administration de médicament prescrit
+    View attribute @en: uid drug administration specification
+ and (part of some drug prescription)
+    View attribute @fr: uid spécification d’administration de médicament
+ and (BFO_0000050 some prescription de médicaments)
+
+  View name @en: dose range specification has measurement unit label measurement unit label
+
+  View name @en: pharmacist record item has part drug dispensing specification
+  View name @fr: PDRO_0000202 BFO_0000051 spécification de distribution de médicament
+
+  View name @en: pharmacist record item has part drug administration specification
+  View name @fr: PDRO_0000202 BFO_0000051 spécification d’administration de médicament
+
+  View name @en: realizable entity
+ and (concretizes some drug dispensing specification) concretizes drug dispensing specification
+  View name @fr: BFO_0000017
+ and (RO_0000059 some spécification de distribution de médicament) RO_0000059 spécification de distribution de médicament
+    View attribute @en: uid realizable entity
+ and (concretizes some drug dispensing specification)
+    View attribute @fr: uid BFO_0000017
+ and (RO_0000059 some spécification de distribution de médicament)
+
+  View name @en: drug administration description has part drug product characterization
+
+  View name @en: drug administration description is about drug administration
+ and (has participant some patient)
+  View name @fr: PDRO_0000323 IAO_0000136 administration de médicament
+ and (RO_0000057 some HADO_0000008)
+    View attribute @fr: uid administration de médicament
+ and (RO_0000057 some HADO_0000008)
+
+  View name @en: disposition
+ and ( inverse (is about) some Anatomical Therapeutic Chemical code) is about Anatomical Therapeutic Chemical code
+  View name @fr: BFO_0000016
+ and ( inverse (IAO_0000136) some PDRO_0000313) IAO_0000136 PDRO_0000313
+    View attribute @en: uid disposition
+ and ( inverse (is about) some Anatomical Therapeutic Chemical code)
+    View attribute @fr: uid BFO_0000016
+ and ( inverse (IAO_0000136) some PDRO_0000313)
+
+  View name @en: concretizes some plan specification concretizes plan specification
+
+  View name @en: denotes some centrally registered identifier registry denotes centrally registered identifier registry
+
+
+  View name @en: drug dispensing amount specification has value specification active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification
+  View name @fr: spécification de la quantité de médicament à distribuer OBI_0001938 spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament
+    View attribute @en: uid active ingredient mass value specification or drug product object count specification or drug product volume value specification or drug product mass value specification
+    View attribute @fr: uid spécification de valeur de masse d'ingrédient actif or spécification de nombre de médicaments or spécification de valeur de volume de médicament or spécification de valeur de masse de médicament
+
+  View name @en: drug dispensing amount specification part of drug dispensing specification
+  View name @fr: spécification de la quantité de médicament à distribuer BFO_0000050 spécification de distribution de médicament
+
+  View name @en: drug dispensing amount specification is about drug dispensing process
+  View name @fr: spécification de la quantité de médicament à distribuer IAO_0000136 processus de distribution de médicament
+
+  View name @en: health care provider role inheres in Homo sapiens or organization
+
+  View name @en: role in human social processes inheres in organization or organism
+
+  View name @en: centrally registered identifier symbol part of centrally registered identifier
+
+
+
+
+
+  View name @en: drug administration prescription item has part drug administration specification
+  View name @fr: PDRO_0000196 BFO_0000051 spécification d’administration de médicament
+

@@ -39,22 +39,22 @@ Dans le même dossier, OntoRela va générer tous les résultats :
 * DatabaseIdentifierAnomalies.txt : les identifiants avec le nombre de chaines de caractère qui dépasse le maximum (60 pour PostgreSQL).
 * DatabaseReport.txt : sommaire du contenu de la base de données.
 * DatabaseScripts : dossier contenant tous les scripts SQL de la base de données.
+* Graphs 
+  * InitialOntoGraph.dot : le graphe de l’ontologie initiale.
+  * OntoGraph.dot : le graphe de l’ontologie normalisée et filtrée.
+  * OntoRelGraph.dot : graphe de l’ontoRel.
+  * RelGraph.dot : le graphe de la base de données.
 * <ontologyname>.owl_normalized.txt : l’ontologie normalisée selon μOnto.
-* InitialOntoGraph.dot : le graphe de l’ontologie initiale.
+* <ontologyname>.owl_normalized.txt : l’ontologie normalisée en format Turtle.
 * MOnto-summary.txt : résumé de l'exécution de construction de l'ontologie.
-* OntoGraph.dot : le graphe de l’ontologie normalisée et filtrée
 * OntologyAnnotationDiagnostics.txt : les avertissements sur les annotations ontologiques.
 * OntologyAnomalies.txt : les avertissements sur les classes orphelines et sans axiomes de données.
 * OntologySummary.txt : sommaire du contenu de l’ontologie.
 * OntoRelA-summary.txt : sommaire quantitatif de l’ontologie.
 * OntoRelDiagnostics.txt : les avertissements sur la réduction.
-* OntoRelCat.json : catalogue de correspondance OntoRel en format JSON.
-* OntoRelCat.txt :  catalogue de correspondance OntoRel en format texte.
-* OntoRelGraph.dot : graphe de l’ontoRel.
 * README.txt : résumé de l’exécution d’OntoRela.
-* RelGraph.dot : le graphe de la base de données.
 
-Voir dans le dossier __resultat__ pour des exemples de sorties.
+Voir dans le dossier __demo__ pour des exemples de sorties.
 
 ## Utilisation
 1. Vérifier si vous avez Java installé, Java 1.8+ JDK is nécessaire.
@@ -75,7 +75,7 @@ Le code complet sera bientôt disponible.
 __demo__ : un jeu de données avec des ontologies et des configurations. <br>
 __results__ : contient OntoRelα les artéfacts de sortie des exécution des ontologies dans __demo__. <br>
 __report__ : contient des rapports techniques. <br>
-__OntoRelA-1.1.0.exe__ : l’exécutable de l’applicaiton.
+__OntoRelA-1.3.0.exe__ : l’exécutable de l’applicaiton.
 
 ## Responsables
 Pour plus d'information, contacter :
