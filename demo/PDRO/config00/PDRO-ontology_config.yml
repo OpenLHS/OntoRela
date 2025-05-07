@@ -1,5 +1,5 @@
-owlFilePath: demo/PDRO/PDRO_merged.owl
-
+owlFilePath: https://raw.githubusercontent.com/OpenLHS/PDRO/master/pdro.owl
+loadEquivalentClass: true
 annotations:
   labels:
     - "http://www.w3.org/2000/01/rdf-schema#label"

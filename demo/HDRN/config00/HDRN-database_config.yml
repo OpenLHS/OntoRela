@@ -1,0 +1,18 @@
+# Database configurations
+schemaName: HDRN
+rdbmsName:
+  - postgresql
+defaultKeyName: uid
+defaultKeyDomainName: uid_domain
+defaultKeyType: UUID
+defaultAttributeName: value
+defaultAttributeDomaineName: value_domain
+defaultAttributeType: TEXT
+maxIdentifierLength: 60
+useIriAsTableId: true
+normalizeDatatype: false
+generateOpTable: false
+removeThingTable: true
+languages:
+  - en
+  - fr

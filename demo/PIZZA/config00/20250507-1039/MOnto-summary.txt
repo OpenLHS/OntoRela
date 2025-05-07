@@ -1,0 +1,35 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+Original ontology : http://www.co-ode.org/ontologies/pizza
+Alias : pizza
+@en Label : pizza
+
+--------------------------------------- 
+Original ontology
+--------------------------------------- 
+Nb. classes          : 100
+Nb. data properties  : 0
+Nb. object properties: 8
+Nb. isa axioms       : 84
+Nb. data axioms      : 0
+Nb. class axioms     : 104
+
+--------------------------------------- 
+Reduced ontology (axiom complexity reduction)
+--------------------------------------- 
+Nb. classes          : 100
+Nb. data properties  : 0
+Nb. object properties: 8
+Nb. axioms: 234
+Nb. isa axioms       : 84
+Nb. data axioms      : 0
+Nb. class axioms     : 150
+Nb. reduced class axioms: 0
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 1271 KB

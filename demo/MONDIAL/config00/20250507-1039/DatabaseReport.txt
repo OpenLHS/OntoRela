@@ -1,0 +1,599 @@
+
+======================================================= 
+Database Report
+======================================================= 
+Mondial
+Schemas: 1
+  Schema [id=MONDIAL, schemaType=BASE]
+
+--------------------------------------- 
+MONDIAL
+--------------------------------------- 
+All Tables: 193
+Join Tables: 115
+Types: 7
+Foreign keys: 387
+Constraints: 178
+
+Tables:
+  Thing::Thing
+  Place::Place
+  ReifiedThing::ReifiedThing
+  Country::Country
+  EncompassedArea::EncompassedArea
+  Religion::Religion
+  Line::Line
+  AnthropoGeographicalRelationship::AnthropoGeographicalRelationship
+  AdministrativeArea::AdministrativeArea
+  Source::Source
+  Nothing::Nothing
+  Geometrical::Geometrical
+  PoliticalBody::PoliticalBody
+  Area::Area
+  Volcano::Volcano
+  Estuary::Estuary
+  LargeArea::LargeArea
+  SmallArea::SmallArea
+  TimeSeriesElement::TimeSeriesElement
+  Language::Language
+  Province::Province
+  EthnicGroup::EthnicGroup
+  Water::Water
+  PoliticalOrGeographicalThing::PoliticalOrGeographicalThing
+  River::River
+  Mountains::Mountains
+  PoliticalThing::PoliticalThing
+  GeographicalThing::GeographicalThing
+  Border::Border
+  Island::Island
+  Desert::Desert
+  SpokenBy::SpokenBy
+  Lake::Lake
+  AnthropoGeographicalThing::AnthropoGeographicalThing
+  AdministrativeSubdivision::AdministrativeSubdivision
+  Encompassed::Encompassed
+  NonGeographicalPoliticalThing::NonGeographicalPoliticalThing
+  Continent::Continent
+  MondialThing::MondialThing
+  Islands::Islands
+  Measurement::Measurement
+  Location::Location
+  Mountain::Mountain
+  Organization::Organization
+  City::City
+  BelievedBy::BelievedBy
+  EthnicProportion::EthnicProportion
+  YearlyMeasurement::YearlyMeasurement
+  Sea::Sea
+  Membership::Membership
+  PopulationCount::PopulationCount
+  GeographicalNonPoliticalThing::GeographicalNonPoliticalThing
+  believeInReligion::believeInReligion
+  believedInCountry::believedInCountry
+  belongToEthnicGroup::belongToEthnicGroup
+  belongsTo::belongsTo
+  belongsToIslands::belongsToIslands
+  borders::borders
+  capital::capital
+  cityIn::cityIn
+  dependentOf::dependentOf
+  encompassed::encompassed
+  encompassedArea::encompassedArea
+  encompassedBy::encompassedBy
+  encompassedByInfo::encompassedByInfo
+  encompasses::encompasses
+  encompassesInfo::encompassesInfo
+  ethnicInfo::ethnicInfo
+  ethnicInfo-::ethnicInfo-
+  flowsInto::flowsInto
+  flowsThrough::flowsThrough
+  followedInInfo::followedInInfo
+  hadPopulation::hadPopulation
+  hasBorder::hasBorder
+  hasCity::hasCity
+  hasEstuary::hasEstuary
+  hasEstuary-::hasEstuary-
+  hasHeadq::hasHeadq
+  hasMember::hasMember
+  hasMembership::hasMembership
+  hasProvince::hasProvince
+  hasSource::hasSource
+  hasSource-::hasSource-
+  inMountains::inMountains
+  inOrganization::inOrganization
+  isBorderOf::isBorderOf
+  isCapitalOf::isCapitalOf
+  isInMembership::isInMembership
+  isMember::isMember
+  isProvinceOf::isProvinceOf
+  languageInfo::languageInfo
+  languageInfo-::languageInfo-
+  liveInCountry::liveInCountry
+  liveInInfo::liveInInfo
+  locatedAt::locatedAt
+  locatedIn::locatedIn
+  locatedInWater::locatedInWater
+  locatedOnIsland::locatedOnIsland
+  mergesWith::mergesWith
+  neighbor::neighbor
+  ofMember::ofMember
+  ofObject::ofObject
+  onEthnicGroup::onEthnicGroup
+  onLanguage::onLanguage
+  onReligion::onReligion
+  religionInfo::religionInfo
+  religionInfo-::religionInfo-
+  speakLanguage::speakLanguage
+  spokenInCountry::spokenInCountry
+  spokenInInfo::spokenInInfo
+  wasDependentOf::wasDependentOf
+  Organization_abbrev_string::Organization_abbrev_string
+  Country_carCode_string::Country_carCode_string
+  Location_elevation_decimal::Location_elevation_decimal
+  Organization_established_date::Organization_established_date
+  Country_gdpAgri_decimal::Country_gdpAgri_decimal
+  Country_gdpInd_decimal::Country_gdpInd_decimal
+  Country_gdpServ_decimal::Country_gdpServ_decimal
+  Country_gdpTotal_decimal::Country_gdpTotal_decimal
+  Country_government_string::Country_government_string
+  Country_independenceDate_date::Country_independenceDate_date
+  Country_infantMortality_decimal::Country_infantMortality_decimal
+  Country_inflation_decimal::Country_inflation_decimal
+  Volcano_lastEruption_date::Volcano_lastEruption_date
+  Location_latitude_decimal::Location_latitude_decimal
+  Line_length_decimal::Line_length_decimal
+  City_localname_string::City_localname_string
+  Country_localname_string::Country_localname_string
+  Province_localname_string::Province_localname_string
+  Location_longitude_decimal::Location_longitude_decimal
+  PopulationCount_population_nonNegativeInteger::PopulationCount_population_nonNegativeInteger
+  Country_populationGrowth_decimal::Country_populationGrowth_decimal
+  Country_unemployment_decimal::Country_unemployment_decimal
+  Measurement_value_decimal::Measurement_value_decimal
+  YearlyMeasurement_year_nonNegativeInteger::YearlyMeasurement_year_nonNegativeInteger
+  City_area_Literal::City_area_Literal
+  YearlyMeasurement_year_Literal::YearlyMeasurement_year_Literal
+  Country_believeInReligion_Religion::Country_believeInReligion_Religion
+  Country_belongToEthnicGroup_EthnicGroup::Country_belongToEthnicGroup_EthnicGroup
+  Country_dependentOf_Country::Country_dependentOf_Country
+  Country_ethnicInfo_EthnicProportion::Country_ethnicInfo_EthnicProportion
+  Country_hadPopulation_PopulationCount::Country_hadPopulation_PopulationCount
+  Country_hasProvince_Province::Country_hasProvince_Province
+  Country_isMember_Organization::Country_isMember_Organization
+  Country_languageInfo_SpokenBy::Country_languageInfo_SpokenBy
+  Country_neighbor_Country::Country_neighbor_Country
+  Country_religionInfo_BelievedBy::Country_religionInfo_BelievedBy
+  Country_speakLanguage_Language::Country_speakLanguage_Language
+  Country_wasDependentOf_PoliticalBody::Country_wasDependentOf_PoliticalBody
+  EncompassedArea_encompassed_Continent::EncompassedArea_encompassed_Continent
+  AdministrativeArea_capital_City::AdministrativeArea_capital_City
+  AdministrativeArea_hasCity_City::AdministrativeArea_hasCity_City
+  Source_inMountains_Mountains::Source_inMountains_Mountains
+  Source_hasSource-_Thing::Source_hasSource-_Thing
+  Estuary_hasEstuary-_Thing::Estuary_hasEstuary-_Thing
+  LargeArea_borders_LargeArea::LargeArea_borders_LargeArea
+  Province_hadPopulation_PopulationCount::Province_hadPopulation_PopulationCount
+  Water_flowsInto_Thing::Water_flowsInto_Thing
+  River_flowsInto_Water::River_flowsInto_Water
+  River_flowsThrough_Lake::River_flowsThrough_Lake
+  River_hasEstuary_Estuary::River_hasEstuary_Estuary
+  River_hasSource_Source::River_hasSource_Source
+  River_locatedOnIsland_Island::River_locatedOnIsland_Island
+  River_hasEstuary_Thing::River_hasEstuary_Thing
+  River_hasSource_Thing::River_hasSource_Thing
+  GeographicalThing_locatedIn_Area::GeographicalThing_locatedIn_Area
+  Border_isBorderOf_Country::Border_isBorderOf_Country
+  Border_isBorderOf_Thing::Border_isBorderOf_Thing
+  Island_belongsToIslands_Islands::Island_belongsToIslands_Islands
+  Island_locatedInWater_Water::Island_locatedInWater_Water
+  SpokenBy_onLanguage_Language::SpokenBy_onLanguage_Language
+  Lake_flowsInto_Water::Lake_flowsInto_Water
+  Lake_locatedOnIsland_Island::Lake_locatedOnIsland_Island
+  AdministrativeSubdivision_belongsTo_Country::AdministrativeSubdivision_belongsTo_Country
+  Encompassed_encompassedArea_EncompassedArea::Encompassed_encompassedArea_EncompassedArea
+  Encompassed_encompassedBy_Continent::Encompassed_encompassedBy_Continent
+  Measurement_ofObject_MondialThing::Measurement_ofObject_MondialThing
+  Mountain_inMountains_Mountains::Mountain_inMountains_Mountains
+  Mountain_locatedOnIsland_Island::Mountain_locatedOnIsland_Island
+  Organization_hasHeadq_City::Organization_hasHeadq_City
+  City_hadPopulation_PopulationCount::City_hadPopulation_PopulationCount
+  City_locatedAt_Water::City_locatedAt_Water
+  City_locatedOnIsland_Island::City_locatedOnIsland_Island
+  City_locatedIn_Province::City_locatedIn_Province
+  City_isCapitalOf_Country::City_isCapitalOf_Country
+  City_cityIn_Province::City_cityIn_Province
+  City_locatedIn_Country::City_locatedIn_Country
+  City_cityIn_Country::City_cityIn_Country
+  BelievedBy_onReligion_Religion::BelievedBy_onReligion_Religion
+  EthnicProportion_onEthnicGroup_EthnicGroup::EthnicProportion_onEthnicGroup_EthnicGroup
+  Sea_mergesWith_Sea::Sea_mergesWith_Sea
+  Membership_inOrganization_Organization::Membership_inOrganization_Organization
+  Membership_ofMember_Country::Membership_ofMember_Country
+Foreign keys: 
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_AnthropoGeographicalRelationship, origin=AnthropoGeographicalRelationship::AnthropoGeographicalRelationship, destination=Thing::Thing, linkedAtt={AnthropoGeographicalRelationship_uid::AnthropoGeographicalRelationship_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_AdministrativeArea, origin=AdministrativeArea::AdministrativeArea, destination=Thing::Thing, linkedAtt={AdministrativeArea_uid::AdministrativeArea_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Nothing, origin=Nothing::Nothing, destination=Thing::Thing, linkedAtt={Nothing_uid::Nothing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Geometrical, origin=Geometrical::Geometrical, destination=Thing::Thing, linkedAtt={Geometrical_uid::Geometrical_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_TimeSeriesElement, origin=TimeSeriesElement::TimeSeriesElement, destination=Thing::Thing, linkedAtt={TimeSeriesElement_uid::TimeSeriesElement_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_AdministrativeSubdivision, origin=AdministrativeSubdivision::AdministrativeSubdivision, destination=Thing::Thing, linkedAtt={AdministrativeSubdivision_uid::AdministrativeSubdivision_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_MondialThing, origin=MondialThing::MondialThing, destination=Thing::Thing, linkedAtt={MondialThing_uid::MondialThing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Location, origin=Location::Location, destination=Thing::Thing, linkedAtt={Location_uid::Location_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Border, origin=Border::Border, destination=Line::Line, linkedAtt={Border_uid::Border_uid uid_domain=Line_uid::Line_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_City, origin=City::City, destination=SmallArea::SmallArea, linkedAtt={City_uid::City_uid uid_domain=SmallArea_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Continent, origin=Continent::Continent, destination=LargeArea::LargeArea, linkedAtt={Continent_uid::Continent_uid uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_PopulationCount, origin=PopulationCount::PopulationCount, destination=YearlyMeasurement::YearlyMeasurement, linkedAtt={PopulationCount_uid::PopulationCount_uid uid_domain=YearlyMeasurement_uid::YearlyMeasurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_YearlyMeasurement, origin=YearlyMeasurement::YearlyMeasurement, destination=Measurement::Measurement, linkedAtt={YearlyMeasurement_uid::YearlyMeasurement_uid uid_domain=Measurement_uid::Measurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_EthnicGroup, origin=EthnicGroup::EthnicGroup, destination=AnthropoGeographicalThing::AnthropoGeographicalThing, linkedAtt={EthnicGroup_uid::EthnicGroup_uid uid_domain=AnthropoGeographicalThing_uid::AnthropoGeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Province, origin=Province::Province, destination=LargeArea::LargeArea, linkedAtt={Province_uid::Province_uid uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_City, origin=City::City, destination=GeographicalThing::GeographicalThing, linkedAtt={City_uid::City_uid uid_domain=GeographicalThing_uid::GeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_River, origin=River::River, destination=Line::Line, linkedAtt={River_uid::River_uid uid_domain=Line_uid::Line_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Volcano, origin=Volcano::Volcano, destination=Mountain::Mountain, linkedAtt={Volcano_uid::Volcano_uid uid_domain=Mountain_uid::Mountain_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_SpokenBy, origin=SpokenBy::SpokenBy, destination=AnthropoGeographicalRelationship::AnthropoGeographicalRelationship, linkedAtt={SpokenBy_uid::SpokenBy_uid uid_domain=AnthropoGeographicalRelationship_uid::AnthropoGeographicalRelationship_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Membership, origin=Membership::Membership, destination=ReifiedThing::ReifiedThing, linkedAtt={Membership_uid::Membership_uid uid_domain=ReifiedThing_uid::ReifiedThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Estuary, origin=Estuary::Estuary, destination=Place::Place, linkedAtt={Estuary_uid::Estuary_uid uid_domain=Place_uid::Place_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Island, origin=Island::Island, destination=SmallArea::SmallArea, linkedAtt={Island_uid::Island_uid uid_domain=SmallArea_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Mountain, origin=Mountain::Mountain, destination=Place::Place, linkedAtt={Mountain_uid::Mountain_uid uid_domain=Place_uid::Place_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Encompassed, origin=Encompassed::Encompassed, destination=ReifiedThing::ReifiedThing, linkedAtt={Encompassed_uid::Encompassed_uid uid_domain=ReifiedThing_uid::ReifiedThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_LargeArea, origin=LargeArea::LargeArea, destination=Area::Area, linkedAtt={LargeArea_uid::LargeArea_uid uid_domain=Area_uid::Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_YearlyMeasurement, origin=YearlyMeasurement::YearlyMeasurement, destination=TimeSeriesElement::TimeSeriesElement, linkedAtt={YearlyMeasurement_uid::YearlyMeasurement_uid uid_domain=TimeSeriesElement_uid::TimeSeriesElement_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Desert, origin=Desert::Desert, destination=SmallArea::SmallArea, linkedAtt={Desert_uid::Desert_uid uid_domain=SmallArea_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Language, origin=Language::Language, destination=AnthropoGeographicalThing::AnthropoGeographicalThing, linkedAtt={Language_uid::Language_uid uid_domain=AnthropoGeographicalThing_uid::AnthropoGeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Sea, origin=Sea::Sea, destination=LargeArea::LargeArea, linkedAtt={Sea_uid::Sea_uid uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Religion, origin=Religion::Religion, destination=AnthropoGeographicalThing::AnthropoGeographicalThing, linkedAtt={Religion_uid::Religion_uid uid_domain=AnthropoGeographicalThing_uid::AnthropoGeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Islands, origin=Islands::Islands, destination=SmallArea::SmallArea, linkedAtt={Islands_uid::Islands_uid uid_domain=SmallArea_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Lake, origin=Lake::Lake, destination=SmallArea::SmallArea, linkedAtt={Lake_uid::Lake_uid uid_domain=SmallArea_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Country, origin=Country::Country, destination=LargeArea::LargeArea, linkedAtt={Country_uid::Country_uid uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_EthnicProportion, origin=EthnicProportion::EthnicProportion, destination=AnthropoGeographicalRelationship::AnthropoGeographicalRelationship, linkedAtt={EthnicProportion_uid::EthnicProportion_uid uid_domain=AnthropoGeographicalRelationship_uid::AnthropoGeographicalRelationship_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Source, origin=Source::Source, destination=Place::Place, linkedAtt={Source_uid::Source_uid uid_domain=Place_uid::Place_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Measurement, origin=Measurement::Measurement, destination=TimeSeriesElement::TimeSeriesElement, linkedAtt={Measurement_uid::Measurement_uid uid_domain=TimeSeriesElement_uid::TimeSeriesElement_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_BelievedBy, origin=BelievedBy::BelievedBy, destination=AnthropoGeographicalRelationship::AnthropoGeographicalRelationship, linkedAtt={BelievedBy_uid::BelievedBy_uid uid_domain=AnthropoGeographicalRelationship_uid::AnthropoGeographicalRelationship_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Mountains, origin=Mountains::Mountains, destination=SmallArea::SmallArea, linkedAtt={Mountains_uid::Mountains_uid uid_domain=SmallArea_uid::SmallArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_PoliticalBody, origin=PoliticalBody::PoliticalBody, destination=PoliticalThing::PoliticalThing, linkedAtt={PoliticalBody_uid::PoliticalBody_uid uid_domain=PoliticalThing_uid::PoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_City, origin=City::City, destination=AdministrativeSubdivision::AdministrativeSubdivision, linkedAtt={City_uid::City_uid uid_domain=AdministrativeSubdivision_uid::AdministrativeSubdivision_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Area, origin=Area::Area, destination=Geometrical::Geometrical, linkedAtt={Area_uid::Area_uid uid_domain=Geometrical_uid::Geometrical_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Line, origin=Line::Line, destination=Geometrical::Geometrical, linkedAtt={Line_uid::Line_uid uid_domain=Geometrical_uid::Geometrical_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Place, origin=Place::Place, destination=Geometrical::Geometrical, linkedAtt={Place_uid::Place_uid uid_domain=Geometrical_uid::Geometrical_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_EncompassedArea, origin=EncompassedArea::EncompassedArea, destination=LargeArea::LargeArea, linkedAtt={EncompassedArea_uid::EncompassedArea_uid uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_GeographicalThing, origin=GeographicalThing::GeographicalThing, destination=PoliticalOrGeographicalThing::PoliticalOrGeographicalThing, linkedAtt={GeographicalThing_uid::GeographicalThing_uid uid_domain=PoliticalOrGeographicalThing_uid::PoliticalOrGeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_PoliticalThing, origin=PoliticalThing::PoliticalThing, destination=PoliticalOrGeographicalThing::PoliticalOrGeographicalThing, linkedAtt={PoliticalThing_uid::PoliticalThing_uid uid_domain=PoliticalOrGeographicalThing_uid::PoliticalOrGeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Border, origin=Border::Border, destination=NonGeographicalPoliticalThing::NonGeographicalPoliticalThing, linkedAtt={Border_uid::Border_uid uid_domain=NonGeographicalPoliticalThing_uid::NonGeographicalPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Country, origin=Country::Country, destination=NonGeographicalPoliticalThing::NonGeographicalPoliticalThing, linkedAtt={Country_uid::Country_uid uid_domain=NonGeographicalPoliticalThing_uid::NonGeographicalPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Organization, origin=Organization::Organization, destination=NonGeographicalPoliticalThing::NonGeographicalPoliticalThing, linkedAtt={Organization_uid::Organization_uid uid_domain=NonGeographicalPoliticalThing_uid::NonGeographicalPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Province, origin=Province::Province, destination=NonGeographicalPoliticalThing::NonGeographicalPoliticalThing, linkedAtt={Province_uid::Province_uid uid_domain=NonGeographicalPoliticalThing_uid::NonGeographicalPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk3_City, origin=City::City, destination=PoliticalThing::PoliticalThing, linkedAtt={City_uid::City_uid uid_domain=PoliticalThing_uid::PoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_NonGeographicalPoliticalThing, origin=NonGeographicalPoliticalThing::NonGeographicalPoliticalThing, destination=PoliticalThing::PoliticalThing, linkedAtt={NonGeographicalPoliticalThing_uid::NonGeographicalPoliticalThing_uid uid_domain=PoliticalThing_uid::PoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_SmallArea, origin=SmallArea::SmallArea, destination=Area::Area, linkedAtt={SmallArea_uid::SmallArea_uid uid_domain=Area_uid::Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Lake, origin=Lake::Lake, destination=Water::Water, linkedAtt={Lake_uid::Lake_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_River, origin=River::River, destination=Water::Water, linkedAtt={River_uid::River_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Sea, origin=Sea::Sea, destination=Water::Water, linkedAtt={Sea_uid::Sea_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country, origin=Country::Country, destination=AdministrativeArea::AdministrativeArea, linkedAtt={Country_uid::Country_uid uid_domain=AdministrativeArea_uid::AdministrativeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Province, origin=Province::Province, destination=AdministrativeArea::AdministrativeArea, linkedAtt={Province_uid::Province_uid uid_domain=AdministrativeArea_uid::AdministrativeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Continent, origin=Continent::Continent, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Continent_uid::Continent_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Desert, origin=Desert::Desert, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Desert_uid::Desert_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Estuary, origin=Estuary::Estuary, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Estuary_uid::Estuary_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Island, origin=Island::Island, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Island_uid::Island_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Islands, origin=Islands::Islands, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Islands_uid::Islands_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Mountain, origin=Mountain::Mountain, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Mountain_uid::Mountain_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Mountains, origin=Mountains::Mountains, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Mountains_uid::Mountains_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Source, origin=Source::Source, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Source_uid::Source_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_Water, origin=Water::Water, destination=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, linkedAtt={Water_uid::Water_uid uid_domain=GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Place, origin=Place::Place, destination=Location::Location, linkedAtt={Place_uid::Place_uid uid_domain=Location_uid::Location_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_SmallArea, origin=SmallArea::SmallArea, destination=Location::Location, linkedAtt={SmallArea_uid::SmallArea_uid uid_domain=Location_uid::Location_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_GeographicalNonPoliticalThing, origin=GeographicalNonPoliticalThing::GeographicalNonPoliticalThing, destination=GeographicalThing::GeographicalThing, linkedAtt={GeographicalNonPoliticalThing_uid::GeographicalNonPoliticalThing_uid uid_domain=GeographicalThing_uid::GeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_BelievedBy, origin=BelievedBy::BelievedBy, destination=ReifiedThing::ReifiedThing, linkedAtt={BelievedBy_uid::BelievedBy_uid uid_domain=ReifiedThing_uid::ReifiedThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_EthnicProportion, origin=EthnicProportion::EthnicProportion, destination=ReifiedThing::ReifiedThing, linkedAtt={EthnicProportion_uid::EthnicProportion_uid uid_domain=ReifiedThing_uid::ReifiedThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_SpokenBy, origin=SpokenBy::SpokenBy, destination=ReifiedThing::ReifiedThing, linkedAtt={SpokenBy_uid::SpokenBy_uid uid_domain=ReifiedThing_uid::ReifiedThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_AnthropoGeographicalThing, origin=AnthropoGeographicalThing::AnthropoGeographicalThing, destination=MondialThing::MondialThing, linkedAtt={AnthropoGeographicalThing_uid::AnthropoGeographicalThing_uid uid_domain=MondialThing_uid::MondialThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_PoliticalOrGeographicalThing, origin=PoliticalOrGeographicalThing::PoliticalOrGeographicalThing, destination=MondialThing::MondialThing, linkedAtt={PoliticalOrGeographicalThing_uid::PoliticalOrGeographicalThing_uid uid_domain=MondialThing_uid::MondialThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_ReifiedThing, origin=ReifiedThing::ReifiedThing, destination=MondialThing::MondialThing, linkedAtt={ReifiedThing_uid::ReifiedThing_uid uid_domain=MondialThing_uid::MondialThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk3_Province, origin=Province::Province, destination=AdministrativeSubdivision::AdministrativeSubdivision, linkedAtt={Province_uid::Province_uid uid_domain=AdministrativeSubdivision_uid::AdministrativeSubdivision_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk3_Country, origin=Country::Country, destination=PoliticalBody::PoliticalBody, linkedAtt={Country_uid::Country_uid uid_domain=PoliticalBody_uid::PoliticalBody_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk1_Organization, origin=Organization::Organization, destination=PoliticalBody::PoliticalBody, linkedAtt={Organization_uid::Organization_uid uid_domain=PoliticalBody_uid::PoliticalBody_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_believeInReligion, origin=believeInReligion::believeInReligion, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_believeInReligion, origin=believeInReligion::believeInReligion, destination=Religion::Religion, linkedAtt={range_Religion_uid::range_Religion_uid uid_domain=Religion_uid::Religion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_believedInCountry, origin=believedInCountry::believedInCountry, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_believedInCountry, origin=believedInCountry::believedInCountry, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_belongToEthnicGroup, origin=belongToEthnicGroup::belongToEthnicGroup, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_belongToEthnicGroup, origin=belongToEthnicGroup::belongToEthnicGroup, destination=EthnicGroup::EthnicGroup, linkedAtt={range_EthnicGroup_uid::range_EthnicGroup_uid uid_domain=EthnicGroup_uid::EthnicGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk2_belongsTo, origin=belongsTo::belongsTo, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk3_belongsTo, origin=belongsTo::belongsTo, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_belongsToIslands, origin=belongsToIslands::belongsToIslands, destination=Island::Island, linkedAtt={domain_Island_uid::domain_Island_uid uid_domain=Island_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_belongsToIslands, origin=belongsToIslands::belongsToIslands, destination=Islands::Islands, linkedAtt={range_Islands_uid::range_Islands_uid uid_domain=Islands_uid::Islands_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_borders, origin=borders::borders, destination=LargeArea::LargeArea, linkedAtt={domain_LargeArea_uid::domain_LargeArea_uid uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_borders, origin=borders::borders, destination=LargeArea::LargeArea, linkedAtt={range_LargeArea_uid::range_LargeArea_uid uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_capital, origin=capital::capital, destination=AdministrativeArea::AdministrativeArea, linkedAtt={domain_AdministrativeArea_uid::domain_AdministrativeArea_uid uid_domain=AdministrativeArea_uid::AdministrativeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_capital, origin=capital::capital, destination=City::City, linkedAtt={range_City_uid::range_City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk4_cityIn, origin=cityIn::cityIn, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk5_cityIn, origin=cityIn::cityIn, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_dependentOf, origin=dependentOf::dependentOf, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_dependentOf, origin=dependentOf::dependentOf, destination=Country::Country, linkedAtt={range_Country_uid::range_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_encompassed, origin=encompassed::encompassed, destination=EncompassedArea::EncompassedArea, linkedAtt={domain_EncompassedArea_uid::domain_EncompassedArea_uid uid_domain=EncompassedArea_uid::EncompassedArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_encompassed, origin=encompassed::encompassed, destination=Continent::Continent, linkedAtt={range_Continent_uid::range_Continent_uid uid_domain=Continent_uid::Continent_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_encompassedArea, origin=encompassedArea::encompassedArea, destination=Encompassed::Encompassed, linkedAtt={domain_Encompassed_uid::domain_Encompassed_uid uid_domain=Encompassed_uid::Encompassed_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_encompassedArea, origin=encompassedArea::encompassedArea, destination=EncompassedArea::EncompassedArea, linkedAtt={range_EncompassedArea_uid::range_EncompassedArea_uid uid_domain=EncompassedArea_uid::EncompassedArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_encompassedBy, origin=encompassedBy::encompassedBy, destination=Encompassed::Encompassed, linkedAtt={domain_Encompassed_uid::domain_Encompassed_uid uid_domain=Encompassed_uid::Encompassed_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_encompassedBy, origin=encompassedBy::encompassedBy, destination=Continent::Continent, linkedAtt={range_Continent_uid::range_Continent_uid uid_domain=Continent_uid::Continent_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk6_encompassedByInfo, origin=encompassedByInfo::encompassedByInfo, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk7_encompassedByInfo, origin=encompassedByInfo::encompassedByInfo, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk8_encompasses, origin=encompasses::encompasses, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk9_encompasses, origin=encompasses::encompasses, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk10_encompassesInfo, origin=encompassesInfo::encompassesInfo, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk11_encompassesInfo, origin=encompassesInfo::encompassesInfo, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_ethnicInfo, origin=ethnicInfo::ethnicInfo, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_ethnicInfo, origin=ethnicInfo::ethnicInfo, destination=EthnicProportion::EthnicProportion, linkedAtt={range_EthnicProportion_uid::range_EthnicProportion_uid uid_domain=EthnicProportion_uid::EthnicProportion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk12_ethnicInfo-, origin=ethnicInfo-::ethnicInfo-, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk13_ethnicInfo-, origin=ethnicInfo-::ethnicInfo-, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_flowsInto, origin=flowsInto::flowsInto, destination=Lake::Lake, linkedAtt={domain_Lake_uid::domain_Lake_uid uid_domain=Lake_uid::Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_flowsInto, origin=flowsInto::flowsInto, destination=Water::Water, linkedAtt={range_Water_uid::range_Water_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_flowsThrough, origin=flowsThrough::flowsThrough, destination=River::River, linkedAtt={domain_River_uid::domain_River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_flowsThrough, origin=flowsThrough::flowsThrough, destination=Lake::Lake, linkedAtt={range_Lake_uid::range_Lake_uid uid_domain=Lake_uid::Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk14_followedInInfo, origin=followedInInfo::followedInInfo, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk15_followedInInfo, origin=followedInInfo::followedInInfo, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_hadPopulation, origin=hadPopulation::hadPopulation, destination=City::City, linkedAtt={domain_City_uid::domain_City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_hadPopulation, origin=hadPopulation::hadPopulation, destination=PopulationCount::PopulationCount, linkedAtt={range_PopulationCount_uid::range_PopulationCount_uid uid_domain=PopulationCount_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk16_hasBorder, origin=hasBorder::hasBorder, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk17_hasBorder, origin=hasBorder::hasBorder, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk2_hasCity, origin=hasCity::hasCity, destination=AdministrativeArea::AdministrativeArea, linkedAtt={domain_AdministrativeArea_uid::domain_AdministrativeArea_uid uid_domain=AdministrativeArea_uid::AdministrativeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk3_hasCity, origin=hasCity::hasCity, destination=City::City, linkedAtt={range_City_uid::range_City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_hasEstuary, origin=hasEstuary::hasEstuary, destination=River::River, linkedAtt={domain_River_uid::domain_River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_hasEstuary, origin=hasEstuary::hasEstuary, destination=Estuary::Estuary, linkedAtt={range_Estuary_uid::range_Estuary_uid uid_domain=Estuary_uid::Estuary_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk18_hasEstuary-, origin=hasEstuary-::hasEstuary-, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk19_hasEstuary-, origin=hasEstuary-::hasEstuary-, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_hasHeadq, origin=hasHeadq::hasHeadq, destination=Organization::Organization, linkedAtt={domain_Organization_uid::domain_Organization_uid uid_domain=Organization_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_hasHeadq, origin=hasHeadq::hasHeadq, destination=City::City, linkedAtt={range_City_uid::range_City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk20_hasMember, origin=hasMember::hasMember, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk21_hasMember, origin=hasMember::hasMember, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk22_hasMembership, origin=hasMembership::hasMembership, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk23_hasMembership, origin=hasMembership::hasMembership, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_hasProvince, origin=hasProvince::hasProvince, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_hasProvince, origin=hasProvince::hasProvince, destination=Province::Province, linkedAtt={range_Province_uid::range_Province_uid uid_domain=Province_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_hasSource, origin=hasSource::hasSource, destination=River::River, linkedAtt={domain_River_uid::domain_River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_hasSource, origin=hasSource::hasSource, destination=Source::Source, linkedAtt={range_Source_uid::range_Source_uid uid_domain=Source_uid::Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk24_hasSource-, origin=hasSource-::hasSource-, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk25_hasSource-, origin=hasSource-::hasSource-, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_inMountains, origin=inMountains::inMountains, destination=Mountain::Mountain, linkedAtt={domain_Mountain_uid::domain_Mountain_uid uid_domain=Mountain_uid::Mountain_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_inMountains, origin=inMountains::inMountains, destination=Mountains::Mountains, linkedAtt={range_Mountains_uid::range_Mountains_uid uid_domain=Mountains_uid::Mountains_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_inOrganization, origin=inOrganization::inOrganization, destination=Membership::Membership, linkedAtt={domain_Membership_uid::domain_Membership_uid uid_domain=Membership_uid::Membership_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_inOrganization, origin=inOrganization::inOrganization, destination=Organization::Organization, linkedAtt={range_Organization_uid::range_Organization_uid uid_domain=Organization_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_isBorderOf, origin=isBorderOf::isBorderOf, destination=Border::Border, linkedAtt={domain_Border_uid::domain_Border_uid uid_domain=Border_uid::Border_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_isBorderOf, origin=isBorderOf::isBorderOf, destination=Country::Country, linkedAtt={range_Country_uid::range_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk26_isCapitalOf, origin=isCapitalOf::isCapitalOf, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk27_isCapitalOf, origin=isCapitalOf::isCapitalOf, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk28_isInMembership, origin=isInMembership::isInMembership, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk29_isInMembership, origin=isInMembership::isInMembership, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_isMember, origin=isMember::isMember, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_isMember, origin=isMember::isMember, destination=Organization::Organization, linkedAtt={range_Organization_uid::range_Organization_uid uid_domain=Organization_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk30_isProvinceOf, origin=isProvinceOf::isProvinceOf, destination=belongsTo::belongsTo, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=domain_Thing_uid::domain_Thing_uid uid_domain, range_Thing_uid::range_Thing_uid uid_domain=range_Thing_uid::range_Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_languageInfo, origin=languageInfo::languageInfo, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_languageInfo, origin=languageInfo::languageInfo, destination=SpokenBy::SpokenBy, linkedAtt={range_SpokenBy_uid::range_SpokenBy_uid uid_domain=SpokenBy_uid::SpokenBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk31_languageInfo-, origin=languageInfo-::languageInfo-, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk32_languageInfo-, origin=languageInfo-::languageInfo-, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk33_liveInCountry, origin=liveInCountry::liveInCountry, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk34_liveInCountry, origin=liveInCountry::liveInCountry, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk35_liveInInfo, origin=liveInInfo::liveInInfo, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk36_liveInInfo, origin=liveInInfo::liveInInfo, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_locatedAt, origin=locatedAt::locatedAt, destination=City::City, linkedAtt={domain_City_uid::domain_City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_locatedAt, origin=locatedAt::locatedAt, destination=Water::Water, linkedAtt={range_Water_uid::range_Water_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_locatedIn, origin=locatedIn::locatedIn, destination=GeographicalThing::GeographicalThing, linkedAtt={domain_GeographicalThing_uid::domain_GeographicalThing_uid uid_domain=GeographicalThing_uid::GeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_locatedIn, origin=locatedIn::locatedIn, destination=Area::Area, linkedAtt={range_Area_uid::range_Area_uid uid_domain=Area_uid::Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_locatedInWater, origin=locatedInWater::locatedInWater, destination=Island::Island, linkedAtt={domain_Island_uid::domain_Island_uid uid_domain=Island_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_locatedInWater, origin=locatedInWater::locatedInWater, destination=Water::Water, linkedAtt={range_Water_uid::range_Water_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_locatedOnIsland, origin=locatedOnIsland::locatedOnIsland, destination=locatedIn::locatedIn, linkedAtt={range_Island_uid::range_Island_uid uid_domain=range_Area_uid::range_Area_uid uid_domain, domain_City_uid::domain_City_uid uid_domain=domain_GeographicalThing_uid::domain_GeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk0_mergesWith, origin=mergesWith::mergesWith, destination=borders::borders, linkedAtt={domain_Sea_uid::domain_Sea_uid uid_domain=domain_LargeArea_uid::domain_LargeArea_uid uid_domain, range_Sea_uid::range_Sea_uid uid_domain=range_LargeArea_uid::range_LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_neighbor, origin=neighbor::neighbor, destination=borders::borders, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=domain_LargeArea_uid::domain_LargeArea_uid uid_domain, range_Country_uid::range_Country_uid uid_domain=range_LargeArea_uid::range_LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_ofMember, origin=ofMember::ofMember, destination=Membership::Membership, linkedAtt={domain_Membership_uid::domain_Membership_uid uid_domain=Membership_uid::Membership_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_ofMember, origin=ofMember::ofMember, destination=Country::Country, linkedAtt={range_Country_uid::range_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_ofObject, origin=ofObject::ofObject, destination=Measurement::Measurement, linkedAtt={domain_Measurement_uid::domain_Measurement_uid uid_domain=Measurement_uid::Measurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_ofObject, origin=ofObject::ofObject, destination=MondialThing::MondialThing, linkedAtt={range_MondialThing_uid::range_MondialThing_uid uid_domain=MondialThing_uid::MondialThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_onEthnicGroup, origin=onEthnicGroup::onEthnicGroup, destination=EthnicProportion::EthnicProportion, linkedAtt={domain_EthnicProportion_uid::domain_EthnicProportion_uid uid_domain=EthnicProportion_uid::EthnicProportion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_onEthnicGroup, origin=onEthnicGroup::onEthnicGroup, destination=EthnicGroup::EthnicGroup, linkedAtt={range_EthnicGroup_uid::range_EthnicGroup_uid uid_domain=EthnicGroup_uid::EthnicGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_onLanguage, origin=onLanguage::onLanguage, destination=SpokenBy::SpokenBy, linkedAtt={domain_SpokenBy_uid::domain_SpokenBy_uid uid_domain=SpokenBy_uid::SpokenBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_onLanguage, origin=onLanguage::onLanguage, destination=Language::Language, linkedAtt={range_Language_uid::range_Language_uid uid_domain=Language_uid::Language_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_onReligion, origin=onReligion::onReligion, destination=BelievedBy::BelievedBy, linkedAtt={domain_BelievedBy_uid::domain_BelievedBy_uid uid_domain=BelievedBy_uid::BelievedBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_onReligion, origin=onReligion::onReligion, destination=Religion::Religion, linkedAtt={range_Religion_uid::range_Religion_uid uid_domain=Religion_uid::Religion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_religionInfo, origin=religionInfo::religionInfo, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_religionInfo, origin=religionInfo::religionInfo, destination=BelievedBy::BelievedBy, linkedAtt={range_BelievedBy_uid::range_BelievedBy_uid uid_domain=BelievedBy_uid::BelievedBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk37_religionInfo-, origin=religionInfo-::religionInfo-, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk38_religionInfo-, origin=religionInfo-::religionInfo-, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_speakLanguage, origin=speakLanguage::speakLanguage, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_speakLanguage, origin=speakLanguage::speakLanguage, destination=Language::Language, linkedAtt={range_Language_uid::range_Language_uid uid_domain=Language_uid::Language_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk39_spokenInCountry, origin=spokenInCountry::spokenInCountry, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk40_spokenInCountry, origin=spokenInCountry::spokenInCountry, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk41_spokenInInfo, origin=spokenInInfo::spokenInInfo, destination=Thing::Thing, linkedAtt={domain_Thing_uid::domain_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk42_spokenInInfo, origin=spokenInInfo::spokenInInfo, destination=Thing::Thing, linkedAtt={range_Thing_uid::range_Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_wasDependentOf, origin=wasDependentOf::wasDependentOf, destination=Country::Country, linkedAtt={domain_Country_uid::domain_Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_wasDependentOf, origin=wasDependentOf::wasDependentOf, destination=PoliticalBody::PoliticalBody, linkedAtt={range_PoliticalBody_uid::range_PoliticalBody_uid uid_domain=PoliticalBody_uid::PoliticalBody_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Organization_abbrev_string, origin=Organization_abbrev_string::Organization_abbrev_string, destination=Organization::Organization, linkedAtt={Organization_uid::Organization_uid uid_domain=Organization_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_carCode_string, origin=Country_carCode_string::Country_carCode_string, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Location_elevation_decimal, origin=Location_elevation_decimal::Location_elevation_decimal, destination=Location::Location, linkedAtt={Location_uid::Location_uid uid_domain=Location_uid::Location_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Organization_established_date, origin=Organization_established_date::Organization_established_date, destination=Organization::Organization, linkedAtt={Organization_uid::Organization_uid uid_domain=Organization_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_gdpAgri_decimal, origin=Country_gdpAgri_decimal::Country_gdpAgri_decimal, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_gdpInd_decimal, origin=Country_gdpInd_decimal::Country_gdpInd_decimal, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_gdpServ_decimal, origin=Country_gdpServ_decimal::Country_gdpServ_decimal, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_gdpTotal_decimal, origin=Country_gdpTotal_decimal::Country_gdpTotal_decimal, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_government_string, origin=Country_government_string::Country_government_string, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_independenceDate_date, origin=Country_independenceDate_date::Country_independenceDate_date, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_infantMortality_decimal, origin=Country_infantMortality_decimal::Country_infantMortality_decimal, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_inflation_decimal, origin=Country_inflation_decimal::Country_inflation_decimal, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Volcano_lastEruption_date, origin=Volcano_lastEruption_date::Volcano_lastEruption_date, destination=Volcano::Volcano, linkedAtt={Volcano_uid::Volcano_uid uid_domain=Volcano_uid::Volcano_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Location_latitude_decimal, origin=Location_latitude_decimal::Location_latitude_decimal, destination=Location::Location, linkedAtt={Location_uid::Location_uid uid_domain=Location_uid::Location_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Line_length_decimal, origin=Line_length_decimal::Line_length_decimal, destination=Line::Line, linkedAtt={Line_uid::Line_uid uid_domain=Line_uid::Line_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_City_localname_string, origin=City_localname_string::City_localname_string, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_localname_string, origin=Country_localname_string::Country_localname_string, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Province_localname_string, origin=Province_localname_string::Province_localname_string, destination=Province::Province, linkedAtt={Province_uid::Province_uid uid_domain=Province_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Location_longitude_decimal, origin=Location_longitude_decimal::Location_longitude_decimal, destination=Location::Location, linkedAtt={Location_uid::Location_uid uid_domain=Location_uid::Location_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_PopulationCount_population_nonNegativeInteger, origin=PopulationCount_population_nonNegativeInteger::PopulationCount_population_nonNegativeInteger, destination=PopulationCount::PopulationCount, linkedAtt={PopulationCount_uid::PopulationCount_uid uid_domain=PopulationCount_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_populationGrowth_decimal, origin=Country_populationGrowth_decimal::Country_populationGrowth_decimal, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Country_unemployment_decimal, origin=Country_unemployment_decimal::Country_unemployment_decimal, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_Measurement_value_decimal, origin=Measurement_value_decimal::Measurement_value_decimal, destination=Measurement::Measurement, linkedAtt={Measurement_uid::Measurement_uid uid_domain=Measurement_uid::Measurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_YearlyMeasurement_year_nonNegativeInteger, origin=YearlyMeasurement_year_nonNegativeInteger::YearlyMeasurement_year_nonNegativeInteger, destination=YearlyMeasurement::YearlyMeasurement, linkedAtt={YearlyMeasurement_uid::YearlyMeasurement_uid uid_domain=YearlyMeasurement_uid::YearlyMeasurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_City_area_Literal, origin=City_area_Literal::City_area_Literal, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=DATAPROPERTY, fkId=fk0_YearlyMeasurement_year_Literal, origin=YearlyMeasurement_year_Literal::YearlyMeasurement_year_Literal, destination=YearlyMeasurement::YearlyMeasurement, linkedAtt={YearlyMeasurement_uid::YearlyMeasurement_uid uid_domain=YearlyMeasurement_uid::YearlyMeasurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_believeInReligion_Religion, origin=Country_believeInReligion_Religion::Country_believeInReligion_Religion, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_believeInReligion_Religion, origin=Country_believeInReligion_Religion::Country_believeInReligion_Religion, destination=Religion::Religion, linkedAtt={Religion_uid::Religion_uid uid_domain=Religion_uid::Religion_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_believeInReligion_Religion, origin=Country_believeInReligion_Religion::Country_believeInReligion_Religion, destination=believeInReligion::believeInReligion, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, Religion_uid::Religion_uid uid_domain=range_Religion_uid::range_Religion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_belongToEthnicGroup_EthnicGroup, origin=Country_belongToEthnicGroup_EthnicGroup::Country_belongToEthnicGroup_EthnicGroup, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_belongToEthnicGroup_EthnicGroup, origin=Country_belongToEthnicGroup_EthnicGroup::Country_belongToEthnicGroup_EthnicGroup, destination=EthnicGroup::EthnicGroup, linkedAtt={EthnicGroup_uid::EthnicGroup_uid uid_domain=EthnicGroup_uid::EthnicGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_belongToEthnicGroup_EthnicGroup, origin=Country_belongToEthnicGroup_EthnicGroup::Country_belongToEthnicGroup_EthnicGroup, destination=belongToEthnicGroup::belongToEthnicGroup, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, EthnicGroup_uid::EthnicGroup_uid uid_domain=range_EthnicGroup_uid::range_EthnicGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_dependentOf_Country, origin=Country_dependentOf_Country::Country_dependentOf_Country, destination=Country::Country, linkedAtt={Country_uid_domain::Country_uid_domain uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_dependentOf_Country, origin=Country_dependentOf_Country::Country_dependentOf_Country, destination=Country::Country, linkedAtt={Country_uid_range::Country_uid_range uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_dependentOf_Country, origin=Country_dependentOf_Country::Country_dependentOf_Country, destination=dependentOf::dependentOf, linkedAtt={Country_uid_domain::Country_uid_domain uid_domain=domain_Country_uid::domain_Country_uid uid_domain, Country_uid_range::Country_uid_range uid_domain=range_Country_uid::range_Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_ethnicInfo_EthnicProportion, origin=Country_ethnicInfo_EthnicProportion::Country_ethnicInfo_EthnicProportion, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_ethnicInfo_EthnicProportion, origin=Country_ethnicInfo_EthnicProportion::Country_ethnicInfo_EthnicProportion, destination=EthnicProportion::EthnicProportion, linkedAtt={EthnicProportion_uid::EthnicProportion_uid uid_domain=EthnicProportion_uid::EthnicProportion_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_ethnicInfo_EthnicProportion, origin=Country_ethnicInfo_EthnicProportion::Country_ethnicInfo_EthnicProportion, destination=ethnicInfo::ethnicInfo, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, EthnicProportion_uid::EthnicProportion_uid uid_domain=range_EthnicProportion_uid::range_EthnicProportion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_hadPopulation_PopulationCount, origin=Country_hadPopulation_PopulationCount::Country_hadPopulation_PopulationCount, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_hadPopulation_PopulationCount, origin=Country_hadPopulation_PopulationCount::Country_hadPopulation_PopulationCount, destination=PopulationCount::PopulationCount, linkedAtt={PopulationCount_uid::PopulationCount_uid uid_domain=PopulationCount_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_hadPopulation_PopulationCount, origin=Country_hadPopulation_PopulationCount::Country_hadPopulation_PopulationCount, destination=hadPopulation::hadPopulation, linkedAtt={Country_uid::Country_uid uid_domain=domain_City_uid::domain_City_uid uid_domain, PopulationCount_uid::PopulationCount_uid uid_domain=range_PopulationCount_uid::range_PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_hasProvince_Province, origin=Country_hasProvince_Province::Country_hasProvince_Province, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_hasProvince_Province, origin=Country_hasProvince_Province::Country_hasProvince_Province, destination=Province::Province, linkedAtt={Province_uid::Province_uid uid_domain=Province_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_hasProvince_Province, origin=Country_hasProvince_Province::Country_hasProvince_Province, destination=hasProvince::hasProvince, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, Province_uid::Province_uid uid_domain=range_Province_uid::range_Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_isMember_Organization, origin=Country_isMember_Organization::Country_isMember_Organization, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_isMember_Organization, origin=Country_isMember_Organization::Country_isMember_Organization, destination=Organization::Organization, linkedAtt={Organization_uid::Organization_uid uid_domain=Organization_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_isMember_Organization, origin=Country_isMember_Organization::Country_isMember_Organization, destination=isMember::isMember, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, Organization_uid::Organization_uid uid_domain=range_Organization_uid::range_Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_languageInfo_SpokenBy, origin=Country_languageInfo_SpokenBy::Country_languageInfo_SpokenBy, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_languageInfo_SpokenBy, origin=Country_languageInfo_SpokenBy::Country_languageInfo_SpokenBy, destination=SpokenBy::SpokenBy, linkedAtt={SpokenBy_uid::SpokenBy_uid uid_domain=SpokenBy_uid::SpokenBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_languageInfo_SpokenBy, origin=Country_languageInfo_SpokenBy::Country_languageInfo_SpokenBy, destination=languageInfo::languageInfo, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, SpokenBy_uid::SpokenBy_uid uid_domain=range_SpokenBy_uid::range_SpokenBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_neighbor_Country, origin=Country_neighbor_Country::Country_neighbor_Country, destination=Country::Country, linkedAtt={Country_uid_domain::Country_uid_domain uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_neighbor_Country, origin=Country_neighbor_Country::Country_neighbor_Country, destination=Country::Country, linkedAtt={Country_uid_range::Country_uid_range uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_neighbor_Country, origin=Country_neighbor_Country::Country_neighbor_Country, destination=neighbor::neighbor, linkedAtt={Country_uid_domain::Country_uid_domain uid_domain=domain_Country_uid::domain_Country_uid uid_domain, Country_uid_range::Country_uid_range uid_domain=range_Country_uid::range_Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_religionInfo_BelievedBy, origin=Country_religionInfo_BelievedBy::Country_religionInfo_BelievedBy, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_religionInfo_BelievedBy, origin=Country_religionInfo_BelievedBy::Country_religionInfo_BelievedBy, destination=BelievedBy::BelievedBy, linkedAtt={BelievedBy_uid::BelievedBy_uid uid_domain=BelievedBy_uid::BelievedBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_religionInfo_BelievedBy, origin=Country_religionInfo_BelievedBy::Country_religionInfo_BelievedBy, destination=religionInfo::religionInfo, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, BelievedBy_uid::BelievedBy_uid uid_domain=range_BelievedBy_uid::range_BelievedBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_speakLanguage_Language, origin=Country_speakLanguage_Language::Country_speakLanguage_Language, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_speakLanguage_Language, origin=Country_speakLanguage_Language::Country_speakLanguage_Language, destination=Language::Language, linkedAtt={Language_uid::Language_uid uid_domain=Language_uid::Language_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_speakLanguage_Language, origin=Country_speakLanguage_Language::Country_speakLanguage_Language, destination=speakLanguage::speakLanguage, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, Language_uid::Language_uid uid_domain=range_Language_uid::range_Language_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Country_wasDependentOf_PoliticalBody, origin=Country_wasDependentOf_PoliticalBody::Country_wasDependentOf_PoliticalBody, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Country_wasDependentOf_PoliticalBody, origin=Country_wasDependentOf_PoliticalBody::Country_wasDependentOf_PoliticalBody, destination=PoliticalBody::PoliticalBody, linkedAtt={PoliticalBody_uid::PoliticalBody_uid uid_domain=PoliticalBody_uid::PoliticalBody_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Country_wasDependentOf_PoliticalBody, origin=Country_wasDependentOf_PoliticalBody::Country_wasDependentOf_PoliticalBody, destination=wasDependentOf::wasDependentOf, linkedAtt={Country_uid::Country_uid uid_domain=domain_Country_uid::domain_Country_uid uid_domain, PoliticalBody_uid::PoliticalBody_uid uid_domain=range_PoliticalBody_uid::range_PoliticalBody_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_EncompassedArea_encompassed_Continent, origin=EncompassedArea_encompassed_Continent::EncompassedArea_encompassed_Continent, destination=EncompassedArea::EncompassedArea, linkedAtt={EncompassedArea_uid::EncompassedArea_uid uid_domain=EncompassedArea_uid::EncompassedArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_EncompassedArea_encompassed_Continent, origin=EncompassedArea_encompassed_Continent::EncompassedArea_encompassed_Continent, destination=Continent::Continent, linkedAtt={Continent_uid::Continent_uid uid_domain=Continent_uid::Continent_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_EncompassedArea_encompassed_Continent, origin=EncompassedArea_encompassed_Continent::EncompassedArea_encompassed_Continent, destination=encompassed::encompassed, linkedAtt={EncompassedArea_uid::EncompassedArea_uid uid_domain=domain_EncompassedArea_uid::domain_EncompassedArea_uid uid_domain, Continent_uid::Continent_uid uid_domain=range_Continent_uid::range_Continent_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_AdministrativeArea_capital_City, origin=AdministrativeArea_capital_City::AdministrativeArea_capital_City, destination=AdministrativeArea::AdministrativeArea, linkedAtt={AdministrativeArea_uid::AdministrativeArea_uid uid_domain=AdministrativeArea_uid::AdministrativeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_AdministrativeArea_capital_City, origin=AdministrativeArea_capital_City::AdministrativeArea_capital_City, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_AdministrativeArea_capital_City, origin=AdministrativeArea_capital_City::AdministrativeArea_capital_City, destination=capital::capital, linkedAtt={AdministrativeArea_uid::AdministrativeArea_uid uid_domain=domain_AdministrativeArea_uid::domain_AdministrativeArea_uid uid_domain, City_uid::City_uid uid_domain=range_City_uid::range_City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk3_AdministrativeArea_hasCity_City, origin=AdministrativeArea_hasCity_City::AdministrativeArea_hasCity_City, destination=AdministrativeArea::AdministrativeArea, linkedAtt={AdministrativeArea_uid::AdministrativeArea_uid uid_domain=AdministrativeArea_uid::AdministrativeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk4_AdministrativeArea_hasCity_City, origin=AdministrativeArea_hasCity_City::AdministrativeArea_hasCity_City, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk5_AdministrativeArea_hasCity_City, origin=AdministrativeArea_hasCity_City::AdministrativeArea_hasCity_City, destination=hasCity::hasCity, linkedAtt={AdministrativeArea_uid::AdministrativeArea_uid uid_domain=domain_AdministrativeArea_uid::domain_AdministrativeArea_uid uid_domain, City_uid::City_uid uid_domain=range_City_uid::range_City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Source_inMountains_Mountains, origin=Source_inMountains_Mountains::Source_inMountains_Mountains, destination=Source::Source, linkedAtt={Source_uid::Source_uid uid_domain=Source_uid::Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Source_inMountains_Mountains, origin=Source_inMountains_Mountains::Source_inMountains_Mountains, destination=Mountains::Mountains, linkedAtt={Mountains_uid::Mountains_uid uid_domain=Mountains_uid::Mountains_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Source_inMountains_Mountains, origin=Source_inMountains_Mountains::Source_inMountains_Mountains, destination=inMountains::inMountains, linkedAtt={Source_uid::Source_uid uid_domain=domain_Mountain_uid::domain_Mountain_uid uid_domain, Mountains_uid::Mountains_uid uid_domain=range_Mountains_uid::range_Mountains_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Source_hasSource-_Thing, origin=Source_hasSource-_Thing::Source_hasSource-_Thing, destination=Source::Source, linkedAtt={Source_uid::Source_uid uid_domain=Source_uid::Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Source_hasSource-_Thing, origin=Source_hasSource-_Thing::Source_hasSource-_Thing, destination=Thing::Thing, linkedAtt={Thing_uid::Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Source_hasSource-_Thing, origin=Source_hasSource-_Thing::Source_hasSource-_Thing, destination=hasSource-::hasSource-, linkedAtt={Source_uid::Source_uid uid_domain=domain_Thing_uid::domain_Thing_uid uid_domain, Thing_uid::Thing_uid uid_domain=range_Thing_uid::range_Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Estuary_hasEstuary-_Thing, origin=Estuary_hasEstuary-_Thing::Estuary_hasEstuary-_Thing, destination=Estuary::Estuary, linkedAtt={Estuary_uid::Estuary_uid uid_domain=Estuary_uid::Estuary_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Estuary_hasEstuary-_Thing, origin=Estuary_hasEstuary-_Thing::Estuary_hasEstuary-_Thing, destination=Thing::Thing, linkedAtt={Thing_uid::Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Estuary_hasEstuary-_Thing, origin=Estuary_hasEstuary-_Thing::Estuary_hasEstuary-_Thing, destination=hasEstuary-::hasEstuary-, linkedAtt={Estuary_uid::Estuary_uid uid_domain=domain_Thing_uid::domain_Thing_uid uid_domain, Thing_uid::Thing_uid uid_domain=range_Thing_uid::range_Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_LargeArea_borders_LargeArea, origin=LargeArea_borders_LargeArea::LargeArea_borders_LargeArea, destination=LargeArea::LargeArea, linkedAtt={LargeArea_uid_domain::LargeArea_uid_domain uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_LargeArea_borders_LargeArea, origin=LargeArea_borders_LargeArea::LargeArea_borders_LargeArea, destination=LargeArea::LargeArea, linkedAtt={LargeArea_uid_range::LargeArea_uid_range uid_domain=LargeArea_uid::LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_LargeArea_borders_LargeArea, origin=LargeArea_borders_LargeArea::LargeArea_borders_LargeArea, destination=borders::borders, linkedAtt={LargeArea_uid_domain::LargeArea_uid_domain uid_domain=domain_LargeArea_uid::domain_LargeArea_uid uid_domain, LargeArea_uid_range::LargeArea_uid_range uid_domain=range_LargeArea_uid::range_LargeArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Province_hadPopulation_PopulationCount, origin=Province_hadPopulation_PopulationCount::Province_hadPopulation_PopulationCount, destination=Province::Province, linkedAtt={Province_uid::Province_uid uid_domain=Province_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Province_hadPopulation_PopulationCount, origin=Province_hadPopulation_PopulationCount::Province_hadPopulation_PopulationCount, destination=PopulationCount::PopulationCount, linkedAtt={PopulationCount_uid::PopulationCount_uid uid_domain=PopulationCount_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Province_hadPopulation_PopulationCount, origin=Province_hadPopulation_PopulationCount::Province_hadPopulation_PopulationCount, destination=hadPopulation::hadPopulation, linkedAtt={Province_uid::Province_uid uid_domain=domain_City_uid::domain_City_uid uid_domain, PopulationCount_uid::PopulationCount_uid uid_domain=range_PopulationCount_uid::range_PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Water_flowsInto_Thing, origin=Water_flowsInto_Thing::Water_flowsInto_Thing, destination=Water::Water, linkedAtt={Water_uid::Water_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Water_flowsInto_Thing, origin=Water_flowsInto_Thing::Water_flowsInto_Thing, destination=Thing::Thing, linkedAtt={Thing_uid::Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Water_flowsInto_Thing, origin=Water_flowsInto_Thing::Water_flowsInto_Thing, destination=flowsInto::flowsInto, linkedAtt={Water_uid::Water_uid uid_domain=domain_Lake_uid::domain_Lake_uid uid_domain, Thing_uid::Thing_uid uid_domain=range_Water_uid::range_Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_River_flowsInto_Water, origin=River_flowsInto_Water::River_flowsInto_Water, destination=River::River, linkedAtt={River_uid::River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_River_flowsInto_Water, origin=River_flowsInto_Water::River_flowsInto_Water, destination=Water::Water, linkedAtt={Water_uid::Water_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_River_flowsInto_Water, origin=River_flowsInto_Water::River_flowsInto_Water, destination=flowsInto::flowsInto, linkedAtt={River_uid::River_uid uid_domain=domain_Lake_uid::domain_Lake_uid uid_domain, Water_uid::Water_uid uid_domain=range_Water_uid::range_Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_River_flowsThrough_Lake, origin=River_flowsThrough_Lake::River_flowsThrough_Lake, destination=River::River, linkedAtt={River_uid::River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_River_flowsThrough_Lake, origin=River_flowsThrough_Lake::River_flowsThrough_Lake, destination=Lake::Lake, linkedAtt={Lake_uid::Lake_uid uid_domain=Lake_uid::Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_River_flowsThrough_Lake, origin=River_flowsThrough_Lake::River_flowsThrough_Lake, destination=flowsThrough::flowsThrough, linkedAtt={River_uid::River_uid uid_domain=domain_River_uid::domain_River_uid uid_domain, Lake_uid::Lake_uid uid_domain=range_Lake_uid::range_Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_River_hasEstuary_Estuary, origin=River_hasEstuary_Estuary::River_hasEstuary_Estuary, destination=River::River, linkedAtt={River_uid::River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_River_hasEstuary_Estuary, origin=River_hasEstuary_Estuary::River_hasEstuary_Estuary, destination=Estuary::Estuary, linkedAtt={Estuary_uid::Estuary_uid uid_domain=Estuary_uid::Estuary_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_River_hasEstuary_Estuary, origin=River_hasEstuary_Estuary::River_hasEstuary_Estuary, destination=hasEstuary::hasEstuary, linkedAtt={River_uid::River_uid uid_domain=domain_River_uid::domain_River_uid uid_domain, Estuary_uid::Estuary_uid uid_domain=range_Estuary_uid::range_Estuary_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_River_hasSource_Source, origin=River_hasSource_Source::River_hasSource_Source, destination=River::River, linkedAtt={River_uid::River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_River_hasSource_Source, origin=River_hasSource_Source::River_hasSource_Source, destination=Source::Source, linkedAtt={Source_uid::Source_uid uid_domain=Source_uid::Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_River_hasSource_Source, origin=River_hasSource_Source::River_hasSource_Source, destination=hasSource::hasSource, linkedAtt={River_uid::River_uid uid_domain=domain_River_uid::domain_River_uid uid_domain, Source_uid::Source_uid uid_domain=range_Source_uid::range_Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_River_locatedOnIsland_Island, origin=River_locatedOnIsland_Island::River_locatedOnIsland_Island, destination=River::River, linkedAtt={River_uid::River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_River_locatedOnIsland_Island, origin=River_locatedOnIsland_Island::River_locatedOnIsland_Island, destination=Island::Island, linkedAtt={Island_uid::Island_uid uid_domain=Island_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_River_locatedOnIsland_Island, origin=River_locatedOnIsland_Island::River_locatedOnIsland_Island, destination=locatedOnIsland::locatedOnIsland, linkedAtt={River_uid::River_uid uid_domain=domain_City_uid::domain_City_uid uid_domain, Island_uid::Island_uid uid_domain=range_Island_uid::range_Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_River_hasEstuary_Thing, origin=River_hasEstuary_Thing::River_hasEstuary_Thing, destination=River::River, linkedAtt={River_uid::River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_River_hasEstuary_Thing, origin=River_hasEstuary_Thing::River_hasEstuary_Thing, destination=Thing::Thing, linkedAtt={Thing_uid::Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_River_hasEstuary_Thing, origin=River_hasEstuary_Thing::River_hasEstuary_Thing, destination=hasEstuary::hasEstuary, linkedAtt={River_uid::River_uid uid_domain=domain_River_uid::domain_River_uid uid_domain, Thing_uid::Thing_uid uid_domain=range_Estuary_uid::range_Estuary_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk3_River_hasSource_Thing, origin=River_hasSource_Thing::River_hasSource_Thing, destination=River::River, linkedAtt={River_uid::River_uid uid_domain=River_uid::River_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk4_River_hasSource_Thing, origin=River_hasSource_Thing::River_hasSource_Thing, destination=Thing::Thing, linkedAtt={Thing_uid::Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk5_River_hasSource_Thing, origin=River_hasSource_Thing::River_hasSource_Thing, destination=hasSource::hasSource, linkedAtt={River_uid::River_uid uid_domain=domain_River_uid::domain_River_uid uid_domain, Thing_uid::Thing_uid uid_domain=range_Source_uid::range_Source_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_GeographicalThing_locatedIn_Area, origin=GeographicalThing_locatedIn_Area::GeographicalThing_locatedIn_Area, destination=GeographicalThing::GeographicalThing, linkedAtt={GeographicalThing_uid::GeographicalThing_uid uid_domain=GeographicalThing_uid::GeographicalThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_GeographicalThing_locatedIn_Area, origin=GeographicalThing_locatedIn_Area::GeographicalThing_locatedIn_Area, destination=Area::Area, linkedAtt={Area_uid::Area_uid uid_domain=Area_uid::Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_GeographicalThing_locatedIn_Area, origin=GeographicalThing_locatedIn_Area::GeographicalThing_locatedIn_Area, destination=locatedIn::locatedIn, linkedAtt={GeographicalThing_uid::GeographicalThing_uid uid_domain=domain_GeographicalThing_uid::domain_GeographicalThing_uid uid_domain, Area_uid::Area_uid uid_domain=range_Area_uid::range_Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Border_isBorderOf_Country, origin=Border_isBorderOf_Country::Border_isBorderOf_Country, destination=Border::Border, linkedAtt={Border_uid::Border_uid uid_domain=Border_uid::Border_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Border_isBorderOf_Country, origin=Border_isBorderOf_Country::Border_isBorderOf_Country, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Border_isBorderOf_Country, origin=Border_isBorderOf_Country::Border_isBorderOf_Country, destination=isBorderOf::isBorderOf, linkedAtt={Border_uid::Border_uid uid_domain=domain_Border_uid::domain_Border_uid uid_domain, Country_uid::Country_uid uid_domain=range_Country_uid::range_Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Border_isBorderOf_Thing, origin=Border_isBorderOf_Thing::Border_isBorderOf_Thing, destination=Border::Border, linkedAtt={Border_uid::Border_uid uid_domain=Border_uid::Border_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Border_isBorderOf_Thing, origin=Border_isBorderOf_Thing::Border_isBorderOf_Thing, destination=Thing::Thing, linkedAtt={Thing_uid::Thing_uid uid_domain=Thing_uid::Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Border_isBorderOf_Thing, origin=Border_isBorderOf_Thing::Border_isBorderOf_Thing, destination=isBorderOf::isBorderOf, linkedAtt={Border_uid::Border_uid uid_domain=domain_Border_uid::domain_Border_uid uid_domain, Thing_uid::Thing_uid uid_domain=range_Country_uid::range_Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Island_belongsToIslands_Islands, origin=Island_belongsToIslands_Islands::Island_belongsToIslands_Islands, destination=Island::Island, linkedAtt={Island_uid::Island_uid uid_domain=Island_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Island_belongsToIslands_Islands, origin=Island_belongsToIslands_Islands::Island_belongsToIslands_Islands, destination=Islands::Islands, linkedAtt={Islands_uid::Islands_uid uid_domain=Islands_uid::Islands_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Island_belongsToIslands_Islands, origin=Island_belongsToIslands_Islands::Island_belongsToIslands_Islands, destination=belongsToIslands::belongsToIslands, linkedAtt={Island_uid::Island_uid uid_domain=domain_Island_uid::domain_Island_uid uid_domain, Islands_uid::Islands_uid uid_domain=range_Islands_uid::range_Islands_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Island_locatedInWater_Water, origin=Island_locatedInWater_Water::Island_locatedInWater_Water, destination=Island::Island, linkedAtt={Island_uid::Island_uid uid_domain=Island_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Island_locatedInWater_Water, origin=Island_locatedInWater_Water::Island_locatedInWater_Water, destination=Water::Water, linkedAtt={Water_uid::Water_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Island_locatedInWater_Water, origin=Island_locatedInWater_Water::Island_locatedInWater_Water, destination=locatedInWater::locatedInWater, linkedAtt={Island_uid::Island_uid uid_domain=domain_Island_uid::domain_Island_uid uid_domain, Water_uid::Water_uid uid_domain=range_Water_uid::range_Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_SpokenBy_onLanguage_Language, origin=SpokenBy_onLanguage_Language::SpokenBy_onLanguage_Language, destination=SpokenBy::SpokenBy, linkedAtt={SpokenBy_uid::SpokenBy_uid uid_domain=SpokenBy_uid::SpokenBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_SpokenBy_onLanguage_Language, origin=SpokenBy_onLanguage_Language::SpokenBy_onLanguage_Language, destination=Language::Language, linkedAtt={Language_uid::Language_uid uid_domain=Language_uid::Language_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_SpokenBy_onLanguage_Language, origin=SpokenBy_onLanguage_Language::SpokenBy_onLanguage_Language, destination=onLanguage::onLanguage, linkedAtt={SpokenBy_uid::SpokenBy_uid uid_domain=domain_SpokenBy_uid::domain_SpokenBy_uid uid_domain, Language_uid::Language_uid uid_domain=range_Language_uid::range_Language_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Lake_flowsInto_Water, origin=Lake_flowsInto_Water::Lake_flowsInto_Water, destination=Lake::Lake, linkedAtt={Lake_uid::Lake_uid uid_domain=Lake_uid::Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Lake_flowsInto_Water, origin=Lake_flowsInto_Water::Lake_flowsInto_Water, destination=Water::Water, linkedAtt={Water_uid::Water_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Lake_flowsInto_Water, origin=Lake_flowsInto_Water::Lake_flowsInto_Water, destination=flowsInto::flowsInto, linkedAtt={Lake_uid::Lake_uid uid_domain=domain_Lake_uid::domain_Lake_uid uid_domain, Water_uid::Water_uid uid_domain=range_Water_uid::range_Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Lake_locatedOnIsland_Island, origin=Lake_locatedOnIsland_Island::Lake_locatedOnIsland_Island, destination=Lake::Lake, linkedAtt={Lake_uid::Lake_uid uid_domain=Lake_uid::Lake_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Lake_locatedOnIsland_Island, origin=Lake_locatedOnIsland_Island::Lake_locatedOnIsland_Island, destination=Island::Island, linkedAtt={Island_uid::Island_uid uid_domain=Island_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Lake_locatedOnIsland_Island, origin=Lake_locatedOnIsland_Island::Lake_locatedOnIsland_Island, destination=locatedOnIsland::locatedOnIsland, linkedAtt={Lake_uid::Lake_uid uid_domain=domain_City_uid::domain_City_uid uid_domain, Island_uid::Island_uid uid_domain=range_Island_uid::range_Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_AdministrativeSubdivision_belongsTo_Country, origin=AdministrativeSubdivision_belongsTo_Country::AdministrativeSubdivision_belongsTo_Country, destination=AdministrativeSubdivision::AdministrativeSubdivision, linkedAtt={AdministrativeSubdivision_uid::AdministrativeSubdivision_uid uid_domain=AdministrativeSubdivision_uid::AdministrativeSubdivision_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_AdministrativeSubdivision_belongsTo_Country, origin=AdministrativeSubdivision_belongsTo_Country::AdministrativeSubdivision_belongsTo_Country, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_AdministrativeSubdivision_belongsTo_Country, origin=AdministrativeSubdivision_belongsTo_Country::AdministrativeSubdivision_belongsTo_Country, destination=belongsTo::belongsTo, linkedAtt={AdministrativeSubdivision_uid::AdministrativeSubdivision_uid uid_domain=domain_Thing_uid::domain_Thing_uid uid_domain, Country_uid::Country_uid uid_domain=range_Thing_uid::range_Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Encompassed_encompassedArea_EncompassedArea, origin=Encompassed_encompassedArea_EncompassedArea::Encompassed_encompassedArea_EncompassedArea, destination=Encompassed::Encompassed, linkedAtt={Encompassed_uid::Encompassed_uid uid_domain=Encompassed_uid::Encompassed_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Encompassed_encompassedArea_EncompassedArea, origin=Encompassed_encompassedArea_EncompassedArea::Encompassed_encompassedArea_EncompassedArea, destination=EncompassedArea::EncompassedArea, linkedAtt={EncompassedArea_uid::EncompassedArea_uid uid_domain=EncompassedArea_uid::EncompassedArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Encompassed_encompassedArea_EncompassedArea, origin=Encompassed_encompassedArea_EncompassedArea::Encompassed_encompassedArea_EncompassedArea, destination=encompassedArea::encompassedArea, linkedAtt={Encompassed_uid::Encompassed_uid uid_domain=domain_Encompassed_uid::domain_Encompassed_uid uid_domain, EncompassedArea_uid::EncompassedArea_uid uid_domain=range_EncompassedArea_uid::range_EncompassedArea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Encompassed_encompassedBy_Continent, origin=Encompassed_encompassedBy_Continent::Encompassed_encompassedBy_Continent, destination=Encompassed::Encompassed, linkedAtt={Encompassed_uid::Encompassed_uid uid_domain=Encompassed_uid::Encompassed_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Encompassed_encompassedBy_Continent, origin=Encompassed_encompassedBy_Continent::Encompassed_encompassedBy_Continent, destination=Continent::Continent, linkedAtt={Continent_uid::Continent_uid uid_domain=Continent_uid::Continent_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Encompassed_encompassedBy_Continent, origin=Encompassed_encompassedBy_Continent::Encompassed_encompassedBy_Continent, destination=encompassedBy::encompassedBy, linkedAtt={Encompassed_uid::Encompassed_uid uid_domain=domain_Encompassed_uid::domain_Encompassed_uid uid_domain, Continent_uid::Continent_uid uid_domain=range_Continent_uid::range_Continent_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Measurement_ofObject_MondialThing, origin=Measurement_ofObject_MondialThing::Measurement_ofObject_MondialThing, destination=Measurement::Measurement, linkedAtt={Measurement_uid::Measurement_uid uid_domain=Measurement_uid::Measurement_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Measurement_ofObject_MondialThing, origin=Measurement_ofObject_MondialThing::Measurement_ofObject_MondialThing, destination=MondialThing::MondialThing, linkedAtt={MondialThing_uid::MondialThing_uid uid_domain=MondialThing_uid::MondialThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Measurement_ofObject_MondialThing, origin=Measurement_ofObject_MondialThing::Measurement_ofObject_MondialThing, destination=ofObject::ofObject, linkedAtt={Measurement_uid::Measurement_uid uid_domain=domain_Measurement_uid::domain_Measurement_uid uid_domain, MondialThing_uid::MondialThing_uid uid_domain=range_MondialThing_uid::range_MondialThing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Mountain_inMountains_Mountains, origin=Mountain_inMountains_Mountains::Mountain_inMountains_Mountains, destination=Mountain::Mountain, linkedAtt={Mountain_uid::Mountain_uid uid_domain=Mountain_uid::Mountain_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Mountain_inMountains_Mountains, origin=Mountain_inMountains_Mountains::Mountain_inMountains_Mountains, destination=Mountains::Mountains, linkedAtt={Mountains_uid::Mountains_uid uid_domain=Mountains_uid::Mountains_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Mountain_inMountains_Mountains, origin=Mountain_inMountains_Mountains::Mountain_inMountains_Mountains, destination=inMountains::inMountains, linkedAtt={Mountain_uid::Mountain_uid uid_domain=domain_Mountain_uid::domain_Mountain_uid uid_domain, Mountains_uid::Mountains_uid uid_domain=range_Mountains_uid::range_Mountains_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Mountain_locatedOnIsland_Island, origin=Mountain_locatedOnIsland_Island::Mountain_locatedOnIsland_Island, destination=Mountain::Mountain, linkedAtt={Mountain_uid::Mountain_uid uid_domain=Mountain_uid::Mountain_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Mountain_locatedOnIsland_Island, origin=Mountain_locatedOnIsland_Island::Mountain_locatedOnIsland_Island, destination=Island::Island, linkedAtt={Island_uid::Island_uid uid_domain=Island_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Mountain_locatedOnIsland_Island, origin=Mountain_locatedOnIsland_Island::Mountain_locatedOnIsland_Island, destination=locatedOnIsland::locatedOnIsland, linkedAtt={Mountain_uid::Mountain_uid uid_domain=domain_City_uid::domain_City_uid uid_domain, Island_uid::Island_uid uid_domain=range_Island_uid::range_Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Organization_hasHeadq_City, origin=Organization_hasHeadq_City::Organization_hasHeadq_City, destination=Organization::Organization, linkedAtt={Organization_uid::Organization_uid uid_domain=Organization_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Organization_hasHeadq_City, origin=Organization_hasHeadq_City::Organization_hasHeadq_City, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Organization_hasHeadq_City, origin=Organization_hasHeadq_City::Organization_hasHeadq_City, destination=hasHeadq::hasHeadq, linkedAtt={Organization_uid::Organization_uid uid_domain=domain_Organization_uid::domain_Organization_uid uid_domain, City_uid::City_uid uid_domain=range_City_uid::range_City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_City_hadPopulation_PopulationCount, origin=City_hadPopulation_PopulationCount::City_hadPopulation_PopulationCount, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_City_hadPopulation_PopulationCount, origin=City_hadPopulation_PopulationCount::City_hadPopulation_PopulationCount, destination=PopulationCount::PopulationCount, linkedAtt={PopulationCount_uid::PopulationCount_uid uid_domain=PopulationCount_uid::PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_City_hadPopulation_PopulationCount, origin=City_hadPopulation_PopulationCount::City_hadPopulation_PopulationCount, destination=hadPopulation::hadPopulation, linkedAtt={City_uid::City_uid uid_domain=domain_City_uid::domain_City_uid uid_domain, PopulationCount_uid::PopulationCount_uid uid_domain=range_PopulationCount_uid::range_PopulationCount_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_City_locatedAt_Water, origin=City_locatedAt_Water::City_locatedAt_Water, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_City_locatedAt_Water, origin=City_locatedAt_Water::City_locatedAt_Water, destination=Water::Water, linkedAtt={Water_uid::Water_uid uid_domain=Water_uid::Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_City_locatedAt_Water, origin=City_locatedAt_Water::City_locatedAt_Water, destination=locatedAt::locatedAt, linkedAtt={City_uid::City_uid uid_domain=domain_City_uid::domain_City_uid uid_domain, Water_uid::Water_uid uid_domain=range_Water_uid::range_Water_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_City_locatedOnIsland_Island, origin=City_locatedOnIsland_Island::City_locatedOnIsland_Island, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_City_locatedOnIsland_Island, origin=City_locatedOnIsland_Island::City_locatedOnIsland_Island, destination=Island::Island, linkedAtt={Island_uid::Island_uid uid_domain=Island_uid::Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_City_locatedOnIsland_Island, origin=City_locatedOnIsland_Island::City_locatedOnIsland_Island, destination=locatedOnIsland::locatedOnIsland, linkedAtt={City_uid::City_uid uid_domain=domain_City_uid::domain_City_uid uid_domain, Island_uid::Island_uid uid_domain=range_Island_uid::range_Island_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_City_locatedIn_Province, origin=City_locatedIn_Province::City_locatedIn_Province, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_City_locatedIn_Province, origin=City_locatedIn_Province::City_locatedIn_Province, destination=Province::Province, linkedAtt={Province_uid::Province_uid uid_domain=Province_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_City_locatedIn_Province, origin=City_locatedIn_Province::City_locatedIn_Province, destination=locatedIn::locatedIn, linkedAtt={City_uid::City_uid uid_domain=domain_GeographicalThing_uid::domain_GeographicalThing_uid uid_domain, Province_uid::Province_uid uid_domain=range_Area_uid::range_Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_City_isCapitalOf_Country, origin=City_isCapitalOf_Country::City_isCapitalOf_Country, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_City_isCapitalOf_Country, origin=City_isCapitalOf_Country::City_isCapitalOf_Country, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_City_isCapitalOf_Country, origin=City_isCapitalOf_Country::City_isCapitalOf_Country, destination=isCapitalOf::isCapitalOf, linkedAtt={City_uid::City_uid uid_domain=domain_Thing_uid::domain_Thing_uid uid_domain, Country_uid::Country_uid uid_domain=range_Thing_uid::range_Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk3_City_cityIn_Province, origin=City_cityIn_Province::City_cityIn_Province, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk4_City_cityIn_Province, origin=City_cityIn_Province::City_cityIn_Province, destination=Province::Province, linkedAtt={Province_uid::Province_uid uid_domain=Province_uid::Province_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk5_City_cityIn_Province, origin=City_cityIn_Province::City_cityIn_Province, destination=cityIn::cityIn, linkedAtt={City_uid::City_uid uid_domain=domain_Thing_uid::domain_Thing_uid uid_domain, Province_uid::Province_uid uid_domain=range_Thing_uid::range_Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk3_City_locatedIn_Country, origin=City_locatedIn_Country::City_locatedIn_Country, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk4_City_locatedIn_Country, origin=City_locatedIn_Country::City_locatedIn_Country, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk5_City_locatedIn_Country, origin=City_locatedIn_Country::City_locatedIn_Country, destination=locatedIn::locatedIn, linkedAtt={City_uid::City_uid uid_domain=domain_GeographicalThing_uid::domain_GeographicalThing_uid uid_domain, Country_uid::Country_uid uid_domain=range_Area_uid::range_Area_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk6_City_cityIn_Country, origin=City_cityIn_Country::City_cityIn_Country, destination=City::City, linkedAtt={City_uid::City_uid uid_domain=City_uid::City_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk7_City_cityIn_Country, origin=City_cityIn_Country::City_cityIn_Country, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk8_City_cityIn_Country, origin=City_cityIn_Country::City_cityIn_Country, destination=cityIn::cityIn, linkedAtt={City_uid::City_uid uid_domain=domain_Thing_uid::domain_Thing_uid uid_domain, Country_uid::Country_uid uid_domain=range_Thing_uid::range_Thing_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_BelievedBy_onReligion_Religion, origin=BelievedBy_onReligion_Religion::BelievedBy_onReligion_Religion, destination=BelievedBy::BelievedBy, linkedAtt={BelievedBy_uid::BelievedBy_uid uid_domain=BelievedBy_uid::BelievedBy_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_BelievedBy_onReligion_Religion, origin=BelievedBy_onReligion_Religion::BelievedBy_onReligion_Religion, destination=Religion::Religion, linkedAtt={Religion_uid::Religion_uid uid_domain=Religion_uid::Religion_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_BelievedBy_onReligion_Religion, origin=BelievedBy_onReligion_Religion::BelievedBy_onReligion_Religion, destination=onReligion::onReligion, linkedAtt={BelievedBy_uid::BelievedBy_uid uid_domain=domain_BelievedBy_uid::domain_BelievedBy_uid uid_domain, Religion_uid::Religion_uid uid_domain=range_Religion_uid::range_Religion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_EthnicProportion_onEthnicGroup_EthnicGroup, origin=EthnicProportion_onEthnicGroup_EthnicGroup::EthnicProportion_onEthnicGroup_EthnicGroup, destination=EthnicProportion::EthnicProportion, linkedAtt={EthnicProportion_uid::EthnicProportion_uid uid_domain=EthnicProportion_uid::EthnicProportion_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_EthnicProportion_onEthnicGroup_EthnicGroup, origin=EthnicProportion_onEthnicGroup_EthnicGroup::EthnicProportion_onEthnicGroup_EthnicGroup, destination=EthnicGroup::EthnicGroup, linkedAtt={EthnicGroup_uid::EthnicGroup_uid uid_domain=EthnicGroup_uid::EthnicGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_EthnicProportion_onEthnicGroup_EthnicGroup, origin=EthnicProportion_onEthnicGroup_EthnicGroup::EthnicProportion_onEthnicGroup_EthnicGroup, destination=onEthnicGroup::onEthnicGroup, linkedAtt={EthnicProportion_uid::EthnicProportion_uid uid_domain=domain_EthnicProportion_uid::domain_EthnicProportion_uid uid_domain, EthnicGroup_uid::EthnicGroup_uid uid_domain=range_EthnicGroup_uid::range_EthnicGroup_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Sea_mergesWith_Sea, origin=Sea_mergesWith_Sea::Sea_mergesWith_Sea, destination=Sea::Sea, linkedAtt={Sea_uid_domain::Sea_uid_domain uid_domain=Sea_uid::Sea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Sea_mergesWith_Sea, origin=Sea_mergesWith_Sea::Sea_mergesWith_Sea, destination=Sea::Sea, linkedAtt={Sea_uid_range::Sea_uid_range uid_domain=Sea_uid::Sea_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Sea_mergesWith_Sea, origin=Sea_mergesWith_Sea::Sea_mergesWith_Sea, destination=mergesWith::mergesWith, linkedAtt={Sea_uid_domain::Sea_uid_domain uid_domain=domain_Sea_uid::domain_Sea_uid uid_domain, Sea_uid_range::Sea_uid_range uid_domain=range_Sea_uid::range_Sea_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Membership_inOrganization_Organization, origin=Membership_inOrganization_Organization::Membership_inOrganization_Organization, destination=Membership::Membership, linkedAtt={Membership_uid::Membership_uid uid_domain=Membership_uid::Membership_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Membership_inOrganization_Organization, origin=Membership_inOrganization_Organization::Membership_inOrganization_Organization, destination=Organization::Organization, linkedAtt={Organization_uid::Organization_uid uid_domain=Organization_uid::Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Membership_inOrganization_Organization, origin=Membership_inOrganization_Organization::Membership_inOrganization_Organization, destination=inOrganization::inOrganization, linkedAtt={Membership_uid::Membership_uid uid_domain=domain_Membership_uid::domain_Membership_uid uid_domain, Organization_uid::Organization_uid uid_domain=range_Organization_uid::range_Organization_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk0_Membership_ofMember_Country, origin=Membership_ofMember_Country::Membership_ofMember_Country, destination=Membership::Membership, linkedAtt={Membership_uid::Membership_uid uid_domain=Membership_uid::Membership_uid uid_domain}]
+  ForeignKey [foreignKeyType=OBJECTPROPERTY, fkId=fk1_Membership_ofMember_Country, origin=Membership_ofMember_Country::Membership_ofMember_Country, destination=Country::Country, linkedAtt={Country_uid::Country_uid uid_domain=Country_uid::Country_uid uid_domain}]
+  ForeignKey [foreignKeyType=ISA, fkId=fk2_Membership_ofMember_Country, origin=Membership_ofMember_Country::Membership_ofMember_Country, destination=ofMember::ofMember, linkedAtt={Membership_uid::Membership_uid uid_domain=domain_Membership_uid::domain_Membership_uid uid_domain, Country_uid::Country_uid uid_domain=range_Country_uid::range_Country_uid uid_domain}]

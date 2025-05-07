@@ -1,0 +1,28 @@
+
+======================================================= 
+OntoRelA summary
+======================================================= 
+
+--------------------------------------- 
+Reduced Ontology (axiom redundancy reduction)
+--------------------------------------- 
+http://swat.cse.lehigh.edu/onto/univ-bench.owl
+Nb. classes          : 43
+Nb. data properties  : 7
+Nb. object properties: 25
+Nb. isa axioms       : 34
+Nb. data axioms      : 0
+Nb. class axioms     : 20
+
+--------------------------------------- 
+OntoRel database
+--------------------------------------- 
+Nb. all tables          : 89
+Nb. association tables  : 45
+Nb. fks                 : 148
+Nb. constraint functions: 66
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Output total size: 399 KB

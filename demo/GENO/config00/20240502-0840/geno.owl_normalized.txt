@@ -1,0 +1,2191 @@
+ONTOLOGY :"geno.owl"  
+
+PROPERTY :"begin"   
+  LABEL @en 'begin' 
+  ISA :"GENO_0000708"  
+
+PROPERTY :"end"   
+  LABEL @en 'end' 
+  ISA :"GENO_0000708"  
+
+PROPERTY :"location"   
+  LABEL @en 'location' 
+  ISA :"GENO_0000708"  
+
+PROPERTY :"reference"   
+  LABEL @en 'reference' 
+  ISA :"GENO_0000708"  
+
+PROPERTY :"BFO_0000050"   
+  LABEL @en 'is part of' 
+  ISA :"RO_0002131"  
+
+PROPERTY :"BFO_0000051"   
+  LABEL @en 'has part' 
+  ISA :"RO_0002131"  
+
+PROPERTY :"GENO_0000207"   
+  LABEL @en 'has_sequence_attribute' 
+  ISA :"topObjectProperty"  
+
+PROPERTY :"GENO_0000211"   
+  LABEL @en 'bears_concretization_of' 
+
+PROPERTY :"GENO_0000220"   
+  LABEL @en 'is_genotype_of' 
+
+PROPERTY :"GENO_0000222"   
+  LABEL @en 'has_genotype' 
+
+PROPERTY :"GENO_0000231"   
+  LABEL @en 'has_proper_part' 
+  ISA :"BFO_0000051"  
+
+PROPERTY :"GENO_0000239"   
+  LABEL @en 'has_sequence' 
+
+PROPERTY :"GENO_0000242"   
+  LABEL @en 'obsolete_specifies' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000243"   
+  LABEL @en 'obsolete_approximates_sequence' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000244"   
+  LABEL @en 'obsolete_resolves_to_sequence' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000248"   
+  LABEL @en 'is_proper_part_of' 
+  ISA :"BFO_0000050"  
+
+PROPERTY :"GENO_0000251"   
+  LABEL @en 'is_sequence_of' 
+
+PROPERTY :"GENO_0000252"   
+  LABEL @en 'is_subject_of' 
+
+PROPERTY :"GENO_0000253"   
+  LABEL @en 'obsolete_is_specified_by' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000359"   
+  LABEL @en 'obsolete_is_phenotype_of_genotype' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000368"   
+  LABEL @en 'obsolete_participates_in_inheritance_process' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000382"   
+  LABEL @en 'has_variant_part' 
+  ISA :"GENO_0000654"  
+
+PROPERTY :"GENO_0000383"   
+  LABEL @en 'is_variant_part_of' 
+  ISA :"GENO_0000655"  
+
+PROPERTY :"GENO_0000385"   
+  LABEL @en 'has_reference_part' 
+  ISA :"GENO_0000654"  
+
+PROPERTY :"GENO_0000387"   
+  LABEL @en 'is_reference_part_of' 
+  ISA :"GENO_0000655"  
+
+PROPERTY :"GENO_0000408"   
+  LABEL @en 'is_allele_of' 
+  ISA :"GENO_0000418"  
+
+PROPERTY :"GENO_0000410"   
+  LABEL @en 'obsolete_is_genetic_variant_of' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000411"   
+  LABEL @en 'obsolete_has_genetic_variant' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000413"   
+  LABEL @en 'has_allele' 
+  ISA :"GENO_0000445"  
+
+PROPERTY :"GENO_0000414"   
+  LABEL @en 'targets_gene' 
+  ISA :"GENO_0000418"  
+
+PROPERTY :"GENO_0000418"   
+  LABEL @en 'has_affected_feature' 
+
+PROPERTY :"GENO_0000443"   
+  LABEL @en 'is_expression_variant_of' 
+  ISA :"GENO_0000418"  
+
+PROPERTY :"GENO_0000445"   
+  LABEL @en 'is_feature_affected_by' 
+
+PROPERTY :"GENO_0000447"   
+  LABEL @en 'is_gene_target_of' 
+  ISA :"GENO_0000445"  
+
+PROPERTY :"GENO_0000449"   
+  LABEL @en 'has_expression_variant' 
+  ISA :"GENO_0000445"  
+
+PROPERTY :"GENO_0000486"   
+  LABEL @en 'obsolete_is_variant_with' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000488"   
+  LABEL @en 'obsolete_is_expression_variant_with' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000580"   
+  LABEL @en 'has_qualifier' 
+
+PROPERTY :"GENO_0000608"   
+  LABEL @en 'has_zygosity' 
+  ISA :"GENO_0000207"  
+
+PROPERTY :"GENO_0000610"   
+  LABEL @en 'is_reference_allele_of' 
+  ISA :"GENO_0000408"  
+
+PROPERTY :"GENO_0000626"   
+  LABEL @en 'has_staining_intensity' 
+  ISA :"GENO_0000207"  
+
+PROPERTY :"GENO_0000634"   
+  LABEL @en 'is_targeted_by' 
+
+PROPERTY :"GENO_0000639"   
+  LABEL @en 'sequence_derives_from' 
+  ISA :"topObjectProperty"  
+
+PROPERTY :"GENO_0000641"   
+  LABEL @en 'is_variant_allele_of' 
+  ISA :"GENO_0000408"  
+
+PROPERTY :"GENO_0000650"   
+  LABEL @en 'has_sex_agnostic_part' 
+  ISA :"GENO_0000654"  
+
+PROPERTY :"GENO_0000651"   
+  LABEL @en 'is_mutant_allele_of' 
+  ISA :"GENO_0000641"  
+
+PROPERTY :"GENO_0000652"   
+  LABEL @en 'is_polymorphic_allele_of' 
+  ISA :"GENO_0000641"  
+
+PROPERTY :"GENO_0000653"   
+  LABEL @en 'is_wild_type_allele_of' 
+  ISA :"GENO_0000408"  
+
+PROPERTY :"GENO_0000654"   
+  LABEL @en 'has_sequence_part' 
+  ISA :"BFO_0000051"  
+
+PROPERTY :"GENO_0000655"   
+  LABEL @en 'is_sequence_part_of' 
+  ISA :"BFO_0000050"  
+
+PROPERTY :"GENO_0000661"   
+  LABEL @en 'is_sex_agnostic_part_of' 
+  ISA :"GENO_0000655"  
+
+PROPERTY :"GENO_0000683"   
+  LABEL @en 'varies_with' 
+
+PROPERTY :"GENO_0000708"   
+  LABEL @en 'faldo properties' 
+
+PROPERTY :"GENO_0000726"   
+  LABEL @en 'has_sequence_feature' 
+
+PROPERTY :"GENO_0000740"   
+  LABEL @en 'has_inferred_phenotype' 
+  ISA :"RO_0002200"  
+
+PROPERTY :"GENO_0000741"   
+  LABEL @en 'obsolete_has_regulatory_part' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000742"   
+  LABEL @en 'obsolete_is_alteration_within' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000743"   
+  LABEL @en 'has_asserted_phenotype' 
+  ISA :"RO_0002200"  
+
+PROPERTY :"GENO_0000761"   
+  LABEL @en 'is_regulatory_part_of' 
+  ISA :"GENO_0000655"  
+
+PROPERTY :"GENO_0000767"   
+  LABEL @en 'obsolete_has_position_component' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"GENO_0000783"   
+  LABEL @en 'has_sequence_unit' 
+  ISA :"GENO_0000654"  
+
+PROPERTY :"GENO_0000784"   
+  LABEL @en 'completely_varies_with' 
+  ISA :"GENO_0000683"  
+
+PROPERTY :"GENO_0000790"   
+  LABEL @en 'related_condition' 
+
+PROPERTY :"GENO_0000791"   
+  LABEL @en 'inferred_to_cause_condition' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"GENO_0000793"   
+  LABEL @en 'inferred_to_contribute_to_condition' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"GENO_0000794"   
+  LABEL @en 'inferred_to_correlate_with_condition' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"GENO_0000840"   
+  LABEL @en 'pathogenic_for_condition' 
+  ISA :"RO_0003303"  
+
+PROPERTY :"GENO_0000841"   
+  LABEL @en 'likely_pathogenic_for_condition' 
+  ISA :"RO_0003303"  
+
+PROPERTY :"GENO_0000842"   
+  LABEL @en 'non-causal_for_condition' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"GENO_0000843"   
+  LABEL @en 'benign_for_condition' 
+  ISA :"GENO_0000842"  
+
+PROPERTY :"GENO_0000844"   
+  LABEL @en 'likely_benign_for_condition' 
+  ISA :"GENO_0000842"  
+
+PROPERTY :"GENO_0000845"   
+  LABEL @en 'has_uncertain_significance_for_condition' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"GENO_0000846"   
+  LABEL @en 'has_qualifying_process' 
+  ISA :"GENO_0000580"  
+
+PROPERTY :"GENO_0000847"   
+  LABEL @en 'has_qualifying_environment' 
+  ISA :"GENO_0000580"  
+
+PROPERTY :"GENO_0000849"   
+  LABEL @en 'is_candidate_variant_for' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"GENO_0000903"   
+  LABEL @en 'has_location' 
+
+PROPERTY :"GENO_0000906"   
+  LABEL @en 'on strand' 
+
+PROPERTY :"IAO_0000136"   
+  LABEL @en 'is about' 
+
+PROPERTY :"IAO_0000219"   
+  LABEL @en 'denotes' 
+  ISA :"IAO_0000136"  
+
+PROPERTY :"OBI_0000293"   
+  LABEL @en 'has_specified_input' 
+  ISA :"RO_0002233"  
+
+PROPERTY :"OBI_0000299"   
+  LABEL @en 'has_specified_output' 
+  ISA :"RO_0002234"  
+
+PROPERTY :"RO_0000052"   
+  LABEL @en 'inheres_in' 
+
+PROPERTY :"RO_0000053"   
+  LABEL @en 'bearer of' 
+
+PROPERTY :"RO_0000056"   
+  LABEL @en 'participates in' 
+
+PROPERTY :"RO_0000057"   
+  LABEL @en 'has participant' 
+
+PROPERTY :"RO_0000059"   
+  LABEL @en 'concretizes' 
+
+PROPERTY :"RO_0000086"   
+  LABEL @en 'has quality' 
+  ISA :"RO_0000053"  
+
+PROPERTY :"RO_0000087"   
+  LABEL @en 'has_role' 
+  ISA :"RO_0000053"  
+
+PROPERTY :"RO_0000091"   
+  LABEL @en 'has disposition' 
+  ISA :"RO_0000053"  
+
+PROPERTY :"RO_0001000"   
+  LABEL @en 'derives from' 
+
+PROPERTY :"RO_0002091"   
+  LABEL @en 'starts during' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002093"   
+  LABEL @en 'ends during' 
+  ISA :"RO_0002222"  
+
+PROPERTY :"RO_0002131"   
+  LABEL @en 'overlaps' 
+
+PROPERTY :"RO_0002162"   
+  LABEL @en 'in taxon' 
+
+PROPERTY :"RO_0002200"   
+  LABEL @en 'has phenotype' 
+
+PROPERTY :"RO_0002201"   
+  LABEL @en 'phenotype of' 
+
+PROPERTY :"RO_0002222"   
+  LABEL @en 'temporally related to' 
+
+PROPERTY :"RO_0002233"   
+  LABEL @en 'has input' 
+  ISA :"RO_0000057"  
+
+PROPERTY :"RO_0002234"   
+  LABEL @en 'has output' 
+  ISA :"RO_0000057"  
+
+PROPERTY :"RO_0002350"   
+  LABEL @en 'is member of' 
+  ISA :"BFO_0000050"  
+
+PROPERTY :"RO_0002351"   
+  LABEL @en 'has member' 
+  ISA :"BFO_0000051"  
+
+PROPERTY :"RO_0002352"   
+  LABEL @en 'input of' 
+  ISA :"RO_0000056"  
+
+PROPERTY :"RO_0002353"   
+  LABEL @en 'output of' 
+  ISA :"RO_0000056"  
+
+PROPERTY :"RO_0002354"   
+  LABEL @en 'obsolete_formed as result of' 
+  ISA :"ObsoleteProperty"  
+
+PROPERTY :"RO_000244"   
+  LABEL @en 'molecularly controls' 
+
+PROPERTY :"RO_0002524"   
+  LABEL @en 'has subsequence' 
+  ISA :"GENO_0000654"  
+
+PROPERTY :"RO_0002525"   
+  LABEL @en 'is subsequence of' 
+  ISA :"GENO_0000655"  
+
+PROPERTY :"RO_0002526"   
+  LABEL @en 'overlaps sequence of' 
+  ISA :"RO_0002131"  
+
+PROPERTY :"RO_0002528"   
+  LABEL @en 'is upstream of sequence of' 
+
+PROPERTY :"RO_0002529"   
+  LABEL @en 'is downstream of sequence of' 
+
+PROPERTY :"RO_0003301"   
+  LABEL @en 'is model of' 
+
+PROPERTY :"RO_0003302"   
+  LABEL @en 'causes or contributes to condition' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"RO_0003303"   
+  LABEL @en 'causes condition' 
+  ISA :"RO_0003302"  
+
+PROPERTY :"RO_0003304"   
+  LABEL @en 'contributes to condition' 
+  ISA :"RO_0003302"  
+
+PROPERTY :"RO_0003305"   
+  LABEL @en 'contributes to severity of condition' 
+  ISA :"RO_0003304"  
+
+PROPERTY :"RO_0003306"   
+  LABEL @en 'contributes to frequency of condition' 
+  ISA :"RO_0003304"  
+
+PROPERTY :"RO_0003307"   
+  LABEL @en 'is preventative for condition' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"RO_0003308"   
+  LABEL @en 'correlated with condition' 
+  ISA :"GENO_0000790"  
+
+PROPERTY :"association_has_object"   
+  LABEL @en 'association has object' 
+
+PROPERTY :"association_has_predicate"   
+  LABEL @en 'association has predicate' 
+
+PROPERTY :"association_has_subject"   
+  LABEL @en 'association has subject' 
+
+PROPERTY :"ObsoleteProperty"  
+
+PROPERTY :"topObjectProperty"  
+
+PROPERTY :"position"   
+  LABEL @en 'position' 
+
+PROPERTY :"GENO_0000678"   
+  LABEL @en 'has_extent' 
+
+PROPERTY :"GENO_0000703"   
+  LABEL @en 'has_sequence_string' 
+
+PROPERTY :"GENO_0000712"   
+  LABEL @en 'ObsoleteDataProperty' 
+
+PROPERTY :"GENO_0000866"   
+  LABEL @en 'has_quantifier' 
+
+PROPERTY :"GENO_0000894"   
+  LABEL @en 'start_position' 
+
+PROPERTY :"GENO_0000895"   
+  LABEL @en 'end_position' 
+
+PROPERTY :"GENO_0000896"   
+  LABEL @en 'has_string' 
+
+PROPERTY :"GENO_0000917"   
+  LABEL @en 'has_count' 
+
+CLASS :"SO_0001059"   
+  LABEL @en 'sequence_alteration'  
+  ISA :"GENO_0000002"  
+
+CLASS :"OBI_0001148"   
+  LABEL @en 'targeted gene knock-out technique'  
+  ISA :"GENO_0000166"  
+
+CLASS :"OBI_0001149"   
+  LABEL @en 'targeted gene knock-in technique'  
+  ISA :"GENO_0000166"  
+
+CLASS :"GENO_0000901"   
+  LABEL @en 'obsolete_allele cellular context'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000902"   
+  LABEL @en 'genomic locus'  
+  ISA :"GENO_0000815"  
+
+CLASS :"GENO_0000904"   
+  LABEL @en 'organismal entity'  
+  ISA :"BFO_0000040"  
+
+CLASS :"NCBITaxon_8090"   
+  LABEL @en 'Oryzias latipes'  
+  ISA :"OBI_0100026"  
+
+CLASS :"SO_0000199"   
+  LABEL @en 'translocation'  
+  ISA :"SO_0001059"  
+
+CLASS :"OBI_0000181"   
+  LABEL @en 'population'  
+  ISA :"GENO_0000113"  
+
+CLASS :"ZP_0000386"   
+  LABEL @en 'abnormal(ly) absent dorso-rostral cluster'  
+  ISA :"GENO_0000575"  
+
+CLASS :"OBI_0000086"   
+  LABEL @en 'reagent role'  
+  ISA :"BFO_0000023"  
+
+CLASS :"SO_0001026"   
+  LABEL @en 'genome'  
+  ISA :"GENO_0000660" 
+  ISA :"ONTORELA_C349f0240"  
+  :"RO_0002162"  [1..*] :"OBI_0100026" 
+
+CLASS :"IAO_0000102"   
+  LABEL @en 'data about an ontology part'  
+  ISA :"IAO_0000030"  
+
+CLASS :"OBI_0000011"   
+  LABEL @en 'planned process'  
+  ISA :"BFO_0000015"  
+
+CLASS :"GENO_0000091"   
+  LABEL @en 'obsolete_experimental insertion'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000093"   
+  LABEL @en 'integrated transgene'  
+  ISA :"SO_0000902"  
+  :"BFO_0000050"  [1..*] :"SO_0001218" 
+
+CLASS :"UBERON_0000105"   
+  LABEL @en 'life cycle stage'  
+  ISA :"GENO_0000351"  
+
+CLASS :"GENO_0000092"   
+  LABEL @en 'gene trap insertion'  
+  ISA :"SO_0000667"  
+  :"RO_0002353"  [1..*] :"GENO_0000172" 
+
+CLASS :"BFO_0000040"   
+  LABEL @en 'material entity'  
+  ISA :"BFO_0000004"  
+
+CLASS :"IAO_0000030"   
+  LABEL @en 'information content entity'  
+  ISA :"BFO_0000031"  
+
+CLASS :"ERO_0002003"   
+  LABEL @en 'stem cell line'  
+  ISA :"CLO_0000031"  
+
+CLASS :"ERO_0002002"   
+  LABEL @en 'embryonic stem cell line'  
+  ISA :"ERO_0002003"  
+
+CLASS :"GENO_0000060"   
+  LABEL @en 'obsolete_reference gene allele'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"SO_0001218"   
+  LABEL @en 'transgenic_insertion'  
+  ISA :"SO_0000667"  
+  :"BFO_0000051"  [1..*] :"GENO_0000093" 
+
+CLASS :"ForwardStrandPosition"   
+  LABEL @en 'Positive strand'  
+  ISA :"StrandedPosition"  
+
+CLASS :"UBERON_0001062"   
+  LABEL @en 'anatomical entity'  
+  ISA :"BFO_0000040"  
+  :"RO_0001000"  [1..*] :"OBI_0100026" 
+
+CLASS :"SO_0000248"   
+  LABEL @en 'sequence_length_variation'  
+  ISA :"SO_1000002"  
+
+CLASS :"SO_0000110"   
+  LABEL @en 'sequence_feature'  
+  ISA :"GENO_0000701"  
+  :"GENO_0000239"  [1..*] :"GENO_0000702" 
+  :"GENO_0000903"  [1..*] :"GENO_0000815" 
+  :"GENO_0000703"  [1..*] :"string" 
+
+CLASS :"GENO_0000170"   
+  LABEL @en 'targeted genetic insertion technique'  
+  ISA :"GENO_0000164"  
+  :"OBI_0000299"  [1..*] :"GENO_0000515" 
+
+CLASS :"GENO_0000172"   
+  LABEL @en 'gene trapping technique'  
+  ISA :"GENO_0000170"  
+  :"OBI_0000299"  [1..*] :"GENO_0000515" 
+
+CLASS :"BothStrandsPosition"   
+  LABEL @en 'Both strands'  
+  ISA :"StrandedPosition"  
+
+CLASS :"GENO_0000171"   
+  LABEL @en 'enhancer trapping technique'  
+  ISA :"GENO_0000170"  
+  :"OBI_0000299"  [1..*] :"GENO_0000515" 
+
+CLASS :"GENO_0000174"   
+  LABEL @en 'targeted knock-in technique'  
+  ISA :"GENO_0000170"  
+  :"OBI_0000299"  [1..*] :"GENO_0000515" 
+
+CLASS :"GENO_0000173"   
+  LABEL @en 'promoter trapping technique'  
+  ISA :"GENO_0000170"  
+  :"OBI_0000299"  [1..*] :"GENO_0000515" 
+
+CLASS :"PATO_0000016"   
+  LABEL @en 'obsolete_color brightness'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"PATO_0000383"   
+  LABEL @en 'female'  
+  ISA :"PATO_0001894"  
+
+CLASS :"PATO_0000384"   
+  LABEL @en 'male'  
+  ISA :"PATO_0001894"  
+
+CLASS :"GENO_0000054"   
+  LABEL @en 'homo sapiens gene'  
+
+CLASS :"GENO_0000175"   
+  LABEL @en 'random transgene insertion technique'  
+  ISA :"GENO_0000169"  
+
+CLASS :"GENO_0000057"   
+  LABEL @en 'mus musculus gene'  
+
+CLASS :"UPHENO_0001001"   
+  LABEL @en 'Phenotype'  
+  ISA :"BFO_0000020"  
+
+CLASS :"SO_0000341"   
+  LABEL @en 'chromosome band'  
+  ISA :"SO_0000830"  
+  :"GENO_0000207"  [1..*] :"GENO_0000618" 
+  :"BFO_0000050"  [1..*] :"GENO_0000614" 
+
+CLASS :"SO_0000340"   
+  LABEL @en 'chromosome'  
+  ISA :"GENO_0000481"  
+
+CLASS :"GENO_0000160"   
+  LABEL @en 'unspecified life cycle stage'  
+  ISA :"UBERON_0000105"  
+
+CLASS :"GENO_0000042"   
+  LABEL @en 'obsolete_reference junction'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000165"   
+  LABEL @en 'mutagen treatment technique'  
+  ISA :"OBI_0600043"  
+
+CLASS :"GENO_0000164"   
+  LABEL @en 'genetic insertion technique'  
+  ISA :"OBI_0600043"  
+
+CLASS :"GENO_0000166"   
+  LABEL @en 'targeted gene mutation technique'  
+  ISA :"OBI_0600043"  
+  :"OBI_0000299"  [1..*] :"GENO_0000515" 
+
+CLASS :"SO_0000105"   
+  LABEL @en 'chromosome arm'  
+  ISA :"SO_0000830"  
+  :"BFO_0000050"  [1..*] :"SO_0000830" 
+
+CLASS :"GENO_0000169"   
+  LABEL @en 'random genetic insertion technique'  
+  ISA :"GENO_0000164"  
+
+CLASS :"GENO_0000047"   
+  LABEL @en 'danio rerio gene'  
+
+CLASS :"SO_0000694"   
+  LABEL @en 'SNP'  
+  ISA :"SO_0001483"  
+
+CLASS :"SO_0001784"   
+  LABEL @en 'complex_structural_alteration'  
+  ISA :"SO_0001785"  
+
+CLASS :"SO_0001785"   
+  LABEL @en 'structural_alteration'  
+  ISA :"SO_0001059"  
+
+CLASS :"GENO_0000150"   
+  LABEL @en 'obsolete_autosomal recessive inheritance'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000392"   
+  LABEL @en 'aneusomic zygosity'  
+  ISA :"GENO_0000133"  
+
+CLASS :"GENO_0000391"   
+  LABEL @en 'disomic zygosity'  
+  ISA :"GENO_0000133"  
+
+CLASS :"GENO_0000152"   
+  LABEL @en 'reference'  
+  ISA :"GENO_0000773"  
+
+CLASS :"GENO_0000394"   
+  LABEL @en 'trisomic heterozygous'  
+  ISA :"GENO_0000392"  
+
+CLASS :"GENO_0000030"   
+  LABEL @en 'variant single locus complement'  
+
+CLASS :"GENO_0000393"   
+  LABEL @en 'trisomic homozygous'  
+  ISA :"GENO_0000392"  
+
+CLASS :"CL_0000000"   
+  LABEL @en 'cell'  
+  ISA :"UBERON_0001062" 
+  ISA :"ONTORELA_C64c7aff2"  
+
+CLASS :"GENO_0000033"   
+  LABEL @en 'variant genome'  
+  :"GENO_0000382"  [1..*] :"SO_0001059" 
+
+CLASS :"SO_0000337"   
+  LABEL @en 'RNAi_reagent'  
+  ISA :"GENO_0000533"  
+
+CLASS :"SO_0000699"   
+  LABEL @en 'junction'  
+  ISA :"SO_0000110"  
+
+CLASS :"GENO_0000037"   
+  LABEL @en 'obsolete_unspecified feature'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"SO_0000577"   
+  LABEL @en 'centromere'  
+  ISA :"SO_0000830"  
+
+CLASS :"GENO_0000036"   
+  LABEL @en 'reference allele'  
+
+CLASS :"SO_1000017"   
+  LABEL @en 'transversion'  
+  ISA :"SO_0001483"  
+
+CLASS :"SO_0000165"   
+  LABEL @en 'enhancer'  
+  ISA :"SO_0005836"  
+
+CLASS :"SO_1000016"   
+  LABEL @en 'G_to_A_transition'  
+  ISA :"SO_1000014"  
+
+CLASS :"SO_1000019"   
+  LABEL @en 'C_to_A_transversion'  
+  ISA :"SO_1000018"  
+
+CLASS :"SO_1000018"   
+  LABEL @en 'pyrimidine_to_purine_transversion'  
+  ISA :"SO_1000017"  
+
+CLASS :"SO_1000013"   
+  LABEL @en 'T_to_C_transition'  
+  ISA :"SO_1000010"  
+
+CLASS :"SO_0001019"   
+  LABEL @en 'copy_number_variation'  
+  ISA :"SO_0001059"  
+
+CLASS :"SO_1000012"   
+  LABEL @en 'C_to_T_transition_at_pCpG_site'  
+  ISA :"SO_1000011"  
+
+CLASS :"GENO_0000141"   
+  LABEL @en 'inheritance pattern'  
+  ISA :"BFO_0000016"  
+
+CLASS :"SO_0000281"   
+  LABEL @en 'engineered_foreign_gene'  
+  ISA :"SO_0000704"  
+  :"GENO_0000207"  [1..*] :"SO_0000783" 
+
+CLASS :"SO_1000015"   
+  LABEL @en 'A_to_G_transition'  
+  ISA :"SO_1000014"  
+
+CLASS :"GENO_0000140"   
+  LABEL @en 'non-heritable'  
+  ISA :"GENO_0000138"  
+
+CLASS :"SO_1000014"   
+  LABEL @en 'purine_transition'  
+  ISA :"SO_1000009"  
+
+CLASS :"HP_0000118"   
+  LABEL @en 'human phenotypic abnormality'  
+  ISA :"UPHENO_0001001"  
+
+CLASS :"GENO_0000029"   
+  LABEL @en 'obsolete_reference single locus complement'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000022"   
+  LABEL @en 'obsolete_genomic feature collection'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000143"   
+  LABEL @en 'co-dominant autosomal inheritance'  
+  ISA :"GENO_0000147"  
+
+CLASS :"GENO_0000142"   
+  LABEL @en 'obsolete_dominant inheritance'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"ZP_0000755"   
+  LABEL @en 'abnormal(ly) disrupted  diencephalon development'  
+  ISA :"GENO_0000575"  
+
+CLASS :"GENO_0000145"   
+  LABEL @en 'incomplete autosomal dominant inheritance'  
+  ISA :"GENO_0000147"  
+
+CLASS :"SO_1000011"   
+  LABEL @en 'C_to_T_transition'  
+  ISA :"SO_1000010"  
+
+CLASS :"GENO_0000144"   
+  LABEL @en 'complete autosomal dominant inheritance'  
+  ISA :"GENO_0000147"  
+
+CLASS :"SO_1000010"   
+  LABEL @en 'pyrimidine_transition'  
+  ISA :"SO_1000009"  
+
+CLASS :"GENO_0000147"   
+  LABEL @en 'autosomal dominant inheritance'  
+  ISA :"GENO_0000934"  
+
+CLASS :"GENO_0000146"   
+  LABEL @en 'X-linked dominant inheritance'  
+  ISA :"GENO_0000936"  
+
+CLASS :"GENO_0000149"   
+  LABEL @en 'X-linked recessive inheritance'  
+  ISA :"GENO_0000936"  
+
+CLASS :"SO_0000289"   
+  LABEL @en 'microsatellite'  
+  ISA :"GENO_0000481"  
+
+CLASS :"GENO_0000148"   
+  LABEL @en 'autosomal recessive inheritance'  
+  ISA :"GENO_0000934"  
+
+CLASS :"SO_0000167"   
+  LABEL @en 'promoter'  
+  ISA :"SO_0005836"  
+
+CLASS :"SO_0001013"   
+  LABEL @en 'MNP'  
+  ISA :"SO_1000002"  
+
+CLASS :"SO_0000034"   
+  LABEL @en 'morpholino_oligo'  
+  ISA :"GENO_0000533"  
+
+CLASS :"SO_1000027"   
+  LABEL @en 'G_to_T_transversion'  
+  ISA :"SO_1000023"  
+
+CLASS :"GENO_0000491"   
+  LABEL @en 'obsolete_mutant allele'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"SO_1000024"   
+  LABEL @en 'A_to_C_transversion'  
+  ISA :"SO_1000023"  
+
+CLASS :"SO_1000023"   
+  LABEL @en 'purine_to_pyrimidine_transversion'  
+  ISA :"SO_1000017"  
+
+CLASS :"SO_1000026"   
+  LABEL @en 'G_to_C_transversion'  
+  ISA :"SO_1000023"  
+
+CLASS :"GENO_0000492"   
+  LABEL @en 'mutation'  
+  ISA :"SO_0001059"  
+  :"GENO_0000683"  [1..*] :"GENO_0000501" 
+
+CLASS :"SO_1000025"   
+  LABEL @en 'A_to_T_transversion'  
+  ISA :"SO_1000023"  
+
+CLASS :"399483"   
+  LABEL @en 'danio rerio cdkn1ca gene'  
+  ISA :"GENO_0000047"  
+
+CLASS :"GENO_0000019"   
+  LABEL @en 'obsolete_sequence feature collection'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000139"   
+  LABEL @en 'heritable'  
+  ISA :"GENO_0000138"  
+
+CLASS :"GENO_0000132"   
+  LABEL @en 'in trans'  
+  ISA :"GENO_0000886"  
+
+CLASS :"GENO_0000495"   
+  LABEL @en 'expression construct'  
+  ISA :"GENO_0000856"  
+
+CLASS :"SO_1000020"   
+  LABEL @en 'C_to_G_transversion'  
+  ISA :"SO_1000018"  
+
+CLASS :"GENO_0000010"   
+  LABEL @en 'background genome'  
+  ISA :"GENO_0000914"  
+
+CLASS :"GENO_0000131"   
+  LABEL @en 'in cis'  
+  ISA :"GENO_0000886"  
+
+CLASS :"GENO_0000494"   
+  LABEL @en 'extrachromosomal replicon'  
+
+CLASS :"GENO_0000134"   
+  LABEL @en 'hemizygous'  
+  ISA :"GENO_0000391"  
+
+CLASS :"GENO_0000497"   
+  LABEL @en 'polymorphic allele'  
+  ISA :"GENO_0000512"  
+
+CLASS :"SO_1000022"   
+  LABEL @en 'T_to_G_transversion'  
+  ISA :"SO_1000018"  
+
+CLASS :"GENO_0000133"   
+  LABEL @en 'zygosity'  
+  ISA :"GENO_0000875"  
+  :"RO_0000052"  [1..*] :"GENO_0000516" 
+
+CLASS :"SO_1000021"   
+  LABEL @en 'T_to_A_transversion'  
+  ISA :"SO_1000018"  
+
+CLASS :"GENO_0000136"   
+  LABEL @en 'homozygous'  
+  ISA :"GENO_0000391"  
+
+CLASS :"GENO_0000499"   
+  LABEL @en 'minor polymorphic allele'  
+  ISA :"GENO_0000497"  
+
+CLASS :"SO_0000159"   
+  LABEL @en 'deletion'  
+  ISA :"SO_0001059"  
+
+CLASS :"SO_0001483"   
+  LABEL @en 'SNV'  
+  ISA :"SO_1000002"  
+
+CLASS :"GENO_0000014"   
+  LABEL @en 'gene allele'  
+  :"GENO_0000408"  [1..*] :"SO_0000704" 
+
+CLASS :"GENO_0000135"   
+  LABEL @en 'heterozygous'  
+  ISA :"GENO_0000391"  
+
+CLASS :"GENO_0000498"   
+  LABEL @en 'major polymorphic allele'  
+  ISA :"GENO_0000497"  
+
+CLASS :"GENO_0000017"   
+  LABEL @en 'reference sequence'  
+
+CLASS :"GENO_0000138"   
+  LABEL @en 'heritabililty'  
+  ISA :"BFO_0000016"  
+
+CLASS :"GENO_0000137"   
+  LABEL @en 'unspecified zygosity'  
+  ISA :"GENO_0000133"  
+
+CLASS :"SO_0000143"   
+  LABEL @en 'assembly_component'  
+  ISA :"SO_0001410"  
+
+CLASS :"SO_0001477"   
+  LABEL @en 'gene_trap_construct'  
+  ISA :"GENO_0000856"  
+
+CLASS :"SO_0001478"   
+  LABEL @en 'promoter_trap_construct'  
+  ISA :"GENO_0000856"  
+
+CLASS :"SO_0001479"   
+  LABEL @en 'enhancer_trap_construct'  
+  ISA :"GENO_0000856"  
+
+CLASS :"GENO_0000480"   
+  LABEL @en 'mutant'  
+  ISA :"GENO_0000773"  
+
+CLASS :"SO_0005836"   
+  LABEL @en 'regulatory_region'  
+  ISA :"GENO_0000666"  
+
+CLASS :"GENO_0000482"   
+  LABEL @en 'genetic material'  
+  ISA :"CHEBI_33696"  
+
+CLASS :"GENO_0000481"   
+  LABEL @en 'genomic feature'  
+  :"BFO_0000050"  [1..*] :"SO_0001026" 
+  :"RO_0002162"  [1..*] :"OBI_0100026" 
+
+CLASS :"OBI_0000435"   
+  LABEL @en 'genotyping assay'  
+  ISA :"ERO_0000007"  
+
+CLASS :"GENO_0000009"   
+  LABEL @en 'genomic variation complement'  
+
+CLASS :"GENO_0000000"   
+  LABEL @en 'genomic genotype (sex-agnostic)'  
+  ISA :"GENO_0000899"  
+
+CLASS :"GENO_0000002"   
+  LABEL @en 'variant allele'  
+
+CLASS :"StrandedPosition"   
+  LABEL @en 'Stranded position'  
+  ISA :"Position"  
+
+CLASS :"SO_0000149"   
+  LABEL @en 'contig'  
+  ISA :"SO_0000143"  
+
+CLASS :"GENO_0000125"   
+  LABEL @en 'obsolete_sequence feature collection attribute'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"SO_1000005"   
+  LABEL @en 'complex_substitution'  
+  ISA :"SO_1000002"  
+
+CLASS :"SO_1000008"   
+  LABEL @en 'point_mutation'  
+  ISA :"SO_0001483"  
+
+CLASS :"SO_1000002"   
+  LABEL @en 'substitution'  
+  ISA :"SO_0001059"  
+
+CLASS :"SO_1000009"   
+  LABEL @en 'transition'  
+  ISA :"SO_0001483"  
+
+CLASS :"GENO_0000118"   
+  LABEL @en 'mus musculus strain'  
+  ISA :"GENO_0000112"  
+
+CLASS :"GENO_0000119"   
+  LABEL @en 'danio rerio strain'  
+  ISA :"GENO_0000112"  
+  :"RO_0002351"  [1..*] :"NCBITaxon_7955" 
+
+CLASS :"GENO_0000351"   
+  LABEL @en 'biological process'  
+  ISA :"BFO_0000015"  
+
+CLASS :"GENO_0000112"   
+  LABEL @en 'strain or breed'  
+  ISA :"GENO_0000113"  
+  :"RO_0002162"  [1..*] :"OBI_0100026" 
+
+CLASS :"GENO_0000111"   
+  LABEL @en 'human population'  
+  ISA :"OBI_0000181"  
+
+CLASS :"GENO_0000477"   
+  LABEL @en 'polymorphic'  
+  ISA :"GENO_0000773"  
+
+CLASS :"GENO_0000113"   
+  LABEL @en 'taxonomic group'  
+  ISA :"PCO_0000000"  
+
+CLASS :"GENO_0000476"   
+  LABEL @en 'variant'  
+  ISA :"GENO_0000773"  
+
+CLASS :"association"   
+  LABEL @en 'association'  
+  ISA :"IAO_0000030"  
+
+CLASS :"GENO_0000460"   
+  LABEL @en 'transgene part'  
+
+CLASS :"GENO_0000106"   
+  LABEL @en 'genomic material'  
+  ISA :"GENO_0000482"  
+  :"RO_0000091"  [1..*] :"GENO_0000139" 
+  :"GENO_0000248"  [1..*] :"ONTORELA_C64c7aff2" 
+  :"BFO_0000050"  [1..*] :"GENO_0000108" 
+
+CLASS :"GENO_0000108"   
+  LABEL @en 'material genome'  
+  ISA :"BFO_0000040"  
+
+CLASS :"SO_1000173"   
+  LABEL @en 'tandem_duplication'  
+  ISA :"SO_1000035"  
+
+CLASS :"GENO_0000343"   
+  LABEL @en 'aneusomic chromosomal part'  
+  ISA :"SO_0001059"  
+  :"GENO_0000248"  [1..*] :"SO_0000340" 
+  :"GENO_0000207"  [1..*] :"GENO_0000513" 
+
+CLASS :"GENO_0000345"   
+  LABEL @en 'lost aneusomic chromosomal segment'  
+  ISA :"GENO_0000343"  
+
+CLASS :"GENO_0000344"   
+  LABEL @en 'gained aneusomic chromosomal segment'  
+  ISA :"GENO_0000343"  
+
+CLASS :"GENO_0000346"   
+  LABEL @en 'aneusomic chromosome'  
+  ISA :"SO_0000340" 
+  ISA :"SO_0001059"  
+  :"GENO_0000207"  [1..*] :"GENO_0000513" 
+
+CLASS :"GENO_0000338"   
+  LABEL @en 'gained aneusomic chromosome'  
+  ISA :"GENO_0000346"  
+  :"GENO_0000207"  [1..*] :"GENO_0000685" 
+
+CLASS :"GENO_0000458"   
+  LABEL @en 'simple heterozygous'  
+  ISA :"GENO_0000135"  
+
+CLASS :"GENO_0000339"   
+  LABEL @en 'lost aneusomic chromosome'  
+  ISA :"GENO_0000346"  
+
+CLASS :"SO_0000637"   
+  LABEL @en 'obsolete_engineered_plasmid'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"CHEBI_23367"   
+  LABEL @en 'molecular entity'  
+  ISA :"BFO_0000040"  
+
+CLASS :"GENO_0000575"   
+  LABEL @en 'zebrafish phenotype'  
+  ISA :"UPHENO_0001001"  
+
+CLASS :"CLO_0000031"   
+  LABEL @en 'cell line'  
+  ISA :"BFO_0000040"  
+  :"RO_0001000"  [1..*] :"OBI_0100026" 
+
+CLASS :"SO_1000039"   
+  LABEL @en 'direct_tandem_duplication'  
+  ISA :"SO_1000173"  
+
+CLASS :"NCBITaxon_9606"   
+  LABEL @en 'Homo sapiens'  
+  ISA :"OBI_0100026"  
+
+CLASS :"SO_1000035"   
+  LABEL @en 'duplication'  
+  ISA :"SO_0000667"  
+
+CLASS :"GENO_0000680"   
+  LABEL @en 'obsolete_null feature'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"SO_1000036"   
+  LABEL @en 'inversion'  
+  ISA :"SO_0001059"  
+
+CLASS :"NCBITaxon_10239"   
+  LABEL @en 'Viruses'  
+  ISA :"OBI_0100026" 
+  ISA :"ONTORELA_C64c7aff2"  
+
+CLASS :"ExactPosition"   
+  LABEL @en 'Exact position'  
+  ISA :"Position"  
+
+CLASS :"GENO_0000681"   
+  LABEL @en 'novel extrachromosomal replicon'  
+  ISA :"GENO_0000684"  
+  :"GENO_0000207"  [1..*] :"GENO_0000139" 
+  :"GENO_0000207"  [1..*] :"GENO_0000685" 
+
+CLASS :"GENO_0000684"   
+  LABEL @en 'novel replicon'  
+  ISA :"SO_0001059"  
+  :"GENO_0000207"  [1..*] :"GENO_0000685" 
+
+CLASS :"SO_1000032"   
+  LABEL @en 'indel'  
+  ISA :"SO_0001059"  
+
+CLASS :"GENO_0000685"   
+  LABEL @en 'novel'  
+  ISA :"GENO_0000773"  
+
+CLASS :"GENO_0000688"   
+  LABEL @en 'terminus'  
+  ISA :"SO_0000110"  
+
+CLASS :"GENO_0000324"   
+  LABEL @en 'obsolete_chromosome complement'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"ENVO_01000254"   
+  LABEL @en 'environmental system'  
+  ISA :"BFO_0000040"  
+
+CLASS :"ReverseStrandPosition"   
+  LABEL @en 'Negative strand'  
+  ISA :"StrandedPosition"  
+
+CLASS :"SO_1000040"   
+  LABEL @en 'inverted_tandem_duplication'  
+  ISA :"SO_1000173"  
+
+CLASS :"SO_0001410"   
+  LABEL @en 'experimental_feature'  
+  ISA :"SO_0000110"  
+
+CLASS :"Region"   
+  LABEL @en 'Region'  
+  ISA :"SO_0000110"  
+  :"begin"  [1..1] :"Position" 
+  :"end"  [1..1] :"Position" 
+
+CLASS :"Thing"   
+
+CLASS :"GO_0003674"   
+  LABEL @en 'molecular function'  
+  ISA :"BFO_0000034"  
+
+CLASS :"PATO_0001894"   
+  LABEL @en 'phenotypic sex'  
+  ISA :"BFO_0000019"  
+
+CLASS :"GENO_0000667"   
+  LABEL @en 'reporter transgene'  
+  :"BFO_0000051"  [1..*] :"GENO_0000640" 
+  :"GENO_0000207"  [1..*] :"SO_0000783" 
+
+CLASS :"GENO_0000788"   
+  LABEL @en 'sequence feature attribute'  
+  ISA :"BFO_0000020"  
+
+CLASS :"GENO_0000660"   
+  LABEL @en 'genomic feature complement'  
+  ISA :"GENO_0000659" 
+  ISA :"ONTORELA_C6cdb8ddf"  
+  :"RO_0002162"  [1..*] :"OBI_0100026" 
+  :"RO_0002351"  [1..*] :"GENO_0000481" 
+
+CLASS :"GENO_0000781"   
+  LABEL @en 'RNA residue'  
+  ISA :"GENO_0000779"  
+
+CLASS :"SO_0000207"   
+  LABEL @en 'simple_sequence_length_variation'  
+  ISA :"SO_0000248"  
+
+CLASS :"GENO_0000780"   
+  LABEL @en 'DNA residue'  
+  ISA :"GENO_0000779"  
+
+CLASS :"GENO_0000782"   
+  LABEL @en 'amino acid residue'  
+  ISA :"GENO_0000779"  
+
+CLASS :"GENO_0000666"   
+  LABEL @en 'gene part'  
+
+CLASS :"PCO_0000000"   
+  LABEL @en 'collection of organisms'  
+  ISA :"BFO_0000040"  
+  :"RO_0002351"  [1..*] :"OBI_0100026" 
+
+CLASS :"GENO_0000415"   
+  LABEL @en 'obsolete_reagent sequence feature'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000536"   
+  LABEL @en 'genotype'  
+  ISA :"IAO_0000030" 
+  ISA :"ONTORELA_C6eeefcf9"  
+  :"IAO_0000219"  [1..*] :"ONTORELA_C6cdb8ddf" 
+
+CLASS :"GENO_0000778"   
+  LABEL @en 'obsolete_sequence information entity'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000899"   
+  LABEL @en 'genomic genotype'  
+  :"GENO_0000385"  [1..*] :"GENO_0000611" 
+
+CLASS :"GENO_0000777"   
+  LABEL @en 'variant genomic genotype'  
+
+CLASS :"GENO_0000898"   
+  LABEL @en 'obsolete_haplotype block'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000659"   
+  LABEL @en 'sequence feature complement'  
+  ISA :"GENO_0000701"  
+  :"RO_0002351"  [1..*] :"SO_0000110" 
+
+CLASS :"GENO_0000779"   
+  LABEL @en 'biological sequence unit'  
+  ISA :"GENO_0000702"  
+
+CLASS :"GENO_0000770"   
+  LABEL @en 'phenotypic inheritance process'  
+  ISA :"GENO_0000351"  
+
+CLASS :"GENO_0000891"   
+  LABEL @en 'contextual allele'  
+  ISA :"IAO_0000030"  
+  :"IAO_0000219"  [1..*] :"GENO_0000890" 
+
+CLASS :"GENO_0000890"   
+  LABEL @en 'canonical allele'  
+  ISA :"GENO_0000701"  
+
+CLASS :"GENO_0000772"   
+  LABEL @en 'obsolete_unspecified'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000893"   
+  LABEL @en 'homoplasmic mitochondrial inheritance'  
+  ISA :"GENO_0000949"  
+
+CLASS :"GENO_0000892"   
+  LABEL @en 'heteroplasmic mitochondrial inheritance'  
+  ISA :"GENO_0000949"  
+
+CLASS :"GENO_0000773"   
+  LABEL @en 'variation attribute'  
+  ISA :"GENO_0000788"  
+
+CLASS :"GENO_0000534"   
+  LABEL @en 'reagent-targeted gene subregion'  
+  ISA :"GENO_0000737"  
+
+CLASS :"GENO_0000897"   
+  LABEL @en 'genomic entity'  
+  ISA :"BFO_0000031"  
+  :"RO_0002162"  [1..*] :"OBI_0100026" 
+
+CLASS :"GENO_0000533"   
+  LABEL @en 'gene knockdown reagent'  
+  ISA :"SO_0000804"  
+
+CLASS :"GENO_0000525"   
+  LABEL @en 'effective genotype'  
+  ISA :"GENO_0000536"  
+  :"BFO_0000051"  [1..*] :"GENO_0000524" 
+  :"BFO_0000051"  [1..*] :"GENO_0000719" 
+
+CLASS :"GENO_0000646"   
+  LABEL @en 'male intrinsic genotype'  
+  ISA :"GENO_0000645"  
+
+CLASS :"GENO_0000888"   
+  LABEL @en 'germline allele origin'  
+  ISA :"GENO_0000877"  
+
+CLASS :"GENO_0000524"   
+  LABEL @en 'extrinsic genotype'  
+  ISA :"GENO_0000536"  
+
+CLASS :"GENO_0000645"   
+  LABEL @en 'genomic genotype (sex-qualified)'  
+  ISA :"GENO_0000899"  
+  :"GENO_0000650"  [1..*] :"GENO_0000000" 
+
+CLASS :"GENO_0000887"   
+  LABEL @en 'oryzias latipes strain'  
+  ISA :"GENO_0000112"  
+  :"RO_0002351"  [1..*] :"NCBITaxon_8090" 
+
+CLASS :"GENO_0000527"   
+  LABEL @en 'reagent-targeted gene complement'  
+  ISA :"GENO_0000715"  
+  :"RO_0002351"  [1..*] :"GENO_0000504" 
+
+CLASS :"CHEBI_33696"   
+  LABEL @en 'nucleic acid'  
+  ISA :"CHEBI_23367"  
+
+CLASS :"GENO_0000647"   
+  LABEL @en 'female intrinsic genotype'  
+  ISA :"GENO_0000645"  
+
+CLASS :"GENO_0000768"   
+  LABEL @en 'obsolete_genomic position'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000889"   
+  LABEL @en 'undetermined inheritance'  
+  ISA :"GENO_0000141"  
+
+CLASS :"GENO_0000529"   
+  LABEL @en 'expression-variant gene'  
+  ISA :"GENO_0000737"  
+  :"GENO_0000443"  [1..*] :"SO_0000704" 
+
+CLASS :"GENO_0000528"   
+  LABEL @en 'transiently-expressed transgene complement'  
+  ISA :"GENO_0000715"  
+  :"GENO_0000382"  [1..*] :"GENO_0000506" 
+
+CLASS :"GENO_0000649"   
+  LABEL @en 'unspecified background genotype'  
+  ISA :"GENO_0000611"  
+
+CLASS :"GENO_0000880"   
+  LABEL @en 'de novo allele origin'  
+  ISA :"GENO_0000877"  
+
+CLASS :"GENO_0000640"   
+  LABEL @en 'reporter region'  
+  ISA :"GENO_0000638"  
+
+CLASS :"GENO_0000882"   
+  LABEL @en 'somatic allele origin'  
+  ISA :"GENO_0000877"  
+
+CLASS :"SO_0000667"   
+  LABEL @en 'insertion'  
+  ISA :"SO_0001059"  
+
+CLASS :"GENO_0000881"   
+  LABEL @en 'unknown allele origin'  
+  ISA :"GENO_0000877"  
+
+CLASS :"GENO_0000642"   
+  LABEL @en 'selectable marker transgene'  
+  :"GENO_0000207"  [1..*] :"SO_0000783" 
+
+CLASS :"GENO_0000883"   
+  LABEL @en 'obsolete_gametic'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000402"   
+  LABEL @en 'compound heterozygous'  
+  ISA :"GENO_0000135"  
+
+CLASS :"GENO_0000644"   
+  LABEL @en 'karyotype'  
+  ISA :"GENO_0000899"  
+  :"IAO_0000219"  [1..*] :"SO_0001026" 
+
+CLASS :"GENO_0000886"   
+  LABEL @en 'allelic phase'  
+  ISA :"GENO_0000788"  
+
+CLASS :"GENO_0000885"   
+  LABEL @en 'diplotype'  
+
+CLASS :"SO_0000783"   
+  LABEL @en 'engineered'  
+  ISA :"GENO_0000788"  
+
+CLASS :"SO_0000771"   
+  LABEL @en 'QTL'  
+  ISA :"GENO_0000481"  
+
+CLASS :"SO_0001500"   
+  LABEL @en 'heritable_phenotypic_marker'  
+  ISA :"GENO_0000481"  
+
+CLASS :"SO_0001742"   
+  LABEL @en 'copy_number_gain'  
+  ISA :"SO_0001019"  
+
+CLASS :"SO_0001743"   
+  LABEL @en 'copy_number_loss'  
+  ISA :"SO_0001019"  
+
+CLASS :"SO_0001744"   
+  LABEL @en 'UPD'  
+  ISA :"SO_0001059"  
+
+CLASS :"OBI_0600043"   
+  LABEL @en 'genetic modification technique'  
+  ISA :"ERO_0000007"  
+  :"OBI_0000299"  [1..*] :"ONTORELA_C55a946a3" 
+
+CLASS :"SO_0001745"   
+  LABEL @en 'maternal_uniparental_disomy'  
+  ISA :"SO_0001744"  
+
+CLASS :"SO_0001746"   
+  LABEL @en 'paternal_uniparental_disomy'  
+  ISA :"SO_0001744"  
+
+CLASS :"SO_0001505"   
+  LABEL @en 'reference genome sequence'  
+  ISA :"GENO_0000017"  
+  :"RO_0000087"  [1..*] :"GENO_0000152" 
+
+CLASS :"ObsoleteClass"   
+
+CLASS :"GENO_0000877"   
+  LABEL @en 'allele origin'  
+  ISA :"GENO_0000788"  
+
+CLASS :"GENO_0000513"   
+  LABEL @en 'aneusomic'  
+  ISA :"GENO_0000773"  
+
+CLASS :"GENO_0000876"   
+  LABEL @en 'obsolete_genetic dosage'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000516"   
+  LABEL @en 'single locus complement'  
+  ISA :"GENO_0000660" 
+  ISA :"ONTORELA_C349f0240"  
+  :"GENO_0000608"  [1..*] :"GENO_0000133" 
+
+CLASS :"GENO_0000637"   
+  LABEL @en 'regulatory transgene region'  
+  ISA :"SO_0005836"  
+  :"RO_0002525"  [1..*] :"SO_0000902" 
+
+CLASS :"GENO_0000879"   
+  LABEL @en 'paternal allele origin'  
+  ISA :"GENO_0000888"  
+
+CLASS :"GENO_0000515"   
+  LABEL @en 'variant gene allele'  
+  :"GENO_0000641"  [1..*] :"SO_0000704" 
+  :"GENO_0000382"  [1..*] :"SO_0001059" 
+
+CLASS :"GENO_0000878"   
+  LABEL @en 'maternal allele origin'  
+  ISA :"GENO_0000888"  
+
+CLASS :"30269"   
+  LABEL @en 'danio rerio shha gene'  
+  ISA :"GENO_0000047"  
+
+CLASS :"GENO_0000638"   
+  LABEL @en 'expressed transgene region'  
+  ISA :"GENO_0000460"  
+  :"RO_0002525"  [1..*] :"SO_0000902" 
+
+CLASS :"OBI_0100026"   
+  LABEL @en 'organism'  
+  ISA :"BFO_0000040"  
+
+CLASS :"GENO_0000871"   
+  LABEL @en 'obsolete_haplotype'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000870"   
+  LABEL @en 'obsolete_sequence feature collection'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000873"   
+  LABEL @en 'microsatellite alteration'  
+  ISA :"GENO_0000874"  
+
+CLASS :"6469"   
+  LABEL @en 'homo sapiens SHH gene'  
+  ISA :"GENO_0000054"  
+
+CLASS :"GENO_0000872"   
+  LABEL @en 'genomic sequence complement'  
+  ISA :"GENO_0000922"  
+
+CLASS :"GENO_0000512"   
+  LABEL @en 'allele'  
+
+CLASS :"GENO_0000633"   
+  LABEL @en 'gpos33'  
+  ISA :"GENO_0000619"  
+
+CLASS :"GENO_0000875"   
+  LABEL @en 'allelic state'  
+  ISA :"GENO_0000788"  
+
+CLASS :"GENO_0000511"   
+  LABEL @en 'wild-type'  
+  ISA :"GENO_0000773"  
+
+CLASS :"GENO_0000632"   
+  LABEL @en 'gpos66'  
+  ISA :"GENO_0000619"  
+
+CLASS :"GENO_0000874"   
+  LABEL @en 'repeat region alteration'  
+  ISA :"SO_0001059"  
+
+CLASS :"Position"   
+  LABEL @en 'Position'  
+  ISA :"GENO_0000902"  
+
+CLASS :"BFO_0000003"   
+  LABEL @en 'occurrent'  
+  ISA :"BFO_0000001"  
+
+CLASS :"BFO_0000004"   
+  LABEL @en 'independent continuant'  
+  ISA :"BFO_0000002"  
+
+CLASS :"GENO_0000624"   
+  LABEL @en 'gpos50'  
+  ISA :"GENO_0000619"  
+
+CLASS :"GENO_0000502"   
+  LABEL @en 'wild-type gene'  
+  ISA :"SO_0000704" 
+  ISA :"GENO_0000501"  
+
+CLASS :"GENO_0000623"   
+  LABEL @en 'gpos75'  
+  ISA :"GENO_0000619"  
+
+CLASS :"GENO_0000504"   
+  LABEL @en 'reagent targeted gene'  
+  ISA :"GENO_0000529"  
+  :"GENO_0000447"  [1..*] :"GENO_0000533" 
+  :"GENO_0000231"  [1..*] :"GENO_0000534" 
+
+CLASS :"GENO_0000625"   
+  LABEL @en 'gpos25'  
+  ISA :"GENO_0000619"  
+
+CLASS :"GENO_0000628"   
+  LABEL @en 'short chromosome arm'  
+  ISA :"SO_0000105"  
+
+CLASS :"GENO_0000506"   
+  LABEL @en 'transiently-expressed transgene'  
+  ISA :"GENO_0000529"  
+
+CLASS :"SO_0000804"   
+  LABEL @en 'engineered_region'  
+
+CLASS :"GENO_0000629"   
+  LABEL @en 'long chromosome arm'  
+  ISA :"SO_0000105"  
+
+CLASS :"GENO_0000620"   
+  LABEL @en 'gneg'  
+  ISA :"GENO_0000618"  
+
+CLASS :"GENO_0000861"   
+  LABEL @en 'extra-chromosomal transgene'  
+  ISA :"SO_0000902"  
+
+CLASS :"GENO_0000501"   
+  LABEL @en 'wild-type allele'  
+  ISA :"GENO_0000512"  
+  :"GENO_0000683"  [1..*] :"GENO_0000481" 
+
+CLASS :"GENO_0000622"   
+  LABEL @en 'gpos100'  
+  ISA :"GENO_0000619"  
+
+CLASS :"GENO_0000500"   
+  LABEL @en 'ancestral polymorphic allele'  
+  ISA :"GENO_0000497"  
+
+CLASS :"GENO_0000621"   
+  LABEL @en 'gvar'  
+  ISA :"GENO_0000618"  
+
+CLASS :"NCBITaxon_7955"   
+  LABEL @en 'Danio rerio'  
+  ISA :"OBI_0100026"  
+
+CLASS :"GO_0032502"   
+  LABEL @en 'developmental process'  
+  ISA :"GENO_0000351"  
+
+CLASS :"GENO_0000736"   
+  LABEL @en 'location-qualified sequence feature'  
+  ISA :"GENO_0000714"  
+
+CLASS :"GENO_0000614"   
+  LABEL @en 'chromosomal region'  
+  ISA :"SO_0000830"  
+  :"BFO_0000050"  [1..*] :"SO_0000105" 
+
+CLASS :"GENO_0000856"   
+  LABEL @en 'engineered genetic construct'  
+  ISA :"SO_0000804"  
+
+CLASS :"BFO_0000001"   
+  LABEL @en 'entity'  
+
+CLASS :"BFO_0000002"   
+  LABEL @en 'continuant'  
+  ISA :"BFO_0000001"  
+
+CLASS :"GENO_0000616"   
+  LABEL @en 'chromosome sub-band'  
+  ISA :"SO_0000830"  
+  :"BFO_0000050"  [1..*] :"SO_0000341" 
+  :"GENO_0000207"  [1..*] :"GENO_0000618" 
+
+CLASS :"GENO_0000737"   
+  LABEL @en 'expression-qualified sequence feature'  
+  ISA :"GENO_0000714"  
+
+CLASS :"GENO_0000619"   
+  LABEL @en 'gpos'  
+  ISA :"GENO_0000618"  
+
+CLASS :"GENO_0000618"   
+  LABEL @en 'chromosomal band intensity'  
+  ISA :"GENO_0000788"  
+
+CLASS :"NCBITaxon_10090"   
+  LABEL @en 'Mus musculus'  
+  ISA :"OBI_0100026"  
+
+CLASS :"GENO_0000850"   
+  LABEL @en 'P-element construct'  
+  ISA :"GENO_0000856"  
+
+CLASS :"GENO_0000611"   
+  LABEL @en 'background genotype'  
+  :"IAO_0000219"  [1..*] :"GENO_0000010" 
+
+CLASS :"GENO_0000719"   
+  LABEL @en 'intrinsic genotype'  
+  ISA :"GENO_0000536"  
+  :"IAO_0000219"  [1..*] :"ONTORELA_C349f0240" 
+
+CLASS :"MP_0000001"   
+  LABEL @en 'mammalian phenotype'  
+  ISA :"UPHENO_0001001"  
+
+CLASS :"GENO_0000602"   
+  LABEL @en 'homoplasmic'  
+  ISA :"GENO_0000918"  
+
+CLASS :"BFO_0000031"   
+  LABEL @en 'generically dependent continuant'  
+  ISA :"BFO_0000002"  
+
+CLASS :"GENO_0000722"   
+  LABEL @en 'amino acid sequence'  
+  ISA :"GENO_0000702"  
+  :"GENO_0000783"  [1..*] :"GENO_0000782" 
+
+CLASS :"GENO_0000604"   
+  LABEL @en 'hemizygous X-linked'  
+  ISA :"GENO_0000134"  
+
+CLASS :"GENO_0000725"   
+  LABEL @en 'obsolete_biological sequence collection'  
+  ISA :"GENO_0000724"  
+
+CLASS :"GENO_0000603"   
+  LABEL @en 'heteroplasmic'  
+  ISA :"GENO_0000918"  
+
+CLASS :"GENO_0000724"   
+  LABEL @en 'obsolete_biological sequence or collection'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"BFO_0000034"   
+  LABEL @en 'function'  
+  ISA :"BFO_0000016"  
+
+CLASS :"GENO_0000606"   
+  LABEL @en 'hemizygous insertion-linked'  
+  ISA :"GENO_0000134"  
+
+CLASS :"GENO_0000848"   
+  LABEL @en 'obsolete_coding sequence alteration'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000605"   
+  LABEL @en 'hemizygous Y-linked'  
+  ISA :"GENO_0000134"  
+
+CLASS :"SO_0000902"   
+  LABEL @en 'transgene'  
+  ISA :"SO_0000704"  
+
+CLASS :"PCO_0000020"   
+  LABEL @en 'family'  
+  ISA :"PCO_0000000"  
+
+CLASS :"GENO_0000721"   
+  LABEL @en 'RNA sequence'  
+  ISA :"GENO_0000702"  
+  :"GENO_0000783"  [1..*] :"GENO_0000781" 
+
+CLASS :"GENO_0000720"   
+  LABEL @en 'DNA sequence'  
+  ISA :"GENO_0000702"  
+  :"GENO_0000783"  [1..*] :"GENO_0000780" 
+
+CLASS :"BFO_0000016"   
+  LABEL @en 'disposition'  
+  ISA :"BFO_0000017"  
+
+CLASS :"BFO_0000017"   
+  LABEL @en 'realizable entity'  
+  ISA :"BFO_0000020"  
+
+CLASS :"BFO_0000015"   
+  LABEL @en 'process'  
+  ISA :"BFO_0000003"  
+
+CLASS :"BFO_0000019"   
+  LABEL @en 'quality'  
+  ISA :"BFO_0000020"  
+
+CLASS :"GENO_0000833"   
+  LABEL @en 'genotype-phenotype association'  
+  ISA :"association"  
+  :"association_has_object"  [1..*] :"UPHENO_0001001" 
+  :"GENO_0000580"  [1..*] :"ONTORELA_C3009a2bd" 
+  :"GENO_0000580"  [1..*] :"ENVO_01000254" 
+  :"association_has_subject"  [1..*] :"ONTORELA_C6eeefcf9" 
+
+CLASS :"BFO_0000020"   
+  LABEL @en 'specifically dependent continuant'  
+  ISA :"BFO_0000002"  
+
+CLASS :"GENO_0000953"   
+  LABEL @en 'sex-limited autosomal recessive inheritance'  
+  ISA :"GENO_0000148"  
+
+CLASS :"GENO_0000714"   
+  LABEL @en 'qualified genomic feature'  
+  ISA :"GENO_0000919"  
+  :"GENO_0000726"  [1..*] :"SO_0000110" 
+  :"RO_0002162"  [1..*] :"OBI_0100026" 
+  :"GENO_0000726"  [1..*] :"GENO_0000481" 
+  :"GENO_0000580"  [1..*] :"Thing" 
+
+CLASS :"GENO_0000713"   
+  LABEL @en 'qualified sequence feature or collection'  
+  ISA :"BFO_0000031"  
+
+CLASS :"BFO_0000023"   
+  LABEL @en 'role'  
+  ISA :"BFO_0000017"  
+
+CLASS :"GENO_0000715"   
+  LABEL @en 'qualified genomic feature complement'  
+  ISA :"GENO_0000920" 
+  ISA :"ONTORELA_C6cdb8ddf"  
+  :"GENO_0000726"  [1..*] :"SO_0000110" 
+  :"RO_0002162"  [1..*] :"OBI_0100026" 
+  :"RO_0002351"  [1..*] :"GENO_0000714" 
+  :"GENO_0000726"  [1..*] :"GENO_0000660" 
+
+CLASS :"GENO_0000839"   
+  LABEL @en 'knockdown reagent targeted gene complement'  
+  ISA :"GENO_0000527"  
+  :"GENO_0000382"  [1..*] :"GENO_0000504" 
+
+CLASS :"WBPhenotype_0000886"   
+  LABEL @en 'worm phenotype'  
+  ISA :"UPHENO_0001001"  
+
+CLASS :"ZP_0005692"   
+  LABEL @en 'abnormal(ly) absent adaxial cell'  
+  ISA :"GENO_0000575"  
+
+CLASS :"GENO_0000952"   
+  LABEL @en 'sex-limited autosomal dominant inheritance'  
+  ISA :"GENO_0000147"  
+
+CLASS :"20423"   
+  LABEL @en 'mus musculus shh gene'  
+  ISA :"GENO_0000057"  
+
+CLASS :"GENO_0000818"   
+  LABEL @en 'modification-qualified sequence feature'  
+  ISA :"GENO_0000714"  
+
+CLASS :"GENO_0000939"   
+  LABEL @en 'co-dominant X-linked inheritance'  
+  ISA :"GENO_0000146"  
+
+CLASS :"GENO_0000701"   
+  LABEL @en 'sequence feature or collection'  
+  ISA :"BFO_0000031"  
+
+CLASS :"GENO_0000943"   
+  LABEL @en 'Z-linked dominant inheritance'  
+  ISA :"GENO_0000942"  
+
+CLASS :"ERO_0000007"   
+  LABEL @en 'technique'  
+  ISA :"OBI_0000011"  
+
+CLASS :"GENO_0000942"   
+  LABEL @en 'Z-linked inheritance'  
+  ISA :"GENO_0000935"  
+
+CLASS :"GENO_0000945"   
+  LABEL @en 'incomplete Z-linked dominant inheritance'  
+  ISA :"GENO_0000943"  
+
+CLASS :"GENO_0000702"   
+  LABEL @en 'biological sequence'  
+  ISA :"GENO_0000921"  
+  :"GENO_0000896"  [1..*] :"string" 
+
+CLASS :"GENO_0000823"   
+  LABEL @en 'allelic genotype'  
+
+CLASS :"GENO_0000944"   
+  LABEL @en 'complete Z-linked dominant inheritance'  
+  ISA :"GENO_0000943"  
+
+CLASS :"GENO_0000947"   
+  LABEL @en 'Z-linked reccessive inheritance'  
+  ISA :"GENO_0000942"  
+
+CLASS :"GENO_0000946"   
+  LABEL @en 'co-dominant Z-linked inheritance'  
+  ISA :"GENO_0000943"  
+
+CLASS :"GENO_0000949"   
+  LABEL @en 'mitochondrial inheritance'  
+  ISA :"GENO_0000141"  
+
+CLASS :"GENO_0000948"   
+  LABEL @en 'W-linked inheritance'  
+  ISA :"GENO_0000935"  
+
+CLASS :"GENO_0000941"   
+  LABEL @en 'Y-linked inheritance'  
+  ISA :"GENO_0000935"  
+
+CLASS :"ZP_0000199"   
+  LABEL @en 'abnormal(ly) malformed endocardium cell'  
+  ISA :"GENO_0000575"  
+
+CLASS :"GENO_0000929"   
+  LABEL @en 'multifactorial inheritance'  
+  ISA :"GENO_0000141"  
+
+CLASS :"GENO_0000928"   
+  LABEL @en 'clonal'  
+  ISA :"GENO_0000926"  
+
+CLASS :"GENO_0000932"   
+  LABEL @en 'polygenic inheritance'  
+  ISA :"GENO_0000929"  
+
+CLASS :"GENO_0000931"   
+  LABEL @en 'oligogenic inheritance'  
+  ISA :"GENO_0000929"  
+
+CLASS :"GENO_0000934"   
+  LABEL @en 'autosomal inheritance'  
+  ISA :"GENO_0000933"  
+
+CLASS :"GENO_0000933"   
+  LABEL @en 'monogenic inheritance'  
+  ISA :"GENO_0000141"  
+
+CLASS :"GENO_0000815"   
+  LABEL @en 'sequence feature location'  
+  ISA :"BFO_0000031"  
+
+CLASS :"GENO_0000936"   
+  LABEL @en 'X-linked inheritance'  
+  ISA :"GENO_0000935"  
+
+CLASS :"GENO_0000935"   
+  LABEL @en 'allosomal inheritance'  
+  ISA :"GENO_0000933"  
+
+CLASS :"GENO_0000938"   
+  LABEL @en 'incomplete X-linked dominant inheritance'  
+  ISA :"GENO_0000146"  
+
+CLASS :"GENO_0000937"   
+  LABEL @en 'complete X-linked dominant inheritance'  
+  ISA :"GENO_0000146"  
+
+CLASS :"SO_0000830"   
+  LABEL @en 'chromosome part'  
+
+CLASS :"GENO_0000930"   
+  LABEL @en 'digenic inheritance'  
+  ISA :"GENO_0000929"  
+
+CLASS :"GENO_0000918"   
+  LABEL @en 'organellar plasmy'  
+  ISA :"GENO_0000875"  
+
+CLASS :"GENO_0000919"   
+  LABEL @en 'qualified sequence feature'  
+  ISA :"GENO_0000713"  
+
+CLASS :"GENO_0000921"   
+  LABEL @en 'biological sequence or collection'  
+  ISA :"BFO_0000031"  
+
+CLASS :"GENO_0000920"   
+  LABEL @en 'qualified sequence feature complement'  
+  ISA :"GENO_0000713"  
+  :"GENO_0000726"  [1..*] :"GENO_0000659" 
+  :"BFO_0000051"  [1..*] :"GENO_0000919" 
+
+CLASS :"GENO_0000923"   
+  LABEL @en 'genetic dosage'  
+  ISA :"IAO_0000030"  
+
+CLASS :"GENO_0000922"   
+  LABEL @en 'biological sequence complement'  
+  ISA :"GENO_0000921"  
+
+CLASS :"GENO_0000925"   
+  LABEL @en 'obsolete_extrinsic sequence feature attribute'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000924"   
+  LABEL @en 'obsolete_intrinsic sequence feature attribute'  
+  ISA :"ObsoleteClass"  
+
+CLASS :"GENO_0000927"   
+  LABEL @en 'constitutional'  
+  ISA :"GENO_0000926"  
+
+CLASS :"SO_0000704"   
+  LABEL @en 'gene'  
+  ISA :"GENO_0000481"  
+
+CLASS :"GENO_0000926"   
+  LABEL @en 'allelic cellular distribution'  
+  ISA :"GENO_0000788"  
+
+CLASS :"GENO_0000907"   
+  LABEL @en 'gene product'  
+  ISA :"SO_0000110"  
+
+CLASS :"GENO_0000910"   
+  LABEL @en 'reporter role'  
+  ISA :"OBI_0000086"  
+
+CLASS :"GENO_0000912"   
+  LABEL @en 'selectable marker region'  
+  ISA :"GENO_0000638"  
+
+CLASS :"GENO_0000911"   
+  LABEL @en 'selectable marker role'  
+  ISA :"OBI_0000086"  
+
+CLASS :"GENO_0000914"   
+  LABEL @en 'reference genome'  
+  ISA :"SO_0001026"  
+  :"GENO_0000239"  [1..*] :"SO_0001505" 
+
+CLASS :"GENO_0000916"   
+  LABEL @en 'haplotype block'  
+  ISA :"GENO_0000481"  
+
+CLASS :"GENO_0000915"   
+  LABEL @en 'haplotype'  
+  ISA :"GENO_0000512"  
+  :"GENO_0000408"  [1..*] :"GENO_0000916" 
+  :"BFO_0000051"  [1..*] :"SO_0001059" 
+
+CLASS :"HsapDv_0000000"   
+  LABEL @en 'human life cycle stage'  
+  ISA :"GENO_0000351"  
+
+CLASS :"ZP_0005531"   
+  LABEL @en 'abnormal(ly) disrupted neutrophil aggregation'  
+  ISA :"GENO_0000575"  
+
+CLASS :"ONTORELA_C55a946a3"   
+  LABEL @fr 'GENO_0000106
+ and (GENO_0000211 some GENO_0000002)'
+    @en 'genomic material
+ and (bears_concretization_of some variant allele)' 
+  DESCRIPTION @fr 'OBI_0600043'
+    @en 'genetic modification technique' 
+  ISA :"GENO_0000106"  
+  :"GENO_0000211"  [1..*] :"GENO_0000002" 
+
+CLASS :"ONTORELA_C3009a2bd"   
+  LABEL @fr 'GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))'
+    @en 'developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))' 
+  DESCRIPTION @fr 'GENO_0000833'
+    @en 'genotype-phenotype association' 
+  ISA :"GO_0032502"  
+  :"RO_0002091"  [1..*] :"UBERON_0000105" 
+  :"RO_0002093"  [1..*] :"UBERON_0000105" 
+
+CLASS :"ONTORELA_C64c7aff2"   
+  LABEL @fr 'CL_0000000 or NCBITaxon_10239'
+    @en 'cell or Viruses' 
+  DESCRIPTION @fr 'GENO_0000106'
+    @en 'genomic material' 
+
+CLASS :"ONTORELA_C6cdb8ddf"   
+  LABEL @fr 'GENO_0000660 or GENO_0000715'
+    @en 'genomic feature complement or qualified genomic feature complement' 
+  DESCRIPTION @fr 'GENO_0000536'
+    @en 'genotype' 
+
+CLASS :"ONTORELA_C349f0240"   
+  LABEL @fr 'GENO_0000516 or SO_0001026'
+    @en 'single locus complement or genome' 
+  DESCRIPTION @fr 'GENO_0000719'
+    @en 'intrinsic genotype' 
+
+CLASS :"ONTORELA_C78d57b7f"   
+  LABEL @fr 'RO_0002524 some SO_0001059'
+    @en 'has subsequence some sequence_alteration' 
+  DESCRIPTION @fr 'GENO_0000002'
+    @en 'variant allele' 
+  ISA :"GENO_0000002"  
+  :"RO_0002524"  [1..*] :"SO_0001059" 
+
+CLASS :"ONTORELA_C6eeefcf9"   
+  LABEL @fr 'GENO_0000536 or (BFO_0000050 some GENO_0000536)'
+    @en 'genotype or (is part of some genotype)' 
+  DESCRIPTION @fr 'GENO_0000833'
+    @en 'genotype-phenotype association' 
+
+CLASS :"ONTORELA_C50fc6ccd"   
+  LABEL @fr 'BFO_0000050 some GENO_0000536'
+    @en 'is part of some genotype' 
+  DESCRIPTION @fr 'GENO_0000536 or (BFO_0000050 some GENO_0000536)'
+    @en 'genotype or (is part of some genotype)' 
+  ISA :"ONTORELA_C6eeefcf9"  
+  :"BFO_0000050"  [1..*] :"GENO_0000536" 
+

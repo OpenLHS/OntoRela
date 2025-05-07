@@ -1,0 +1,28 @@
+
+======================================================= 
+OntoRel Diagnostics
+======================================================= 
+
+--------------------------------------- 
+OWL to SQL datatypes
+--------------------------------------- 
+Creating join table for: ResearchAssistant [1..*] worksFor ResearchGroup
+Creating join table for: Schedule [1..*] listedCourse Course
+Creating join table for: ResearchGroup [1..*] researchProject Research
+Creating join table for: Person [1..*] advisor Professor
+Creating join table for: Person [1..*] degreeFrom University
+Creating join table for: Person [1..*] doctoralDegreeFrom University
+Creating join table for: Person [1..*] mastersDegreeFrom University
+Creating join table for: Person [1..*] undergraduateDegreeFrom University
+Creating join table for: GraduateStudent [1..*] takesCourse GraduateCourse
+Creating join table for: Organization [1..*] affiliateOf Person
+Creating join table for: Organization [1..*] affiliatedOrganizationOf Organization
+Creating join table for: Organization [1..*] member Person
+Creating join table for: Organization [1..*] orgPublication Publication
+Creating join table for: Organization [1..*] subOrganizationOf Organization
+Creating join table for: Software [1..*] softwareDocumentation Publication
+Creating join table for: Publication [1..*] publicationAuthor Person
+Creating join table for: Publication [1..*] publicationResearch Research
+Creating join table for: University [1..*] hasAlumnus Person
+Creating join table for: Faculty [1..*] teacherOf Course
+Creating join table for: TeachingAssistant [1..*] teachingAssistantOf Course

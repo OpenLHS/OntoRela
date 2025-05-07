@@ -1,0 +1,649 @@
+ONTOLOGY :"pizza"  
+
+PROPERTY :"hasBase"  
+  ISA :"hasIngredient"  
+
+PROPERTY :"hasCountryOfOrigin"  
+
+PROPERTY :"hasIngredient"  
+
+PROPERTY :"hasSpiciness"  
+
+PROPERTY :"hasTopping"  
+  ISA :"hasIngredient"  
+
+PROPERTY :"isBaseOf"  
+  ISA :"isIngredientOf"  
+
+PROPERTY :"isIngredientOf"  
+
+PROPERTY :"isToppingOf"  
+  ISA :"isIngredientOf"  
+
+CLASS :"VegetableTopping"   
+  LABEL @pt 'CoberturaDeVegetais'
+    @en 'VegetableTopping'  
+  ISA :"PizzaTopping"  
+
+CLASS :"Spiciness"   
+  LABEL @pt 'Tempero'
+    @en 'Spiciness'  
+  ISA :"ValuePartition"  
+
+CLASS :"PizzaBase"   
+  LABEL @pt 'BaseDaPizza'
+    @en 'PizzaBase'  
+  ISA :"Food"  
+
+CLASS :"QuattroFormaggi"   
+  LABEL @pt 'QuatroQueijos'
+    @en 'QuattroFormaggi'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"FourCheesesTopping" 
+
+CLASS :"RocketTopping"   
+  LABEL @pt 'CoberturaRocket'
+    @en 'RocketTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Medium" 
+
+CLASS :"Rosa"   
+  LABEL @pt 'Rosa'
+    @en 'Rosa'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"GorgonzolaTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+
+CLASS :"RosemaryTopping"   
+  LABEL @pt 'CoberturaRosemary'
+    @en 'RosemaryTopping'  
+  ISA :"HerbSpiceTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"GorgonzolaTopping"   
+  LABEL @pt 'CoberturaDeGorgonzola'
+    @en 'GorgonzolaTopping'  
+  ISA :"CheeseTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"PrawnsTopping"   
+  LABEL @pt 'CoberturaDeCamarao'
+    @en 'PrawnsTopping'  
+  ISA :"FishTopping"  
+
+CLASS :"PrinceCarlo"   
+  LABEL @pt 'CoberturaPrinceCarlo'
+    @en 'PrinceCarlo'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"ParmesanTopping" 
+  :"hasTopping"  [1..*] :"LeekTopping" 
+  :"hasTopping"  [1..*] :"RosemaryTopping" 
+
+CLASS :"ThinAndCrispyPizza"   
+  LABEL @en 'ThinAndCrispyPizza'  
+
+CLASS :"FruitTopping"   
+  LABEL @pt 'CoberturaDeFrutas'
+    @en 'FruitTopping'  
+  ISA :"PizzaTopping"  
+
+CLASS :"Food"   
+  LABEL @en 'Food'  
+  ISA :"DomainConcept"  
+  :"hasIngredient"  [1..*] :"Food" 
+
+CLASS :"MixedSeafoodTopping"   
+  LABEL @pt 'CoberturaDeFrutosDoMarMistos'
+    @en 'MixedSeafoodTopping'  
+  ISA :"FishTopping"  
+
+CLASS :"SweetPepperTopping"   
+  LABEL @pt 'CoberturaDePimentaoDoce'
+    @en 'SweetPepperTopping'  
+  ISA :"PepperTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"Mushroom"   
+  LABEL @pt 'Cogumelo'
+    @en 'Mushroom'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"MushroomTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+
+CLASS :"PetitPoisTopping"   
+  LABEL @pt 'CoberturaPetitPois'
+    @en 'PetitPoisTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"SauceTopping"   
+  LABEL @pt 'CoberturaEmMolho'
+    @en 'SauceTopping'  
+  ISA :"PizzaTopping"  
+
+CLASS :"AmericanHot"   
+  LABEL @pt 'AmericanaPicante'
+    @en 'AmericanHot'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"JalapenoPepperTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"PeperoniSausageTopping" 
+  :"hasTopping"  [1..*] :"HotGreenPepperTopping" 
+
+CLASS :"HerbSpiceTopping"   
+  LABEL @pt 'CoberturaDeErvas'
+    @en 'HerbSpiceTopping'  
+  ISA :"PizzaTopping"  
+
+CLASS :"FourCheesesTopping"   
+  LABEL @pt 'CoberturaQuatroQueijos'
+    @en 'FourCheesesTopping'  
+  ISA :"CheeseTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"GreenPepperTopping"   
+  LABEL @pt 'CoberturaDePimentaoVerde'
+    @en 'GreenPepperTopping'  
+  ISA :"PepperTopping"  
+
+CLASS :"MeatyPizza"   
+  LABEL @pt 'PizzaDeCarne'
+    @en 'MeatyPizza'  
+
+CLASS :"HamTopping"   
+  LABEL @pt 'CoberturaDePresunto'
+    @en 'HamTopping'  
+  ISA :"MeatTopping"  
+
+CLASS :"DeepPanBase"   
+  LABEL @pt 'BaseEspessa'
+    @en 'DeepPanBase'  
+  ISA :"PizzaBase"  
+
+CLASS :"InterestingPizza"   
+  LABEL @pt 'PizzaInteressante'
+    @en 'InterestingPizza'  
+
+CLASS :"CaperTopping"   
+  LABEL @pt 'CoberturaDeCaper'
+    @en 'CaperTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"UnclosedPizza"   
+  LABEL @pt 'PizzaAberta'
+    @en 'UnclosedPizza'  
+  ISA :"Pizza"  
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+
+CLASS :"SlicedTomatoTopping"   
+  LABEL @pt 'CoberturaDeTomateFatiado'
+    @en 'SlicedTomatoTopping'  
+  ISA :"TomatoTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"ThinAndCrispyBase"   
+  LABEL @pt 'BaseFinaEQuebradica'
+    @en 'ThinAndCrispyBase'  
+  ISA :"PizzaBase"  
+
+CLASS :"Mild"   
+  LABEL @pt 'NaoPicante'
+    @en 'Mild'  
+  ISA :"Spiciness"  
+
+CLASS :"Parmense"   
+  LABEL @pt 'Parmense'
+    @en 'Parmense'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"ParmesanTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"HamTopping" 
+  :"hasTopping"  [1..*] :"AsparagusTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+
+CLASS :"NutTopping"   
+  LABEL @pt 'CoberturaDeCastanha'
+    @en 'NutTopping'  
+  ISA :"PizzaTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"Cajun"   
+  LABEL @pt 'Cajun'
+    @en 'Cajun'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"PrawnsTopping" 
+  :"hasTopping"  [1..*] :"PeperonataTopping" 
+  :"hasTopping"  [1..*] :"OnionTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"TobascoPepperSauce" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+
+CLASS :"PeperonataTopping"   
+  LABEL @pt 'CoberturaPeperonata'
+    @en 'PeperonataTopping'  
+  ISA :"PepperTopping"  
+  :"hasSpiciness"  [1..*] :"Medium" 
+
+CLASS :"PeperoniSausageTopping"   
+  LABEL @pt 'CoberturaDeCalabreza'
+    @en 'PeperoniSausageTopping'  
+  ISA :"MeatTopping"  
+  :"hasSpiciness"  [1..*] :"Medium" 
+
+CLASS :"Giardiniera"   
+  LABEL @pt 'Giardiniera'
+    @en 'Giardiniera'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"OliveTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"SlicedTomatoTopping" 
+  :"hasTopping"  [1..*] :"PetitPoisTopping" 
+  :"hasTopping"  [1..*] :"LeekTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"MushroomTopping" 
+  :"hasTopping"  [1..*] :"PeperonataTopping" 
+
+CLASS :"MozzarellaTopping"   
+  LABEL @pt 'CoberturaDeMozzarella'
+    @en 'MozzarellaTopping'  
+  ISA :"CheeseTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"RedOnionTopping"   
+  LABEL @pt 'CoberturaDeCebolaVermelha'
+    @en 'RedOnionTopping'  
+  ISA :"OnionTopping"  
+
+CLASS :"IceCream"   
+  LABEL @pt 'Sorvete'
+    @en 'IceCream'  
+  ISA :"Food"  
+  :"hasTopping"  [1..*] :"FruitTopping" 
+
+CLASS :"OliveTopping"   
+  LABEL @pt 'CoberturaDeAzeitona'
+    @en 'OliveTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"AsparagusTopping"   
+  LABEL @pt 'CoberturaDeAspargos'
+    @en 'AsparagusTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"ChickenTopping"   
+  LABEL @pt 'CoberturaDeFrango'
+    @en 'ChickenTopping'  
+  ISA :"MeatTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"Hot"   
+  LABEL @pt 'Picante'
+    @en 'Hot'  
+  ISA :"Spiciness"  
+
+CLASS :"OnionTopping"   
+  LABEL @pt 'CoberturaDeCebola'
+    @en 'OnionTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Medium" 
+
+CLASS :"NamedPizza"   
+  LABEL @pt 'PizzaComUmNome'  
+  ISA :"Pizza"  
+
+CLASS :"PizzaTopping"   
+  LABEL @pt 'CoberturaDaPizza'
+    @en 'PizzaTopping'  
+  ISA :"Food"  
+
+CLASS :"FourSeasons"   
+  LABEL @pt 'QuatroQueijos'
+    @en 'FourSeasons'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"OliveTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"AnchoviesTopping" 
+  :"hasTopping"  [1..*] :"MushroomTopping" 
+  :"hasTopping"  [1..*] :"CaperTopping" 
+  :"hasTopping"  [1..*] :"PeperoniSausageTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+
+CLASS :"VegetarianPizza"   
+  LABEL @pt 'PizzaVegetariana'
+    @en 'VegetarianPizza'  
+
+CLASS :"PolloAdAstra"   
+  LABEL @pt 'PolloAdAstra'
+    @en 'PolloAdAstra'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"GarlicTopping" 
+  :"hasTopping"  [1..*] :"SweetPepperTopping" 
+  :"hasTopping"  [1..*] :"RedOnionTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"ChickenTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"CajunSpiceTopping" 
+
+CLASS :"JalapenoPepperTopping"   
+  LABEL @pt 'CoberturaDeJalapeno'
+    @en 'JalapenoPepperTopping'  
+  ISA :"PepperTopping"  
+  :"hasSpiciness"  [1..*] :"Hot" 
+
+CLASS :"SundriedTomatoTopping"   
+  LABEL @pt 'CoberturaDeTomateRessecadoAoSol'
+    @en 'SundriedTomatoTopping'  
+  ISA :"TomatoTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"SpinachTopping"   
+  LABEL @pt 'CoberturaDeEspinafre'
+    @en 'SpinachTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"HotGreenPepperTopping"   
+  LABEL @pt 'CoberturaDePimentaoVerdePicante'
+    @en 'HotGreenPepperTopping'  
+  ISA :"GreenPepperTopping"  
+  :"hasSpiciness"  [1..*] :"Hot" 
+
+CLASS :"PineKernels"   
+  LABEL @pt 'CoberturaPineKernels'
+    @en 'PineKernelTopping'  
+  ISA :"NutTopping"  
+
+CLASS :"American"   
+  LABEL @pt 'Americana'
+    @en 'American'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"PeperoniSausageTopping" 
+
+CLASS :"Siciliana"   
+  LABEL @pt 'Siciliana'
+    @en 'Siciliana'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"GarlicTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"OliveTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"ArtichokeTopping" 
+  :"hasTopping"  [1..*] :"HamTopping" 
+  :"hasTopping"  [1..*] :"AnchoviesTopping" 
+
+CLASS :"Veneziana"   
+  LABEL @pt 'Veneziana'
+    @en 'Veneziana'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"OnionTopping" 
+  :"hasTopping"  [1..*] :"CaperTopping" 
+  :"hasTopping"  [1..*] :"PineKernels" 
+  :"hasTopping"  [1..*] :"OliveTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"SultanaTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+
+CLASS :"Thing"   
+
+CLASS :"CheeseyVegetableTopping"   
+  LABEL @pt 'CoberturaDeQueijoComVegetais'
+    @en 'CheesyVegetableTopping'  
+  ISA :"VegetableTopping" 
+  ISA :"CheeseTopping"  
+
+CLASS :"ParmaHamTopping"   
+  LABEL @pt 'CoberturaDePrezuntoParma'
+    @en 'ParmaHamTopping'  
+  ISA :"HamTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"ValuePartition"   
+  LABEL @pt 'ValorDaParticao'
+    @en 'ValuePartition'  
+
+CLASS :"TobascoPepperSauce"   
+  LABEL @pt 'MolhoTobascoPepper'
+    @en 'TobascoPepperSauceTopping'  
+  ISA :"SauceTopping"  
+  :"hasSpiciness"  [1..*] :"Hot" 
+
+CLASS :"MeatTopping"   
+  LABEL @pt 'CoberturaDeCarne'
+    @en 'MeatTopping'  
+  ISA :"PizzaTopping"  
+
+CLASS :"AnchoviesTopping"   
+  LABEL @pt 'CoberturaDeAnchovies'
+    @en 'AnchoviesTopping'  
+  ISA :"FishTopping"  
+
+CLASS :"CheeseTopping"   
+  LABEL @pt 'CoberturaDeQueijo'
+    @en 'CheeseTopping'  
+  ISA :"PizzaTopping"  
+
+CLASS :"MushroomTopping"   
+  LABEL @pt 'CoberturaDeCogumelo'
+    @en 'MushroomTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"Napoletana"   
+  LABEL @pt 'Napoletana'
+    @en 'Napoletana'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"CaperTopping" 
+  :"hasTopping"  [1..*] :"AnchoviesTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"OliveTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+
+CLASS :"GarlicTopping"   
+  LABEL @pt 'CoberturaDeAlho'
+    @en 'GarlicTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Medium" 
+
+CLASS :"SultanaTopping"   
+  LABEL @pt 'CoberturaSultana'
+    @en 'SultanaTopping'  
+  ISA :"FruitTopping"  
+  :"hasSpiciness"  [1..*] :"Medium" 
+
+CLASS :"HotSpicedBeefTopping"   
+  LABEL @pt 'CoberturaDeBifePicante'
+    @en 'HotSpicedBeefTopping'  
+  ISA :"MeatTopping"  
+  :"hasSpiciness"  [1..*] :"Hot" 
+
+CLASS :"SloppyGiuseppe"   
+  LABEL @pt 'SloppyGiuseppe'
+    @en 'SloppyGiuseppe'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"HotSpicedBeefTopping" 
+  :"hasTopping"  [1..*] :"OnionTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"GreenPepperTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+
+CLASS :"PepperTopping"   
+  LABEL @pt 'CoberturaDePimentao'
+    @en 'PepperTopping'  
+  ISA :"VegetableTopping"  
+
+CLASS :"Fiorentina"   
+  LABEL @pt 'Fiorentina'
+    @en 'Fiorentina'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"ParmesanTopping" 
+  :"hasTopping"  [1..*] :"GarlicTopping" 
+  :"hasTopping"  [1..*] :"SpinachTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"OliveTopping" 
+
+CLASS :"Caprina"   
+  LABEL @pt 'Caprina'
+    @en 'Caprina'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"GoatsCheeseTopping" 
+  :"hasTopping"  [1..*] :"SundriedTomatoTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+
+CLASS :"Pizza"   
+  LABEL @en 'Pizza'  
+  ISA :"Food"  
+  :"hasBase"  [1..1] :"PizzaBase" 
+  :"hasTopping"  [1..*] :"PizzaTopping" 
+  :"hasBase"  [1..*] :"PizzaBase" 
+
+CLASS :"NonVegetarianPizza"   
+  LABEL @pt 'PizzaNaoVegetariana'
+    @en 'NonVegetarianPizza'  
+
+CLASS :"TomatoTopping"   
+  LABEL @pt 'CoberturaDeTomate'
+    @en 'TomatoTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"ParmesanTopping"   
+  LABEL @pt 'CoberturaDeParmesao'
+    @en 'ParmezanTopping'  
+  ISA :"CheeseTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"ArtichokeTopping"   
+  LABEL @pt 'CoberturaDeArtichoke'
+    @en 'ArtichokeTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"SpicyPizza"   
+  LABEL @pt 'PizzaTemperada'
+    @en 'SpicyPizza'  
+
+CLASS :"LeekTopping"   
+  LABEL @pt 'CoberturaDeLeek'
+    @en 'LeekTopping'  
+  ISA :"VegetableTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"CajunSpiceTopping"   
+  LABEL @pt 'CoberturaDeCajun'
+    @en 'CajunSpiceTopping'  
+  ISA :"HerbSpiceTopping"  
+  :"hasSpiciness"  [1..*] :"Hot" 
+
+CLASS :"FishTopping"   
+  LABEL @pt 'CoberturaDePeixe'
+    @en 'SeafoodTopping'  
+  ISA :"PizzaTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"Capricciosa"   
+  LABEL @pt 'Capricciosa'
+    @en 'Capricciosa'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"OliveTopping" 
+  :"hasTopping"  [1..*] :"HamTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+  :"hasTopping"  [1..*] :"CaperTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"AnchoviesTopping" 
+  :"hasTopping"  [1..*] :"PeperonataTopping" 
+
+CLASS :"SpicyTopping"   
+  LABEL @pt 'CoberturaTemperada'
+    @en 'SpicyTopping'  
+
+CLASS :"DomainConcept"   
+  LABEL @en 'DomainThing'  
+
+CLASS :"Margherita"   
+  LABEL @pt 'Margherita'
+    @en 'Margherita'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+
+CLASS :"FruttiDiMare"   
+  LABEL @pt 'FrutosDoMar'
+    @en 'FruttiDiMare'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"GarlicTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"MixedSeafoodTopping" 
+
+CLASS :"LaReine"   
+  LABEL @pt 'LaReine'
+    @en 'LaReine'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"MushroomTopping" 
+  :"hasTopping"  [1..*] :"OliveTopping" 
+  :"hasTopping"  [1..*] :"HamTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+
+CLASS :"Soho"   
+  LABEL @pt 'Soho'
+    @en 'Soho'  
+  ISA :"NamedPizza"  
+  :"hasTopping"  [1..*] :"GarlicTopping" 
+  :"hasTopping"  [1..*] :"OliveTopping" 
+  :"hasTopping"  [1..*] :"ParmesanTopping" 
+  :"hasTopping"  [1..*] :"RocketTopping" 
+  :"hasTopping"  [1..*] :"TomatoTopping" 
+  :"hasTopping"  [1..*] :"MozzarellaTopping" 
+
+CLASS :"VegetarianTopping"   
+  LABEL @pt 'CoberturaVegetariana'
+    @en 'VegetarianTopping'  
+
+CLASS :"CheeseyPizza"   
+  LABEL @pt 'PizzaComQueijo'
+    @en 'CheesyPizza'  
+
+CLASS :"SpicyPizzaEquivalent"   
+  LABEL @pt 'PizzaTemperadaEquivalente'
+    @en 'SpicyPizzaEquivalent'  
+
+CLASS :"Medium"   
+  LABEL @pt 'Media'
+    @en 'Medium'  
+  ISA :"Spiciness"  
+
+CLASS :"GoatsCheeseTopping"   
+  LABEL @pt 'CoberturaDeQueijoDeCabra'
+    @en 'GoatsCheeseTopping'  
+  ISA :"CheeseTopping"  
+  :"hasSpiciness"  [1..*] :"Mild" 
+
+CLASS :"VegetarianPizzaEquivalent2"   
+  LABEL @pt 'PizzaVegetarianaEquivalente2'
+    @en 'VegetarianPizza2'  
+
+CLASS :"Country"   
+  LABEL @pt 'Pais'
+    @en 'Country'  
+
+CLASS :"VegetarianPizzaEquivalent1"   
+  LABEL @pt 'PizzaVegetarianaEquivalente1'
+    @en 'VegetarianPizza1'  
+
+CLASS :"RealItalianPizza"   
+  LABEL @pt 'PizzaItalianaReal'
+    @en 'RealItalianPizza'  
+

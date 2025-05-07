@@ -1,0 +1,2946 @@
+/*
+-- =========================================================================== A
+Schema : ONTORELA_en
+Creation Date : 20240502-0840
+Encoding : UTF-8, sans BOM, fin de ligne Unix (LF)
+Plateforme : PostgreSQL 9.6
+Responsable : OntoRelA
+Version : v0
+Status : dev
+Objet :
+  Create views in en of ONTORELA
+-- =========================================================================== A
+*/
+
+CREATE SCHEMA IF NOT EXISTS "ONTORELA_en";
+
+COMMENT ON SCHEMA "ONTORELA_en" IS 'Create views in en of ONTORELA 20240502-0840';
+
+CREATE VIEW "ONTORELA_en"."T7f4f794200_Thing" AS
+  SELECT "T7f4f794200_uid" AS "uid Thing"
+  FROM "ONTORELA"."T7f4f794200";
+
+COMMENT ON VIEW "ONTORELA_en"."T7f4f794200_Thing" IS 'Top table';
+
+CREATE VIEW "ONTORELA_en"."T5c35422e00_gpos" AS
+  SELECT "T5c35422e00_uid" AS "uid gpos"
+  FROM "ONTORELA"."T5c35422e00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d6800_reporter role" AS
+  SELECT "T5c354d6800_uid" AS "uid reporter role"
+  FROM "ONTORELA"."T5c354d6800";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8900_GENO_0000922" AS
+  SELECT "T5c354d8900_uid" AS "T5c354d8900_uid"
+  FROM "ONTORELA"."T5c354d8900";
+
+CREATE VIEW "ONTORELA_en"."T563dc16000_SO_0001785" AS
+  SELECT "T563dc16000_uid" AS "uid structural_alteration"
+  FROM "ONTORELA"."T563dc16000";
+
+CREATE VIEW "ONTORELA_en"."T5c354daa00_GENO_0000934" AS
+  SELECT "T5c354daa00_uid" AS "uid autosomal inheritance"
+  FROM "ONTORELA"."T5c354daa00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dcb00_GENO_0000946" AS
+  SELECT "T5c354dcb00_uid" AS "T5c354dcb00_uid"
+  FROM "ONTORELA"."T5c354dcb00";
+
+CREATE VIEW "ONTORELA_en"."T563db53f00_SO_0001410" AS
+  SELECT "T563db53f00_uid" AS "uid experimental_feature"
+  FROM "ONTORELA"."T563db53f00";
+
+CREATE VIEW "ONTORELA_en"."Ta02356a000_Region" AS
+  SELECT "Ta02356a000_uid" AS "uid Region"
+  FROM "ONTORELA"."Ta02356a000";
+
+CREATE VIEW "ONTORELA_en"."Tf7d4c88300_ERO_0002002" AS
+  SELECT "Tf7d4c88300_uid" AS "uid embryonic stem cell line"
+  FROM "ONTORELA"."Tf7d4c88300";
+
+CREATE VIEW "ONTORELA_en"."T5c35301e00_GENO_0000174" AS
+  SELECT "T5c35301e00_uid" AS "T5c35301e00_uid"
+  FROM "ONTORELA"."T5c35301e00";
+
+CREATE VIEW "ONTORELA_en"."T5c3537dc00_aneusomic zygosity" AS
+  SELECT "T5c3537dc00_uid" AS "uid aneusomic zygosity"
+  FROM "ONTORELA"."T5c3537dc00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fdc00_GENO_0000150" AS
+  SELECT "T5c352fdc00_uid" AS "T5c352fdc00_uid"
+  FROM "ONTORELA"."T5c352fdc00";
+
+CREATE VIEW "ONTORELA_en"."T563d39c300_SO_0000248" AS
+  SELECT "T563d39c300_uid" AS "uid sequence_length_variation"
+  FROM "ONTORELA"."T563d39c300";
+
+CREATE VIEW "ONTORELA_en"."T8b236d3e00_SO_1000022" AS
+  SELECT "T8b236d3e00_uid" AS "uid T_to_G_transversion"
+  FROM "ONTORELA"."T8b236d3e00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d1d00_SO_1000010" AS
+  SELECT "T8b236d1d00_uid" AS "uid pyrimidine_transition"
+  FROM "ONTORELA"."T8b236d1d00";
+
+CREATE VIEW "ONTORELA_en"."Tb20e47a500_Negative strand" AS
+  SELECT "Tb20e47a500_uid" AS "uid Negative strand"
+  FROM "ONTORELA"."Tb20e47a500";
+
+CREATE VIEW "ONTORELA_en"."T5c354dcc00_GENO_0000947" AS
+  SELECT "T5c354dcc00_uid" AS "T5c354dcc00_uid"
+  FROM "ONTORELA"."T5c354dcc00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d6900_GENO_0000911" AS
+  SELECT "T5c354d6900_uid" AS "uid selectable marker role"
+  FROM "ONTORELA"."T5c354d6900";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8a00_genetic dosage" AS
+  SELECT "T5c354d8a00_uid" AS "uid genetic dosage"
+  FROM "ONTORELA"."T5c354d8a00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dab00_GENO_0000935" AS
+  SELECT "T5c354dab00_uid" AS "uid allosomal inheritance"
+  FROM "ONTORELA"."T5c354dab00";
+
+CREATE VIEW "ONTORELA_en"."Tf7d4c88400_stem cell line" AS
+  SELECT "Tf7d4c88400_uid" AS "uid stem cell line"
+  FROM "ONTORELA"."Tf7d4c88400";
+
+CREATE VIEW "ONTORELA_en"."T2448628400_Homo sapiens" AS
+  SELECT "T2448628400_uid" AS "uid Homo sapiens"
+  FROM "ONTORELA"."T2448628400";
+
+CREATE VIEW "ONTORELA_en"."Tc5c0f01c00_Exact position" AS
+  SELECT "Tc5c0f01c00_uid" AS "uid Exact position"
+  FROM "ONTORELA"."Tc5c0f01c00";
+
+CREATE VIEW "ONTORELA_en"."T5c35301f00_GENO_0000175" AS
+  SELECT "T5c35301f00_uid" AS "T5c35301f00_uid"
+  FROM "ONTORELA"."T5c35301f00";
+
+CREATE VIEW "ONTORELA_en"."T5c3537dd00_GENO_0000393" AS
+  SELECT "T5c3537dd00_uid" AS "uid trisomic homozygous"
+  FROM "ONTORELA"."T5c3537dd00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d3d00_SO_1000021" AS
+  SELECT "T8b236d3d00_uid" AS "uid T_to_A_transversion"
+  FROM "ONTORELA"."T8b236d3d00";
+
+CREATE VIEW "ONTORELA_en"."T5c352bdd00_GENO_0000030" AS
+  SELECT "T5c352bdd00_uid" AS "T5c352bdd00_uid"
+  FROM "ONTORELA"."T5c352bdd00";
+
+CREATE VIEW "ONTORELA_en"."T5c352bfe00_GENO_0000042" AS
+  SELECT "T5c352bfe00_uid" AS "T5c352bfe00_uid"
+  FROM "ONTORELA"."T5c352bfe00";
+
+CREATE VIEW "ONTORELA_en"."T5c352c1f00_homo sapiens gene" AS
+  SELECT "T5c352c1f00_uid" AS "uid homo sapiens gene"
+  FROM "ONTORELA"."T5c352c1f00";
+
+CREATE VIEW "ONTORELA_en"."T5c3549ac00_GENO_0000815" AS
+  SELECT "T5c3549ac00_uid" AS "uid sequence feature location"
+  FROM "ONTORELA"."T5c3549ac00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dac00_GENO_0000936" AS
+  SELECT "T5c354dac00_uid" AS "uid X-linked inheritance"
+  FROM "ONTORELA"."T5c354dac00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dcd00_GENO_0000948" AS
+  SELECT "T5c354dcd00_uid" AS "uid W-linked inheritance"
+  FROM "ONTORELA"."T5c354dcd00";
+
+CREATE VIEW "ONTORELA_en"."T5c3549ee00_GENO_0000839" AS
+  SELECT "T5c3549ee00_uid" AS "T5c3549ee00_uid"
+  FROM "ONTORELA"."T5c3549ee00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d6a00_GENO_0000912" AS
+  SELECT "T5c354d6a00_uid" AS "uid selectable marker region"
+  FROM "ONTORELA"."T5c354d6a00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8b00_GENO_0000924" AS
+  SELECT "T5c354d8b00_uid" AS "T5c354d8b00_uid"
+  FROM "ONTORELA"."T5c354d8b00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fff00_GENO_0000164" AS
+  SELECT "T5c352fff00_uid" AS "T5c352fff00_uid"
+  FROM "ONTORELA"."T5c352fff00";
+
+CREATE VIEW "ONTORELA_en"."T5c3537de00_GENO_0000394" AS
+  SELECT "T5c3537de00_uid" AS "uid trisomic heterozygous"
+  FROM "ONTORELA"."T5c3537de00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fde00_reference" AS
+  SELECT "T5c352fde00_uid" AS "uid reference"
+  FROM "ONTORELA"."T5c352fde00";
+
+CREATE VIEW "ONTORELA_en"."T9886119500_ZP_0005531" AS
+  SELECT "T9886119500_uid" AS "T9886119500_uid"
+  FROM "ONTORELA"."T9886119500";
+
+CREATE VIEW "ONTORELA_en"."T5c352fbd00_non-heritable" AS
+  SELECT "T5c352fbd00_uid" AS "uid non-heritable"
+  FROM "ONTORELA"."T5c352fbd00";
+
+CREATE VIEW "ONTORELA_en"."T5c353b9c00_GENO_0000491" AS
+  SELECT "T5c353b9c00_uid" AS "uid obsolete_mutant allele"
+  FROM "ONTORELA"."T5c353b9c00";
+
+CREATE VIEW "ONTORELA_en"."T563d358300_chromosome arm" AS
+  SELECT "T563d358300_uid" AS "uid chromosome arm"
+  FROM "ONTORELA"."T563d358300";
+
+CREATE VIEW "ONTORELA_en"."T563d456200_centromere" AS
+  SELECT "T563d456200_uid" AS "uid centromere"
+  FROM "ONTORELA"."T563d456200";
+
+CREATE VIEW "ONTORELA_en"."T8b236d3c00_SO_1000020" AS
+  SELECT "T8b236d3c00_uid" AS "uid C_to_G_transversion"
+  FROM "ONTORELA"."T8b236d3c00";
+
+CREATE VIEW "ONTORELA_en"."T563d4cde00_QTL" AS
+  SELECT "T563d4cde00_uid" AS "uid QTL"
+  FROM "ONTORELA"."T563d4cde00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d5d00_indel" AS
+  SELECT "T8b236d5d00_uid" AS "uid indel"
+  FROM "ONTORELA"."T8b236d5d00";
+
+CREATE VIEW "ONTORELA_en"."T563d4cff00_engineered" AS
+  SELECT "T563d4cff00_uid" AS "uid engineered"
+  FROM "ONTORELA"."T563d4cff00";
+
+CREATE VIEW "ONTORELA_en"."T563dadc500_SO_0001218" AS
+  SELECT "T563dadc500_uid" AS "uid transgenic_insertion"
+  FROM "ONTORELA"."T563dadc500";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8c00_GENO_0000925" AS
+  SELECT "T5c354d8c00_uid" AS "T5c354d8c00_uid"
+  FROM "ONTORELA"."T5c354d8c00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dad00_GENO_0000937" AS
+  SELECT "T5c354dad00_uid" AS "T5c354dad00_uid"
+  FROM "ONTORELA"."T5c354dad00";
+
+CREATE VIEW "ONTORELA_en"."T5c3545ef00_intrinsic genotype" AS
+  SELECT "T5c3545ef00_uid" AS "uid intrinsic genotype"
+  FROM "ONTORELA"."T5c3545ef00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dce00_GENO_0000949" AS
+  SELECT "T5c354dce00_uid" AS "uid mitochondrial inheritance"
+  FROM "ONTORELA"."T5c354dce00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d4a00_GENO_0000901" AS
+  SELECT "T5c354d4a00_uid" AS "T5c354d4a00_uid"
+  FROM "ONTORELA"."T5c354d4a00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fbe00_GENO_0000141" AS
+  SELECT "T5c352fbe00_uid" AS "uid inheritance pattern"
+  FROM "ONTORELA"."T5c352fbe00";
+
+CREATE VIEW "ONTORELA_en"."T5c353b7c00_mutant" AS
+  SELECT "T5c353b7c00_uid" AS "uid mutant"
+  FROM "ONTORELA"."T5c353b7c00";
+
+CREATE VIEW "ONTORELA_en"."T5c353b9d00_mutation" AS
+  SELECT "T5c353b9d00_uid" AS "uid mutation"
+  FROM "ONTORELA"."T5c353b9d00";
+
+CREATE VIEW "ONTORELA_en"."Ta913ebd000_genotyping assay" AS
+  SELECT "Ta913ebd000_uid" AS "uid genotyping assay"
+  FROM "ONTORELA"."Ta913ebd000";
+
+CREATE VIEW "ONTORELA_en"."T9883bd7800_ZP_0000199" AS
+  SELECT "T9883bd7800_uid" AS "T9883bd7800_uid"
+  FROM "ONTORELA"."T9883bd7800";
+
+CREATE VIEW "ONTORELA_en"."T14ce439000_OBI_0600043" AS
+  SELECT "T14ce439000_uid" AS "T14ce439000_uid"
+  FROM "ONTORELA"."T14ce439000";
+
+CREATE VIEW "ONTORELA_en"."T563d496300_junction" AS
+  SELECT "T563d496300_uid" AS "uid junction"
+  FROM "ONTORELA"."T563d496300";
+
+CREATE VIEW "ONTORELA_en"."T5c35300000_GENO_0000165" AS
+  SELECT "T5c35300000_uid" AS "T5c35300000_uid"
+  FROM "ONTORELA"."T5c35300000";
+
+CREATE VIEW "ONTORELA_en"."T5c354d6c00_reference genome" AS
+  SELECT "T5c354d6c00_uid" AS "uid reference genome"
+  FROM "ONTORELA"."T5c354d6c00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8d00_GENO_0000926" AS
+  SELECT "T5c354d8d00_uid" AS "T5c354d8d00_uid"
+  FROM "ONTORELA"."T5c354d8d00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dae00_GENO_0000938" AS
+  SELECT "T5c354dae00_uid" AS "T5c354dae00_uid"
+  FROM "ONTORELA"."T5c354dae00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d4b00_genomic locus" AS
+  SELECT "T5c354d4b00_uid" AS "uid genomic locus"
+  FROM "ONTORELA"."T5c354d4b00";
+
+CREATE VIEW "ONTORELA_en"."T5c352be000_variant genome" AS
+  SELECT "T5c352be000_uid" AS "uid variant genome"
+  FROM "ONTORELA"."T5c352be000";
+
+CREATE VIEW "ONTORELA_en"."T5c352fbf00_GENO_0000142" AS
+  SELECT "T5c352fbf00_uid" AS "T5c352fbf00_uid"
+  FROM "ONTORELA"."T5c352fbf00";
+
+CREATE VIEW "ONTORELA_en"."T5c352c2200_mus musculus gene" AS
+  SELECT "T5c352c2200_uid" AS "uid mus musculus gene"
+  FROM "ONTORELA"."T5c352c2200";
+
+CREATE VIEW "ONTORELA_en"."T563d3d6400_RNAi_reagent" AS
+  SELECT "T563d3d6400_uid" AS "uid RNAi_reagent"
+  FROM "ONTORELA"."T563d3d6400";
+
+CREATE VIEW "ONTORELA_en"."T5c353b7d00_genomic feature" AS
+  SELECT "T5c353b7d00_uid" AS "uid genomic feature"
+  FROM "ONTORELA"."T5c353b7d00";
+
+CREATE VIEW "ONTORELA_en"."T59652ed500_anatomical entity" AS
+  SELECT "T59652ed500_uid" AS "uid anatomical entity"
+  FROM "ONTORELA"."T59652ed500";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a8800_material entity" AS
+  SELECT "Tc5b47a8800_uid" AS "uid material entity"
+  FROM "ONTORELA"."Tc5b47a8800";
+
+CREATE VIEW "ONTORELA_en"."T5c35300100_GENO_0000166" AS
+  SELECT "T5c35300100_uid" AS "T5c35300100_uid"
+  FROM "ONTORELA"."T5c35300100";
+
+CREATE VIEW "ONTORELA_en"."T5c354d6d00_haplotype" AS
+  SELECT "T5c354d6d00_uid" AS "uid haplotype"
+  FROM "ONTORELA"."T5c354d6d00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8e00_constitutional" AS
+  SELECT "T5c354d8e00_uid" AS "uid constitutional"
+  FROM "ONTORELA"."T5c354d8e00";
+
+CREATE VIEW "ONTORELA_en"."T5c3549af00_GENO_0000818" AS
+  SELECT "T5c3549af00_uid" AS "T5c3549af00_uid"
+  FROM "ONTORELA"."T5c3549af00";
+
+CREATE VIEW "ONTORELA_en"."T5c354daf00_GENO_0000939" AS
+  SELECT "T5c354daf00_uid" AS "T5c354daf00_uid"
+  FROM "ONTORELA"."T5c354daf00";
+
+CREATE VIEW "ONTORELA_en"."T563db8e100_SO_0001500" AS
+  SELECT "T563db8e100_uid" AS "T563db8e100_uid"
+  FROM "ONTORELA"."T563db8e100";
+
+CREATE VIEW "ONTORELA_en"."T563dc0e100_copy_number_gain" AS
+  SELECT "T563dc0e100_uid" AS "uid copy_number_gain"
+  FROM "ONTORELA"."T563dc0e100";
+
+CREATE VIEW "ONTORELA_en"."T3f2703ba00_association" AS
+  SELECT "T3f2703ba00_uid" AS "uid association"
+  FROM "ONTORELA"."T3f2703ba00";
+
+CREATE VIEW "ONTORELA_en"."T5c352bc000_GENO_0000022" AS
+  SELECT "T5c352bc000_uid" AS "T5c352bc000_uid"
+  FROM "ONTORELA"."T5c352bc000";
+
+CREATE VIEW "ONTORELA_en"."T5c352f9f00_in cis" AS
+  SELECT "T5c352f9f00_uid" AS "uid in cis"
+  FROM "ONTORELA"."T5c352f9f00";
+
+CREATE VIEW "ONTORELA_en"."T5c353b7e00_genetic material" AS
+  SELECT "T5c353b7e00_uid" AS "uid genetic material"
+  FROM "ONTORELA"."T5c353b7e00";
+
+CREATE VIEW "ONTORELA_en"."T5c353b9f00_GENO_0000494" AS
+  SELECT "T5c353b9f00_uid" AS "uid extrachromosomal replicon"
+  FROM "ONTORELA"."T5c353b9f00";
+
+CREATE VIEW "ONTORELA_en"."Te2cd58c900_molecular function" AS
+  SELECT "Te2cd58c900_uid" AS "uid molecular function"
+  FROM "ONTORELA"."Te2cd58c900";
+
+CREATE VIEW "ONTORELA_en"."T5c352fc000_GENO_0000143" AS
+  SELECT "T5c352fc000_uid" AS "T5c352fc000_uid"
+  FROM "ONTORELA"."T5c352fc000";
+
+CREATE VIEW "ONTORELA_en"."T5c352b9f00_background genome" AS
+  SELECT "T5c352b9f00_uid" AS "uid background genome"
+  FROM "ONTORELA"."T5c352b9f00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d4d00_organismal entity" AS
+  SELECT "T5c354d4d00_uid" AS "uid organismal entity"
+  FROM "ONTORELA"."T5c354d4d00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d6e00_haplotype block" AS
+  SELECT "T5c354d6e00_uid" AS "uid haplotype block"
+  FROM "ONTORELA"."T5c354d6e00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8f00_clonal" AS
+  SELECT "T5c354d8f00_uid" AS "uid clonal"
+  FROM "ONTORELA"."T5c354d8f00";
+
+CREATE VIEW "ONTORELA_en"."T563dc0e200_copy_number_loss" AS
+  SELECT "T563dc0e200_uid" AS "uid copy_number_loss"
+  FROM "ONTORELA"."T563dc0e200";
+
+CREATE VIEW "ONTORELA_en"."T5c352c0300_danio rerio gene" AS
+  SELECT "T5c352c0300_uid" AS "uid danio rerio gene"
+  FROM "ONTORELA"."T5c352c0300";
+
+CREATE VIEW "ONTORELA_en"."T1286281500_IAO_0000030" AS
+  SELECT "T1286281500_uid" AS "uid information content entity"
+  FROM "ONTORELA"."T1286281500";
+
+CREATE VIEW "ONTORELA_en"."T77b038fe00_ObsoleteClass" AS
+  SELECT "T77b038fe00_uid" AS "uid ObsoleteClass"
+  FROM "ONTORELA"."T77b038fe00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d7a00_SO_1000040" AS
+  SELECT "T8b236d7a00_uid" AS "T8b236d7a00_uid"
+  FROM "ONTORELA"."T8b236d7a00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fc100_GENO_0000144" AS
+  SELECT "T5c352fc100_uid" AS "T5c352fc100_uid"
+  FROM "ONTORELA"."T5c352fc100";
+
+CREATE VIEW "ONTORELA_en"."T5c353ba000_GENO_0000495" AS
+  SELECT "T5c353ba000_uid" AS "uid expression construct"
+  FROM "ONTORELA"."T5c353ba000";
+
+CREATE VIEW "ONTORELA_en"."T8b23719b00_tandem_duplication" AS
+  SELECT "T8b23719b00_uid" AS "uid tandem_duplication"
+  FROM "ONTORELA"."T8b23719b00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fa000_in trans" AS
+  SELECT "T5c352fa000_uid" AS "uid in trans"
+  FROM "ONTORELA"."T5c352fa000";
+
+CREATE VIEW "ONTORELA_en"."T563dc0e300_UPD" AS
+  SELECT "T563dc0e300_uid" AS "uid UPD"
+  FROM "ONTORELA"."T563dc0e300";
+
+CREATE VIEW "ONTORELA_en"."Tc0bbb4d000_ONTORELA_C349f0240" AS
+  SELECT "Tc0bbb4d000_uid" AS "Tc0bbb4d000_uid"
+  FROM "ONTORELA"."Tc0bbb4d000";
+
+COMMENT ON VIEW "ONTORELA_en"."Tc0bbb4d000_ONTORELA_C349f0240" IS 'intrinsic genotype';
+
+CREATE VIEW "ONTORELA_en"."T5c354d9000_GENO_0000929" AS
+  SELECT "T5c354d9000_uid" AS "uid multifactorial inheritance"
+  FROM "ONTORELA"."T5c354d9000";
+
+CREATE VIEW "ONTORELA_en"."T5c352b8000_GENO_0000000" AS
+  SELECT "T5c352b8000_uid" AS "T5c352b8000_uid"
+  FROM "ONTORELA"."T5c352b8000";
+
+CREATE VIEW "ONTORELA_en"."T5c353b3e00_transgene part" AS
+  SELECT "T5c353b3e00_uid" AS "uid transgene part"
+  FROM "ONTORELA"."T5c353b3e00";
+
+CREATE VIEW "ONTORELA_en"."T563d394600_SO_0000207" AS
+  SELECT "T563d394600_uid" AS "T563d394600_uid"
+  FROM "ONTORELA"."T563d394600";
+
+CREATE VIEW "ONTORELA_en"."T563d490400_insertion" AS
+  SELECT "T563d490400_uid" AS "uid insertion"
+  FROM "ONTORELA"."T563d490400";
+
+CREATE VIEW "ONTORELA_en"."T5c35375f00_biological process" AS
+  SELECT "T5c35375f00_uid" AS "uid biological process"
+  FROM "ONTORELA"."T5c35375f00";
+
+CREATE VIEW "ONTORELA_en"."T5c352be300_reference allele" AS
+  SELECT "T5c352be300_uid" AS "uid reference allele"
+  FROM "ONTORELA"."T5c352be300";
+
+CREATE VIEW "ONTORELA_en"."T5c35300400_GENO_0000169" AS
+  SELECT "T5c35300400_uid" AS "T5c35300400_uid"
+  FROM "ONTORELA"."T5c35300400";
+
+CREATE VIEW "ONTORELA_en"."T5c352fc200_GENO_0000145" AS
+  SELECT "T5c352fc200_uid" AS "T5c352fc200_uid"
+  FROM "ONTORELA"."T5c352fc200";
+
+CREATE VIEW "ONTORELA_en"."T5c352fa100_zygosity" AS
+  SELECT "T5c352fa100_uid" AS "uid zygosity"
+  FROM "ONTORELA"."T5c352fa100";
+
+CREATE VIEW "ONTORELA_en"."T5c354d7000_organellar plasmy" AS
+  SELECT "T5c354d7000_uid" AS "uid organellar plasmy"
+  FROM "ONTORELA"."T5c354d7000";
+
+CREATE VIEW "ONTORELA_en"."T8b236d2500_SO_1000018" AS
+  SELECT "T8b236d2500_uid" AS "T8b236d2500_uid"
+  FROM "ONTORELA"."T8b236d2500";
+
+CREATE VIEW "ONTORELA_en"."T5c352be400_GENO_0000037" AS
+  SELECT "T5c352be400_uid" AS "T5c352be400_uid"
+  FROM "ONTORELA"."T5c352be400";
+
+CREATE VIEW "ONTORELA_en"."Tfcbd761a00_Stranded position" AS
+  SELECT "Tfcbd761a00_uid" AS "uid Stranded position"
+  FROM "ONTORELA"."Tfcbd761a00";
+
+CREATE VIEW "ONTORELA_en"."T563da66000_genome" AS
+  SELECT "T563da66000_uid" AS "uid genome"
+  FROM "ONTORELA"."T563da66000";
+
+CREATE VIEW "ONTORELA_en"."T563d363f00_promoter" AS
+  SELECT "T563d363f00_uid" AS "uid promoter"
+  FROM "ONTORELA"."T563d363f00";
+
+CREATE VIEW "ONTORELA_en"."T563d321e00_morpholino_oligo" AS
+  SELECT "T563d321e00_uid" AS "uid morpholino_oligo"
+  FROM "ONTORELA"."T563d321e00";
+
+CREATE VIEW "ONTORELA_en"."T563d35fd00_assembly_component" AS
+  SELECT "T563d35fd00_uid" AS "uid assembly_component"
+  FROM "ONTORELA"."T563d35fd00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fc300_GENO_0000146" AS
+  SELECT "T5c352fc300_uid" AS "T5c352fc300_uid"
+  FROM "ONTORELA"."T5c352fc300";
+
+CREATE VIEW "ONTORELA_en"."T5c353ba200_polymorphic allele" AS
+  SELECT "T5c353ba200_uid" AS "uid polymorphic allele"
+  FROM "ONTORELA"."T5c353ba200";
+
+CREATE VIEW "ONTORELA_en"."T5c352fa200_hemizygous" AS
+  SELECT "T5c352fa200_uid" AS "uid hemizygous"
+  FROM "ONTORELA"."T5c352fa200";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a4a00_BFO_0000020" AS
+  SELECT "Tc5b47a4a00_uid" AS "Tc5b47a4a00_uid"
+  FROM "ONTORELA"."Tc5b47a4a00";
+
+CREATE VIEW "ONTORELA_en"."Td59ed7b000_family" AS
+  SELECT "Td59ed7b000_uid" AS "uid family"
+  FROM "ONTORELA"."Td59ed7b000";
+
+CREATE VIEW "ONTORELA_en"."T988670a000_ONTORELA_C50fc6ccd" AS
+  SELECT "T988670a000_uid" AS "uid is part of some genotype"
+  FROM "ONTORELA"."T988670a000";
+
+COMMENT ON VIEW "ONTORELA_en"."T988670a000_ONTORELA_C50fc6ccd" IS 'genotype or (is part of some genotype)';
+
+CREATE VIEW "ONTORELA_en"."T5c354d5000_gene product" AS
+  SELECT "T5c354d5000_uid" AS "uid gene product"
+  FROM "ONTORELA"."T5c354d5000";
+
+CREATE VIEW "ONTORELA_en"."T5c354d7100_GENO_0000919" AS
+  SELECT "T5c354d7100_uid" AS "uid qualified sequence feature"
+  FROM "ONTORELA"."T5c354d7100";
+
+CREATE VIEW "ONTORELA_en"."T8b236d2400_transversion" AS
+  SELECT "T8b236d2400_uid" AS "uid transversion"
+  FROM "ONTORELA"."T8b236d2400";
+
+CREATE VIEW "ONTORELA_en"."T5c352b8200_variant allele" AS
+  SELECT "T5c352b8200_uid" AS "uid variant allele"
+  FROM "ONTORELA"."T5c352b8200";
+
+CREATE VIEW "ONTORELA_en"."T5c352ba300_gene allele" AS
+  SELECT "T5c352ba300_uid" AS "uid gene allele"
+  FROM "ONTORELA"."T5c352ba300";
+
+CREATE VIEW "ONTORELA_en"."T5c3542fe00_GENO_0000680" AS
+  SELECT "T5c3542fe00_uid" AS "uid obsolete_null feature"
+  FROM "ONTORELA"."T5c3542fe00";
+
+CREATE VIEW "ONTORELA_en"."T54d8d2ca00_cell" AS
+  SELECT "T54d8d2ca00_uid" AS "uid cell"
+  FROM "ONTORELA"."T54d8d2ca00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d0300_SO_1000005" AS
+  SELECT "T8b236d0300_uid" AS "uid complex_substitution"
+  FROM "ONTORELA"."T8b236d0300";
+
+CREATE VIEW "ONTORELA_en"."T563d3a4000_microsatellite" AS
+  SELECT "T563d3a4000_uid" AS "uid microsatellite"
+  FROM "ONTORELA"."T563d3a4000";
+
+CREATE VIEW "ONTORELA_en"."T9883d37e00_ZP_0000755" AS
+  SELECT "T9883d37e00_uid" AS "T9883d37e00_uid"
+  FROM "ONTORELA"."T9883d37e00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fc400_GENO_0000147" AS
+  SELECT "T5c352fc400_uid" AS "T5c352fc400_uid"
+  FROM "ONTORELA"."T5c352fc400";
+
+CREATE VIEW "ONTORELA_en"."T5c352fa300_heterozygous" AS
+  SELECT "T5c352fa300_uid" AS "uid heterozygous"
+  FROM "ONTORELA"."T5c352fa300";
+
+CREATE VIEW "ONTORELA_en"."T5c353ba300_GENO_0000498" AS
+  SELECT "T5c353ba300_uid" AS "uid major polymorphic allele"
+  FROM "ONTORELA"."T5c353ba300";
+
+CREATE VIEW "ONTORELA_en"."T72de6f0000_ONTORELA_C55a946a3" AS
+  SELECT "T72de6f0000_uid" AS "T72de6f0000_uid"
+  FROM "ONTORELA"."T72de6f0000";
+
+COMMENT ON VIEW "ONTORELA_en"."T72de6f0000_ONTORELA_C55a946a3" IS 'genetic modification technique';
+
+CREATE VIEW "ONTORELA_en"."T5c352f6100_human population" AS
+  SELECT "T5c352f6100_uid" AS "uid human population"
+  FROM "ONTORELA"."T5c352f6100";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a6a00_BFO_0000031" AS
+  SELECT "Tc5b47a6a00_uid" AS "Tc5b47a6a00_uid"
+  FROM "ONTORELA"."Tc5b47a6a00";
+
+CREATE VIEW "ONTORELA_en"."Tdb63547d00_ONTORELA_C3009a2bd" AS
+  SELECT "Tdb63547d00_uid" AS "Tdb63547d00_uid"
+  FROM "ONTORELA"."Tdb63547d00";
+
+COMMENT ON VIEW "ONTORELA_en"."Tdb63547d00_ONTORELA_C3009a2bd" IS 'genotype-phenotype association';
+
+CREATE VIEW "ONTORELA_en"."T5c3542ff00_GENO_0000681" AS
+  SELECT "T5c3542ff00_uid" AS "T5c3542ff00_uid"
+  FROM "ONTORELA"."T5c3542ff00";
+
+CREATE VIEW "ONTORELA_en"."T9886161100_ZP_0005692" AS
+  SELECT "T9886161100_uid" AS "T9886161100_uid"
+  FROM "ONTORELA"."T9886161100";
+
+CREATE VIEW "ONTORELA_en"."T8b236d2300_G_to_A_transition" AS
+  SELECT "T8b236d2300_uid" AS "uid G_to_A_transition"
+  FROM "ONTORELA"."T8b236d2300";
+
+CREATE VIEW "ONTORELA_en"."T5c352fc500_GENO_0000148" AS
+  SELECT "T5c352fc500_uid" AS "T5c352fc500_uid"
+  FROM "ONTORELA"."T5c352fc500";
+
+CREATE VIEW "ONTORELA_en"."T5c353ba400_GENO_0000499" AS
+  SELECT "T5c353ba400_uid" AS "uid minor polymorphic allele"
+  FROM "ONTORELA"."T5c353ba400";
+
+CREATE VIEW "ONTORELA_en"."T5c352fa400_homozygous" AS
+  SELECT "T5c352fa400_uid" AS "uid homozygous"
+  FROM "ONTORELA"."T5c352fa400";
+
+CREATE VIEW "ONTORELA_en"."T5c352f6200_strain or breed" AS
+  SELECT "T5c352f6200_uid" AS "uid strain or breed"
+  FROM "ONTORELA"."T5c352f6200";
+
+CREATE VIEW "ONTORELA_en"."T3d8b844700_cell or Viruses" AS
+  SELECT "T3d8b844700_uid" AS "uid cell or Viruses"
+  FROM "ONTORELA"."T3d8b844700";
+
+COMMENT ON VIEW "ONTORELA_en"."T3d8b844700_cell or Viruses" IS 'genomic material';
+
+CREATE VIEW "ONTORELA_en"."T563db60000_SO_0001477" AS
+  SELECT "T563db60000_uid" AS "uid gene_trap_construct"
+  FROM "ONTORELA"."T563db60000";
+
+CREATE VIEW "ONTORELA_en"."Tc46083a000_organism" AS
+  SELECT "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."Tc46083a000";
+
+CREATE VIEW "ONTORELA_en"."T8b236d6400_SO_1000039" AS
+  SELECT "T8b236d6400_uid" AS "uid direct_tandem_duplication"
+  FROM "ONTORELA"."T8b236d6400";
+
+CREATE VIEW "ONTORELA_en"."T8b236d2200_A_to_G_transition" AS
+  SELECT "T8b236d2200_uid" AS "uid A_to_G_transition"
+  FROM "ONTORELA"."T8b236d2200";
+
+CREATE VIEW "ONTORELA_en"."T244785a300_Danio rerio" AS
+  SELECT "T244785a300_uid" AS "uid Danio rerio"
+  FROM "ONTORELA"."T244785a300";
+
+CREATE VIEW "ONTORELA_en"."T8b236d4300_SO_1000027" AS
+  SELECT "T8b236d4300_uid" AS "uid G_to_T_transversion"
+  FROM "ONTORELA"."T8b236d4300";
+
+CREATE VIEW "ONTORELA_en"."T5c352fc600_GENO_0000149" AS
+  SELECT "T5c352fc600_uid" AS "T5c352fc600_uid"
+  FROM "ONTORELA"."T5c352fc600";
+
+CREATE VIEW "ONTORELA_en"."T563d359d00_sequence_feature" AS
+  SELECT "T563d359d00_uid" AS "uid sequence_feature"
+  FROM "ONTORELA"."T563d359d00";
+
+CREATE VIEW "ONTORELA_en"."T563d3d7c00_chromosome" AS
+  SELECT "T563d3d7c00_uid" AS "uid chromosome"
+  FROM "ONTORELA"."T563d3d7c00";
+
+CREATE VIEW "ONTORELA_en"."T5c352fa500_GENO_0000137" AS
+  SELECT "T5c352fa500_uid" AS "uid unspecified zygosity"
+  FROM "ONTORELA"."T5c352fa500";
+
+CREATE VIEW "ONTORELA_en"."T5c352f8400_GENO_0000125" AS
+  SELECT "T5c352f8400_uid" AS "T5c352f8400_uid"
+  FROM "ONTORELA"."T5c352f8400";
+
+CREATE VIEW "ONTORELA_en"."T5c352f6300_taxonomic group" AS
+  SELECT "T5c352f6300_uid" AS "uid taxonomic group"
+  FROM "ONTORELA"."T5c352f6300";
+
+CREATE VIEW "ONTORELA_en"."T5c35374200_GENO_0000343" AS
+  SELECT "T5c35374200_uid" AS "uid aneusomic chromosomal part"
+  FROM "ONTORELA"."T5c35374200";
+
+CREATE VIEW "ONTORELA_en"."T5c353b6300_variant" AS
+  SELECT "T5c353b6300_uid" AS "uid variant"
+  FROM "ONTORELA"."T5c353b6300";
+
+CREATE VIEW "ONTORELA_en"."T563db60100_SO_0001478" AS
+  SELECT "T563db60100_uid" AS "uid promoter_trap_construct"
+  FROM "ONTORELA"."T563db60100";
+
+CREATE VIEW "ONTORELA_en"."T2ed8ed8b00_nucleic acid" AS
+  SELECT "T2ed8ed8b00_uid" AS "uid nucleic acid"
+  FROM "ONTORELA"."T2ed8ed8b00";
+
+CREATE VIEW "ONTORELA_en"."T5c3546bf00_DNA residue" AS
+  SELECT "T5c3546bf00_uid" AS "uid DNA residue"
+  FROM "ONTORELA"."T5c3546bf00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d4200_SO_1000026" AS
+  SELECT "T8b236d4200_uid" AS "uid G_to_C_transversion"
+  FROM "ONTORELA"."T8b236d4200";
+
+CREATE VIEW "ONTORELA_en"."T563d362200_deletion" AS
+  SELECT "T563d362200_uid" AS "uid deletion"
+  FROM "ONTORELA"."T563d362200";
+
+CREATE VIEW "ONTORELA_en"."T5c352ba600_reference sequence" AS
+  SELECT "T5c352ba600_uid" AS "uid reference sequence"
+  FROM "ONTORELA"."T5c352ba600";
+
+CREATE VIEW "ONTORELA_en"."T8b236d0000_substitution" AS
+  SELECT "T8b236d0000_uid" AS "uid substitution"
+  FROM "ONTORELA"."T8b236d0000";
+
+CREATE VIEW "ONTORELA_en"."T6eb4e16f00_ENVO_01000254" AS
+  SELECT "T6eb4e16f00_uid" AS "uid environmental system"
+  FROM "ONTORELA"."T6eb4e16f00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d2100_purine_transition" AS
+  SELECT "T8b236d2100_uid" AS "uid purine_transition"
+  FROM "ONTORELA"."T8b236d2100";
+
+CREATE VIEW "ONTORELA_en"."T5c352bc700_GENO_0000029" AS
+  SELECT "T5c352bc700_uid" AS "T5c352bc700_uid"
+  FROM "ONTORELA"."T5c352bc700";
+
+CREATE VIEW "ONTORELA_en"."T5c352fa600_heritabililty" AS
+  SELECT "T5c352fa600_uid" AS "uid heritabililty"
+  FROM "ONTORELA"."T5c352fa600";
+
+CREATE VIEW "ONTORELA_en"."T5c353b6400_polymorphic" AS
+  SELECT "T5c353b6400_uid" AS "uid polymorphic"
+  FROM "ONTORELA"."T5c353b6400";
+
+CREATE VIEW "ONTORELA_en"."T563d3d7d00_chromosome band" AS
+  SELECT "T563d3d7d00_uid" AS "uid chromosome band"
+  FROM "ONTORELA"."T563d3d7d00";
+
+CREATE VIEW "ONTORELA_en"."T5c35374300_GENO_0000344" AS
+  SELECT "T5c35374300_uid" AS "T5c35374300_uid"
+  FROM "ONTORELA"."T5c35374300";
+
+CREATE VIEW "ONTORELA_en"."T563f960300_regulatory_region" AS
+  SELECT "T563f960300_uid" AS "uid regulatory_region"
+  FROM "ONTORELA"."T563f960300";
+
+CREATE VIEW "ONTORELA_en"."Td59ed3d000_PCO_0000000" AS
+  SELECT "Td59ed3d000_uid" AS "uid collection of organisms"
+  FROM "ONTORELA"."Td59ed3d000";
+
+CREATE VIEW "ONTORELA_en"."T563db60200_SO_0001479" AS
+  SELECT "T563db60200_uid" AS "uid enhancer_trap_construct"
+  FROM "ONTORELA"."T563db60200";
+
+CREATE VIEW "ONTORELA_en"."T7a8b1bb000_ONTORELA_C78d57b7f" AS
+  SELECT "T7a8b1bb000_uid" AS "T7a8b1bb000_uid"
+  FROM "ONTORELA"."T7a8b1bb000";
+
+COMMENT ON VIEW "ONTORELA_en"."T7a8b1bb000_ONTORELA_C78d57b7f" IS 'variant allele';
+
+CREATE VIEW "ONTORELA_en"."T5c354a9f00_canonical allele" AS
+  SELECT "T5c354a9f00_uid" AS "uid canonical allele"
+  FROM "ONTORELA"."T5c354a9f00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d2000_T_to_C_transition" AS
+  SELECT "T8b236d2000_uid" AS "uid T_to_C_transition"
+  FROM "ONTORELA"."T8b236d2000";
+
+CREATE VIEW "ONTORELA_en"."T8b236d4100_SO_1000025" AS
+  SELECT "T8b236d4100_uid" AS "uid A_to_T_transversion"
+  FROM "ONTORELA"."T8b236d4100";
+
+CREATE VIEW "ONTORELA_en"."T5c352fa700_heritable" AS
+  SELECT "T5c352fa700_uid" AS "uid heritable"
+  FROM "ONTORELA"."T5c352fa700";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a4d00_role" AS
+  SELECT "Tc5b47a4d00_uid" AS "uid role"
+  FROM "ONTORELA"."Tc5b47a4d00";
+
+CREATE VIEW "ONTORELA_en"."T5c35374400_GENO_0000345" AS
+  SELECT "T5c35374400_uid" AS "T5c35374400_uid"
+  FROM "ONTORELA"."T5c35374400";
+
+CREATE VIEW "ONTORELA_en"."T8c02635a00_Phenotype" AS
+  SELECT "T8c02635a00_uid" AS "uid Phenotype"
+  FROM "ONTORELA"."T8c02635a00";
+
+CREATE VIEW "ONTORELA_en"."T5c3546c000_RNA residue" AS
+  SELECT "T5c3546c000_uid" AS "uid RNA residue"
+  FROM "ONTORELA"."T5c3546c000";
+
+CREATE VIEW "ONTORELA_en"."T563da64400_SO_0001019" AS
+  SELECT "T563da64400_uid" AS "uid copy_number_variation"
+  FROM "ONTORELA"."T563da64400";
+
+CREATE VIEW "ONTORELA_en"."T5c3542c000_GENO_0000660" AS
+  SELECT "T5c3542c000_uid" AS "uid genomic feature complement"
+  FROM "ONTORELA"."T5c3542c000";
+
+CREATE VIEW "ONTORELA_en"."T5c353f2300_GENO_0000575" AS
+  SELECT "T5c353f2300_uid" AS "uid zebrafish phenotype"
+  FROM "ONTORELA"."T5c353f2300";
+
+CREATE VIEW "ONTORELA_en"."T5c35430200_novel replicon" AS
+  SELECT "T5c35430200_uid" AS "uid novel replicon"
+  FROM "ONTORELA"."T5c35430200";
+
+CREATE VIEW "ONTORELA_en"."Te2f7265100_GO_0032502" AS
+  SELECT "Te2f7265100_uid" AS "uid developmental process"
+  FROM "ONTORELA"."Te2f7265100";
+
+CREATE VIEW "ONTORELA_en"."T5c352ba800_GENO_0000019" AS
+  SELECT "T5c352ba800_uid" AS "T5c352ba800_uid"
+  FROM "ONTORELA"."T5c352ba800";
+
+CREATE VIEW "ONTORELA_en"."Tf7d3dfca00_technique" AS
+  SELECT "Tf7d3dfca00_uid" AS "uid technique"
+  FROM "ONTORELA"."Tf7d3dfca00";
+
+CREATE VIEW "ONTORELA_en"."T563d360300_contig" AS
+  SELECT "T563d360300_uid" AS "uid contig"
+  FROM "ONTORELA"."T563d360300";
+
+CREATE VIEW "ONTORELA_en"."T8b236d4000_SO_1000024" AS
+  SELECT "T8b236d4000_uid" AS "uid A_to_C_transversion"
+  FROM "ONTORELA"."T8b236d4000";
+
+CREATE VIEW "ONTORELA_en"."T8b236d6100_inversion" AS
+  SELECT "T8b236d6100_uid" AS "uid inversion"
+  FROM "ONTORELA"."T8b236d6100";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a6d00_function" AS
+  SELECT "Tc5b47a6d00_uid" AS "uid function"
+  FROM "ONTORELA"."Tc5b47a6d00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d1f00_SO_1000012" AS
+  SELECT "T8b236d1f00_uid" AS "T8b236d1f00_uid"
+  FROM "ONTORELA"."T8b236d1f00";
+
+CREATE VIEW "ONTORELA_en"."T563d495e00_SNP" AS
+  SELECT "T563d495e00_uid" AS "uid SNP"
+  FROM "ONTORELA"."T563d495e00";
+
+CREATE VIEW "ONTORELA_en"."T5c35374500_GENO_0000346" AS
+  SELECT "T5c35374500_uid" AS "uid aneusomic chromosome"
+  FROM "ONTORELA"."T5c35374500";
+
+CREATE VIEW "ONTORELA_en"."T5c3546a000_GENO_0000770" AS
+  SELECT "T5c3546a000_uid" AS "T5c3546a000_uid"
+  FROM "ONTORELA"."T5c3546a000";
+
+CREATE VIEW "ONTORELA_en"."T5c354aa000_contextual allele" AS
+  SELECT "T5c354aa000_uid" AS "uid contextual allele"
+  FROM "ONTORELA"."T5c354aa000";
+
+CREATE VIEW "ONTORELA_en"."T5c3546c100_amino acid residue" AS
+  SELECT "T5c3546c100_uid" AS "uid amino acid residue"
+  FROM "ONTORELA"."T5c3546c100";
+
+CREATE VIEW "ONTORELA_en"."T5c35430300_novel" AS
+  SELECT "T5c35430300_uid" AS "uid novel"
+  FROM "ONTORELA"."T5c35430300";
+
+CREATE VIEW "ONTORELA_en"."T989f8c8000_30269" AS
+  SELECT "T989f8c8000_uid" AS "uid danio rerio shha gene"
+  FROM "ONTORELA"."T989f8c8000";
+
+CREATE VIEW "ONTORELA_en"."T563dc15f00_SO_0001784" AS
+  SELECT "T563dc15f00_uid" AS "T563dc15f00_uid"
+  FROM "ONTORELA"."T563dc15f00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d6000_duplication" AS
+  SELECT "T8b236d6000_uid" AS "uid duplication"
+  FROM "ONTORELA"."T8b236d6000";
+
+CREATE VIEW "ONTORELA_en"."T8b236d1e00_C_to_T_transition" AS
+  SELECT "T8b236d1e00_uid" AS "uid C_to_T_transition"
+  FROM "ONTORELA"."T8b236d1e00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d3f00_SO_1000023" AS
+  SELECT "T8b236d3f00_uid" AS "T8b236d3f00_uid"
+  FROM "ONTORELA"."T8b236d3f00";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8000_GENO_0000880" AS
+  SELECT "T5c354a8000_uid" AS "uid de novo allele origin"
+  FROM "ONTORELA"."T5c354a8000";
+
+CREATE VIEW "ONTORELA_en"."T5c354aa100_GENO_0000892" AS
+  SELECT "T5c354aa100_uid" AS "T5c354aa100_uid"
+  FROM "ONTORELA"."T5c354aa100";
+
+CREATE VIEW "ONTORELA_en"."T712d118900_Both strands" AS
+  SELECT "T712d118900_uid" AS "uid Both strands"
+  FROM "ONTORELA"."T712d118900";
+
+CREATE VIEW "ONTORELA_en"."T79a6b0f000_phenotypic sex" AS
+  SELECT "T79a6b0f000_uid" AS "uid phenotypic sex"
+  FROM "ONTORELA"."T79a6b0f000";
+
+CREATE VIEW "ONTORELA_en"."T5c352f6800_GENO_0000118" AS
+  SELECT "T5c352f6800_uid" AS "uid mus musculus strain"
+  FROM "ONTORELA"."T5c352f6800";
+
+CREATE VIEW "ONTORELA_en"."T5c352b8900_GENO_0000009" AS
+  SELECT "T5c352b8900_uid" AS "T5c352b8900_uid"
+  FROM "ONTORELA"."T5c352b8900";
+
+CREATE VIEW "ONTORELA_en"."T7a608dd500_Position" AS
+  SELECT "T7a608dd500_uid" AS "uid Position"
+  FROM "ONTORELA"."T7a608dd500";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a3100_disposition" AS
+  SELECT "Tc5b47a3100_uid" AS "uid disposition"
+  FROM "ONTORELA"."Tc5b47a3100";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a1000_BFO_0000004" AS
+  SELECT "Tc5b47a1000_uid" AS "uid independent continuant"
+  FROM "ONTORELA"."Tc5b47a1000";
+
+CREATE VIEW "ONTORELA_en"."T5c352f4700_genomic material" AS
+  SELECT "T5c352f4700_uid" AS "uid genomic material"
+  FROM "ONTORELA"."T5c352f4700";
+
+CREATE VIEW "ONTORELA_en"."T5c35370500_GENO_0000324" AS
+  SELECT "T5c35370500_uid" AS "T5c35370500_uid"
+  FROM "ONTORELA"."T5c35370500";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8100_GENO_0000881" AS
+  SELECT "T5c354a8100_uid" AS "uid unknown allele origin"
+  FROM "ONTORELA"."T5c354a8100";
+
+CREATE VIEW "ONTORELA_en"."T5c3546a200_GENO_0000772" AS
+  SELECT "T5c3546a200_uid" AS "uid obsolete_unspecified"
+  FROM "ONTORELA"."T5c3546a200";
+
+CREATE VIEW "ONTORELA_en"."T5c354aa200_GENO_0000893" AS
+  SELECT "T5c354aa200_uid" AS "T5c354aa200_uid"
+  FROM "ONTORELA"."T5c354aa200";
+
+CREATE VIEW "ONTORELA_en"."T5c352f6900_danio rerio strain" AS
+  SELECT "T5c352f6900_uid" AS "uid danio rerio strain"
+  FROM "ONTORELA"."T5c352f6900";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a3000_process" AS
+  SELECT "Tc5b47a3000_uid" AS "uid process"
+  FROM "ONTORELA"."Tc5b47a3000";
+
+CREATE VIEW "ONTORELA_en"."T5c353b2700_GENO_0000458" AS
+  SELECT "T5c353b2700_uid" AS "uid simple heterozygous"
+  FROM "ONTORELA"."T5c353b2700";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a0f00_occurrent" AS
+  SELECT "Tc5b47a0f00_uid" AS "uid occurrent"
+  FROM "ONTORELA"."Tc5b47a0f00";
+
+CREATE VIEW "ONTORELA_en"."T5c35430600_terminus" AS
+  SELECT "T5c35430600_uid" AS "uid terminus"
+  FROM "ONTORELA"."T5c35430600";
+
+CREATE VIEW "ONTORELA_en"."T5964bd8000_life cycle stage" AS
+  SELECT "T5964bd8000_uid" AS "uid life cycle stage"
+  FROM "ONTORELA"."T5964bd8000";
+
+CREATE VIEW "ONTORELA_en"."T799d7b2000_PATO_0000016" AS
+  SELECT "T799d7b2000_uid" AS "uid obsolete_color brightness"
+  FROM "ONTORELA"."T799d7b2000";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6100_GENO_0000870" AS
+  SELECT "T5c354a6100_uid" AS "T5c354a6100_uid"
+  FROM "ONTORELA"."T5c354a6100";
+
+CREATE VIEW "ONTORELA_en"."T563d3a3800_SO_0000281" AS
+  SELECT "T563d3a3800_uid" AS "uid engineered_foreign_gene"
+  FROM "ONTORELA"."T563d3a3800";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8200_GENO_0000882" AS
+  SELECT "T5c354a8200_uid" AS "uid somatic allele origin"
+  FROM "ONTORELA"."T5c354a8200";
+
+CREATE VIEW "ONTORELA_en"."Tf7d085bd00_ONTORELA_C6cdb8ddf" AS
+  SELECT "Tf7d085bd00_uid" AS "Tf7d085bd00_uid"
+  FROM "ONTORELA"."Tf7d085bd00";
+
+COMMENT ON VIEW "ONTORELA_en"."Tf7d085bd00_ONTORELA_C6cdb8ddf" IS 'genotype';
+
+CREATE VIEW "ONTORELA_en"."T5c3546a300_GENO_0000773" AS
+  SELECT "T5c3546a300_uid" AS "uid variation attribute"
+  FROM "ONTORELA"."T5c3546a300";
+
+CREATE VIEW "ONTORELA_en"."T5c35428200_reporter region" AS
+  SELECT "T5c35428200_uid" AS "uid reporter region"
+  FROM "ONTORELA"."T5c35428200";
+
+CREATE VIEW "ONTORELA_en"."T5c352f4900_material genome" AS
+  SELECT "T5c352f4900_uid" AS "uid material genome"
+  FROM "ONTORELA"."T5c352f4900";
+
+CREATE VIEW "ONTORELA_en"."T5c35372800_GENO_0000338" AS
+  SELECT "T5c35372800_uid" AS "T5c35372800_uid"
+  FROM "ONTORELA"."T5c35372800";
+
+CREATE VIEW "ONTORELA_en"."T6450784700_Mus musculus" AS
+  SELECT "T6450784700_uid" AS "uid Mus musculus"
+  FROM "ONTORELA"."T6450784700";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a0e00_continuant" AS
+  SELECT "Tc5b47a0e00_uid" AS "uid continuant"
+  FROM "ONTORELA"."Tc5b47a0e00";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6200_obsolete_haplotype" AS
+  SELECT "T5c354a6200_uid" AS "uid obsolete_haplotype"
+  FROM "ONTORELA"."T5c354a6200";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8300_obsolete_gametic" AS
+  SELECT "T5c354a8300_uid" AS "uid obsolete_gametic"
+  FROM "ONTORELA"."T5c354a8300";
+
+CREATE VIEW "ONTORELA_en"."T5c35372900_GENO_0000339" AS
+  SELECT "T5c35372900_uid" AS "uid lost aneusomic chromosome"
+  FROM "ONTORELA"."T5c35372900";
+
+CREATE VIEW "ONTORELA_en"."T563d4c0800_gene" AS
+  SELECT "T563d4c0800_uid" AS "uid gene"
+  FROM "ONTORELA"."T563d4c0800";
+
+CREATE VIEW "ONTORELA_en"."T5c353ea500_GENO_0000533" AS
+  SELECT "T5c353ea500_uid" AS "uid gene knockdown reagent"
+  FROM "ONTORELA"."T5c353ea500";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a0d00_entity" AS
+  SELECT "Tc5b47a0d00_uid" AS "uid entity"
+  FROM "ONTORELA"."Tc5b47a0d00";
+
+CREATE VIEW "ONTORELA_en"."T5c35428400_GENO_0000642" AS
+  SELECT "T5c35428400_uid" AS "T5c35428400_uid"
+  FROM "ONTORELA"."T5c35428400";
+
+CREATE VIEW "ONTORELA_en"."T5c3542c600_gene part" AS
+  SELECT "T5c3542c600_uid" AS "uid gene part"
+  FROM "ONTORELA"."T5c3542c600";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6300_GENO_0000872" AS
+  SELECT "T5c354a6300_uid" AS "T5c354a6300_uid"
+  FROM "ONTORELA"."T5c354a6300";
+
+CREATE VIEW "ONTORELA_en"."T97be847000_20423" AS
+  SELECT "T97be847000_uid" AS "uid mus musculus shh gene"
+  FROM "ONTORELA"."T97be847000";
+
+CREATE VIEW "ONTORELA_en"."T563d369e00_translocation" AS
+  SELECT "T563d369e00_uid" AS "uid translocation"
+  FROM "ONTORELA"."T563d369e00";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6400_GENO_0000873" AS
+  SELECT "T5c354a6400_uid" AS "uid microsatellite alteration"
+  FROM "ONTORELA"."T5c354a6400";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8500_diplotype" AS
+  SELECT "T5c354a8500_uid" AS "uid diplotype"
+  FROM "ONTORELA"."T5c354a8500";
+
+CREATE VIEW "ONTORELA_en"."T5c3542c700_reporter transgene" AS
+  SELECT "T5c3542c700_uid" AS "uid reporter transgene"
+  FROM "ONTORELA"."T5c3542c700";
+
+CREATE VIEW "ONTORELA_en"."T5c354aa600_genomic entity" AS
+  SELECT "T5c354aa600_uid" AS "uid genomic entity"
+  FROM "ONTORELA"."T5c354aa600";
+
+CREATE VIEW "ONTORELA_en"."T5c3546c700_GENO_0000788" AS
+  SELECT "T5c3546c700_uid" AS "uid sequence feature attribute"
+  FROM "ONTORELA"."T5c3546c700";
+
+CREATE VIEW "ONTORELA_en"."T5c353ea600_GENO_0000534" AS
+  SELECT "T5c353ea600_uid" AS "T5c353ea600_uid"
+  FROM "ONTORELA"."T5c353ea600";
+
+CREATE VIEW "ONTORELA_en"."T5c354a4300_GENO_0000861" AS
+  SELECT "T5c354a4300_uid" AS "T5c354a4300_uid"
+  FROM "ONTORELA"."T5c354a4300";
+
+CREATE VIEW "ONTORELA_en"."T563db61b00_SNV" AS
+  SELECT "T563db61b00_uid" AS "uid SNV"
+  FROM "ONTORELA"."T563db61b00";
+
+CREATE VIEW "ONTORELA_en"."T8b236d0700_transition" AS
+  SELECT "T8b236d0700_uid" AS "uid transition"
+  FROM "ONTORELA"."T8b236d0700";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a3400_quality" AS
+  SELECT "Tc5b47a3400_uid" AS "uid quality"
+  FROM "ONTORELA"."Tc5b47a3400";
+
+CREATE VIEW "ONTORELA_en"."T1451d3e500_cell line" AS
+  SELECT "T1451d3e500_uid" AS "uid cell line"
+  FROM "ONTORELA"."T1451d3e500";
+
+CREATE VIEW "ONTORELA_en"."T5c353a8600_GENO_0000402" AS
+  SELECT "T5c353a8600_uid" AS "uid compound heterozygous"
+  FROM "ONTORELA"."T5c353a8600";
+
+CREATE VIEW "ONTORELA_en"."T5c353e6500_wild-type" AS
+  SELECT "T5c353e6500_uid" AS "uid wild-type"
+  FROM "ONTORELA"."T5c353e6500";
+
+CREATE VIEW "ONTORELA_en"."T5c35426500_gpos66" AS
+  SELECT "T5c35426500_uid" AS "uid gpos66"
+  FROM "ONTORELA"."T5c35426500";
+
+CREATE VIEW "ONTORELA_en"."T563da6c000_SO_0001059" AS
+  SELECT "T563da6c000_uid" AS "uid sequence_alteration"
+  FROM "ONTORELA"."T563da6c000";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6500_GENO_0000874" AS
+  SELECT "T5c354a6500_uid" AS "uid repeat region alteration"
+  FROM "ONTORELA"."T5c354a6500";
+
+CREATE VIEW "ONTORELA_en"."T5c35424400_gneg" AS
+  SELECT "T5c35424400_uid" AS "uid gneg"
+  FROM "ONTORELA"."T5c35424400";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8600_allelic phase" AS
+  SELECT "T5c354a8600_uid" AS "uid allelic phase"
+  FROM "ONTORELA"."T5c354a8600";
+
+CREATE VIEW "ONTORELA_en"."T5c3546a700_GENO_0000777" AS
+  SELECT "T5c3546a700_uid" AS "uid variant genomic genotype"
+  FROM "ONTORELA"."T5c3546a700";
+
+CREATE VIEW "ONTORELA_en"."T5c354aa700_GENO_0000898" AS
+  SELECT "T5c354aa700_uid" AS "uid obsolete_haplotype block"
+  FROM "ONTORELA"."T5c354aa700";
+
+CREATE VIEW "ONTORELA_en"."T5c35428600_karyotype" AS
+  SELECT "T5c35428600_uid" AS "uid karyotype"
+  FROM "ONTORELA"."T5c35428600";
+
+CREATE VIEW "ONTORELA_en"."T5c354a2300_GENO_0000850" AS
+  SELECT "T5c354a2300_uid" AS "uid P-element construct"
+  FROM "ONTORELA"."T5c354a2300";
+
+CREATE VIEW "ONTORELA_en"."Ta91a7fc000_OBI_0001149" AS
+  SELECT "Ta91a7fc000_uid" AS "Ta91a7fc000_uid"
+  FROM "ONTORELA"."Ta91a7fc000";
+
+CREATE VIEW "ONTORELA_en"."T5c3546a800_GENO_0000778" AS
+  SELECT "T5c3546a800_uid" AS "T5c3546a800_uid"
+  FROM "ONTORELA"."T5c3546a800";
+
+CREATE VIEW "ONTORELA_en"."T5c354aa800_genomic genotype" AS
+  SELECT "T5c354aa800_uid" AS "uid genomic genotype"
+  FROM "ONTORELA"."T5c354aa800";
+
+CREATE VIEW "ONTORELA_en"."T7efbe02400_worm phenotype" AS
+  SELECT "T7efbe02400_uid" AS "uid worm phenotype"
+  FROM "ONTORELA"."T7efbe02400";
+
+CREATE VIEW "ONTORELA_en"."T5c353ea800_genotype" AS
+  SELECT "T5c353ea800_uid" AS "uid genotype"
+  FROM "ONTORELA"."T5c353ea800";
+
+CREATE VIEW "ONTORELA_en"."T5c353aa800_GENO_0000415" AS
+  SELECT "T5c353aa800_uid" AS "T5c353aa800_uid"
+  FROM "ONTORELA"."T5c353aa800";
+
+CREATE VIEW "ONTORELA_en"."T563d4fc900_engineered_region" AS
+  SELECT "T563d4fc900_uid" AS "uid engineered_region"
+  FROM "ONTORELA"."T563d4fc900";
+
+CREATE VIEW "ONTORELA_en"."Ta912f77000_planned process" AS
+  SELECT "Ta912f77000_uid" AS "uid planned process"
+  FROM "ONTORELA"."Ta912f77000";
+
+CREATE VIEW "ONTORELA_en"."T8b236d0600_point_mutation" AS
+  SELECT "T8b236d0600_uid" AS "uid point_mutation"
+  FROM "ONTORELA"."T8b236d0600";
+
+CREATE VIEW "ONTORELA_en"."T5c352c9800_GENO_0000091" AS
+  SELECT "T5c352c9800_uid" AS "T5c352c9800_uid"
+  FROM "ONTORELA"."T5c352c9800";
+
+CREATE VIEW "ONTORELA_en"."T5c353e4500_GENO_0000500" AS
+  SELECT "T5c353e4500_uid" AS "T5c353e4500_uid"
+  FROM "ONTORELA"."T5c353e4500";
+
+CREATE VIEW "ONTORELA_en"."T5c35424500_gvar" AS
+  SELECT "T5c35424500_uid" AS "uid gvar"
+  FROM "ONTORELA"."T5c35424500";
+
+CREATE VIEW "ONTORELA_en"."T5c353e8700_extrinsic genotype" AS
+  SELECT "T5c353e8700_uid" AS "uid extrinsic genotype"
+  FROM "ONTORELA"."T5c353e8700";
+
+CREATE VIEW "ONTORELA_en"."T5c35428700_GENO_0000645" AS
+  SELECT "T5c35428700_uid" AS "T5c35428700_uid"
+  FROM "ONTORELA"."T5c35428700";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6600_allelic state" AS
+  SELECT "T5c354a6600_uid" AS "uid allelic state"
+  FROM "ONTORELA"."T5c354a6600";
+
+CREATE VIEW "ONTORELA_en"."T563d363d00_enhancer" AS
+  SELECT "T563d363d00_uid" AS "uid enhancer"
+  FROM "ONTORELA"."T563d363d00";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8700_GENO_0000887" AS
+  SELECT "T5c354a8700_uid" AS "uid oryzias latipes strain"
+  FROM "ONTORELA"."T5c354a8700";
+
+CREATE VIEW "ONTORELA_en"."T5c353e6600_allele" AS
+  SELECT "T5c353e6600_uid" AS "uid allele"
+  FROM "ONTORELA"."T5c353e6600";
+
+CREATE VIEW "ONTORELA_en"."T5c35426600_gpos33" AS
+  SELECT "T5c35426600_uid" AS "uid gpos33"
+  FROM "ONTORELA"."T5c35426600";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8800_GENO_0000888" AS
+  SELECT "T5c354a8800_uid" AS "uid germline allele origin"
+  FROM "ONTORELA"."T5c354a8800";
+
+CREATE VIEW "ONTORELA_en"."T5c3546a900_GENO_0000779" AS
+  SELECT "T5c3546a900_uid" AS "uid biological sequence unit"
+  FROM "ONTORELA"."T5c3546a900";
+
+CREATE VIEW "ONTORELA_en"."T5c353e8800_effective genotype" AS
+  SELECT "T5c353e8800_uid" AS "uid effective genotype"
+  FROM "ONTORELA"."T5c353e8800";
+
+CREATE VIEW "ONTORELA_en"."T5c35428800_GENO_0000646" AS
+  SELECT "T5c35428800_uid" AS "uid male intrinsic genotype"
+  FROM "ONTORELA"."T5c35428800";
+
+CREATE VIEW "ONTORELA_en"."Ta91a7fb000_OBI_0001148" AS
+  SELECT "Ta91a7fb000_uid" AS "Ta91a7fb000_uid"
+  FROM "ONTORELA"."Ta91a7fb000";
+
+CREATE VIEW "ONTORELA_en"."T563d538800_transgene" AS
+  SELECT "T563d538800_uid" AS "uid transgene"
+  FROM "ONTORELA"."T563d538800";
+
+CREATE VIEW "ONTORELA_en"."T8b236d2600_SO_1000019" AS
+  SELECT "T8b236d2600_uid" AS "uid C_to_A_transversion"
+  FROM "ONTORELA"."T8b236d2600";
+
+CREATE VIEW "ONTORELA_en"."T563da63e00_MNP" AS
+  SELECT "T563da63e00_uid" AS "uid MNP"
+  FROM "ONTORELA"."T563da63e00";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47a3200_realizable entity" AS
+  SELECT "Tc5b47a3200_uid" AS "uid realizable entity"
+  FROM "ONTORELA"."Tc5b47a3200";
+
+CREATE VIEW "ONTORELA_en"."T5c352c9900_GENO_0000092" AS
+  SELECT "T5c352c9900_uid" AS "uid gene trap insertion"
+  FROM "ONTORELA"."T5c352c9900";
+
+CREATE VIEW "ONTORELA_en"."T5c353e6700_aneusomic" AS
+  SELECT "T5c353e6700_uid" AS "uid aneusomic"
+  FROM "ONTORELA"."T5c353e6700";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6700_GENO_0000876" AS
+  SELECT "T5c354a6700_uid" AS "uid obsolete_genetic dosage"
+  FROM "ONTORELA"."T5c354a6700";
+
+CREATE VIEW "ONTORELA_en"."T5c353e4600_wild-type allele" AS
+  SELECT "T5c353e4600_uid" AS "uid wild-type allele"
+  FROM "ONTORELA"."T5c353e4600";
+
+CREATE VIEW "ONTORELA_en"."T5c35424600_gpos100" AS
+  SELECT "T5c35424600_uid" AS "uid gpos100"
+  FROM "ONTORELA"."T5c35424600";
+
+CREATE VIEW "ONTORELA_en"."T30c8fa0500_MP_0000001" AS
+  SELECT "T30c8fa0500_uid" AS "uid mammalian phenotype"
+  FROM "ONTORELA"."T30c8fa0500";
+
+CREATE VIEW "ONTORELA_en"."T563dc0e400_SO_0001745" AS
+  SELECT "T563dc0e400_uid" AS "T563dc0e400_uid"
+  FROM "ONTORELA"."T563dc0e400";
+
+CREATE VIEW "ONTORELA_en"."T5c35428900_GENO_0000647" AS
+  SELECT "T5c35428900_uid" AS "uid female intrinsic genotype"
+  FROM "ONTORELA"."T5c35428900";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6800_allele origin" AS
+  SELECT "T5c354a6800_uid" AS "uid allele origin"
+  FROM "ONTORELA"."T5c354a6800";
+
+CREATE VIEW "ONTORELA_en"."T5c35468900_GENO_0000768" AS
+  SELECT "T5c35468900_uid" AS "uid obsolete_genomic position"
+  FROM "ONTORELA"."T5c35468900";
+
+CREATE VIEW "ONTORELA_en"."T5c354a8900_GENO_0000889" AS
+  SELECT "T5c354a8900_uid" AS "uid undetermined inheritance"
+  FROM "ONTORELA"."T5c354a8900";
+
+CREATE VIEW "ONTORELA_en"."T5c3542aa00_GENO_0000659" AS
+  SELECT "T5c3542aa00_uid" AS "T5c3542aa00_uid"
+  FROM "ONTORELA"."T5c3542aa00";
+
+CREATE VIEW "ONTORELA_en"."T64507f1800_Viruses" AS
+  SELECT "T64507f1800_uid" AS "uid Viruses"
+  FROM "ONTORELA"."T64507f1800";
+
+CREATE VIEW "ONTORELA_en"."T7dfa402d00_HsapDv_0000000" AS
+  SELECT "T7dfa402d00_uid" AS "uid human life cycle stage"
+  FROM "ONTORELA"."T7dfa402d00";
+
+CREATE VIEW "ONTORELA_en"."T799e3cc000_male" AS
+  SELECT "T799e3cc000_uid" AS "uid male"
+  FROM "ONTORELA"."T799e3cc000";
+
+CREATE VIEW "ONTORELA_en"."T9883c4d800_ZP_0000386" AS
+  SELECT "T9883c4d800_uid" AS "T9883c4d800_uid"
+  FROM "ONTORELA"."T9883c4d800";
+
+CREATE VIEW "ONTORELA_en"."T5c35460500_DNA sequence" AS
+  SELECT "T5c35460500_uid" AS "uid DNA sequence"
+  FROM "ONTORELA"."T5c35460500";
+
+CREATE VIEW "ONTORELA_en"."T5c352c9a00_GENO_0000093" AS
+  SELECT "T5c352c9a00_uid" AS "uid integrated transgene"
+  FROM "ONTORELA"."T5c352c9a00";
+
+CREATE VIEW "ONTORELA_en"."T5c353e4700_wild-type gene" AS
+  SELECT "T5c353e4700_uid" AS "uid wild-type gene"
+  FROM "ONTORELA"."T5c353e4700";
+
+CREATE VIEW "ONTORELA_en"."T5c35424700_gpos75" AS
+  SELECT "T5c35424700_uid" AS "uid gpos75"
+  FROM "ONTORELA"."T5c35424700";
+
+CREATE VIEW "ONTORELA_en"."T5c35422600_GENO_0000611" AS
+  SELECT "T5c35422600_uid" AS "uid background genotype"
+  FROM "ONTORELA"."T5c35422600";
+
+CREATE VIEW "ONTORELA_en"."T563dc0e500_SO_0001746" AS
+  SELECT "T563dc0e500_uid" AS "T563dc0e500_uid"
+  FROM "ONTORELA"."T563dc0e500";
+
+CREATE VIEW "ONTORELA_en"."T5c353e6900_GENO_0000515" AS
+  SELECT "T5c353e6900_uid" AS "uid variant gene allele"
+  FROM "ONTORELA"."T5c353e6900";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6900_GENO_0000878" AS
+  SELECT "T5c354a6900_uid" AS "uid maternal allele origin"
+  FROM "ONTORELA"."T5c354a6900";
+
+CREATE VIEW "ONTORELA_en"."T5c35424800_gpos50" AS
+  SELECT "T5c35424800_uid" AS "uid gpos50"
+  FROM "ONTORELA"."T5c35424800";
+
+CREATE VIEW "ONTORELA_en"."T5c353e8a00_GENO_0000527" AS
+  SELECT "T5c353e8a00_uid" AS "T5c353e8a00_uid"
+  FROM "ONTORELA"."T5c353e8a00";
+
+CREATE VIEW "ONTORELA_en"."T3a1ea63100_6469" AS
+  SELECT "T3a1ea63100_uid" AS "uid homo sapiens SHH gene"
+  FROM "ONTORELA"."T3a1ea63100";
+
+CREATE VIEW "ONTORELA_en"."T6b59c85100_HP_0000118" AS
+  SELECT "T6b59c85100_uid" AS "T6b59c85100_uid"
+  FROM "ONTORELA"."T6b59c85100";
+
+CREATE VIEW "ONTORELA_en"."T799e3cb000_female" AS
+  SELECT "T799e3cb000_uid" AS "uid female"
+  FROM "ONTORELA"."T799e3cb000";
+
+CREATE VIEW "ONTORELA_en"."T5c35460600_RNA sequence" AS
+  SELECT "T5c35460600_uid" AS "uid RNA sequence"
+  FROM "ONTORELA"."T5c35460600";
+
+CREATE VIEW "ONTORELA_en"."T563db8e600_SO_0001505" AS
+  SELECT "T563db8e600_uid" AS "uid reference genome sequence"
+  FROM "ONTORELA"."T563db8e600";
+
+CREATE VIEW "ONTORELA_en"."T5c353e4900_GENO_0000504" AS
+  SELECT "T5c353e4900_uid" AS "uid reagent targeted gene"
+  FROM "ONTORELA"."T5c353e4900";
+
+CREATE VIEW "ONTORELA_en"."T5c35424900_gpos25" AS
+  SELECT "T5c35424900_uid" AS "uid gpos25"
+  FROM "ONTORELA"."T5c35424900";
+
+CREATE VIEW "ONTORELA_en"."T5c353e8b00_GENO_0000528" AS
+  SELECT "T5c353e8b00_uid" AS "T5c353e8b00_uid"
+  FROM "ONTORELA"."T5c353e8b00";
+
+CREATE VIEW "ONTORELA_en"."T5c35428b00_GENO_0000649" AS
+  SELECT "T5c35428b00_uid" AS "T5c35428b00_uid"
+  FROM "ONTORELA"."T5c35428b00";
+
+CREATE VIEW "ONTORELA_en"."T5c354a6a00_GENO_0000879" AS
+  SELECT "T5c354a6a00_uid" AS "uid paternal allele origin"
+  FROM "ONTORELA"."T5c354a6a00";
+
+CREATE VIEW "ONTORELA_en"."T639100c300_ONTORELA_C6eeefcf9" AS
+  SELECT "T639100c300_uid" AS "T639100c300_uid"
+  FROM "ONTORELA"."T639100c300";
+
+COMMENT ON VIEW "ONTORELA_en"."T639100c300_ONTORELA_C6eeefcf9" IS 'genotype-phenotype association';
+
+CREATE VIEW "ONTORELA_en"."T5c353e6a00_GENO_0000516" AS
+  SELECT "T5c353e6a00_uid" AS "uid single locus complement"
+  FROM "ONTORELA"."T5c353e6a00";
+
+CREATE VIEW "ONTORELA_en"."T5c35426a00_GENO_0000637" AS
+  SELECT "T5c35426a00_uid" AS "T5c35426a00_uid"
+  FROM "ONTORELA"."T5c35426a00";
+
+CREATE VIEW "ONTORELA_en"."T28371aec00_399483" AS
+  SELECT "T28371aec00_uid" AS "uid danio rerio cdkn1ca gene"
+  FROM "ONTORELA"."T28371aec00";
+
+CREATE VIEW "ONTORELA_en"."T2ecaca6b00_molecular entity" AS
+  SELECT "T2ecaca6b00_uid" AS "uid molecular entity"
+  FROM "ONTORELA"."T2ecaca6b00";
+
+CREATE VIEW "ONTORELA_en"."T5c35460700_GENO_0000722" AS
+  SELECT "T5c35460700_uid" AS "uid amino acid sequence"
+  FROM "ONTORELA"."T5c35460700";
+
+CREATE VIEW "ONTORELA_en"."T5c354de600_GENO_0000952" AS
+  SELECT "T5c354de600_uid" AS "T5c354de600_uid"
+  FROM "ONTORELA"."T5c354de600";
+
+CREATE VIEW "ONTORELA_en"."T5c353e8c00_GENO_0000529" AS
+  SELECT "T5c353e8c00_uid" AS "uid expression-variant gene"
+  FROM "ONTORELA"."T5c353e8c00";
+
+CREATE VIEW "ONTORELA_en"."T5c35422900_chromosomal region" AS
+  SELECT "T5c35422900_uid" AS "uid chromosomal region"
+  FROM "ONTORELA"."T5c35422900";
+
+CREATE VIEW "ONTORELA_en"."T5c354a2900_GENO_0000856" AS
+  SELECT "T5c354a2900_uid" AS "T5c354a2900_uid"
+  FROM "ONTORELA"."T5c354a2900";
+
+CREATE VIEW "ONTORELA_en"."T5c35420800_homoplasmic" AS
+  SELECT "T5c35420800_uid" AS "uid homoplasmic"
+  FROM "ONTORELA"."T5c35420800";
+
+CREATE VIEW "ONTORELA_en"."T5c35426b00_GENO_0000638" AS
+  SELECT "T5c35426b00_uid" AS "uid expressed transgene region"
+  FROM "ONTORELA"."T5c35426b00";
+
+CREATE VIEW "ONTORELA_en"."T5c352c3a00_GENO_0000060" AS
+  SELECT "T5c352c3a00_uid" AS "T5c352c3a00_uid"
+  FROM "ONTORELA"."T5c352c3a00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dc600_GENO_0000941" AS
+  SELECT "T5c354dc600_uid" AS "uid Y-linked inheritance"
+  FROM "ONTORELA"."T5c354dc600";
+
+CREATE VIEW "ONTORELA_en"."T5c354de700_GENO_0000953" AS
+  SELECT "T5c354de700_uid" AS "T5c354de700_uid"
+  FROM "ONTORELA"."T5c354de700";
+
+CREATE VIEW "ONTORELA_en"."T5c35420900_heteroplasmic" AS
+  SELECT "T5c35420900_uid" AS "uid heteroplasmic"
+  FROM "ONTORELA"."T5c35420900";
+
+CREATE VIEW "ONTORELA_en"."T5c35460900_GENO_0000724" AS
+  SELECT "T5c35460900_uid" AS "T5c35460900_uid"
+  FROM "ONTORELA"."T5c35460900";
+
+CREATE VIEW "ONTORELA_en"."T5c3549e800_GENO_0000833" AS
+  SELECT "T5c3549e800_uid" AS "T5c3549e800_uid"
+  FROM "ONTORELA"."T5c3549e800";
+
+CREATE VIEW "ONTORELA_en"."T5c353e4b00_GENO_0000506" AS
+  SELECT "T5c353e4b00_uid" AS "T5c353e4b00_uid"
+  FROM "ONTORELA"."T5c353e4b00";
+
+CREATE VIEW "ONTORELA_en"."T5c35462a00_GENO_0000736" AS
+  SELECT "T5c35462a00_uid" AS "T5c35462a00_uid"
+  FROM "ONTORELA"."T5c35462a00";
+
+CREATE VIEW "ONTORELA_en"."T12862b7b00_IAO_0000102" AS
+  SELECT "T12862b7b00_uid" AS "T12862b7b00_uid"
+  FROM "ONTORELA"."T12862b7b00";
+
+CREATE VIEW "ONTORELA_en"."T2447d8b000_Oryzias latipes" AS
+  SELECT "T2447d8b000_uid" AS "uid Oryzias latipes"
+  FROM "ONTORELA"."T2447d8b000";
+
+CREATE VIEW "ONTORELA_en"."T563d502200_chromosome part" AS
+  SELECT "T563d502200_uid" AS "uid chromosome part"
+  FROM "ONTORELA"."T563d502200";
+
+CREATE VIEW "ONTORELA_en"."T5c35301a00_GENO_0000170" AS
+  SELECT "T5c35301a00_uid" AS "T5c35301a00_uid"
+  FROM "ONTORELA"."T5c35301a00";
+
+CREATE VIEW "ONTORELA_en"."T5c354da600_GENO_0000930" AS
+  SELECT "T5c354da600_uid" AS "uid digenic inheritance"
+  FROM "ONTORELA"."T5c354da600";
+
+CREATE VIEW "ONTORELA_en"."T5c354dc700_GENO_0000942" AS
+  SELECT "T5c354dc700_uid" AS "uid Z-linked inheritance"
+  FROM "ONTORELA"."T5c354dc700";
+
+CREATE VIEW "ONTORELA_en"."T2c187e4800_Positive strand" AS
+  SELECT "T2c187e4800_uid" AS "uid Positive strand"
+  FROM "ONTORELA"."T2c187e4800";
+
+CREATE VIEW "ONTORELA_en"."T5c35424c00_GENO_0000628" AS
+  SELECT "T5c35424c00_uid" AS "uid short chromosome arm"
+  FROM "ONTORELA"."T5c35424c00";
+
+CREATE VIEW "ONTORELA_en"."T5c3545e900_GENO_0000713" AS
+  SELECT "T5c3545e900_uid" AS "T5c3545e900_uid"
+  FROM "ONTORELA"."T5c3545e900";
+
+CREATE VIEW "ONTORELA_en"."T5c354dc800_GENO_0000943" AS
+  SELECT "T5c354dc800_uid" AS "T5c354dc800_uid"
+  FROM "ONTORELA"."T5c354dc800";
+
+CREATE VIEW "ONTORELA_en"."T5c3545c800_GENO_0000701" AS
+  SELECT "T5c3545c800_uid" AS "T5c3545c800_uid"
+  FROM "ONTORELA"."T5c3545c800";
+
+CREATE VIEW "ONTORELA_en"."T5c35422b00_GENO_0000616" AS
+  SELECT "T5c35422b00_uid" AS "uid chromosome sub-band"
+  FROM "ONTORELA"."T5c35422b00";
+
+CREATE VIEW "ONTORELA_en"."T5c35462b00_GENO_0000737" AS
+  SELECT "T5c35462b00_uid" AS "T5c35462b00_uid"
+  FROM "ONTORELA"."T5c35462b00";
+
+CREATE VIEW "ONTORELA_en"."T5c35420a00_GENO_0000604" AS
+  SELECT "T5c35420a00_uid" AS "uid hemizygous X-linked"
+  FROM "ONTORELA"."T5c35420a00";
+
+CREATE VIEW "ONTORELA_en"."T5c35460a00_GENO_0000725" AS
+  SELECT "T5c35460a00_uid" AS "T5c35460a00_uid"
+  FROM "ONTORELA"."T5c35460a00";
+
+CREATE VIEW "ONTORELA_en"."Ta913411000_population" AS
+  SELECT "Ta913411000_uid" AS "uid population"
+  FROM "ONTORELA"."Ta913411000";
+
+CREATE VIEW "ONTORELA_en"."T563d48a700_SO_0000637" AS
+  SELECT "T563d48a700_uid" AS "T563d48a700_uid"
+  FROM "ONTORELA"."T563d48a700";
+
+CREATE VIEW "ONTORELA_en"."T5c35301b00_GENO_0000171" AS
+  SELECT "T5c35301b00_uid" AS "T5c35301b00_uid"
+  FROM "ONTORELA"."T5c35301b00";
+
+CREATE VIEW "ONTORELA_en"."T5c354da700_GENO_0000931" AS
+  SELECT "T5c354da700_uid" AS "uid oligogenic inheritance"
+  FROM "ONTORELA"."T5c354da700";
+
+CREATE VIEW "ONTORELA_en"."T5c35424d00_GENO_0000629" AS
+  SELECT "T5c35424d00_uid" AS "uid long chromosome arm"
+  FROM "ONTORELA"."T5c35424d00";
+
+CREATE VIEW "ONTORELA_en"."T5c3545c900_GENO_0000702" AS
+  SELECT "T5c3545c900_uid" AS "uid biological sequence"
+  FROM "ONTORELA"."T5c3545c900";
+
+CREATE VIEW "ONTORELA_en"."T5c354da800_GENO_0000932" AS
+  SELECT "T5c354da800_uid" AS "uid polygenic inheritance"
+  FROM "ONTORELA"."T5c354da800";
+
+CREATE VIEW "ONTORELA_en"."T5c3549c900_allelic genotype" AS
+  SELECT "T5c3549c900_uid" AS "uid allelic genotype"
+  FROM "ONTORELA"."T5c3549c900";
+
+CREATE VIEW "ONTORELA_en"."T5c354dc900_GENO_0000944" AS
+  SELECT "T5c354dc900_uid" AS "T5c354dc900_uid"
+  FROM "ONTORELA"."T5c354dc900";
+
+CREATE VIEW "ONTORELA_en"."T5c35420b00_GENO_0000605" AS
+  SELECT "T5c35420b00_uid" AS "uid hemizygous Y-linked"
+  FROM "ONTORELA"."T5c35420b00";
+
+CREATE VIEW "ONTORELA_en"."T5c3545ea00_GENO_0000714" AS
+  SELECT "T5c3545ea00_uid" AS "uid qualified genomic feature"
+  FROM "ONTORELA"."T5c3545ea00";
+
+CREATE VIEW "ONTORELA_en"."T5c35301c00_GENO_0000172" AS
+  SELECT "T5c35301c00_uid" AS "uid gene trapping technique"
+  FROM "ONTORELA"."T5c35301c00";
+
+CREATE VIEW "ONTORELA_en"."T5c352ffb00_GENO_0000160" AS
+  SELECT "T5c352ffb00_uid" AS "T5c352ffb00_uid"
+  FROM "ONTORELA"."T5c352ffb00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8700_GENO_0000920" AS
+  SELECT "T5c354d8700_uid" AS "T5c354d8700_uid"
+  FROM "ONTORELA"."T5c354d8700";
+
+CREATE VIEW "ONTORELA_en"."T5c35422d00_GENO_0000618" AS
+  SELECT "T5c35422d00_uid" AS "uid chromosomal band intensity"
+  FROM "ONTORELA"."T5c35422d00";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0c00_GENO_0000848" AS
+  SELECT "T5c354a0c00_uid" AS "T5c354a0c00_uid"
+  FROM "ONTORELA"."T5c354a0c00";
+
+CREATE VIEW "ONTORELA_en"."T5c35420c00_GENO_0000606" AS
+  SELECT "T5c35420c00_uid" AS "T5c35420c00_uid"
+  FROM "ONTORELA"."T5c35420c00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d8800_GENO_0000921" AS
+  SELECT "T5c354d8800_uid" AS "T5c354d8800_uid"
+  FROM "ONTORELA"."T5c354d8800";
+
+CREATE VIEW "ONTORELA_en"."T5c354da900_GENO_0000933" AS
+  SELECT "T5c354da900_uid" AS "uid monogenic inheritance"
+  FROM "ONTORELA"."T5c354da900";
+
+CREATE VIEW "ONTORELA_en"."T5c3545eb00_GENO_0000715" AS
+  SELECT "T5c3545eb00_uid" AS "T5c3545eb00_uid"
+  FROM "ONTORELA"."T5c3545eb00";
+
+CREATE VIEW "ONTORELA_en"."T5c354dca00_GENO_0000945" AS
+  SELECT "T5c354dca00_uid" AS "T5c354dca00_uid"
+  FROM "ONTORELA"."T5c354dca00";
+
+CREATE VIEW "ONTORELA_en"."Ta913055000_reagent role" AS
+  SELECT "Ta913055000_uid" AS "uid reagent role"
+  FROM "ONTORELA"."Ta913055000";
+
+CREATE VIEW "ONTORELA_en"."T5c35301d00_GENO_0000173" AS
+  SELECT "T5c35301d00_uid" AS "T5c35301d00_uid"
+  FROM "ONTORELA"."T5c35301d00";
+
+CREATE VIEW "ONTORELA_en"."T5c3537db00_disomic zygosity" AS
+  SELECT "T5c3537db00_uid" AS "uid disomic zygosity"
+  FROM "ONTORELA"."T5c3537db00";
+
+CREATE VIEW "ONTORELA_en"."Tdcc1939d00_begin" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Tdcc1939d00";
+
+CREATE VIEW "ONTORELA_en"."Td1e0d0cf00_end" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Td1e0d0cf00";
+
+CREATE VIEW "ONTORELA_en"."Tbb43304100_location" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Tbb43304100";
+
+CREATE VIEW "ONTORELA_en"."Tbd59c03f00_reference" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Tbd59c03f00";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47aa700_is part of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Tc5b47aa700";
+
+CREATE VIEW "ONTORELA_en"."Tc5b47aa800_has part" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Tc5b47aa800";
+
+CREATE VIEW "ONTORELA_en"."T5c35330900_GENO_0000207" AS
+  SELECT "domain_T5c3545c800_uid" AS "domain_T5c3545c800_uid",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35330900";
+
+CREATE VIEW "ONTORELA_en"."T5c35332200_GENO_0000211" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35332200";
+
+CREATE VIEW "ONTORELA_en"."T5c35334000_is_genotype_of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35334000";
+
+CREATE VIEW "ONTORELA_en"."T5c35334200_has_genotype" AS
+  SELECT "domain_T5c353ea800_uid" AS "domain_uid genotype",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35334200";
+
+CREATE VIEW "ONTORELA_en"."T5c35336000_has_proper_part" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35336000";
+
+CREATE VIEW "ONTORELA_en"."T5c35336800_has_sequence" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T5c3545c900_uid" AS "range_uid biological sequence"
+  FROM "ONTORELA"."T5c35336800";
+
+CREATE VIEW "ONTORELA_en"."T5c35338000_obsolete_specifies" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35338000";
+
+CREATE VIEW "ONTORELA_en"."T5c35338100_GENO_0000243" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35338100";
+
+CREATE VIEW "ONTORELA_en"."T5c35338200_GENO_0000244" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35338200";
+
+CREATE VIEW "ONTORELA_en"."T5c35338600_is_proper_part_of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35338600";
+
+CREATE VIEW "ONTORELA_en"."T5c35339e00_is_sequence_of" AS
+  SELECT "domain_T5c3545c900_uid" AS "domain_uid biological sequence",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35339e00";
+
+CREATE VIEW "ONTORELA_en"."T5c35339f00_is_subject_of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35339f00";
+
+CREATE VIEW "ONTORELA_en"."T5c3533a000_GENO_0000253" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3533a000";
+
+CREATE VIEW "ONTORELA_en"."T5c35376700_GENO_0000359" AS
+  SELECT "domain_T8c02635a00_uid" AS "domain_uid Phenotype",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35376700";
+
+CREATE VIEW "ONTORELA_en"."T5c35378500_GENO_0000368" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T5c352fbe00_uid" AS "range_uid inheritance pattern"
+  FROM "ONTORELA"."T5c35378500";
+
+CREATE VIEW "ONTORELA_en"."T5c3537bd00_has_variant_part" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3537bd00";
+
+CREATE VIEW "ONTORELA_en"."T5c3537be00_is_variant_part_of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3537be00";
+
+CREATE VIEW "ONTORELA_en"."T5c3537c000_has_reference_part" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3537c000";
+
+CREATE VIEW "ONTORELA_en"."T5c3537c200_GENO_0000387" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3537c200";
+
+CREATE VIEW "ONTORELA_en"."T5c353a8c00_is_allele_of" AS
+  SELECT "domain_T5c353b7d00_uid" AS "domain_uid genomic feature",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353a8c00";
+
+CREATE VIEW "ONTORELA_en"."T5c353aa300_GENO_0000410" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353aa300";
+
+CREATE VIEW "ONTORELA_en"."T5c353aa400_GENO_0000411" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353aa400";
+
+CREATE VIEW "ONTORELA_en"."T5c353aa600_has_allele" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353aa600";
+
+CREATE VIEW "ONTORELA_en"."T5c353aa700_targets_gene" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353aa700";
+
+CREATE VIEW "ONTORELA_en"."T5c353aab00_GENO_0000418" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353aab00";
+
+CREATE VIEW "ONTORELA_en"."T5c353b0300_GENO_0000443" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353b0300";
+
+CREATE VIEW "ONTORELA_en"."T5c353b0500_GENO_0000445" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353b0500";
+
+CREATE VIEW "ONTORELA_en"."T5c353b0700_is_gene_target_of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353b0700";
+
+CREATE VIEW "ONTORELA_en"."T5c353b0900_GENO_0000449" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353b0900";
+
+CREATE VIEW "ONTORELA_en"."T5c353b8200_GENO_0000486" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353b8200";
+
+CREATE VIEW "ONTORELA_en"."T5c353b8400_GENO_0000488" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353b8400";
+
+CREATE VIEW "ONTORELA_en"."T5c353f3d00_has_qualifier" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c353f3d00";
+
+CREATE VIEW "ONTORELA_en"."T5c35420e00_has_zygosity" AS
+  SELECT "domain_T5c353e6a00_uid" AS "domain_T5c353e6a00_uid",  
+    "range_T5c352fa100_uid" AS "range_uid zygosity"
+  FROM "ONTORELA"."T5c35420e00";
+
+CREATE VIEW "ONTORELA_en"."T5c35422500_GENO_0000610" AS
+  SELECT "domain_T5c352be300_uid" AS "domain_uid reference allele",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35422500";
+
+CREATE VIEW "ONTORELA_en"."T5c35424a00_GENO_0000626" AS
+  SELECT "domain_T5c3545c800_uid" AS "domain_T5c3545c800_uid",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35424a00";
+
+CREATE VIEW "ONTORELA_en"."T5c35426700_is_targeted_by" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35426700";
+
+CREATE VIEW "ONTORELA_en"."T5c35426c00_GENO_0000639" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35426c00";
+
+CREATE VIEW "ONTORELA_en"."T5c35428300_GENO_0000641" AS
+  SELECT "domain_T5c352b8200_uid" AS "domain_uid variant allele",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35428300";
+
+CREATE VIEW "ONTORELA_en"."T5c3542a100_GENO_0000650" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3542a100";
+
+CREATE VIEW "ONTORELA_en"."T5c3542a200_GENO_0000651" AS
+  SELECT "domain_T5c353b9c00_uid" AS "domain_T5c353b9c00_uid",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3542a200";
+
+CREATE VIEW "ONTORELA_en"."T5c3542a300_GENO_0000652" AS
+  SELECT "domain_T5c353ba200_uid" AS "domain_uid polymorphic allele",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3542a300";
+
+CREATE VIEW "ONTORELA_en"."T5c3542a400_GENO_0000653" AS
+  SELECT "domain_T5c353e4600_uid" AS "domain_uid wild-type allele",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3542a400";
+
+CREATE VIEW "ONTORELA_en"."T5c3542a500_has_sequence_part" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3542a500";
+
+CREATE VIEW "ONTORELA_en"."T5c3542a600_GENO_0000655" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3542a600";
+
+CREATE VIEW "ONTORELA_en"."T5c3542c100_GENO_0000661" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3542c100";
+
+CREATE VIEW "ONTORELA_en"."T5c35430100_varies_with" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35430100";
+
+CREATE VIEW "ONTORELA_en"."T5c3545cf00_faldo properties" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3545cf00";
+
+CREATE VIEW "ONTORELA_en"."T5c35460b00_GENO_0000726" AS
+  SELECT "domain_T5c3545ea00_uid" AS "domain_T5c3545ea00_uid",  
+    "range_T563d359d00_uid" AS "range_uid sequence_feature"
+  FROM "ONTORELA"."T5c35460b00";
+
+CREATE VIEW "ONTORELA_en"."T5c35464300_GENO_0000740" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T8c02635a00_uid" AS "range_uid Phenotype"
+  FROM "ONTORELA"."T5c35464300";
+
+CREATE VIEW "ONTORELA_en"."T5c35464400_GENO_0000741" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35464400";
+
+CREATE VIEW "ONTORELA_en"."T5c35464500_GENO_0000742" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35464500";
+
+CREATE VIEW "ONTORELA_en"."T5c35464600_GENO_0000743" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T8c02635a00_uid" AS "range_uid Phenotype"
+  FROM "ONTORELA"."T5c35464600";
+
+CREATE VIEW "ONTORELA_en"."T5c35468200_GENO_0000761" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35468200";
+
+CREATE VIEW "ONTORELA_en"."T5c35468800_GENO_0000767" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c35468800";
+
+CREATE VIEW "ONTORELA_en"."T5c3546c200_has_sequence_unit" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3546c200";
+
+CREATE VIEW "ONTORELA_en"."T5c3546c300_GENO_0000784" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3546c300";
+
+CREATE VIEW "ONTORELA_en"."T5c3546de00_related_condition" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3546de00";
+
+CREATE VIEW "ONTORELA_en"."T5c3546df00_GENO_0000791" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3546df00";
+
+CREATE VIEW "ONTORELA_en"."T5c3546e100_GENO_0000793" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3546e100";
+
+CREATE VIEW "ONTORELA_en"."T5c3546e200_GENO_0000794" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c3546e200";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0400_GENO_0000840" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0400";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0500_GENO_0000841" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0500";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0600_GENO_0000842" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0600";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0700_GENO_0000843" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0700";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0800_GENO_0000844" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0800";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0900_GENO_0000845" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0900";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0a00_GENO_0000846" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0a00";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0b00_GENO_0000847" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0b00";
+
+CREATE VIEW "ONTORELA_en"."T5c354a0d00_GENO_0000849" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354a0d00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d4c00_has_location" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354d4c00";
+
+CREATE VIEW "ONTORELA_en"."T5c354d4f00_on strand" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T5c354d4f00";
+
+CREATE VIEW "ONTORELA_en"."T12862bdc00_is about" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T12862bdc00";
+
+CREATE VIEW "ONTORELA_en"."T12862f6200_denotes" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T12862f6200";
+
+CREATE VIEW "ONTORELA_en"."Ta9137f3000_OBI_0000293" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Ta9137f3000";
+
+CREATE VIEW "ONTORELA_en"."Ta9137f9000_OBI_0000299" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Ta9137f9000";
+
+CREATE VIEW "ONTORELA_en"."T61f3c13b00_inheres_in" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f3c13b00";
+
+CREATE VIEW "ONTORELA_en"."T61f3c13c00_bearer of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f3c13c00";
+
+CREATE VIEW "ONTORELA_en"."T61f3c13f00_participates in" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f3c13f00";
+
+CREATE VIEW "ONTORELA_en"."T61f3c14000_has participant" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f3c14000";
+
+CREATE VIEW "ONTORELA_en"."T61f3c14200_concretizes" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f3c14200";
+
+CREATE VIEW "ONTORELA_en"."T61f3c19c00_has quality" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f3c19c00";
+
+CREATE VIEW "ONTORELA_en"."T61f3c19d00_has_role" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f3c19d00";
+
+CREATE VIEW "ONTORELA_en"."T61f3c1b600_has disposition" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f3c1b600";
+
+CREATE VIEW "ONTORELA_en"."T61f434fd00_derives from" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f434fd00";
+
+CREATE VIEW "ONTORELA_en"."T61f4aa7400_starts during" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4aa7400";
+
+CREATE VIEW "ONTORELA_en"."T61f4aa7600_ends during" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4aa7600";
+
+CREATE VIEW "ONTORELA_en"."T61f4ad7b00_overlaps" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4ad7b00";
+
+CREATE VIEW "ONTORELA_en"."T61f4add900_in taxon" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4add900";
+
+CREATE VIEW "ONTORELA_en"."T61f4b0de00_has phenotype" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T8c02635a00_uid" AS "range_uid Phenotype"
+  FROM "ONTORELA"."T61f4b0de00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b0df00_phenotype of" AS
+  SELECT "domain_T8c02635a00_uid" AS "domain_uid Phenotype",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b0df00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b11e00_RO_0002222" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b11e00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b13e00_has input" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b13e00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b13f00_has output" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b13f00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b53a00_is member of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b53a00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b53b00_has member" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b53b00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b53c00_input of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b53c00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b53d00_output of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b53d00";
+
+CREATE VIEW "ONTORELA_en"."T61f4b53e00_RO_0002354" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4b53e00";
+
+CREATE VIEW "ONTORELA_en"."T4d7b81d400_RO_000244" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T4d7b81d400";
+
+CREATE VIEW "ONTORELA_en"."T61f4bc6300_has subsequence" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4bc6300";
+
+CREATE VIEW "ONTORELA_en"."T61f4bc6400_is subsequence of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4bc6400";
+
+CREATE VIEW "ONTORELA_en"."T61f4bc6500_RO_0002526" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4bc6500";
+
+CREATE VIEW "ONTORELA_en"."T61f4bc6700_RO_0002528" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4bc6700";
+
+CREATE VIEW "ONTORELA_en"."T61f4bc6800_RO_0002529" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f4bc6800";
+
+CREATE VIEW "ONTORELA_en"."T61f528ff00_is model of" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f528ff00";
+
+CREATE VIEW "ONTORELA_en"."T61f5290000_RO_0003302" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f5290000";
+
+CREATE VIEW "ONTORELA_en"."T61f5290100_causes condition" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f5290100";
+
+CREATE VIEW "ONTORELA_en"."T61f5290200_RO_0003304" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f5290200";
+
+CREATE VIEW "ONTORELA_en"."T61f5290300_RO_0003305" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f5290300";
+
+CREATE VIEW "ONTORELA_en"."T61f5290400_RO_0003306" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f5290400";
+
+CREATE VIEW "ONTORELA_en"."T61f5290500_RO_0003307" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f5290500";
+
+CREATE VIEW "ONTORELA_en"."T61f5290600_RO_0003308" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T61f5290600";
+
+CREATE VIEW "ONTORELA_en"."Tf9b5662900_association_has_object" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Tf9b5662900";
+
+CREATE VIEW "ONTORELA_en"."Te50d068d00_association_has_predicate" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Te50d068d00";
+
+CREATE VIEW "ONTORELA_en"."T308def8200_association_has_subject" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T308def8200";
+
+CREATE VIEW "ONTORELA_en"."Tdfc1d88f00_ObsoleteProperty" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."Tdfc1d88f00";
+
+CREATE VIEW "ONTORELA_en"."T7d52215d00_topObjectProperty" AS
+  SELECT "domain_T7f4f794200_uid" AS "domain_uid Thing",  
+    "range_T7f4f794200_uid" AS "range_uid Thing"
+  FROM "ONTORELA"."T7d52215d00";
+
+CREATE VIEW "ONTORELA_en"."Te2eec71800_string" AS
+  SELECT "Te2eec71800_uid" AS "uid string",  
+    "string" AS "string"
+  FROM "ONTORELA"."Te2eec71800";
+
+CREATE VIEW "ONTORELA_en"."T8065400100_SO_0000110_GENO_0000703_string" AS
+  SELECT "T563d359d00_uid" AS "uid sequence_feature",  
+    "Te2eec71800_uid" AS "uid string"
+  FROM "ONTORELA"."T8065400100";
+
+COMMENT ON VIEW "ONTORELA_en"."T8065400100_SO_0000110_GENO_0000703_string" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T4b88f00800_GENO_0000702_GENO_0000896_string" AS
+  SELECT "T5c3545c900_uid" AS "uid biological sequence",  
+    "Te2eec71800_uid" AS "uid string"
+  FROM "ONTORELA"."T4b88f00800";
+
+COMMENT ON VIEW "ONTORELA_en"."T4b88f00800_GENO_0000702_GENO_0000896_string" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tb0f1a67200_Region_begin_Position" AS
+  SELECT "Ta02356a000_uid" AS "uid Region",  
+    "T7a608dd500_uid" AS "uid Position"
+  FROM "ONTORELA"."Tb0f1a67200";
+
+COMMENT ON VIEW "ONTORELA_en"."Tb0f1a67200_Region_begin_Position" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tdbe03b6400_Region_end_Position" AS
+  SELECT "Ta02356a000_uid" AS "uid Region",  
+    "T7a608dd500_uid" AS "uid Position"
+  FROM "ONTORELA"."Tdbe03b6400";
+
+COMMENT ON VIEW "ONTORELA_en"."Tdbe03b6400_Region_end_Position" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T5669246400_GENO_0000174_OBI_0000299_GENO_0000515" AS
+  SELECT "T5c35301e00_uid" AS "T5c35301e00_uid",  
+    "T5c353e6900_uid" AS "uid variant gene allele"
+  FROM "ONTORELA"."T5669246400";
+
+COMMENT ON VIEW "ONTORELA_en"."T5669246400_GENO_0000174_OBI_0000299_GENO_0000515" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T8687957600_GENO_0000839_GENO_0000382_GENO_0000504" AS
+  SELECT "T5c3549ee00_uid" AS "T5c3549ee00_uid",  
+    "T5c353e4900_uid" AS "uid reagent targeted gene"
+  FROM "ONTORELA"."T8687957600";
+
+COMMENT ON VIEW "ONTORELA_en"."T8687957600_GENO_0000839_GENO_0000382_GENO_0000504" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tc4e6e5c600_SO_0000105_BFO_0000050_SO_0000830" AS
+  SELECT "T563d358300_uid" AS "uid chromosome arm",  
+    "T563d502200_uid" AS "uid chromosome part"
+  FROM "ONTORELA"."Tc4e6e5c600";
+
+COMMENT ON VIEW "ONTORELA_en"."Tc4e6e5c600_SO_0000105_BFO_0000050_SO_0000830" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T6fa5193d00_SO_0001218_BFO_0000051_GENO_0000093" AS
+  SELECT "T563dadc500_uid" AS "uid transgenic_insertion",  
+    "T5c352c9a00_uid" AS "uid integrated transgene"
+  FROM "ONTORELA"."T6fa5193d00";
+
+COMMENT ON VIEW "ONTORELA_en"."T6fa5193d00_SO_0001218_BFO_0000051_GENO_0000093" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T5db9f57d00_GENO_0000719_IAO_0000219_ONTORELA_C349f0240" AS
+  SELECT "T5c3545ef00_uid" AS "uid intrinsic genotype",  
+    "Tc0bbb4d000_uid" AS "Tc0bbb4d000_uid"
+  FROM "ONTORELA"."T5db9f57d00";
+
+COMMENT ON VIEW "ONTORELA_en"."T5db9f57d00_GENO_0000719_IAO_0000219_ONTORELA_C349f0240" IS 'null null intrinsic genotype';
+
+CREATE VIEW "ONTORELA_en"."T595b676600_GENO_0000492_GENO_0000683_GENO_0000501" AS
+  SELECT "T5c353b9d00_uid" AS "uid mutation",  
+    "T5c353e4600_uid" AS "uid wild-type allele"
+  FROM "ONTORELA"."T595b676600";
+
+COMMENT ON VIEW "ONTORELA_en"."T595b676600_GENO_0000492_GENO_0000683_GENO_0000501" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T79d0498700_OBI_0600043_OBI_0000299_ONTORELA_C55a946a3" AS
+  SELECT "T14ce439000_uid" AS "T14ce439000_uid",  
+    "T72de6f0000_uid" AS "T72de6f0000_uid"
+  FROM "ONTORELA"."T79d0498700";
+
+COMMENT ON VIEW "ONTORELA_en"."T79d0498700_OBI_0600043_OBI_0000299_ONTORELA_C55a946a3" IS 'null null genetic modification technique';
+
+CREATE VIEW "ONTORELA_en"."T90df6e3c00_GENO_0000914_GENO_0000239_SO_0001505" AS
+  SELECT "T5c354d6c00_uid" AS "uid reference genome",  
+    "T563db8e600_uid" AS "uid reference genome sequence"
+  FROM "ONTORELA"."T90df6e3c00";
+
+COMMENT ON VIEW "ONTORELA_en"."T90df6e3c00_GENO_0000914_GENO_0000239_SO_0001505" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tda3d559f00_GENO_0000033_GENO_0000382_SO_0001059" AS
+  SELECT "T5c352be000_uid" AS "uid variant genome",  
+    "T563da6c000_uid" AS "uid sequence_alteration"
+  FROM "ONTORELA"."Tda3d559f00";
+
+COMMENT ON VIEW "ONTORELA_en"."Tda3d559f00_GENO_0000033_GENO_0000382_SO_0001059" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T8fb7664a00_GENO_0000481_BFO_0000050_SO_0001026" AS
+  SELECT "T5c353b7d00_uid" AS "uid genomic feature",  
+    "T563da66000_uid" AS "uid genome"
+  FROM "ONTORELA"."T8fb7664a00";
+
+COMMENT ON VIEW "ONTORELA_en"."T8fb7664a00_GENO_0000481_BFO_0000050_SO_0001026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Te47475e200_GENO_0000481_RO_0002162_OBI_0100026" AS
+  SELECT "T5c353b7d00_uid" AS "uid genomic feature",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."Te47475e200";
+
+COMMENT ON VIEW "ONTORELA_en"."Te47475e200_GENO_0000481_RO_0002162_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tefc233e600_UBERON_0001062_RO_0001000_OBI_0100026" AS
+  SELECT "T59652ed500_uid" AS "uid anatomical entity",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."Tefc233e600";
+
+COMMENT ON VIEW "ONTORELA_en"."Tefc233e600_UBERON_0001062_RO_0001000_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T32178d2100_GENO_0000166_OBI_0000299_GENO_0000515" AS
+  SELECT "T5c35300100_uid" AS "T5c35300100_uid",  
+    "T5c353e6900_uid" AS "uid variant gene allele"
+  FROM "ONTORELA"."T32178d2100";
+
+COMMENT ON VIEW "ONTORELA_en"."T32178d2100_GENO_0000166_OBI_0000299_GENO_0000515" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T8233ab6900_GENO_0000915_GENO_0000408_GENO_0000916" AS
+  SELECT "T5c354d6d00_uid" AS "uid haplotype",  
+    "T5c354d6e00_uid" AS "uid haplotype block"
+  FROM "ONTORELA"."T8233ab6900";
+
+COMMENT ON VIEW "ONTORELA_en"."T8233ab6900_GENO_0000915_GENO_0000408_GENO_0000916" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T7193d97b00_GENO_0000915_BFO_0000051_SO_0001059" AS
+  SELECT "T5c354d6d00_uid" AS "uid haplotype",  
+    "T563da6c000_uid" AS "uid sequence_alteration"
+  FROM "ONTORELA"."T7193d97b00";
+
+COMMENT ON VIEW "ONTORELA_en"."T7193d97b00_GENO_0000915_BFO_0000051_SO_0001059" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T1d7cef4800_GENO_0000133_RO_0000052_GENO_0000516" AS
+  SELECT "T5c352fa100_uid" AS "uid zygosity",  
+    "T5c353e6a00_uid" AS "uid single locus complement"
+  FROM "ONTORELA"."T1d7cef4800";
+
+COMMENT ON VIEW "ONTORELA_en"."T1d7cef4800_GENO_0000133_RO_0000052_GENO_0000516" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tc3005edf00_SO_0001026_RO_0002162_OBI_0100026" AS
+  SELECT "T563da66000_uid" AS "uid genome",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."Tc3005edf00";
+
+COMMENT ON VIEW "ONTORELA_en"."Tc3005edf00_SO_0001026_RO_0002162_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tb48eb9e500_ONTORELA_C50fc6ccd_BFO_0000050_GENO_0000536" AS
+  SELECT "T988670a000_uid" AS "uid is part of some genotype",  
+    "T5c353ea800_uid" AS "uid genotype"
+  FROM "ONTORELA"."Tb48eb9e500";
+
+COMMENT ON VIEW "ONTORELA_en"."Tb48eb9e500_ONTORELA_C50fc6ccd_BFO_0000050_GENO_0000536" IS 'genotype or (is part of some genotype) null null';
+
+CREATE VIEW "ONTORELA_en"."T66d3ee7900_GENO_0000014_GENO_0000408_SO_0000704" AS
+  SELECT "T5c352ba300_uid" AS "uid gene allele",  
+    "T563d4c0800_uid" AS "uid gene"
+  FROM "ONTORELA"."T66d3ee7900";
+
+COMMENT ON VIEW "ONTORELA_en"."T66d3ee7900_GENO_0000014_GENO_0000408_SO_0000704" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T7d00e19600_ONTORELA_C55a946a3_GENO_0000211_GENO_0000002" AS
+  SELECT "T72de6f0000_uid" AS "T72de6f0000_uid",  
+    "T5c352b8200_uid" AS "uid variant allele"
+  FROM "ONTORELA"."T7d00e19600";
+
+COMMENT ON VIEW "ONTORELA_en"."T7d00e19600_ONTORELA_C55a946a3_GENO_0000211_GENO_0000002" IS 'genetic modification technique null null';
+
+CREATE VIEW "ONTORELA_en"."T7c16cd3300_ONTORELA_C3009a2bd_RO_0002091_UBERON_0000105" AS
+  SELECT "Tdb63547d00_uid" AS "Tdb63547d00_uid",  
+    "T5964bd8000_uid" AS "uid life cycle stage"
+  FROM "ONTORELA"."T7c16cd3300";
+
+COMMENT ON VIEW "ONTORELA_en"."T7c16cd3300_ONTORELA_C3009a2bd_RO_0002091_UBERON_0000105" IS 'genotype-phenotype association null null';
+
+CREATE VIEW "ONTORELA_en"."T670b19b500_ONTORELA_C3009a2bd_RO_0002093_UBERON_0000105" AS
+  SELECT "Tdb63547d00_uid" AS "Tdb63547d00_uid",  
+    "T5964bd8000_uid" AS "uid life cycle stage"
+  FROM "ONTORELA"."T670b19b500";
+
+COMMENT ON VIEW "ONTORELA_en"."T670b19b500_ONTORELA_C3009a2bd_RO_0002093_UBERON_0000105" IS 'genotype-phenotype association null null';
+
+CREATE VIEW "ONTORELA_en"."T8d95ce3100_GENO_0000681_GENO_0000207_GENO_0000139" AS
+  SELECT "T5c3542ff00_uid" AS "T5c3542ff00_uid",  
+    "T5c352fa700_uid" AS "uid heritable"
+  FROM "ONTORELA"."T8d95ce3100";
+
+COMMENT ON VIEW "ONTORELA_en"."T8d95ce3100_GENO_0000681_GENO_0000207_GENO_0000139" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T8d95e18d00_GENO_0000681_GENO_0000207_GENO_0000685" AS
+  SELECT "T5c3542ff00_uid" AS "T5c3542ff00_uid",  
+    "T5c35430300_uid" AS "uid novel"
+  FROM "ONTORELA"."T8d95e18d00";
+
+COMMENT ON VIEW "ONTORELA_en"."T8d95e18d00_GENO_0000681_GENO_0000207_GENO_0000685" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tfd52fb1d00_GENO_0000112_RO_0002162_OBI_0100026" AS
+  SELECT "T5c352f6200_uid" AS "uid strain or breed",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."Tfd52fb1d00";
+
+COMMENT ON VIEW "ONTORELA_en"."Tfd52fb1d00_GENO_0000112_RO_0002162_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T774b9ad000_SO_0000110_GENO_0000239_GENO_0000702" AS
+  SELECT "T563d359d00_uid" AS "uid sequence_feature",  
+    "T5c3545c900_uid" AS "uid biological sequence"
+  FROM "ONTORELA"."T774b9ad000";
+
+COMMENT ON VIEW "ONTORELA_en"."T774b9ad000_SO_0000110_GENO_0000239_GENO_0000702" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Te177729700_SO_0000110_GENO_0000903_GENO_0000815" AS
+  SELECT "T563d359d00_uid" AS "uid sequence_feature",  
+    "T5c3549ac00_uid" AS "uid sequence feature location"
+  FROM "ONTORELA"."Te177729700";
+
+COMMENT ON VIEW "ONTORELA_en"."Te177729700_SO_0000110_GENO_0000903_GENO_0000815" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tb0e582c600_GENO_0000343_GENO_0000248_SO_0000340" AS
+  SELECT "T5c35374200_uid" AS "uid aneusomic chromosomal part",  
+    "T563d3d7c00_uid" AS "uid chromosome"
+  FROM "ONTORELA"."Tb0e582c600";
+
+COMMENT ON VIEW "ONTORELA_en"."Tb0e582c600_GENO_0000343_GENO_0000248_SO_0000340" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T2d62603400_GENO_0000343_GENO_0000207_GENO_0000513" AS
+  SELECT "T5c35374200_uid" AS "uid aneusomic chromosomal part",  
+    "T5c353e6700_uid" AS "uid aneusomic"
+  FROM "ONTORELA"."T2d62603400";
+
+COMMENT ON VIEW "ONTORELA_en"."T2d62603400_GENO_0000343_GENO_0000207_GENO_0000513" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T32d2d13500_SO_0000341_GENO_0000207_GENO_0000618" AS
+  SELECT "T563d3d7d00_uid" AS "uid chromosome band",  
+    "T5c35422d00_uid" AS "uid chromosomal band intensity"
+  FROM "ONTORELA"."T32d2d13500";
+
+COMMENT ON VIEW "ONTORELA_en"."T32d2d13500_SO_0000341_GENO_0000207_GENO_0000618" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T51646d9300_SO_0000341_BFO_0000050_GENO_0000614" AS
+  SELECT "T563d3d7d00_uid" AS "uid chromosome band",  
+    "T5c35422900_uid" AS "uid chromosomal region"
+  FROM "ONTORELA"."T51646d9300";
+
+COMMENT ON VIEW "ONTORELA_en"."T51646d9300_SO_0000341_BFO_0000050_GENO_0000614" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tff344b8000_PCO_0000000_RO_0002351_OBI_0100026" AS
+  SELECT "Td59ed3d000_uid" AS "uid collection of organisms",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."Tff344b8000";
+
+COMMENT ON VIEW "ONTORELA_en"."Tff344b8000_PCO_0000000_RO_0002351_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T844ad6d500_ONTORELA_C78d57b7f_RO_0002524_SO_0001059" AS
+  SELECT "T7a8b1bb000_uid" AS "T7a8b1bb000_uid",  
+    "T563da6c000_uid" AS "uid sequence_alteration"
+  FROM "ONTORELA"."T844ad6d500";
+
+COMMENT ON VIEW "ONTORELA_en"."T844ad6d500_ONTORELA_C78d57b7f_RO_0002524_SO_0001059" IS 'variant allele null null';
+
+CREATE VIEW "ONTORELA_en"."T867b3e7f00_GENO_0000660_RO_0002162_OBI_0100026" AS
+  SELECT "T5c3542c000_uid" AS "uid genomic feature complement",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."T867b3e7f00";
+
+COMMENT ON VIEW "ONTORELA_en"."T867b3e7f00_GENO_0000660_RO_0002162_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tbf82ca3a00_GENO_0000660_RO_0002351_GENO_0000481" AS
+  SELECT "T5c3542c000_uid" AS "uid genomic feature complement",  
+    "T5c353b7d00_uid" AS "uid genomic feature"
+  FROM "ONTORELA"."Tbf82ca3a00";
+
+COMMENT ON VIEW "ONTORELA_en"."Tbf82ca3a00_GENO_0000660_RO_0002351_GENO_0000481" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T48ad309000_GENO_0000684_GENO_0000207_GENO_0000685" AS
+  SELECT "T5c35430200_uid" AS "uid novel replicon",  
+    "T5c35430300_uid" AS "uid novel"
+  FROM "ONTORELA"."T48ad309000";
+
+COMMENT ON VIEW "ONTORELA_en"."T48ad309000_GENO_0000684_GENO_0000207_GENO_0000685" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Te879af3700_GENO_0000346_GENO_0000207_GENO_0000513" AS
+  SELECT "T5c35374500_uid" AS "uid aneusomic chromosome",  
+    "T5c353e6700_uid" AS "uid aneusomic"
+  FROM "ONTORELA"."Te879af3700";
+
+COMMENT ON VIEW "ONTORELA_en"."Te879af3700_GENO_0000346_GENO_0000207_GENO_0000513" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tfa8bb1c100_GENO_0000891_IAO_0000219_GENO_0000890" AS
+  SELECT "T5c354aa000_uid" AS "uid contextual allele",  
+    "T5c354a9f00_uid" AS "uid canonical allele"
+  FROM "ONTORELA"."Tfa8bb1c100";
+
+COMMENT ON VIEW "ONTORELA_en"."Tfa8bb1c100_GENO_0000891_IAO_0000219_GENO_0000890" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T8d3e43a600_GENO_0000106_RO_0000091_GENO_0000139" AS
+  SELECT "T5c352f4700_uid" AS "uid genomic material",  
+    "T5c352fa700_uid" AS "uid heritable"
+  FROM "ONTORELA"."T8d3e43a600";
+
+COMMENT ON VIEW "ONTORELA_en"."T8d3e43a600_GENO_0000106_RO_0000091_GENO_0000139" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T3f3fa09800_GENO_0000106_GENO_0000248_ONTORELA_C64c7aff2" AS
+  SELECT "T5c352f4700_uid" AS "uid genomic material",  
+    "T3d8b844700_uid" AS "uid cell or Viruses"
+  FROM "ONTORELA"."T3f3fa09800";
+
+COMMENT ON VIEW "ONTORELA_en"."T3f3fa09800_GENO_0000106_GENO_0000248_ONTORELA_C64c7aff2" IS 'null null genomic material';
+
+CREATE VIEW "ONTORELA_en"."T19f555a900_GENO_0000106_BFO_0000050_GENO_0000108" AS
+  SELECT "T5c352f4700_uid" AS "uid genomic material",  
+    "T5c352f4900_uid" AS "uid material genome"
+  FROM "ONTORELA"."T19f555a900";
+
+COMMENT ON VIEW "ONTORELA_en"."T19f555a900_GENO_0000106_BFO_0000050_GENO_0000108" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T252952c900_GENO_0000119_RO_0002351_NCBITaxon_7955" AS
+  SELECT "T5c352f6900_uid" AS "uid danio rerio strain",  
+    "T244785a300_uid" AS "uid Danio rerio"
+  FROM "ONTORELA"."T252952c900";
+
+COMMENT ON VIEW "ONTORELA_en"."T252952c900_GENO_0000119_RO_0002351_NCBITaxon_7955" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T7e79482000_SO_0000281_GENO_0000207_SO_0000783" AS
+  SELECT "T563d3a3800_uid" AS "uid engineered_foreign_gene",  
+    "T563d4cff00_uid" AS "uid engineered"
+  FROM "ONTORELA"."T7e79482000";
+
+COMMENT ON VIEW "ONTORELA_en"."T7e79482000_SO_0000281_GENO_0000207_SO_0000783" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T829862b600_GENO_0000338_GENO_0000207_GENO_0000685" AS
+  SELECT "T5c35372800_uid" AS "T5c35372800_uid",  
+    "T5c35430300_uid" AS "uid novel"
+  FROM "ONTORELA"."T829862b600";
+
+COMMENT ON VIEW "ONTORELA_en"."T829862b600_GENO_0000338_GENO_0000207_GENO_0000685" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tc82bbce000_GENO_0000642_GENO_0000207_SO_0000783" AS
+  SELECT "T5c35428400_uid" AS "T5c35428400_uid",  
+    "T563d4cff00_uid" AS "uid engineered"
+  FROM "ONTORELA"."Tc82bbce000";
+
+COMMENT ON VIEW "ONTORELA_en"."Tc82bbce000_GENO_0000642_GENO_0000207_SO_0000783" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Ta4d427e300_GENO_0000667_BFO_0000051_GENO_0000640" AS
+  SELECT "T5c3542c700_uid" AS "uid reporter transgene",  
+    "T5c35428200_uid" AS "uid reporter region"
+  FROM "ONTORELA"."Ta4d427e300";
+
+COMMENT ON VIEW "ONTORELA_en"."Ta4d427e300_GENO_0000667_BFO_0000051_GENO_0000640" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tf9dc3fd100_GENO_0000667_GENO_0000207_SO_0000783" AS
+  SELECT "T5c3542c700_uid" AS "uid reporter transgene",  
+    "T563d4cff00_uid" AS "uid engineered"
+  FROM "ONTORELA"."Tf9dc3fd100";
+
+COMMENT ON VIEW "ONTORELA_en"."Tf9dc3fd100_GENO_0000667_GENO_0000207_SO_0000783" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T7e2f725900_GENO_0000897_RO_0002162_OBI_0100026" AS
+  SELECT "T5c354aa600_uid" AS "uid genomic entity",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."T7e2f725900";
+
+COMMENT ON VIEW "ONTORELA_en"."T7e2f725900_GENO_0000897_RO_0002162_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T2a5ad8d600_CLO_0000031_RO_0001000_OBI_0100026" AS
+  SELECT "T1451d3e500_uid" AS "uid cell line",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."T2a5ad8d600";
+
+COMMENT ON VIEW "ONTORELA_en"."T2a5ad8d600_CLO_0000031_RO_0001000_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T9b71b1dc00_GENO_0000644_IAO_0000219_SO_0001026" AS
+  SELECT "T5c35428600_uid" AS "uid karyotype",  
+    "T563da66000_uid" AS "uid genome"
+  FROM "ONTORELA"."T9b71b1dc00";
+
+COMMENT ON VIEW "ONTORELA_en"."T9b71b1dc00_GENO_0000644_IAO_0000219_SO_0001026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Ta60f039000_GENO_0000899_GENO_0000385_GENO_0000611" AS
+  SELECT "T5c354aa800_uid" AS "uid genomic genotype",  
+    "T5c35422600_uid" AS "uid background genotype"
+  FROM "ONTORELA"."Ta60f039000";
+
+COMMENT ON VIEW "ONTORELA_en"."Ta60f039000_GENO_0000899_GENO_0000385_GENO_0000611" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T165b246300_GENO_0000536_IAO_0000219_ONTORELA_C6cdb8ddf" AS
+  SELECT "T5c353ea800_uid" AS "uid genotype",  
+    "Tf7d085bd00_uid" AS "Tf7d085bd00_uid"
+  FROM "ONTORELA"."T165b246300";
+
+COMMENT ON VIEW "ONTORELA_en"."T165b246300_GENO_0000536_IAO_0000219_ONTORELA_C6cdb8ddf" IS 'null null genotype';
+
+CREATE VIEW "ONTORELA_en"."T8cca7d2a00_GENO_0000645_GENO_0000650_GENO_0000000" AS
+  SELECT "T5c35428700_uid" AS "T5c35428700_uid",  
+    "T5c352b8000_uid" AS "T5c352b8000_uid"
+  FROM "ONTORELA"."T8cca7d2a00";
+
+COMMENT ON VIEW "ONTORELA_en"."T8cca7d2a00_GENO_0000645_GENO_0000650_GENO_0000000" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T45d9d6f400_GENO_0000887_RO_0002351_NCBITaxon_8090" AS
+  SELECT "T5c354a8700_uid" AS "uid oryzias latipes strain",  
+    "T2447d8b000_uid" AS "uid Oryzias latipes"
+  FROM "ONTORELA"."T45d9d6f400";
+
+COMMENT ON VIEW "ONTORELA_en"."T45d9d6f400_GENO_0000887_RO_0002351_NCBITaxon_8090" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T40e0707000_GENO_0000525_BFO_0000051_GENO_0000524" AS
+  SELECT "T5c353e8800_uid" AS "uid effective genotype",  
+    "T5c353e8700_uid" AS "uid extrinsic genotype"
+  FROM "ONTORELA"."T40e0707000";
+
+COMMENT ON VIEW "ONTORELA_en"."T40e0707000_GENO_0000525_BFO_0000051_GENO_0000524" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T40e0e6f000_GENO_0000525_BFO_0000051_GENO_0000719" AS
+  SELECT "T5c353e8800_uid" AS "uid effective genotype",  
+    "T5c3545ef00_uid" AS "uid intrinsic genotype"
+  FROM "ONTORELA"."T40e0e6f000";
+
+COMMENT ON VIEW "ONTORELA_en"."T40e0e6f000_GENO_0000525_BFO_0000051_GENO_0000719" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T82b50cf400_GENO_0000092_RO_0002353_GENO_0000172" AS
+  SELECT "T5c352c9900_uid" AS "uid gene trap insertion",  
+    "T5c35301c00_uid" AS "uid gene trapping technique"
+  FROM "ONTORELA"."T82b50cf400";
+
+COMMENT ON VIEW "ONTORELA_en"."T82b50cf400_GENO_0000092_RO_0002353_GENO_0000172" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T3f06744600_GENO_0000501_GENO_0000683_GENO_0000481" AS
+  SELECT "T5c353e4600_uid" AS "uid wild-type allele",  
+    "T5c353b7d00_uid" AS "uid genomic feature"
+  FROM "ONTORELA"."T3f06744600";
+
+COMMENT ON VIEW "ONTORELA_en"."T3f06744600_GENO_0000501_GENO_0000683_GENO_0000481" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tb5d7e68400_GENO_0000659_RO_0002351_SO_0000110" AS
+  SELECT "T5c3542aa00_uid" AS "T5c3542aa00_uid",  
+    "T563d359d00_uid" AS "uid sequence_feature"
+  FROM "ONTORELA"."Tb5d7e68400";
+
+COMMENT ON VIEW "ONTORELA_en"."Tb5d7e68400_GENO_0000659_RO_0002351_SO_0000110" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tc7afa88800_GENO_0000720_GENO_0000783_GENO_0000780" AS
+  SELECT "T5c35460500_uid" AS "uid DNA sequence",  
+    "T5c3546bf00_uid" AS "uid DNA residue"
+  FROM "ONTORELA"."Tc7afa88800";
+
+COMMENT ON VIEW "ONTORELA_en"."Tc7afa88800_GENO_0000720_GENO_0000783_GENO_0000780" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T14a8b20000_GENO_0000093_BFO_0000050_SO_0001218" AS
+  SELECT "T5c352c9a00_uid" AS "uid integrated transgene",  
+    "T563dadc500_uid" AS "uid transgenic_insertion"
+  FROM "ONTORELA"."T14a8b20000";
+
+COMMENT ON VIEW "ONTORELA_en"."T14a8b20000_GENO_0000093_BFO_0000050_SO_0001218" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T426bb47b00_GENO_0000611_IAO_0000219_GENO_0000010" AS
+  SELECT "T5c35422600_uid" AS "uid background genotype",  
+    "T5c352b9f00_uid" AS "uid background genome"
+  FROM "ONTORELA"."T426bb47b00";
+
+COMMENT ON VIEW "ONTORELA_en"."T426bb47b00_GENO_0000611_IAO_0000219_GENO_0000010" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T5eaafbf600_GENO_0000515_GENO_0000641_SO_0000704" AS
+  SELECT "T5c353e6900_uid" AS "uid variant gene allele",  
+    "T563d4c0800_uid" AS "uid gene"
+  FROM "ONTORELA"."T5eaafbf600";
+
+COMMENT ON VIEW "ONTORELA_en"."T5eaafbf600_GENO_0000515_GENO_0000641_SO_0000704" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T7fbc236800_GENO_0000515_GENO_0000382_SO_0001059" AS
+  SELECT "T5c353e6900_uid" AS "uid variant gene allele",  
+    "T563da6c000_uid" AS "uid sequence_alteration"
+  FROM "ONTORELA"."T7fbc236800";
+
+COMMENT ON VIEW "ONTORELA_en"."T7fbc236800_GENO_0000515_GENO_0000382_SO_0001059" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T52c0255000_GENO_0000527_RO_0002351_GENO_0000504" AS
+  SELECT "T5c353e8a00_uid" AS "T5c353e8a00_uid",  
+    "T5c353e4900_uid" AS "uid reagent targeted gene"
+  FROM "ONTORELA"."T52c0255000";
+
+COMMENT ON VIEW "ONTORELA_en"."T52c0255000_GENO_0000527_RO_0002351_GENO_0000504" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tb0b76d8a00_GENO_0000721_GENO_0000783_GENO_0000781" AS
+  SELECT "T5c35460600_uid" AS "uid RNA sequence",  
+    "T5c3546c000_uid" AS "uid RNA residue"
+  FROM "ONTORELA"."Tb0b76d8a00";
+
+COMMENT ON VIEW "ONTORELA_en"."Tb0b76d8a00_GENO_0000721_GENO_0000783_GENO_0000781" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T65b2c5a300_SO_0001505_RO_0000087_GENO_0000152" AS
+  SELECT "T563db8e600_uid" AS "uid reference genome sequence",  
+    "T5c352fde00_uid" AS "uid reference"
+  FROM "ONTORELA"."T65b2c5a300";
+
+COMMENT ON VIEW "ONTORELA_en"."T65b2c5a300_SO_0001505_RO_0000087_GENO_0000152" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T93ce4d7700_GENO_0000504_GENO_0000447_GENO_0000533" AS
+  SELECT "T5c353e4900_uid" AS "uid reagent targeted gene",  
+    "T5c353ea500_uid" AS "uid gene knockdown reagent"
+  FROM "ONTORELA"."T93ce4d7700";
+
+COMMENT ON VIEW "ONTORELA_en"."T93ce4d7700_GENO_0000504_GENO_0000447_GENO_0000533" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T4f9de45100_GENO_0000504_GENO_0000231_GENO_0000534" AS
+  SELECT "T5c353e4900_uid" AS "uid reagent targeted gene",  
+    "T5c353ea600_uid" AS "T5c353ea600_uid"
+  FROM "ONTORELA"."T4f9de45100";
+
+COMMENT ON VIEW "ONTORELA_en"."T4f9de45100_GENO_0000504_GENO_0000231_GENO_0000534" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T130f5b1500_GENO_0000528_GENO_0000382_GENO_0000506" AS
+  SELECT "T5c353e8b00_uid" AS "T5c353e8b00_uid",  
+    "T5c353e4b00_uid" AS "T5c353e4b00_uid"
+  FROM "ONTORELA"."T130f5b1500";
+
+COMMENT ON VIEW "ONTORELA_en"."T130f5b1500_GENO_0000528_GENO_0000382_GENO_0000506" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T3d857c1b00_GENO_0000516_GENO_0000608_GENO_0000133" AS
+  SELECT "T5c353e6a00_uid" AS "uid single locus complement",  
+    "T5c352fa100_uid" AS "uid zygosity"
+  FROM "ONTORELA"."T3d857c1b00";
+
+COMMENT ON VIEW "ONTORELA_en"."T3d857c1b00_GENO_0000516_GENO_0000608_GENO_0000133" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T3c3ea81800_GENO_0000637_RO_0002525_SO_0000902" AS
+  SELECT "T5c35426a00_uid" AS "T5c35426a00_uid",  
+    "T563d538800_uid" AS "uid transgene"
+  FROM "ONTORELA"."T3c3ea81800";
+
+COMMENT ON VIEW "ONTORELA_en"."T3c3ea81800_GENO_0000637_RO_0002525_SO_0000902" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T99bf328c00_GENO_0000722_GENO_0000783_GENO_0000782" AS
+  SELECT "T5c35460700_uid" AS "uid amino acid sequence",  
+    "T5c3546c100_uid" AS "uid amino acid residue"
+  FROM "ONTORELA"."T99bf328c00";
+
+COMMENT ON VIEW "ONTORELA_en"."T99bf328c00_GENO_0000722_GENO_0000783_GENO_0000782" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T1063b05900_GENO_0000529_GENO_0000443_SO_0000704" AS
+  SELECT "T5c353e8c00_uid" AS "uid expression-variant gene",  
+    "T563d4c0800_uid" AS "uid gene"
+  FROM "ONTORELA"."T1063b05900";
+
+COMMENT ON VIEW "ONTORELA_en"."T1063b05900_GENO_0000529_GENO_0000443_SO_0000704" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T1f9f724100_GENO_0000614_BFO_0000050_SO_0000105" AS
+  SELECT "T5c35422900_uid" AS "uid chromosomal region",  
+    "T563d358300_uid" AS "uid chromosome arm"
+  FROM "ONTORELA"."T1f9f724100";
+
+COMMENT ON VIEW "ONTORELA_en"."T1f9f724100_GENO_0000614_BFO_0000050_SO_0000105" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tf42b159900_GENO_0000638_RO_0002525_SO_0000902" AS
+  SELECT "T5c35426b00_uid" AS "uid expressed transgene region",  
+    "T563d538800_uid" AS "uid transgene"
+  FROM "ONTORELA"."Tf42b159900";
+
+COMMENT ON VIEW "ONTORELA_en"."Tf42b159900_GENO_0000638_RO_0002525_SO_0000902" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T4604402d00_GENO_0000833_association_has_object_UPHENO_0001001" AS
+  SELECT "T5c3549e800_uid" AS "T5c3549e800_uid",  
+    "T8c02635a00_uid" AS "uid Phenotype"
+  FROM "ONTORELA"."T4604402d00";
+
+COMMENT ON VIEW "ONTORELA_en"."T4604402d00_GENO_0000833_association_has_object_UPHENO_0001001" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tdfe490f600_GENO_0000833_GENO_0000580_ONTORELA_C3009a2bd" AS
+  SELECT "T5c3549e800_uid" AS "T5c3549e800_uid",  
+    "Tdb63547d00_uid" AS "Tdb63547d00_uid"
+  FROM "ONTORELA"."Tdfe490f600";
+
+COMMENT ON VIEW "ONTORELA_en"."Tdfe490f600_GENO_0000833_GENO_0000580_ONTORELA_C3009a2bd" IS 'null null genotype-phenotype association';
+
+CREATE VIEW "ONTORELA_en"."T3fae75a800_GENO_0000833_GENO_0000580_ENVO_01000254" AS
+  SELECT "T5c3549e800_uid" AS "T5c3549e800_uid",  
+    "T6eb4e16f00_uid" AS "uid environmental system"
+  FROM "ONTORELA"."T3fae75a800";
+
+COMMENT ON VIEW "ONTORELA_en"."T3fae75a800_GENO_0000833_GENO_0000580_ENVO_01000254" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T5c27d04900_GENO_0000833_association_has_subject_ONTORELA_C6eeefcf9" AS
+  SELECT "T5c3549e800_uid" AS "T5c3549e800_uid",  
+    "T639100c300_uid" AS "T639100c300_uid"
+  FROM "ONTORELA"."T5c27d04900";
+
+COMMENT ON VIEW "ONTORELA_en"."T5c27d04900_GENO_0000833_association_has_subject_ONTORELA_C6eeefcf9" IS 'null null genotype-phenotype association';
+
+CREATE VIEW "ONTORELA_en"."Tccfcc8e800_GENO_0000170_OBI_0000299_GENO_0000515" AS
+  SELECT "T5c35301a00_uid" AS "T5c35301a00_uid",  
+    "T5c353e6900_uid" AS "uid variant gene allele"
+  FROM "ONTORELA"."Tccfcc8e800";
+
+COMMENT ON VIEW "ONTORELA_en"."Tccfcc8e800_GENO_0000170_OBI_0000299_GENO_0000515" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Taae1ff7900_GENO_0000616_BFO_0000050_SO_0000341" AS
+  SELECT "T5c35422b00_uid" AS "uid chromosome sub-band",  
+    "T563d3d7d00_uid" AS "uid chromosome band"
+  FROM "ONTORELA"."Taae1ff7900";
+
+COMMENT ON VIEW "ONTORELA_en"."Taae1ff7900_GENO_0000616_BFO_0000050_SO_0000341" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T9326bbe300_GENO_0000616_GENO_0000207_GENO_0000618" AS
+  SELECT "T5c35422b00_uid" AS "uid chromosome sub-band",  
+    "T5c35422d00_uid" AS "uid chromosomal band intensity"
+  FROM "ONTORELA"."T9326bbe300";
+
+COMMENT ON VIEW "ONTORELA_en"."T9326bbe300_GENO_0000616_GENO_0000207_GENO_0000618" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T2f57dfc700_GENO_0000171_OBI_0000299_GENO_0000515" AS
+  SELECT "T5c35301b00_uid" AS "T5c35301b00_uid",  
+    "T5c353e6900_uid" AS "uid variant gene allele"
+  FROM "ONTORELA"."T2f57dfc700";
+
+COMMENT ON VIEW "ONTORELA_en"."T2f57dfc700_GENO_0000171_OBI_0000299_GENO_0000515" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T514277d400_GENO_0000714_GENO_0000726_SO_0000110" AS
+  SELECT "T5c3545ea00_uid" AS "uid qualified genomic feature",  
+    "T563d359d00_uid" AS "uid sequence_feature"
+  FROM "ONTORELA"."T514277d400";
+
+COMMENT ON VIEW "ONTORELA_en"."T514277d400_GENO_0000714_GENO_0000726_SO_0000110" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Td6b8099500_GENO_0000714_RO_0002162_OBI_0100026" AS
+  SELECT "T5c3545ea00_uid" AS "uid qualified genomic feature",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."Td6b8099500";
+
+COMMENT ON VIEW "ONTORELA_en"."Td6b8099500_GENO_0000714_RO_0002162_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Taaf2cbf400_GENO_0000714_GENO_0000726_GENO_0000481" AS
+  SELECT "T5c3545ea00_uid" AS "uid qualified genomic feature",  
+    "T5c353b7d00_uid" AS "uid genomic feature"
+  FROM "ONTORELA"."Taaf2cbf400";
+
+COMMENT ON VIEW "ONTORELA_en"."Taaf2cbf400_GENO_0000714_GENO_0000726_GENO_0000481" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T2f2338eb00_GENO_0000714_GENO_0000580_Thing" AS
+  SELECT "T5c3545ea00_uid" AS "uid qualified genomic feature",  
+    "T7f4f794200_uid" AS "uid Thing"
+  FROM "ONTORELA"."T2f2338eb00";
+
+COMMENT ON VIEW "ONTORELA_en"."T2f2338eb00_GENO_0000714_GENO_0000580_Thing" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T91b2f6a600_GENO_0000172_OBI_0000299_GENO_0000515" AS
+  SELECT "T5c35301c00_uid" AS "uid gene trapping technique",  
+    "T5c353e6900_uid" AS "uid variant gene allele"
+  FROM "ONTORELA"."T91b2f6a600";
+
+COMMENT ON VIEW "ONTORELA_en"."T91b2f6a600_GENO_0000172_OBI_0000299_GENO_0000515" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tbfc9891500_GENO_0000715_GENO_0000726_SO_0000110" AS
+  SELECT "T5c3545eb00_uid" AS "T5c3545eb00_uid",  
+    "T563d359d00_uid" AS "uid sequence_feature"
+  FROM "ONTORELA"."Tbfc9891500";
+
+COMMENT ON VIEW "ONTORELA_en"."Tbfc9891500_GENO_0000715_GENO_0000726_SO_0000110" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T1c594c3400_GENO_0000715_RO_0002162_OBI_0100026" AS
+  SELECT "T5c3545eb00_uid" AS "T5c3545eb00_uid",  
+    "Tc46083a000_uid" AS "uid organism"
+  FROM "ONTORELA"."T1c594c3400";
+
+COMMENT ON VIEW "ONTORELA_en"."T1c594c3400_GENO_0000715_RO_0002162_OBI_0100026" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Te5667d9200_GENO_0000715_RO_0002351_GENO_0000714" AS
+  SELECT "T5c3545eb00_uid" AS "T5c3545eb00_uid",  
+    "T5c3545ea00_uid" AS "uid qualified genomic feature"
+  FROM "ONTORELA"."Te5667d9200";
+
+COMMENT ON VIEW "ONTORELA_en"."Te5667d9200_GENO_0000715_RO_0002351_GENO_0000714" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."T93fa983800_GENO_0000715_GENO_0000726_GENO_0000660" AS
+  SELECT "T5c3545eb00_uid" AS "T5c3545eb00_uid",  
+    "T5c3542c000_uid" AS "uid genomic feature complement"
+  FROM "ONTORELA"."T93fa983800";
+
+COMMENT ON VIEW "ONTORELA_en"."T93fa983800_GENO_0000715_GENO_0000726_GENO_0000660" IS 'null null null';
+
+CREATE VIEW "ONTORELA_en"."Tf40e0d8500_GENO_0000173_OBI_0000299_GENO_0000515" AS
+  SELECT "T5c35301d00_uid" AS "T5c35301d00_uid",  
+    "T5c353e6900_uid" AS "uid variant gene allele"
+  FROM "ONTORELA"."Tf40e0d8500";
+
+COMMENT ON VIEW "ONTORELA_en"."Tf40e0d8500_GENO_0000173_OBI_0000299_GENO_0000515" IS 'null null null';
+

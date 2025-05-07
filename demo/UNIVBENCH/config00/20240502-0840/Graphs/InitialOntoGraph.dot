@@ -1,0 +1,164 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "ResearchAssistant" [ label="\"ResearchAssistant\"@
+university research assistant" shape="ellipse" ];
+  "AdministrativeStaff" [ label="\"AdministrativeStaff\"@
+administrative staff worker" shape="ellipse" ];
+  "Book" [ label="\"Book\"@
+book" shape="ellipse" ];
+  "Director" [ label="\"Director\"@
+director" shape="ellipse" ];
+  "SystemsStaff" [ label="\"SystemsStaff\"@
+systems staff worker" shape="ellipse" ];
+  "College" [ label="\"College\"@
+school" shape="ellipse" ];
+  "TeachingAssistant" [ label="\"TeachingAssistant\"@
+university teaching assistant" shape="ellipse" ];
+  "Student" [ label="\"Student\"@
+student" shape="ellipse" ];
+  "Publication" [ label="\"Publication\"@
+publication" shape="ellipse" ];
+  "GraduateCourse" [ label="\"GraduateCourse\"@
+Graduate Level Courses" shape="ellipse" ];
+  "Faculty" [ label="\"Faculty\"@
+faculty member" shape="ellipse" ];
+  "Dean" [ label="\"Dean\"@
+dean" shape="ellipse" ];
+  "FullProfessor" [ label="\"FullProfessor\"@
+full professor" shape="ellipse" ];
+  "Lecturer" [ label="\"Lecturer\"@
+lecturer" shape="ellipse" ];
+  "Program" [ label="\"Program\"@
+program" shape="ellipse" ];
+  "Manual" [ label="\"Manual\"@
+manual" shape="ellipse" ];
+  "TechnicalReport" [ label="\"TechnicalReport\"@
+technical report" shape="ellipse" ];
+  "JournalArticle" [ label="\"JournalArticle\"@
+journal article" shape="ellipse" ];
+  "Department" [ label="\"Department\"@
+university department" shape="ellipse" ];
+  "GraduateStudent" [ label="\"GraduateStudent\"@
+graduate student" shape="ellipse" ];
+  "Course" [ label="\"Course\"@
+teaching course" shape="ellipse" ];
+  "Institute" [ label="\"Institute\"@
+institute" shape="ellipse" ];
+  "Professor" [ label="\"Professor\"@
+professor" shape="ellipse" ];
+  "UndergraduateStudent" [ label="\"UndergraduateStudent\"@
+undergraduate student" shape="ellipse" ];
+  "ResearchGroup" [ label="\"ResearchGroup\"@
+research group" shape="ellipse" ];
+  "AssistantProfessor" [ label="\"AssistantProfessor\"@
+assistant professor" shape="ellipse" ];
+  "Work" [ label="\"Work\"@
+Work" shape="ellipse" ];
+  "Software" [ label="\"Software\"@
+software program" shape="ellipse" ];
+  "Chair" [ label="\"Chair\"@
+chair" shape="ellipse" ];
+  "ClericalStaff" [ label="\"ClericalStaff\"@
+clerical staff worker" shape="ellipse" ];
+  "Organization" [ label="\"Organization\"@
+organization" shape="ellipse" ];
+  "VisitingProfessor" [ label="\"VisitingProfessor\"@
+visiting professor" shape="ellipse" ];
+  "Employee" [ label="\"Employee\"@
+Employee" shape="ellipse" ];
+  "AssociateProfessor" [ label="\"AssociateProfessor\"@
+associate professor" shape="ellipse" ];
+  "Article" [ label="\"Article\"@
+article" shape="ellipse" ];
+  "University" [ label="\"University\"@
+university" shape="ellipse" ];
+  "UnofficialPublication" [ label="\"UnofficialPublication\"@
+unnoficial publication" shape="ellipse" ];
+  "Research" [ label="\"Research\"@
+research work" shape="ellipse" ];
+  "Specification" [ label="\"Specification\"@
+published specification" shape="ellipse" ];
+  "Schedule" [ label="\"Schedule\"@
+schedule" shape="ellipse" ];
+  "ConferencePaper" [ label="\"ConferencePaper\"@
+conference paper" shape="ellipse" ];
+  "PostDoc" [ label="\"PostDoc\"@
+post doctorate" shape="ellipse" ];
+  "Person" [ label="\"Person\"@
+person" shape="ellipse" ];
+  "JournalArticle" -> "Article" [ label="\"isa\"" style="solid" ];
+  "ResearchAssistant" -> "Person" [ label="\"isa\"" style="solid" ];
+  "Manual" -> "Publication" [ label="\"isa\"" style="solid" ];
+  "VisitingProfessor" -> "Professor" [ label="\"isa\"" style="solid" ];
+  "SystemsStaff" -> "AdministrativeStaff" [ label="\"isa\"" style="solid" ];
+  "TechnicalReport" -> "Article" [ label="\"isa\"" style="solid" ];
+  "University" -> "Organization" [ label="\"isa\"" style="solid" ];
+  "Faculty" -> "Employee" [ label="\"isa\"" style="solid" ];
+  "Course" -> "Work" [ label="\"isa\"" style="solid" ];
+  "Book" -> "Publication" [ label="\"isa\"" style="solid" ];
+  "FullProfessor" -> "Professor" [ label="\"isa\"" style="solid" ];
+  "Dean" -> "Professor" [ label="\"isa\"" style="solid" ];
+  "AssistantProfessor" -> "Professor" [ label="\"isa\"" style="solid" ];
+  "Program" -> "Organization" [ label="\"isa\"" style="solid" ];
+  "Article" -> "Publication" [ label="\"isa\"" style="solid" ];
+  "GraduateStudent" -> "Person" [ label="\"isa\"" style="solid" ];
+  "Institute" -> "Organization" [ label="\"isa\"" style="solid" ];
+  "AssociateProfessor" -> "Professor" [ label="\"isa\"" style="solid" ];
+  "Lecturer" -> "Faculty" [ label="\"isa\"" style="solid" ];
+  "PostDoc" -> "Faculty" [ label="\"isa\"" style="solid" ];
+  "Specification" -> "Publication" [ label="\"isa\"" style="solid" ];
+  "ResearchGroup" -> "Organization" [ label="\"isa\"" style="solid" ];
+  "Research" -> "Work" [ label="\"isa\"" style="solid" ];
+  "AdministrativeStaff" -> "Employee" [ label="\"isa\"" style="solid" ];
+  "College" -> "Organization" [ label="\"isa\"" style="solid" ];
+  "ClericalStaff" -> "AdministrativeStaff" [ label="\"isa\"" style="solid" ];
+  "UndergraduateStudent" -> "Student" [ label="\"isa\"" style="solid" ];
+  "Software" -> "Publication" [ label="\"isa\"" style="solid" ];
+  "ConferencePaper" -> "Article" [ label="\"isa\"" style="solid" ];
+  "Department" -> "Organization" [ label="\"isa\"" style="solid" ];
+  "GraduateCourse" -> "Course" [ label="\"isa\"" style="solid" ];
+  "UnofficialPublication" -> "Publication" [ label="\"isa\"" style="solid" ];
+  "Chair" -> "Professor" [ label="\"isa\"" style="solid" ];
+  "Professor" -> "Faculty" [ label="\"isa\"" style="solid" ];
+  "Person" -> "Professor" [ label="[1..*]
+\"advisor@is being advised by\"" style="solid" ];
+  "Organization" -> "Person" [ label="[1..*]
+\"affiliateOf@is affiliated with\"" style="solid" ];
+  "Organization" -> "Organization" [ label="[1..*]
+\"affiliatedOrganizationOf@is affiliated with\"" style="solid" ];
+  "Person" -> "University" [ label="[1..*]
+\"degreeFrom@has a degree from\"" style="solid" ];
+  "Person" -> "University" [ label="[1..*]
+\"doctoralDegreeFrom@has a doctoral degree from\"" style="solid" ];
+  "University" -> "Person" [ label="[1..*]
+\"hasAlumnus@has as an alumnus\"" style="solid" ];
+  "Schedule" -> "Course" [ label="[1..*]
+\"listedCourse@lists as a course\"" style="solid" ];
+  "Person" -> "University" [ label="[1..*]
+\"mastersDegreeFrom@has a masters degree from\"" style="solid" ];
+  "Organization" -> "Person" [ label="[1..*]
+\"member@has as a member\"" style="solid" ];
+  "Organization" -> "Publication" [ label="[1..*]
+\"orgPublication@publishes\"" style="solid" ];
+  "Publication" -> "Person" [ label="[1..*]
+\"publicationAuthor@was written by\"" style="solid" ];
+  "Publication" -> "Research" [ label="[1..*]
+\"publicationResearch@is about\"" style="solid" ];
+  "ResearchGroup" -> "Research" [ label="[1..*]
+\"researchProject@has as a research project\"" style="solid" ];
+  "Software" -> "Publication" [ label="[1..*]
+\"softwareDocumentation@is documented in\"" style="solid" ];
+  "Organization" -> "Organization" [ label="[1..*]
+\"subOrganizationOf@is part of\"" style="solid" ];
+  "Faculty" -> "Course" [ label="[1..*]
+\"teacherOf@teaches\"" style="solid" ];
+  "TeachingAssistant" -> "Course" [ label="[1..*]
+\"teachingAssistantOf@is a teaching assistant for\"" style="solid" ];
+  "Person" -> "University" [ label="[1..*]
+\"undergraduateDegreeFrom@has an undergraduate degree from\"" style="solid" ];
+  "ResearchAssistant" -> "ResearchGroup" [ label="[1..*]
+\"worksFor@Works For\"" style="solid" ];
+  "GraduateStudent" -> "GraduateCourse" [ label="[1..*]
+\"takesCourse@is taking\"" style="solid" ];
+}

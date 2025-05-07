@@ -1,5 +1,5 @@
 owlFilePath: demo/MONDIAL/mondial-meta.n3
-
+loadEquivalentClass: true
 annotations:
   labels:
     - "http://www.w3.org/2000/01/rdf-schema#label"
