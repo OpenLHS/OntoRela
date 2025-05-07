@@ -1,0 +1,64 @@
+
+======================================================= 
+OntoRel Diagnostics
+======================================================= 
+
+--------------------------------------- 
+OWL to SQL datatypes
+--------------------------------------- 
+Creating join table for: Country [1..*] believeInReligion Religion
+Creating join table for: Country [1..*] belongToEthnicGroup EthnicGroup
+Creating join table for: Country [1..1] dependentOf Country
+Creating join table for: Country [1..*] ethnicInfo EthnicProportion
+Creating join table for: Country [1..*] hadPopulation PopulationCount
+Creating join table for: Country [1..*] hasProvince Province
+Creating join table for: Country [1..*] isMember Organization
+Creating join table for: Country [1..*] languageInfo SpokenBy
+Creating join table for: Country [1..*] neighbor Country
+Creating join table for: Country [1..*] religionInfo BelievedBy
+Creating join table for: Country [1..*] speakLanguage Language
+Creating join table for: Country [1..1] wasDependentOf PoliticalBody
+Creating join table for: EncompassedArea [1..*] encompassed Continent
+Creating join table for: AdministrativeArea [1..1] capital City
+Creating join table for: AdministrativeArea [1..*] hasCity City
+Creating join table for: Source [1..1] inMountains Mountains
+Creating join table for: Source [1..1] hasSource- Thing
+Creating join table for: Estuary [1..1] hasEstuary- Thing
+Creating join table for: LargeArea [1..*] borders LargeArea
+Creating join table for: Province [1..*] hadPopulation PopulationCount
+Creating join table for: Water [0..1] flowsInto Thing
+Creating join table for: River [1..*] flowsInto Water
+Creating join table for: River [1..*] flowsThrough Lake
+Creating join table for: River [1..1] hasEstuary Estuary
+Creating join table for: River [1..1] hasSource Source
+Creating join table for: River [1..*] locatedOnIsland Island
+Creating join table for: River [1..1] hasEstuary Thing
+Creating join table for: River [1..1] hasSource Thing
+Creating join table for: GeographicalThing [1..*] locatedIn Area
+Creating join table for: Border [1..*] isBorderOf Country
+Creating join table for: Border [2..2] isBorderOf Thing
+Creating join table for: Island [1..1] belongsToIslands Islands
+Creating join table for: Island [1..*] locatedInWater Water
+Creating join table for: SpokenBy [1..1] onLanguage Language
+Creating join table for: Lake [1..*] flowsInto Water
+Creating join table for: Lake [1..*] locatedOnIsland Island
+Creating join table for: AdministrativeSubdivision [1..1] belongsTo Country
+Creating join table for: Encompassed [1..1] encompassedArea EncompassedArea
+Creating join table for: Encompassed [1..1] encompassedBy Continent
+Creating join table for: Measurement [1..1] ofObject MondialThing
+Creating join table for: Mountain [1..1] inMountains Mountains
+Creating join table for: Mountain [1..*] locatedOnIsland Island
+Creating join table for: Organization [1..1] hasHeadq City
+Creating join table for: City [1..*] hadPopulation PopulationCount
+Creating join table for: City [1..*] locatedAt Water
+Creating join table for: City [1..*] locatedOnIsland Island
+Creating join table for: City [0..1] locatedIn Province
+Creating join table for: City [0..1] isCapitalOf Country
+Creating join table for: City [0..1] cityIn Province
+Creating join table for: City [1..1] locatedIn Country
+Creating join table for: City [1..1] cityIn Country
+Creating join table for: BelievedBy [1..1] onReligion Religion
+Creating join table for: EthnicProportion [1..1] onEthnicGroup EthnicGroup
+Creating join table for: Sea [1..*] mergesWith Sea
+Creating join table for: Membership [1..1] inOrganization Organization
+Creating join table for: Membership [1..1] ofMember Country

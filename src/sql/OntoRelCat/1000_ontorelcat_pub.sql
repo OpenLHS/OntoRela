@@ -37,7 +37,7 @@ create type ontorelcat_pub."Origin_Class" as
 
 -- Création du type enum Origin_Axiom pour la table Onto_Class_Axiom
 create type ontorelcat_pub."Origin_Axiom" as
-    enum ('DECLARED', 'PROPERTY_AXIOM', 'UNION_AXIOM', 'INTERSECTION_AXIOM', 'DISJOINT_AXIOM', 'MERGED_AXIOM', 'SUPERCLASS_AXIOM');
+    enum ('DECLARED', 'PROPERTY_AXIOM', 'UNION_AXIOM', 'INTERSECTION_AXIOM', 'DISJOINT_AXIOM', 'MERGED_AXIOM', 'SUPERCLASS_AXIOM','INFERED_AXIOM');
 
 -- ===========================================================================
 -- Création des procédures stockées de base
@@ -70,6 +70,7 @@ end;
 -- @param i_use_iri_as_table_id
 -- @param i_normalize_data_type
 -- @param i_normalize_axiom
+-- @param i_remove_thing_table
 -- @param i_generate_op_table
 create or replace procedure
     ontorelcat_pub.onto_config_db_ins(in i_ontorel_uuid character varying,
@@ -83,6 +84,7 @@ create or replace procedure
                                       in i_use_iri_as_table_id boolean,
                                       in i_normalize_data_type boolean,
                                       in i_normalize_axiom boolean,
+                                      in i_remove_thing_table boolean,
                                       in i_generate_op_table boolean)
     language sql
 begin
@@ -155,10 +157,23 @@ end;
 -- @param i_ontorel_uuid
 -- @param i_iri
 -- @param i_table_id
--- @param i_sql_type
+-- @param i_owlsql_type
 create or replace procedure
     ontorelcat_pub.onto_data_type_ins(in i_ontorel_uuid character varying, in i_iri character varying,
-                                      in i_table_id character varying, in i_sql_type character varying)
+                                      in i_table_id character varying, in i_owlsql_type character varying)
+    language sql
+begin
+    atomic
+end;
+
+
+-- Création du procédure onto_data_type_sql_ins (Insertion dans la table : Onto_data_type_sql)
+-- @param i_ontorel_uuid
+-- @param i_owlsql_type
+-- @param i_postgresql_type
+create or replace procedure
+    ontorelcat_pub.onto_data_type_sql_ins(in i_ontorel_uuid character varying, in i_iri character varying,
+                                          in i_owlsql_type character varying, in i_postgresql_type character varying)
     language sql
 begin
     atomic
@@ -236,7 +251,7 @@ create or replace procedure
     ontorelcat_pub.onto_data_properties_range_ins(in i_ontorel_uuid character varying,
                                                   in i_datatype_iri character varying,
                                                   in i_property_iri character varying,
-                                                  in i_sql_type character varying)
+                                                  in i_owlsql_type character varying)
     language sql
 begin
     atomic
@@ -289,12 +304,12 @@ end;
 
 -- Création du procédure onto_class_inheritance_ins (Insertion dans la table : Onto_Class_Inheritance)
 -- @param i_ontorel_uuid
--- @param i_subclass_iri
 -- @param i_superclass_iri
+-- @param i_subclass_iri
 create or replace procedure
     ontorelcat_pub.onto_class_inheritance_ins(in i_ontorel_uuid character varying,
-                                              in i_subclass_iri character varying,
-                                              in i_superclass_iri character varying)
+                                              in i_superclass_iri character varying,
+                                              in i_subclass_iri character varying)
     language sql
 begin
     atomic
@@ -337,7 +352,6 @@ create or replace procedure
     language sql
 begin
     atomic
-
 end;
 
 -- ===========================================================================

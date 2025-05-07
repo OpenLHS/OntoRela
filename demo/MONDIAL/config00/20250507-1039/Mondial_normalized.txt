@@ -1,0 +1,437 @@
+ONTOLOGY :"Mondial"  
+
+PROPERTY :"believeInReligion"  
+
+PROPERTY :"believedInCountry"  
+
+PROPERTY :"belongToEthnicGroup"  
+
+PROPERTY :"belongsTo"  
+
+PROPERTY :"belongsToIslands"  
+
+PROPERTY :"borders"  
+
+PROPERTY :"capital"  
+
+PROPERTY :"cityIn"  
+
+PROPERTY :"dependentOf"  
+
+PROPERTY :"encompassed"  
+
+PROPERTY :"encompassedArea"  
+
+PROPERTY :"encompassedBy"  
+
+PROPERTY :"encompassedByInfo"  
+
+PROPERTY :"encompasses"  
+
+PROPERTY :"encompassesInfo"  
+
+PROPERTY :"ethnicInfo"  
+
+PROPERTY :"ethnicInfo-"  
+
+PROPERTY :"flowsInto"  
+
+PROPERTY :"flowsThrough"  
+
+PROPERTY :"followedInInfo"  
+
+PROPERTY :"hadPopulation"  
+
+PROPERTY :"hasBorder"  
+
+PROPERTY :"hasCity"  
+
+PROPERTY :"hasEstuary"  
+
+PROPERTY :"hasEstuary-"  
+
+PROPERTY :"hasHeadq"  
+
+PROPERTY :"hasMember"  
+
+PROPERTY :"hasMembership"  
+
+PROPERTY :"hasProvince"  
+
+PROPERTY :"hasSource"  
+
+PROPERTY :"hasSource-"  
+
+PROPERTY :"inMountains"  
+
+PROPERTY :"inOrganization"  
+
+PROPERTY :"isBorderOf"  
+
+PROPERTY :"isCapitalOf"  
+
+PROPERTY :"isInMembership"  
+
+PROPERTY :"isMember"  
+
+PROPERTY :"isProvinceOf"  
+  ISA :"belongsTo"  
+
+PROPERTY :"languageInfo"  
+
+PROPERTY :"languageInfo-"  
+
+PROPERTY :"liveInCountry"  
+
+PROPERTY :"liveInInfo"  
+
+PROPERTY :"locatedAt"  
+
+PROPERTY :"locatedIn"  
+
+PROPERTY :"locatedInWater"  
+
+PROPERTY :"locatedOnIsland"  
+  ISA :"locatedIn"  
+
+PROPERTY :"mergesWith"  
+  ISA :"borders"  
+
+PROPERTY :"neighbor"  
+  ISA :"borders"  
+
+PROPERTY :"ofMember"  
+
+PROPERTY :"ofObject"  
+
+PROPERTY :"onEthnicGroup"  
+
+PROPERTY :"onLanguage"  
+
+PROPERTY :"onReligion"  
+
+PROPERTY :"religionInfo"  
+
+PROPERTY :"religionInfo-"  
+
+PROPERTY :"speakLanguage"  
+
+PROPERTY :"spokenInCountry"  
+
+PROPERTY :"spokenInInfo"  
+
+PROPERTY :"wasDependentOf"  
+
+PROPERTY :"abbrev"  
+
+PROPERTY :"area"  
+
+PROPERTY :"carCode"  
+
+PROPERTY :"depth"  
+
+PROPERTY :"elevation"  
+
+PROPERTY :"established"  
+
+PROPERTY :"gdpAgri"  
+
+PROPERTY :"gdpInd"  
+
+PROPERTY :"gdpServ"  
+
+PROPERTY :"gdpTotal"  
+
+PROPERTY :"government"  
+
+PROPERTY :"independenceDate"  
+
+PROPERTY :"infantMortality"  
+
+PROPERTY :"inflation"  
+
+PROPERTY :"lastEruption"  
+
+PROPERTY :"latitude"  
+
+PROPERTY :"length"  
+
+PROPERTY :"localname"  
+
+PROPERTY :"longitude"  
+
+PROPERTY :"name"  
+
+PROPERTY :"othername"  
+
+PROPERTY :"percent"  
+
+PROPERTY :"population"  
+
+PROPERTY :"populationGrowth"  
+
+PROPERTY :"type"  
+
+PROPERTY :"unemployment"  
+
+PROPERTY :"value"  
+
+PROPERTY :"year"  
+
+CLASS :"AdministrativeArea"   
+  :"capital"  [1..1] :"City" 
+  :"hasCity"  [1..*] :"City" 
+
+CLASS :"AdministrativeSubdivision"   
+  :"belongsTo"  [1..1] :"Country" 
+
+CLASS :"AnthropoGeographicalRelationship"   
+
+CLASS :"AnthropoGeographicalThing"   
+  ISA :"MondialThing"  
+
+CLASS :"Area"   
+  ISA :"Geometrical"  
+
+CLASS :"BelievedBy"   
+  ISA :"AnthropoGeographicalRelationship" 
+  ISA :"ReifiedThing"  
+  :"onReligion"  [1..1] :"Religion" 
+
+CLASS :"Border"   
+  ISA :"Line" 
+  ISA :"NonGeographicalPoliticalThing"  
+  :"isBorderOf"  [1..*] :"Country" 
+  :"isBorderOf"  [2..2] :"Thing" 
+
+CLASS :"City"   
+  ISA :"SmallArea" 
+  ISA :"GeographicalThing" 
+  ISA :"AdministrativeSubdivision" 
+  ISA :"PoliticalThing"  
+  :"hadPopulation"  [1..*] :"PopulationCount" 
+  :"locatedAt"  [1..*] :"Water" 
+  :"locatedOnIsland"  [1..*] :"Island" 
+  :"locatedIn"  [0..1] :"Province" 
+  :"isCapitalOf"  [0..1] :"Country" 
+  :"cityIn"  [0..1] :"Province" 
+  :"locatedIn"  [1..1] :"Country" 
+  :"cityIn"  [1..1] :"Country" 
+  :"localname"  [1..1] :"string" 
+  :"area"  [0..0] :"Literal" 
+
+CLASS :"Continent"   
+  ISA :"LargeArea" 
+  ISA :"GeographicalNonPoliticalThing"  
+
+CLASS :"Country"   
+  ISA :"LargeArea" 
+  ISA :"NonGeographicalPoliticalThing" 
+  ISA :"AdministrativeArea" 
+  ISA :"PoliticalBody"  
+  :"believeInReligion"  [1..*] :"Religion" 
+  :"belongToEthnicGroup"  [1..*] :"EthnicGroup" 
+  :"dependentOf"  [1..1] :"Country" 
+  :"ethnicInfo"  [1..*] :"EthnicProportion" 
+  :"hadPopulation"  [1..*] :"PopulationCount" 
+  :"hasProvince"  [1..*] :"Province" 
+  :"isMember"  [1..*] :"Organization" 
+  :"languageInfo"  [1..*] :"SpokenBy" 
+  :"neighbor"  [1..*] :"Country" 
+  :"religionInfo"  [1..*] :"BelievedBy" 
+  :"speakLanguage"  [1..*] :"Language" 
+  :"wasDependentOf"  [1..1] :"PoliticalBody" 
+  :"carCode"  [1..1] :"string" 
+  :"gdpAgri"  [1..1] :"decimal" 
+  :"gdpInd"  [1..1] :"decimal" 
+  :"gdpServ"  [1..1] :"decimal" 
+  :"gdpTotal"  [1..1] :"decimal" 
+  :"government"  [1..1] :"string" 
+  :"independenceDate"  [1..1] :"date" 
+  :"infantMortality"  [1..1] :"decimal" 
+  :"inflation"  [1..1] :"decimal" 
+  :"localname"  [1..1] :"string" 
+  :"populationGrowth"  [1..1] :"decimal" 
+  :"unemployment"  [1..1] :"decimal" 
+
+CLASS :"Desert"   
+  ISA :"SmallArea" 
+  ISA :"GeographicalNonPoliticalThing"  
+
+CLASS :"Encompassed"   
+  ISA :"ReifiedThing"  
+  :"encompassedArea"  [1..1] :"EncompassedArea" 
+  :"encompassedBy"  [1..1] :"Continent" 
+
+CLASS :"EncompassedArea"   
+  ISA :"LargeArea"  
+  :"encompassed"  [1..*] :"Continent" 
+
+CLASS :"Estuary"   
+  ISA :"Place" 
+  ISA :"GeographicalNonPoliticalThing"  
+  :"hasEstuary-"  [1..1] :"Thing" 
+
+CLASS :"EthnicGroup"   
+  ISA :"AnthropoGeographicalThing"  
+
+CLASS :"EthnicProportion"   
+  ISA :"AnthropoGeographicalRelationship" 
+  ISA :"ReifiedThing"  
+  :"onEthnicGroup"  [1..1] :"EthnicGroup" 
+
+CLASS :"GeographicalNonPoliticalThing"   
+  ISA :"GeographicalThing"  
+
+CLASS :"GeographicalThing"   
+  ISA :"PoliticalOrGeographicalThing"  
+  :"locatedIn"  [1..*] :"Area" 
+
+CLASS :"Geometrical"   
+
+CLASS :"Island"   
+  ISA :"SmallArea" 
+  ISA :"GeographicalNonPoliticalThing"  
+  :"belongsToIslands"  [1..1] :"Islands" 
+  :"locatedInWater"  [1..*] :"Water" 
+
+CLASS :"Islands"   
+  ISA :"SmallArea" 
+  ISA :"GeographicalNonPoliticalThing"  
+
+CLASS :"Lake"   
+  ISA :"SmallArea" 
+  ISA :"Water"  
+  :"flowsInto"  [1..*] :"Water" 
+  :"locatedOnIsland"  [1..*] :"Island" 
+
+CLASS :"Language"   
+  ISA :"AnthropoGeographicalThing"  
+
+CLASS :"LargeArea"   
+  ISA :"Area"  
+  :"borders"  [1..*] :"LargeArea" 
+
+CLASS :"Line"   
+  ISA :"Geometrical"  
+  :"length"  [1..1] :"decimal" 
+
+CLASS :"Location"   
+  :"elevation"  [1..1] :"decimal" 
+  :"latitude"  [1..1] :"decimal" 
+  :"longitude"  [1..1] :"decimal" 
+
+CLASS :"Measurement"   
+  ISA :"TimeSeriesElement"  
+  :"ofObject"  [1..1] :"MondialThing" 
+  :"value"  [1..1] :"decimal" 
+
+CLASS :"Membership"   
+  ISA :"ReifiedThing"  
+  :"inOrganization"  [1..1] :"Organization" 
+  :"ofMember"  [1..1] :"Country" 
+
+CLASS :"MondialThing"   
+
+CLASS :"Mountain"   
+  ISA :"Place" 
+  ISA :"GeographicalNonPoliticalThing"  
+  :"inMountains"  [1..1] :"Mountains" 
+  :"locatedOnIsland"  [1..*] :"Island" 
+
+CLASS :"Mountains"   
+  ISA :"SmallArea" 
+  ISA :"GeographicalNonPoliticalThing"  
+
+CLASS :"NonGeographicalPoliticalThing"   
+  ISA :"PoliticalThing"  
+
+CLASS :"Organization"   
+  ISA :"NonGeographicalPoliticalThing" 
+  ISA :"PoliticalBody"  
+  :"hasHeadq"  [1..1] :"City" 
+  :"abbrev"  [1..1] :"string" 
+  :"established"  [1..1] :"date" 
+
+CLASS :"Place"   
+  ISA :"Geometrical" 
+  ISA :"Location"  
+
+CLASS :"PoliticalBody"   
+  ISA :"PoliticalThing"  
+
+CLASS :"PoliticalOrGeographicalThing"   
+  ISA :"MondialThing"  
+
+CLASS :"PoliticalThing"   
+  ISA :"PoliticalOrGeographicalThing"  
+
+CLASS :"PopulationCount"   
+  ISA :"YearlyMeasurement"  
+  :"population"  [1..1] :"nonNegativeInteger" 
+
+CLASS :"Province"   
+  ISA :"LargeArea" 
+  ISA :"NonGeographicalPoliticalThing" 
+  ISA :"AdministrativeArea" 
+  ISA :"AdministrativeSubdivision"  
+  :"hadPopulation"  [1..*] :"PopulationCount" 
+  :"localname"  [1..1] :"string" 
+
+CLASS :"ReifiedThing"   
+  ISA :"MondialThing"  
+
+CLASS :"Religion"   
+  ISA :"AnthropoGeographicalThing"  
+
+CLASS :"River"   
+  ISA :"Line" 
+  ISA :"Water"  
+  :"flowsInto"  [1..*] :"Water" 
+  :"flowsThrough"  [1..*] :"Lake" 
+  :"hasEstuary"  [1..1] :"Estuary" 
+  :"hasSource"  [1..1] :"Source" 
+  :"locatedOnIsland"  [1..*] :"Island" 
+  :"hasEstuary"  [1..1] :"Thing" 
+  :"hasSource"  [1..1] :"Thing" 
+
+CLASS :"Sea"   
+  ISA :"LargeArea" 
+  ISA :"Water"  
+  :"mergesWith"  [1..*] :"Sea" 
+
+CLASS :"SmallArea"   
+  ISA :"Area" 
+  ISA :"Location"  
+
+CLASS :"Source"   
+  ISA :"Place" 
+  ISA :"GeographicalNonPoliticalThing"  
+  :"inMountains"  [1..1] :"Mountains" 
+  :"hasSource-"  [1..1] :"Thing" 
+
+CLASS :"SpokenBy"   
+  ISA :"AnthropoGeographicalRelationship" 
+  ISA :"ReifiedThing"  
+  :"onLanguage"  [1..1] :"Language" 
+
+CLASS :"TimeSeriesElement"   
+
+CLASS :"Volcano"   
+  ISA :"Mountain"  
+  :"lastEruption"  [1..1] :"date" 
+
+CLASS :"Water"   
+  ISA :"GeographicalNonPoliticalThing"  
+  :"flowsInto"  [0..1] :"Thing" 
+
+CLASS :"YearlyMeasurement"   
+  ISA :"Measurement" 
+  ISA :"TimeSeriesElement"  
+  :"year"  [1..*] :"nonNegativeInteger" 
+  :"year"  [1..1] :"Literal" 
+
+CLASS :"Nothing"   
+
+CLASS :"Thing"   
+

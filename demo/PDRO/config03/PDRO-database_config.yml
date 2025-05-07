@@ -8,10 +8,11 @@ defaultKeyType: UUID
 defaultAttributeName : value
 defaultAttributeDomaineName: value_domain
 defaultAttributeType: TEXT
+maxIdentifierLength: 60
 normalizeDatatype: false
-removeThingTable: false
-useIRIasTableId: true
 generateOpTable: true
+removeThingTable: false
+useIriAsTableId: true
 languages:
   - en
   - fr

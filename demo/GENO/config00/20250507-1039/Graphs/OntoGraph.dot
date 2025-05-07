@@ -1,0 +1,1389 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "BothStrandsPosition" [ label="\"BothStrandsPosition\"@
+Both strands" shape="ellipse" ];
+  "ExactPosition" [ label="\"ExactPosition\"@
+Exact position" shape="ellipse" ];
+  "ForwardStrandPosition" [ label="\"ForwardStrandPosition\"@
+Positive strand" shape="ellipse" ];
+  "Position" [ label="\"Position\"@
+Position" shape="ellipse" ];
+  "Region" [ label="\"Region\"@
+Region" shape="ellipse" ];
+  "ReverseStrandPosition" [ label="\"ReverseStrandPosition\"@
+Negative strand" shape="ellipse" ];
+  "StrandedPosition" [ label="\"StrandedPosition\"@
+Stranded position" shape="ellipse" ];
+  "BFO_0000001" [ label="\"BFO_0000001\"@
+entity" shape="ellipse" ];
+  "BFO_0000002" [ label="\"BFO_0000002\"@
+continuant" shape="ellipse" ];
+  "BFO_0000003" [ label="\"BFO_0000003\"@
+occurrent" shape="ellipse" ];
+  "BFO_0000004" [ label="\"BFO_0000004\"@
+independent continuant" shape="ellipse" ];
+  "BFO_0000015" [ label="\"BFO_0000015\"@
+process" shape="ellipse" ];
+  "BFO_0000016" [ label="\"BFO_0000016\"@
+disposition" shape="ellipse" ];
+  "BFO_0000017" [ label="\"BFO_0000017\"@
+realizable entity" shape="ellipse" ];
+  "BFO_0000019" [ label="\"BFO_0000019\"@
+quality" shape="ellipse" ];
+  "BFO_0000020" [ label="\"BFO_0000020\"@
+specifically dependent continuant" shape="ellipse" ];
+  "BFO_0000023" [ label="\"BFO_0000023\"@
+role" shape="ellipse" ];
+  "BFO_0000031" [ label="\"BFO_0000031\"@
+generically dependent continuant" shape="ellipse" ];
+  "BFO_0000034" [ label="\"BFO_0000034\"@
+function" shape="ellipse" ];
+  "BFO_0000040" [ label="\"BFO_0000040\"@
+material entity" shape="ellipse" ];
+  "CHEBI_23367" [ label="\"CHEBI_23367\"@
+molecular entity" shape="ellipse" ];
+  "CHEBI_33696" [ label="\"CHEBI_33696\"@
+nucleic acid" shape="ellipse" ];
+  "CLO_0000031" [ label="\"CLO_0000031\"@
+cell line" shape="ellipse" ];
+  "CL_0000000" [ label="\"CL_0000000\"@
+cell" shape="ellipse" ];
+  "ENVO_01000254" [ label="\"ENVO_01000254\"@
+environmental system" shape="ellipse" ];
+  "ERO_0000007" [ label="\"ERO_0000007\"@
+technique" shape="ellipse" ];
+  "ERO_0002002" [ label="\"ERO_0002002\"@
+embryonic stem cell line" shape="ellipse" ];
+  "ERO_0002003" [ label="\"ERO_0002003\"@
+stem cell line" shape="ellipse" ];
+  "GENO_0000000" [ label="\"GENO_0000000\"@
+genomic genotype (sex-agnostic)" shape="ellipse" ];
+  "GENO_0000002" [ label="\"GENO_0000002\"@
+variant allele" shape="ellipse" ];
+  "GENO_0000009" [ label="\"GENO_0000009\"@
+genomic variation complement" shape="ellipse" ];
+  "GENO_0000010" [ label="\"GENO_0000010\"@
+background genome" shape="ellipse" ];
+  "GENO_0000014" [ label="\"GENO_0000014\"@
+gene allele" shape="ellipse" ];
+  "GENO_0000017" [ label="\"GENO_0000017\"@
+reference sequence" shape="ellipse" ];
+  "GENO_0000019" [ label="\"GENO_0000019\"@
+obsolete_sequence feature collection" shape="ellipse" ];
+  "GENO_0000022" [ label="\"GENO_0000022\"@
+obsolete_genomic feature collection" shape="ellipse" ];
+  "GENO_0000029" [ label="\"GENO_0000029\"@
+obsolete_reference single locus complement" shape="ellipse" ];
+  "GENO_0000030" [ label="\"GENO_0000030\"@
+variant single locus complement" shape="ellipse" ];
+  "GENO_0000033" [ label="\"GENO_0000033\"@
+variant genome" shape="ellipse" ];
+  "GENO_0000036" [ label="\"GENO_0000036\"@
+reference allele" shape="ellipse" ];
+  "GENO_0000037" [ label="\"GENO_0000037\"@
+obsolete_unspecified feature" shape="ellipse" ];
+  "GENO_0000042" [ label="\"GENO_0000042\"@
+obsolete_reference junction" shape="ellipse" ];
+  "GENO_0000047" [ label="\"GENO_0000047\"@
+danio rerio gene" shape="ellipse" ];
+  "GENO_0000054" [ label="\"GENO_0000054\"@
+homo sapiens gene" shape="ellipse" ];
+  "GENO_0000057" [ label="\"GENO_0000057\"@
+mus musculus gene" shape="ellipse" ];
+  "GENO_0000060" [ label="\"GENO_0000060\"@
+obsolete_reference gene allele" shape="ellipse" ];
+  "GENO_0000091" [ label="\"GENO_0000091\"@
+obsolete_experimental insertion" shape="ellipse" ];
+  "GENO_0000092" [ label="\"GENO_0000092\"@
+gene trap insertion" shape="ellipse" ];
+  "GENO_0000093" [ label="\"GENO_0000093\"@
+integrated transgene" shape="ellipse" ];
+  "GENO_0000106" [ label="\"GENO_0000106\"@
+genomic material" shape="ellipse" ];
+  "GENO_0000108" [ label="\"GENO_0000108\"@
+material genome" shape="ellipse" ];
+  "GENO_0000111" [ label="\"GENO_0000111\"@
+human population" shape="ellipse" ];
+  "GENO_0000112" [ label="\"GENO_0000112\"@
+strain or breed" shape="ellipse" ];
+  "GENO_0000113" [ label="\"GENO_0000113\"@
+taxonomic group" shape="ellipse" ];
+  "GENO_0000118" [ label="\"GENO_0000118\"@
+mus musculus strain" shape="ellipse" ];
+  "GENO_0000119" [ label="\"GENO_0000119\"@
+danio rerio strain" shape="ellipse" ];
+  "GENO_0000125" [ label="\"GENO_0000125\"@
+obsolete_sequence feature collection attribute" shape="ellipse" ];
+  "GENO_0000131" [ label="\"GENO_0000131\"@
+in cis" shape="ellipse" ];
+  "GENO_0000132" [ label="\"GENO_0000132\"@
+in trans" shape="ellipse" ];
+  "GENO_0000133" [ label="\"GENO_0000133\"@
+zygosity" shape="ellipse" ];
+  "GENO_0000134" [ label="\"GENO_0000134\"@
+hemizygous" shape="ellipse" ];
+  "GENO_0000135" [ label="\"GENO_0000135\"@
+heterozygous" shape="ellipse" ];
+  "GENO_0000136" [ label="\"GENO_0000136\"@
+homozygous" shape="ellipse" ];
+  "GENO_0000137" [ label="\"GENO_0000137\"@
+unspecified zygosity" shape="ellipse" ];
+  "GENO_0000138" [ label="\"GENO_0000138\"@
+heritabililty" shape="ellipse" ];
+  "GENO_0000139" [ label="\"GENO_0000139\"@
+heritable" shape="ellipse" ];
+  "GENO_0000140" [ label="\"GENO_0000140\"@
+non-heritable" shape="ellipse" ];
+  "GENO_0000141" [ label="\"GENO_0000141\"@
+inheritance pattern" shape="ellipse" ];
+  "GENO_0000142" [ label="\"GENO_0000142\"@
+obsolete_dominant inheritance" shape="ellipse" ];
+  "GENO_0000143" [ label="\"GENO_0000143\"@
+co-dominant autosomal inheritance" shape="ellipse" ];
+  "GENO_0000144" [ label="\"GENO_0000144\"@
+complete autosomal dominant inheritance" shape="ellipse" ];
+  "GENO_0000145" [ label="\"GENO_0000145\"@
+incomplete autosomal dominant inheritance" shape="ellipse" ];
+  "GENO_0000146" [ label="\"GENO_0000146\"@
+X-linked dominant inheritance" shape="ellipse" ];
+  "GENO_0000147" [ label="\"GENO_0000147\"@
+autosomal dominant inheritance" shape="ellipse" ];
+  "GENO_0000148" [ label="\"GENO_0000148\"@
+autosomal recessive inheritance" shape="ellipse" ];
+  "GENO_0000149" [ label="\"GENO_0000149\"@
+X-linked recessive inheritance" shape="ellipse" ];
+  "GENO_0000150" [ label="\"GENO_0000150\"@
+obsolete_autosomal recessive inheritance" shape="ellipse" ];
+  "GENO_0000152" [ label="\"GENO_0000152\"@
+reference" shape="ellipse" ];
+  "GENO_0000160" [ label="\"GENO_0000160\"@
+unspecified life cycle stage" shape="ellipse" ];
+  "GENO_0000164" [ label="\"GENO_0000164\"@
+genetic insertion technique" shape="ellipse" ];
+  "GENO_0000165" [ label="\"GENO_0000165\"@
+mutagen treatment technique" shape="ellipse" ];
+  "GENO_0000166" [ label="\"GENO_0000166\"@
+targeted gene mutation technique" shape="ellipse" ];
+  "GENO_0000169" [ label="\"GENO_0000169\"@
+random genetic insertion technique" shape="ellipse" ];
+  "GENO_0000170" [ label="\"GENO_0000170\"@
+targeted genetic insertion technique" shape="ellipse" ];
+  "GENO_0000171" [ label="\"GENO_0000171\"@
+enhancer trapping technique" shape="ellipse" ];
+  "GENO_0000172" [ label="\"GENO_0000172\"@
+gene trapping technique" shape="ellipse" ];
+  "GENO_0000173" [ label="\"GENO_0000173\"@
+promoter trapping technique" shape="ellipse" ];
+  "GENO_0000174" [ label="\"GENO_0000174\"@
+targeted knock-in technique" shape="ellipse" ];
+  "GENO_0000175" [ label="\"GENO_0000175\"@
+random transgene insertion technique" shape="ellipse" ];
+  "GENO_0000324" [ label="\"GENO_0000324\"@
+obsolete_chromosome complement" shape="ellipse" ];
+  "GENO_0000338" [ label="\"GENO_0000338\"@
+gained aneusomic chromosome" shape="ellipse" ];
+  "GENO_0000339" [ label="\"GENO_0000339\"@
+lost aneusomic chromosome" shape="ellipse" ];
+  "GENO_0000343" [ label="\"GENO_0000343\"@
+aneusomic chromosomal part" shape="ellipse" ];
+  "GENO_0000344" [ label="\"GENO_0000344\"@
+gained aneusomic chromosomal segment" shape="ellipse" ];
+  "GENO_0000345" [ label="\"GENO_0000345\"@
+lost aneusomic chromosomal segment" shape="ellipse" ];
+  "GENO_0000346" [ label="\"GENO_0000346\"@
+aneusomic chromosome" shape="ellipse" ];
+  "GENO_0000351" [ label="\"GENO_0000351\"@
+biological process" shape="ellipse" ];
+  "GENO_0000391" [ label="\"GENO_0000391\"@
+disomic zygosity" shape="ellipse" ];
+  "GENO_0000392" [ label="\"GENO_0000392\"@
+aneusomic zygosity" shape="ellipse" ];
+  "GENO_0000393" [ label="\"GENO_0000393\"@
+trisomic homozygous" shape="ellipse" ];
+  "GENO_0000394" [ label="\"GENO_0000394\"@
+trisomic heterozygous" shape="ellipse" ];
+  "GENO_0000402" [ label="\"GENO_0000402\"@
+compound heterozygous" shape="ellipse" ];
+  "GENO_0000415" [ label="\"GENO_0000415\"@
+obsolete_reagent sequence feature" shape="ellipse" ];
+  "GENO_0000458" [ label="\"GENO_0000458\"@
+simple heterozygous" shape="ellipse" ];
+  "GENO_0000460" [ label="\"GENO_0000460\"@
+transgene part" shape="ellipse" ];
+  "GENO_0000476" [ label="\"GENO_0000476\"@
+variant" shape="ellipse" ];
+  "GENO_0000477" [ label="\"GENO_0000477\"@
+polymorphic" shape="ellipse" ];
+  "GENO_0000480" [ label="\"GENO_0000480\"@
+mutant" shape="ellipse" ];
+  "GENO_0000481" [ label="\"GENO_0000481\"@
+genomic feature" shape="ellipse" ];
+  "GENO_0000482" [ label="\"GENO_0000482\"@
+genetic material" shape="ellipse" ];
+  "GENO_0000491" [ label="\"GENO_0000491\"@
+obsolete_mutant allele" shape="ellipse" ];
+  "GENO_0000492" [ label="\"GENO_0000492\"@
+mutation" shape="ellipse" ];
+  "GENO_0000494" [ label="\"GENO_0000494\"@
+extrachromosomal replicon" shape="ellipse" ];
+  "GENO_0000495" [ label="\"GENO_0000495\"@
+expression construct" shape="ellipse" ];
+  "GENO_0000497" [ label="\"GENO_0000497\"@
+polymorphic allele" shape="ellipse" ];
+  "GENO_0000498" [ label="\"GENO_0000498\"@
+major polymorphic allele" shape="ellipse" ];
+  "GENO_0000499" [ label="\"GENO_0000499\"@
+minor polymorphic allele" shape="ellipse" ];
+  "GENO_0000500" [ label="\"GENO_0000500\"@
+ancestral polymorphic allele" shape="ellipse" ];
+  "GENO_0000501" [ label="\"GENO_0000501\"@
+wild-type allele" shape="ellipse" ];
+  "GENO_0000502" [ label="\"GENO_0000502\"@
+wild-type gene" shape="ellipse" ];
+  "GENO_0000504" [ label="\"GENO_0000504\"@
+reagent targeted gene" shape="ellipse" ];
+  "GENO_0000506" [ label="\"GENO_0000506\"@
+transiently-expressed transgene" shape="ellipse" ];
+  "GENO_0000511" [ label="\"GENO_0000511\"@
+wild-type" shape="ellipse" ];
+  "GENO_0000512" [ label="\"GENO_0000512\"@
+allele" shape="ellipse" ];
+  "GENO_0000513" [ label="\"GENO_0000513\"@
+aneusomic" shape="ellipse" ];
+  "GENO_0000515" [ label="\"GENO_0000515\"@
+variant gene allele" shape="ellipse" ];
+  "GENO_0000516" [ label="\"GENO_0000516\"@
+single locus complement" shape="ellipse" ];
+  "GENO_0000524" [ label="\"GENO_0000524\"@
+extrinsic genotype" shape="ellipse" ];
+  "GENO_0000525" [ label="\"GENO_0000525\"@
+effective genotype" shape="ellipse" ];
+  "GENO_0000527" [ label="\"GENO_0000527\"@
+reagent-targeted gene complement" shape="ellipse" ];
+  "GENO_0000528" [ label="\"GENO_0000528\"@
+transiently-expressed transgene complement" shape="ellipse" ];
+  "GENO_0000529" [ label="\"GENO_0000529\"@
+expression-variant gene" shape="ellipse" ];
+  "GENO_0000533" [ label="\"GENO_0000533\"@
+gene knockdown reagent" shape="ellipse" ];
+  "GENO_0000534" [ label="\"GENO_0000534\"@
+reagent-targeted gene subregion" shape="ellipse" ];
+  "GENO_0000536" [ label="\"GENO_0000536\"@
+genotype" shape="ellipse" ];
+  "GENO_0000575" [ label="\"GENO_0000575\"@
+zebrafish phenotype" shape="ellipse" ];
+  "GENO_0000602" [ label="\"GENO_0000602\"@
+homoplasmic" shape="ellipse" ];
+  "GENO_0000603" [ label="\"GENO_0000603\"@
+heteroplasmic" shape="ellipse" ];
+  "GENO_0000604" [ label="\"GENO_0000604\"@
+hemizygous X-linked" shape="ellipse" ];
+  "GENO_0000605" [ label="\"GENO_0000605\"@
+hemizygous Y-linked" shape="ellipse" ];
+  "GENO_0000606" [ label="\"GENO_0000606\"@
+hemizygous insertion-linked" shape="ellipse" ];
+  "GENO_0000611" [ label="\"GENO_0000611\"@
+background genotype" shape="ellipse" ];
+  "GENO_0000614" [ label="\"GENO_0000614\"@
+chromosomal region" shape="ellipse" ];
+  "GENO_0000616" [ label="\"GENO_0000616\"@
+chromosome sub-band" shape="ellipse" ];
+  "GENO_0000618" [ label="\"GENO_0000618\"@
+chromosomal band intensity" shape="ellipse" ];
+  "GENO_0000619" [ label="\"GENO_0000619\"@
+gpos" shape="ellipse" ];
+  "GENO_0000620" [ label="\"GENO_0000620\"@
+gneg" shape="ellipse" ];
+  "GENO_0000621" [ label="\"GENO_0000621\"@
+gvar" shape="ellipse" ];
+  "GENO_0000622" [ label="\"GENO_0000622\"@
+gpos100" shape="ellipse" ];
+  "GENO_0000623" [ label="\"GENO_0000623\"@
+gpos75" shape="ellipse" ];
+  "GENO_0000624" [ label="\"GENO_0000624\"@
+gpos50" shape="ellipse" ];
+  "GENO_0000625" [ label="\"GENO_0000625\"@
+gpos25" shape="ellipse" ];
+  "GENO_0000628" [ label="\"GENO_0000628\"@
+short chromosome arm" shape="ellipse" ];
+  "GENO_0000629" [ label="\"GENO_0000629\"@
+long chromosome arm" shape="ellipse" ];
+  "GENO_0000632" [ label="\"GENO_0000632\"@
+gpos66" shape="ellipse" ];
+  "GENO_0000633" [ label="\"GENO_0000633\"@
+gpos33" shape="ellipse" ];
+  "GENO_0000637" [ label="\"GENO_0000637\"@
+regulatory transgene region" shape="ellipse" ];
+  "GENO_0000638" [ label="\"GENO_0000638\"@
+expressed transgene region" shape="ellipse" ];
+  "GENO_0000640" [ label="\"GENO_0000640\"@
+reporter region" shape="ellipse" ];
+  "GENO_0000642" [ label="\"GENO_0000642\"@
+selectable marker transgene" shape="ellipse" ];
+  "GENO_0000644" [ label="\"GENO_0000644\"@
+karyotype" shape="ellipse" ];
+  "GENO_0000645" [ label="\"GENO_0000645\"@
+genomic genotype (sex-qualified)" shape="ellipse" ];
+  "GENO_0000646" [ label="\"GENO_0000646\"@
+male intrinsic genotype" shape="ellipse" ];
+  "GENO_0000647" [ label="\"GENO_0000647\"@
+female intrinsic genotype" shape="ellipse" ];
+  "GENO_0000649" [ label="\"GENO_0000649\"@
+unspecified background genotype" shape="ellipse" ];
+  "GENO_0000659" [ label="\"GENO_0000659\"@
+sequence feature complement" shape="ellipse" ];
+  "GENO_0000660" [ label="\"GENO_0000660\"@
+genomic feature complement" shape="ellipse" ];
+  "GENO_0000666" [ label="\"GENO_0000666\"@
+gene part" shape="ellipse" ];
+  "GENO_0000667" [ label="\"GENO_0000667\"@
+reporter transgene" shape="ellipse" ];
+  "GENO_0000680" [ label="\"GENO_0000680\"@
+obsolete_null feature" shape="ellipse" ];
+  "GENO_0000681" [ label="\"GENO_0000681\"@
+novel extrachromosomal replicon" shape="ellipse" ];
+  "GENO_0000684" [ label="\"GENO_0000684\"@
+novel replicon" shape="ellipse" ];
+  "GENO_0000685" [ label="\"GENO_0000685\"@
+novel" shape="ellipse" ];
+  "GENO_0000688" [ label="\"GENO_0000688\"@
+terminus" shape="ellipse" ];
+  "GENO_0000701" [ label="\"GENO_0000701\"@
+sequence feature or collection" shape="ellipse" ];
+  "GENO_0000702" [ label="\"GENO_0000702\"@
+biological sequence" shape="ellipse" ];
+  "GENO_0000713" [ label="\"GENO_0000713\"@
+qualified sequence feature or collection" shape="ellipse" ];
+  "GENO_0000714" [ label="\"GENO_0000714\"@
+qualified genomic feature" shape="ellipse" ];
+  "GENO_0000715" [ label="\"GENO_0000715\"@
+qualified genomic feature complement" shape="ellipse" ];
+  "GENO_0000719" [ label="\"GENO_0000719\"@
+intrinsic genotype" shape="ellipse" ];
+  "GENO_0000720" [ label="\"GENO_0000720\"@
+DNA sequence" shape="ellipse" ];
+  "GENO_0000721" [ label="\"GENO_0000721\"@
+RNA sequence" shape="ellipse" ];
+  "GENO_0000722" [ label="\"GENO_0000722\"@
+amino acid sequence" shape="ellipse" ];
+  "GENO_0000724" [ label="\"GENO_0000724\"@
+obsolete_biological sequence or collection" shape="ellipse" ];
+  "GENO_0000725" [ label="\"GENO_0000725\"@
+obsolete_biological sequence collection" shape="ellipse" ];
+  "GENO_0000736" [ label="\"GENO_0000736\"@
+location-qualified sequence feature" shape="ellipse" ];
+  "GENO_0000737" [ label="\"GENO_0000737\"@
+expression-qualified sequence feature" shape="ellipse" ];
+  "GENO_0000768" [ label="\"GENO_0000768\"@
+obsolete_genomic position" shape="ellipse" ];
+  "GENO_0000770" [ label="\"GENO_0000770\"@
+phenotypic inheritance process" shape="ellipse" ];
+  "GENO_0000772" [ label="\"GENO_0000772\"@
+obsolete_unspecified" shape="ellipse" ];
+  "GENO_0000773" [ label="\"GENO_0000773\"@
+variation attribute" shape="ellipse" ];
+  "GENO_0000777" [ label="\"GENO_0000777\"@
+variant genomic genotype" shape="ellipse" ];
+  "GENO_0000778" [ label="\"GENO_0000778\"@
+obsolete_sequence information entity" shape="ellipse" ];
+  "GENO_0000779" [ label="\"GENO_0000779\"@
+biological sequence unit" shape="ellipse" ];
+  "GENO_0000780" [ label="\"GENO_0000780\"@
+DNA residue" shape="ellipse" ];
+  "GENO_0000781" [ label="\"GENO_0000781\"@
+RNA residue" shape="ellipse" ];
+  "GENO_0000782" [ label="\"GENO_0000782\"@
+amino acid residue" shape="ellipse" ];
+  "GENO_0000788" [ label="\"GENO_0000788\"@
+sequence feature attribute" shape="ellipse" ];
+  "GENO_0000815" [ label="\"GENO_0000815\"@
+sequence feature location" shape="ellipse" ];
+  "GENO_0000818" [ label="\"GENO_0000818\"@
+modification-qualified sequence feature" shape="ellipse" ];
+  "GENO_0000823" [ label="\"GENO_0000823\"@
+allelic genotype" shape="ellipse" ];
+  "GENO_0000833" [ label="\"GENO_0000833\"@
+genotype-phenotype association" shape="ellipse" ];
+  "GENO_0000839" [ label="\"GENO_0000839\"@
+knockdown reagent targeted gene complement" shape="ellipse" ];
+  "GENO_0000848" [ label="\"GENO_0000848\"@
+obsolete_coding sequence alteration" shape="ellipse" ];
+  "GENO_0000850" [ label="\"GENO_0000850\"@
+P-element construct" shape="ellipse" ];
+  "GENO_0000856" [ label="\"GENO_0000856\"@
+engineered genetic construct" shape="ellipse" ];
+  "GENO_0000861" [ label="\"GENO_0000861\"@
+extra-chromosomal transgene" shape="ellipse" ];
+  "GENO_0000870" [ label="\"GENO_0000870\"@
+obsolete_sequence feature collection" shape="ellipse" ];
+  "GENO_0000871" [ label="\"GENO_0000871\"@
+obsolete_haplotype" shape="ellipse" ];
+  "GENO_0000872" [ label="\"GENO_0000872\"@
+genomic sequence complement" shape="ellipse" ];
+  "GENO_0000873" [ label="\"GENO_0000873\"@
+microsatellite alteration" shape="ellipse" ];
+  "GENO_0000874" [ label="\"GENO_0000874\"@
+repeat region alteration" shape="ellipse" ];
+  "GENO_0000875" [ label="\"GENO_0000875\"@
+allelic state" shape="ellipse" ];
+  "GENO_0000876" [ label="\"GENO_0000876\"@
+obsolete_genetic dosage" shape="ellipse" ];
+  "GENO_0000877" [ label="\"GENO_0000877\"@
+allele origin" shape="ellipse" ];
+  "GENO_0000878" [ label="\"GENO_0000878\"@
+maternal allele origin" shape="ellipse" ];
+  "GENO_0000879" [ label="\"GENO_0000879\"@
+paternal allele origin" shape="ellipse" ];
+  "GENO_0000880" [ label="\"GENO_0000880\"@
+de novo allele origin" shape="ellipse" ];
+  "GENO_0000881" [ label="\"GENO_0000881\"@
+unknown allele origin" shape="ellipse" ];
+  "GENO_0000882" [ label="\"GENO_0000882\"@
+somatic allele origin" shape="ellipse" ];
+  "GENO_0000883" [ label="\"GENO_0000883\"@
+obsolete_gametic" shape="ellipse" ];
+  "GENO_0000885" [ label="\"GENO_0000885\"@
+diplotype" shape="ellipse" ];
+  "GENO_0000886" [ label="\"GENO_0000886\"@
+allelic phase" shape="ellipse" ];
+  "GENO_0000887" [ label="\"GENO_0000887\"@
+oryzias latipes strain" shape="ellipse" ];
+  "GENO_0000888" [ label="\"GENO_0000888\"@
+germline allele origin" shape="ellipse" ];
+  "GENO_0000889" [ label="\"GENO_0000889\"@
+undetermined inheritance" shape="ellipse" ];
+  "GENO_0000890" [ label="\"GENO_0000890\"@
+canonical allele" shape="ellipse" ];
+  "GENO_0000891" [ label="\"GENO_0000891\"@
+contextual allele" shape="ellipse" ];
+  "GENO_0000892" [ label="\"GENO_0000892\"@
+heteroplasmic mitochondrial inheritance" shape="ellipse" ];
+  "GENO_0000893" [ label="\"GENO_0000893\"@
+homoplasmic mitochondrial inheritance" shape="ellipse" ];
+  "GENO_0000897" [ label="\"GENO_0000897\"@
+genomic entity" shape="ellipse" ];
+  "GENO_0000898" [ label="\"GENO_0000898\"@
+obsolete_haplotype block" shape="ellipse" ];
+  "GENO_0000899" [ label="\"GENO_0000899\"@
+genomic genotype" shape="ellipse" ];
+  "GENO_0000901" [ label="\"GENO_0000901\"@
+obsolete_allele cellular context" shape="ellipse" ];
+  "GENO_0000902" [ label="\"GENO_0000902\"@
+genomic locus" shape="ellipse" ];
+  "GENO_0000904" [ label="\"GENO_0000904\"@
+organismal entity" shape="ellipse" ];
+  "GENO_0000907" [ label="\"GENO_0000907\"@
+gene product" shape="ellipse" ];
+  "GENO_0000910" [ label="\"GENO_0000910\"@
+reporter role" shape="ellipse" ];
+  "GENO_0000911" [ label="\"GENO_0000911\"@
+selectable marker role" shape="ellipse" ];
+  "GENO_0000912" [ label="\"GENO_0000912\"@
+selectable marker region" shape="ellipse" ];
+  "GENO_0000914" [ label="\"GENO_0000914\"@
+reference genome" shape="ellipse" ];
+  "GENO_0000915" [ label="\"GENO_0000915\"@
+haplotype" shape="ellipse" ];
+  "GENO_0000916" [ label="\"GENO_0000916\"@
+haplotype block" shape="ellipse" ];
+  "GENO_0000918" [ label="\"GENO_0000918\"@
+organellar plasmy" shape="ellipse" ];
+  "GENO_0000919" [ label="\"GENO_0000919\"@
+qualified sequence feature" shape="ellipse" ];
+  "GENO_0000920" [ label="\"GENO_0000920\"@
+qualified sequence feature complement" shape="ellipse" ];
+  "GENO_0000921" [ label="\"GENO_0000921\"@
+biological sequence or collection" shape="ellipse" ];
+  "GENO_0000922" [ label="\"GENO_0000922\"@
+biological sequence complement" shape="ellipse" ];
+  "GENO_0000923" [ label="\"GENO_0000923\"@
+genetic dosage" shape="ellipse" ];
+  "GENO_0000924" [ label="\"GENO_0000924\"@
+obsolete_intrinsic sequence feature attribute" shape="ellipse" ];
+  "GENO_0000925" [ label="\"GENO_0000925\"@
+obsolete_extrinsic sequence feature attribute" shape="ellipse" ];
+  "GENO_0000926" [ label="\"GENO_0000926\"@
+allelic cellular distribution" shape="ellipse" ];
+  "GENO_0000927" [ label="\"GENO_0000927\"@
+constitutional" shape="ellipse" ];
+  "GENO_0000928" [ label="\"GENO_0000928\"@
+clonal" shape="ellipse" ];
+  "GENO_0000929" [ label="\"GENO_0000929\"@
+multifactorial inheritance" shape="ellipse" ];
+  "GENO_0000930" [ label="\"GENO_0000930\"@
+digenic inheritance" shape="ellipse" ];
+  "GENO_0000931" [ label="\"GENO_0000931\"@
+oligogenic inheritance" shape="ellipse" ];
+  "GENO_0000932" [ label="\"GENO_0000932\"@
+polygenic inheritance" shape="ellipse" ];
+  "GENO_0000933" [ label="\"GENO_0000933\"@
+monogenic inheritance" shape="ellipse" ];
+  "GENO_0000934" [ label="\"GENO_0000934\"@
+autosomal inheritance" shape="ellipse" ];
+  "GENO_0000935" [ label="\"GENO_0000935\"@
+allosomal inheritance" shape="ellipse" ];
+  "GENO_0000936" [ label="\"GENO_0000936\"@
+X-linked inheritance" shape="ellipse" ];
+  "GENO_0000937" [ label="\"GENO_0000937\"@
+complete X-linked dominant inheritance" shape="ellipse" ];
+  "GENO_0000938" [ label="\"GENO_0000938\"@
+incomplete X-linked dominant inheritance" shape="ellipse" ];
+  "GENO_0000939" [ label="\"GENO_0000939\"@
+co-dominant X-linked inheritance" shape="ellipse" ];
+  "GENO_0000941" [ label="\"GENO_0000941\"@
+Y-linked inheritance" shape="ellipse" ];
+  "GENO_0000942" [ label="\"GENO_0000942\"@
+Z-linked inheritance" shape="ellipse" ];
+  "GENO_0000943" [ label="\"GENO_0000943\"@
+Z-linked dominant inheritance" shape="ellipse" ];
+  "GENO_0000944" [ label="\"GENO_0000944\"@
+complete Z-linked dominant inheritance" shape="ellipse" ];
+  "GENO_0000945" [ label="\"GENO_0000945\"@
+incomplete Z-linked dominant inheritance" shape="ellipse" ];
+  "GENO_0000946" [ label="\"GENO_0000946\"@
+co-dominant Z-linked inheritance" shape="ellipse" ];
+  "GENO_0000947" [ label="\"GENO_0000947\"@
+Z-linked reccessive inheritance" shape="ellipse" ];
+  "GENO_0000948" [ label="\"GENO_0000948\"@
+W-linked inheritance" shape="ellipse" ];
+  "GENO_0000949" [ label="\"GENO_0000949\"@
+mitochondrial inheritance" shape="ellipse" ];
+  "GENO_0000952" [ label="\"GENO_0000952\"@
+sex-limited autosomal dominant inheritance" shape="ellipse" ];
+  "GENO_0000953" [ label="\"GENO_0000953\"@
+sex-limited autosomal recessive inheritance" shape="ellipse" ];
+  "GO_0003674" [ label="\"GO_0003674\"@
+molecular function" shape="ellipse" ];
+  "GO_0032502" [ label="\"GO_0032502\"@
+developmental process" shape="ellipse" ];
+  "HP_0000118" [ label="\"HP_0000118\"@
+human phenotypic abnormality" shape="ellipse" ];
+  "HsapDv_0000000" [ label="\"HsapDv_0000000\"@
+human life cycle stage" shape="ellipse" ];
+  "IAO_0000030" [ label="\"IAO_0000030\"@
+information content entity" shape="ellipse" ];
+  "IAO_0000102" [ label="\"IAO_0000102\"@
+data about an ontology part" shape="ellipse" ];
+  "MP_0000001" [ label="\"MP_0000001\"@
+mammalian phenotype" shape="ellipse" ];
+  "NCBITaxon_10090" [ label="\"NCBITaxon_10090\"@
+Mus musculus" shape="ellipse" ];
+  "NCBITaxon_10239" [ label="\"NCBITaxon_10239\"@
+Viruses" shape="ellipse" ];
+  "NCBITaxon_7955" [ label="\"NCBITaxon_7955\"@
+Danio rerio" shape="ellipse" ];
+  "NCBITaxon_8090" [ label="\"NCBITaxon_8090\"@
+Oryzias latipes" shape="ellipse" ];
+  "NCBITaxon_9606" [ label="\"NCBITaxon_9606\"@
+Homo sapiens" shape="ellipse" ];
+  "OBI_0000011" [ label="\"OBI_0000011\"@
+planned process" shape="ellipse" ];
+  "OBI_0000086" [ label="\"OBI_0000086\"@
+reagent role" shape="ellipse" ];
+  "OBI_0000181" [ label="\"OBI_0000181\"@
+population" shape="ellipse" ];
+  "OBI_0000435" [ label="\"OBI_0000435\"@
+genotyping assay" shape="ellipse" ];
+  "OBI_0001148" [ label="\"OBI_0001148\"@
+targeted gene knock-out technique" shape="ellipse" ];
+  "OBI_0001149" [ label="\"OBI_0001149\"@
+targeted gene knock-in technique" shape="ellipse" ];
+  "OBI_0100026" [ label="\"OBI_0100026\"@
+organism" shape="ellipse" ];
+  "OBI_0600043" [ label="\"OBI_0600043\"@
+genetic modification technique" shape="ellipse" ];
+  "PATO_0000016" [ label="\"PATO_0000016\"@
+obsolete_color brightness" shape="ellipse" ];
+  "PATO_0000383" [ label="\"PATO_0000383\"@
+female" shape="ellipse" ];
+  "PATO_0000384" [ label="\"PATO_0000384\"@
+male" shape="ellipse" ];
+  "PATO_0001894" [ label="\"PATO_0001894\"@
+phenotypic sex" shape="ellipse" ];
+  "PCO_0000000" [ label="\"PCO_0000000\"@
+collection of organisms" shape="ellipse" ];
+  "PCO_0000020" [ label="\"PCO_0000020\"@
+family" shape="ellipse" ];
+  "SO_0000034" [ label="\"SO_0000034\"@
+morpholino_oligo" shape="ellipse" ];
+  "SO_0000105" [ label="\"SO_0000105\"@
+chromosome arm" shape="ellipse" ];
+  "SO_0000110" [ label="\"SO_0000110\"@
+sequence_feature" shape="ellipse" ];
+  "SO_0000143" [ label="\"SO_0000143\"@
+assembly_component" shape="ellipse" ];
+  "SO_0000149" [ label="\"SO_0000149\"@
+contig" shape="ellipse" ];
+  "SO_0000159" [ label="\"SO_0000159\"@
+deletion" shape="ellipse" ];
+  "SO_0000165" [ label="\"SO_0000165\"@
+enhancer" shape="ellipse" ];
+  "SO_0000167" [ label="\"SO_0000167\"@
+promoter" shape="ellipse" ];
+  "SO_0000199" [ label="\"SO_0000199\"@
+translocation" shape="ellipse" ];
+  "SO_0000207" [ label="\"SO_0000207\"@
+simple_sequence_length_variation" shape="ellipse" ];
+  "SO_0000248" [ label="\"SO_0000248\"@
+sequence_length_variation" shape="ellipse" ];
+  "SO_0000281" [ label="\"SO_0000281\"@
+engineered_foreign_gene" shape="ellipse" ];
+  "SO_0000289" [ label="\"SO_0000289\"@
+microsatellite" shape="ellipse" ];
+  "SO_0000337" [ label="\"SO_0000337\"@
+RNAi_reagent" shape="ellipse" ];
+  "SO_0000340" [ label="\"SO_0000340\"@
+chromosome" shape="ellipse" ];
+  "SO_0000341" [ label="\"SO_0000341\"@
+chromosome band" shape="ellipse" ];
+  "SO_0000577" [ label="\"SO_0000577\"@
+centromere" shape="ellipse" ];
+  "SO_0000637" [ label="\"SO_0000637\"@
+obsolete_engineered_plasmid" shape="ellipse" ];
+  "SO_0000667" [ label="\"SO_0000667\"@
+insertion" shape="ellipse" ];
+  "SO_0000694" [ label="\"SO_0000694\"@
+SNP" shape="ellipse" ];
+  "SO_0000699" [ label="\"SO_0000699\"@
+junction" shape="ellipse" ];
+  "SO_0000704" [ label="\"SO_0000704\"@
+gene" shape="ellipse" ];
+  "SO_0000771" [ label="\"SO_0000771\"@
+QTL" shape="ellipse" ];
+  "SO_0000783" [ label="\"SO_0000783\"@
+engineered" shape="ellipse" ];
+  "SO_0000804" [ label="\"SO_0000804\"@
+engineered_region" shape="ellipse" ];
+  "SO_0000830" [ label="\"SO_0000830\"@
+chromosome part" shape="ellipse" ];
+  "SO_0000902" [ label="\"SO_0000902\"@
+transgene" shape="ellipse" ];
+  "SO_0001013" [ label="\"SO_0001013\"@
+MNP" shape="ellipse" ];
+  "SO_0001019" [ label="\"SO_0001019\"@
+copy_number_variation" shape="ellipse" ];
+  "SO_0001026" [ label="\"SO_0001026\"@
+genome" shape="ellipse" ];
+  "SO_0001059" [ label="\"SO_0001059\"@
+sequence_alteration" shape="ellipse" ];
+  "SO_0001218" [ label="\"SO_0001218\"@
+transgenic_insertion" shape="ellipse" ];
+  "SO_0001410" [ label="\"SO_0001410\"@
+experimental_feature" shape="ellipse" ];
+  "SO_0001477" [ label="\"SO_0001477\"@
+gene_trap_construct" shape="ellipse" ];
+  "SO_0001478" [ label="\"SO_0001478\"@
+promoter_trap_construct" shape="ellipse" ];
+  "SO_0001479" [ label="\"SO_0001479\"@
+enhancer_trap_construct" shape="ellipse" ];
+  "SO_0001483" [ label="\"SO_0001483\"@
+SNV" shape="ellipse" ];
+  "SO_0001500" [ label="\"SO_0001500\"@
+heritable_phenotypic_marker" shape="ellipse" ];
+  "SO_0001505" [ label="\"SO_0001505\"@
+reference genome sequence" shape="ellipse" ];
+  "SO_0001742" [ label="\"SO_0001742\"@
+copy_number_gain" shape="ellipse" ];
+  "SO_0001743" [ label="\"SO_0001743\"@
+copy_number_loss" shape="ellipse" ];
+  "SO_0001744" [ label="\"SO_0001744\"@
+UPD" shape="ellipse" ];
+  "SO_0001745" [ label="\"SO_0001745\"@
+maternal_uniparental_disomy" shape="ellipse" ];
+  "SO_0001746" [ label="\"SO_0001746\"@
+paternal_uniparental_disomy" shape="ellipse" ];
+  "SO_0001784" [ label="\"SO_0001784\"@
+complex_structural_alteration" shape="ellipse" ];
+  "SO_0001785" [ label="\"SO_0001785\"@
+structural_alteration" shape="ellipse" ];
+  "SO_0005836" [ label="\"SO_0005836\"@
+regulatory_region" shape="ellipse" ];
+  "SO_1000002" [ label="\"SO_1000002\"@
+substitution" shape="ellipse" ];
+  "SO_1000005" [ label="\"SO_1000005\"@
+complex_substitution" shape="ellipse" ];
+  "SO_1000008" [ label="\"SO_1000008\"@
+point_mutation" shape="ellipse" ];
+  "SO_1000009" [ label="\"SO_1000009\"@
+transition" shape="ellipse" ];
+  "SO_1000010" [ label="\"SO_1000010\"@
+pyrimidine_transition" shape="ellipse" ];
+  "SO_1000011" [ label="\"SO_1000011\"@
+C_to_T_transition" shape="ellipse" ];
+  "SO_1000012" [ label="\"SO_1000012\"@
+C_to_T_transition_at_pCpG_site" shape="ellipse" ];
+  "SO_1000013" [ label="\"SO_1000013\"@
+T_to_C_transition" shape="ellipse" ];
+  "SO_1000014" [ label="\"SO_1000014\"@
+purine_transition" shape="ellipse" ];
+  "SO_1000015" [ label="\"SO_1000015\"@
+A_to_G_transition" shape="ellipse" ];
+  "SO_1000016" [ label="\"SO_1000016\"@
+G_to_A_transition" shape="ellipse" ];
+  "SO_1000017" [ label="\"SO_1000017\"@
+transversion" shape="ellipse" ];
+  "SO_1000018" [ label="\"SO_1000018\"@
+pyrimidine_to_purine_transversion" shape="ellipse" ];
+  "SO_1000019" [ label="\"SO_1000019\"@
+C_to_A_transversion" shape="ellipse" ];
+  "SO_1000020" [ label="\"SO_1000020\"@
+C_to_G_transversion" shape="ellipse" ];
+  "SO_1000021" [ label="\"SO_1000021\"@
+T_to_A_transversion" shape="ellipse" ];
+  "SO_1000022" [ label="\"SO_1000022\"@
+T_to_G_transversion" shape="ellipse" ];
+  "SO_1000023" [ label="\"SO_1000023\"@
+purine_to_pyrimidine_transversion" shape="ellipse" ];
+  "SO_1000024" [ label="\"SO_1000024\"@
+A_to_C_transversion" shape="ellipse" ];
+  "SO_1000025" [ label="\"SO_1000025\"@
+A_to_T_transversion" shape="ellipse" ];
+  "SO_1000026" [ label="\"SO_1000026\"@
+G_to_C_transversion" shape="ellipse" ];
+  "SO_1000027" [ label="\"SO_1000027\"@
+G_to_T_transversion" shape="ellipse" ];
+  "SO_1000032" [ label="\"SO_1000032\"@
+indel" shape="ellipse" ];
+  "SO_1000035" [ label="\"SO_1000035\"@
+duplication" shape="ellipse" ];
+  "SO_1000036" [ label="\"SO_1000036\"@
+inversion" shape="ellipse" ];
+  "SO_1000039" [ label="\"SO_1000039\"@
+direct_tandem_duplication" shape="ellipse" ];
+  "SO_1000040" [ label="\"SO_1000040\"@
+inverted_tandem_duplication" shape="ellipse" ];
+  "SO_1000173" [ label="\"SO_1000173\"@
+tandem_duplication" shape="ellipse" ];
+  "UBERON_0000105" [ label="\"UBERON_0000105\"@
+life cycle stage" shape="ellipse" ];
+  "UBERON_0001062" [ label="\"UBERON_0001062\"@
+anatomical entity" shape="ellipse" ];
+  "UPHENO_0001001" [ label="\"UPHENO_0001001\"@
+Phenotype" shape="ellipse" ];
+  "WBPhenotype_0000886" [ label="\"WBPhenotype_0000886\"@
+worm phenotype" shape="ellipse" ];
+  "ZP_0000199" [ label="\"ZP_0000199\"@
+abnormal(ly) malformed endocardium cell" shape="ellipse" ];
+  "ZP_0000386" [ label="\"ZP_0000386\"@
+abnormal(ly) absent dorso-rostral cluster" shape="ellipse" ];
+  "ZP_0000755" [ label="\"ZP_0000755\"@
+abnormal(ly) disrupted  diencephalon development" shape="ellipse" ];
+  "ZP_0005531" [ label="\"ZP_0005531\"@
+abnormal(ly) disrupted neutrophil aggregation" shape="ellipse" ];
+  "ZP_0005692" [ label="\"ZP_0005692\"@
+abnormal(ly) absent adaxial cell" shape="ellipse" ];
+  "association" [ label="\"association\"@
+association" shape="ellipse" ];
+  "ObsoleteClass" [ label="\"ObsoleteClass\"@
+ObsoleteClass" shape="ellipse" ];
+  "20423" [ label="\"20423\"@
+mus musculus shh gene" shape="ellipse" ];
+  "30269" [ label="\"30269\"@
+danio rerio shha gene" shape="ellipse" ];
+  "399483" [ label="\"399483\"@
+danio rerio cdkn1ca gene" shape="ellipse" ];
+  "6469" [ label="\"6469\"@
+homo sapiens SHH gene" shape="ellipse" ];
+  "Thing" [ label="\"Thing\"@
+Thing" shape="ellipse" ];
+  "ONTORELA_C78d57b7f" [ label="\"ONTORELA_C78d57b7f\"@
+has subsequence some sequence_alteration" shape="ellipse" ];
+  "ONTORELA_C6cdb8ddf" [ label="\"ONTORELA_C6cdb8ddf\"@
+genomic feature complement or qualified genomic feature complement" shape="ellipse" ];
+  "ONTORELA_C349f0240" [ label="\"ONTORELA_C349f0240\"@
+single locus complement or genome" shape="ellipse" ];
+  "ONTORELA_C64c7aff2" [ label="\"ONTORELA_C64c7aff2\"@
+cell or Viruses" shape="ellipse" ];
+  "ONTORELA_C6eeefcf9" [ label="\"ONTORELA_C6eeefcf9\"@
+genotype or (is part of some genotype)" shape="ellipse" ];
+  "ONTORELA_C50fc6ccd" [ label="\"ONTORELA_C50fc6ccd\"@
+is part of some genotype" shape="ellipse" ];
+  "ONTORELA_C55a946a3" [ label="\"ONTORELA_C55a946a3\"@
+genomic material
+ and (bears_concretization_of some variant allele)" shape="ellipse" ];
+  "ONTORELA_C3009a2bd" [ label="\"ONTORELA_C3009a2bd\"@
+developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))" shape="ellipse" ];
+  "string" [ label="\"string\"@
+string" shape="box" ];
+  "GENO_0000119" -> "GENO_0000112" [ label="\"isa\"" style="solid" ];
+  "SO_1000013" -> "SO_1000010" [ label="\"isa\"" style="solid" ];
+  "GENO_0000873" -> "GENO_0000874" [ label="\"isa\"" style="solid" ];
+  "SO_0000143" -> "SO_0001410" [ label="\"isa\"" style="solid" ];
+  "GENO_0000779" -> "GENO_0000702" [ label="\"isa\"" style="solid" ];
+  "GENO_0000889" -> "GENO_0000141" [ label="\"isa\"" style="solid" ];
+  "GENO_0000624" -> "GENO_0000619" [ label="\"isa\"" style="solid" ];
+  "SO_0000167" -> "SO_0005836" [ label="\"isa\"" style="solid" ];
+  "GENO_0000713" -> "BFO_0000031" [ label="\"isa\"" style="solid" ];
+  "SO_0000704" -> "GENO_0000481" [ label="\"isa\"" style="solid" ];
+  "GENO_0000645" -> "GENO_0000899" [ label="\"isa\"" style="solid" ];
+  "GENO_0000533" -> "SO_0000804" [ label="\"isa\"" style="solid" ];
+  "GENO_0000953" -> "GENO_0000148" [ label="\"isa\"" style="solid" ];
+  "GENO_0000498" -> "GENO_0000497" [ label="\"isa\"" style="solid" ];
+  "GENO_0000646" -> "GENO_0000645" [ label="\"isa\"" style="solid" ];
+  "GENO_0000871" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000351" -> "BFO_0000015" [ label="\"isa\"" style="solid" ];
+  "GENO_0000108" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "GENO_0000647" -> "GENO_0000645" [ label="\"isa\"" style="solid" ];
+  "GENO_0000500" -> "GENO_0000497" [ label="\"isa\"" style="solid" ];
+  "ZP_0000755" -> "GENO_0000575" [ label="\"isa\"" style="solid" ];
+  "SO_1000002" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000513" -> "GENO_0000773" [ label="\"isa\"" style="solid" ];
+  "SO_1000173" -> "SO_1000035" [ label="\"isa\"" style="solid" ];
+  "GENO_0000649" -> "GENO_0000611" [ label="\"isa\"" style="solid" ];
+  "SO_1000015" -> "SO_1000014" [ label="\"isa\"" style="solid" ];
+  "GENO_0000911" -> "OBI_0000086" [ label="\"isa\"" style="solid" ];
+  "GENO_0000393" -> "GENO_0000392" [ label="\"isa\"" style="solid" ];
+  "GENO_0000724" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "SO_0001479" -> "GENO_0000856" [ label="\"isa\"" style="solid" ];
+  "SO_0000577" -> "SO_0000830" [ label="\"isa\"" style="solid" ];
+  "GENO_0000415" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000927" -> "GENO_0000926" [ label="\"isa\"" style="solid" ];
+  "GENO_0000875" -> "GENO_0000788" [ label="\"isa\"" style="solid" ];
+  "GENO_0000916" -> "GENO_0000481" [ label="\"isa\"" style="solid" ];
+  "SO_1000035" -> "SO_0000667" [ label="\"isa\"" style="solid" ];
+  "GENO_0000136" -> "GENO_0000391" [ label="\"isa\"" style="solid" ];
+  "SO_1000010" -> "SO_1000009" [ label="\"isa\"" style="solid" ];
+  "GENO_0000772" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "PATO_0000016" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000502" -> "SO_0000704" [ label="\"isa\"" style="solid" ];
+  "ForwardStrandPosition" -> "StrandedPosition" [ label="\"isa\"" style="solid" ];
+  "GENO_0000042" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000480" -> "GENO_0000773" [ label="\"isa\"" style="solid" ];
+  "GENO_0000926" -> "GENO_0000788" [ label="\"isa\"" style="solid" ];
+  "GENO_0000145" -> "GENO_0000147" [ label="\"isa\"" style="solid" ];
+  "ENVO_01000254" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "GENO_0000946" -> "GENO_0000943" [ label="\"isa\"" style="solid" ];
+  "OBI_0000086" -> "BFO_0000023" [ label="\"isa\"" style="solid" ];
+  "GENO_0000160" -> "UBERON_0000105" [ label="\"isa\"" style="solid" ];
+  "NCBITaxon_7955" -> "OBI_0100026" [ label="\"isa\"" style="solid" ];
+  "GENO_0000883" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000501" -> "GENO_0000512" [ label="\"isa\"" style="solid" ];
+  "GENO_0000930" -> "GENO_0000929" [ label="\"isa\"" style="solid" ];
+  "GENO_0000881" -> "GENO_0000877" [ label="\"isa\"" style="solid" ];
+  "SO_0001026" -> "GENO_0000660" [ label="\"isa\"" style="solid" ];
+  "GENO_0000143" -> "GENO_0000147" [ label="\"isa\"" style="solid" ];
+  "GENO_0000848" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "SO_1000022" -> "SO_1000018" [ label="\"isa\"" style="solid" ];
+  "GENO_0000148" -> "GENO_0000934" [ label="\"isa\"" style="solid" ];
+  "GENO_0000715" -> "GENO_0000920" [ label="\"isa\"" style="solid" ];
+  "GENO_0000782" -> "GENO_0000779" [ label="\"isa\"" style="solid" ];
+  "IAO_0000102" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "SO_1000009" -> "SO_0001483" [ label="\"isa\"" style="solid" ];
+  "GENO_0000029" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "OBI_0100026" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "SO_0000199" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000172" -> "GENO_0000170" [ label="\"isa\"" style="solid" ];
+  "Position" -> "GENO_0000902" [ label="\"isa\"" style="solid" ];
+  "GENO_0000918" -> "GENO_0000875" [ label="\"isa\"" style="solid" ];
+  "SO_0001784" -> "SO_0001785" [ label="\"isa\"" style="solid" ];
+  "SO_1000025" -> "SO_1000023" [ label="\"isa\"" style="solid" ];
+  "GENO_0000922" -> "GENO_0000921" [ label="\"isa\"" style="solid" ];
+  "GENO_0000856" -> "SO_0000804" [ label="\"isa\"" style="solid" ];
+  "GENO_0000174" -> "GENO_0000170" [ label="\"isa\"" style="solid" ];
+  "SO_0000694" -> "SO_0001483" [ label="\"isa\"" style="solid" ];
+  "GENO_0000000" -> "GENO_0000899" [ label="\"isa\"" style="solid" ];
+  "SO_0000771" -> "GENO_0000481" [ label="\"isa\"" style="solid" ];
+  "GENO_0000402" -> "GENO_0000135" [ label="\"isa\"" style="solid" ];
+  "GENO_0000628" -> "SO_0000105" [ label="\"isa\"" style="solid" ];
+  "SO_0001500" -> "GENO_0000481" [ label="\"isa\"" style="solid" ];
+  "SO_0001743" -> "SO_0001019" [ label="\"isa\"" style="solid" ];
+  "GENO_0000504" -> "GENO_0000529" [ label="\"isa\"" style="solid" ];
+  "GENO_0000527" -> "GENO_0000715" [ label="\"isa\"" style="solid" ];
+  "GENO_0000499" -> "GENO_0000497" [ label="\"isa\"" style="solid" ];
+  "GENO_0000137" -> "GENO_0000133" [ label="\"isa\"" style="solid" ];
+  "BFO_0000020" -> "BFO_0000002" [ label="\"isa\"" style="solid" ];
+  "CL_0000000" -> "UBERON_0001062" [ label="\"isa\"" style="solid" ];
+  "SO_0001505" -> "GENO_0000017" [ label="\"isa\"" style="solid" ];
+  "GENO_0000529" -> "GENO_0000737" [ label="\"isa\"" style="solid" ];
+  "GENO_0000644" -> "GENO_0000899" [ label="\"isa\"" style="solid" ];
+  "30269" -> "GENO_0000047" [ label="\"isa\"" style="solid" ];
+  "GENO_0000914" -> "SO_0001026" [ label="\"isa\"" style="solid" ];
+  "SO_0001744" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "SO_0001013" -> "SO_1000002" [ label="\"isa\"" style="solid" ];
+  "MP_0000001" -> "UPHENO_0001001" [ label="\"isa\"" style="solid" ];
+  "NCBITaxon_8090" -> "OBI_0100026" [ label="\"isa\"" style="solid" ];
+  "SO_0000667" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "SO_1000020" -> "SO_1000018" [ label="\"isa\"" style="solid" ];
+  "GENO_0000343" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000169" -> "GENO_0000164" [ label="\"isa\"" style="solid" ];
+  "GENO_0000892" -> "GENO_0000949" [ label="\"isa\"" style="solid" ];
+  "SO_0000340" -> "GENO_0000481" [ label="\"isa\"" style="solid" ];
+  "SO_0001218" -> "SO_0000667" [ label="\"isa\"" style="solid" ];
+  "GENO_0000737" -> "GENO_0000714" [ label="\"isa\"" style="solid" ];
+  "GENO_0000502" -> "GENO_0000501" [ label="\"isa\"" style="solid" ];
+  "GENO_0000888" -> "GENO_0000877" [ label="\"isa\"" style="solid" ];
+  "GENO_0000637" -> "SO_0005836" [ label="\"isa\"" style="solid" ];
+  "GENO_0000135" -> "GENO_0000391" [ label="\"isa\"" style="solid" ];
+  "GENO_0000912" -> "GENO_0000638" [ label="\"isa\"" style="solid" ];
+  "GENO_0000147" -> "GENO_0000934" [ label="\"isa\"" style="solid" ];
+  "GENO_0000688" -> "SO_0000110" [ label="\"isa\"" style="solid" ];
+  "PATO_0001894" -> "BFO_0000019" [ label="\"isa\"" style="solid" ];
+  "GENO_0000907" -> "SO_0000110" [ label="\"isa\"" style="solid" ];
+  "GENO_0000897" -> "BFO_0000031" [ label="\"isa\"" style="solid" ];
+  "NCBITaxon_10090" -> "OBI_0100026" [ label="\"isa\"" style="solid" ];
+  "BFO_0000002" -> "BFO_0000001" [ label="\"isa\"" style="solid" ];
+  "SO_1000014" -> "SO_1000009" [ label="\"isa\"" style="solid" ];
+  "GENO_0000877" -> "GENO_0000788" [ label="\"isa\"" style="solid" ];
+  "GENO_0000344" -> "GENO_0000343" [ label="\"isa\"" style="solid" ];
+  "GENO_0000702" -> "GENO_0000921" [ label="\"isa\"" style="solid" ];
+  "SO_0001742" -> "SO_0001019" [ label="\"isa\"" style="solid" ];
+  "GENO_0000534" -> "GENO_0000737" [ label="\"isa\"" style="solid" ];
+  "SO_0000289" -> "GENO_0000481" [ label="\"isa\"" style="solid" ];
+  "GENO_0000092" -> "SO_0000667" [ label="\"isa\"" style="solid" ];
+  "GENO_0000891" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "OBI_0001149" -> "GENO_0000166" [ label="\"isa\"" style="solid" ];
+  "GENO_0000629" -> "SO_0000105" [ label="\"isa\"" style="solid" ];
+  "OBI_0000181" -> "GENO_0000113" [ label="\"isa\"" style="solid" ];
+  "SO_0001478" -> "GENO_0000856" [ label="\"isa\"" style="solid" ];
+  "SO_0005836" -> "GENO_0000666" [ label="\"isa\"" style="solid" ];
+  "GENO_0000166" -> "OBI_0600043" [ label="\"isa\"" style="solid" ];
+  "GENO_0000524" -> "GENO_0000536" [ label="\"isa\"" style="solid" ];
+  "ERO_0000007" -> "OBI_0000011" [ label="\"isa\"" style="solid" ];
+  "HsapDv_0000000" -> "GENO_0000351" [ label="\"isa\"" style="solid" ];
+  "UBERON_0001062" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "GENO_0000144" -> "GENO_0000147" [ label="\"isa\"" style="solid" ];
+  "GENO_0000106" -> "GENO_0000482" [ label="\"isa\"" style="solid" ];
+  "6469" -> "GENO_0000054" [ label="\"isa\"" style="solid" ];
+  "GENO_0000113" -> "PCO_0000000" [ label="\"isa\"" style="solid" ];
+  "GO_0003674" -> "BFO_0000034" [ label="\"isa\"" style="solid" ];
+  "GENO_0000619" -> "GENO_0000618" [ label="\"isa\"" style="solid" ];
+  "GENO_0000839" -> "GENO_0000527" [ label="\"isa\"" style="solid" ];
+  "SO_0000783" -> "GENO_0000788" [ label="\"isa\"" style="solid" ];
+  "SO_0000034" -> "GENO_0000533" [ label="\"isa\"" style="solid" ];
+  "GENO_0000091" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000618" -> "GENO_0000788" [ label="\"isa\"" style="solid" ];
+  "GENO_0000939" -> "GENO_0000146" [ label="\"isa\"" style="solid" ];
+  "GENO_0000901" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "SO_0000281" -> "SO_0000704" [ label="\"isa\"" style="solid" ];
+  "GENO_0000736" -> "GENO_0000714" [ label="\"isa\"" style="solid" ];
+  "20423" -> "GENO_0000057" [ label="\"isa\"" style="solid" ];
+  "SO_1000021" -> "SO_1000018" [ label="\"isa\"" style="solid" ];
+  "GENO_0000882" -> "GENO_0000877" [ label="\"isa\"" style="solid" ];
+  "GENO_0000920" -> "GENO_0000713" [ label="\"isa\"" style="solid" ];
+  "GENO_0000936" -> "GENO_0000935" [ label="\"isa\"" style="solid" ];
+  "GENO_0000346" -> "SO_0000340" [ label="\"isa\"" style="solid" ];
+  "OBI_0000011" -> "BFO_0000015" [ label="\"isa\"" style="solid" ];
+  "GENO_0000714" -> "GENO_0000919" [ label="\"isa\"" style="solid" ];
+  "SO_1000036" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "SO_1000024" -> "SO_1000023" [ label="\"isa\"" style="solid" ];
+  "GENO_0000778" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000890" -> "GENO_0000701" [ label="\"isa\"" style="solid" ];
+  "SO_0000248" -> "SO_1000002" [ label="\"isa\"" style="solid" ];
+  "GENO_0000022" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000932" -> "GENO_0000929" [ label="\"isa\"" style="solid" ];
+  "BothStrandsPosition" -> "StrandedPosition" [ label="\"isa\"" style="solid" ];
+  "OBI_0000435" -> "ERO_0000007" [ label="\"isa\"" style="solid" ];
+  "GENO_0000768" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000125" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000602" -> "GENO_0000918" [ label="\"isa\"" style="solid" ];
+  "GENO_0000874" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000620" -> "GENO_0000618" [ label="\"isa\"" style="solid" ];
+  "GENO_0000482" -> "CHEBI_33696" [ label="\"isa\"" style="solid" ];
+  "GENO_0000770" -> "GENO_0000351" [ label="\"isa\"" style="solid" ];
+  "ZP_0000386" -> "GENO_0000575" [ label="\"isa\"" style="solid" ];
+  "PATO_0000384" -> "PATO_0001894" [ label="\"isa\"" style="solid" ];
+  "GENO_0000815" -> "BFO_0000031" [ label="\"isa\"" style="solid" ];
+  "GENO_0000681" -> "GENO_0000684" [ label="\"isa\"" style="solid" ];
+  "GENO_0000536" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "BFO_0000034" -> "BFO_0000016" [ label="\"isa\"" style="solid" ];
+  "StrandedPosition" -> "Position" [ label="\"isa\"" style="solid" ];
+  "GENO_0000164" -> "OBI_0600043" [ label="\"isa\"" style="solid" ];
+  "SO_1000011" -> "SO_1000010" [ label="\"isa\"" style="solid" ];
+  "SO_1000023" -> "SO_1000017" [ label="\"isa\"" style="solid" ];
+  "NCBITaxon_10239" -> "OBI_0100026" [ label="\"isa\"" style="solid" ];
+  "GENO_0000861" -> "SO_0000902" [ label="\"isa\"" style="solid" ];
+  "GENO_0000141" -> "BFO_0000016" [ label="\"isa\"" style="solid" ];
+  "SO_0000341" -> "SO_0000830" [ label="\"isa\"" style="solid" ];
+  "SO_0001746" -> "SO_0001744" [ label="\"isa\"" style="solid" ];
+  "BFO_0000003" -> "BFO_0000001" [ label="\"isa\"" style="solid" ];
+  "GENO_0000941" -> "GENO_0000935" [ label="\"isa\"" style="solid" ];
+  "GENO_0000910" -> "OBI_0000086" [ label="\"isa\"" style="solid" ];
+  "SO_1000017" -> "SO_0001483" [ label="\"isa\"" style="solid" ];
+  "GENO_0000132" -> "GENO_0000886" [ label="\"isa\"" style="solid" ];
+  "GENO_0000392" -> "GENO_0000133" [ label="\"isa\"" style="solid" ];
+  "SO_0001785" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000173" -> "GENO_0000170" [ label="\"isa\"" style="solid" ];
+  "SO_1000019" -> "SO_1000018" [ label="\"isa\"" style="solid" ];
+  "SO_0000699" -> "SO_0000110" [ label="\"isa\"" style="solid" ];
+  "SO_0000105" -> "SO_0000830" [ label="\"isa\"" style="solid" ];
+  "CLO_0000031" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "GENO_0000139" -> "GENO_0000138" [ label="\"isa\"" style="solid" ];
+  "OBI_0001148" -> "GENO_0000166" [ label="\"isa\"" style="solid" ];
+  "GENO_0000945" -> "GENO_0000943" [ label="\"isa\"" style="solid" ];
+  "GENO_0000616" -> "SO_0000830" [ label="\"isa\"" style="solid" ];
+  "GENO_0000659" -> "GENO_0000701" [ label="\"isa\"" style="solid" ];
+  "GENO_0000937" -> "GENO_0000146" [ label="\"isa\"" style="solid" ];
+  "CHEBI_23367" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "BFO_0000016" -> "BFO_0000017" [ label="\"isa\"" style="solid" ];
+  "GENO_0000722" -> "GENO_0000702" [ label="\"isa\"" style="solid" ];
+  "GENO_0000614" -> "SO_0000830" [ label="\"isa\"" style="solid" ];
+  "GENO_0000625" -> "GENO_0000619" [ label="\"isa\"" style="solid" ];
+  "GENO_0000391" -> "GENO_0000133" [ label="\"isa\"" style="solid" ];
+  "ZP_0000199" -> "GENO_0000575" [ label="\"isa\"" style="solid" ];
+  "GENO_0000904" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "GENO_0000902" -> "GENO_0000815" [ label="\"isa\"" style="solid" ];
+  "GENO_0000720" -> "GENO_0000702" [ label="\"isa\"" style="solid" ];
+  "ERO_0002003" -> "CLO_0000031" [ label="\"isa\"" style="solid" ];
+  "GENO_0000876" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000138" -> "BFO_0000016" [ label="\"isa\"" style="solid" ];
+  "SO_0000337" -> "GENO_0000533" [ label="\"isa\"" style="solid" ];
+  "GENO_0000948" -> "GENO_0000935" [ label="\"isa\"" style="solid" ];
+  "GENO_0000060" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000640" -> "GENO_0000638" [ label="\"isa\"" style="solid" ];
+  "UBERON_0000105" -> "GENO_0000351" [ label="\"isa\"" style="solid" ];
+  "SO_0001410" -> "SO_0000110" [ label="\"isa\"" style="solid" ];
+  "GENO_0000933" -> "GENO_0000141" [ label="\"isa\"" style="solid" ];
+  "GENO_0000701" -> "BFO_0000031" [ label="\"isa\"" style="solid" ];
+  "PCO_0000000" -> "BFO_0000040" [ label="\"isa\"" style="solid" ];
+  "GENO_0000684" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000721" -> "GENO_0000702" [ label="\"isa\"" style="solid" ];
+  "GENO_0000929" -> "GENO_0000141" [ label="\"isa\"" style="solid" ];
+  "GENO_0000346" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000528" -> "GENO_0000715" [ label="\"isa\"" style="solid" ];
+  "GENO_0000345" -> "GENO_0000343" [ label="\"isa\"" style="solid" ];
+  "ERO_0002002" -> "ERO_0002003" [ label="\"isa\"" style="solid" ];
+  "GENO_0000952" -> "GENO_0000147" [ label="\"isa\"" style="solid" ];
+  "GENO_0000019" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000152" -> "GENO_0000773" [ label="\"isa\"" style="solid" ];
+  "SO_0001019" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000893" -> "GENO_0000949" [ label="\"isa\"" style="solid" ];
+  "GENO_0000878" -> "GENO_0000888" [ label="\"isa\"" style="solid" ];
+  "GENO_0000037" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000872" -> "GENO_0000922" [ label="\"isa\"" style="solid" ];
+  "GENO_0000942" -> "GENO_0000935" [ label="\"isa\"" style="solid" ];
+  "GENO_0000880" -> "GENO_0000877" [ label="\"isa\"" style="solid" ];
+  "GENO_0000495" -> "GENO_0000856" [ label="\"isa\"" style="solid" ];
+  "ZP_0005531" -> "GENO_0000575" [ label="\"isa\"" style="solid" ];
+  "association" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "GENO_0000788" -> "BFO_0000020" [ label="\"isa\"" style="solid" ];
+  "SO_1000012" -> "SO_1000011" [ label="\"isa\"" style="solid" ];
+  "GENO_0000833" -> "association" [ label="\"isa\"" style="solid" ];
+  "GENO_0000632" -> "GENO_0000619" [ label="\"isa\"" style="solid" ];
+  "GENO_0000886" -> "GENO_0000788" [ label="\"isa\"" style="solid" ];
+  "GENO_0000938" -> "GENO_0000146" [ label="\"isa\"" style="solid" ];
+  "SO_1000040" -> "SO_1000173" [ label="\"isa\"" style="solid" ];
+  "WBPhenotype_0000886" -> "UPHENO_0001001" [ label="\"isa\"" style="solid" ];
+  "PATO_0000383" -> "PATO_0001894" [ label="\"isa\"" style="solid" ];
+  "SO_0000159" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000165" -> "OBI_0600043" [ label="\"isa\"" style="solid" ];
+  "GENO_0000931" -> "GENO_0000929" [ label="\"isa\"" style="solid" ];
+  "OBI_0600043" -> "ERO_0000007" [ label="\"isa\"" style="solid" ];
+  "GENO_0000773" -> "GENO_0000788" [ label="\"isa\"" style="solid" ];
+  "GENO_0000934" -> "GENO_0000933" [ label="\"isa\"" style="solid" ];
+  "PCO_0000020" -> "PCO_0000000" [ label="\"isa\"" style="solid" ];
+  "GENO_0000476" -> "GENO_0000773" [ label="\"isa\"" style="solid" ];
+  "GENO_0000497" -> "GENO_0000512" [ label="\"isa\"" style="solid" ];
+  "GENO_0000150" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000605" -> "GENO_0000134" [ label="\"isa\"" style="solid" ];
+  "GENO_0000394" -> "GENO_0000392" [ label="\"isa\"" style="solid" ];
+  "SO_0000637" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000131" -> "GENO_0000886" [ label="\"isa\"" style="solid" ];
+  "GENO_0000887" -> "GENO_0000112" [ label="\"isa\"" style="solid" ];
+  "BFO_0000040" -> "BFO_0000004" [ label="\"isa\"" style="solid" ];
+  "GENO_0000623" -> "GENO_0000619" [ label="\"isa\"" style="solid" ];
+  "ReverseStrandPosition" -> "StrandedPosition" [ label="\"isa\"" style="solid" ];
+  "SO_0001477" -> "GENO_0000856" [ label="\"isa\"" style="solid" ];
+  "GENO_0000919" -> "GENO_0000713" [ label="\"isa\"" style="solid" ];
+  "GENO_0000725" -> "GENO_0000724" [ label="\"isa\"" style="solid" ];
+  "GENO_0000491" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000175" -> "GENO_0000169" [ label="\"isa\"" style="solid" ];
+  "GENO_0000925" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000093" -> "SO_0000902" [ label="\"isa\"" style="solid" ];
+  "GENO_0000818" -> "GENO_0000714" [ label="\"isa\"" style="solid" ];
+  "GENO_0000170" -> "GENO_0000164" [ label="\"isa\"" style="solid" ];
+  "BFO_0000017" -> "BFO_0000020" [ label="\"isa\"" style="solid" ];
+  "GENO_0000171" -> "GENO_0000170" [ label="\"isa\"" style="solid" ];
+  "SO_0000149" -> "SO_0000143" [ label="\"isa\"" style="solid" ];
+  "GENO_0000575" -> "UPHENO_0001001" [ label="\"isa\"" style="solid" ];
+  "GENO_0000935" -> "GENO_0000933" [ label="\"isa\"" style="solid" ];
+  "GENO_0000111" -> "OBI_0000181" [ label="\"isa\"" style="solid" ];
+  "SO_1000026" -> "SO_1000023" [ label="\"isa\"" style="solid" ];
+  "GENO_0000622" -> "GENO_0000619" [ label="\"isa\"" style="solid" ];
+  "GENO_0000603" -> "GENO_0000918" [ label="\"isa\"" style="solid" ];
+  "GENO_0000140" -> "GENO_0000138" [ label="\"isa\"" style="solid" ];
+  "SO_1000032" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000947" -> "GENO_0000942" [ label="\"isa\"" style="solid" ];
+  "GO_0032502" -> "GENO_0000351" [ label="\"isa\"" style="solid" ];
+  "GENO_0000879" -> "GENO_0000888" [ label="\"isa\"" style="solid" ];
+  "CHEBI_33696" -> "CHEBI_23367" [ label="\"isa\"" style="solid" ];
+  "SO_0000110" -> "GENO_0000701" [ label="\"isa\"" style="solid" ];
+  "GENO_0000142" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000621" -> "GENO_0000618" [ label="\"isa\"" style="solid" ];
+  "SO_1000005" -> "SO_1000002" [ label="\"isa\"" style="solid" ];
+  "Region" -> "SO_0000110" [ label="\"isa\"" style="solid" ];
+  "SO_0000165" -> "SO_0005836" [ label="\"isa\"" style="solid" ];
+  "GENO_0000928" -> "GENO_0000926" [ label="\"isa\"" style="solid" ];
+  "GENO_0000149" -> "GENO_0000936" [ label="\"isa\"" style="solid" ];
+  "GENO_0000949" -> "GENO_0000141" [ label="\"isa\"" style="solid" ];
+  "ExactPosition" -> "Position" [ label="\"isa\"" style="solid" ];
+  "GENO_0000850" -> "GENO_0000856" [ label="\"isa\"" style="solid" ];
+  "SO_1000016" -> "SO_1000014" [ label="\"isa\"" style="solid" ];
+  "GENO_0000146" -> "GENO_0000936" [ label="\"isa\"" style="solid" ];
+  "BFO_0000019" -> "BFO_0000020" [ label="\"isa\"" style="solid" ];
+  "SO_1000039" -> "SO_1000173" [ label="\"isa\"" style="solid" ];
+  "GENO_0000133" -> "GENO_0000875" [ label="\"isa\"" style="solid" ];
+  "GENO_0000680" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000606" -> "GENO_0000134" [ label="\"isa\"" style="solid" ];
+  "GENO_0000506" -> "GENO_0000529" [ label="\"isa\"" style="solid" ];
+  "BFO_0000015" -> "BFO_0000003" [ label="\"isa\"" style="solid" ];
+  "GENO_0000633" -> "GENO_0000619" [ label="\"isa\"" style="solid" ];
+  "UPHENO_0001001" -> "BFO_0000020" [ label="\"isa\"" style="solid" ];
+  "SO_0001483" -> "SO_1000002" [ label="\"isa\"" style="solid" ];
+  "GENO_0000516" -> "GENO_0000660" [ label="\"isa\"" style="solid" ];
+  "SO_0000207" -> "SO_0000248" [ label="\"isa\"" style="solid" ];
+  "GENO_0000923" -> "IAO_0000030" [ label="\"isa\"" style="solid" ];
+  "GENO_0000339" -> "GENO_0000346" [ label="\"isa\"" style="solid" ];
+  "SO_0000902" -> "SO_0000704" [ label="\"isa\"" style="solid" ];
+  "GENO_0000944" -> "GENO_0000943" [ label="\"isa\"" style="solid" ];
+  "GENO_0000134" -> "GENO_0000391" [ label="\"isa\"" style="solid" ];
+  "SO_1000008" -> "SO_0001483" [ label="\"isa\"" style="solid" ];
+  "GENO_0000898" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000638" -> "GENO_0000460" [ label="\"isa\"" style="solid" ];
+  "GENO_0000781" -> "GENO_0000779" [ label="\"isa\"" style="solid" ];
+  "GENO_0000492" -> "SO_0001059" [ label="\"isa\"" style="solid" ];
+  "GENO_0000477" -> "GENO_0000773" [ label="\"isa\"" style="solid" ];
+  "GENO_0000924" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "GENO_0000118" -> "GENO_0000112" [ label="\"isa\"" style="solid" ];
+  "NCBITaxon_9606" -> "OBI_0100026" [ label="\"isa\"" style="solid" ];
+  "GENO_0000780" -> "GENO_0000779" [ label="\"isa\"" style="solid" ];
+  "GENO_0000943" -> "GENO_0000942" [ label="\"isa\"" style="solid" ];
+  "GENO_0000685" -> "GENO_0000773" [ label="\"isa\"" style="solid" ];
+  "GENO_0000112" -> "GENO_0000113" [ label="\"isa\"" style="solid" ];
+  "GENO_0000458" -> "GENO_0000135" [ label="\"isa\"" style="solid" ];
+  "GENO_0000915" -> "GENO_0000512" [ label="\"isa\"" style="solid" ];
+  "GENO_0000511" -> "GENO_0000773" [ label="\"isa\"" style="solid" ];
+  "GENO_0000719" -> "GENO_0000536" [ label="\"isa\"" style="solid" ];
+  "GENO_0000525" -> "GENO_0000536" [ label="\"isa\"" style="solid" ];
+  "ZP_0005692" -> "GENO_0000575" [ label="\"isa\"" style="solid" ];
+  "SO_0001745" -> "SO_0001744" [ label="\"isa\"" style="solid" ];
+  "GENO_0000870" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "SO_1000027" -> "SO_1000023" [ label="\"isa\"" style="solid" ];
+  "SO_1000018" -> "SO_1000017" [ label="\"isa\"" style="solid" ];
+  "399483" -> "GENO_0000047" [ label="\"isa\"" style="solid" ];
+  "GENO_0000660" -> "GENO_0000659" [ label="\"isa\"" style="solid" ];
+  "GENO_0000324" -> "ObsoleteClass" [ label="\"isa\"" style="solid" ];
+  "HP_0000118" -> "UPHENO_0001001" [ label="\"isa\"" style="solid" ];
+  "IAO_0000030" -> "BFO_0000031" [ label="\"isa\"" style="solid" ];
+  "BFO_0000004" -> "BFO_0000002" [ label="\"isa\"" style="solid" ];
+  "GENO_0000010" -> "GENO_0000914" [ label="\"isa\"" style="solid" ];
+  "GENO_0000338" -> "GENO_0000346" [ label="\"isa\"" style="solid" ];
+  "BFO_0000031" -> "BFO_0000002" [ label="\"isa\"" style="solid" ];
+  "GENO_0000921" -> "BFO_0000031" [ label="\"isa\"" style="solid" ];
+  "BFO_0000023" -> "BFO_0000017" [ label="\"isa\"" style="solid" ];
+  "GENO_0000604" -> "GENO_0000134" [ label="\"isa\"" style="solid" ];
+  "SO_0001059" -> "GENO_0000002" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C78d57b7f" -> "GENO_0000002" [ label="\"isa\"" style="solid" ];
+  "GENO_0000660" -> "ONTORELA_C6cdb8ddf" [ label="\"isa\"" style="solid" ];
+  "GENO_0000715" -> "ONTORELA_C6cdb8ddf" [ label="\"isa\"" style="solid" ];
+  "GENO_0000516" -> "ONTORELA_C349f0240" [ label="\"isa\"" style="solid" ];
+  "SO_0001026" -> "ONTORELA_C349f0240" [ label="\"isa\"" style="solid" ];
+  "CL_0000000" -> "ONTORELA_C64c7aff2" [ label="\"isa\"" style="solid" ];
+  "NCBITaxon_10239" -> "ONTORELA_C64c7aff2" [ label="\"isa\"" style="solid" ];
+  "GENO_0000536" -> "ONTORELA_C6eeefcf9" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C50fc6ccd" -> "ONTORELA_C6eeefcf9" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C55a946a3" -> "GENO_0000106" [ label="\"isa\"" style="solid" ];
+  "ONTORELA_C3009a2bd" -> "GO_0032502" [ label="\"isa\"" style="solid" ];
+  "GENO_0000516" -> "GENO_0000133" [ label="[1..*]
+\"GENO_0000608@has_zygosity\"" style="solid" ];
+  "GENO_0000714" -> "SO_0000110" [ label="[1..*]
+\"GENO_0000726@has_sequence_feature\"" style="solid" ];
+  "GENO_0000715" -> "SO_0000110" [ label="[1..*]
+\"GENO_0000726@has_sequence_feature\"" style="solid" ];
+  "GENO_0000170" -> "GENO_0000515" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="solid" ];
+  "GENO_0000343" -> "GENO_0000513" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000166" -> "GENO_0000515" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="solid" ];
+  "GENO_0000343" -> "SO_0000340" [ label="[1..*]
+\"GENO_0000248@is_proper_part_of\"" style="solid" ];
+  "GENO_0000171" -> "GENO_0000515" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="solid" ];
+  "ONTORELA_C78d57b7f" -> "SO_0001059" [ label="[1..*]
+\"RO_0002524@has subsequence\"" style="solid" ];
+  "GENO_0000093" -> "SO_0001218" [ label="[1..*]
+\"BFO_0000050@is part of\"" style="solid" ];
+  "GENO_0000528" -> "GENO_0000506" [ label="[1..*]
+\"GENO_0000382@has_variant_part\"" style="solid" ];
+  "GENO_0000504" -> "GENO_0000533" [ label="[1..*]
+\"GENO_0000447@is_gene_target_of\"" style="solid" ];
+  "GENO_0000659" -> "SO_0000110" [ label="[1..*]
+\"RO_0002351@has member\"" style="solid" ];
+  "SO_0000105" -> "SO_0000830" [ label="[1..*]
+\"BFO_0000050@is part of\"" style="solid" ];
+  "GENO_0000644" -> "SO_0001026" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "GENO_0000714" -> "OBI_0100026" [ label="[1..*]
+\"RO_0002162@in taxon\"" style="solid" ];
+  "GENO_0000920" -> "GENO_0000919" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "GENO_0000616" -> "GENO_0000618" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000092" -> "GENO_0000172" [ label="[1..*]
+\"RO_0002353@output of\"" style="solid" ];
+  "SO_0000341" -> "GENO_0000614" [ label="[1..*]
+\"BFO_0000050@is part of\"" style="solid" ];
+  "GENO_0000515" -> "SO_0000704" [ label="[1..*]
+\"GENO_0000641@is_variant_allele_of\"" style="solid" ];
+  "GENO_0000897" -> "OBI_0100026" [ label="[1..*]
+\"RO_0002162@in taxon\"" style="solid" ];
+  "GENO_0000721" -> "GENO_0000781" [ label="[1..*]
+\"GENO_0000783@has_sequence_unit\"" style="solid" ];
+  "GENO_0000515" -> "SO_0001059" [ label="[1..*]
+\"GENO_0000382@has_variant_part\"" style="solid" ];
+  "GENO_0000833" -> "ENVO_01000254" [ label="[1..*]
+\"GENO_0000580@has_qualifier\"" style="solid" ];
+  "GENO_0000614" -> "SO_0000105" [ label="[1..*]
+\"BFO_0000050@is part of\"" style="solid" ];
+  "GENO_0000014" -> "SO_0000704" [ label="[1..*]
+\"GENO_0000408@is_allele_of\"" style="solid" ];
+  "SO_0000281" -> "SO_0000783" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000715" -> "OBI_0100026" [ label="[1..*]
+\"RO_0002162@in taxon\"" style="solid" ];
+  "GENO_0000527" -> "GENO_0000504" [ label="[1..*]
+\"RO_0002351@has member\"" style="solid" ];
+  "GENO_0000667" -> "GENO_0000640" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "GENO_0000173" -> "GENO_0000515" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="solid" ];
+  "GENO_0000660" -> "GENO_0000481" [ label="[1..*]
+\"RO_0002351@has member\"" style="solid" ];
+  "GENO_0000174" -> "GENO_0000515" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="solid" ];
+  "GENO_0000915" -> "GENO_0000916" [ label="[1..*]
+\"GENO_0000408@is_allele_of\"" style="solid" ];
+  "GENO_0000681" -> "GENO_0000139" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000536" -> "ONTORELA_C6cdb8ddf" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "GENO_0000346" -> "GENO_0000513" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000720" -> "GENO_0000780" [ label="[1..*]
+\"GENO_0000783@has_sequence_unit\"" style="solid" ];
+  "GENO_0000719" -> "ONTORELA_C349f0240" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "SO_0000110" -> "GENO_0000702" [ label="[1..*]
+\"GENO_0000239@has_sequence\"" style="solid" ];
+  "GENO_0000106" -> "ONTORELA_C64c7aff2" [ label="[1..*]
+\"GENO_0000248@is_proper_part_of\"" style="solid" ];
+  "GENO_0000714" -> "Thing" [ label="[1..*]
+\"GENO_0000580@has_qualifier\"" style="solid" ];
+  "GENO_0000637" -> "SO_0000902" [ label="[1..*]
+\"RO_0002525@is subsequence of\"" style="solid" ];
+  "GENO_0000501" -> "GENO_0000481" [ label="[1..*]
+\"GENO_0000683@varies_with\"" style="solid" ];
+  "CLO_0000031" -> "OBI_0100026" [ label="[1..*]
+\"RO_0001000@derives from\"" style="solid" ];
+  "GENO_0000638" -> "SO_0000902" [ label="[1..*]
+\"RO_0002525@is subsequence of\"" style="solid" ];
+  "GENO_0000529" -> "SO_0000704" [ label="[1..*]
+\"GENO_0000443@is_expression_variant_of\"" style="solid" ];
+  "SO_0000110" -> "GENO_0000815" [ label="[1..*]
+\"GENO_0000903@has_location\"" style="solid" ];
+  "GENO_0000667" -> "SO_0000783" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000714" -> "GENO_0000481" [ label="[1..*]
+\"GENO_0000726@has_sequence_feature\"" style="solid" ];
+  "GENO_0000112" -> "OBI_0100026" [ label="[1..*]
+\"RO_0002162@in taxon\"" style="solid" ];
+  "GENO_0000642" -> "SO_0000783" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000839" -> "GENO_0000504" [ label="[1..*]
+\"GENO_0000382@has_variant_part\"" style="solid" ];
+  "GENO_0000684" -> "GENO_0000685" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000915" -> "SO_0001059" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "GENO_0000715" -> "GENO_0000714" [ label="[1..*]
+\"RO_0002351@has member\"" style="solid" ];
+  "GENO_0000681" -> "GENO_0000685" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "PCO_0000000" -> "OBI_0100026" [ label="[1..*]
+\"RO_0002351@has member\"" style="solid" ];
+  "Region" -> "Position" [ label="[1..1]
+\"begin@begin\"" style="solid" ];
+  "Region" -> "Position" [ label="[1..1]
+\"end@end\"" style="solid" ];
+  "GENO_0000833" -> "ONTORELA_C6eeefcf9" [ label="[1..*]
+\"association_has_subject@association has subject\"" style="solid" ];
+  "ONTORELA_C50fc6ccd" -> "GENO_0000536" [ label="[1..*]
+\"BFO_0000050@is part of\"" style="solid" ];
+  "GENO_0000914" -> "SO_0001505" [ label="[1..*]
+\"GENO_0000239@has_sequence\"" style="solid" ];
+  "OBI_0600043" -> "ONTORELA_C55a946a3" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="solid" ];
+  "ONTORELA_C55a946a3" -> "GENO_0000002" [ label="[1..*]
+\"GENO_0000211@bears_concretization_of\"" style="solid" ];
+  "GENO_0000525" -> "GENO_0000719" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "SO_0001218" -> "GENO_0000093" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "GENO_0000133" -> "GENO_0000516" [ label="[1..*]
+\"RO_0000052@inheres_in\"" style="solid" ];
+  "GENO_0000481" -> "OBI_0100026" [ label="[1..*]
+\"RO_0002162@in taxon\"" style="solid" ];
+  "SO_0001026" -> "OBI_0100026" [ label="[1..*]
+\"RO_0002162@in taxon\"" style="solid" ];
+  "GENO_0000891" -> "GENO_0000890" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "SO_0001505" -> "GENO_0000152" [ label="[1..*]
+\"RO_0000087@has_role\"" style="solid" ];
+  "GENO_0000887" -> "NCBITaxon_8090" [ label="[1..*]
+\"RO_0002351@has member\"" style="solid" ];
+  "GENO_0000833" -> "UPHENO_0001001" [ label="[1..*]
+\"association_has_object@association has object\"" style="solid" ];
+  "GENO_0000525" -> "GENO_0000524" [ label="[1..*]
+\"BFO_0000051@has part\"" style="solid" ];
+  "GENO_0000481" -> "SO_0001026" [ label="[1..*]
+\"BFO_0000050@is part of\"" style="solid" ];
+  "GENO_0000338" -> "GENO_0000685" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000106" -> "GENO_0000139" [ label="[1..*]
+\"RO_0000091@has disposition\"" style="solid" ];
+  "SO_0000341" -> "GENO_0000618" [ label="[1..*]
+\"GENO_0000207@has_sequence_attribute\"" style="solid" ];
+  "GENO_0000033" -> "SO_0001059" [ label="[1..*]
+\"GENO_0000382@has_variant_part\"" style="solid" ];
+  "GENO_0000660" -> "OBI_0100026" [ label="[1..*]
+\"RO_0002162@in taxon\"" style="solid" ];
+  "GENO_0000920" -> "GENO_0000659" [ label="[1..*]
+\"GENO_0000726@has_sequence_feature\"" style="solid" ];
+  "UBERON_0001062" -> "OBI_0100026" [ label="[1..*]
+\"RO_0001000@derives from\"" style="solid" ];
+  "GENO_0000106" -> "GENO_0000108" [ label="[1..*]
+\"BFO_0000050@is part of\"" style="solid" ];
+  "GENO_0000119" -> "NCBITaxon_7955" [ label="[1..*]
+\"RO_0002351@has member\"" style="solid" ];
+  "GENO_0000504" -> "GENO_0000534" [ label="[1..*]
+\"GENO_0000231@has_proper_part\"" style="solid" ];
+  "GENO_0000492" -> "GENO_0000501" [ label="[1..*]
+\"GENO_0000683@varies_with\"" style="solid" ];
+  "GENO_0000899" -> "GENO_0000611" [ label="[1..*]
+\"GENO_0000385@has_reference_part\"" style="solid" ];
+  "GENO_0000645" -> "GENO_0000000" [ label="[1..*]
+\"GENO_0000650@has_sex_agnostic_part\"" style="solid" ];
+  "GENO_0000722" -> "GENO_0000782" [ label="[1..*]
+\"GENO_0000783@has_sequence_unit\"" style="solid" ];
+  "GENO_0000616" -> "SO_0000341" [ label="[1..*]
+\"BFO_0000050@is part of\"" style="solid" ];
+  "GENO_0000172" -> "GENO_0000515" [ label="[1..*]
+\"OBI_0000299@has_specified_output\"" style="solid" ];
+  "GENO_0000715" -> "GENO_0000660" [ label="[1..*]
+\"GENO_0000726@has_sequence_feature\"" style="solid" ];
+  "GENO_0000833" -> "ONTORELA_C3009a2bd" [ label="[1..*]
+\"GENO_0000580@has_qualifier\"" style="solid" ];
+  "ONTORELA_C3009a2bd" -> "UBERON_0000105" [ label="[1..*]
+\"RO_0002091@starts during\"" style="solid" ];
+  "ONTORELA_C3009a2bd" -> "UBERON_0000105" [ label="[1..*]
+\"RO_0002093@ends during\"" style="solid" ];
+  "GENO_0000611" -> "GENO_0000010" [ label="[1..*]
+\"IAO_0000219@denotes\"" style="solid" ];
+  "SO_0000110" -> "string" [ label="[1..*]
+\"GENO_0000703@has_sequence_string\"" style="solid" ];
+  "GENO_0000702" -> "string" [ label="[1..*]
+\"GENO_0000896@has_string\"" style="solid" ];
+}

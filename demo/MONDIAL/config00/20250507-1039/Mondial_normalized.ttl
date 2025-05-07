@@ -1,0 +1,1388 @@
+@prefix : <f://Mondial#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <f://Mondial#> .
+
+<f://Mondial> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#Literal
+rdfs:Literal rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#decimal
+xsd:decimal rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+xsd:nonNegativeInteger rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#string
+xsd:string rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  f://m#believeInReligion
+<f://m#believeInReligion> rdf:type owl:ObjectProperty .
+
+
+###  f://m#believedInCountry
+<f://m#believedInCountry> rdf:type owl:ObjectProperty .
+
+
+###  f://m#belongToEthnicGroup
+<f://m#belongToEthnicGroup> rdf:type owl:ObjectProperty .
+
+
+###  f://m#belongsTo
+<f://m#belongsTo> rdf:type owl:ObjectProperty .
+
+
+###  f://m#belongsToIslands
+<f://m#belongsToIslands> rdf:type owl:ObjectProperty ,
+                                  owl:FunctionalProperty .
+
+
+###  f://m#borders
+<f://m#borders> rdf:type owl:ObjectProperty .
+
+
+###  f://m#capital
+<f://m#capital> rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty .
+
+
+###  f://m#cityIn
+<f://m#cityIn> rdf:type owl:ObjectProperty .
+
+
+###  f://m#dependentOf
+<f://m#dependentOf> rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty .
+
+
+###  f://m#encompassed
+<f://m#encompassed> rdf:type owl:ObjectProperty .
+
+
+###  f://m#encompassedArea
+<f://m#encompassedArea> rdf:type owl:ObjectProperty ,
+                                 owl:FunctionalProperty .
+
+
+###  f://m#encompassedBy
+<f://m#encompassedBy> rdf:type owl:ObjectProperty ,
+                               owl:FunctionalProperty .
+
+
+###  f://m#encompassedByInfo
+<f://m#encompassedByInfo> rdf:type owl:ObjectProperty .
+
+
+###  f://m#encompasses
+<f://m#encompasses> rdf:type owl:ObjectProperty .
+
+
+###  f://m#encompassesInfo
+<f://m#encompassesInfo> rdf:type owl:ObjectProperty .
+
+
+###  f://m#ethnicInfo
+<f://m#ethnicInfo> rdf:type owl:ObjectProperty ,
+                            owl:InverseFunctionalProperty .
+
+
+###  f://m#ethnicInfo-
+<f://m#ethnicInfo-> rdf:type owl:ObjectProperty .
+
+
+###  f://m#flowsInto
+<f://m#flowsInto> rdf:type owl:ObjectProperty .
+
+
+###  f://m#flowsThrough
+<f://m#flowsThrough> rdf:type owl:ObjectProperty ,
+                              owl:InverseFunctionalProperty .
+
+
+###  f://m#followedInInfo
+<f://m#followedInInfo> rdf:type owl:ObjectProperty .
+
+
+###  f://m#hadPopulation
+<f://m#hadPopulation> rdf:type owl:ObjectProperty ,
+                               owl:InverseFunctionalProperty .
+
+
+###  f://m#hasBorder
+<f://m#hasBorder> rdf:type owl:ObjectProperty .
+
+
+###  f://m#hasCity
+<f://m#hasCity> rdf:type owl:ObjectProperty .
+
+
+###  f://m#hasEstuary
+<f://m#hasEstuary> rdf:type owl:ObjectProperty ,
+                            owl:FunctionalProperty ,
+                            owl:InverseFunctionalProperty .
+
+
+###  f://m#hasEstuary-
+<f://m#hasEstuary-> rdf:type owl:ObjectProperty .
+
+
+###  f://m#hasHeadq
+<f://m#hasHeadq> rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty .
+
+
+###  f://m#hasMember
+<f://m#hasMember> rdf:type owl:ObjectProperty .
+
+
+###  f://m#hasMembership
+<f://m#hasMembership> rdf:type owl:ObjectProperty .
+
+
+###  f://m#hasProvince
+<f://m#hasProvince> rdf:type owl:ObjectProperty ,
+                             owl:InverseFunctionalProperty .
+
+
+###  f://m#hasSource
+<f://m#hasSource> rdf:type owl:ObjectProperty ,
+                           owl:FunctionalProperty ,
+                           owl:InverseFunctionalProperty .
+
+
+###  f://m#hasSource-
+<f://m#hasSource-> rdf:type owl:ObjectProperty .
+
+
+###  f://m#inMountains
+<f://m#inMountains> rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty .
+
+
+###  f://m#inOrganization
+<f://m#inOrganization> rdf:type owl:ObjectProperty ,
+                                owl:FunctionalProperty .
+
+
+###  f://m#isBorderOf
+<f://m#isBorderOf> rdf:type owl:ObjectProperty .
+
+
+###  f://m#isCapitalOf
+<f://m#isCapitalOf> rdf:type owl:ObjectProperty .
+
+
+###  f://m#isInMembership
+<f://m#isInMembership> rdf:type owl:ObjectProperty .
+
+
+###  f://m#isMember
+<f://m#isMember> rdf:type owl:ObjectProperty .
+
+
+###  f://m#isProvinceOf
+<f://m#isProvinceOf> rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf <f://m#belongsTo> .
+
+
+###  f://m#languageInfo
+<f://m#languageInfo> rdf:type owl:ObjectProperty ,
+                              owl:InverseFunctionalProperty .
+
+
+###  f://m#languageInfo-
+<f://m#languageInfo-> rdf:type owl:ObjectProperty .
+
+
+###  f://m#liveInCountry
+<f://m#liveInCountry> rdf:type owl:ObjectProperty .
+
+
+###  f://m#liveInInfo
+<f://m#liveInInfo> rdf:type owl:ObjectProperty .
+
+
+###  f://m#locatedAt
+<f://m#locatedAt> rdf:type owl:ObjectProperty .
+
+
+###  f://m#locatedIn
+<f://m#locatedIn> rdf:type owl:ObjectProperty .
+
+
+###  f://m#locatedInWater
+<f://m#locatedInWater> rdf:type owl:ObjectProperty .
+
+
+###  f://m#locatedOnIsland
+<f://m#locatedOnIsland> rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf <f://m#locatedIn> .
+
+
+###  f://m#mergesWith
+<f://m#mergesWith> rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf <f://m#borders> .
+
+
+###  f://m#neighbor
+<f://m#neighbor> rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf <f://m#borders> .
+
+
+###  f://m#ofMember
+<f://m#ofMember> rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty .
+
+
+###  f://m#ofObject
+<f://m#ofObject> rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty .
+
+
+###  f://m#onEthnicGroup
+<f://m#onEthnicGroup> rdf:type owl:ObjectProperty ,
+                               owl:FunctionalProperty .
+
+
+###  f://m#onLanguage
+<f://m#onLanguage> rdf:type owl:ObjectProperty ,
+                            owl:FunctionalProperty .
+
+
+###  f://m#onReligion
+<f://m#onReligion> rdf:type owl:ObjectProperty ,
+                            owl:FunctionalProperty .
+
+
+###  f://m#religionInfo
+<f://m#religionInfo> rdf:type owl:ObjectProperty ,
+                              owl:InverseFunctionalProperty .
+
+
+###  f://m#religionInfo-
+<f://m#religionInfo-> rdf:type owl:ObjectProperty .
+
+
+###  f://m#speakLanguage
+<f://m#speakLanguage> rdf:type owl:ObjectProperty .
+
+
+###  f://m#spokenInCountry
+<f://m#spokenInCountry> rdf:type owl:ObjectProperty .
+
+
+###  f://m#spokenInInfo
+<f://m#spokenInInfo> rdf:type owl:ObjectProperty .
+
+
+###  f://m#wasDependentOf
+<f://m#wasDependentOf> rdf:type owl:ObjectProperty ,
+                                owl:FunctionalProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  f://m#abbrev
+<f://m#abbrev> rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty .
+
+
+###  f://m#area
+<f://m#area> rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty .
+
+
+###  f://m#carCode
+<f://m#carCode> rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty .
+
+
+###  f://m#depth
+<f://m#depth> rdf:type owl:DatatypeProperty .
+
+
+###  f://m#elevation
+<f://m#elevation> rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty .
+
+
+###  f://m#established
+<f://m#established> rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty .
+
+
+###  f://m#gdpAgri
+<f://m#gdpAgri> rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty .
+
+
+###  f://m#gdpInd
+<f://m#gdpInd> rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty .
+
+
+###  f://m#gdpServ
+<f://m#gdpServ> rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty .
+
+
+###  f://m#gdpTotal
+<f://m#gdpTotal> rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty .
+
+
+###  f://m#government
+<f://m#government> rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty .
+
+
+###  f://m#independenceDate
+<f://m#independenceDate> rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty .
+
+
+###  f://m#infantMortality
+<f://m#infantMortality> rdf:type owl:DatatypeProperty ,
+                                 owl:FunctionalProperty .
+
+
+###  f://m#inflation
+<f://m#inflation> rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty .
+
+
+###  f://m#lastEruption
+<f://m#lastEruption> rdf:type owl:DatatypeProperty ,
+                              owl:FunctionalProperty .
+
+
+###  f://m#latitude
+<f://m#latitude> rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty .
+
+
+###  f://m#length
+<f://m#length> rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty .
+
+
+###  f://m#localname
+<f://m#localname> rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty .
+
+
+###  f://m#longitude
+<f://m#longitude> rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty .
+
+
+###  f://m#name
+<f://m#name> rdf:type owl:DatatypeProperty .
+
+
+###  f://m#othername
+<f://m#othername> rdf:type owl:DatatypeProperty .
+
+
+###  f://m#percent
+<f://m#percent> rdf:type owl:DatatypeProperty .
+
+
+###  f://m#population
+<f://m#population> rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty .
+
+
+###  f://m#populationGrowth
+<f://m#populationGrowth> rdf:type owl:DatatypeProperty ,
+                                  owl:FunctionalProperty .
+
+
+###  f://m#type
+<f://m#type> rdf:type owl:DatatypeProperty .
+
+
+###  f://m#unemployment
+<f://m#unemployment> rdf:type owl:DatatypeProperty ,
+                              owl:FunctionalProperty .
+
+
+###  f://m#value
+<f://m#value> rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty .
+
+
+###  f://m#year
+<f://m#year> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  f://m#AdministrativeArea
+<f://m#AdministrativeArea> rdf:type owl:Class ;
+                           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                             owl:onProperty <f://m#capital> ;
+                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                             owl:onClass <f://m#City>
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty <f://m#hasCity> ;
+                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                             owl:onClass <f://m#City>
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty <f://m#capital> ;
+                                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                             owl:onClass <f://m#City>
+                                           ] .
+
+
+###  f://m#AdministrativeSubdivision
+<f://m#AdministrativeSubdivision> rdf:type owl:Class ;
+                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty <f://m#belongsTo> ;
+                                                    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                    owl:onClass <f://m#Country>
+                                                  ] ,
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty <f://m#belongsTo> ;
+                                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                    owl:onClass <f://m#Country>
+                                                  ] .
+
+
+###  f://m#AnthropoGeographicalRelationship
+<f://m#AnthropoGeographicalRelationship> rdf:type owl:Class .
+
+
+###  f://m#AnthropoGeographicalThing
+<f://m#AnthropoGeographicalThing> rdf:type owl:Class ;
+                                  rdfs:subClassOf <f://m#MondialThing> .
+
+
+###  f://m#Area
+<f://m#Area> rdf:type owl:Class ;
+             rdfs:subClassOf <f://m#Geometrical> .
+
+
+###  f://m#BelievedBy
+<f://m#BelievedBy> rdf:type owl:Class ;
+                   rdfs:subClassOf <f://m#AnthropoGeographicalRelationship> ,
+                                   <f://m#ReifiedThing> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <f://m#onReligion> ;
+                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <f://m#Religion>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <f://m#onReligion> ;
+                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <f://m#Religion>
+                                   ] .
+
+
+###  f://m#Border
+<f://m#Border> rdf:type owl:Class ;
+               rdfs:subClassOf <f://m#Line> ,
+                               <f://m#NonGeographicalPoliticalThing> ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#isBorderOf> ;
+                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass <f://m#Country>
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#isBorderOf> ;
+                                 owl:minCardinality "2"^^xsd:nonNegativeInteger
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#isBorderOf> ;
+                                 owl:maxCardinality "2"^^xsd:nonNegativeInteger
+                               ] .
+
+
+###  f://m#City
+<f://m#City> rdf:type owl:Class ;
+             rdfs:subClassOf <f://m#AdministrativeSubdivision> ,
+                             <f://m#GeographicalThing> ,
+                             <f://m#PoliticalThing> ,
+                             <f://m#SmallArea> ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#cityIn> ;
+                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Province>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#cityIn> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Country>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#hadPopulation> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#PopulationCount>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#isCapitalOf> ;
+                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Country>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#locatedAt> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Water>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#locatedIn> ;
+                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Province>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#locatedIn> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Country>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#locatedOnIsland> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Island>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#cityIn> ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Country>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#cityIn> ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Province>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#isCapitalOf> ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Country>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#locatedIn> ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Country>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#locatedIn> ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Province>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#area> ;
+                               owl:minCardinality "0"^^xsd:nonNegativeInteger
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#localname> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#area> ;
+                               owl:maxCardinality "0"^^xsd:nonNegativeInteger
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#localname> ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] .
+
+
+###  f://m#Continent
+<f://m#Continent> rdf:type owl:Class ;
+                  rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                                  <f://m#LargeArea> .
+
+
+###  f://m#Country
+<f://m#Country> rdf:type owl:Class ;
+                rdfs:subClassOf <f://m#AdministrativeArea> ,
+                                <f://m#LargeArea> ,
+                                <f://m#NonGeographicalPoliticalThing> ,
+                                <f://m#PoliticalBody> ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#believeInReligion> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#Religion>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#belongToEthnicGroup> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#EthnicGroup>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#dependentOf> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#Country>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#ethnicInfo> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#EthnicProportion>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#hadPopulation> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#PopulationCount>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#hasProvince> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#Province>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#isMember> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#Organization>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#languageInfo> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#SpokenBy>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#neighbor> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#Country>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#religionInfo> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#BelievedBy>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#speakLanguage> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#Language>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#wasDependentOf> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#PoliticalBody>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#dependentOf> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#Country>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#wasDependentOf> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass <f://m#PoliticalBody>
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#carCode> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:string
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#gdpAgri> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#gdpInd> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#gdpServ> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#gdpTotal> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#government> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:string
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#independenceDate> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:date
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#infantMortality> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#inflation> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#localname> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:string
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#populationGrowth> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#unemployment> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#carCode> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:string
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#gdpAgri> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#gdpInd> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#gdpServ> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#gdpTotal> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#government> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:string
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#independenceDate> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:date
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#infantMortality> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#inflation> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#localname> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:string
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#populationGrowth> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#unemployment> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:decimal
+                                ] .
+
+
+###  f://m#Desert
+<f://m#Desert> rdf:type owl:Class ;
+               rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                               <f://m#SmallArea> .
+
+
+###  f://m#Encompassed
+<f://m#Encompassed> rdf:type owl:Class ;
+                    rdfs:subClassOf <f://m#ReifiedThing> ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <f://m#encompassedArea> ;
+                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass <f://m#EncompassedArea>
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <f://m#encompassedBy> ;
+                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass <f://m#Continent>
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <f://m#encompassedArea> ;
+                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass <f://m#EncompassedArea>
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <f://m#encompassedBy> ;
+                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass <f://m#Continent>
+                                    ] .
+
+
+###  f://m#EncompassedArea
+<f://m#EncompassedArea> rdf:type owl:Class ;
+                        rdfs:subClassOf <f://m#LargeArea> ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty <f://m#encompassed> ;
+                                          owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                          owl:onClass <f://m#Continent>
+                                        ] .
+
+
+###  f://m#Estuary
+<f://m#Estuary> rdf:type owl:Class ;
+                rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                                <f://m#Place> ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#hasEstuary-> ;
+                                  owl:minCardinality "1"^^xsd:nonNegativeInteger
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#hasEstuary-> ;
+                                  owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                ] .
+
+
+###  f://m#EthnicGroup
+<f://m#EthnicGroup> rdf:type owl:Class ;
+                    rdfs:subClassOf <f://m#AnthropoGeographicalThing> .
+
+
+###  f://m#EthnicProportion
+<f://m#EthnicProportion> rdf:type owl:Class ;
+                         rdfs:subClassOf <f://m#AnthropoGeographicalRelationship> ,
+                                         <f://m#ReifiedThing> ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty <f://m#onEthnicGroup> ;
+                                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass <f://m#EthnicGroup>
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty <f://m#onEthnicGroup> ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass <f://m#EthnicGroup>
+                                         ] .
+
+
+###  f://m#GeographicalNonPoliticalThing
+<f://m#GeographicalNonPoliticalThing> rdf:type owl:Class ;
+                                      rdfs:subClassOf <f://m#GeographicalThing> .
+
+
+###  f://m#GeographicalThing
+<f://m#GeographicalThing> rdf:type owl:Class ;
+                          rdfs:subClassOf <f://m#PoliticalOrGeographicalThing> ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <f://m#locatedIn> ;
+                                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                            owl:onClass <f://m#Area>
+                                          ] .
+
+
+###  f://m#Geometrical
+<f://m#Geometrical> rdf:type owl:Class .
+
+
+###  f://m#Island
+<f://m#Island> rdf:type owl:Class ;
+               rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                               <f://m#SmallArea> ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#belongsToIslands> ;
+                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass <f://m#Islands>
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#locatedInWater> ;
+                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass <f://m#Water>
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#belongsToIslands> ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass <f://m#Islands>
+                               ] .
+
+
+###  f://m#Islands
+<f://m#Islands> rdf:type owl:Class ;
+                rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                                <f://m#SmallArea> .
+
+
+###  f://m#Lake
+<f://m#Lake> rdf:type owl:Class ;
+             rdfs:subClassOf <f://m#SmallArea> ,
+                             <f://m#Water> ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#flowsInto> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Water>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#locatedOnIsland> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass <f://m#Island>
+                             ] .
+
+
+###  f://m#Language
+<f://m#Language> rdf:type owl:Class ;
+                 rdfs:subClassOf <f://m#AnthropoGeographicalThing> .
+
+
+###  f://m#LargeArea
+<f://m#LargeArea> rdf:type owl:Class ;
+                  rdfs:subClassOf <f://m#Area> ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <f://m#borders> ;
+                                    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass <f://m#LargeArea>
+                                  ] .
+
+
+###  f://m#Line
+<f://m#Line> rdf:type owl:Class ;
+             rdfs:subClassOf <f://m#Geometrical> ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#length> ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:decimal
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty <f://m#length> ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:decimal
+                             ] .
+
+
+###  f://m#Location
+<f://m#Location> rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#elevation> ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:decimal
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#latitude> ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:decimal
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#longitude> ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:decimal
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#elevation> ;
+                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:decimal
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#latitude> ;
+                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:decimal
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#longitude> ;
+                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:decimal
+                                 ] .
+
+
+###  f://m#Measurement
+<f://m#Measurement> rdf:type owl:Class ;
+                    rdfs:subClassOf <f://m#TimeSeriesElement> ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <f://m#ofObject> ;
+                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass <f://m#MondialThing>
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <f://m#ofObject> ;
+                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass <f://m#MondialThing>
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <f://m#value> ;
+                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onDataRange xsd:decimal
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <f://m#value> ;
+                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onDataRange xsd:decimal
+                                    ] .
+
+
+###  f://m#Membership
+<f://m#Membership> rdf:type owl:Class ;
+                   rdfs:subClassOf <f://m#ReifiedThing> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <f://m#inOrganization> ;
+                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <f://m#Organization>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <f://m#ofMember> ;
+                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <f://m#Country>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <f://m#inOrganization> ;
+                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <f://m#Organization>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <f://m#ofMember> ;
+                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <f://m#Country>
+                                   ] .
+
+
+###  f://m#MondialThing
+<f://m#MondialThing> rdf:type owl:Class .
+
+
+###  f://m#Mountain
+<f://m#Mountain> rdf:type owl:Class ;
+                 rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                                 <f://m#Place> ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#inMountains> ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass <f://m#Mountains>
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#locatedOnIsland> ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass <f://m#Island>
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#inMountains> ;
+                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass <f://m#Mountains>
+                                 ] .
+
+
+###  f://m#Mountains
+<f://m#Mountains> rdf:type owl:Class ;
+                  rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                                  <f://m#SmallArea> .
+
+
+###  f://m#NonGeographicalPoliticalThing
+<f://m#NonGeographicalPoliticalThing> rdf:type owl:Class ;
+                                      rdfs:subClassOf <f://m#PoliticalThing> .
+
+
+###  f://m#Organization
+<f://m#Organization> rdf:type owl:Class ;
+                     rdfs:subClassOf <f://m#NonGeographicalPoliticalThing> ,
+                                     <f://m#PoliticalBody> ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <f://m#hasHeadq> ;
+                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass <f://m#City>
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <f://m#hasHeadq> ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onClass <f://m#City>
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <f://m#abbrev> ;
+                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onDataRange xsd:string
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <f://m#established> ;
+                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onDataRange xsd:date
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <f://m#abbrev> ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onDataRange xsd:string
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty <f://m#established> ;
+                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                       owl:onDataRange xsd:date
+                                     ] .
+
+
+###  f://m#Place
+<f://m#Place> rdf:type owl:Class ;
+              rdfs:subClassOf <f://m#Geometrical> ,
+                              <f://m#Location> .
+
+
+###  f://m#PoliticalBody
+<f://m#PoliticalBody> rdf:type owl:Class ;
+                      rdfs:subClassOf <f://m#PoliticalThing> .
+
+
+###  f://m#PoliticalOrGeographicalThing
+<f://m#PoliticalOrGeographicalThing> rdf:type owl:Class ;
+                                     rdfs:subClassOf <f://m#MondialThing> .
+
+
+###  f://m#PoliticalThing
+<f://m#PoliticalThing> rdf:type owl:Class ;
+                       rdfs:subClassOf <f://m#PoliticalOrGeographicalThing> .
+
+
+###  f://m#PopulationCount
+<f://m#PopulationCount> rdf:type owl:Class ;
+                        rdfs:subClassOf <f://m#YearlyMeasurement> ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty <f://m#population> ;
+                                          owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                          owl:onDataRange xsd:nonNegativeInteger
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty <f://m#population> ;
+                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                          owl:onDataRange xsd:nonNegativeInteger
+                                        ] .
+
+
+###  f://m#Province
+<f://m#Province> rdf:type owl:Class ;
+                 rdfs:subClassOf <f://m#AdministrativeArea> ,
+                                 <f://m#AdministrativeSubdivision> ,
+                                 <f://m#LargeArea> ,
+                                 <f://m#NonGeographicalPoliticalThing> ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#hadPopulation> ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass <f://m#PopulationCount>
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#localname> ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#localname> ;
+                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
+                                 ] .
+
+
+###  f://m#ReifiedThing
+<f://m#ReifiedThing> rdf:type owl:Class ;
+                     rdfs:subClassOf <f://m#MondialThing> .
+
+
+###  f://m#Religion
+<f://m#Religion> rdf:type owl:Class ;
+                 rdfs:subClassOf <f://m#AnthropoGeographicalThing> .
+
+
+###  f://m#River
+<f://m#River> rdf:type owl:Class ;
+              rdfs:subClassOf <f://m#Line> ,
+                              <f://m#Water> ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#flowsInto> ;
+                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass <f://m#Water>
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#flowsThrough> ;
+                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass <f://m#Lake>
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#hasEstuary> ;
+                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass <f://m#Estuary>
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#hasEstuary> ;
+                                owl:minCardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#hasSource> ;
+                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass <f://m#Source>
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#hasSource> ;
+                                owl:minCardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#locatedOnIsland> ;
+                                owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass <f://m#Island>
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#hasEstuary> ;
+                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass <f://m#Estuary>
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#hasEstuary> ;
+                                owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#hasSource> ;
+                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass <f://m#Source>
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#hasSource> ;
+                                owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                              ] .
+
+
+###  f://m#Sea
+<f://m#Sea> rdf:type owl:Class ;
+            rdfs:subClassOf <f://m#LargeArea> ,
+                            <f://m#Water> ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty <f://m#mergesWith> ;
+                              owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass <f://m#Sea>
+                            ] .
+
+
+###  f://m#SmallArea
+<f://m#SmallArea> rdf:type owl:Class ;
+                  rdfs:subClassOf <f://m#Area> ,
+                                  <f://m#Location> .
+
+
+###  f://m#Source
+<f://m#Source> rdf:type owl:Class ;
+               rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                               <f://m#Place> ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#hasSource-> ;
+                                 owl:minCardinality "1"^^xsd:nonNegativeInteger
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#inMountains> ;
+                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass <f://m#Mountains>
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#hasSource-> ;
+                                 owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <f://m#inMountains> ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onClass <f://m#Mountains>
+                               ] .
+
+
+###  f://m#SpokenBy
+<f://m#SpokenBy> rdf:type owl:Class ;
+                 rdfs:subClassOf <f://m#AnthropoGeographicalRelationship> ,
+                                 <f://m#ReifiedThing> ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#onLanguage> ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass <f://m#Language>
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty <f://m#onLanguage> ;
+                                   owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass <f://m#Language>
+                                 ] .
+
+
+###  f://m#TimeSeriesElement
+<f://m#TimeSeriesElement> rdf:type owl:Class .
+
+
+###  f://m#Volcano
+<f://m#Volcano> rdf:type owl:Class ;
+                rdfs:subClassOf <f://m#Mountain> ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#lastEruption> ;
+                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:date
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <f://m#lastEruption> ;
+                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:date
+                                ] .
+
+
+###  f://m#Water
+<f://m#Water> rdf:type owl:Class ;
+              rdfs:subClassOf <f://m#GeographicalNonPoliticalThing> ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#flowsInto> ;
+                                owl:minCardinality "0"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <f://m#flowsInto> ;
+                                owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                              ] .
+
+
+###  f://m#YearlyMeasurement
+<f://m#YearlyMeasurement> rdf:type owl:Class ;
+                          rdfs:subClassOf <f://m#Measurement> ,
+                                          <f://m#TimeSeriesElement> ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <f://m#year> ;
+                                            owl:minCardinality "1"^^xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <f://m#year> ;
+                                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                            owl:onDataRange xsd:nonNegativeInteger
+                                          ] ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty <f://m#year> ;
+                                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                          ] .
+
+
+###  http://www.w3.org/2002/07/owl#Nothing
+owl:Nothing rdf:type owl:Class .
+
+
+###  http://www.w3.org/2002/07/owl#Thing
+owl:Thing rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.5.0) https://github.com/owlcs/owlapi/

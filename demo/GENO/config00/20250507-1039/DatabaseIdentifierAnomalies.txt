@@ -1,0 +1,604 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+  View name @fr: GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+    View attribute @en: uid developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+    View attribute @fr: uid GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: genomic feature complement or qualified genomic feature complement
+    View attribute @en: uid genomic feature complement or qualified genomic feature complement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: genomic material
+ and (bears_concretization_of some variant allele)
+    View attribute @en: uid genomic material
+ and (bears_concretization_of some variant allele)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: reagent targeted gene is_gene_target_of gene knockdown reagent
+
+  View name @en: reagent targeted gene has_proper_part reagent-targeted gene subregion
+
+
+
+
+  View name @en: transiently-expressed transgene complement has_variant_part transiently-expressed transgene
+
+
+
+
+
+  View name @en: reagent-targeted gene complement has member reagent targeted gene
+
+
+
+
+
+
+
+
+
+
+  View name @en: genotype denotes genomic feature complement or qualified genomic feature complement
+    View attribute @en: uid genomic feature complement or qualified genomic feature complement
+
+
+  View name @en: genomic genotype (sex-qualified) has_sex_agnostic_part genomic genotype (sex-agnostic)
+
+
+
+
+
+
+  View name @en: selectable marker transgene has_sequence_attribute engineered
+
+
+
+  View name @en: genetic modification technique has_specified_output genomic material
+ and (bears_concretization_of some variant allele)
+  View name @fr: OBI_0600043 OBI_0000299 GENO_0000106
+ and (GENO_0000211 some GENO_0000002)
+    View attribute @en: uid genomic material
+ and (bears_concretization_of some variant allele)
+
+
+
+
+
+
+  View name @en: developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage)) starts during life cycle stage
+  View name @fr: GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105)) RO_0002091 UBERON_0000105
+    View attribute @en: uid developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+    View attribute @fr: uid GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+
+  View name @en: developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage)) ends during life cycle stage
+  View name @fr: GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105)) RO_0002093 UBERON_0000105
+    View attribute @en: uid developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+    View attribute @fr: uid GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+
+
+
+
+
+
+
+  View name @en: chromosome band has_sequence_attribute chromosomal band intensity
+
+
+
+
+
+
+  View name @en: novel extrachromosomal replicon has_sequence_attribute heritable
+
+
+
+
+
+
+
+
+
+
+
+  View name @en: targeted gene mutation technique has_specified_output variant gene allele
+
+
+
+
+  View name @en: knockdown reagent targeted gene complement has_variant_part reagent targeted gene
+
+
+  View name @en: genomic material
+ and (bears_concretization_of some variant allele) bears_concretization_of variant allele
+  View name @fr: GENO_0000106
+ and (GENO_0000211 some GENO_0000002) GENO_0000211 GENO_0000002
+    View attribute @en: uid genomic material
+ and (bears_concretization_of some variant allele)
+
+
+  View name @en: targeted knock-in technique has_specified_output variant gene allele
+
+  View name @en: promoter trapping technique has_specified_output variant gene allele
+
+  View name @en: qualified genomic feature complement has_sequence_feature sequence_feature
+
+
+  View name @en: qualified genomic feature complement has member qualified genomic feature
+
+  View name @en: qualified genomic feature complement has_sequence_feature genomic feature complement
+
+  View name @en: qualified sequence feature complement has part qualified sequence feature
+
+  View name @en: qualified sequence feature complement has_sequence_feature sequence feature complement
+
+  View name @en: gene trapping technique has_specified_output variant gene allele
+
+  View name @en: qualified genomic feature has_sequence_feature sequence_feature
+
+
+  View name @en: qualified genomic feature has_sequence_feature genomic feature
+
+  View name @en: enhancer trapping technique has_specified_output variant gene allele
+
+
+
+  View name @en: chromosome sub-band has_sequence_attribute chromosomal band intensity
+
+
+  View name @en: has subsequence some sequence_alteration has subsequence sequence_alteration
+
+  View name @en: targeted genetic insertion technique has_specified_output variant gene allele
+
+  View name @en: genotype-phenotype association has_qualifier environmental system
+
+  View name @en: genotype-phenotype association association has subject genotype or (is part of some genotype)
+  View name @fr: GENO_0000833 association_has_subject GENO_0000536 or (BFO_0000050 some GENO_0000536)
+
+  View name @en: genotype-phenotype association association has object Phenotype
+
+  View name @en: genotype-phenotype association has_qualifier developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+  View name @fr: GENO_0000833 GENO_0000580 GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+    View attribute @en: uid developmental process
+ and ((starts during some life cycle stage)
+ and (ends during some life cycle stage))
+    View attribute @fr: uid GO_0032502
+ and ((RO_0002091 some UBERON_0000105)
+ and (RO_0002093 some UBERON_0000105))
+
+
+
+

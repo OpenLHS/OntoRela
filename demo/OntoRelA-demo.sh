@@ -6,23 +6,23 @@ clear
 # ------------------------------
 
 # ENVO Ontology
-java -jar OntoRelA-1.3.0.jar demo/ENVO/config00
+java -jar ontorela-application-2.1.0.jar generate-all demo/ENVO/config00
 
 # GENO Ontology
-java -jar OntoRelA-1.3.0.jar demo/GENO/config00
+java -jar ontorela-application-2.1.0.jar generate-all demo/GENO/config00
 
 # HDRN Ontology
-java -jar OntoRelA-1.3.0.jar demo/HDRN/config00
+java -jar ontorela-application-2.1.0.jar generate-all demo/HDRN/config00
 
 # PRDO Ontology
-java -jar OntoRelA-1.3.0.jar demo/PDRO/config00
+java -jar ontorela-application-2.1.0.jar generate-all demo/PDRO/config00
 
 # PIZZA Ontology
-java -jar OntoRelA-1.3.0.jar demo/PIZZA/config00
+java -jar ontorela-application-2.1.0.jar generate-all demo/PIZZA/config00
 
 # MONDIAL Ontology
-java -jar OntoRelA-1.3.0.jar demo/MONDIAL/config00
+java -jar ontorela-application-2.1.0.jar generate-all demo/MONDIAL/config00
 
 # UNIV-BENCH Ontology
-java -jar OntoRelA-1.3.0.jar demo/UNIVBENCH/config00
+java -jar ontorela-application-2.1.0.jar generate-all demo/UNIVBENCH/config00
 

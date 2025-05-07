@@ -1,0 +1,35 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+Original ontology : http://purl.obolibrary.org/obo/HDRN/HDRN-full.owl
+Alias : HDRN-full.owl
+@en Label : null
+
+--------------------------------------- 
+Original ontology
+--------------------------------------- 
+Nb. classes          : 246
+Nb. data properties  : 7
+Nb. object properties: 74
+Nb. isa axioms       : 261
+Nb. data axioms      : 3
+Nb. class axioms     : 274
+
+--------------------------------------- 
+Reduced ontology (axiom complexity reduction)
+--------------------------------------- 
+Nb. classes          : 253
+Nb. data properties  : 7
+Nb. object properties: 74
+Nb. axioms: 419
+Nb. isa axioms       : 266
+Nb. data axioms      : 3
+Nb. class axioms     : 150
+Nb. reduced class axioms: 7
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 2379 KB
