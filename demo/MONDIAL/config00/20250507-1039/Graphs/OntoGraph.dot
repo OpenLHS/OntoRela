@@ -1,0 +1,364 @@
+digraph G {
+  splines=polyline;
+  rankdir=LR;
+  "AdministrativeArea" [ label="\"AdministrativeArea\"@
+AdministrativeArea" shape="ellipse" ];
+  "AdministrativeSubdivision" [ label="\"AdministrativeSubdivision\"@
+AdministrativeSubdivision" shape="ellipse" ];
+  "AnthropoGeographicalRelationship" [ label="\"AnthropoGeographicalRelationship\"@
+AnthropoGeographicalRelationship" shape="ellipse" ];
+  "AnthropoGeographicalThing" [ label="\"AnthropoGeographicalThing\"@
+AnthropoGeographicalThing" shape="ellipse" ];
+  "Area" [ label="\"Area\"@
+Area" shape="ellipse" ];
+  "BelievedBy" [ label="\"BelievedBy\"@
+BelievedBy" shape="ellipse" ];
+  "Border" [ label="\"Border\"@
+Border" shape="ellipse" ];
+  "City" [ label="\"City\"@
+City" shape="ellipse" ];
+  "Continent" [ label="\"Continent\"@
+Continent" shape="ellipse" ];
+  "Country" [ label="\"Country\"@
+Country" shape="ellipse" ];
+  "Desert" [ label="\"Desert\"@
+Desert" shape="ellipse" ];
+  "Encompassed" [ label="\"Encompassed\"@
+Encompassed" shape="ellipse" ];
+  "EncompassedArea" [ label="\"EncompassedArea\"@
+EncompassedArea" shape="ellipse" ];
+  "Estuary" [ label="\"Estuary\"@
+Estuary" shape="ellipse" ];
+  "EthnicGroup" [ label="\"EthnicGroup\"@
+EthnicGroup" shape="ellipse" ];
+  "EthnicProportion" [ label="\"EthnicProportion\"@
+EthnicProportion" shape="ellipse" ];
+  "GeographicalNonPoliticalThing" [ label="\"GeographicalNonPoliticalThing\"@
+GeographicalNonPoliticalThing" shape="ellipse" ];
+  "GeographicalThing" [ label="\"GeographicalThing\"@
+GeographicalThing" shape="ellipse" ];
+  "Geometrical" [ label="\"Geometrical\"@
+Geometrical" shape="ellipse" ];
+  "Island" [ label="\"Island\"@
+Island" shape="ellipse" ];
+  "Islands" [ label="\"Islands\"@
+Islands" shape="ellipse" ];
+  "Lake" [ label="\"Lake\"@
+Lake" shape="ellipse" ];
+  "Language" [ label="\"Language\"@
+Language" shape="ellipse" ];
+  "LargeArea" [ label="\"LargeArea\"@
+LargeArea" shape="ellipse" ];
+  "Line" [ label="\"Line\"@
+Line" shape="ellipse" ];
+  "Location" [ label="\"Location\"@
+Location" shape="ellipse" ];
+  "Measurement" [ label="\"Measurement\"@
+Measurement" shape="ellipse" ];
+  "Membership" [ label="\"Membership\"@
+Membership" shape="ellipse" ];
+  "MondialThing" [ label="\"MondialThing\"@
+MondialThing" shape="ellipse" ];
+  "Mountain" [ label="\"Mountain\"@
+Mountain" shape="ellipse" ];
+  "Mountains" [ label="\"Mountains\"@
+Mountains" shape="ellipse" ];
+  "NonGeographicalPoliticalThing" [ label="\"NonGeographicalPoliticalThing\"@
+NonGeographicalPoliticalThing" shape="ellipse" ];
+  "Organization" [ label="\"Organization\"@
+Organization" shape="ellipse" ];
+  "Place" [ label="\"Place\"@
+Place" shape="ellipse" ];
+  "PoliticalBody" [ label="\"PoliticalBody\"@
+PoliticalBody" shape="ellipse" ];
+  "PoliticalOrGeographicalThing" [ label="\"PoliticalOrGeographicalThing\"@
+PoliticalOrGeographicalThing" shape="ellipse" ];
+  "PoliticalThing" [ label="\"PoliticalThing\"@
+PoliticalThing" shape="ellipse" ];
+  "PopulationCount" [ label="\"PopulationCount\"@
+PopulationCount" shape="ellipse" ];
+  "Province" [ label="\"Province\"@
+Province" shape="ellipse" ];
+  "ReifiedThing" [ label="\"ReifiedThing\"@
+ReifiedThing" shape="ellipse" ];
+  "Religion" [ label="\"Religion\"@
+Religion" shape="ellipse" ];
+  "River" [ label="\"River\"@
+River" shape="ellipse" ];
+  "Sea" [ label="\"Sea\"@
+Sea" shape="ellipse" ];
+  "SmallArea" [ label="\"SmallArea\"@
+SmallArea" shape="ellipse" ];
+  "Source" [ label="\"Source\"@
+Source" shape="ellipse" ];
+  "SpokenBy" [ label="\"SpokenBy\"@
+SpokenBy" shape="ellipse" ];
+  "TimeSeriesElement" [ label="\"TimeSeriesElement\"@
+TimeSeriesElement" shape="ellipse" ];
+  "Volcano" [ label="\"Volcano\"@
+Volcano" shape="ellipse" ];
+  "Water" [ label="\"Water\"@
+Water" shape="ellipse" ];
+  "YearlyMeasurement" [ label="\"YearlyMeasurement\"@
+YearlyMeasurement" shape="ellipse" ];
+  "Nothing" [ label="\"Nothing\"@
+Nothing" shape="ellipse" ];
+  "Thing" [ label="\"Thing\"@
+Thing" shape="ellipse" ];
+  "string" [ label="\"string\"@
+string" shape="box" ];
+  "decimal" [ label="\"decimal\"@
+decimal" shape="box" ];
+  "date" [ label="\"date\"@
+date" shape="box" ];
+  "nonNegativeInteger" [ label="\"nonNegativeInteger\"@
+nonNegativeInteger" shape="box" ];
+  "Literal" [ label="\"Literal\"@
+Literal" shape="box" ];
+  "Border" -> "Line" [ label="\"isa\"" style="solid" ];
+  "City" -> "SmallArea" [ label="\"isa\"" style="solid" ];
+  "Continent" -> "LargeArea" [ label="\"isa\"" style="solid" ];
+  "PopulationCount" -> "YearlyMeasurement" [ label="\"isa\"" style="solid" ];
+  "YearlyMeasurement" -> "Measurement" [ label="\"isa\"" style="solid" ];
+  "EthnicGroup" -> "AnthropoGeographicalThing" [ label="\"isa\"" style="solid" ];
+  "Province" -> "LargeArea" [ label="\"isa\"" style="solid" ];
+  "City" -> "GeographicalThing" [ label="\"isa\"" style="solid" ];
+  "River" -> "Line" [ label="\"isa\"" style="solid" ];
+  "Volcano" -> "Mountain" [ label="\"isa\"" style="solid" ];
+  "SpokenBy" -> "AnthropoGeographicalRelationship" [ label="\"isa\"" style="solid" ];
+  "Membership" -> "ReifiedThing" [ label="\"isa\"" style="solid" ];
+  "Estuary" -> "Place" [ label="\"isa\"" style="solid" ];
+  "Island" -> "SmallArea" [ label="\"isa\"" style="solid" ];
+  "Mountain" -> "Place" [ label="\"isa\"" style="solid" ];
+  "Encompassed" -> "ReifiedThing" [ label="\"isa\"" style="solid" ];
+  "LargeArea" -> "Area" [ label="\"isa\"" style="solid" ];
+  "YearlyMeasurement" -> "TimeSeriesElement" [ label="\"isa\"" style="solid" ];
+  "Desert" -> "SmallArea" [ label="\"isa\"" style="solid" ];
+  "Language" -> "AnthropoGeographicalThing" [ label="\"isa\"" style="solid" ];
+  "Sea" -> "LargeArea" [ label="\"isa\"" style="solid" ];
+  "Religion" -> "AnthropoGeographicalThing" [ label="\"isa\"" style="solid" ];
+  "Islands" -> "SmallArea" [ label="\"isa\"" style="solid" ];
+  "Lake" -> "SmallArea" [ label="\"isa\"" style="solid" ];
+  "Country" -> "LargeArea" [ label="\"isa\"" style="solid" ];
+  "EthnicProportion" -> "AnthropoGeographicalRelationship" [ label="\"isa\"" style="solid" ];
+  "Source" -> "Place" [ label="\"isa\"" style="solid" ];
+  "Measurement" -> "TimeSeriesElement" [ label="\"isa\"" style="solid" ];
+  "BelievedBy" -> "AnthropoGeographicalRelationship" [ label="\"isa\"" style="solid" ];
+  "Mountains" -> "SmallArea" [ label="\"isa\"" style="solid" ];
+  "PoliticalBody" -> "PoliticalThing" [ label="\"isa\"" style="solid" ];
+  "City" -> "AdministrativeSubdivision" [ label="\"isa\"" style="solid" ];
+  "Area" -> "Geometrical" [ label="\"isa\"" style="solid" ];
+  "Line" -> "Geometrical" [ label="\"isa\"" style="solid" ];
+  "Place" -> "Geometrical" [ label="\"isa\"" style="solid" ];
+  "EncompassedArea" -> "LargeArea" [ label="\"isa\"" style="solid" ];
+  "GeographicalThing" -> "PoliticalOrGeographicalThing" [ label="\"isa\"" style="solid" ];
+  "PoliticalThing" -> "PoliticalOrGeographicalThing" [ label="\"isa\"" style="solid" ];
+  "Border" -> "NonGeographicalPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Country" -> "NonGeographicalPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Organization" -> "NonGeographicalPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Province" -> "NonGeographicalPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "City" -> "PoliticalThing" [ label="\"isa\"" style="solid" ];
+  "NonGeographicalPoliticalThing" -> "PoliticalThing" [ label="\"isa\"" style="solid" ];
+  "EthnicGroup" -> "AnthropoGeographicalThing" [ label="\"isa\"" style="solid" ];
+  "Language" -> "AnthropoGeographicalThing" [ label="\"isa\"" style="solid" ];
+  "Religion" -> "AnthropoGeographicalThing" [ label="\"isa\"" style="solid" ];
+  "LargeArea" -> "Area" [ label="\"isa\"" style="solid" ];
+  "SmallArea" -> "Area" [ label="\"isa\"" style="solid" ];
+  "BelievedBy" -> "AnthropoGeographicalRelationship" [ label="\"isa\"" style="solid" ];
+  "EthnicProportion" -> "AnthropoGeographicalRelationship" [ label="\"isa\"" style="solid" ];
+  "SpokenBy" -> "AnthropoGeographicalRelationship" [ label="\"isa\"" style="solid" ];
+  "Lake" -> "Water" [ label="\"isa\"" style="solid" ];
+  "River" -> "Water" [ label="\"isa\"" style="solid" ];
+  "Sea" -> "Water" [ label="\"isa\"" style="solid" ];
+  "Country" -> "AdministrativeArea" [ label="\"isa\"" style="solid" ];
+  "Province" -> "AdministrativeArea" [ label="\"isa\"" style="solid" ];
+  "Continent" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Desert" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Estuary" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Island" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Islands" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Mountain" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Mountains" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Source" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Water" -> "GeographicalNonPoliticalThing" [ label="\"isa\"" style="solid" ];
+  "Place" -> "Location" [ label="\"isa\"" style="solid" ];
+  "SmallArea" -> "Location" [ label="\"isa\"" style="solid" ];
+  "City" -> "GeographicalThing" [ label="\"isa\"" style="solid" ];
+  "GeographicalNonPoliticalThing" -> "GeographicalThing" [ label="\"isa\"" style="solid" ];
+  "BelievedBy" -> "ReifiedThing" [ label="\"isa\"" style="solid" ];
+  "Encompassed" -> "ReifiedThing" [ label="\"isa\"" style="solid" ];
+  "EthnicProportion" -> "ReifiedThing" [ label="\"isa\"" style="solid" ];
+  "Membership" -> "ReifiedThing" [ label="\"isa\"" style="solid" ];
+  "SpokenBy" -> "ReifiedThing" [ label="\"isa\"" style="solid" ];
+  "AnthropoGeographicalThing" -> "MondialThing" [ label="\"isa\"" style="solid" ];
+  "PoliticalOrGeographicalThing" -> "MondialThing" [ label="\"isa\"" style="solid" ];
+  "ReifiedThing" -> "MondialThing" [ label="\"isa\"" style="solid" ];
+  "City" -> "AdministrativeSubdivision" [ label="\"isa\"" style="solid" ];
+  "Province" -> "AdministrativeSubdivision" [ label="\"isa\"" style="solid" ];
+  "Country" -> "PoliticalBody" [ label="\"isa\"" style="solid" ];
+  "Organization" -> "PoliticalBody" [ label="\"isa\"" style="solid" ];
+  "Country" -> "Religion" [ label="[1..*]
+\"believeInReligion@believeInReligion\"" style="solid" ];
+  "Country" -> "EthnicGroup" [ label="[1..*]
+\"belongToEthnicGroup@belongToEthnicGroup\"" style="solid" ];
+  "Island" -> "Islands" [ label="[1..1]
+\"belongsToIslands@belongsToIslands\"" style="solid" ];
+  "LargeArea" -> "LargeArea" [ label="[1..*]
+\"borders@borders\"" style="solid" ];
+  "AdministrativeArea" -> "City" [ label="[1..1]
+\"capital@capital\"" style="solid" ];
+  "Country" -> "Country" [ label="[1..1]
+\"dependentOf@dependentOf\"" style="solid" ];
+  "EncompassedArea" -> "Continent" [ label="[1..*]
+\"encompassed@encompassed\"" style="solid" ];
+  "Encompassed" -> "EncompassedArea" [ label="[1..1]
+\"encompassedArea@encompassedArea\"" style="solid" ];
+  "Encompassed" -> "Continent" [ label="[1..1]
+\"encompassedBy@encompassedBy\"" style="solid" ];
+  "Country" -> "EthnicProportion" [ label="[1..*]
+\"ethnicInfo@ethnicInfo\"" style="solid" ];
+  "Lake" -> "Water" [ label="[1..*]
+\"flowsInto@flowsInto\"" style="solid" ];
+  "River" -> "Water" [ label="[1..*]
+\"flowsInto@flowsInto\"" style="solid" ];
+  "River" -> "Lake" [ label="[1..*]
+\"flowsThrough@flowsThrough\"" style="solid" ];
+  "City" -> "PopulationCount" [ label="[1..*]
+\"hadPopulation@hadPopulation\"" style="solid" ];
+  "Country" -> "PopulationCount" [ label="[1..*]
+\"hadPopulation@hadPopulation\"" style="solid" ];
+  "Province" -> "PopulationCount" [ label="[1..*]
+\"hadPopulation@hadPopulation\"" style="solid" ];
+  "AdministrativeArea" -> "City" [ label="[1..*]
+\"hasCity@hasCity\"" style="solid" ];
+  "River" -> "Estuary" [ label="[1..1]
+\"hasEstuary@hasEstuary\"" style="solid" ];
+  "Organization" -> "City" [ label="[1..1]
+\"hasHeadq@hasHeadq\"" style="solid" ];
+  "Country" -> "Province" [ label="[1..*]
+\"hasProvince@hasProvince\"" style="solid" ];
+  "River" -> "Source" [ label="[1..1]
+\"hasSource@hasSource\"" style="solid" ];
+  "Mountain" -> "Mountains" [ label="[1..1]
+\"inMountains@inMountains\"" style="solid" ];
+  "Source" -> "Mountains" [ label="[1..1]
+\"inMountains@inMountains\"" style="solid" ];
+  "Membership" -> "Organization" [ label="[1..1]
+\"inOrganization@inOrganization\"" style="solid" ];
+  "Border" -> "Country" [ label="[1..*]
+\"isBorderOf@isBorderOf\"" style="solid" ];
+  "Country" -> "Organization" [ label="[1..*]
+\"isMember@isMember\"" style="solid" ];
+  "Country" -> "SpokenBy" [ label="[1..*]
+\"languageInfo@languageInfo\"" style="solid" ];
+  "City" -> "Water" [ label="[1..*]
+\"locatedAt@locatedAt\"" style="solid" ];
+  "GeographicalThing" -> "Area" [ label="[1..*]
+\"locatedIn@locatedIn\"" style="solid" ];
+  "Island" -> "Water" [ label="[1..*]
+\"locatedInWater@locatedInWater\"" style="solid" ];
+  "City" -> "Island" [ label="[1..*]
+\"locatedOnIsland@locatedOnIsland\"" style="solid" ];
+  "Lake" -> "Island" [ label="[1..*]
+\"locatedOnIsland@locatedOnIsland\"" style="solid" ];
+  "Mountain" -> "Island" [ label="[1..*]
+\"locatedOnIsland@locatedOnIsland\"" style="solid" ];
+  "River" -> "Island" [ label="[1..*]
+\"locatedOnIsland@locatedOnIsland\"" style="solid" ];
+  "Sea" -> "Sea" [ label="[1..*]
+\"mergesWith@mergesWith\"" style="solid" ];
+  "Country" -> "Country" [ label="[1..*]
+\"neighbor@neighbor\"" style="solid" ];
+  "Membership" -> "Country" [ label="[1..1]
+\"ofMember@ofMember\"" style="solid" ];
+  "Measurement" -> "MondialThing" [ label="[1..1]
+\"ofObject@ofObject\"" style="solid" ];
+  "EthnicProportion" -> "EthnicGroup" [ label="[1..1]
+\"onEthnicGroup@onEthnicGroup\"" style="solid" ];
+  "SpokenBy" -> "Language" [ label="[1..1]
+\"onLanguage@onLanguage\"" style="solid" ];
+  "BelievedBy" -> "Religion" [ label="[1..1]
+\"onReligion@onReligion\"" style="solid" ];
+  "Country" -> "BelievedBy" [ label="[1..*]
+\"religionInfo@religionInfo\"" style="solid" ];
+  "Country" -> "Language" [ label="[1..*]
+\"speakLanguage@speakLanguage\"" style="solid" ];
+  "Country" -> "PoliticalBody" [ label="[1..1]
+\"wasDependentOf@wasDependentOf\"" style="solid" ];
+  "AdministrativeSubdivision" -> "Country" [ label="[1..1]
+\"belongsTo@belongsTo\"" style="solid" ];
+  "City" -> "Province" [ label="[0..1]
+\"locatedIn@locatedIn\"" style="solid" ];
+  "River" -> "Thing" [ label="[1..1]
+\"hasEstuary@hasEstuary\"" style="solid" ];
+  "Border" -> "Thing" [ label="[2..2]
+\"isBorderOf@isBorderOf\"" style="solid" ];
+  "River" -> "Thing" [ label="[1..1]
+\"hasSource@hasSource\"" style="solid" ];
+  "City" -> "Country" [ label="[0..1]
+\"isCapitalOf@isCapitalOf\"" style="solid" ];
+  "Source" -> "Thing" [ label="[1..1]
+\"hasSource-@hasSource-\"" style="solid" ];
+  "City" -> "Province" [ label="[0..1]
+\"cityIn@cityIn\"" style="solid" ];
+  "City" -> "Country" [ label="[1..1]
+\"locatedIn@locatedIn\"" style="solid" ];
+  "City" -> "Country" [ label="[1..1]
+\"cityIn@cityIn\"" style="solid" ];
+  "Estuary" -> "Thing" [ label="[1..1]
+\"hasEstuary-@hasEstuary-\"" style="solid" ];
+  "Water" -> "Thing" [ label="[0..1]
+\"flowsInto@flowsInto\"" style="solid" ];
+  "Organization" -> "string" [ label="[1..1]
+\"abbrev@abbrev\"" style="solid" ];
+  "Country" -> "string" [ label="[1..1]
+\"carCode@carCode\"" style="solid" ];
+  "Location" -> "decimal" [ label="[1..1]
+\"elevation@elevation\"" style="solid" ];
+  "Organization" -> "date" [ label="[1..1]
+\"established@established\"" style="solid" ];
+  "Country" -> "decimal" [ label="[1..1]
+\"gdpAgri@gdpAgri\"" style="solid" ];
+  "Country" -> "decimal" [ label="[1..1]
+\"gdpInd@gdpInd\"" style="solid" ];
+  "Country" -> "decimal" [ label="[1..1]
+\"gdpServ@gdpServ\"" style="solid" ];
+  "Country" -> "decimal" [ label="[1..1]
+\"gdpTotal@gdpTotal\"" style="solid" ];
+  "Country" -> "string" [ label="[1..1]
+\"government@government\"" style="solid" ];
+  "Country" -> "date" [ label="[1..1]
+\"independenceDate@independenceDate\"" style="solid" ];
+  "Country" -> "decimal" [ label="[1..1]
+\"infantMortality@infantMortality\"" style="solid" ];
+  "Country" -> "decimal" [ label="[1..1]
+\"inflation@inflation\"" style="solid" ];
+  "Volcano" -> "date" [ label="[1..1]
+\"lastEruption@lastEruption\"" style="solid" ];
+  "Location" -> "decimal" [ label="[1..1]
+\"latitude@latitude\"" style="solid" ];
+  "Line" -> "decimal" [ label="[1..1]
+\"length@length\"" style="solid" ];
+  "City" -> "string" [ label="[1..1]
+\"localname@localname\"" style="solid" ];
+  "Country" -> "string" [ label="[1..1]
+\"localname@localname\"" style="solid" ];
+  "Province" -> "string" [ label="[1..1]
+\"localname@localname\"" style="solid" ];
+  "Location" -> "decimal" [ label="[1..1]
+\"longitude@longitude\"" style="solid" ];
+  "PopulationCount" -> "nonNegativeInteger" [ label="[1..1]
+\"population@population\"" style="solid" ];
+  "Country" -> "decimal" [ label="[1..1]
+\"populationGrowth@populationGrowth\"" style="solid" ];
+  "Country" -> "decimal" [ label="[1..1]
+\"unemployment@unemployment\"" style="solid" ];
+  "Measurement" -> "decimal" [ label="[1..1]
+\"value@value\"" style="solid" ];
+  "YearlyMeasurement" -> "nonNegativeInteger" [ label="[1..*]
+\"year@year\"" style="solid" ];
+  "City" -> "Literal" [ label="[0..0]
+\"area@area\"" style="solid" ];
+  "YearlyMeasurement" -> "Literal" [ label="[1..1]
+\"year@year\"" style="solid" ];
+}

@@ -1,0 +1,7 @@
+Copyright 2016-{localyear}, https://griis.ca/[GRIIS]
+
+GRIIS (Groupe de recherche interdisciplinaire en informatique de la santé) +
+Faculté des sciences et Faculté de médecine et des sciences de la santé +
+Université de Sherbrooke (Québec) J1K 2R1 +
+
+CANADA

@@ -1,0 +1,153 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+
+
+
+    View attribute @en: uid university research assistant
+
+    View attribute @en: uid administrative staff worker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @en: uid university teaching assistant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @en: domain_uid university teaching assistant
+
+
+  View name @en: has an undergraduate degree from
+
+
+  View name IRI ResearchAssistant_worksFor_ResearchGroup
+  View name @en: university research assistant Works For research group
+  View name @fr: ResearchAssistant worksFor ResearchGroup
+    View attribute @en: uid university research assistant
+
+  View name @en: schedule lists as a course teaching course
+
+  View name IRI ResearchGroup_researchProject_Research
+  View name @en: research group has as a research project research work
+  View name @fr: ResearchGroup researchProject Research
+
+  View name @en: person is being advised by professor
+
+  View name @en: person has a degree from university
+
+  View name IRI Person_doctoralDegreeFrom_University
+  View name @en: person has a doctoral degree from university
+  View name @fr: Person doctoralDegreeFrom University
+
+  View name IRI Person_mastersDegreeFrom_University
+  View name @en: person has a masters degree from university
+  View name @fr: Person mastersDegreeFrom University
+
+  View name IRI Person_undergraduateDegreeFrom_University
+  View name @en: person has an undergraduate degree from university
+  View name @fr: Person undergraduateDegreeFrom University
+
+  View name IRI GraduateStudent_takesCourse_GraduateCourse
+  View name @en: graduate student is taking Graduate Level Courses
+  View name @fr: GraduateStudent takesCourse GraduateCourse
+
+  View name IRI Organization_affiliateOf_Person
+  View name @en: organization is affiliated with person
+  View name @fr: Organization affiliateOf Person
+
+  View name IRI Organization_affiliatedOrganizationOf_Organization
+  View name @en: organization is affiliated with organization
+  View name @fr: Organization affiliatedOrganizationOf Organization
+
+  View name @en: organization has as a member person
+
+  View name IRI Organization_orgPublication_Publication
+  View name @en: organization publishes publication
+  View name @fr: Organization orgPublication Publication
+
+  View name IRI Organization_subOrganizationOf_Organization
+  View name @en: organization is part of organization
+  View name @fr: Organization subOrganizationOf Organization
+
+  View name IRI Software_softwareDocumentation_Publication
+  View name @en: software program is documented in publication
+  View name @fr: Software softwareDocumentation Publication
+
+  View name IRI Publication_publicationAuthor_Person
+  View name @en: publication was written by person
+  View name @fr: Publication publicationAuthor Person
+
+  View name IRI Publication_publicationResearch_Research
+  View name @en: publication is about research work
+  View name @fr: Publication publicationResearch Research
+
+  View name @en: university has as an alumnus person
+
+  View name @en: faculty member teaches teaching course
+
+  View name IRI TeachingAssistant_teachingAssistantOf_Course
+  View name @en: university teaching assistant is a teaching assistant for teaching course
+  View name @fr: TeachingAssistant teachingAssistantOf Course
+    View attribute @en: uid university teaching assistant
+

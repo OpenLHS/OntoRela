@@ -1,0 +1,35 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+Original ontology : http://swat.cse.lehigh.edu/onto/univ-bench.owl
+Alias : univ-bench.owl
+@en Label : Univ-bench Ontology
+
+--------------------------------------- 
+Original ontology
+--------------------------------------- 
+Nb. classes          : 43
+Nb. data properties  : 7
+Nb. object properties: 25
+Nb. isa axioms       : 34
+Nb. data axioms      : 0
+Nb. class axioms     : 62
+
+--------------------------------------- 
+Reduced ontology (axiom complexity reduction)
+--------------------------------------- 
+Nb. classes          : 43
+Nb. data properties  : 7
+Nb. object properties: 25
+Nb. axioms: 54
+Nb. isa axioms       : 34
+Nb. data axioms      : 0
+Nb. class axioms     : 20
+Nb. reduced class axioms: 0
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 351 KB

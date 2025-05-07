@@ -1,0 +1,599 @@
+
+======================================================= 
+Ontology Details
+======================================================= 
+IRI_owlapi [ontoIRI=OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl, shortIRI=univ-bench.owl], iriOwlapi=http://swat.cse.lehigh.edu/onto/univ-bench.owl]
+
+--------------------------------------- 
+Imported Ontology : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Prefixes : 6
+--------------------------------------- 
+  OntoPrefix [alias=xsd:, path=http://www.w3.org/2001/XMLSchema#]
+  OntoPrefix [alias=:, path=http://swat.cse.lehigh.edu/onto/univ-bench.owl#]
+  OntoPrefix [alias=rdf:, path=http://www.w3.org/1999/02/22-rdf-syntax-ns#]
+  OntoPrefix [alias=rdfs:, path=http://www.w3.org/2000/01/rdf-schema#]
+  OntoPrefix [alias=owl:, path=http://www.w3.org/2002/07/owl#]
+  OntoPrefix [alias=xml:, path=http://www.w3.org/XML/1998/namespace]
+
+--------------------------------------- 
+Datatypes : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Data properties : 7
+--------------------------------------- 
+DataProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#age>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+DataProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+DataProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#name>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#officeNumber>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchInterest>, isFunctional=false]
+  Domain : 
+  Range : 
+DataProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#telephone>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+DataProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#title>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+
+--------------------------------------- 
+Object properties : 25
+--------------------------------------- 
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliateOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliatedOrganizationOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#doctoralDegreeFrom>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#headOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#listedCourse>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule, shortIRI=Schedule],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#mastersDegreeFrom>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#member>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#orgPublication>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationAuthor>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationDate>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+  Range : 
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationResearch>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research, shortIRI=Research],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchProject>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup, shortIRI=ResearchGroup],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research, shortIRI=Research],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareDocumentation>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software, shortIRI=Software],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareVersion>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software, shortIRI=Software],type=DECLARED]
+  Range : 
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty, shortIRI=Faculty],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant, shortIRI=TeachingAssistant],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#tenured>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+  Range : 
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+
+--------------------------------------- 
+ InverseOf Object Property : (Property, list of inverse)
+--------------------------------------- 
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom
+   http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus
+
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus
+   http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom
+
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#member
+   http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf
+
+http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf
+   http://swat.cse.lehigh.edu/onto/univ-bench.owl#member
+
+
+--------------------------------------- 
+Classes : 43
+--------------------------------------- 
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff, shortIRI=AdministrativeStaff],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article, shortIRI=Article],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor, shortIRI=AssistantProfessor],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor, shortIRI=AssociateProfessor],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book, shortIRI=Book],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair, shortIRI=Chair],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff, shortIRI=ClericalStaff],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#College, shortIRI=College],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper, shortIRI=ConferencePaper],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean, shortIRI=Dean],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department, shortIRI=Department],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director, shortIRI=Director],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee, shortIRI=Employee],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty, shortIRI=Faculty],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor, shortIRI=FullProfessor],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse, shortIRI=GraduateCourse],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent, shortIRI=GraduateStudent],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute, shortIRI=Institute],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle, shortIRI=JournalArticle],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer, shortIRI=Lecturer],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual, shortIRI=Manual],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc, shortIRI=PostDoc],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program, shortIRI=Program],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research, shortIRI=Research],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant, shortIRI=ResearchAssistant],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup, shortIRI=ResearchGroup],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule, shortIRI=Schedule],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software, shortIRI=Software],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification, shortIRI=Specification],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student, shortIRI=Student],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff, shortIRI=SystemsStaff],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant, shortIRI=TeachingAssistant],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport, shortIRI=TechnicalReport],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent, shortIRI=UndergraduateStudent],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication, shortIRI=UnofficialPublication],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor, shortIRI=VisitingProfessor],type=DECLARED]
+  ISA http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor
+OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work, shortIRI=Work],type=DECLARED]
+
+--------------------------------------- 
+Class Inheritance Axioms : 34
+--------------------------------------- 
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work, shortIRI=Work],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article, shortIRI=Article],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program, shortIRI=Program],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification, shortIRI=Specification],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor, shortIRI=AssociateProfessor],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant, shortIRI=ResearchAssistant],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport, shortIRI=TechnicalReport],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article, shortIRI=Article],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc, shortIRI=PostDoc],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty, shortIRI=Faculty],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse, shortIRI=GraduateCourse],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff, shortIRI=ClericalStaff],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff, shortIRI=AdministrativeStaff],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication, shortIRI=UnofficialPublication],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual, shortIRI=Manual],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research, shortIRI=Research],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work, shortIRI=Work],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff, shortIRI=AdministrativeStaff],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee, shortIRI=Employee],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup, shortIRI=ResearchGroup],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper, shortIRI=ConferencePaper],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article, shortIRI=Article],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle, shortIRI=JournalArticle],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article, shortIRI=Article],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor, shortIRI=AssistantProfessor],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent, shortIRI=GraduateStudent],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair, shortIRI=Chair],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department, shortIRI=Department],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute, shortIRI=Institute],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor, shortIRI=VisitingProfessor],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty, shortIRI=Faculty],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee, shortIRI=Employee],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean, shortIRI=Dean],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#College, shortIRI=College],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty, shortIRI=Faculty],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff, shortIRI=SystemsStaff],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff, shortIRI=AdministrativeStaff],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer, shortIRI=Lecturer],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty, shortIRI=Faculty],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book, shortIRI=Book],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software, shortIRI=Software],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent, shortIRI=UndergraduateStudent],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student, shortIRI=Student],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor, shortIRI=FullProfessor],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+ axiomOrigin=DECLARED]
+
+--------------------------------------- 
+Data Association Axioms : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Class Association Axioms : 20
+--------------------------------------- 
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor, shortIRI=Professor],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Person [1..*] advisor Professor]
+OntoAnnotation [type=DEFINITION, language=en, value=Person [1..*] advisor Professor]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliateOf>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Organization [1..*] affiliateOf Person]
+OntoAnnotation [type=DEFINITION, language=en, value=Organization [1..*] affiliateOf Person]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliatedOrganizationOf>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Organization [1..*] affiliatedOrganizationOf Organization]
+OntoAnnotation [type=DEFINITION, language=en, value=Organization [1..*] affiliatedOrganizationOf Organization]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Person [1..*] degreeFrom University]
+OntoAnnotation [type=DEFINITION, language=en, value=Person [1..*] degreeFrom University]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#doctoralDegreeFrom>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Person [1..*] doctoralDegreeFrom University]
+OntoAnnotation [type=DEFINITION, language=en, value=Person [1..*] doctoralDegreeFrom University]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=University [1..*] hasAlumnus Person]
+OntoAnnotation [type=DEFINITION, language=en, value=University [1..*] hasAlumnus Person]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Schedule, shortIRI=Schedule],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#listedCourse>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Schedule [1..*] listedCourse Course]
+OntoAnnotation [type=DEFINITION, language=en, value=Schedule [1..*] listedCourse Course]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#mastersDegreeFrom>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Person [1..*] mastersDegreeFrom University]
+OntoAnnotation [type=DEFINITION, language=en, value=Person [1..*] mastersDegreeFrom University]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#member>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Organization [1..*] member Person]
+OntoAnnotation [type=DEFINITION, language=en, value=Organization [1..*] member Person]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#orgPublication>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Organization [1..*] orgPublication Publication]
+OntoAnnotation [type=DEFINITION, language=en, value=Organization [1..*] orgPublication Publication]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationAuthor>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Publication [1..*] publicationAuthor Person]
+OntoAnnotation [type=DEFINITION, language=en, value=Publication [1..*] publicationAuthor Person]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationResearch>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research, shortIRI=Research],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Publication [1..*] publicationResearch Research]
+OntoAnnotation [type=DEFINITION, language=en, value=Publication [1..*] publicationResearch Research]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup, shortIRI=ResearchGroup],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchProject>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research, shortIRI=Research],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ResearchGroup [1..*] researchProject Research]
+OntoAnnotation [type=DEFINITION, language=en, value=ResearchGroup [1..*] researchProject Research]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software, shortIRI=Software],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareDocumentation>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication, shortIRI=Publication],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Software [1..*] softwareDocumentation Publication]
+OntoAnnotation [type=DEFINITION, language=en, value=Software [1..*] softwareDocumentation Publication]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization, shortIRI=Organization],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Organization [1..*] subOrganizationOf Organization]
+OntoAnnotation [type=DEFINITION, language=en, value=Organization [1..*] subOrganizationOf Organization]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty, shortIRI=Faculty],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Faculty [1..*] teacherOf Course]
+OntoAnnotation [type=DEFINITION, language=en, value=Faculty [1..*] teacherOf Course]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant, shortIRI=TeachingAssistant],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course, shortIRI=Course],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=TeachingAssistant [1..*] teachingAssistantOf Course]
+OntoAnnotation [type=DEFINITION, language=en, value=TeachingAssistant [1..*] teachingAssistantOf Course]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person, shortIRI=Person],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#University, shortIRI=University],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Person [1..*] undergraduateDegreeFrom University]
+OntoAnnotation [type=DEFINITION, language=en, value=Person [1..*] undergraduateDegreeFrom University]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent, shortIRI=GraduateStudent],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse, shortIRI=GraduateCourse],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant, shortIRI=ResearchAssistant],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup, shortIRI=ResearchGroup],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectSomeValuesFrom(<http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectSomeValuesFrom(<http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> <http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup>)]
+]]
+
+--------------------------------------- 
+General Class Axioms: 0
+--------------------------------------- 

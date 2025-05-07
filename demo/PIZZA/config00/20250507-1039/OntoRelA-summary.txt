@@ -1,0 +1,28 @@
+
+======================================================= 
+OntoRelA summary
+======================================================= 
+
+--------------------------------------- 
+Reduced Ontology (axiom redundancy reduction)
+--------------------------------------- 
+http://www.co-ode.org/ontologies/pizza
+Nb. classes          : 100
+Nb. data properties  : 0
+Nb. object properties: 8
+Nb. isa axioms       : 84
+Nb. data axioms      : 0
+Nb. class axioms     : 150
+
+--------------------------------------- 
+OntoRel database
+--------------------------------------- 
+Nb. all tables          : 257
+Nb. association tables  : 157
+Nb. fks                 : 559
+Nb. constraint functions: 160
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Output total size: 1471 KB

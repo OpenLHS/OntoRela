@@ -1,0 +1,131 @@
+// Settings
+:idprefix:
+:idseparator: -
+:page-component-title: Application de génération d’une base de données relationnelle à partir d’une ontologie
+:page-component-name: Ontorela
+= {page-component-name}
+
+
+[#overview]
+== Présentation
+
+L’application permet de générer un schéma relationnel à partir d’une ontologie : l’ontologie est d’abord analysée, simplifiée puis réduite ; ensuite, chaque composant ontologique est converti en un composant relationnel ; finalement, chaque composant relationnel est traduit en SQL. Tout au long du processus des messages sont produits afin de consigner les anomalies et d’aider leur éventuel traitement.
+
+OntoRelα génère à partir d’une ontologie OWL et de fichiers de configuration : (1) des scripts pour une base de données relationnelle (2) des listes d’avertissements (3) un catalogue de mise en correspondance entre des contructeurs ontologiques et les contructeurs relationnels (OntoRelCat), et (4) une ontologie normalisée formalisée selon μOnto (MOnto). μOnto, un modèle simplifié qui est inspiré de la théorie d’ensemble et à certaines parties de la logique de description, notamment ALCQI(D) [Chomicki and Saake 1998:8]. Le but de μOnto est de définir des composants ontologiques et fournir une classification des axiomes adéquate et suffisante pour la conversion en un schéma relationnel tout en préservant l’expressivité ontologique.
+
+=== Références 
+Khnaisser, Christina, Vincent Looten, Luc Lavoie, Anita Burgun, et Jean-François Ethier. « Building Ontology-Based Temporal Databases for Data Reuse: An Applied Example on Hospital Organizational Structures ». Health Informatics Journal 30, nᵒ 2 (2024). https://doi.org/10.1177/14604582241259336.
+
+Khnaisser, Christina, Luc Lavoie, Benoit Fraikin, Adrien Barton, Samuel Dussault, Anita Burgun, et Jean-François Ethier. « Using an Ontology to Derive a Sharable and Interoperable Relational Data Model for Heterogeneous Healthcare Data and Various Applications ». Methods of Information in Medicine, 2022, a-1877-9498. https://doi.org/10.1055/a-1877-9498.
+
+Khnaisser, Christina, Luc Lavoie, Anita Burgun, et Jean-Francois Ethier. « Generating Relational Database Using Ontology Review : Issues, Challenges and Trends ». International Journal of Advanced Computer Science and Applications (IJACSA) 9, nᵒ 6 (2018): 139‑45. https://doi.org/10.14569/IJACSA.2018.090620.
+
+Khnaisser, Christina. « Construction de modèles de données relationnels temporalisés guidée par les ontologies ». Université de Paris cotutelle Université de Sherbrooke, 2019. https://savoirs.usherbrooke.ca/handle/11143/16329.
+
+[#techno]
+== Technologies utilisées
+L' *{page-component-name}* est développée en Java et utilise Gradle comme outil de construction automatisée
+(« build automation tools »).
+
+[#prerequisite]
+== Préalable
+Avant de débuter, il est important de s'assurer que l’ensemble des conditions suivantes soient remplies :
+
+* Java 11+
+
+== Utilisation
+Fournir un répertoire qui contient les fichiers de configuration suivants :
+
+- **`ontology_config.yml`** (obligatoire) :
+[title=“Format du fichier de configuration de l'ontologie”,options=“header,unbreakable”]
+|===
+|Attribut | Description | Obligatoire
+|`String owlFilePath` | L'emplacement de l'ontologie (local ou URL) | Oui
+|`boolean loadEquivalentClass`|
+If true: traitement des classes équivalentes (default). +
+If false: ne pas traiter les classes équivalentes. | Non
+|`boolean reduceRedundancyAxiom`|
+If true: éliminer les axiomes redondants. +
+If false: préserver les axiomes redondants (default). |  Non
+|`List<String> annotations`| Liste des types d'annotations d'intérêts pour les étiquettes et les définitions. |  Non
+|`Set<String> classes`| L'ensemble des classes d'intérêt. |  Non
+|`Set<String> objectProperties`| L'ensemble des propriétés d'intérêt.|  Non
+|===
+
+- **`database_config.yml`** (optionnel) :
+[title="Format du fichier de configuration de la base de données",options="header,unbreakable"]
+|===
+|Attribut | Description | Obligatoire
+|`String schemaName` | Le nom du schéma à générer (default ONTORELA). |  Non
+|`List<String> rdbmsName`| La liste des noms des SGBD cibles (default postgresql).  |  Non
+|`String defaultKeyName`| Le suffix de la clé artificielle (default uid). |  Non
+|`String defaultKeyDomainName` | Le domaine de la clé artificielle (default uid_domain). |  Non
+|`String defaultKeyType`| Le type de la clé artificielle(default UUID). | Non
+|`String defaultAttributeName`| Le nom de l'attribut de valeur (default value). |  Non
+|`String defaultAttributeDomaineName`| Le domaine de l'attribut de valeur (default values_domain). |  Non
+|`String defaultAttributeType`| Le type de l'attribut de valeur (default TEXT). |  Non
+|`Integer maxIdentifierLength`| La longueur maximal des identifiants de tables/vues (default 30). |  Non
+|`boolean useIriAsTableId`|
+si true: l'identifiant d'une table correspond à l'IRI court. +
+si false: l'identifiant artificiel généré en utilisant une fonction de hashage (default). | Non
+|`boolean normalizeDatatype`|
+si true: le type est converti en table (key-value). +
+si false: le type est converti en attribut dans la table. | Non
+|`boolean generateOpTable`|
+si true: chaque propriété de classes est convertie en table (default).
+si false: les propriétés de classes ne sont pas converties. | Non
+|`boolean removeThingTable`|
+si true: une table pour la classe _Thing_ n'est *pas* créée. +
+si false: une table pour la classe _Thing_ est créée (default). | Non
+|`Set<String> languages`| L'ensemble des languages d'intérêts (default en, fr). | Non
+|`String owlSqlTypeMapperFilePath`| L'emplacement du fichier de configuration des types. | Non
+|`String ontoRelDicFilePath`| L'emplacement du catalogue OntoRel | Non
+|===
+
+- **`owlsqltype_config.yml`** (optionnel) : une mise en correspondance entre les types de OWL et SQL. (voir src/resources/default_postgresql_owlsqltyle_config.yaml).
+
+NOTE:: Il est important de noter que le choix de configuration peut entraîner des effets de bord sur certaine combinaison de configuration.
+
+[#launch]
+== Démarrage
+
+=== Générer le schéma relationnel Ontorel.
+----
+java -jar ontorela-application-<version>.jar generate-ontorel <configuration_directory>
+----
+`<configuration_directory>` l'emplacement du dossier qui contient les fichiers de configuration.
+
+=== Générer les graphes de l'ontologie, relationnel et relationnel-ontologique
+----
+java -jar ontorela-application-<version>.jar generate-graph <configuration_directory> [--type <graph_type>]
+----
+`<graph_type>` (optionnel) peut prendre comme valeur : initial_onto, normalized_onto, db, ontorel.
+
+=== Générer les rapports et les anomalies
+----
+java -jar ontorela-application-<version>.jar generate-anomalies-reports <configuration_directory> [--type <anomaly_type>]
+----
+`<anomaly_type>` (optionnel) peut prendre comme valeur : db, ontology.
+
+=== Générer tous les artéfacts
+----
+java -jar ontorela-application-<version>.jar generate-all <configuration_directory>
+----
+
+[#licence]
+== Copyright et licences
+
+=== Responsable
+Pour plus d'informations, veuillez contacter :
+
+Christina Khnaisser : Christina.Khnaisser@usherbrooke.ca
+
+=== Copyright
+include::copyright.adoc[]
+
+=== Licences
+Le code de ce projet est sous licence
+link:liliqr-licence.adoc[LILIQ-R].
+
+La documentation de ce projet est sous licence
+https://creativecommons.org/licenses/by/4.0/[CC BY 4.0].

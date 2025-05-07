@@ -237,6 +237,7 @@ CREATE TABLE IF NOT EXISTS ontorelcat_pri."Ontorel_db_config" ("ontorel_uuid"   
                                                                "use_iri_as_table_id"   BOOLEAN,
                                                                "normalize_datatype"    BOOLEAN,
                                                                "normalize_axiom"       BOOLEAN,
+                                                               "remove_thing_table"    BOOLEAN,
                                                                "generate_optable"      BOOLEAN,
                                                                CONSTRAINT "Ontorel_db_config_cc0" PRIMARY KEY ("ontorel_uuid"),
                                                                CONSTRAINT "Ontorel_db_config_cr0" FOREIGN KEY ("ontorel_uuid") REFERENCES ontorelcat_pri."Ontorel"
@@ -291,7 +292,7 @@ COMMENT ON TABLE ontorelcat_pri."Onto_class" IS 'Defines the classes within the 
 CREATE TABLE IF NOT EXISTS ontorelcat_pri."Onto_data_type" ("ontorel_uuid" VARCHAR,
                                                             "iri"          VARCHAR,
                                                             "table_id"     VARCHAR,
-                                                            "sql_type"     VARCHAR,
+                                                            "owlsql_type"     VARCHAR,
                                                             CONSTRAINT "Onto_data_type_cc0" PRIMARY KEY ("ontorel_uuid", "iri"),
                                                             CONSTRAINT "Onto_data_type_cr0" FOREIGN KEY ("ontorel_uuid", "iri")
                                                                 REFERENCES ontorelcat_pri."Ontorel_entity" ("ontorel_uuid", "iri")
@@ -502,6 +503,20 @@ CREATE TABLE IF NOT EXISTS ontorelcat_pri."Label" ("ontorel_uuid" VARCHAR,
 
 COMMENT ON TABLE ontorelcat_pri."Label" IS 'Holds labels for various OntoRel entities, facilitating multilingual support by mapping each label to its entity IRI and language code.';
 
+
+CREATE TABLE IF NOT EXISTS ontorelcat_pri."Onto_data_type_sql" ("ontorel_uuid" VARCHAR,
+                                                                "iri"                VARCHAR,
+                                                                "owlsql_type"          VARCHAR,
+                                                                "postgresql_type"         VARCHAR,
+                                                                CONSTRAINT "Onto_data_type_sql_cc0" PRIMARY KEY ("ontorel_uuid","owlsql_type","postgresql_type"),
+                                                                CONSTRAINT "Onto_data_type_sql_cr0" FOREIGN KEY ("ontorel_uuid") REFERENCES ontorelcat_pri."Ontorel"
+);
+
+COMMENT ON TABLE ontorelcat_pri."Onto_data_type_sql" IS 'Holds various SQL types used and their equivalence in differents SGBD like postgresql';
+
+
+
+
 -- ===========================================================================
 -- Création des procédures stockées de base
 -- ===========================================================================
@@ -515,6 +530,7 @@ create or replace procedure
     ontorelcat_pub.ontorel_ins(in i_ontorel_uuid character varying, in i_version character varying,
                                in i_ontorel_generation_date timestamptz)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel"(ontorel_uuid, version, ontorel_generation_date)
@@ -534,6 +550,7 @@ end;
 -- @param i_use_iri_as_table_id
 -- @param i_normalize_data_type
 -- @param i_normalize_axiom
+-- @param i_remove_thing_table
 -- @param i_generate_op_table
 create or replace procedure
     ontorelcat_pub.onto_config_db_ins(in i_ontorel_uuid character varying,
@@ -547,8 +564,10 @@ create or replace procedure
                                       in i_use_iri_as_table_id boolean,
                                       in i_normalize_data_type boolean,
                                       in i_normalize_axiom boolean,
+                                      in i_remove_thing_table boolean,
                                       in i_generate_op_table boolean)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_db_config"(ontorel_uuid,
@@ -562,6 +581,7 @@ begin
                                                    use_iri_as_table_id,
                                                    normalize_datatype,
                                                    normalize_axiom,
+                                                   remove_thing_table,
                                                    generate_optable)
     values (i_ontorel_uuid,
             i_default_key_name,
@@ -574,6 +594,7 @@ begin
             i_use_iri_as_table_id,
             i_normalize_data_type,
             i_normalize_axiom,
+            i_remove_thing_table,
             i_generate_op_table);
 
 end;
@@ -589,6 +610,7 @@ create or replace procedure
                                    in i_code character varying,
                                    in i_value character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_schema"(ontorel_uuid, schema_name)
@@ -611,6 +633,7 @@ create or replace procedure
                                 in i_file_name character varying, in i_alias character varying,
                                 in i_version character varying, in i_create_date timestamptz)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontology"(ontorel_uuid, iri, file_name, alias, version, create_date)
@@ -627,6 +650,7 @@ create or replace procedure
     ontorelcat_pub.ontology_label_ins(in i_ontorel_uuid character varying, in i_iri character varying,
                                       in i_code character varying, in i_value character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontology_label"(ontorel_uuid, iri, code, value)
@@ -645,6 +669,7 @@ create or replace procedure
                                   in i_table_id character varying,
                                   in i_origin ontorelcat_pub."Origin_Class")
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_entity"(ontorel_uuid, iri)
@@ -661,16 +686,36 @@ end;
 -- @param i_sql_type
 create or replace procedure
     ontorelcat_pub.onto_data_type_ins(in i_ontorel_uuid character varying, in i_iri character varying,
-                                      in i_table_id character varying, in i_sql_type character varying)
+                                      in i_table_id character varying, in i_owlsql_type character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_entity"(ontorel_uuid, iri)
     values (i_ontorel_uuid, i_iri);
 
-    insert into ontorelcat_pri."Onto_data_type"(ontorel_uuid, iri, table_id, sql_type)
-    values (i_ontorel_uuid, i_iri, i_table_id, i_sql_type);
+    insert into ontorelcat_pri."Onto_data_type"(ontorel_uuid, iri, table_id, owlsql_type)
+    values (i_ontorel_uuid, i_iri, i_table_id, i_owlsql_type);
 end;
+
+
+-- Création du procédure onto_data_type_sql_ins (Insertion dans la table : Onto_data_type_sql)
+-- @param i_ontorel_uuid
+-- @param i_owlsql_type
+-- @param i_postgresql_type
+create or replace procedure
+    ontorelcat_pub.onto_data_type_sql_ins(in i_ontorel_uuid character varying,
+                                          in i_iri character varying,
+                                          in i_owlsql_type character varying,
+                                          in i_postgresql_type character varying)
+    language sql
+    security definer
+begin
+    atomic
+    insert into ontorelcat_pri."Onto_data_type_sql"(ontorel_uuid, iri, owlsql_type, postgresql_type)
+    values (i_ontorel_uuid, i_iri, i_owlsql_type, i_postgresql_type);
+end;
+
 
 -- Création du procédure onto_object_properties_ins (Insertion dans les tables : Onto_Object_Property -> Ontorel_Entity)
 -- @param i_ontorel_uuid
@@ -681,6 +726,7 @@ create or replace procedure
                                               in i_iri character varying,
                                               in i_table_id character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_entity"(ontorel_uuid, iri)
@@ -699,6 +745,7 @@ create or replace procedure
                                                      in i_iri character varying,
                                                      in i_property_iri character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_entity"(ontorel_uuid, iri)
@@ -721,6 +768,7 @@ create or replace procedure
                                                     in i_iri character varying,
                                                     in i_property_iri character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_entity"(ontorel_uuid, iri)
@@ -741,6 +789,7 @@ create or replace procedure
     ontorelcat_pub.onto_data_properties_ins(in i_ontorel_uuid character varying,
                                             in i_iri character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_entity"(ontorel_uuid, iri)
@@ -759,6 +808,7 @@ create or replace procedure
                                                    in i_iri character varying,
                                                    in i_property_iri character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_entity"(ontorel_uuid, iri)
@@ -776,13 +826,14 @@ end;
 -- @param i_ontorel_uuid
 -- @param i_datatype_iri
 -- @param i_property_iri
--- @param i_sql_type
+-- @param i_owlsql_type
 create or replace procedure
     ontorelcat_pub.onto_data_properties_range_ins(in i_ontorel_uuid character varying,
                                                   in i_datatype_iri character varying,
                                                   in i_property_iri character varying,
-                                                  in i_sql_type character varying)
+                                                  in i_owlsql_type character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Ontorel_entity"(ontorel_uuid, iri)
@@ -792,8 +843,8 @@ begin
                from ontorelcat_pri."Ontorel_entity"
                where ontorel_uuid = i_ontorel_uuid and iri = i_datatype_iri);
 
-    insert into ontorelcat_pri."Onto_data_type"(ontorel_uuid, iri, sql_type)
-    select i_ontorel_uuid, i_datatype_iri, i_sql_type
+    insert into ontorelcat_pri."Onto_data_type"(ontorel_uuid, iri, owlsql_type)
+    select i_ontorel_uuid, i_datatype_iri, i_owlsql_type
     where not exists
               (select ontorel_uuid, iri
                from ontorelcat_pri."Onto_data_type"
@@ -820,6 +871,7 @@ create or replace procedure
                                        in i_origin ontorelcat_pub."Origin_Axiom",
                                        in i_table_id character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Onto_data_axiom"(ontorel_uuid, domain_iri, range_iri, property_iri, domain_card, origin,
@@ -846,6 +898,7 @@ create or replace procedure
                                         in i_origin ontorelcat_pub."Origin_Axiom",
                                         in i_table_id character varying)
     language sql
+    security definer
 begin
     atomic
 
@@ -857,13 +910,14 @@ end;
 
 -- Création du procédure onto_class_inheritance_ins (Insertion dans la table : Onto_Class_Inheritance)
 -- @param i_ontorel_uuid
--- @param i_subclass_iri
 -- @param i_superclass_iri
+-- @param i_subclass_iri
 create or replace procedure
     ontorelcat_pub.onto_class_inheritance_ins(in i_ontorel_uuid character varying,
-                                              in i_subclass_iri character varying,
-                                              in i_superclass_iri character varying)
+                                              in i_superclass_iri character varying,
+                                              in i_subclass_iri character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Onto_class_inheritance"(ontorel_uuid, subclass_iri, superclass_iri)
@@ -879,6 +933,7 @@ create or replace procedure
                                                         in i_superproperty_iri character varying,
                                                         in i_subproperty_iri character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Onto_object_property_inheritance"(ontorel_uuid, superproperty_iri, subproperty_iri)
@@ -894,6 +949,7 @@ create or replace procedure
     ontorelcat_pub.onto_label_ins(in i_ontorel_uuid character varying, in i_iri character varying,
                                   in i_code character varying, in i_value character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Label"(ontorel_uuid, iri, code, value)
@@ -907,8 +963,9 @@ end;
 -- @param i_value
 create or replace procedure
     ontorelcat_pub.onto_definition_ins(in i_ontorel_uuid character varying, in i_iri character varying,
-                                      in i_code character varying, in i_value character varying)
+                                       in i_code character varying, in i_value character varying)
     language sql
+    security definer
 begin
     atomic
     insert into ontorelcat_pri."Definition"(ontorel_uuid, iri, code, value)
@@ -922,6 +979,7 @@ end;
 create or replace function ontorelcat_pri.getShortIRI(fullIRI varchar)
     returns varchar
     language sql
+    security definer
 begin
     atomic
     select case
@@ -932,100 +990,168 @@ begin
 end;
 
 
+-- Fonction permettant de supprimer un ontorel depuis le catalogue
+CREATE OR REPLACE FUNCTION ontorelcat_pri.delete_ontorel(p_ontorel_uuid VARCHAR)
+    RETURNS BOOLEAN AS $$
+DECLARE
+    v_result BOOLEAN;
+BEGIN
+    BEGIN
+        DELETE FROM ontorelcat_pri."Onto_class_axiom" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_data_axiom" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_class_inheritance" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_object_property_inheritance" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_data_property_range" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_data_property_domain" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_object_property_range" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_object_property_domain" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_data_property" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_object_property" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_data_type_sql" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_data_type" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Onto_class" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Definition" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Label" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Ontology_label" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Ontology" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Ontorel_schema_definition" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Ontorel_schema" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Ontorel_entity" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Ontorel_db_config" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        DELETE FROM ontorelcat_pri."Ontorel" WHERE "ontorel_uuid" = p_ontorel_uuid;
+        v_result := TRUE;
+    EXCEPTION
+        WHEN OTHERS THEN
+            v_result := FALSE;
+    END;
+
+    RETURN v_result;
+END;
+$$ LANGUAGE plpgsql;
+
 -- ===========================================================================
--- Vue OntoRelCat
+-- Vue OntoRelCat : Définition des tables
 -- ===========================================================================
+/*
+-- =========================================================================== A
+Schema : PDRO
+Creation Date : 20240219-1117
+Encoding : UTF-8, sans BOM, fin de ligne Unix (LF)
+Plateforme : PostgreSQL 9.6
+Responsable : OntoRelA
+Version : v0
+Status : dev
+Objet :
+  View procedures of ontorelcat_pri
+-- =========================================================================== A
+*/
 
 -- Vue ontorelcat_pri
-create or replace view "ontorelcat_pri"."Table_Definition" as
+create or replace view "ontorelcat_pub"."Table_Definition_EN"
+    with(security_barrier=true)
+    as
 select distinct "ontorel_uuid",
                 "table_id",
-                coalesce("Label"."value", "iri") AS "label",
-                'Class'                          AS "type"
-from "ontorelcat_pri"."Onto_class"
-         left join "ontorelcat_pri"."Label" using ("ontorel_uuid", "iri")
-where code = 'en'
-union all
-select distinct "ontorel_uuid",
+                COALESCE("Label"."value", "iri") AS "label",
+                "ontorelcat_pri".getshortiri("iri") AS "short iri",
+                'Class' AS "type"
+FROM "ontorelcat_pri"."Onto_class"
+         LEFT JOIN "ontorelcat_pri"."Label" USING ("ontorel_uuid", "iri")
+WHERE code = 'en'
+UNION ALL
+SELECT DISTINCT "ontorel_uuid",
                 "table_id",
-                coalesce("domain", "domain_iri") || ' ' || coalesce("property", "property_iri") || ' ' ||
-                "domain_card" || ' ' || coalesce("range", "range_iri"),
-                'ObjectProperty'
+                COALESCE("domain", "domain_iri") || ' ' || COALESCE("property", "property_iri") || ' ' ||
+                "domain_card" || ' ' || COALESCE("range", "range_iri"),
+                "ontorelcat_pri".getshortiri("domain_iri")  || ' ' || "ontorelcat_pri".getshortiri("property_iri")
+                    || ' ' || "ontorelcat_pri".getshortiri("range_iri"),
+                'Class Axiom' As "type"
 FROM "ontorelcat_pri"."Onto_class_axiom"
-         left join "ontorelcat_pri"."Label" "Domain_Label"("ontorel_uuid", "domain_iri", "code", "domain")
-                   using ("ontorel_uuid", "domain_iri")
-         left join "ontorelcat_pri"."Label" "Range_Label"("ontorel_uuid", "range_iri", "code", "range")
-                   using ("ontorel_uuid", "range_iri", "code")
-         left join "ontorelcat_pri"."Label" "Property_Label"("ontorel_uuid", "property_iri", "code", "property")
-                   using ("ontorel_uuid", "property_iri", "code")
-where code = 'en'
-union all
-select distinct "ontorel_uuid",
+         LEFT JOIN "ontorelcat_pri"."Label" "Domain_Label"("ontorel_uuid", "domain_iri", "code", "domain")
+                   USING ("ontorel_uuid", "domain_iri")
+         LEFT JOIN "ontorelcat_pri"."Label" "Range_Label"("ontorel_uuid", "range_iri", "code", "range")
+                   USING ("ontorel_uuid", "range_iri", "code")
+         LEFT JOIN "ontorelcat_pri"."Label" "Property_Label"("ontorel_uuid", "property_iri", "code", "property")
+                   USING ("ontorel_uuid", "property_iri", "code")
+WHERE code = 'en'
+UNION ALL
+SELECT DISTINCT "ontorel_uuid",
                 "table_id",
-                coalesce("domain", "domain_iri") || ' ' || coalesce("property", "property_iri") || ' ' ||
-                "domain_card" || ' ' || coalesce("range", "range_iri"),
-                'DataProperty'
+                COALESCE("domain", "domain_iri") || ' ' || COALESCE("property", "property_iri") || ' ' ||
+                "domain_card" || ' ' || COALESCE("range", "range_iri"),
+                "ontorelcat_pri".getshortiri("domain_iri")  || ' ' || "ontorelcat_pri".getshortiri("property_iri")
+                    || ' ' || "ontorelcat_pri".getshortiri("range_iri"),
+                'Data Axiom' as "type"
 FROM "ontorelcat_pri"."Onto_data_axiom"
-         left join "ontorelcat_pri"."Label" "Domain_Label"("ontorel_uuid", "domain_iri", "code", "domain")
-                   using ("ontorel_uuid", "domain_iri")
-         left join "ontorelcat_pri"."Label" "Range_Label"("ontorel_uuid", "range_iri", "code", "range")
-                   using ("ontorel_uuid", "range_iri", "code")
-         left join "ontorelcat_pri"."Label" "Property_Label"("ontorel_uuid", "property_iri", "code", "property")
-                   using ("ontorel_uuid", "property_iri", "code")
-where code = 'en'
-union all
-select distinct "ontorel_uuid",
+         LEFT JOIN "ontorelcat_pri"."Label" "Domain_Label"("ontorel_uuid", "domain_iri", "code", "domain")
+                   USING ("ontorel_uuid", "domain_iri")
+         LEFT JOIN "ontorelcat_pri"."Label" "Range_Label"("ontorel_uuid", "range_iri", "code", "range")
+                   USING ("ontorel_uuid", "range_iri", "code")
+         LEFT JOIN "ontorelcat_pri"."Label" "Property_Label"("ontorel_uuid", "property_iri", "code", "property")
+                   USING ("ontorel_uuid", "property_iri", "code")
+WHERE code = 'en'
+UNION ALL
+SELECT DISTINCT "ontorel_uuid",
                 "table_id",
-                coalesce("Label"."value", "iri") AS "label",
-                'DataType'                       AS "type"
-from "ontorelcat_pri"."Onto_data_type"
-         left join "ontorelcat_pri"."Label" using ("ontorel_uuid", "iri")
-where table_id is not null
-  and code = 'en';
+                COALESCE("Label"."value", "iri") AS "label",
+                "ontorelcat_pri".getshortiri("iri") AS "short iri",
+                'DataType' AS "type"
+FROM "ontorelcat_pri"."Onto_data_type"
+         LEFT JOIN "ontorelcat_pri"."Label" USING ("ontorel_uuid", "iri")
+WHERE table_id IS NOT NULL
+  AND code = 'en';
 
 -- Vue ontorelcat_pri
-create or replace view "ontorelcat_pri"."Table_Definition" as
+create or replace view "ontorelcat_pub"."Table_Definition_FR"
+            with(security_barrier=true)
+    as
 select distinct "ontorel_uuid",
                 "table_id",
-                coalesce("Label"."value", "iri") AS "label",
-                'Class'                          AS "type"
-from "ontorelcat_pri"."Onto_class"
-         left join "ontorelcat_pri"."Label" using ("ontorel_uuid", "iri")
-where code = 'fr'
-union all
-select distinct "ontorel_uuid",
+                COALESCE("Label"."value", "iri") AS "label",
+                "ontorelcat_pri".getshortiri("iri") AS "short iri",
+                'Class' AS "type"
+FROM "ontorelcat_pri"."Onto_class"
+         LEFT JOIN "ontorelcat_pri"."Label" USING ("ontorel_uuid", "iri")
+WHERE code = 'fr'
+UNION ALL
+SELECT DISTINCT "ontorel_uuid",
                 "table_id",
-                coalesce("domain", "domain_iri") || ' ' || coalesce("property", "property_iri") || ' ' ||
-                "domain_card" || ' ' || coalesce("range", "range_iri"),
-                'ObjectProperty'
+                COALESCE("domain", "domain_iri") || ' ' || COALESCE("property", "property_iri") || ' ' ||
+                "domain_card" || ' ' || COALESCE("range", "range_iri"),
+                "ontorelcat_pri".getshortiri("domain_iri")  || ' ' || "ontorelcat_pri".getshortiri("property_iri")
+                    || ' ' || "ontorelcat_pri".getshortiri("range_iri"),
+                'Class Axiom' as "type"
 FROM "ontorelcat_pri"."Onto_class_axiom"
-         left join "ontorelcat_pri"."Label" "Domain_Label"("ontorel_uuid", "domain_iri", "code", "domain")
-                   using ("ontorel_uuid", "domain_iri")
-         left join "ontorelcat_pri"."Label" "Range_Label"("ontorel_uuid", "range_iri", "code", "range")
-                   using ("ontorel_uuid", "range_iri", "code")
-         left join "ontorelcat_pri"."Label" "Property_Label"("ontorel_uuid", "property_iri", "code", "property")
-                   using ("ontorel_uuid", "property_iri", "code")
-where code = 'fr'
-union all
-select distinct "ontorel_uuid",
+         LEFT JOIN "ontorelcat_pri"."Label" "Domain_Label"("ontorel_uuid", "domain_iri", "code", "domain")
+                   USING ("ontorel_uuid", "domain_iri")
+         LEFT JOIN "ontorelcat_pri"."Label" "Range_Label"("ontorel_uuid", "range_iri", "code", "range")
+                   USING ("ontorel_uuid", "range_iri", "code")
+         LEFT JOIN "ontorelcat_pri"."Label" "Property_Label"("ontorel_uuid", "property_iri", "code", "property")
+                   USING ("ontorel_uuid", "property_iri", "code")
+WHERE code = 'fr'
+UNION ALL
+SELECT DISTINCT "ontorel_uuid",
                 "table_id",
-                coalesce("domain", "domain_iri") || ' ' || coalesce("property", "property_iri") || ' ' ||
-                "domain_card" || ' ' || coalesce("range", "range_iri"),
-                'DataProperty'
+                COALESCE("domain", "domain_iri") || ' ' || COALESCE("property", "property_iri") || ' ' ||
+                "domain_card" || ' ' || COALESCE("range", "range_iri"),
+                "ontorelcat_pri".getshortiri("domain_iri")  || ' ' || "ontorelcat_pri".getshortiri("property_iri")
+                    || ' ' || "ontorelcat_pri".getshortiri("range_iri"),
+                'Data Axiom' as "type"
 FROM "ontorelcat_pri"."Onto_data_axiom"
-         left join "ontorelcat_pri"."Label" "Domain_Label"("ontorel_uuid", "domain_iri", "code", "domain")
-                   using ("ontorel_uuid", "domain_iri")
-         left join "ontorelcat_pri"."Label" "Range_Label"("ontorel_uuid", "range_iri", "code", "range")
-                   using ("ontorel_uuid", "range_iri", "code")
-         left join "ontorelcat_pri"."Label" "Property_Label"("ontorel_uuid", "property_iri", "code", "property")
-                   using ("ontorel_uuid", "property_iri", "code")
-where code = 'fr'
-union all
-select distinct "ontorel_uuid",
+         LEFT JOIN "ontorelcat_pri"."Label" "Domain_Label"("ontorel_uuid", "domain_iri", "code", "domain")
+                   USING ("ontorel_uuid", "domain_iri")
+         LEFT JOIN "ontorelcat_pri"."Label" "Range_Label"("ontorel_uuid", "range_iri", "code", "range")
+                   USING ("ontorel_uuid", "range_iri", "code")
+         LEFT JOIN "ontorelcat_pri"."Label" "Property_Label"("ontorel_uuid", "property_iri", "code", "property")
+                   USING ("ontorel_uuid", "property_iri", "code")
+WHERE code = 'fr'
+UNION ALL
+SELECT DISTINCT "ontorel_uuid",
                 "table_id",
-                coalesce("Label"."value", "iri") AS "label",
-                'DataType'                       AS "type"
-from "ontorelcat_pri"."Onto_data_type"
-         left join "ontorelcat_pri"."Label" using ("ontorel_uuid", "iri")
-where table_id is not null
-  and code = 'fr';
+                COALESCE("Label"."value", "iri") AS "label",
+                "ontorelcat_pri".getshortiri("iri") AS "short iri",
+                'DataType' AS "type"
+FROM "ontorelcat_pri"."Onto_data_type"
+         LEFT JOIN "ontorelcat_pri"."Label" USING ("ontorel_uuid", "iri")
+WHERE table_id IS NOT NULL
+  AND code = 'fr';

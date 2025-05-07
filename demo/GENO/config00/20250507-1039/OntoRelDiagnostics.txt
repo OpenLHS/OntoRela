@@ -1,0 +1,107 @@
+
+======================================================= 
+OntoRel Diagnostics
+======================================================= 
+
+--------------------------------------- 
+OWL to SQL datatypes
+--------------------------------------- 
+OWL Type langString does not exist in config file. The type TEXT will be used
+Creating join table for: GENO_0000722 [1..*] GENO_0000783 GENO_0000782
+Creating join table for: GENO_0000504 [1..*] GENO_0000447 GENO_0000533
+Creating join table for: GENO_0000504 [1..*] GENO_0000231 GENO_0000534
+Creating join table for: GENO_0000516 [1..*] GENO_0000608 GENO_0000133
+Creating join table for: GENO_0000637 [1..*] RO_0002525 SO_0000902
+Creating join table for: PCO_0000000 [1..*] RO_0002351 OBI_0100026
+Creating join table for: GENO_0000528 [1..*] GENO_0000382 GENO_0000506
+Creating join table for: UBERON_0001062 [1..*] RO_0001000 OBI_0100026
+Creating join table for: GENO_0000515 [1..*] GENO_0000641 SO_0000704
+Creating join table for: GENO_0000515 [1..*] GENO_0000382 SO_0001059
+Creating join table for: GENO_0000721 [1..*] GENO_0000783 GENO_0000781
+Creating join table for: GENO_0000527 [1..*] RO_0002351 GENO_0000504
+Creating join table for: SO_0001026 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000093 [1..*] BFO_0000050 SO_0001218
+Creating join table for: GENO_0000611 [1..*] IAO_0000219 GENO_0000010
+Creating join table for: GENO_0000720 [1..*] GENO_0000783 GENO_0000780
+Creating join table for: GENO_0000092 [1..*] RO_0002353 GENO_0000172
+Creating join table for: GENO_0000659 [1..*] RO_0002351 SO_0000110
+Creating join table for: GENO_0000525 [1..*] BFO_0000051 GENO_0000719
+Creating join table for: GENO_0000525 [1..*] BFO_0000051 GENO_0000524
+Creating join table for: GENO_0000501 [1..*] GENO_0000683 GENO_0000481
+Creating join table for: GENO_0000536 [1..*] IAO_0000219 ONTORELA_C6cdb8ddf
+Creating join table for: GENO_0000887 [1..*] RO_0002351 NCBITaxon_8090
+Creating join table for: GENO_0000645 [1..*] GENO_0000650 GENO_0000000
+Creating join table for: GENO_0000899 [1..*] GENO_0000385 GENO_0000611
+Creating join table for: GENO_0000644 [1..*] IAO_0000219 SO_0001026
+Creating join table for: GENO_0000897 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000667 [1..*] BFO_0000051 GENO_0000640
+Creating join table for: GENO_0000667 [1..*] GENO_0000207 SO_0000783
+Creating join table for: GENO_0000642 [1..*] GENO_0000207 SO_0000783
+Creating join table for: SO_0000105 [1..*] BFO_0000050 SO_0000830
+Creating join table for: GENO_0000338 [1..*] GENO_0000207 GENO_0000685
+Creating join table for: OBI_0600043 [1..*] OBI_0000299 ONTORELA_C55a946a3
+Creating join table for: SO_0001218 [1..*] BFO_0000051 GENO_0000093
+Creating join table for: GENO_0000119 [1..*] RO_0002351 NCBITaxon_7955
+Creating join table for: GENO_0000106 [1..*] GENO_0000248 ONTORELA_C64c7aff2
+Creating join table for: GENO_0000106 [1..*] RO_0000091 GENO_0000139
+Creating join table for: GENO_0000106 [1..*] BFO_0000050 GENO_0000108
+Creating join table for: ONTORELA_C3009a2bd [1..*] RO_0002091 UBERON_0000105
+Creating join table for: ONTORELA_C3009a2bd [1..*] RO_0002093 UBERON_0000105
+Creating join table for: GENO_0000891 [1..*] IAO_0000219 GENO_0000890
+Creating join table for: GENO_0000346 [1..*] GENO_0000207 GENO_0000513
+Creating join table for: GENO_0000660 [1..*] RO_0002351 GENO_0000481
+Creating join table for: GENO_0000660 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000684 [1..*] GENO_0000207 GENO_0000685
+Creating join table for: SO_0000341 [1..*] BFO_0000050 GENO_0000614
+Creating join table for: SO_0000341 [1..*] GENO_0000207 GENO_0000618
+Creating join table for: SO_0000110 [1..*] GENO_0000239 GENO_0000702
+Creating join table for: SO_0000110 [1..*] GENO_0000903 GENO_0000815
+Creating join table for: GENO_0000343 [1..*] GENO_0000207 GENO_0000513
+Creating join table for: GENO_0000343 [1..*] GENO_0000248 SO_0000340
+Creating join table for: GENO_0000112 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000681 [1..*] GENO_0000207 GENO_0000139
+Creating join table for: GENO_0000681 [1..*] GENO_0000207 GENO_0000685
+Creating join table for: SO_0001505 [1..*] RO_0000087 GENO_0000152
+Creating join table for: GENO_0000014 [1..*] GENO_0000408 SO_0000704
+Creating join table for: GENO_0000133 [1..*] RO_0000052 GENO_0000516
+Creating join table for: GENO_0000915 [1..*] GENO_0000408 GENO_0000916
+Creating join table for: GENO_0000915 [1..*] BFO_0000051 SO_0001059
+Creating join table for: CLO_0000031 [1..*] RO_0001000 OBI_0100026
+Creating join table for: GENO_0000481 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000481 [1..*] BFO_0000050 SO_0001026
+Creating join table for: GENO_0000033 [1..*] GENO_0000382 SO_0001059
+Creating join table for: GENO_0000166 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000914 [1..*] GENO_0000239 SO_0001505
+Creating join table for: GENO_0000492 [1..*] GENO_0000683 GENO_0000501
+Creating join table for: GENO_0000719 [1..*] IAO_0000219 ONTORELA_C349f0240
+Creating join table for: GENO_0000839 [1..*] GENO_0000382 GENO_0000504
+Creating join table for: SO_0000281 [1..*] GENO_0000207 SO_0000783
+Creating join table for: ONTORELA_C55a946a3 [1..*] GENO_0000211 GENO_0000002
+Creating join table for: ONTORELA_C50fc6ccd [1..*] BFO_0000050 GENO_0000536
+Creating join table for: GENO_0000174 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000173 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000715 [1..*] GENO_0000726 SO_0000110
+Creating join table for: GENO_0000715 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000715 [1..*] RO_0002351 GENO_0000714
+Creating join table for: GENO_0000715 [1..*] GENO_0000726 GENO_0000660
+Creating join table for: GENO_0000920 [1..*] BFO_0000051 GENO_0000919
+Creating join table for: GENO_0000920 [1..*] GENO_0000726 GENO_0000659
+Creating join table for: GENO_0000172 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000714 [1..*] GENO_0000726 SO_0000110
+Creating join table for: GENO_0000714 [1..*] RO_0002162 OBI_0100026
+Creating join table for: GENO_0000714 [1..*] GENO_0000580 Thing
+Creating join table for: GENO_0000714 [1..*] GENO_0000726 GENO_0000481
+Creating join table for: GENO_0000171 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: Region [1..1] begin Position
+Creating join table for: Region [1..1] end Position
+Creating join table for: GENO_0000616 [1..*] GENO_0000207 GENO_0000618
+Creating join table for: GENO_0000616 [1..*] BFO_0000050 SO_0000341
+Creating join table for: ONTORELA_C78d57b7f [1..*] RO_0002524 SO_0001059
+Creating join table for: GENO_0000170 [1..*] OBI_0000299 GENO_0000515
+Creating join table for: GENO_0000833 [1..*] GENO_0000580 ENVO_01000254
+Creating join table for: GENO_0000833 [1..*] association_has_subject ONTORELA_C6eeefcf9
+Creating join table for: GENO_0000833 [1..*] association_has_object UPHENO_0001001
+Creating join table for: GENO_0000833 [1..*] GENO_0000580 ONTORELA_C3009a2bd
+Creating join table for: GENO_0000614 [1..*] BFO_0000050 SO_0000105
+Creating join table for: GENO_0000529 [1..*] GENO_0000443 SO_0000704
+Creating join table for: GENO_0000638 [1..*] RO_0002525 SO_0000902

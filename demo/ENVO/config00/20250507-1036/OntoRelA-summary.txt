@@ -1,0 +1,28 @@
+
+======================================================= 
+OntoRelA summary
+======================================================= 
+
+--------------------------------------- 
+Reduced Ontology (axiom redundancy reduction)
+--------------------------------------- 
+http://purl.obolibrary.org/obo/envo.owl
+Nb. classes          : 7759
+Nb. data properties  : 1
+Nb. object properties: 166
+Nb. isa axioms       : 9135
+Nb. data axioms      : 2
+Nb. class axioms     : 4175
+
+--------------------------------------- 
+OntoRel database
+--------------------------------------- 
+Nb. all tables          : 11927
+Nb. association tables  : 4173
+Nb. fks                 : 17462
+Nb. constraint functions: 4341
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Output total size: 69950 KB

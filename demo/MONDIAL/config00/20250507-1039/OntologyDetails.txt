@@ -1,0 +1,1798 @@
+
+======================================================= 
+Ontology Details
+======================================================= 
+IRI_owlapi [ontoIRI=OntoIRI [fullIRI=f://Mondial, shortIRI=Mondial], iriOwlapi=f://Mondial]
+
+--------------------------------------- 
+Imported Ontology : 0
+--------------------------------------- 
+
+--------------------------------------- 
+Prefixes : 6
+--------------------------------------- 
+  OntoPrefix [alias=rdfs:, path=http://www.w3.org/2000/01/rdf-schema#]
+  OntoPrefix [alias=xsd:, path=http://www.w3.org/2001/XMLSchema#]
+  OntoPrefix [alias=:, path=file:/Users/khnc2501/Depots/OpenLHS/OntoRela/demo/MONDIAL/mondial-meta.n3#]
+  OntoPrefix [alias=xml:, path=http://www.w3.org/XML/1998/namespace]
+  OntoPrefix [alias=owl:, path=http://www.w3.org/2002/07/owl#]
+  OntoPrefix [alias=rdf:, path=http://www.w3.org/1999/02/22-rdf-syntax-ns#]
+
+--------------------------------------- 
+Datatypes : 5
+--------------------------------------- 
+  OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]]
+  OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]]
+  OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]]
+  OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]]
+  OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]]
+
+--------------------------------------- 
+Data properties : 28
+--------------------------------------- 
+DataProperty_owlapi [<f://m#abbrev>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<f://m#area>, isFunctional=true]
+  Domain : 
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#carCode>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<f://m#depth>, isFunctional=true]
+  Domain : 
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#elevation>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#established>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+DataProperty_owlapi [<f://m#gdpAgri>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#gdpInd>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#gdpServ>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#gdpTotal>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#government>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<f://m#independenceDate>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+DataProperty_owlapi [<f://m#infantMortality>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#inflation>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#lastEruption>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Volcano, shortIRI=Volcano],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+DataProperty_owlapi [<f://m#latitude>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#length>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Line, shortIRI=Line],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#localname>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<f://m#longitude>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#name>, isFunctional=true]
+  Domain : 
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<f://m#othername>, isFunctional=false]
+  Domain : 
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<f://m#percent>, isFunctional=true]
+  Domain : 
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#population>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#PopulationCount, shortIRI=PopulationCount],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]], owlDatatype=xsd:nonNegativeInteger]
+DataProperty_owlapi [<f://m#populationGrowth>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#type>, isFunctional=true]
+  Domain : 
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+DataProperty_owlapi [<f://m#unemployment>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#value>, isFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Measurement, shortIRI=Measurement],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+DataProperty_owlapi [<f://m#year>, isFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#YearlyMeasurement, shortIRI=YearlyMeasurement],type=DECLARED]
+  Range : 
+  OwlApiDatatype [ontoDatatype=OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]], owlDatatype=xsd:nonNegativeInteger]
+
+--------------------------------------- 
+Object properties : 59
+--------------------------------------- 
+ObjectProperty_owlapi [<f://m#believeInReligion>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Religion, shortIRI=Religion],type=DECLARED]
+ObjectProperty_owlapi [<f://m#believedInCountry>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#belongToEthnicGroup>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#EthnicGroup, shortIRI=EthnicGroup],type=DECLARED]
+ObjectProperty_owlapi [<f://m#belongsTo>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#belongsToIslands>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Islands, shortIRI=Islands],type=DECLARED]
+ObjectProperty_owlapi [<f://m#borders>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+ObjectProperty_owlapi [<f://m#capital>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#AdministrativeArea, shortIRI=AdministrativeArea],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ObjectProperty_owlapi [<f://m#cityIn>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#dependentOf>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+ObjectProperty_owlapi [<f://m#encompassed>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#EncompassedArea, shortIRI=EncompassedArea],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Continent, shortIRI=Continent],type=DECLARED]
+ObjectProperty_owlapi [<f://m#encompassedArea>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Encompassed, shortIRI=Encompassed],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#EncompassedArea, shortIRI=EncompassedArea],type=DECLARED]
+ObjectProperty_owlapi [<f://m#encompassedBy>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Encompassed, shortIRI=Encompassed],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Continent, shortIRI=Continent],type=DECLARED]
+ObjectProperty_owlapi [<f://m#encompassedByInfo>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#encompasses>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#encompassesInfo>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#ethnicInfo>, isFunctional=false, isInverseFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#EthnicProportion, shortIRI=EthnicProportion],type=DECLARED]
+ObjectProperty_owlapi [<f://m#ethnicInfo->, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#flowsInto>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+ObjectProperty_owlapi [<f://m#flowsThrough>, isFunctional=false, isInverseFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+ObjectProperty_owlapi [<f://m#followedInInfo>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#hadPopulation>, isFunctional=false, isInverseFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#PopulationCount, shortIRI=PopulationCount],type=DECLARED]
+ObjectProperty_owlapi [<f://m#hasBorder>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#hasCity>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#AdministrativeArea, shortIRI=AdministrativeArea],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ObjectProperty_owlapi [<f://m#hasEstuary>, isFunctional=true, isInverseFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Estuary, shortIRI=Estuary],type=DECLARED]
+ObjectProperty_owlapi [<f://m#hasEstuary->, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#hasHeadq>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ObjectProperty_owlapi [<f://m#hasMember>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#hasMembership>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#hasProvince>, isFunctional=false, isInverseFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+ObjectProperty_owlapi [<f://m#hasSource>, isFunctional=true, isInverseFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Source, shortIRI=Source],type=DECLARED]
+ObjectProperty_owlapi [<f://m#hasSource->, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#inMountains>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Mountain, shortIRI=Mountain],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#Source, shortIRI=Source],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Mountains, shortIRI=Mountains],type=DECLARED]
+ObjectProperty_owlapi [<f://m#inOrganization>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Membership, shortIRI=Membership],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+ObjectProperty_owlapi [<f://m#isBorderOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Border, shortIRI=Border],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+ObjectProperty_owlapi [<f://m#isCapitalOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#isInMembership>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#isMember>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+ObjectProperty_owlapi [<f://m#isProvinceOf>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#languageInfo>, isFunctional=false, isInverseFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#SpokenBy, shortIRI=SpokenBy],type=DECLARED]
+ObjectProperty_owlapi [<f://m#languageInfo->, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#liveInCountry>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#liveInInfo>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#locatedAt>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+ObjectProperty_owlapi [<f://m#locatedIn>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#GeographicalThing, shortIRI=GeographicalThing],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Area, shortIRI=Area],type=DECLARED]
+ObjectProperty_owlapi [<f://m#locatedInWater>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+ObjectProperty_owlapi [<f://m#locatedOnIsland>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#Mountain, shortIRI=Mountain],type=DECLARED]
+  OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+ObjectProperty_owlapi [<f://m#mergesWith>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Sea, shortIRI=Sea],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Sea, shortIRI=Sea],type=DECLARED]
+ObjectProperty_owlapi [<f://m#neighbor>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+ObjectProperty_owlapi [<f://m#ofMember>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Membership, shortIRI=Membership],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+ObjectProperty_owlapi [<f://m#ofObject>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Measurement, shortIRI=Measurement],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#MondialThing, shortIRI=MondialThing],type=DECLARED]
+ObjectProperty_owlapi [<f://m#onEthnicGroup>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#EthnicProportion, shortIRI=EthnicProportion],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#EthnicGroup, shortIRI=EthnicGroup],type=DECLARED]
+ObjectProperty_owlapi [<f://m#onLanguage>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#SpokenBy, shortIRI=SpokenBy],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Language, shortIRI=Language],type=DECLARED]
+ObjectProperty_owlapi [<f://m#onReligion>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#BelievedBy, shortIRI=BelievedBy],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Religion, shortIRI=Religion],type=DECLARED]
+ObjectProperty_owlapi [<f://m#religionInfo>, isFunctional=false, isInverseFunctional=true]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#BelievedBy, shortIRI=BelievedBy],type=DECLARED]
+ObjectProperty_owlapi [<f://m#religionInfo->, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#speakLanguage>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#Language, shortIRI=Language],type=DECLARED]
+ObjectProperty_owlapi [<f://m#spokenInCountry>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#spokenInInfo>, isFunctional=false, isInverseFunctional=false]
+  Domain : 
+  Range : 
+ObjectProperty_owlapi [<f://m#wasDependentOf>, isFunctional=true, isInverseFunctional=false]
+  Domain : 
+  OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  Range : 
+  OntoClass [OntoIRI [fullIRI=f://m#PoliticalBody, shortIRI=PoliticalBody],type=DECLARED]
+
+--------------------------------------- 
+ InverseOf Object Property : (Property, list of inverse)
+--------------------------------------- 
+f://m#believeInReligion
+   f://m#believedInCountry
+
+f://m#believedInCountry
+   f://m#believeInReligion
+
+f://m#belongToEthnicGroup
+   f://m#liveInCountry
+
+f://m#capital
+   f://m#isCapitalOf
+
+f://m#cityIn
+   f://m#hasCity
+
+f://m#encompassed
+   f://m#encompasses
+
+f://m#encompassedArea
+   f://m#encompassedByInfo
+
+f://m#encompassedBy
+   f://m#encompassesInfo
+
+f://m#encompassedByInfo
+   f://m#encompassedArea
+
+f://m#encompasses
+   f://m#encompassed
+
+f://m#encompassesInfo
+   f://m#encompassedBy
+
+f://m#ethnicInfo
+   f://m#ethnicInfo-
+
+f://m#ethnicInfo-
+   f://m#ethnicInfo
+
+f://m#followedInInfo
+   f://m#onReligion
+
+f://m#hasBorder
+   f://m#isBorderOf
+
+f://m#hasCity
+   f://m#cityIn
+
+f://m#hasEstuary
+   f://m#hasEstuary-
+
+f://m#hasEstuary-
+   f://m#hasEstuary
+
+f://m#hasMember
+   f://m#isMember
+
+f://m#hasMembership
+   f://m#inOrganization
+
+f://m#hasProvince
+   f://m#isProvinceOf
+
+f://m#hasSource
+   f://m#hasSource-
+
+f://m#hasSource-
+   f://m#hasSource
+
+f://m#inOrganization
+   f://m#hasMembership
+
+f://m#isBorderOf
+   f://m#hasBorder
+
+f://m#isCapitalOf
+   f://m#capital
+
+f://m#isInMembership
+   f://m#ofMember
+
+f://m#isMember
+   f://m#hasMember
+
+f://m#isProvinceOf
+   f://m#hasProvince
+
+f://m#languageInfo
+   f://m#languageInfo-
+
+f://m#languageInfo-
+   f://m#languageInfo
+
+f://m#liveInCountry
+   f://m#belongToEthnicGroup
+
+f://m#liveInInfo
+   f://m#onEthnicGroup
+
+f://m#ofMember
+   f://m#isInMembership
+
+f://m#onEthnicGroup
+   f://m#liveInInfo
+
+f://m#onLanguage
+   f://m#spokenInInfo
+
+f://m#onReligion
+   f://m#followedInInfo
+
+f://m#religionInfo
+   f://m#religionInfo-
+
+f://m#religionInfo-
+   f://m#religionInfo
+
+f://m#speakLanguage
+   f://m#spokenInCountry
+
+f://m#spokenInCountry
+   f://m#speakLanguage
+
+f://m#spokenInInfo
+   f://m#onLanguage
+
+
+--------------------------------------- 
+Classes : 52
+--------------------------------------- 
+OntoClass [OntoIRI [fullIRI=f://m#AdministrativeArea, shortIRI=AdministrativeArea],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=f://m#AdministrativeSubdivision, shortIRI=AdministrativeSubdivision],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalRelationship, shortIRI=AnthropoGeographicalRelationship],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalThing, shortIRI=AnthropoGeographicalThing],type=DECLARED]
+  ISA f://m#MondialThing
+OntoClass [OntoIRI [fullIRI=f://m#Area, shortIRI=Area],type=DECLARED]
+  ISA f://m#Geometrical
+OntoClass [OntoIRI [fullIRI=f://m#BelievedBy, shortIRI=BelievedBy],type=DECLARED]
+  ISA f://m#AnthropoGeographicalRelationship
+  ISA f://m#ReifiedThing
+OntoClass [OntoIRI [fullIRI=f://m#Border, shortIRI=Border],type=DECLARED]
+  ISA f://m#Line
+  ISA f://m#NonGeographicalPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  ISA f://m#SmallArea
+  ISA f://m#GeographicalThing
+  ISA f://m#AdministrativeSubdivision
+  ISA f://m#PoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#Continent, shortIRI=Continent],type=DECLARED]
+  ISA f://m#LargeArea
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  ISA f://m#LargeArea
+  ISA f://m#NonGeographicalPoliticalThing
+  ISA f://m#AdministrativeArea
+  ISA f://m#PoliticalBody
+OntoClass [OntoIRI [fullIRI=f://m#Desert, shortIRI=Desert],type=DECLARED]
+  ISA f://m#SmallArea
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#Encompassed, shortIRI=Encompassed],type=DECLARED]
+  ISA f://m#ReifiedThing
+OntoClass [OntoIRI [fullIRI=f://m#EncompassedArea, shortIRI=EncompassedArea],type=DECLARED]
+  ISA f://m#LargeArea
+OntoClass [OntoIRI [fullIRI=f://m#Estuary, shortIRI=Estuary],type=DECLARED]
+  ISA f://m#Place
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#EthnicGroup, shortIRI=EthnicGroup],type=DECLARED]
+  ISA f://m#AnthropoGeographicalThing
+OntoClass [OntoIRI [fullIRI=f://m#EthnicProportion, shortIRI=EthnicProportion],type=DECLARED]
+  ISA f://m#AnthropoGeographicalRelationship
+  ISA f://m#ReifiedThing
+OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+  ISA f://m#GeographicalThing
+OntoClass [OntoIRI [fullIRI=f://m#GeographicalThing, shortIRI=GeographicalThing],type=DECLARED]
+  ISA f://m#PoliticalOrGeographicalThing
+OntoClass [OntoIRI [fullIRI=f://m#Geometrical, shortIRI=Geometrical],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  ISA f://m#SmallArea
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#Islands, shortIRI=Islands],type=DECLARED]
+  ISA f://m#SmallArea
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+  ISA f://m#SmallArea
+  ISA f://m#Water
+OntoClass [OntoIRI [fullIRI=f://m#Language, shortIRI=Language],type=DECLARED]
+  ISA f://m#AnthropoGeographicalThing
+OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+  ISA f://m#Area
+OntoClass [OntoIRI [fullIRI=f://m#Line, shortIRI=Line],type=DECLARED]
+  ISA f://m#Geometrical
+OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=f://m#Measurement, shortIRI=Measurement],type=DECLARED]
+  ISA f://m#TimeSeriesElement
+OntoClass [OntoIRI [fullIRI=f://m#Membership, shortIRI=Membership],type=DECLARED]
+  ISA f://m#ReifiedThing
+OntoClass [OntoIRI [fullIRI=f://m#MondialThing, shortIRI=MondialThing],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=f://m#Mountain, shortIRI=Mountain],type=DECLARED]
+  ISA f://m#Place
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#Mountains, shortIRI=Mountains],type=DECLARED]
+  ISA f://m#SmallArea
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#NonGeographicalPoliticalThing, shortIRI=NonGeographicalPoliticalThing],type=DECLARED]
+  ISA f://m#PoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  ISA f://m#NonGeographicalPoliticalThing
+  ISA f://m#PoliticalBody
+OntoClass [OntoIRI [fullIRI=f://m#Place, shortIRI=Place],type=DECLARED]
+  ISA f://m#Geometrical
+  ISA f://m#Location
+OntoClass [OntoIRI [fullIRI=f://m#PoliticalBody, shortIRI=PoliticalBody],type=DECLARED]
+  ISA f://m#PoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#PoliticalOrGeographicalThing, shortIRI=PoliticalOrGeographicalThing],type=DECLARED]
+  ISA f://m#MondialThing
+OntoClass [OntoIRI [fullIRI=f://m#PoliticalThing, shortIRI=PoliticalThing],type=DECLARED]
+  ISA f://m#PoliticalOrGeographicalThing
+OntoClass [OntoIRI [fullIRI=f://m#PopulationCount, shortIRI=PopulationCount],type=DECLARED]
+  ISA f://m#YearlyMeasurement
+OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+  ISA f://m#LargeArea
+  ISA f://m#NonGeographicalPoliticalThing
+  ISA f://m#AdministrativeArea
+  ISA f://m#AdministrativeSubdivision
+OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+  ISA f://m#MondialThing
+OntoClass [OntoIRI [fullIRI=f://m#Religion, shortIRI=Religion],type=DECLARED]
+  ISA f://m#AnthropoGeographicalThing
+OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  ISA f://m#Line
+  ISA f://m#Water
+OntoClass [OntoIRI [fullIRI=f://m#Sea, shortIRI=Sea],type=DECLARED]
+  ISA f://m#LargeArea
+  ISA f://m#Water
+OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+  ISA f://m#Area
+  ISA f://m#Location
+OntoClass [OntoIRI [fullIRI=f://m#Source, shortIRI=Source],type=DECLARED]
+  ISA f://m#Place
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#SpokenBy, shortIRI=SpokenBy],type=DECLARED]
+  ISA f://m#AnthropoGeographicalRelationship
+  ISA f://m#ReifiedThing
+OntoClass [OntoIRI [fullIRI=f://m#TimeSeriesElement, shortIRI=TimeSeriesElement],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=f://m#Volcano, shortIRI=Volcano],type=DECLARED]
+  ISA f://m#Mountain
+OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+  ISA f://m#GeographicalNonPoliticalThing
+OntoClass [OntoIRI [fullIRI=f://m#YearlyMeasurement, shortIRI=YearlyMeasurement],type=DECLARED]
+  ISA f://m#Measurement
+  ISA f://m#TimeSeriesElement
+OntoClass [OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#Nothing, shortIRI=Nothing],type=DECLARED]
+OntoClass [OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#Thing, shortIRI=Thing],type=DECLARED]
+
+--------------------------------------- 
+Class Inheritance Axioms : 82
+--------------------------------------- 
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Border, shortIRI=Border],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Line, shortIRI=Line],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Continent, shortIRI=Continent],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#PopulationCount, shortIRI=PopulationCount],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#YearlyMeasurement, shortIRI=YearlyMeasurement],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#YearlyMeasurement, shortIRI=YearlyMeasurement],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Measurement, shortIRI=Measurement],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#EthnicGroup, shortIRI=EthnicGroup],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalThing, shortIRI=AnthropoGeographicalThing],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalThing, shortIRI=GeographicalThing],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Line, shortIRI=Line],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Volcano, shortIRI=Volcano],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Mountain, shortIRI=Mountain],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#SpokenBy, shortIRI=SpokenBy],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalRelationship, shortIRI=AnthropoGeographicalRelationship],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Membership, shortIRI=Membership],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Estuary, shortIRI=Estuary],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Place, shortIRI=Place],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Mountain, shortIRI=Mountain],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Place, shortIRI=Place],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Encompassed, shortIRI=Encompassed],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Area, shortIRI=Area],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#YearlyMeasurement, shortIRI=YearlyMeasurement],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#TimeSeriesElement, shortIRI=TimeSeriesElement],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Desert, shortIRI=Desert],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Language, shortIRI=Language],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalThing, shortIRI=AnthropoGeographicalThing],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Sea, shortIRI=Sea],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Religion, shortIRI=Religion],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalThing, shortIRI=AnthropoGeographicalThing],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Islands, shortIRI=Islands],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#EthnicProportion, shortIRI=EthnicProportion],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalRelationship, shortIRI=AnthropoGeographicalRelationship],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Source, shortIRI=Source],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Place, shortIRI=Place],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Measurement, shortIRI=Measurement],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#TimeSeriesElement, shortIRI=TimeSeriesElement],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#BelievedBy, shortIRI=BelievedBy],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalRelationship, shortIRI=AnthropoGeographicalRelationship],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Mountains, shortIRI=Mountains],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalBody, shortIRI=PoliticalBody],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalThing, shortIRI=PoliticalThing],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AdministrativeSubdivision, shortIRI=AdministrativeSubdivision],type=DECLARED]
+ axiomOrigin=DECLARED]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Area, shortIRI=Area],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Geometrical, shortIRI=Geometrical],type=DECLARED]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Line, shortIRI=Line],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Geometrical, shortIRI=Geometrical],type=DECLARED]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Place, shortIRI=Place],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Geometrical, shortIRI=Geometrical],type=DECLARED]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#EncompassedArea, shortIRI=EncompassedArea],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+ axiomOrigin=INTERSECTION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalThing, shortIRI=GeographicalThing],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalOrGeographicalThing, shortIRI=PoliticalOrGeographicalThing],type=DECLARED]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalThing, shortIRI=PoliticalThing],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalOrGeographicalThing, shortIRI=PoliticalOrGeographicalThing],type=DECLARED]
+ axiomOrigin=UNION_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Border, shortIRI=Border],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#NonGeographicalPoliticalThing, shortIRI=NonGeographicalPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#NonGeographicalPoliticalThing, shortIRI=NonGeographicalPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#NonGeographicalPoliticalThing, shortIRI=NonGeographicalPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#NonGeographicalPoliticalThing, shortIRI=NonGeographicalPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalThing, shortIRI=PoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#NonGeographicalPoliticalThing, shortIRI=NonGeographicalPoliticalThing],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalThing, shortIRI=PoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#EthnicGroup, shortIRI=EthnicGroup],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalThing, shortIRI=AnthropoGeographicalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Language, shortIRI=Language],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalThing, shortIRI=AnthropoGeographicalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Religion, shortIRI=Religion],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalThing, shortIRI=AnthropoGeographicalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Area, shortIRI=Area],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Area, shortIRI=Area],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#BelievedBy, shortIRI=BelievedBy],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalRelationship, shortIRI=AnthropoGeographicalRelationship],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#EthnicProportion, shortIRI=EthnicProportion],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalRelationship, shortIRI=AnthropoGeographicalRelationship],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#SpokenBy, shortIRI=SpokenBy],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalRelationship, shortIRI=AnthropoGeographicalRelationship],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Sea, shortIRI=Sea],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AdministrativeArea, shortIRI=AdministrativeArea],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AdministrativeArea, shortIRI=AdministrativeArea],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Continent, shortIRI=Continent],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Desert, shortIRI=Desert],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Estuary, shortIRI=Estuary],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Islands, shortIRI=Islands],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Mountain, shortIRI=Mountain],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Mountains, shortIRI=Mountains],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Source, shortIRI=Source],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Place, shortIRI=Place],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#SmallArea, shortIRI=SmallArea],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalThing, shortIRI=GeographicalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalNonPoliticalThing, shortIRI=GeographicalNonPoliticalThing],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#GeographicalThing, shortIRI=GeographicalThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#BelievedBy, shortIRI=BelievedBy],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Encompassed, shortIRI=Encompassed],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#EthnicProportion, shortIRI=EthnicProportion],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Membership, shortIRI=Membership],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#SpokenBy, shortIRI=SpokenBy],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#AnthropoGeographicalThing, shortIRI=AnthropoGeographicalThing],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#MondialThing, shortIRI=MondialThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalOrGeographicalThing, shortIRI=PoliticalOrGeographicalThing],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#MondialThing, shortIRI=MondialThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#ReifiedThing, shortIRI=ReifiedThing],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#MondialThing, shortIRI=MondialThing],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AdministrativeSubdivision, shortIRI=AdministrativeSubdivision],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#AdministrativeSubdivision, shortIRI=AdministrativeSubdivision],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalBody, shortIRI=PoliticalBody],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+  ISA [
+ subclass=OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+ superclass=OntoClass [OntoIRI [fullIRI=f://m#PoliticalBody, shortIRI=PoliticalBody],type=DECLARED]
+ axiomOrigin=DISJOINT_AXIOM]
+
+--------------------------------------- 
+Data Association Axioms : 26
+--------------------------------------- 
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#abbrev>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Organization [1..1] abbrev string]
+OntoAnnotation [type=DEFINITION, language=en, value=Organization [1..1] abbrev string]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#carCode>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] carCode string]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] carCode string]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#elevation>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Location [1..1] elevation decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Location [1..1] elevation decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#established>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Organization [1..1] established date]
+OntoAnnotation [type=DEFINITION, language=en, value=Organization [1..1] established date]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#gdpAgri>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] gdpAgri decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] gdpAgri decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#gdpInd>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] gdpInd decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] gdpInd decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#gdpServ>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] gdpServ decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] gdpServ decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#gdpTotal>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] gdpTotal decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] gdpTotal decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#government>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] government string]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] government string]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#independenceDate>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] independenceDate date]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] independenceDate date]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#infantMortality>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] infantMortality decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] infantMortality decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#inflation>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] inflation decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] inflation decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Volcano, shortIRI=Volcano],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#lastEruption>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=date OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#date, shortIRI=date]], owlDatatype=xsd:date]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Volcano [1..1] lastEruption date]
+OntoAnnotation [type=DEFINITION, language=en, value=Volcano [1..1] lastEruption date]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#latitude>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Location [1..1] latitude decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Location [1..1] latitude decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Line, shortIRI=Line],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#length>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Line [1..1] length decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Line [1..1] length decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#localname>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=City [1..1] localname string]
+OntoAnnotation [type=DEFINITION, language=en, value=City [1..1] localname string]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#localname>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] localname string]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] localname string]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#localname>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=string OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#string, shortIRI=string]], owlDatatype=xsd:string]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Province [1..1] localname string]
+OntoAnnotation [type=DEFINITION, language=en, value=Province [1..1] localname string]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Location, shortIRI=Location],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#longitude>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Location [1..1] longitude decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Location [1..1] longitude decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#PopulationCount, shortIRI=PopulationCount],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#population>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]], owlDatatype=xsd:nonNegativeInteger]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=PopulationCount [1..1] population nonNegativeInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=PopulationCount [1..1] population nonNegativeInteger]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#populationGrowth>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] populationGrowth decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] populationGrowth decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#unemployment>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] unemployment decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] unemployment decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Measurement, shortIRI=Measurement],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#value>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=decimal OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#decimal, shortIRI=decimal]], owlDatatype=xsd:decimal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Measurement [1..1] value decimal]
+OntoAnnotation [type=DEFINITION, language=en, value=Measurement [1..1] value decimal]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#YearlyMeasurement, shortIRI=YearlyMeasurement],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=DataProperty_owlapi [<f://m#year>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=nonNegativeInteger OntoIRI [fullIRI=http://www.w3.org/2001/XMLSchema#nonNegativeInteger, shortIRI=nonNegativeInteger]], owlDatatype=xsd:nonNegativeInteger]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=YearlyMeasurement [1..*] year nonNegativeInteger]
+OntoAnnotation [type=DEFINITION, language=en, value=YearlyMeasurement [1..*] year nonNegativeInteger]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=0, max=0]
+  property=DataProperty_owlapi [<f://m#area>, isFunctional=true]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=http://www.w3.org/2000/01/rdf-schema#Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(0 <f://m#area> rdfs:Literal)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(0 <f://m#area> rdfs:Literal)]
+]]
+  OntoAxiomData [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#YearlyMeasurement, shortIRI=YearlyMeasurement],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=DataProperty_owlapi [<f://m#year>, isFunctional=false]
+  dependent=OwlApiDatatype [ontoDatatype=OntoDatatype [name=Literal OntoIRI [fullIRI=http://www.w3.org/2000/01/rdf-schema#Literal, shortIRI=Literal]], owlDatatype=http://www.w3.org/2000/01/rdf-schema#Literal]
+  axiomOrigin=DECLARED
+  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=DataExactCardinality(1 <f://m#year> rdfs:Literal)]
+OntoAnnotation [type=DEFINITION, language=en, value=DataExactCardinality(1 <f://m#year> rdfs:Literal)]
+]]
+
+--------------------------------------- 
+Class Association Axioms : 56
+--------------------------------------- 
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#believeInReligion>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Religion, shortIRI=Religion],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] believeInReligion Religion]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] believeInReligion Religion]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#belongToEthnicGroup>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#EthnicGroup, shortIRI=EthnicGroup],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] belongToEthnicGroup EthnicGroup]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] belongToEthnicGroup EthnicGroup]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#belongsToIslands>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Islands, shortIRI=Islands],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Island [1..1] belongsToIslands Islands]
+OntoAnnotation [type=DEFINITION, language=en, value=Island [1..1] belongsToIslands Islands]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#borders>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#LargeArea, shortIRI=LargeArea],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=LargeArea [1..*] borders LargeArea]
+OntoAnnotation [type=DEFINITION, language=en, value=LargeArea [1..*] borders LargeArea]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#AdministrativeArea, shortIRI=AdministrativeArea],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#capital>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=AdministrativeArea [1..1] capital City]
+OntoAnnotation [type=DEFINITION, language=en, value=AdministrativeArea [1..1] capital City]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#dependentOf>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] dependentOf Country]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] dependentOf Country]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#EncompassedArea, shortIRI=EncompassedArea],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#encompassed>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Continent, shortIRI=Continent],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=EncompassedArea [1..*] encompassed Continent]
+OntoAnnotation [type=DEFINITION, language=en, value=EncompassedArea [1..*] encompassed Continent]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Encompassed, shortIRI=Encompassed],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#encompassedArea>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#EncompassedArea, shortIRI=EncompassedArea],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Encompassed [1..1] encompassedArea EncompassedArea]
+OntoAnnotation [type=DEFINITION, language=en, value=Encompassed [1..1] encompassedArea EncompassedArea]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Encompassed, shortIRI=Encompassed],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#encompassedBy>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Continent, shortIRI=Continent],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Encompassed [1..1] encompassedBy Continent]
+OntoAnnotation [type=DEFINITION, language=en, value=Encompassed [1..1] encompassedBy Continent]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#ethnicInfo>, isFunctional=false, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#EthnicProportion, shortIRI=EthnicProportion],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] ethnicInfo EthnicProportion]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] ethnicInfo EthnicProportion]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#flowsInto>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Lake [1..*] flowsInto Water]
+OntoAnnotation [type=DEFINITION, language=en, value=Lake [1..*] flowsInto Water]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#flowsInto>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=River [1..*] flowsInto Water]
+OntoAnnotation [type=DEFINITION, language=en, value=River [1..*] flowsInto Water]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#flowsThrough>, isFunctional=false, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=River [1..*] flowsThrough Lake]
+OntoAnnotation [type=DEFINITION, language=en, value=River [1..*] flowsThrough Lake]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#hadPopulation>, isFunctional=false, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#PopulationCount, shortIRI=PopulationCount],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=City [1..*] hadPopulation PopulationCount]
+OntoAnnotation [type=DEFINITION, language=en, value=City [1..*] hadPopulation PopulationCount]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#hadPopulation>, isFunctional=false, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#PopulationCount, shortIRI=PopulationCount],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] hadPopulation PopulationCount]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] hadPopulation PopulationCount]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#hadPopulation>, isFunctional=false, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#PopulationCount, shortIRI=PopulationCount],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Province [1..*] hadPopulation PopulationCount]
+OntoAnnotation [type=DEFINITION, language=en, value=Province [1..*] hadPopulation PopulationCount]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#AdministrativeArea, shortIRI=AdministrativeArea],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#hasCity>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=AdministrativeArea [1..*] hasCity City]
+OntoAnnotation [type=DEFINITION, language=en, value=AdministrativeArea [1..*] hasCity City]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#hasEstuary>, isFunctional=true, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Estuary, shortIRI=Estuary],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=River [1..1] hasEstuary Estuary]
+OntoAnnotation [type=DEFINITION, language=en, value=River [1..1] hasEstuary Estuary]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#hasHeadq>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Organization [1..1] hasHeadq City]
+OntoAnnotation [type=DEFINITION, language=en, value=Organization [1..1] hasHeadq City]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#hasProvince>, isFunctional=false, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] hasProvince Province]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] hasProvince Province]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#hasSource>, isFunctional=true, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Source, shortIRI=Source],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=River [1..1] hasSource Source]
+OntoAnnotation [type=DEFINITION, language=en, value=River [1..1] hasSource Source]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Mountain, shortIRI=Mountain],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#inMountains>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Mountains, shortIRI=Mountains],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Mountain [1..1] inMountains Mountains]
+OntoAnnotation [type=DEFINITION, language=en, value=Mountain [1..1] inMountains Mountains]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Source, shortIRI=Source],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#inMountains>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Mountains, shortIRI=Mountains],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Source [1..1] inMountains Mountains]
+OntoAnnotation [type=DEFINITION, language=en, value=Source [1..1] inMountains Mountains]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Membership, shortIRI=Membership],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#inOrganization>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Membership [1..1] inOrganization Organization]
+OntoAnnotation [type=DEFINITION, language=en, value=Membership [1..1] inOrganization Organization]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Border, shortIRI=Border],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#isBorderOf>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Border [1..*] isBorderOf Country]
+OntoAnnotation [type=DEFINITION, language=en, value=Border [1..*] isBorderOf Country]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#isMember>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Organization, shortIRI=Organization],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] isMember Organization]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] isMember Organization]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#languageInfo>, isFunctional=false, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#SpokenBy, shortIRI=SpokenBy],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] languageInfo SpokenBy]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] languageInfo SpokenBy]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#locatedAt>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=City [1..*] locatedAt Water]
+OntoAnnotation [type=DEFINITION, language=en, value=City [1..*] locatedAt Water]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#GeographicalThing, shortIRI=GeographicalThing],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#locatedIn>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Area, shortIRI=Area],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=GeographicalThing [1..*] locatedIn Area]
+OntoAnnotation [type=DEFINITION, language=en, value=GeographicalThing [1..*] locatedIn Area]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#locatedInWater>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Island [1..*] locatedInWater Water]
+OntoAnnotation [type=DEFINITION, language=en, value=Island [1..*] locatedInWater Water]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#locatedOnIsland>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=City [1..*] locatedOnIsland Island]
+OntoAnnotation [type=DEFINITION, language=en, value=City [1..*] locatedOnIsland Island]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Lake, shortIRI=Lake],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#locatedOnIsland>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Lake [1..*] locatedOnIsland Island]
+OntoAnnotation [type=DEFINITION, language=en, value=Lake [1..*] locatedOnIsland Island]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Mountain, shortIRI=Mountain],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#locatedOnIsland>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Mountain [1..*] locatedOnIsland Island]
+OntoAnnotation [type=DEFINITION, language=en, value=Mountain [1..*] locatedOnIsland Island]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#locatedOnIsland>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Island, shortIRI=Island],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=River [1..*] locatedOnIsland Island]
+OntoAnnotation [type=DEFINITION, language=en, value=River [1..*] locatedOnIsland Island]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Sea, shortIRI=Sea],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#mergesWith>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Sea, shortIRI=Sea],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Sea [1..*] mergesWith Sea]
+OntoAnnotation [type=DEFINITION, language=en, value=Sea [1..*] mergesWith Sea]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#neighbor>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] neighbor Country]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] neighbor Country]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Membership, shortIRI=Membership],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#ofMember>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Membership [1..1] ofMember Country]
+OntoAnnotation [type=DEFINITION, language=en, value=Membership [1..1] ofMember Country]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Measurement, shortIRI=Measurement],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#ofObject>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#MondialThing, shortIRI=MondialThing],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Measurement [1..1] ofObject MondialThing]
+OntoAnnotation [type=DEFINITION, language=en, value=Measurement [1..1] ofObject MondialThing]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#EthnicProportion, shortIRI=EthnicProportion],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#onEthnicGroup>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#EthnicGroup, shortIRI=EthnicGroup],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=EthnicProportion [1..1] onEthnicGroup EthnicGroup]
+OntoAnnotation [type=DEFINITION, language=en, value=EthnicProportion [1..1] onEthnicGroup EthnicGroup]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#SpokenBy, shortIRI=SpokenBy],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#onLanguage>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Language, shortIRI=Language],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=SpokenBy [1..1] onLanguage Language]
+OntoAnnotation [type=DEFINITION, language=en, value=SpokenBy [1..1] onLanguage Language]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#BelievedBy, shortIRI=BelievedBy],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#onReligion>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Religion, shortIRI=Religion],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=BelievedBy [1..1] onReligion Religion]
+OntoAnnotation [type=DEFINITION, language=en, value=BelievedBy [1..1] onReligion Religion]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#religionInfo>, isFunctional=false, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#BelievedBy, shortIRI=BelievedBy],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] religionInfo BelievedBy]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] religionInfo BelievedBy]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=SOME, min=1, max=2147483647]
+  property=ObjectProperty_owlapi [<f://m#speakLanguage>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Language, shortIRI=Language],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..*] speakLanguage Language]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..*] speakLanguage Language]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#wasDependentOf>, isFunctional=true, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#PoliticalBody, shortIRI=PoliticalBody],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=Country [1..1] wasDependentOf PoliticalBody]
+OntoAnnotation [type=DEFINITION, language=en, value=Country [1..1] wasDependentOf PoliticalBody]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#AdministrativeSubdivision, shortIRI=AdministrativeSubdivision],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#belongsTo>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <f://m#belongsTo> <f://m#Country>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <f://m#belongsTo> <f://m#Country>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=ObjectProperty_owlapi [<f://m#locatedIn>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMaxCardinality(1 <f://m#locatedIn> <f://m#Province>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMaxCardinality(1 <f://m#locatedIn> <f://m#Province>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#hasEstuary>, isFunctional=true, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#Thing, shortIRI=Thing],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <f://m#hasEstuary> owl:Thing)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <f://m#hasEstuary> owl:Thing)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Border, shortIRI=Border],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=2, max=2]
+  property=ObjectProperty_owlapi [<f://m#isBorderOf>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#Thing, shortIRI=Thing],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(2 <f://m#isBorderOf> owl:Thing)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(2 <f://m#isBorderOf> owl:Thing)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#River, shortIRI=River],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#hasSource>, isFunctional=true, isInverseFunctional=true]
+  dependent=OntoClass [OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#Thing, shortIRI=Thing],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <f://m#hasSource> owl:Thing)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <f://m#hasSource> owl:Thing)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=ObjectProperty_owlapi [<f://m#isCapitalOf>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMaxCardinality(1 <f://m#isCapitalOf> <f://m#Country>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMaxCardinality(1 <f://m#isCapitalOf> <f://m#Country>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Source, shortIRI=Source],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#hasSource->, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#Thing, shortIRI=Thing],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <f://m#hasSource-> owl:Thing)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <f://m#hasSource-> owl:Thing)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=ObjectProperty_owlapi [<f://m#cityIn>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Province, shortIRI=Province],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMaxCardinality(1 <f://m#cityIn> <f://m#Province>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMaxCardinality(1 <f://m#cityIn> <f://m#Province>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#locatedIn>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <f://m#locatedIn> <f://m#Country>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <f://m#locatedIn> <f://m#Country>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#City, shortIRI=City],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#cityIn>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=f://m#Country, shortIRI=Country],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <f://m#cityIn> <f://m#Country>)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <f://m#cityIn> <f://m#Country>)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Estuary, shortIRI=Estuary],type=DECLARED]
+  participation=Participation [participationType=EXACT, min=1, max=1]
+  property=ObjectProperty_owlapi [<f://m#hasEstuary->, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#Thing, shortIRI=Thing],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectExactCardinality(1 <f://m#hasEstuary-> owl:Thing)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectExactCardinality(1 <f://m#hasEstuary-> owl:Thing)]
+]]
+  OntoAxiomClass [
+  axiomType=ASSOCIATION
+  determinant=OntoClass [OntoIRI [fullIRI=f://m#Water, shortIRI=Water],type=DECLARED]
+  participation=Participation [participationType=MAX, min=0, max=1]
+  property=ObjectProperty_owlapi [<f://m#flowsInto>, isFunctional=false, isInverseFunctional=false]
+  dependent=OntoClass [OntoIRI [fullIRI=http://www.w3.org/2002/07/owl#Thing, shortIRI=Thing],type=DECLARED]
+  axiomOrigin=DECLARED  annotations=OntoAnnotationSet [OntoAnnotation [type=DEFINITION, language=fr, value=ObjectMaxCardinality(1 <f://m#flowsInto> owl:Thing)]
+OntoAnnotation [type=DEFINITION, language=en, value=ObjectMaxCardinality(1 <f://m#flowsInto> owl:Thing)]
+]]
+
+--------------------------------------- 
+General Class Axioms: 3
+--------------------------------------- 
+  SubClassOf(ObjectUnionOf(<f://m#Lake> <f://m#Mountain> <f://m#River>) ObjectMaxCardinality(1 <f://m#locatedOnIsland> owl:Thing))
+  SubClassOf(ObjectIntersectionOf(<f://m#PopulationCount> ObjectSomeValuesFrom(<f://m#ofObject> owl:Thing)) ObjectSomeValuesFrom(ObjectInverseOf(<f://m#hadPopulation>) owl:Thing))
+  SubClassOf(ObjectIntersectionOf(<f://m#GeographicalThing> ObjectComplementOf(<f://m#Continent>)) ObjectMinCardinality(1 <f://m#locatedIn> <f://m#Country>))

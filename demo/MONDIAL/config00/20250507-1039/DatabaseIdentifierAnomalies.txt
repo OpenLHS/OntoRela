@@ -1,0 +1,292 @@
+
+======================================================= 
+Long view identifiers anomalies
+======================================================= 
+  Note : if the identifier is long, the IRI idenfiers will be used.
+
+--------------------------------------- 
+Long view name and attributes identifiers
+--------------------------------------- 
+
+
+
+
+
+
+
+  View name IRI AnthropoGeographicalRelationship
+  View name @en: AnthropoGeographicalRelationship
+    View attribute IRIAnthropoGeographicalRelationship_uid
+    View attribute @en: uid AnthropoGeographicalRelationship
+    View attribute @fr: uid AnthropoGeographicalRelationship_fr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute IRIPoliticalOrGeographicalThing_uid
+    View attribute @en: uid PoliticalOrGeographicalThing
+    View attribute @fr: uid PoliticalOrGeographicalThing_fr
+
+
+
+
+
+
+
+
+
+
+    View attribute @fr: uid AnthropoGeographicalThing_fr
+
+    View attribute @fr: uid AdministrativeSubdivision_fr
+
+
+    View attribute IRINonGeographicalPoliticalThing_uid
+    View attribute @en: uid NonGeographicalPoliticalThing
+    View attribute @fr: uid NonGeographicalPoliticalThing_fr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute IRIGeographicalNonPoliticalThing_uid
+    View attribute @en: uid GeographicalNonPoliticalThing
+    View attribute @fr: uid GeographicalNonPoliticalThing_fr
+
+
+
+
+
+
+
+    View attribute @fr: domain_uid AdministrativeArea_fr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @fr: domain_uid AdministrativeArea_fr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute @fr: domain_uid GeographicalThing_fr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    View attribute IRIOrganization_abbrev_string_abbrev
+
+
+    View attribute IRILocation_elevation_decimal_elevation
+
+    View attribute IRIOrganization_established_date_established
+
+    View attribute IRICountry_gdpAgri_decimal_gdpAgri
+
+
+    View attribute IRICountry_gdpServ_decimal_gdpServ
+
+    View attribute IRICountry_gdpTotal_decimal_gdpTotal
+
+    View attribute IRICountry_government_string_government
+
+    View attribute IRICountry_independenceDate_date_independenceDate
+
+  View name IRI Country_infantMortality_decimal
+  View name @en: Country infantMortality decimal
+    View attribute IRICountry_infantMortality_decimal_infantMortality
+
+    View attribute IRICountry_inflation_decimal_inflation
+
+    View attribute IRIVolcano_lastEruption_date_lastEruption
+
+    View attribute IRILocation_latitude_decimal_latitude
+
+
+    View attribute IRICity_localname_string_localname
+
+    View attribute IRICountry_localname_string_localname
+
+    View attribute IRIProvince_localname_string_localname
+
+    View attribute IRILocation_longitude_decimal_longitude
+
+  View name IRI PopulationCount_population_nonNegativeInteger
+  View name @en: PopulationCount population nonNegativeInteger
+    View attribute IRIPopulationCount_population_nonNegativeInteger_population
+
+  View name IRI Country_populationGrowth_decimal
+  View name @en: Country populationGrowth decimal
+    View attribute IRICountry_populationGrowth_decimal_populationGrowth
+
+    View attribute IRICountry_unemployment_decimal_unemployment
+
+    View attribute IRIMeasurement_value_decimal_value
+
+  View name IRI YearlyMeasurement_year_nonNegativeInteger
+  View name @en: YearlyMeasurement year nonNegativeInteger
+    View attribute IRIYearlyMeasurement_year_nonNegativeInteger_year
+
+
+    View attribute IRIYearlyMeasurement_year_Literal_year
+
+  View name IRI Country_believeInReligion_Religion
+  View name @en: Country believeInReligion Religion
+
+  View name IRI Country_belongToEthnicGroup_EthnicGroup
+  View name @en: Country belongToEthnicGroup EthnicGroup
+
+
+  View name IRI Country_ethnicInfo_EthnicProportion
+  View name @en: Country ethnicInfo EthnicProportion
+
+  View name IRI Country_hadPopulation_PopulationCount
+  View name @en: Country hadPopulation PopulationCount
+
+
+
+
+
+  View name IRI Country_religionInfo_BelievedBy
+  View name @en: Country religionInfo BelievedBy
+
+
+  View name IRI Country_wasDependentOf_PoliticalBody
+  View name @en: Country wasDependentOf PoliticalBody
+
+  View name IRI EncompassedArea_encompassed_Continent
+  View name @en: EncompassedArea encompassed Continent
+
+  View name IRI AdministrativeArea_capital_City
+  View name @en: AdministrativeArea capital City
+
+  View name IRI AdministrativeArea_hasCity_City
+  View name @en: AdministrativeArea hasCity City
+
+
+
+
+
+  View name IRI Province_hadPopulation_PopulationCount
+  View name @en: Province hadPopulation PopulationCount
+
+
+
+
+
+
+
+
+
+  View name IRI GeographicalThing_locatedIn_Area
+  View name @en: GeographicalThing locatedIn Area
+
+
+
+  View name IRI Island_belongsToIslands_Islands
+  View name @en: Island belongsToIslands Islands
+
+
+
+
+
+  View name IRI AdministrativeSubdivision_belongsTo_Country
+  View name @en: AdministrativeSubdivision belongsTo Country
+    View attribute @fr: uid AdministrativeSubdivision_fr
+
+  View name IRI Encompassed_encompassedArea_EncompassedArea
+  View name @en: Encompassed encompassedArea EncompassedArea
+
+  View name IRI Encompassed_encompassedBy_Continent
+  View name @en: Encompassed encompassedBy Continent
+
+  View name IRI Measurement_ofObject_MondialThing
+  View name @en: Measurement ofObject MondialThing
+
+
+  View name IRI Mountain_locatedOnIsland_Island
+  View name @en: Mountain locatedOnIsland Island
+
+
+  View name IRI City_hadPopulation_PopulationCount
+  View name @en: City hadPopulation PopulationCount
+
+
+
+
+
+
+
+
+
+  View name IRI EthnicProportion_onEthnicGroup_EthnicGroup
+  View name @en: EthnicProportion onEthnicGroup EthnicGroup
+
+
+  View name IRI Membership_inOrganization_Organization
+  View name @en: Membership inOrganization Organization
+
+

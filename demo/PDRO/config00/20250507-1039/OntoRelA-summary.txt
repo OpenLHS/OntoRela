@@ -1,0 +1,28 @@
+
+======================================================= 
+OntoRelA summary
+======================================================= 
+
+--------------------------------------- 
+Reduced Ontology (axiom redundancy reduction)
+--------------------------------------- 
+http://purl.obolibrary.org/obo/pdro.owl
+Nb. classes          : 342
+Nb. data properties  : 4
+Nb. object properties: 38
+Nb. isa axioms       : 364
+Nb. data axioms      : 4
+Nb. class axioms     : 189
+
+--------------------------------------- 
+OntoRel database
+--------------------------------------- 
+Nb. all tables          : 573
+Nb. association tables  : 227
+Nb. fks                 : 996
+Nb. constraint functions: 257
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Output total size: 3786 KB

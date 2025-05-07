@@ -9,10 +9,10 @@ defaultAttributeName: value
 defaultAttributeDomaineName: value_domain
 defaultAttributeType: TEXT
 maxIdentifierLength: 60
-useIRIasTableId: true
+useIriAsTableId: true
 normalizeDatatype: false
-normalizeAxiom: false
 generateOpTable: false
+removeThingTable: true
 languages:
   - en
   - fr

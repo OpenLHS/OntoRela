@@ -1,0 +1,35 @@
+
+======================================================= 
+MOnto summary
+======================================================= 
+Original ontology : f://Mondial
+Alias : Mondial
+@en Label : null
+
+--------------------------------------- 
+Original ontology
+--------------------------------------- 
+Nb. classes          : 52
+Nb. data properties  : 28
+Nb. object properties: 59
+Nb. isa axioms       : 32
+Nb. data axioms      : 26
+Nb. class axioms     : 97
+
+--------------------------------------- 
+Reduced ontology (axiom complexity reduction)
+--------------------------------------- 
+Nb. classes          : 52
+Nb. data properties  : 28
+Nb. object properties: 59
+Nb. axioms: 164
+Nb. isa axioms       : 82
+Nb. data axioms      : 26
+Nb. class axioms     : 56
+Nb. reduced class axioms: 2
+
+--------------------------------------- 
+Other
+--------------------------------------- 
+Execution time: 0 sec
+Output total size: 818 KB
