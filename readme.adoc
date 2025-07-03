@@ -8,6 +8,9 @@
 [#overview]
 == Overview
 
+[WARNING]
+  Please go to the following repository, where you can find the source code and the newest release : https://github.com/OpenLHS/ontorela-application
+
 OntoRelα generates from an ontology and a set of configuration files, a set of scripts that create a fully functional relational database (RDB). The method consists of two processes: the ontological analysis and the ontology conversion. The analysis process verifies the structure of the ontology and builds an appropriate internal representation of the ontology. The conversion process converts the ontology constructs into a logical model as SQL scripts that creates the RDB.
 
 Ontorelα generates from an OWL ontology and some configuration files: (1) scripts for the RDB (RDB scripts), (2) a list of warnings, (3) a mapping catalog between ontologixal construct and relational construct (OntorelCat) and (4) a normalized ontology formalized according to μOnto (MOnto). μOnto is an abstract notation inspired by the set theory and the description logic ALCQI(D) needed for the logical formulation of a relational data model (Chomicki and Saake, 1998).
